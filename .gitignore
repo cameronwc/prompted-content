@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl.backup
+crash.log
+crash.*.log
+# tfvars may contain secrets; the committed ones here hold only non-secret
+# values (bucket names, TTLs). Anything matching *.secret.tfvars stays out.
+*.secret.tfvars
+*.auto.tfvars.json
+
+# macOS
+.DS_Store
