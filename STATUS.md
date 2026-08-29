@@ -1,5 +1,35 @@
 # STATUS
 
+## Live infrastructure & first publish (2026-08-29, third work session)
+
+- **All 50 AI images generated** (46 in this session, 0 failures, ≈$3.08).
+  Catalog v5: `ai=50, synthetic=190`, all 240 records valid.
+- **Infrastructure is live** on account `9e255bb…`: bootstrap state bucket
+  (`prompted-terraform-state`, local bootstrap state kept out of git),
+  `prompted-content-dev` and `prompted-content` created via the dev/prod
+  Terraform envs with real S3-backend state in R2. r2.dev public access
+  explicitly disabled on both; no custom domain yet (no zone owned).
+  One-time manual step performed by the operator: enabling R2 on the
+  account (subscription activation, not infrastructure).
+- **Dev is published and verified**: catalog/v5.json + latest.json +
+  every referenced image uploaded; `make verify-published` confirms all
+  480 referenced keys exist. Bug found and fixed during this: publish
+  uploaded hardcoded image names instead of the names each record
+  references, so AI poses' `_ai` files were initially missing. The first
+  publish also left 100 unreferenced plain-named files for AI poses in
+  the dev bucket; retained (nothing is ever deleted), harmless.
+- **Prod bucket exists but is unpublished** — when wanted:
+  `make publish CONFIRM=1 ENV=prod`.
+- **Credentials** live in a gitignored operator env-file at the repo root,
+  loaded by the Makefile so no command echoes them. ROTATE when
+  convenient: the Gemini key and the Cloudflare API token both passed
+  through session transcripts.
+- Remaining gaps: CI still never executed (no GitHub remote); custom
+  domain + cache/allowlist rules dormant until a zone exists; the app
+  reads via S3 credentials or a future public domain — there is currently
+  no anonymous public URL for the content (by design).
+
+
 ## AI image generation (added 2026-08-29, second work session)
 
 ### Complete and verified
