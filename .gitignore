@@ -1,3 +1,7 @@
+# Operator credentials — never committed
+.env
+.env.*
+
 # Python
 .venv/
 __pycache__/
