@@ -30,7 +30,7 @@ import os
 import subprocess
 import sys
 
-from common import DIST_DIR, REPO_ROOT, iter_pose_dirs
+from common import DIST_DIR, REPO_ROOT, iter_pose_dirs, load_pose
 
 IMMUTABLE_CACHE = "public, max-age=31536000, immutable"
 LATEST_CACHE = "public, max-age=300"
@@ -87,7 +87,11 @@ def planned_uploads() -> list[tuple[str, str, str, str]]:
         (str(catalog_path), f"catalog/v{version}.json", "application/json", IMMUTABLE_CACHE),
     ]
     for pose_dir in iter_pose_dirs():
-        for name in ("thumb.jpg", "detail.jpg"):
+        # Upload the files each record actually references (thumb.jpg or
+        # thumb_ai.jpg etc.), matching the keys the catalog points at.
+        image = load_pose(pose_dir)["image"]
+        for kind in ("thumb", "detail"):
+            name = image[kind]
             path = pose_dir / name
             ctype = mimetypes.guess_type(name)[0] or "application/octet-stream"
             uploads.append((str(path), f"poses/{pose_dir.name}/{name}", ctype, IMMUTABLE_CACHE))
