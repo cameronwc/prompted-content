@@ -525,6 +525,25 @@ class Dealer:
         raise RuntimeError("no prompt line satisfies the subject constraint")
 
 
+def with_daylight_bands(lights: list[str], locations: list[str]) -> list[str]:
+    """Add the outdoor daylight bands implied by the tags already chosen.
+
+    `soft_low` (6-20 deg) and `mid` (20-45 deg) exist so the app's sun chip
+    has poses to offer between mid-morning and mid-afternoon. They are
+    derived, not drawn: this consumes no RNG, so pose ULIDs are unaffected
+    and a re-seed reproduces exactly what tools/migrate_add_daylight_bands.py
+    applied to the existing catalog.
+    """
+    if all(loc in INDOOR_LOCATIONS for loc in locations):
+        return lights
+    out = list(lights)
+    if {"golden"} & set(lights) and "soft_low" not in out:
+        out.append("soft_low")
+    if {"open_shade", "overcast", "harsh_overhead"} & set(lights) and "mid" not in out:
+        out.append("mid")
+    return out
+
+
 def build_pose(rng: Random, category: str, concept: dict, slug: str,
                engagement: bool, dealers) -> dict:
     seated = concept["seated"]
@@ -616,7 +635,7 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
         "categories": categories,
         "subject_count": subject_count,
         "subject_types": subject_types,
-        "light_conditions": lights,
+        "light_conditions": with_daylight_bands(lights, locations),
         "location_types": locations,
         "orientation": orientation,
         "difficulty": difficulty,
