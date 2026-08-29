@@ -1,0 +1,13 @@
+# Pose categories. IDs are permanent and never reused; rename only `display`.
+entries:
+  - id: couples
+    display: Couples
+  - id: engagement
+    display: Engagement
+    parent: couples
+  - id: senior
+    display: Senior Portraits
+  - id: family
+    display: Family
+  - id: maternity
+    display: Maternity

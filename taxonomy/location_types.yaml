@@ -1,0 +1,16 @@
+# Location types. IDs are permanent and never reused.
+entries:
+  - id: beach
+    display: Beach
+  - id: forest
+    display: Forest
+  - id: urban
+    display: Urban
+  - id: field
+    display: Open Field
+  - id: studio
+    display: Studio
+  - id: home
+    display: In-Home
+  - id: mountain
+    display: Mountain

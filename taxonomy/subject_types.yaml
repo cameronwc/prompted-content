@@ -1,0 +1,16 @@
+# Subject types. IDs are permanent and never reused.
+entries:
+  - id: adult
+    display: Adult
+  - id: teen
+    display: Teen
+  - id: child
+    display: Child
+  - id: toddler
+    display: Toddler
+  - id: pregnant
+    display: Pregnant
+  - id: senior_adult
+    display: Older Adult
+  - id: pet
+    display: Pet

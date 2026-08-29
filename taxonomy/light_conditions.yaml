@@ -1,0 +1,18 @@
+# Lighting conditions. IDs are permanent and never reused.
+entries:
+  - id: golden
+    display: Golden Hour
+  - id: blue
+    display: Blue Hour
+  - id: overcast
+    display: Overcast
+  - id: harsh_overhead
+    display: Harsh Overhead Sun
+  - id: open_shade
+    display: Open Shade
+  - id: backlit
+    display: Backlit
+  - id: indoor_window
+    display: Indoor Window Light
+  - id: night_flash
+    display: Night with Flash

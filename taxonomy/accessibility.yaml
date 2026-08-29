@@ -1,0 +1,12 @@
+# Accessibility and body-inclusivity tags. IDs are permanent and never reused.
+entries:
+  - id: seated_variant
+    display: Seated Variant Available
+  - id: plus_size_flattering
+    display: Plus-Size Flattering
+  - id: wheelchair
+    display: Wheelchair Friendly
+  - id: limited_mobility
+    display: Limited Mobility Friendly
+  - id: late_term
+    display: Late-Term Safe

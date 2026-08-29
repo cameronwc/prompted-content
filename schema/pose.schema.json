@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompted.app/schema/pose.schema.json",
+  "title": "Prompted pose record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "image",
+    "placeholder",
+    "categories",
+    "subject_count",
+    "subject_types",
+    "light_conditions",
+    "location_types",
+    "orientation",
+    "difficulty",
+    "prompts",
+    "gear",
+    "accessibility",
+    "version",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "ULID, permanent, never reused.",
+      "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "kebab-case, unique across the catalog.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["thumb", "detail", "blurhash"],
+      "properties": {
+        "thumb": {
+          "type": "string",
+          "description": "Path to the 400w 4:5 thumbnail, relative to the pose directory."
+        },
+        "detail": {
+          "type": "string",
+          "description": "Path to the 1200w 4:5 detail image, relative to the pose directory."
+        },
+        "blurhash": {
+          "type": "string",
+          "minLength": 6
+        }
+      }
+    },
+    "placeholder": {
+      "type": "boolean",
+      "description": "True while the images are generated placeholders rather than photography."
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Category IDs from taxonomy/categories.yaml."
+    },
+    "subject_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "subject_types": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Subject type IDs from taxonomy/subject_types.yaml."
+    },
+    "light_conditions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Light condition IDs from taxonomy/light_conditions.yaml."
+    },
+    "location_types": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Location type IDs from taxonomy/location_types.yaml."
+    },
+    "orientation": {
+      "enum": ["vertical", "horizontal"]
+    },
+    "difficulty": {
+      "enum": ["easy", "moderate", "advanced"]
+    },
+    "prompts": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "tone"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1 },
+          "tone": {
+            "enum": ["playful", "calm", "romantic", "nervous_client"]
+          }
+        }
+      }
+    },
+    "gear": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["focal_mm", "aperture", "needs_reflector"],
+      "properties": {
+        "focal_mm": {
+          "type": "array",
+          "description": "[min, max] focal length range in millimetres.",
+          "items": { "type": "integer", "minimum": 1 },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "aperture": { "type": "string", "minLength": 1 },
+        "needs_reflector": { "type": "boolean" }
+      }
+    },
+    "accessibility": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Accessibility IDs from taxonomy/accessibility.yaml. May be empty."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": ["active", "retired"]
+    }
+  }
+}
