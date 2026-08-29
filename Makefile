@@ -16,6 +16,7 @@ TF := terraform
 .DEFAULT_GOAL := help
 
 .PHONY: help venv seed validate build publish clean \
+        ai-select ai-dry-run ai-generate \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
 
 help:
@@ -26,6 +27,10 @@ help:
 	@echo "  make build          Build dist/catalog.json (runs validate first)"
 	@echo "  make publish        Dry-run publish to R2 (add CONFIRM=1 to upload)"
 	@echo "  make clean          Remove dist/ output and caches"
+	@echo ""
+	@echo "  make ai-select      Pick the 50-pose AI subset (deterministic)"
+	@echo "  make ai-dry-run     Print the image prompts; no API calls"
+	@echo "  make ai-generate    Generate AI images (requires CONFIRM=1 and GEMINI_API_KEY)"
 	@echo ""
 	@echo "  make tf-plan-dev    terraform plan for envs/dev"
 	@echo "  make tf-apply-dev   terraform apply for envs/dev (requires CONFIRM=1)"
@@ -56,6 +61,19 @@ ifeq ($(CONFIRM),1)
 	$(PYTHON) tools/publish.py --env $(or $(ENV),dev) --confirm
 else
 	$(PYTHON) tools/publish.py --env $(or $(ENV),dev)
+endif
+
+ai-select: venv
+	$(PYTHON) tools/select_ai_subset.py
+
+ai-dry-run: venv
+	$(PYTHON) tools/generate_ai_images.py --dry-run
+
+ai-generate: venv
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/generate_ai_images.py --yes $(AI_ARGS)
+else
+	@echo "Refusing to spend on generation without CONFIRM=1 (make ai-generate CONFIRM=1)" >&2; exit 1
 endif
 
 clean:

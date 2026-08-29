@@ -104,6 +104,35 @@ Publishing reads the bucket/account from `terraform output` in
 
 Commit the pose directory and the rebuilt `dist/catalog.json` together.
 
+## AI-generated dev images
+
+A stratified subset of 50 poses carries AI-generated images
+(`image_source: ai`, files `thumb_ai.jpg` / `detail_ai.jpg`) instead of the
+synthetic tiles, so the iOS UI can be evaluated against photographic
+content: Shoot Mode text contrast, blurhash quality during grid scroll,
+grid cohesion, and contact-sheet legibility.
+
+**These are UI test fixtures scheduled for replacement by real
+photography. Nothing AI-generated ever ships.** They keep
+`placeholder: true`, carry an EXIF `Software` tag naming them AI
+placeholder content, and are refused by the `STRICT_NO_PLACEHOLDER=1`
+release gate on `make build`. There is deliberately no visible watermark —
+a mark would obscure the contrast behaviour the images exist to test.
+
+```sh
+make ai-select                    # deterministic 50-pose subset -> dist/ai_subset.json
+make ai-dry-run                   # print every constructed image prompt; free
+export GEMINI_API_KEY=...         # env var only; never in a file or in git
+make ai-generate CONFIRM=1        # generate (resumable; skips what exists)
+make ai-generate CONFIRM=1 AI_ARGS="--limit 5"   # capped test run
+```
+
+Generation uses `gemini-3.1-flash-image` at 1K (~$0.067/image, ~$3.40 for
+the full 50). Image prompts are built only from each pose record's own
+metadata — the record is never edited to match the generated image. The
+first pose per category is generated first and passed as a style reference
+to the rest of its category.
+
 ## Rules that keep the catalog sane
 
 - Taxonomy IDs and pose ULIDs are permanent. Retire (`status: retired`),

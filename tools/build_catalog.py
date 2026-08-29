@@ -12,6 +12,7 @@ increments on every build, continuing from the committed dist/catalog.json.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from collections import Counter
 from datetime import datetime, timezone
@@ -46,7 +47,20 @@ def main() -> int:
             pose["image"]["blurhash"] = blurhash.encode(fh, x_components=4, y_components=5)
         pose["image"]["thumb"] = f"poses/{pose['id']}/{pose['image']['thumb']}"
         pose["image"]["detail"] = f"poses/{pose['id']}/{pose['image']['detail']}"
+        # Materialize the schema default so consumers never need it.
+        pose["image_source"] = pose.get("image_source", "synthetic")
         poses.append(pose)
+
+    # STRICT_NO_PLACEHOLDER=1 is the release gate: a strict build must not
+    # contain any placeholder record (synthetic tiles and AI images alike —
+    # nothing generated ever ships).
+    if os.environ.get("STRICT_NO_PLACEHOLDER") == "1":
+        blocked = [p["id"] for p in poses if p["placeholder"]]
+        if blocked:
+            print(f"\nSTRICT_NO_PLACEHOLDER: refusing to build — "
+                  f"{len(blocked)} placeholder poses present "
+                  f"(first: {', '.join(blocked[:5])}...).", file=sys.stderr)
+            return 1
 
     catalog = {
         "schema_version": SCHEMA_VERSION,
@@ -60,6 +74,7 @@ def main() -> int:
     CATALOG_PATH.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")
 
     by_category = Counter(c for p in poses for c in p["categories"])
+    by_source = Counter(p["image_source"] for p in poses)
     tones = Counter(pr["tone"] for p in poses for pr in p["prompts"])
     placeholders = sum(1 for p in poses if p["placeholder"])
 
@@ -68,6 +83,7 @@ def main() -> int:
     print(f"Poses: {len(poses)} total, {placeholders} placeholder")
     print("Per category: " + ", ".join(f"{c}={n}" for c, n in sorted(by_category.items())))
     print("Prompt tones: " + ", ".join(f"{t}={n}" for t, n in sorted(tones.items())))
+    print("Image sources: " + ", ".join(f"{s}={n}" for s, n in sorted(by_source.items())))
     return 0
 
 
