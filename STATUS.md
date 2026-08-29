@@ -30,9 +30,13 @@
   catalog/v5.json, and images all verified serving. Rate-limited; replaced
   by a custom domain later. Prod stays fully private.
 - iOS integration handoff prompt: docs/ios-agent-prompt.md.
-- Remaining gaps: CI still never executed (no GitHub remote); custom
-  domain + cache/allowlist rules dormant until a zone exists; prod bucket
-  unpublished.
+- **Pushed to GitHub** (github.com/cameronwc/prompted-content, public);
+  the validate workflow ran green on the first push. The terraform
+  workflow runs on PRs touching infra/ and needs repo secrets
+  (CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, R2_STATE_*) before its
+  plan step does anything beyond fmt/validate.
+- Remaining gaps: custom domain + cache/allowlist rules dormant until a
+  zone exists; prod bucket unpublished.
 
 
 ## AI image generation (added 2026-08-29, second work session)
