@@ -132,6 +132,11 @@
       "uniqueItems": true,
       "description": "Accessibility IDs from taxonomy/accessibility.yaml. May be empty."
     },
+    "image_source": {
+      "enum": ["synthetic", "ai", "photo"],
+      "default": "synthetic",
+      "description": "Provenance of the images. Optional; absent means synthetic. Additive, non-breaking."
+    },
     "version": {
       "type": "integer",
       "minimum": 1

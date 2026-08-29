@@ -154,6 +154,7 @@ def main() -> int:
     failures = 0
     seen_ids: dict[str, Path] = {}
     seen_slugs: dict[str, Path] = {}
+    source_counts: dict[str, int] = {}
 
     for pose_dir in pose_dirs:
         yaml_path = pose_dir / "pose.yaml"
@@ -178,6 +179,9 @@ def main() -> int:
         errors = validate_pose(
             pose_dir, pose, schema_validator, valid_ids, check_image_files
         )
+
+        source = pose.get("image_source", "synthetic")
+        source_counts[source] = source_counts.get(source, 0) + 1
 
         # 4 & 5. Cross-pose uniqueness
         pose_id = pose.get("id")
@@ -206,10 +210,11 @@ def main() -> int:
                 print(f"  - {e}")
 
     total = len(pose_dirs)
+    sources = ", ".join(f"{s}={n}" for s, n in sorted(source_counts.items()))
     if failures:
-        print(f"\n{failures} of {total} poses failed validation.")
+        print(f"\n{failures} of {total} poses failed validation. Image sources: {sources}")
         return 1
-    print(f"All {total} poses valid.")
+    print(f"All {total} poses valid. Image sources: {sources}")
     return 0
 
 
