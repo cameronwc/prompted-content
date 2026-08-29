@@ -43,6 +43,7 @@ venv: $(VENV)/bin/activate
 
 seed: venv
 	$(PYTHON) tools/generate_seed.py
+	$(PYTHON) tools/make_placeholders.py
 
 validate: venv
 	$(PYTHON) tools/validate.py
