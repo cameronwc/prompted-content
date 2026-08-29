@@ -44,6 +44,11 @@ variable "custom_domain" {
   default = null
 }
 
+variable "enable_managed_domain" {
+  type    = bool
+  default = false
+}
+
 variable "state_bucket" {
   description = "Name of the state bucket (matches infra/bootstrap)."
   type        = string
@@ -53,11 +58,12 @@ variable "state_bucket" {
 module "content_cdn" {
   source = "../../modules/content-cdn"
 
-  account_id    = var.account_id
-  bucket_name   = var.bucket_name
-  location      = var.location
-  zone_id       = var.zone_id
-  custom_domain = var.custom_domain
+  account_id            = var.account_id
+  bucket_name           = var.bucket_name
+  location              = var.location
+  zone_id               = var.zone_id
+  custom_domain         = var.custom_domain
+  enable_managed_domain = var.enable_managed_domain
 }
 
 # Consumed by tools/publish.py (terraform output -json) and, later, by the

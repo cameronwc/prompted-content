@@ -24,10 +24,15 @@
   loaded by the Makefile so no command echoes them. ROTATE when
   convenient: the Gemini key and the Cloudflare API token both passed
   through session transcripts.
+- **Public dev URL live** (r2.dev enabled for dev only, via the
+  `enable_managed_domain` module variable):
+  https://pub-38ee305366a94cfeb5daf8e4f4c51dc9.r2.dev — latest.json,
+  catalog/v5.json, and images all verified serving. Rate-limited; replaced
+  by a custom domain later. Prod stays fully private.
+- iOS integration handoff prompt: docs/ios-agent-prompt.md.
 - Remaining gaps: CI still never executed (no GitHub remote); custom
-  domain + cache/allowlist rules dormant until a zone exists; the app
-  reads via S3 credentials or a future public domain — there is currently
-  no anonymous public URL for the content (by design).
+  domain + cache/allowlist rules dormant until a zone exists; prod bucket
+  unpublished.
 
 
 ## AI image generation (added 2026-08-29, second work session)

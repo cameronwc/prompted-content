@@ -11,7 +11,9 @@ output "account_id" {
 
 output "public_base_url" {
   value = (
-    var.custom_domain != null ? "https://${var.custom_domain}" : null
+    var.custom_domain != null ? "https://${var.custom_domain}" :
+    var.enable_managed_domain ? "https://${cloudflare_r2_managed_domain.content.domain}" :
+    null
   )
-  description = "Base URL the iOS app and share Worker read content from. Null until a custom domain is bound."
+  description = "Base URL the iOS app and share Worker read content from: the custom domain when bound, else the r2.dev dev domain when enabled, else null."
 }

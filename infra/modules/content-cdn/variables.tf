@@ -31,6 +31,12 @@ variable "custom_domain" {
   }
 }
 
+variable "enable_managed_domain" {
+  description = "Serve the bucket publicly at its r2.dev domain (rate-limited; development only)."
+  type        = bool
+  default     = false
+}
+
 variable "immutable_ttl_seconds" {
   description = "Edge/browser TTL for immutable poses/<ulid>/ and versioned catalog paths."
   type        = number

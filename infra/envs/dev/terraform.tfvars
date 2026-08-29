@@ -6,3 +6,6 @@ location    = "wnam"
 # Bind a custom domain once a zone exists, e.g.:
 # zone_id       = "<zone id>"
 # custom_domain = "content-dev.prompted.example"
+
+# Rate-limited public dev URL until a custom domain exists.
+enable_managed_domain = true

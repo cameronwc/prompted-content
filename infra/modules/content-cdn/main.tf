@@ -35,12 +35,13 @@ resource "cloudflare_r2_bucket" "content" {
   }
 }
 
-# Explicitly declare the r2.dev managed domain DISABLED: the whole-bucket
-# public toggle is never how this bucket is exposed.
+# The r2.dev managed domain is always declared so public access stays
+# explicit in code. Default disabled; dev may enable it as a rate-limited
+# development URL until a custom domain exists. Never enable for prod.
 resource "cloudflare_r2_managed_domain" "content" {
   account_id  = var.account_id
   bucket_name = cloudflare_r2_bucket.content.name
-  enabled     = false
+  enabled     = var.enable_managed_domain
 }
 
 # Public entry point: custom domain bound to the bucket.
