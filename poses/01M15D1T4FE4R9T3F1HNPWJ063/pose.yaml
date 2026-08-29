@@ -1,9 +1,9 @@
 id: 01M15D1T4FE4R9T3F1HNPWJ063
 slug: heads-together-huddle
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?bayWU_3?bWBWU~q%LRjayx[IBRjt7WBRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d66a#JIo0K?HTKoenNR-AIs.-7Nd-;RjIU%2t7bHS1oe
 placeholder: true
 categories:
 - family
@@ -36,3 +36,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T48F06F4VPD6MWW11TN
 slug: lift-the-littlest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.-;ofof_3?aj[of~qxuWBof%LIBRjt7ayRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJJRBW4:kWxu-nWB0KNG?aRQIUofkD%MxuWB9Gf+RkjY
 placeholder: true
 categories:
 - family
@@ -36,3 +36,4 @@ accessibility:
 - limited_mobility
 version: 2
 status: active
+image_source: ai

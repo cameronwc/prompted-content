@@ -1,9 +1,9 @@
 id: 01M15D1T55680H8JAZJFWYCYAC
 slug: couch-pile-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ?aofkB_3?bj[j[~qxuWBfQ%MIBRjofjuRjxuf6
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dE8zS*t7E1RjIqbHoJay0fR*%Lt7xDaeofof-pofM{Rk
 placeholder: true
 categories:
 - family
@@ -34,3 +34,4 @@ accessibility:
 - seated_variant
 version: 1
 status: active
+image_source: ai

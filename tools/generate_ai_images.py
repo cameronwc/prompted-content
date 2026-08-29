@@ -12,7 +12,8 @@ image — this tool only touches image.*, image_source, and nothing else in
 pose.yaml.
 
 Style consistency: the first selected pose in each category is generated
-first at higher quality (2K) as that category's hero; every remaining
+first as that category's hero (1K, like everything else, by operator
+decision); every remaining
 generation in the category passes the hero as a reference image, and all
 prompts share a fixed style suffix.
 
@@ -53,14 +54,13 @@ THUMB_SIZE = (400, 500)
 
 # Standard-tier pricing, ai.google.dev/gemini-api/docs/pricing (checked 2026-08-29)
 COST_PER_1K = 0.067
-COST_PER_2K = 0.101  # heroes
 
 MAX_RETRIES = 5
 BACKOFF_BASE_SECONDS = 2
 PACE_SECONDS = 2  # minimum spacing between requests
 
 EXIF_SOFTWARE = (
-    "AI-generated placeholder (gemini-3.1-flash-image) — Prompted UI test "
+    "AI-generated placeholder (gemini-3.1-flash-image) -- Prompted UI test "
     "fixture, not for release"
 )
 
@@ -192,7 +192,7 @@ def extract_image_b64(payload) -> str | None:
         img = payload.get("output_image")
         if isinstance(img, dict) and img.get("data"):
             return img["data"]
-        for key in ("output", "outputs", "content", "parts", "candidates"):
+        for key in ("output", "outputs", "steps", "content", "parts", "candidates"):
             found = extract_image_b64(payload.get(key))
             if found:
                 return found
@@ -332,11 +332,10 @@ def main() -> int:
         print("Nothing to generate.")
         return 0
 
-    heroes = sum(1 for _, _, h in pending if h)
-    cost = heroes * COST_PER_2K + (len(pending) - heroes) * COST_PER_1K
-    print(f"About to generate {len(pending)} images "
-          f"({heroes} hero at 2K ≈ ${COST_PER_2K:.3f} each, "
-          f"{len(pending) - heroes} at 1K ≈ ${COST_PER_1K:.3f} each).")
+    cost = len(pending) * COST_PER_1K
+    print(f"About to generate {len(pending)} images at 1K "
+          f"(≈ ${COST_PER_1K:.3f} each; heroes lead their category but are "
+          f"also 1K by operator decision).")
     print(f"Estimated cost: ${cost:.2f} (standard tier, excludes retries).")
     if not args.yes:
         answer = input("Proceed and spend this? [y/N] ").strip().lower()
@@ -359,7 +358,7 @@ def main() -> int:
     for pose_id, pose, is_hero in pending:
         category = pose["categories"][0]
         reference = references.get(category)
-        size = "2K" if is_hero else "1K"
+        size = "1K"
         started = time.time()
         image_bytes, retries = generate_with_retry(
             pose_id, build_prompt(pose), reference, size
@@ -374,7 +373,7 @@ def main() -> int:
         if category not in references:
             references[category] = (POSES_DIR / pose_id / "detail_ai.jpg").read_bytes()
         ok += 1
-        actual_cost += COST_PER_2K if size == "2K" else COST_PER_1K
+        actual_cost += COST_PER_1K
         print(f"  {pose_id}: ok ({size}, retries={retries}, {elapsed:.1f}s)")
         time.sleep(PACE_SECONDS)
 
