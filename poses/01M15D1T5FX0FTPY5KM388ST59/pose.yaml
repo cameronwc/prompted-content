@@ -15,6 +15,8 @@ subject_types:
 light_conditions:
 - golden
 - open_shade
+- soft_low
+- mid
 location_types:
 - beach
 orientation: horizontal
@@ -33,5 +35,5 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

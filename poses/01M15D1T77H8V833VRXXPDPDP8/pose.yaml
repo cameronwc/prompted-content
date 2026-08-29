@@ -12,6 +12,7 @@ subject_types:
 - pregnant
 light_conditions:
 - golden
+- soft_low
 location_types:
 - beach
 orientation: vertical
@@ -31,5 +32,5 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 1
+version: 2
 status: active

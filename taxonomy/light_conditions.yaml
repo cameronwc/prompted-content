@@ -6,6 +6,10 @@ entries:
     display: Blue Hour
   - id: overcast
     display: Overcast
+  - id: soft_low
+    display: Soft Low Sun
+  - id: mid
+    display: Midday Sun
   - id: harsh_overhead
     display: Harsh Overhead Sun
   - id: open_shade

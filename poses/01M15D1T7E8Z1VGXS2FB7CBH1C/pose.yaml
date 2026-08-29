@@ -13,6 +13,7 @@ subject_types:
 light_conditions:
 - overcast
 - night_flash
+- mid
 location_types:
 - beach
 orientation: vertical
@@ -31,5 +32,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

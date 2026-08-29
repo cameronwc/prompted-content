@@ -16,6 +16,7 @@ subject_types:
 - pet
 light_conditions:
 - overcast
+- mid
 location_types:
 - field
 orientation: vertical
@@ -34,5 +35,5 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

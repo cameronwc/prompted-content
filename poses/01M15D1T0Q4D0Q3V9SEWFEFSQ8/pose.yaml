@@ -13,6 +13,7 @@ subject_types:
 light_conditions:
 - backlit
 - golden
+- soft_low
 location_types:
 - beach
 orientation: vertical
@@ -31,5 +32,5 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active

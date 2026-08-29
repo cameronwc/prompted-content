@@ -13,6 +13,7 @@ subject_types:
 light_conditions:
 - open_shade
 - backlit
+- mid
 location_types:
 - field
 orientation: vertical
@@ -33,5 +34,5 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 1
+version: 2
 status: active

@@ -13,6 +13,7 @@ subject_types:
 - adult
 light_conditions:
 - harsh_overhead
+- mid
 location_types:
 - field
 orientation: vertical
@@ -32,5 +33,5 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active

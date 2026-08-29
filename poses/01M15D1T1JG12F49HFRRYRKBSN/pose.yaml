@@ -12,6 +12,7 @@ subject_types:
 - adult
 light_conditions:
 - open_shade
+- mid
 location_types:
 - field
 orientation: vertical
@@ -30,5 +31,5 @@ gear:
   aperture: f/1.8
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active

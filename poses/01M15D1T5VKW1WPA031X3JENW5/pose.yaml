@@ -12,6 +12,7 @@ subject_types:
 - pregnant
 light_conditions:
 - golden
+- soft_low
 location_types:
 - field
 orientation: vertical
@@ -32,5 +33,5 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 1
+version: 2
 status: active

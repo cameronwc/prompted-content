@@ -14,6 +14,8 @@ subject_types:
 light_conditions:
 - golden
 - open_shade
+- soft_low
+- mid
 location_types:
 - forest
 orientation: vertical
@@ -33,5 +35,5 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 1
+version: 2
 status: active

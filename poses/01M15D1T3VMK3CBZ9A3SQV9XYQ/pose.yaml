@@ -16,6 +16,7 @@ subject_types:
 light_conditions:
 - blue
 - golden
+- soft_low
 location_types:
 - field
 orientation: vertical
@@ -35,5 +36,5 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active

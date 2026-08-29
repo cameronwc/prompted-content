@@ -15,6 +15,7 @@ subject_types:
 light_conditions:
 - night_flash
 - golden
+- soft_low
 location_types:
 - beach
 orientation: vertical
@@ -34,5 +35,5 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active

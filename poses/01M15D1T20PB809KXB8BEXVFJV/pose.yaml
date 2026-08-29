@@ -12,6 +12,7 @@ subject_types:
 - teen
 light_conditions:
 - open_shade
+- mid
 location_types:
 - beach
 orientation: vertical
@@ -31,5 +32,5 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active

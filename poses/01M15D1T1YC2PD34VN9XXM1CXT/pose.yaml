@@ -12,6 +12,7 @@ subject_types:
 - teen
 light_conditions:
 - open_shade
+- mid
 location_types:
 - forest
 orientation: vertical
@@ -30,5 +31,5 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

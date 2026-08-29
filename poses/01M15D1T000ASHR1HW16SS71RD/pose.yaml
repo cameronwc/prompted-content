@@ -13,6 +13,7 @@ subject_types:
 - adult
 light_conditions:
 - open_shade
+- mid
 location_types:
 - urban
 orientation: vertical
@@ -33,5 +34,5 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 1
+version: 2
 status: active

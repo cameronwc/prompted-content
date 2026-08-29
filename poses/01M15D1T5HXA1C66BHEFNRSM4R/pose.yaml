@@ -14,6 +14,7 @@ subject_types:
 - child
 light_conditions:
 - overcast
+- mid
 location_types:
 - beach
 orientation: vertical
@@ -35,5 +36,5 @@ accessibility:
 - seated_variant
 - plus_size_flattering
 - wheelchair
-version: 1
+version: 2
 status: active

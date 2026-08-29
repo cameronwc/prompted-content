@@ -12,6 +12,7 @@ subject_types:
 - teen
 light_conditions:
 - harsh_overhead
+- mid
 location_types:
 - field
 orientation: vertical
@@ -30,5 +31,5 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

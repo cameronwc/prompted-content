@@ -13,6 +13,8 @@ subject_types:
 light_conditions:
 - golden
 - overcast
+- soft_low
+- mid
 location_types:
 - urban
 orientation: vertical
@@ -31,5 +33,5 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

@@ -13,6 +13,7 @@ subject_types:
 - teen
 light_conditions:
 - golden
+- soft_low
 location_types:
 - field
 orientation: horizontal
@@ -33,5 +34,5 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 1
+version: 2
 status: active

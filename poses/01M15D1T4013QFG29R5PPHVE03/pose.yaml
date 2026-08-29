@@ -15,6 +15,7 @@ subject_types:
 - child
 light_conditions:
 - harsh_overhead
+- mid
 location_types:
 - beach
 orientation: vertical
@@ -34,5 +35,5 @@ gear:
   needs_reflector: true
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active

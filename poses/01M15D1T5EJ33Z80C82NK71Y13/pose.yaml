@@ -14,6 +14,8 @@ subject_types:
 light_conditions:
 - overcast
 - golden
+- soft_low
+- mid
 location_types:
 - urban
 orientation: horizontal
@@ -33,5 +35,5 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
