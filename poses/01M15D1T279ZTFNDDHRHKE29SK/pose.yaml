@@ -1,0 +1,35 @@
+id: 01M15D1T279ZTFNDDHRHKE29SK
+slug: stair-perch
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Give me a fake laugh. Yes, it works every time — see, that one's real.
+  tone: nervous_client
+- text: Let the smile fade slowly. Stop. Right there.
+  tone: calm
+- text: Laugh at nothing. Full commitment. Sell it.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

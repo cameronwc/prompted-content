@@ -1,0 +1,38 @@
+id: 01M15D1T59QX5K568N3TC56NXS
+slug: dog-in-the-middle-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- child
+- teen
+- toddler
+- pet
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Parents, you're just furniture right now. Comfortable, loving furniture.
+  tone: nervous_client
+- text: Group hug, but it's a competition. Tightest squeeze wins.
+  tone: playful
+- text: Watch the water together. Nobody needs to say anything.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

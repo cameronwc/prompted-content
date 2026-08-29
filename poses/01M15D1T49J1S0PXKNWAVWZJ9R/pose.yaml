@@ -1,0 +1,36 @@
+id: 01M15D1T49J1S0PXKNWAVWZJ9R
+slug: ring-around-parents
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- teen
+light_conditions:
+- overcast
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The kids don't have to sit still. Chase them. I'll keep up.
+  tone: nervous_client
+- text: Group hug, but it's a competition. Tightest squeeze wins.
+  tone: playful
+- text: Walk slow, hold hands, let the kids set the pace.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

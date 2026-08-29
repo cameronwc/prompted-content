@@ -1,0 +1,34 @@
+id: 01M15D1T6MVR4D6AW16Z7ZMTQN
+slug: window-silhouette-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Eyes closed is always allowed. Some of my favorite frames are eyes closed.
+  tone: nervous_client
+- text: Introduce the bump to the camera. Full name optional.
+  tone: playful
+- text: Soften your hands. They don't need to grip, just rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

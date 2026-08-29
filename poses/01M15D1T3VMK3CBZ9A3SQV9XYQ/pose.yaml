@@ -1,0 +1,39 @@
+id: 01M15D1T3VMK3CBZ9A3SQV9XYQ
+slug: piggyback-parade
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- toddler
+- child
+- teen
+light_conditions:
+- blue
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Parents, you're just furniture right now. Comfortable, loving furniture.
+  tone: nervous_client
+- text: Kids, bury Dad's feet. Dad, act like you haven't noticed.
+  tone: playful
+- text: Watch the water together. Nobody needs to say anything.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

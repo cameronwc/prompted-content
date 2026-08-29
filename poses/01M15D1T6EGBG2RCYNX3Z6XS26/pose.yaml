@@ -1,0 +1,36 @@
+id: 01M15D1T6EGBG2RCYNX3Z6XS26
+slug: partner-slow-dance
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- night_flash
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Look at your hands, not the lens. Your hands are the story.
+  tone: nervous_client
+- text: Kiss her temple and keep your eyes on the bump.
+  tone: romantic
+- text: Whisper 'you can be anything except a drummer' to the bump.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,34 @@
+id: 01M15D1T6SYNSJ2SD6AYC4H1VQ
+slug: heart-hands-on-bump-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You've been posing for this one for months. This is the easy part.
+  tone: nervous_client
+- text: Let your eyes go soft and heavy, almost sleepy. Stay.
+  tone: calm
+- text: Tell me the weirdest craving. Act it out. No words.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

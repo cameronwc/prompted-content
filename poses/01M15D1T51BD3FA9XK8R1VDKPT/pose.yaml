@@ -1,0 +1,36 @@
+id: 01M15D1T51BD3FA9XK8R1VDKPT
+slug: shoulder-ride-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+- child
+light_conditions:
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody has to look at the camera. Look at whoever you love most in this group.
+  tone: nervous_client
+- text: Watch the water together. Nobody needs to say anything.
+  tone: calm
+- text: Parents kiss. Kids, say ewww as loud as legally allowed.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T5YTR0MR5YXRVJT1HCN
+slug: partner-forehead-touch
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If laughing feels better than smiling, laugh.
+  tone: nervous_client
+- text: Wrap your arms around from behind and rest your hands over theirs.
+  tone: romantic
+- text: Close your eyes and take the slowest breath you've had all week.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

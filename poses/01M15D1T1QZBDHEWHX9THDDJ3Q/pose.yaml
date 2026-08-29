@@ -1,0 +1,36 @@
+id: 01M15D1T1QZBDHEWHX9THDDJ3Q
+slug: campfire-cuddle-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Don't worry about your smile. Look at them and it'll happen on its own.
+  tone: nervous_client
+- text: Let your hands find each other without looking down.
+  tone: calm
+- text: Grab their hand and don't tell them where you're going.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

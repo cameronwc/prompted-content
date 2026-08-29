@@ -1,0 +1,35 @@
+id: 01M15D1T76QAJF0FCC57XCKKE6
+slug: backlit-profile-golden-forest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Rest your weight on your back foot. Comfort photographs beautifully.
+  tone: nervous_client
+- text: Hold still in the breeze and let everything else move.
+  tone: calm
+- text: Laugh at how the wind keeps choosing your hair over the dress.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

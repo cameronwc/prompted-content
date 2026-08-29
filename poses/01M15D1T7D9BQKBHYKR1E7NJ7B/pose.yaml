@@ -1,0 +1,34 @@
+id: 01M15D1T7D9BQKBHYKR1E7NJ7B
+slug: staircase-gown-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We can stop for water and snacks any time. Growing a person is cardio.
+  tone: nervous_client
+- text: Ask the baby to kick on three. They won't, but the waiting face is gold.
+  tone: playful
+- text: Let the dress settle. Then one more quiet breath.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

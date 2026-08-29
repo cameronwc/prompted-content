@@ -1,0 +1,35 @@
+id: 01M15D1T64TAY1YREEV2HM8CD2
+slug: side-light-profile
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can't do this wrong. Your hands already know where to go.
+  tone: nervous_client
+- text: Cradle the bottom of the bump like you're weighing something precious.
+  tone: calm
+- text: Practice your 'we're not naming them that' face.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

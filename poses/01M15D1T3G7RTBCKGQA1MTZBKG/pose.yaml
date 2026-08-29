@@ -1,0 +1,35 @@
+id: 01M15D1T3G7RTBCKGQA1MTZBKG
+slug: hands-on-hips-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Look down at your shoes, then up at me on three. No smile needed.
+  tone: nervous_client
+- text: Spin, and wherever you land, own it.
+  tone: playful
+- text: Let the smile fade slowly. Stop. Right there.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

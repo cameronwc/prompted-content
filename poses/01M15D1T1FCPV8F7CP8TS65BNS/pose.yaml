@@ -1,0 +1,35 @@
+id: 01M15D1T1FCPV8F7CP8TS65BNS
+slug: arm-swing-stroll-forest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+- harsh_overhead
+location_types:
+- forest
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Whatever you did just then — that was perfect. Do it again.
+  tone: nervous_client
+- text: Kiss them like the car is about to leave.
+  tone: romantic
+- text: Breathe in together — and let it out slow.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T6WJA72SC4BRB5NSTH6
+slug: partner-forehead-touch-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at your hands, not the lens. Your hands are the story.
+  tone: nervous_client
+- text: Kneel down and kiss the bump like you're telling them a secret.
+  tone: romantic
+- text: Cradle the bottom of the bump like you're weighing something precious.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

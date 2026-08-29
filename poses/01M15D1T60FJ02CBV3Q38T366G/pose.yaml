@@ -1,0 +1,34 @@
+id: 01M15D1T60FJ02CBV3Q38T366G
+slug: nursery-window
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You can't do this wrong. Your hands already know where to go.
+  tone: nervous_client
+- text: Whisper 'you can be anything except a drummer' to the bump.
+  tone: playful
+- text: Rest both hands on the bump and just listen.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T45GS29E0C1VJAWEG04
+slug: tree-line-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- child
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Pretend it's Sunday morning and nobody has anywhere to be.
+  tone: nervous_client
+- text: Sit close and watch the sky change. That's the whole plan.
+  tone: calm
+- text: Group hug, but it's a competition. Tightest squeeze wins.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

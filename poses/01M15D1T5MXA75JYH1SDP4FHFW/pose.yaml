@@ -1,0 +1,34 @@
+id: 01M15D1T5MXA75JYH1SDP4FHFW
+slug: hands-on-bump-profile
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at your hands, not the lens. Your hands are the story.
+  tone: nervous_client
+- text: Trace one slow circle with your thumb.
+  tone: calm
+- text: Show me the bump like it just won first prize. It did.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

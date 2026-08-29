@@ -1,0 +1,36 @@
+id: 01M15D1T2BD1YTRWK1X5G3TNQJ
+slug: walk-toward-camera
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You can blink. Blinking is allowed and encouraged.
+  tone: nervous_client
+- text: Jump on three. One... two... wait for it...
+  tone: playful
+- text: Cross your ankles, lean back, and study the clouds.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T0JE488VM04XC5F972Q
+slug: close-slow-sway
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Ignore the camera entirely. It's just a long walk with better light.
+  tone: nervous_client
+- text: Breathe in together — and let it out slow.
+  tone: calm
+- text: Sneak up and steal a kiss before they notice.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

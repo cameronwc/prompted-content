@@ -1,0 +1,35 @@
+id: 01M15D1T7E8Z1VGXS2FB7CBH1C
+slug: wildflower-crown-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- overcast
+- night_flash
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If you feel silly, look down at the bump. Nobody's watching your face then.
+  tone: nervous_client
+- text: Waddle at me like it's a runway. Own the waddle.
+  tone: playful
+- text: Soften your hands. They don't need to grip, just rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

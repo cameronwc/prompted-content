@@ -1,0 +1,34 @@
+id: 01M15D1T32NWC6KRMKKR2H45J4
+slug: field-walk-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+location_types:
+- urban
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: One more just like that. You've officially got the hang of this.
+  tone: nervous_client
+- text: Think of the person who makes you laugh most. Don't smile. Try not to.
+  tone: calm
+- text: Pretend you just aced the final you didn't study for.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

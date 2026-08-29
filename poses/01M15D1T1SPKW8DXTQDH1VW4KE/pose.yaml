@@ -1,0 +1,35 @@
+id: 01M15D1T1SPKW8DXTQDH1VW4KE
+slug: walk-away-look-back-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- overcast
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: If it feels awkward, laugh about it. That's the shot.
+  tone: nervous_client
+- text: Nose to nose. Now smile without pulling away.
+  tone: romantic
+- text: Squeeze them until they squeak.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T1GC8BJ7VAX9KVVR20E
+slug: close-slow-sway-mountain
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You're doing better than you think. Stay exactly like that.
+  tone: nervous_client
+- text: Look out at the horizon together. Don't talk.
+  tone: calm
+- text: Hold their face like you're about to say something important.
+  tone: romantic
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

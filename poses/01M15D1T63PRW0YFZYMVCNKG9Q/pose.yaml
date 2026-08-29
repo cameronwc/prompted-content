@@ -1,0 +1,37 @@
+id: 01M15D1T63PRW0YFZYMVCNKG9Q
+slug: laughing-with-partner
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- golden
+- open_shade
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Any time you need to sit, we make sitting the pose.
+  tone: nervous_client
+- text: Make a heart with your hands together, right where the baby is.
+  tone: romantic
+- text: Ask the baby to kick on three. They won't, but the waiting face is gold.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

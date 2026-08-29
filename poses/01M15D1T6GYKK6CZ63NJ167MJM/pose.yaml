@@ -1,0 +1,35 @@
+id: 01M15D1T6GYKK6CZ63NJ167MJM
+slug: wildflower-crown
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The dress does most of the work. You just breathe.
+  tone: nervous_client
+- text: Laugh at how the wind keeps choosing your hair over the dress.
+  tone: playful
+- text: Settle into the chair like the afternoon has no plans.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

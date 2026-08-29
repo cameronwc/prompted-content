@@ -1,0 +1,34 @@
+id: 01M15D1T1BPGFCDR25CQBGWRN0
+slug: hug-from-behind-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to look at the camera. Just look at each other.
+  tone: nervous_client
+- text: Wrap them up from behind and kiss just below the ear.
+  tone: romantic
+- text: Think about tomorrow morning, nothing else.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

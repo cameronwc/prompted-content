@@ -1,0 +1,36 @@
+id: 01M15D1T0C6S5J4J1386H1ZPDZ
+slug: back-to-back
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+- harsh_overhead
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: I'll count to three, but nothing happens on three. Just breathe.
+  tone: nervous_client
+- text: Settle in like the last minute of a slow song.
+  tone: calm
+- text: Bump hips on every third step. I'll count.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

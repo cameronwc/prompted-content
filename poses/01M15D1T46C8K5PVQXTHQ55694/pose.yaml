@@ -1,0 +1,38 @@
+id: 01M15D1T46C8K5PVQXTHQ55694
+slug: stair-stack
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+- toddler
+light_conditions:
+- night_flash
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If the toddler melts down, we roll with it. Meltdowns are ten percent of my portfolio.
+  tone: nervous_client
+- text: Sway together, slow, like the world's gentlest huddle.
+  tone: calm
+- text: Race to that tree and back. Parents, you're allowed to lose.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

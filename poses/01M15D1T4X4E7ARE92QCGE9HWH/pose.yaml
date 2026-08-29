@@ -1,0 +1,36 @@
+id: 01M15D1T4X4E7ARE92QCGE9HWH
+slug: walk-away-holding-hands-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+light_conditions:
+- backlit
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: Whisper-count to three, then everybody squeeze whoever's closest.
+  tone: nervous_client
+- text: Squeeze in close and take one big family breath together.
+  tone: calm
+- text: Everyone point at the person most likely to steal dessert.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

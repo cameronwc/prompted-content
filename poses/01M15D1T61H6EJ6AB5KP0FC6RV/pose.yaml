@@ -1,0 +1,35 @@
+id: 01M15D1T61H6EJ6AB5KP0FC6RV
+slug: robe-drape-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me if anything aches and we swap to the next idea, no ceremony.
+  tone: nervous_client
+- text: Let the dress settle. Then one more quiet breath.
+  tone: calm
+- text: Balance your lemonade on the bump — kidding, but that laugh was real.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

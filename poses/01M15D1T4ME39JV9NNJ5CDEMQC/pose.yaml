@@ -1,0 +1,36 @@
+id: 01M15D1T4ME39JV9NNJ5CDEMQC
+slug: field-run
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- teen
+- child
+light_conditions:
+- overcast
+location_types:
+- beach
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Pretend it's Sunday morning and nobody has anywhere to be.
+  tone: nervous_client
+- text: Walk slow, hold hands, let the kids set the pace.
+  tone: calm
+- text: Tallest to smallest, then everyone lean out and peek at me.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

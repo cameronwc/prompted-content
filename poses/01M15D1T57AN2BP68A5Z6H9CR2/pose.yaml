@@ -1,0 +1,37 @@
+id: 01M15D1T57AN2BP68A5Z6H9CR2
+slug: ring-around-parents-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- toddler
+- senior_adult
+light_conditions:
+- golden
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Mom, Dad — look at each other. The kids will do the rest, I promise.
+  tone: nervous_client
+- text: Swing the little one on every third step — one, two, wheee.
+  tone: playful
+- text: One quiet minute, all together. I'll take care of the rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

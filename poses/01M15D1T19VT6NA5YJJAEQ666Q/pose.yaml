@@ -1,0 +1,36 @@
+id: 01M15D1T19VT6NA5YJJAEQ666Q
+slug: lap-sit-laugh-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+- blue
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Lean into them the way you do on the couch at home.
+  tone: nervous_client
+- text: Drop your shoulders. Take one breath out. Now look back at me.
+  tone: calm
+- text: Lift their chin and hold there. Don't kiss yet.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

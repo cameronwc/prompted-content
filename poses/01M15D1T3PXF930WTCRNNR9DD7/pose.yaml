@@ -1,0 +1,35 @@
+id: 01M15D1T3PXF930WTCRNNR9DD7
+slug: meadow-sit-mountain
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You can blink. Blinking is allowed and encouraged.
+  tone: nervous_client
+- text: Let the smile fade slowly. Stop. Right there.
+  tone: calm
+- text: Hands in pockets, chin up, gum-commercial confidence.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

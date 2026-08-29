@@ -1,0 +1,35 @@
+id: 01M15D1T7A95GWDEVPJF8RSQ4D
+slug: chin-up-eyes-closed-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can't do this wrong. Your hands already know where to go.
+  tone: nervous_client
+- text: Show me the bump like it just won first prize. It did.
+  tone: playful
+- text: Soften your hands. They don't need to grip, just rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- late_term
+version: 1
+status: active

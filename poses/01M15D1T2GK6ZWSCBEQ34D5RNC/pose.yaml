@@ -1,0 +1,35 @@
+id: 01M15D1T2GK6ZWSCBEQ34D5RNC
+slug: hair-flip
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- blue
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You get veto power on every single frame. You're the editor.
+  tone: nervous_client
+- text: Slow your walk to half speed and let your eyes wander.
+  tone: calm
+- text: Give me main-character-walking-to-the-bus energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

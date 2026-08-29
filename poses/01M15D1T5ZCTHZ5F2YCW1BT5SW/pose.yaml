@@ -1,0 +1,37 @@
+id: 01M15D1T5ZCTHZ5F2YCW1BT5SW
+slug: rocking-chair
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's just us out here. Take up all the space you want.
+  tone: nervous_client
+- text: Hold still in the breeze and let everything else move.
+  tone: calm
+- text: Introduce the bump to the camera. Full name optional.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+- late_term
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T1NH0SCCFS7RC4CAZXB
+slug: interlocked-hands-detail-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at their ear. I know it sounds strange. Trust me.
+  tone: nervous_client
+- text: Tell them your worst joke. The one they've heard a hundred times.
+  tone: playful
+- text: Rest your head on their chest and close your eyes.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

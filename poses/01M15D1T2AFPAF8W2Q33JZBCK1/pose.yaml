@@ -1,0 +1,35 @@
+id: 01M15D1T2AFPAF8W2Q33JZBCK1
+slug: chin-on-hand
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody sees these until you've approved them. Deal?
+  tone: nervous_client
+- text: Give the camera the look you give your little brother.
+  tone: playful
+- text: Turn your face until you feel the sun on your cheek. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

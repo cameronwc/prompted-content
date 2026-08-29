@@ -1,0 +1,35 @@
+id: 01M15D1T6QHR896BAK5P1TZ7ZA
+slug: partner-kneel-bump-kiss-forest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll go at whatever speed your feet are happy with today.
+  tone: nervous_client
+- text: Whisper the name you haven't told anyone else yet.
+  tone: romantic
+- text: Tell the baby the family gossip. They can keep a secret.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

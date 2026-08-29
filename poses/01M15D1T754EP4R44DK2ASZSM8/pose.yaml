@@ -1,0 +1,35 @@
+id: 01M15D1T754EP4R44DK2ASZSM8
+slug: partner-hands-heart-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If laughing feels better than smiling, laugh.
+  tone: nervous_client
+- text: Make a heart with your hands together, right where the baby is.
+  tone: romantic
+- text: Tell the baby the family gossip. They can keep a secret.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

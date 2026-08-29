@@ -1,0 +1,34 @@
+id: 01M15D1T07YWKBC96YTZ0QFCP8
+slug: slow-dance
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- overcast
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Whatever you did just then — that was perfect. Do it again.
+  tone: nervous_client
+- text: Nose to nose. Now smile without pulling away.
+  tone: romantic
+- text: One of you knows a secret. The other has to get it out.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T729T1P9RV1K1RQH3NS
+slug: side-light-profile-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Any time you need to sit, we make sitting the pose.
+  tone: nervous_client
+- text: Trace one slow circle with your thumb.
+  tone: calm
+- text: Show me the bump like it just won first prize. It did.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

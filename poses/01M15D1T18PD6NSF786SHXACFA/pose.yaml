@@ -1,0 +1,34 @@
+id: 01M15D1T18PD6NSF786SHXACFA
+slug: run-and-catch-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- beach
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Close your eyes. When you open them, just find each other.
+  tone: nervous_client
+- text: On three, both of you try to kiss the other's cheek at the same time.
+  tone: playful
+- text: Kiss their forehead and keep your eyes closed after.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

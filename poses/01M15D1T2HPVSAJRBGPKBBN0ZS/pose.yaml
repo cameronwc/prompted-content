@@ -1,0 +1,35 @@
+id: 01M15D1T2HPVSAJRBGPKBBN0ZS
+slug: profile-look-away
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You don't have to smile yet. We're just testing the light on your jacket.
+  tone: nervous_client
+- text: Kick a leaf at me. Gently. This lens was expensive.
+  tone: playful
+- text: Lean back on the wall and let it hold all your weight.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

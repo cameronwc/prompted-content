@@ -1,0 +1,34 @@
+id: 01M15D1T0A7T2NDTWZN6TCG9EN
+slug: run-and-catch
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- mountain
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: If you don't know what to do with your face, kiss their shoulder.
+  tone: nervous_client
+- text: Wrap them up from behind and kiss just below the ear.
+  tone: romantic
+- text: Slow everything down by half. Even your blinking.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

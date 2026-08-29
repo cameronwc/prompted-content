@@ -1,0 +1,35 @@
+id: 01M15D1T2MMS45E4MT4H2FXHAS
+slug: bleacher-row
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look past my shoulder at that sign. See? You're modeling already.
+  tone: nervous_client
+- text: Toss your hair like a shampoo ad, then laugh about it.
+  tone: playful
+- text: Watch the traffic go by like it's a movie.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

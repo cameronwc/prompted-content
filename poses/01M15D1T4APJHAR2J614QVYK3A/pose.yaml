@@ -1,0 +1,37 @@
+id: 01M15D1T4APJHAR2J614QVYK3A
+slug: look-at-each-other-laugh
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- toddler
+- teen
+light_conditions:
+- backlit
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If the toddler melts down, we roll with it. Meltdowns are ten percent of my portfolio.
+  tone: nervous_client
+- text: Give the little one a countdown, then launch. I'll be ready.
+  tone: playful
+- text: Everyone find somewhere comfortable to lean on someone else.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

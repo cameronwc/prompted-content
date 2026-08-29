@@ -1,0 +1,35 @@
+id: 01M15D1T6X1NAB36J884296ZQP
+slug: rocking-chair-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- overcast
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If you feel silly, look down at the bump. Nobody's watching your face then.
+  tone: nervous_client
+- text: Tell me the weirdest craving. Act it out. No words.
+  tone: playful
+- text: Rest both hands on the bump and just listen.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T178119YNB3Q21FGF6M
+slug: nose-to-nose-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: I'll count to three, but nothing happens on three. Just breathe.
+  tone: nervous_client
+- text: Grab their hand and don't tell them where you're going.
+  tone: playful
+- text: Come in for the kiss — but stop one inch short and stay there.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

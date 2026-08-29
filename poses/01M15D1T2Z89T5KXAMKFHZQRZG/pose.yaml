@@ -1,0 +1,34 @@
+id: 01M15D1T2Z89T5KXAMKFHZQRZG
+slug: mid-laugh-candid-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- backlit
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your hair if you want. Honestly, the pause looks great too.
+  tone: nervous_client
+- text: Let the smile fade slowly. Stop. Right there.
+  tone: calm
+- text: Give the camera the look you give your little brother.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T1TE5MV59CK5X0316A7
+slug: shoulder-lean-sunset-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Lean into them the way you do on the couch at home.
+  tone: nervous_client
+- text: Try to make each other laugh without touching. Loser buys dinner.
+  tone: playful
+- text: Slow everything down by half. Even your blinking.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

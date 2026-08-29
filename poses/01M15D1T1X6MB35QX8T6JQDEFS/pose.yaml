@@ -1,0 +1,35 @@
+id: 01M15D1T1X6MB35QX8T6JQDEFS
+slug: curb-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look down at your shoes, then up at me on three. No smile needed.
+  tone: nervous_client
+- text: Flip the jacket over your shoulder like it's a movie poster.
+  tone: playful
+- text: Sit however you'd sit if I weren't here.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

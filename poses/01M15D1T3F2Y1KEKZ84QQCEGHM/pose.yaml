@@ -1,0 +1,34 @@
+id: 01M15D1T3F2Y1KEKZ84QQCEGHM
+slug: profile-look-away-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Nobody sees these until you've approved them. Deal?
+  tone: nervous_client
+- text: Lean back on the wall and let it hold all your weight.
+  tone: calm
+- text: Toss your hair like a shampoo ad, then laugh about it.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T3AM79HJD9ZVFJRH8KW
+slug: dress-twirl-forest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody sees these until you've approved them. Deal?
+  tone: nervous_client
+- text: Watch the traffic go by like it's a movie.
+  tone: calm
+- text: Whisper your most controversial cafeteria opinion.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

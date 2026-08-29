@@ -1,0 +1,36 @@
+id: 01M15D1T1WHZ3R72N5DX59PJGT
+slug: letterman-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+- harsh_overhead
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Fix your hair if you want. Honestly, the pause looks great too.
+  tone: nervous_client
+- text: Drop your shoulders and let your arms hang heavy.
+  tone: calm
+- text: Whisper your most controversial cafeteria opinion.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active

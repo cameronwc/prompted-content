@@ -1,0 +1,37 @@
+id: 01M15D1T5DZ9H8KVF61AR1YNFP
+slug: heads-together-huddle-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- teen
+- toddler
+- child
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Just walk. Kids wander. That's the picture.
+  tone: nervous_client
+- text: Look at the little one and just watch them for a minute.
+  tone: calm
+- text: Whoever laughs first has to do the dishes tonight.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

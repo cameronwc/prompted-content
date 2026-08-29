@@ -1,0 +1,34 @@
+id: 01M15D1T3BFB3Z3W01TKSCPKZH
+slug: sunset-silhouette-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look past my shoulder at that sign. See? You're modeling already.
+  tone: nervous_client
+- text: Laugh at nothing. Full commitment. Sell it.
+  tone: playful
+- text: Tuck your hair behind your ear, slow, like you're thinking.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

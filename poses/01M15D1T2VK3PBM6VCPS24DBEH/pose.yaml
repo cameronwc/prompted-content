@@ -1,0 +1,35 @@
+id: 01M15D1T2VK3PBM6VCPS24DBEH
+slug: curb-sit-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Shake out your hands. Now forget I said anything about hands.
+  tone: nervous_client
+- text: Jump on three. One... two... wait for it...
+  tone: playful
+- text: Rest your chin on your hand and let your gaze go soft.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

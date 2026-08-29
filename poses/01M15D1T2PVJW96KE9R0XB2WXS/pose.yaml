@@ -1,0 +1,34 @@
+id: 01M15D1T2PVJW96KE9R0XB2WXS
+slug: laugh-over-shoulder
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your hair if you want. Honestly, the pause looks great too.
+  tone: nervous_client
+- text: Think of the person who makes you laugh most. Don't smile. Try not to.
+  tone: calm
+- text: Whisper your most controversial cafeteria opinion.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

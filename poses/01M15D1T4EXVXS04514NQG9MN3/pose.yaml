@@ -1,0 +1,37 @@
+id: 01M15D1T4EXVXS04514NQG9MN3
+slug: jump-together
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- child
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Everyone squish in until somebody giggles.
+  tone: nervous_client
+- text: Let the kids get heavy in your arms. Heavy is the picture.
+  tone: calm
+- text: Swing the little one on every third step — one, two, wheee.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

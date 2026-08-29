@@ -1,0 +1,35 @@
+id: 01M15D1T0VCSAHATNQMDYCYD1B
+slug: walk-away-look-back
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- mountain
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: It's okay to feel silly. Silly photographs beautifully.
+  tone: nervous_client
+- text: Hold both their hands and press them to your chest.
+  tone: romantic
+- text: Whisper what you're actually having for dinner tonight.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T5CCSW2NWDWVQ03ZSF0
+slug: jump-together-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- toddler
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: There's no wrong way to hold your kid. They'll show you where they fit.
+  tone: nervous_client
+- text: Everybody close your eyes except the baby. They can supervise.
+  tone: calm
+- text: Pile on the parents like a snow drift.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

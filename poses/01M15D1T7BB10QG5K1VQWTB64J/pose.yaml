@@ -1,0 +1,37 @@
+id: 01M15D1T7BB10QG5K1VQWTB64J
+slug: bump-from-the-side-seated-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- open_shade
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's just us out here. Take up all the space you want.
+  tone: nervous_client
+- text: Point at the bump and mouth 'this was your idea.'
+  tone: playful
+- text: Hum something. Whatever they've been kicking along to.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

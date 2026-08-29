@@ -1,0 +1,35 @@
+id: 01M15D1T0WGWHW6S1R5T9KKY9Y
+slug: shoulder-lean-sunset
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Don't worry about your smile. Look at them and it'll happen on its own.
+  tone: nervous_client
+- text: Settle in like the last minute of a slow song.
+  tone: calm
+- text: Kiss the back of their hand like it's 1948.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

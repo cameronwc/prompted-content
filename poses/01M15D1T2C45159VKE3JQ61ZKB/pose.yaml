@@ -1,0 +1,34 @@
+id: 01M15D1T2C45159VKE3JQ61ZKB
+slug: dress-twirl
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Every senior feels weird for the first ten minutes. You're right on schedule.
+  tone: nervous_client
+- text: Let the smile fade slowly. Stop. Right there.
+  tone: calm
+- text: Spin, and wherever you land, own it.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

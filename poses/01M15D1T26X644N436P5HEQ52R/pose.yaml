@@ -1,0 +1,34 @@
+id: 01M15D1T26X644N436P5HEQ52R
+slug: cap-toss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: This isn't picture day. There's no line behind you.
+  tone: nervous_client
+- text: Rest your chin on your hand and let your gaze go soft.
+  tone: calm
+- text: Kick a leaf at me. Gently. This lens was expensive.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

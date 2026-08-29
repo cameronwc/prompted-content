@@ -84,6 +84,7 @@ def validate_pose(
     pose: dict,
     schema_validator: Draft202012Validator,
     valid_ids: dict[str, set[str]],
+    check_image_files: bool = True,
 ) -> list[str]:
     errors: list[str] = []
     yaml_path = rel(pose_dir / "pose.yaml")
@@ -123,8 +124,9 @@ def validate_pose(
             f"'{pose_dir.name}'"
         )
 
-    # 6. Images
-    check_images(pose_dir, pose, errors)
+    # 6. Images (skipped with --no-images, e.g. before placeholders exist)
+    if check_image_files:
+        check_images(pose_dir, pose, errors)
 
     # 7. Coherence: distinct subject types cannot exceed subject_count
     count = pose.get("subject_count")
@@ -140,6 +142,7 @@ def validate_pose(
 
 
 def main() -> int:
+    check_image_files = "--no-images" not in sys.argv[1:]
     schema_validator = Draft202012Validator(load_schema())
     valid_ids = taxonomy_ids(load_taxonomy())
 
@@ -172,7 +175,9 @@ def main() -> int:
             failures += 1
             continue
 
-        errors = validate_pose(pose_dir, pose, schema_validator, valid_ids)
+        errors = validate_pose(
+            pose_dir, pose, schema_validator, valid_ids, check_image_files
+        )
 
         # 4 & 5. Cross-pose uniqueness
         pose_id = pose.get("id")

@@ -1,0 +1,35 @@
+id: 01M15D1T0X4CED35XV321PFV0K
+slug: umbrella-share
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- backlit
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Close your eyes. When you open them, just find each other.
+  tone: nervous_client
+- text: Pull them in by the waist like you've done it a thousand times.
+  tone: romantic
+- text: Try to make each other laugh without touching. Loser buys dinner.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

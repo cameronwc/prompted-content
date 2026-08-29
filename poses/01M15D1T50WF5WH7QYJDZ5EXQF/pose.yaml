@@ -1,0 +1,36 @@
+id: 01M15D1T50WF5WH7QYJDZ5EXQF
+slug: group-squeeze-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+- pet
+light_conditions:
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The dog is in charge now. Everyone watch the dog.
+  tone: nervous_client
+- text: Group hug, but it's a competition. Tightest squeeze wins.
+  tone: playful
+- text: Tuck the smallest one into the middle and let them get cozy.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

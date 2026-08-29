@@ -1,0 +1,35 @@
+id: 01M15D1T3JJK98ZDNX2K2XP7CR
+slug: bleacher-row-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Shake out your hands. Now forget I said anything about hands.
+  tone: nervous_client
+- text: Cross your ankles, lean back, and study the clouds.
+  tone: calm
+- text: Do the smallest possible dance move you can get away with.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

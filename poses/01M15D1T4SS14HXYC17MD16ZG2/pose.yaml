@@ -1,0 +1,37 @@
+id: 01M15D1T4SS14HXYC17MD16ZG2
+slug: piggyback-parade-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Mom, Dad — look at each other. The kids will do the rest, I promise.
+  tone: nervous_client
+- text: Read them one page. I just want the listening faces.
+  tone: calm
+- text: Give the little one a countdown, then launch. I'll be ready.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

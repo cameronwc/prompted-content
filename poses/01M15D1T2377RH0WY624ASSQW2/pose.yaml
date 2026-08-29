@@ -1,0 +1,34 @@
+id: 01M15D1T2377RH0WY624ASSQW2
+slug: window-light-portrait
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You get veto power on every single frame. You're the editor.
+  tone: nervous_client
+- text: Hands in pockets, chin up, gum-commercial confidence.
+  tone: playful
+- text: Look off toward the water and think about next fall.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

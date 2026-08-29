@@ -1,0 +1,34 @@
+id: 01M15D1T70RGKMS2T92CT2A1YX
+slug: both-hands-cradle-forest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- open_shade
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me if anything aches and we swap to the next idea, no ceremony.
+  tone: nervous_client
+- text: Introduce the bump to the camera. Full name optional.
+  tone: playful
+- text: Think about the first morning home. Stay there a while.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

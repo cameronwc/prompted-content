@@ -1,0 +1,35 @@
+id: 01M15D1T6Z568J949S48C0DJNP
+slug: robe-drape-studio-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- blue
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You can't do this wrong. Your hands already know where to go.
+  tone: nervous_client
+- text: Look down and let your shoulders finally let go.
+  tone: calm
+- text: Whisper 'you can be anything except a drummer' to the bump.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

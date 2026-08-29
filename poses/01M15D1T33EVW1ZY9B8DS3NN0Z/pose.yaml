@@ -1,0 +1,34 @@
+id: 01M15D1T33EVW1ZY9B8DS3NN0Z
+slug: skateboard-underarm-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Walk like you're crossing the parking lot at school. That's it.
+  tone: nervous_client
+- text: Turn your face until you feel the sun on your cheek. Stop there.
+  tone: calm
+- text: Give me main-character-walking-to-the-bus energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T0HE62A56ESFN2C8A36
+slug: arm-swing-stroll
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at their ear. I know it sounds strange. Trust me.
+  tone: nervous_client
+- text: Hold their face like you're about to say something important.
+  tone: romantic
+- text: Rest your head on their chest and close your eyes.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

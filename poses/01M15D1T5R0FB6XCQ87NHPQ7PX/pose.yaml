@@ -1,0 +1,36 @@
+id: 01M15D1T5R0FB6XCQ87NHPQ7PX
+slug: look-down-at-bump
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- open_shade
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You've been posing for this one for months. This is the easy part.
+  tone: nervous_client
+- text: Think about the first morning home. Stay there a while.
+  tone: calm
+- text: Tell me the weirdest craving. Act it out. No words.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active

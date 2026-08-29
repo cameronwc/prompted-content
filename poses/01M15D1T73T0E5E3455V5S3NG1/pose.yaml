@@ -1,0 +1,36 @@
+id: 01M15D1T73T0E5E3455V5S3NG1
+slug: floor-lean-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to arch or bend anything. Stand comfortable and I'll move instead.
+  tone: nervous_client
+- text: Let your eyes go soft and heavy, almost sleepy. Stay.
+  tone: calm
+- text: Balance your lemonade on the bump — kidding, but that laugh was real.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: true
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

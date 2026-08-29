@@ -1,0 +1,34 @@
+id: 01M15D1T1YC2PD34VN9XXM1CXT
+slug: over-shoulder-look
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: One more just like that. You've officially got the hang of this.
+  tone: nervous_client
+- text: Slow your walk to half speed and let your eyes wander.
+  tone: calm
+- text: Point at the camera like you just won something.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

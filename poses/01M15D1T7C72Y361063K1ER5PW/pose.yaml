@@ -1,0 +1,36 @@
+id: 01M15D1T7C72Y361063K1ER5PW
+slug: partner-slow-dance-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me if anything aches and we swap to the next idea, no ceremony.
+  tone: nervous_client
+- text: Tell her one thing you can't wait to watch her do as a mom.
+  tone: romantic
+- text: Introduce the bump to the camera. Full name optional.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

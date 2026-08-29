@@ -1,0 +1,35 @@
+id: 01M15D1T01F2X049VVEAMZ392G
+slug: look-back-over-shoulder
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+- overcast
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You two just talk. I'm not even listening, I promise.
+  tone: nervous_client
+- text: Give me your best impression of each other.
+  tone: playful
+- text: Stay quiet together. Quiet looks incredible on you two.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

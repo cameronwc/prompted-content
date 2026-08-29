@@ -1,0 +1,35 @@
+id: 01M15D1T38PWZKV3RAPB3FG581
+slug: chin-on-hand-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You can blink. Blinking is allowed and encouraged.
+  tone: nervous_client
+- text: Jump on three. One... two... wait for it...
+  tone: playful
+- text: Look off toward the water and think about next fall.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

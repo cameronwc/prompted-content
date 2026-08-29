@@ -1,0 +1,36 @@
+id: 01M15D1T4WKMTVMPWZV21W78VG
+slug: tickle-pile-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- toddler
+- teen
+light_conditions:
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Just walk. Kids wander. That's the picture.
+  tone: nervous_client
+- text: Whoever laughs first has to do the dishes tonight.
+  tone: playful
+- text: Let the kids get heavy in your arms. Heavy is the picture.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

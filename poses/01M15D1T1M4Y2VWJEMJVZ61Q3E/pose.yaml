@@ -1,0 +1,35 @@
+id: 01M15D1T1M4Y2VWJEMJVZ61Q3E
+slug: temple-kiss-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+- backlit
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If you don't know what to do with your face, kiss their shoulder.
+  tone: nervous_client
+- text: On three, both of you try to kiss the other's cheek at the same time.
+  tone: playful
+- text: Come in for the kiss — but stop one inch short and stay there.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,34 @@
+id: 01M15D1T1ZR38WE7HSEGD9S546
+slug: hands-in-pockets
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We can start with your 'whatever' face. That one's usually the keeper.
+  tone: nervous_client
+- text: Do the smallest possible dance move you can get away with.
+  tone: playful
+- text: Lean back on the wall and let it hold all your weight.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

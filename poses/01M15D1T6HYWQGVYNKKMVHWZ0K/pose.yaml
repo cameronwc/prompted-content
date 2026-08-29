@@ -1,0 +1,36 @@
+id: 01M15D1T6HYWQGVYNKKMVHWZ0K
+slug: partner-bench-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Any time you need to sit, we make sitting the pose.
+  tone: nervous_client
+- text: Hold her hand against your chest and just stand in it.
+  tone: romantic
+- text: Close your eyes and take the slowest breath you've had all week.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

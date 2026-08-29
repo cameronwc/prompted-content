@@ -1,0 +1,36 @@
+id: 01M15D1T54R1J6HRQ903418GFP
+slug: stair-stack-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- teen
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Everyone squish in until somebody giggles.
+  tone: nervous_client
+- text: Everyone jump on three — Dad, you especially.
+  tone: playful
+- text: Tuck the smallest one into the middle and let them get cozy.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

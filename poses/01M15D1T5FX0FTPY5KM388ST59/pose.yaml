@@ -1,0 +1,37 @@
+id: 01M15D1T5FX0FTPY5KM388ST59
+slug: path-wander-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- child
+- pet
+light_conditions:
+- golden
+- open_shade
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: The dog is in charge now. Everyone watch the dog.
+  tone: nervous_client
+- text: Walk slow, hold hands, let the kids set the pace.
+  tone: calm
+- text: Race to that tree and back. Parents, you're allowed to lose.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

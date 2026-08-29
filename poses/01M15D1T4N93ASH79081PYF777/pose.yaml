@@ -1,0 +1,36 @@
+id: 01M15D1T4N93ASH79081PYF777
+slug: story-time-circle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 7
+subject_types:
+- adult
+- child
+light_conditions:
+- backlit
+location_types:
+- forest
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Parents, you're just furniture right now. Comfortable, loving furniture.
+  tone: nervous_client
+- text: Look at the little one and just watch them for a minute.
+  tone: calm
+- text: Kids, bury Dad's feet. Dad, act like you haven't noticed.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

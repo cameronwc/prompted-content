@@ -1,0 +1,35 @@
+id: 01M15D1T20PB809KXB8BEXVFJV
+slug: crossed-arms-grin
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: My job is deleting the bad ones. You'll never see them.
+  tone: nervous_client
+- text: Strut at me like the hallway is yours. Because it is.
+  tone: playful
+- text: Turn your face until you feel the sun on your cheek. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

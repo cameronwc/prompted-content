@@ -1,0 +1,35 @@
+id: 01M15D1T74V5KSBZSPAHE1J515
+slug: ultrasound-hold-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- night_flash
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: There's no pose. Just stand with your baby for a minute — you're already holding them.
+  tone: nervous_client
+- text: Close your eyes and take the slowest breath you've had all week.
+  tone: calm
+- text: Ask the baby to kick on three. They won't, but the waiting face is gold.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

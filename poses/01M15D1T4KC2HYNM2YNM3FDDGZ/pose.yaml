@@ -1,0 +1,36 @@
+id: 01M15D1T4KC2HYNM2YNM3FDDGZ
+slug: tailgate-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- teen
+light_conditions:
+- night_flash
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Just walk. Kids wander. That's the picture.
+  tone: nervous_client
+- text: Everyone jump on three — Dad, you especially.
+  tone: playful
+- text: Squeeze in close and take one big family breath together.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

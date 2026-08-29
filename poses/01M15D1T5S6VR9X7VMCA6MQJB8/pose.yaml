@@ -1,0 +1,36 @@
+id: 01M15D1T5S6VR9X7VMCA6MQJB8
+slug: partner-kneel-bump-kiss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- overcast
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If you feel silly, look down at the bump. Nobody's watching your face then.
+  tone: nervous_client
+- text: Slow dance, all three of you.
+  tone: romantic
+- text: Look down and let your shoulders finally let go.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

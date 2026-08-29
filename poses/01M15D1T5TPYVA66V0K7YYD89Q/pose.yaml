@@ -1,0 +1,36 @@
+id: 01M15D1T5TPYVA66V0K7YYD89Q
+slug: armchair-rest
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody expects you to feel graceful at eight months. You look it anyway.
+  tone: nervous_client
+- text: Turn toward the window until the light warms your cheek.
+  tone: calm
+- text: Laugh at how the wind keeps choosing your hair over the dress.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

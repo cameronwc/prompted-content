@@ -1,0 +1,35 @@
+id: 01M15D1T6YYFHSHZFQYS8YVHEB
+slug: nursery-window-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can stop for water and snacks any time. Growing a person is cardio.
+  tone: nervous_client
+- text: One breath for you, one for the baby. Repeat.
+  tone: calm
+- text: Waddle at me like it's a runway. Own the waddle.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- late_term
+version: 1
+status: active

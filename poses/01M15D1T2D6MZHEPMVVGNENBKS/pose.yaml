@@ -1,0 +1,35 @@
+id: 01M15D1T2D6MZHEPMVVGNENBKS
+slug: sunset-silhouette
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: One more just like that. You've officially got the hang of this.
+  tone: nervous_client
+- text: Sit however you'd sit if I weren't here.
+  tone: calm
+- text: Do the smallest possible dance move you can get away with.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

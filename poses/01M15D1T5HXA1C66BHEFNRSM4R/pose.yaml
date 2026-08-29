@@ -1,0 +1,39 @@
+id: 01M15D1T5HXA1C66BHEFNRSM4R
+slug: tailgate-sit-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- toddler
+- child
+light_conditions:
+- overcast
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If someone cries, we take a snack break. That includes the adults.
+  tone: nervous_client
+- text: Kids, on three, show me your silliest monster face. Parents, act terrified.
+  tone: playful
+- text: One quiet minute, all together. I'll take care of the rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+- wheelchair
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T3XQ7RHKS17HTE2R9Q4
+slug: everyone-look-at-baby
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- child
+- toddler
+light_conditions:
+- open_shade
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If someone cries, we take a snack break. That includes the adults.
+  tone: nervous_client
+- text: Ring around the parents — nobody falls down until I say.
+  tone: playful
+- text: Let the kids get heavy in your arms. Heavy is the picture.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

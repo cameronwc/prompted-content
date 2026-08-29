@@ -1,0 +1,37 @@
+id: 01M15D1T1DWBS5VXEKXAY8H0NA
+slug: blanket-wrap-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Ignore the camera entirely. It's just a long walk with better light.
+  tone: nervous_client
+- text: Tell them your worst joke. The one they've heard a hundred times.
+  tone: playful
+- text: Dip them — slowly, I've got you — and hold.
+  tone: romantic
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

@@ -1,0 +1,34 @@
+id: 01M15D1T5XPESY5SJBCC83QGA2
+slug: sheer-curtain-light
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Rest your weight on your back foot. Comfort photographs beautifully.
+  tone: nervous_client
+- text: One breath for you, one for the baby. Repeat.
+  tone: calm
+- text: Ask the baby to kick on three. They won't, but the waiting face is gold.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

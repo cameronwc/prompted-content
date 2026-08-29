@@ -1,0 +1,35 @@
+id: 01M15D1T2QJY1DKMYTNHYRX743
+slug: doorway-frame
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me about your weekend while I sort out my settings.
+  tone: nervous_client
+- text: Laugh at nothing. Full commitment. Sell it.
+  tone: playful
+- text: Drop your shoulders and let your arms hang heavy.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

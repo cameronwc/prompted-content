@@ -1,0 +1,37 @@
+id: 01M15D1T3TMDXVT20B4FS3P84A
+slug: sandwich-hug
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- toddler
+- teen
+- senior_adult
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Messy hair stays in. It's proof you all actually live together.
+  tone: nervous_client
+- text: Parents, rest your heads together while the kids settle in.
+  tone: calm
+- text: Swing the little one on every third step — one, two, wheee.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

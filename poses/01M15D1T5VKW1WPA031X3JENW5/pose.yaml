@@ -1,0 +1,36 @@
+id: 01M15D1T5VKW1WPA031X3JENW5
+slug: heart-hands-on-bump
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can stop for water and snacks any time. Growing a person is cardio.
+  tone: nervous_client
+- text: Soften your hands. They don't need to grip, just rest.
+  tone: calm
+- text: Practice your 'we're not naming them that' face.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

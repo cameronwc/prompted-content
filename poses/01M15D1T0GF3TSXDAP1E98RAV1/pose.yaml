@@ -1,0 +1,35 @@
+id: 01M15D1T0GF3TSXDAP1E98RAV1
+slug: lift-and-spin
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+- backlit
+location_types:
+- studio
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You're doing better than you think. Stay exactly like that.
+  tone: nervous_client
+- text: Swing your arms like you're twelve and just started dating.
+  tone: playful
+- text: Come in for the kiss — but stop one inch short and stay there.
+  tone: romantic
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

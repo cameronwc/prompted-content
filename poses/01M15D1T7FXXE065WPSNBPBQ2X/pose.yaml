@@ -1,0 +1,37 @@
+id: 01M15D1T7FXXE065WPSNBPBQ2X
+slug: partner-bench-lean-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to arch or bend anything. Stand comfortable and I'll move instead.
+  tone: nervous_client
+- text: Kneel down and kiss the bump like you're telling them a secret.
+  tone: romantic
+- text: Close your eyes and take the slowest breath you've had all week.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

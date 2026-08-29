@@ -1,0 +1,34 @@
+id: 01M15D1T2NSAPS17W1D3MTR97T
+slug: path-stroll
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- backlit
+location_types:
+- mountain
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: You can blink. Blinking is allowed and encouraged.
+  tone: nervous_client
+- text: Rest your chin on your hand and let your gaze go soft.
+  tone: calm
+- text: Flip the jacket over your shoulder like it's a movie poster.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

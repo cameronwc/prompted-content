@@ -1,0 +1,36 @@
+id: 01M15D1T3RSXH1A1GE2XDW5WFH
+slug: group-walk-hold-hands
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+- toddler
+light_conditions:
+- open_shade
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Nobody has to look at the camera. Look at whoever you love most in this group.
+  tone: nervous_client
+- text: One quiet minute, all together. I'll take care of the rest.
+  tone: calm
+- text: Kids, on three, show me your silliest monster face. Parents, act terrified.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

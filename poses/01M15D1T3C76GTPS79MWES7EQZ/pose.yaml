@@ -1,0 +1,35 @@
+id: 01M15D1T3C76GTPS79MWES7EQZ
+slug: brick-wall-lean-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- night_flash
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: One more just like that. You've officially got the hang of this.
+  tone: nervous_client
+- text: Laugh at nothing. Full commitment. Sell it.
+  tone: playful
+- text: Take one deep breath and let your face do nothing at all.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

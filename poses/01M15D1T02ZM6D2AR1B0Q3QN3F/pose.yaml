@@ -1,0 +1,34 @@
+id: 01M15D1T02ZM6D2AR1B0Q3QN3F
+slug: forehead-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Don't worry about your smile. Look at them and it'll happen on its own.
+  tone: nervous_client
+- text: Do your handshake. Every couple has one — if not, invent it now.
+  tone: playful
+- text: Say their name, just their name, quietly.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

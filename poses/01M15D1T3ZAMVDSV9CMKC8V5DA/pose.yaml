@@ -1,0 +1,38 @@
+id: 01M15D1T3ZAMVDSV9CMKC8V5DA
+slug: walk-away-holding-hands
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+- senior_adult
+light_conditions:
+- golden
+- overcast
+location_types:
+- beach
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: We'll get one photo where everyone smiles at me for Grandma. Then we play. Deal?
+  tone: nervous_client
+- text: Look at the little one and just watch them for a minute.
+  tone: calm
+- text: Pile on the parents like a snow drift.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

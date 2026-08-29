@@ -1,0 +1,38 @@
+id: 01M15D1T4D94AEJG5C4BA9E8WC
+slug: parents-kiss-kids-react
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- child
+- teen
+light_conditions:
+- overcast
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Mom, Dad — look at each other. The kids will do the rest, I promise.
+  tone: nervous_client
+- text: Parents, rest your heads together while the kids settle in.
+  tone: calm
+- text: Loudest family cheer on three. Neighbors optional.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T352Y309JDT3BJZA018
+slug: stair-perch-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: This isn't picture day. There's no line behind you.
+  tone: nervous_client
+- text: Watch the traffic go by like it's a movie.
+  tone: calm
+- text: Show me your yearbook smile — now show me the real one.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 1
+status: active

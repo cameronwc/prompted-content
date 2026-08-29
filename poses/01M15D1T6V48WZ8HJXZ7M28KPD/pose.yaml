@@ -1,0 +1,36 @@
+id: 01M15D1T6V48WZ8HJXZ7M28KPD
+slug: sheer-curtain-light-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Rest your weight on your back foot. Comfort photographs beautifully.
+  tone: nervous_client
+- text: Balance your lemonade on the bump — kidding, but that laugh was real.
+  tone: playful
+- text: Settle into the chair like the afternoon has no plans.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+- late_term
+version: 1
+status: active

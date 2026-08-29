@@ -1,0 +1,35 @@
+id: 01M15D1T0DS2876CTMHKWNMT29
+slug: hug-from-behind
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody's judging your hands. Wherever they land is right.
+  tone: nervous_client
+- text: Just stand in the light for me. That's the whole job.
+  tone: calm
+- text: Lift their chin and hold there. Don't kiss yet.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

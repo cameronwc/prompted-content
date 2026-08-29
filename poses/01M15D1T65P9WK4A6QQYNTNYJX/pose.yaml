@@ -1,0 +1,36 @@
+id: 01M15D1T65P9WK4A6QQYNTNYJX
+slug: floor-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- backlit
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll go at whatever speed your feet are happy with today.
+  tone: nervous_client
+- text: Let your eyes go soft and heavy, almost sleepy. Stay.
+  tone: calm
+- text: Balance your lemonade on the bump — kidding, but that laugh was real.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 1
+status: active

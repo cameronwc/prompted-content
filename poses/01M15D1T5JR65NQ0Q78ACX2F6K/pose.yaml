@@ -1,0 +1,36 @@
+id: 01M15D1T5JR65NQ0Q78ACX2F6K
+slug: field-run-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- child
+- toddler
+light_conditions:
+- blue
+location_types:
+- field
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Everyone squish in until somebody giggles.
+  tone: nervous_client
+- text: Everybody tickle the person on your left. Go.
+  tone: playful
+- text: Read them one page. I just want the listening faces.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

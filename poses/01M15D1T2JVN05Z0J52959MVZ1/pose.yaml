@@ -1,0 +1,34 @@
+id: 01M15D1T2JVN05Z0J52959MVZ1
+slug: hands-on-hips
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: My job is deleting the bad ones. You'll never see them.
+  tone: nervous_client
+- text: Take one deep breath and let your face do nothing at all.
+  tone: calm
+- text: Show me your yearbook smile — now show me the real one.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

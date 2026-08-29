@@ -1,0 +1,35 @@
+id: 01M15D1T0Z94TTH9NWF57TTC2E
+slug: look-back-over-shoulder-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can take this as slow as you want. Start by just holding hands.
+  tone: nervous_client
+- text: Slow dance. No music. You know the song.
+  tone: romantic
+- text: Stay quiet together. Quiet looks incredible on you two.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- plus_size_flattering
+version: 1
+status: active

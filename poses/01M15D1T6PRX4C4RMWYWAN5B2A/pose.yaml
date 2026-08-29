@@ -1,0 +1,34 @@
+id: 01M15D1T6PRX4C4RMWYWAN5B2A
+slug: look-down-at-bump-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The dress does most of the work. You just breathe.
+  tone: nervous_client
+- text: Hum something. Whatever they've been kicking along to.
+  tone: calm
+- text: Practice your 'we're not naming them that' face.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

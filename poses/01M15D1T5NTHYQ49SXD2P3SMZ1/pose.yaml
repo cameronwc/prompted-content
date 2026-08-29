@@ -1,0 +1,36 @@
+id: 01M15D1T5NTHYQ49SXD2P3SMZ1
+slug: partner-behind-hug
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The dress does most of the work. You just breathe.
+  tone: nervous_client
+- text: Tuck her under your arm like the weather's turning.
+  tone: romantic
+- text: Waddle at me like it's a runway. Own the waddle.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: true
+accessibility:
+- late_term
+version: 1
+status: active

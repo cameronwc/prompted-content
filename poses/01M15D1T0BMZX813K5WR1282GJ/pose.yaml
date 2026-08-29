@@ -1,0 +1,36 @@
+id: 01M15D1T0BMZX813K5WR1282GJ
+slug: lap-sit-laugh
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Close your eyes. When you open them, just find each other.
+  tone: nervous_client
+- text: Rest there. There's no clock today.
+  tone: calm
+- text: Grab their hand and don't tell them where you're going.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 1
+status: active

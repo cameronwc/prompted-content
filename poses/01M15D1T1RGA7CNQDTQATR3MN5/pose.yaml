@@ -1,0 +1,35 @@
+id: 01M15D1T1RGA7CNQDTQATR3MN5
+slug: hand-kiss-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's okay to feel silly. Silly photographs beautifully.
+  tone: nervous_client
+- text: Just stand in the light for me. That's the whole job.
+  tone: calm
+- text: Hold both their hands and press them to your chest.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T2WKT9EM97CGEG6Y97S
+slug: over-shoulder-look-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- backlit
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to smile yet. We're just testing the light on your jacket.
+  tone: nervous_client
+- text: Drop your shoulders and let your arms hang heavy.
+  tone: calm
+- text: Toss your hair like a shampoo ad, then laugh about it.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

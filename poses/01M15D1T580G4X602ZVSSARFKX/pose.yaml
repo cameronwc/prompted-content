@@ -1,0 +1,37 @@
+id: 01M15D1T580G4X602ZVSSARFKX
+slug: look-at-each-other-laugh-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 6
+subject_types:
+- adult
+- child
+- toddler
+- teen
+light_conditions:
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll get one photo where everyone smiles at me for Grandma. Then we play. Deal?
+  tone: nervous_client
+- text: Squeeze in close and take one big family breath together.
+  tone: calm
+- text: Swing the little one on every third step — one, two, wheee.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

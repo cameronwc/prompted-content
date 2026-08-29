@@ -1,0 +1,37 @@
+id: 01M15D1T000ASHR1HW16SS71RD
+slug: walking-hand-in-hand
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: It's okay to feel silly. Silly photographs beautifully.
+  tone: nervous_client
+- text: Trade jackets. Yes, really. Now act natural.
+  tone: playful
+- text: Slow dance. No music. You know the song.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

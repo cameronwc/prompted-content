@@ -1,0 +1,35 @@
+id: 01M15D1T0M38Z985EFYNENY769
+slug: wall-lean
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Forget I'm here for a second. Tell them about the first time you met.
+  tone: nervous_client
+- text: Try to make each other laugh without touching. Loser buys dinner.
+  tone: playful
+- text: Stand still together and listen to the wind for a second.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

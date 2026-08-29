@@ -1,0 +1,36 @@
+id: 01M15D1T4GTM73Z02JZBDKT3B7
+slug: bench-row
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- teen
+light_conditions:
+- blue
+location_types:
+- forest
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: Whisper-count to three, then everybody squeeze whoever's closest.
+  tone: nervous_client
+- text: Look at the little one and just watch them for a minute.
+  tone: calm
+- text: Race to that tree and back. Parents, you're allowed to lose.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

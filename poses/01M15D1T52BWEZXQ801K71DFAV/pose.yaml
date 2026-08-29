@@ -1,0 +1,37 @@
+id: 01M15D1T52BWEZXQ801K71DFAV
+slug: race-to-camera-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 5
+subject_types:
+- adult
+- toddler
+- teen
+- child
+light_conditions:
+- backlit
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: You handle the hugging. I'll handle the timing.
+  tone: nervous_client
+- text: Read them one page. I just want the listening faces.
+  tone: calm
+- text: Tallest to smallest, then everyone lean out and peek at me.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

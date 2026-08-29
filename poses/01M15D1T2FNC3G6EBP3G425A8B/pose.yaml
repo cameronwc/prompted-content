@@ -1,0 +1,36 @@
+id: 01M15D1T2FNC3G6EBP3G425A8B
+slug: cross-legged-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+- backlit
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We can start with your 'whatever' face. That one's usually the keeper.
+  tone: nervous_client
+- text: Close your eyes. Open them on my count, right into the lens.
+  tone: calm
+- text: Point at the camera like you just won something.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

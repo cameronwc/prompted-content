@@ -1,0 +1,37 @@
+id: 01M15D1T6DQASC7YJDG743XNMN
+slug: bump-from-the-side-seated
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me if anything aches and we swap to the next idea, no ceremony.
+  tone: nervous_client
+- text: Waddle at me like it's a runway. Own the waddle.
+  tone: playful
+- text: Look down and let your shoulders finally let go.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- limited_mobility
+- late_term
+version: 1
+status: active

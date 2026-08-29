@@ -1,0 +1,34 @@
+id: 01M15D1T2KW3PXT22NVZD23C3J
+slug: denim-jacket-swing
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look down at your shoes, then up at me on three. No smile needed.
+  tone: nervous_client
+- text: Strut at me like the hallway is yours. Because it is.
+  tone: playful
+- text: Tuck your hair behind your ear, slow, like you're thinking.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

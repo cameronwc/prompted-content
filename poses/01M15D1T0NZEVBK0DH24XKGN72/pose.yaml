@@ -1,0 +1,36 @@
+id: 01M15D1T0NZEVBK0DH24XKGN72
+slug: stair-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at their ear. I know it sounds strange. Trust me.
+  tone: nervous_client
+- text: Trace their jaw with your thumb, slowly.
+  tone: romantic
+- text: Walk toward me and whisper something you'd get in trouble for saying.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

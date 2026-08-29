@@ -1,0 +1,35 @@
+id: 01M15D1T716SNZJGT4G78A0WE9
+slug: laughing-with-partner-studio
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: There's no pose. Just stand with your baby for a minute — you're already holding them.
+  tone: nervous_client
+- text: Look at her like she's doing the most impressive thing you've ever seen. She is.
+  tone: romantic
+- text: Chin up, eyes closed, and let the sun do its thing.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

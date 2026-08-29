@@ -1,0 +1,35 @@
+id: 01M15D1T3707C2B825NQDJM05M
+slug: jacket-over-shoulder-urban
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+- blue
+location_types:
+- urban
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: We can start with your 'whatever' face. That one's usually the keeper.
+  tone: nervous_client
+- text: Point at the camera like you just won something.
+  tone: playful
+- text: Turn your face until you feel the sun on your cheek. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

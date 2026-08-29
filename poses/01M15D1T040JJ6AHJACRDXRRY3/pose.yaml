@@ -1,0 +1,34 @@
+id: 01M15D1T040JJ6AHJACRDXRRY3
+slug: piggyback
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Forget I'm here for a second. Tell them about the first time you met.
+  tone: nervous_client
+- text: Race-walk to that tree. Romantically.
+  tone: playful
+- text: Kiss them like the car is about to leave.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

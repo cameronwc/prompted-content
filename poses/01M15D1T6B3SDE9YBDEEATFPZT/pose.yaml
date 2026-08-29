@@ -1,0 +1,36 @@
+id: 01M15D1T6B3SDE9YBDEEATFPZT
+slug: partner-walk-behind
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: It's just us out here. Take up all the space you want.
+  tone: nervous_client
+- text: Tell her one thing you can't wait to watch her do as a mom.
+  tone: romantic
+- text: Introduce the bump to the camera. Full name optional.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active

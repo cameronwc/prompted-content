@@ -1,0 +1,35 @@
+id: 01M15D1T6R0HX37DZR86R5JEN7
+slug: armchair-rest-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If laughing feels better than smiling, laugh.
+  tone: nervous_client
+- text: Waddle at me like it's a runway. Own the waddle.
+  tone: playful
+- text: Hold still in the breeze and let everything else move.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

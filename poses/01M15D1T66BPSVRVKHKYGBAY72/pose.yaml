@@ -1,0 +1,35 @@
+id: 01M15D1T66BPSVRVKHKYGBAY72
+slug: ultrasound-hold
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- night_flash
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: There's no pose. Just stand with your baby for a minute — you're already holding them.
+  tone: nervous_client
+- text: Laugh at how the wind keeps choosing your hair over the dress.
+  tone: playful
+- text: Turn toward the window until the light warms your cheek.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

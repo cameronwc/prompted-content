@@ -1,0 +1,36 @@
+id: 01M15D1T55680H8JAZJFWYCYAC
+slug: couch-pile-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- teen
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Parents, you're just furniture right now. Comfortable, loving furniture.
+  tone: nervous_client
+- text: Kids, on three, show me your silliest monster face. Parents, act terrified.
+  tone: playful
+- text: Parents, rest your heads together while the kids settle in.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 70
+  aperture: f/3.2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

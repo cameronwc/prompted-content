@@ -1,0 +1,35 @@
+id: 01M15D1T2236X15Y5YCTQA248Z
+slug: guitar-on-steps
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Walk like you're crossing the parking lot at school. That's it.
+  tone: nervous_client
+- text: Close your eyes. Open them on my count, right into the lens.
+  tone: calm
+- text: Look over your shoulder like I owe you money.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

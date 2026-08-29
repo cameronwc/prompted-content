@@ -1,0 +1,35 @@
+id: 01M15D1T3H6WJCZGTY0S1ZVSW8
+slug: denim-jacket-swing-mountain
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: My job is deleting the bad ones. You'll never see them.
+  tone: nervous_client
+- text: Point at the camera like you just won something.
+  tone: playful
+- text: Close your eyes. Open them on my count, right into the lens.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

@@ -1,0 +1,35 @@
+id: 01M15D1T5PZCQB1QJA2EFKCMMK
+slug: window-silhouette
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We'll go at whatever speed your feet are happy with today.
+  tone: nervous_client
+- text: Hum something. Whatever they've been kicking along to.
+  tone: calm
+- text: Tell the baby the family gossip. They can keep a secret.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

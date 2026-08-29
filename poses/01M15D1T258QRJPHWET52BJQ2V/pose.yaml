@@ -1,0 +1,35 @@
+id: 01M15D1T258QRJPHWET52BJQ2V
+slug: skateboard-underarm
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to smile yet. We're just testing the light on your jacket.
+  tone: nervous_client
+- text: Toss your hair like a shampoo ad, then laugh about it.
+  tone: playful
+- text: Watch the traffic go by like it's a movie.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active

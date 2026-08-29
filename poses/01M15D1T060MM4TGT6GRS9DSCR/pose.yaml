@@ -1,0 +1,36 @@
+id: 01M15D1T060MM4TGT6GRS9DSCR
+slug: bench-snuggle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can take this as slow as you want. Start by just holding hands.
+  tone: nervous_client
+- text: Tell them the exact moment you knew.
+  tone: romantic
+- text: Soften your jaw. Now soften it again.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

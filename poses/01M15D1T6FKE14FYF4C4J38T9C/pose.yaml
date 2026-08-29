@@ -1,0 +1,34 @@
+id: 01M15D1T6FKE14FYF4C4J38T9C
+slug: staircase-gown
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- harsh_overhead
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If laughing feels better than smiling, laugh.
+  tone: nervous_client
+- text: Show me the bump like it just won first prize. It did.
+  tone: playful
+- text: Trace one slow circle with your thumb.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T3D8FWCDQH8VE35RT7V
+slug: cross-legged-sit-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me about your weekend while I sort out my settings.
+  tone: nervous_client
+- text: Rest your chin on your hand and let your gaze go soft.
+  tone: calm
+- text: Give the camera the look you give your little brother.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

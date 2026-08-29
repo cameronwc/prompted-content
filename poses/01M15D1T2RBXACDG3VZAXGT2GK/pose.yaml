@@ -1,0 +1,36 @@
+id: 01M15D1T2RBXACDG3VZAXGT2GK
+slug: meadow-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Give me a fake laugh. Yes, it works every time — see, that one's real.
+  tone: nervous_client
+- text: Give the camera the look you give your little brother.
+  tone: playful
+- text: Take one deep breath and let your face do nothing at all.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active

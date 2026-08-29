@@ -1,0 +1,37 @@
+id: 01M15D1T4FE4R9T3F1HNPWJ063
+slug: heads-together-huddle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- family
+subject_count: 4
+subject_types:
+- adult
+- child
+- toddler
+light_conditions:
+- blue
+- harsh_overhead
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody has to look at the camera. Look at whoever you love most in this group.
+  tone: nervous_client
+- text: One quiet minute, all together. I'll take care of the rest.
+  tone: calm
+- text: Pile on the parents like a snow drift.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

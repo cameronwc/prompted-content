@@ -1,0 +1,34 @@
+id: 01M15D1T1V176GTANJBC62Z77Z
+slug: umbrella-share-home
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- backlit
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: There's no wrong way to do this. Stand close and I'll do the rest.
+  tone: nervous_client
+- text: Rest there. There's no clock today.
+  tone: calm
+- text: Swing your arms like you're twelve and just started dating.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

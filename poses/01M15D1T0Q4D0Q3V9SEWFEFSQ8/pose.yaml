@@ -1,0 +1,35 @@
+id: 01M15D1T0Q4D0Q3V9SEWFEFSQ8
+slug: interlocked-hands-detail
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- backlit
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If it feels awkward, laugh about it. That's the shot.
+  tone: nervous_client
+- text: Kiss the back of their hand like it's 1948.
+  tone: romantic
+- text: Hold each other and sway, barely. Less than that. Perfect.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

@@ -1,0 +1,36 @@
+id: 01M15D1T03V79GQ4QHCGZC0XQK
+slug: dip-kiss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Lean into them the way you do on the couch at home.
+  tone: nervous_client
+- text: Take one slow step at a time, like the ground is warm sand.
+  tone: calm
+- text: Look at their lips, then their eyes. Take your time.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

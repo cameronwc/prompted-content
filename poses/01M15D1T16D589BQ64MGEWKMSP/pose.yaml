@@ -1,0 +1,34 @@
+id: 01M15D1T16D589BQ64MGEWKMSP
+slug: jacket-drape-mountain
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can take this as slow as you want. Start by just holding hands.
+  tone: nervous_client
+- text: Press your foreheads together and close your eyes for three seconds.
+  tone: romantic
+- text: Trade jackets. Yes, really. Now act natural.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

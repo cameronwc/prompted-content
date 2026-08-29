@@ -1,0 +1,35 @@
+id: 01M15D1T05NWR2WQZ3SXR0P86A
+slug: spin-out-twirl
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- overcast
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You don't have to look at the camera. Just look at each other.
+  tone: nervous_client
+- text: Dip them — slowly, I've got you — and hold.
+  tone: romantic
+- text: Five seconds of tickling starts... now.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active

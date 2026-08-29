@@ -1,0 +1,34 @@
+id: 01M15D1T6NPE1S1C57BAQ91NQM
+slug: dress-flow-field-beach
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- harsh_overhead
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: It's just us out here. Take up all the space you want.
+  tone: nervous_client
+- text: Give the bump a drumroll — gently, they're napping.
+  tone: playful
+- text: Cradle the bottom of the bump like you're weighing something precious.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

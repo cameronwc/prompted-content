@@ -1,0 +1,35 @@
+id: 01M15D1T67PNDTKYCQ8XAPK63J
+slug: partner-hands-heart
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If you feel silly, look down at the bump. Nobody's watching your face then.
+  tone: nervous_client
+- text: Press your foreheads together with the baby right between you.
+  tone: romantic
+- text: Point at the bump and mouth 'this was your idea.'
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

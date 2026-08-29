@@ -1,0 +1,35 @@
+id: 01M15D1T682M34P82J09RSYWCA
+slug: backlit-profile-golden
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- overcast
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We can stop for water and snacks any time. Growing a person is cardio.
+  tone: nervous_client
+- text: Let the dress settle. Then one more quiet breath.
+  tone: calm
+- text: Show me the bump like it just won first prize. It did.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

@@ -1,0 +1,34 @@
+id: 01M15D1T1ER0Y0V3DET3R8CG6W
+slug: lift-and-spin-mountain
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- couples
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You can't mess this up. There are no outtakes, only extras.
+  tone: nervous_client
+- text: One of you knows a secret. The other has to get it out.
+  tone: playful
+- text: Whisper your favorite thing about today.
+  tone: romantic
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

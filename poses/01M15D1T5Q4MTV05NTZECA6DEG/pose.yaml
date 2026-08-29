@@ -1,0 +1,35 @@
+id: 01M15D1T5Q4MTV05NTZECA6DEG
+slug: dress-flow-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- maternity
+subject_count: 1
+subject_types:
+- pregnant
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: There's no pose. Just stand with your baby for a minute — you're already holding them.
+  tone: nervous_client
+- text: Give the bump a drumroll — gently, they're napping.
+  tone: playful
+- text: Sway side to side, barely, like you're already rocking them.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- late_term
+version: 1
+status: active

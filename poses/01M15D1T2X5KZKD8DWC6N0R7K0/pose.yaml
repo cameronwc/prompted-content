@@ -1,0 +1,35 @@
+id: 01M15D1T2X5KZKD8DWC6N0R7K0
+slug: hands-in-pockets-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: PENDING-RUN-MAKE-PLACEHOLDERS
+placeholder: true
+categories:
+- senior
+subject_count: 1
+subject_types:
+- teen
+light_conditions:
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Give me a fake laugh. Yes, it works every time — see, that one's real.
+  tone: nervous_client
+- text: Tuck your hair behind your ear, slow, like you're thinking.
+  tone: calm
+- text: Kick a leaf at me. Gently. This lens was expensive.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active
