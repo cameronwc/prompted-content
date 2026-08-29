@@ -1,9 +1,9 @@
 id: 01M15D1T5MXA75JYH1SDP4FHFW
 slug: hands-on-bump-profile
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-:ofoL?b-;j[j@~WxuWBayxuIVRjoej[Rj%1ay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMKJxi^*yDIq9G-oSiX9%L%2ogoz~Vxu-pkDxuX9ozkD
 placeholder: true
 categories:
 - maternity
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T24N6NBD75C7MR1PMGQ
 slug: field-walk
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;t7t7_2-;oft7~qxuWBof%MIARQogofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIKc@C~p.7o#$yo|S$kX-;xuR-oL?b-;xuaetSx]SikC
 placeholder: true
 categories:
 - senior
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T000ASHR1HW16SS71RD
 slug: walking-hand-in-hand
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8KA-;WBaf^+-;WBWB~WxuRjayxuInRjofWBRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAF}yH9Z~p4:VsWVNHD*^%NGRQM|tRE1-VIV9aIVt7R*
 placeholder: true
 categories:
 - couples
@@ -36,3 +36,4 @@ accessibility:
 - wheelchair
 version: 2
 status: active
+image_source: ai

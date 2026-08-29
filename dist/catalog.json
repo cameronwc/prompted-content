@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 4,
-  "generated_at": "2026-08-29T17:31:52+00:00",
+  "catalog_version": 5,
+  "generated_at": "2026-08-29T18:02:44+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -156,9 +156,9 @@
       "id": "01M15D1T000ASHR1HW16SS71RD",
       "slug": "walking-hand-in-hand",
       "image": {
-        "thumb": "poses/01M15D1T000ASHR1HW16SS71RD/thumb.jpg",
-        "detail": "poses/01M15D1T000ASHR1HW16SS71RD/detail.jpg",
-        "blurhash": "d3G8KA-;WBaf^+-;WBWB~WxuRjayxuInRjofWBRjxuj["
+        "thumb": "poses/01M15D1T000ASHR1HW16SS71RD/thumb_ai.jpg",
+        "detail": "poses/01M15D1T000ASHR1HW16SS71RD/detail_ai.jpg",
+        "blurhash": "dAF}yH9Z~p4:VsWVNHD*^%NGRQM|tRE1-VIV9aIVt7R*"
       },
       "placeholder": true,
       "categories": [
@@ -206,15 +206,15 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T01F2X049VVEAMZ392G",
       "slug": "look-back-over-shoulder",
       "image": {
-        "thumb": "poses/01M15D1T01F2X049VVEAMZ392G/thumb.jpg",
-        "detail": "poses/01M15D1T01F2X049VVEAMZ392G/detail.jpg",
-        "blurhash": "d3G8K9-;j[jZ?b-;ayay~WxuR*ayxuIURjofayRjxbj["
+        "thumb": "poses/01M15D1T01F2X049VVEAMZ392G/thumb_ai.jpg",
+        "detail": "poses/01M15D1T01F2X049VVEAMZ392G/detail_ai.jpg",
+        "blurhash": "d45OyxRO4m%ipeM_R4%g9_j]$%o}tmoeV?SP-=RiIno#"
       },
       "placeholder": true,
       "categories": [
@@ -259,15 +259,15 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T02ZM6D2AR1B0Q3QN3F",
       "slug": "forehead-lean",
       "image": {
-        "thumb": "poses/01M15D1T02ZM6D2AR1B0Q3QN3F/thumb.jpg",
-        "detail": "poses/01M15D1T02ZM6D2AR1B0Q3QN3F/detail.jpg",
-        "blurhash": "d3G8H2-pofof?b-;j[of_3xuWBj[xuInRjofkCRjxbfQ"
+        "thumb": "poses/01M15D1T02ZM6D2AR1B0Q3QN3F/thumb_ai.jpg",
+        "detail": "poses/01M15D1T02ZM6D2AR1B0Q3QN3F/detail_ai.jpg",
+        "blurhash": "dKF=Bb%2~WtQ^jD%RkM{IpWAjFxZNGxuxZxubHoft6R+"
       },
       "placeholder": true,
       "categories": [
@@ -311,15 +311,15 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T03V79GQ4QHCGZC0XQK",
       "slug": "dip-kiss",
       "image": {
-        "thumb": "poses/01M15D1T03V79GQ4QHCGZC0XQK/thumb.jpg",
-        "detail": "poses/01M15D1T03V79GQ4QHCGZC0XQK/detail.jpg",
-        "blurhash": "d3G8H2%Mayof?b-pWBof_3xtRjoLxuIURjofayRjxuj["
+        "thumb": "poses/01M15D1T03V79GQ4QHCGZC0XQK/thumb_ai.jpg",
+        "detail": "poses/01M15D1T03V79GQ4QHCGZC0XQK/detail_ai.jpg",
+        "blurhash": "dlJ@5kj[s,s.~qs.WBWC?cWXR*ay-;R+smoeo~floLWV"
       },
       "placeholder": true,
       "categories": [
@@ -366,7 +366,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T040JJ6AHJACRDXRRY3",
@@ -424,9 +424,9 @@
       "id": "01M15D1T05NWR2WQZ3SXR0P86A",
       "slug": "spin-out-twirl",
       "image": {
-        "thumb": "poses/01M15D1T05NWR2WQZ3SXR0P86A/thumb.jpg",
-        "detail": "poses/01M15D1T05NWR2WQZ3SXR0P86A/detail.jpg",
-        "blurhash": "d3G8K9-payoL?b-;WBj[_3xuWBoexuIUWBt7WBRj%2of"
+        "thumb": "poses/01M15D1T05NWR2WQZ3SXR0P86A/thumb_ai.jpg",
+        "detail": "poses/01M15D1T05NWR2WQZ3SXR0P86A/detail_ai.jpg",
+        "blurhash": "dFH1h%jG?FR*4=s:IpWV0fR*E2WBR*ofxZay-ooet6R+"
       },
       "placeholder": true,
       "categories": [
@@ -471,7 +471,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T060MM4TGT6GRS9DSCR",
@@ -532,9 +532,9 @@
       "id": "01M15D1T07YWKBC96YTZ0QFCP8",
       "slug": "slow-dance",
       "image": {
-        "thumb": "poses/01M15D1T07YWKBC96YTZ0QFCP8/thumb.jpg",
-        "detail": "poses/01M15D1T07YWKBC96YTZ0QFCP8/detail.jpg",
-        "blurhash": "d2G8H2-;t6t7_2?Hoeof~qxuWBof%ME0Rjs;kCRj%2fQ"
+        "thumb": "poses/01M15D1T07YWKBC96YTZ0QFCP8/thumb_ai.jpg",
+        "detail": "poses/01M15D1T07YWKBC96YTZ0QFCP8/detail_ai.jpg",
+        "blurhash": "d7DIdfVt%b%L?XE30fxZI=J7#=$%9uxGw|%1W;I:S4Nd"
       },
       "placeholder": true,
       "categories": [
@@ -578,7 +578,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T08M4YGDZSJY85FGAD9",
@@ -691,9 +691,9 @@
       "id": "01M15D1T0A7T2NDTWZN6TCG9EN",
       "slug": "run-and-catch",
       "image": {
-        "thumb": "poses/01M15D1T0A7T2NDTWZN6TCG9EN/thumb.jpg",
-        "detail": "poses/01M15D1T0A7T2NDTWZN6TCG9EN/detail.jpg",
-        "blurhash": "d2G8H2-;ofof_3?Hj[of~qxuWBof%2E0Rjt7WVRQ%2of"
+        "thumb": "poses/01M15D1T0A7T2NDTWZN6TCG9EN/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0A7T2NDTWZN6TCG9EN/detail_ai.jpg",
+        "blurhash": "deKdl4NH-oof.TbHNGWC?waeRkoe?as.oJoexaRks:WB"
       },
       "placeholder": true,
       "categories": [
@@ -737,7 +737,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T0BMZX813K5WR1282GJ",
@@ -1011,9 +1011,9 @@
       "id": "01M15D1T0GF3TSXDAP1E98RAV1",
       "slug": "lift-and-spin",
       "image": {
-        "thumb": "poses/01M15D1T0GF3TSXDAP1E98RAV1/thumb.jpg",
-        "detail": "poses/01M15D1T0GF3TSXDAP1E98RAV1/detail.jpg",
-        "blurhash": "d2G8K9?HfjoM_3?bayj[~qxuWBofxuE0Rjt7RkRj%3of"
+        "thumb": "poses/01M15D1T0GF3TSXDAP1E98RAV1/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0GF3TSXDAP1E98RAV1/detail_ai.jpg",
+        "blurhash": "dOK,~e^+~p9ZnMWXNGxuj=RjD%adjYt6WCRjxaIoj[t7"
       },
       "placeholder": true,
       "categories": [
@@ -1057,7 +1057,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T0HE62A56ESFN2C8A36",
@@ -1221,9 +1221,9 @@
       "id": "01M15D1T0M38Z985EFYNENY769",
       "slug": "wall-lean",
       "image": {
-        "thumb": "poses/01M15D1T0M38Z985EFYNENY769/thumb.jpg",
-        "detail": "poses/01M15D1T0M38Z985EFYNENY769/detail.jpg",
-        "blurhash": "d2G8K9?HaxoL_3?aWBj[~qxuRjofxuE0Rjt7R*Rj%3of"
+        "thumb": "poses/01M15D1T0M38Z985EFYNENY769/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0M38Z985EFYNENY769/detail_ai.jpg",
+        "blurhash": "dwMQR^M{-:NG_NoIWWs:%NM|IUWVozbHV@ofWCxtoJa|"
       },
       "placeholder": true,
       "categories": [
@@ -1269,7 +1269,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T0NZEVBK0DH24XKGN72",
@@ -1434,9 +1434,9 @@
       "id": "01M15D1T0RY7RTC5HQRXBF9JVQ",
       "slug": "silhouette-kiss",
       "image": {
-        "thumb": "poses/01M15D1T0RY7RTC5HQRXBF9JVQ/thumb.jpg",
-        "detail": "poses/01M15D1T0RY7RTC5HQRXBF9JVQ/detail.jpg",
-        "blurhash": "d3G8K9-:ayof?b-;WBof~WxuRjj[xuInRjofayRjxuj["
+        "thumb": "poses/01M15D1T0RY7RTC5HQRXBF9JVQ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0RY7RTC5HQRXBF9JVQ/detail_ai.jpg",
+        "blurhash": "d%L3}kM{?Gj[~pjEWWoLtSoeIobHx]jYoJj[tRjYayay"
       },
       "placeholder": true,
       "categories": [
@@ -1482,7 +1482,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T0S3T7XNB7WZSS2PWG9",
@@ -1595,9 +1595,9 @@
       "id": "01M15D1T0VCSAHATNQMDYCYD1B",
       "slug": "walk-away-look-back",
       "image": {
-        "thumb": "poses/01M15D1T0VCSAHATNQMDYCYD1B/thumb.jpg",
-        "detail": "poses/01M15D1T0VCSAHATNQMDYCYD1B/detail.jpg",
-        "blurhash": "d3G8KA-;WBay?b-;WBay~WxuRjayxuIURjofWCRjxuof"
+        "thumb": "poses/01M15D1T0VCSAHATNQMDYCYD1B/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0VCSAHATNQMDYCYD1B/detail_ai.jpg",
+        "blurhash": "dSFO_eNGt1t6?woJM|bI?coJWBof?bWCs:WC?aoLkCoL"
       },
       "placeholder": true,
       "categories": [
@@ -1642,7 +1642,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T0WGWHW6S1R5T9KKY9Y",
@@ -1810,9 +1810,9 @@
       "id": "01M15D1T0Z94TTH9NWF57TTC2E",
       "slug": "look-back-over-shoulder-home",
       "image": {
-        "thumb": "poses/01M15D1T0Z94TTH9NWF57TTC2E/thumb.jpg",
-        "detail": "poses/01M15D1T0Z94TTH9NWF57TTC2E/detail.jpg",
-        "blurhash": "d3G8K9-;ayaf?b-;WBWB~WxuRjayxuInRjofayRjxbj["
+        "thumb": "poses/01M15D1T0Z94TTH9NWF57TTC2E/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0Z94TTH9NWF57TTC2E/detail_ai.jpg",
+        "blurhash": "dQL4A_sR~VE2~VNG9Zs:^*t7IUt6E1WXt7ofRjofRjkC"
       },
       "placeholder": true,
       "categories": [
@@ -1857,7 +1857,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T1010PHNR2GRTRGTZQF",
@@ -2285,9 +2285,9 @@
       "id": "01M15D1T18PD6NSF786SHXACFA",
       "slug": "run-and-catch-beach",
       "image": {
-        "thumb": "poses/01M15D1T18PD6NSF786SHXACFA/thumb.jpg",
-        "detail": "poses/01M15D1T18PD6NSF786SHXACFA/detail.jpg",
-        "blurhash": "d3G8H2-;j[jZ?b-;ayay_3xuR*ayxuInRjofa|Rjxbj["
+        "thumb": "poses/01M15D1T18PD6NSF786SHXACFA/thumb_ai.jpg",
+        "detail": "poses/01M15D1T18PD6NSF786SHXACFA/detail_ai.jpg",
+        "blurhash": "dpM%l,j[%2WC_4j[a#of%MayM|ayWXa|WAayM{j[j[j["
       },
       "placeholder": true,
       "categories": [
@@ -2331,7 +2331,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T19VT6NA5YJJAEQ666Q",
@@ -2658,9 +2658,9 @@
       "id": "01M15D1T1FCPV8F7CP8TS65BNS",
       "slug": "arm-swing-stroll-forest",
       "image": {
-        "thumb": "poses/01M15D1T1FCPV8F7CP8TS65BNS/thumb.jpg",
-        "detail": "poses/01M15D1T1FCPV8F7CP8TS65BNS/detail.jpg",
-        "blurhash": "d3G8KA-;WBju?b-;WBfP_3xuWBfQxaIUWBofRjRj%2oe"
+        "thumb": "poses/01M15D1T1FCPV8F7CP8TS65BNS/thumb_ai.jpg",
+        "detail": "poses/01M15D1T1FCPV8F7CP8TS65BNS/detail_ai.jpg",
+        "blurhash": "d3ELf=MLk%_1KD0f0g?G?aAC4q={JB}@#pxZ0gEKx[JU"
       },
       "placeholder": true,
       "categories": [
@@ -2705,7 +2705,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T1GC8BJ7VAX9KVVR20E",
@@ -3139,9 +3139,9 @@
       "id": "01M15D1T1RGA7CNQDTQATR3MN5",
       "slug": "hand-kiss-field",
       "image": {
-        "thumb": "poses/01M15D1T1RGA7CNQDTQATR3MN5/thumb.jpg",
-        "detail": "poses/01M15D1T1RGA7CNQDTQATR3MN5/detail.jpg",
-        "blurhash": "d3G8K9-:oej[?b-;j[j[_3xuWBoexuIUR*t7WBRjxuof"
+        "thumb": "poses/01M15D1T1RGA7CNQDTQATR3MN5/thumb_ai.jpg",
+        "detail": "poses/01M15D1T1RGA7CNQDTQATR3MN5/detail_ai.jpg",
+        "blurhash": "d78zMfxE0zJA0NafNHbGKMSg=_w^9uWV={oL$isoI?S4"
       },
       "placeholder": true,
       "categories": [
@@ -3186,7 +3186,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T1SPKW8DXTQDH1VW4KE",
@@ -3352,9 +3352,9 @@
       "id": "01M15D1T1WHZ3R72N5DX59PJGT",
       "slug": "letterman-lean",
       "image": {
-        "thumb": "poses/01M15D1T1WHZ3R72N5DX59PJGT/thumb.jpg",
-        "detail": "poses/01M15D1T1WHZ3R72N5DX59PJGT/detail.jpg",
-        "blurhash": "d2C@8M.7juof_3?bayof~qxuWBofxuIARjt7WARjx]of"
+        "thumb": "poses/01M15D1T1WHZ3R72N5DX59PJGT/thumb_ai.jpg",
+        "detail": "poses/01M15D1T1WHZ3R72N5DX59PJGT/detail_ai.jpg",
+        "blurhash": "d8FYJM9bX1~T^#={Rk?E~ANGIa%2%2t6t7WXI]xaRkbI"
       },
       "placeholder": true,
       "categories": [
@@ -3402,15 +3402,15 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T1X6MB35QX8T6JQDEFS",
       "slug": "curb-sit",
       "image": {
-        "thumb": "poses/01M15D1T1X6MB35QX8T6JQDEFS/thumb.jpg",
-        "detail": "poses/01M15D1T1X6MB35QX8T6JQDEFS/detail.jpg",
-        "blurhash": "d2C%mu-;ofof_2-=fQof~qxuV@ofxuIARjt7ayRjxvof"
+        "thumb": "poses/01M15D1T1X6MB35QX8T6JQDEFS/thumb_ai.jpg",
+        "detail": "poses/01M15D1T1X6MB35QX8T6JQDEFS/detail_ai.jpg",
+        "blurhash": "dOLgF3E1-lt6_1-pM|WVyGazIsRkOvbFxaja.9t7awa|"
       },
       "placeholder": true,
       "categories": [
@@ -3456,7 +3456,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T1YC2PD34VN9XXM1CXT",
@@ -3777,9 +3777,9 @@
       "id": "01M15D1T24N6NBD75C7MR1PMGQ",
       "slug": "field-walk",
       "image": {
-        "thumb": "poses/01M15D1T24N6NBD75C7MR1PMGQ/thumb.jpg",
-        "detail": "poses/01M15D1T24N6NBD75C7MR1PMGQ/detail.jpg",
-        "blurhash": "d2C%mu-;t7t7_2-;oft7~qxuWBof%MIARQogofRjtSay"
+        "thumb": "poses/01M15D1T24N6NBD75C7MR1PMGQ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T24N6NBD75C7MR1PMGQ/detail_ai.jpg",
+        "blurhash": "dIKc@C~p.7o#$yo|S$kX-;xuR-oL?b-;xuaetSx]SikC"
       },
       "placeholder": true,
       "categories": [
@@ -3823,7 +3823,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T258QRJPHWET52BJQ2V",
@@ -4145,9 +4145,9 @@
       "id": "01M15D1T2BD1YTRWK1X5G3TNQJ",
       "slug": "walk-toward-camera",
       "image": {
-        "thumb": "poses/01M15D1T2BD1YTRWK1X5G3TNQJ/thumb.jpg",
-        "detail": "poses/01M15D1T2BD1YTRWK1X5G3TNQJ/detail.jpg",
-        "blurhash": "d2C%mu-;ofof_3.8ofof~qxuWBj[%MITRQofoeRjtSay"
+        "thumb": "poses/01M15D1T2BD1YTRWK1X5G3TNQJ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T2BD1YTRWK1X5G3TNQJ/detail_ai.jpg",
+        "blurhash": "dRJQu|tRxVjcpd%Mj[ayT2xuE3ax~Wt7oJaf~pt7s-j["
       },
       "placeholder": true,
       "categories": [
@@ -4194,7 +4194,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T2C45159VKE3JQ61ZKB",
@@ -4621,9 +4621,9 @@
       "id": "01M15D1T2MMS45E4MT4H2FXHAS",
       "slug": "bleacher-row",
       "image": {
-        "thumb": "poses/01M15D1T2MMS45E4MT4H2FXHAS/thumb.jpg",
-        "detail": "poses/01M15D1T2MMS45E4MT4H2FXHAS/detail.jpg",
-        "blurhash": "d2C@8M-;ofof_3.8j[of~qxuWBof%MIARjt7jsRjxvoe"
+        "thumb": "poses/01M15D1T2MMS45E4MT4H2FXHAS/thumb_ai.jpg",
+        "detail": "poses/01M15D1T2MMS45E4MT4H2FXHAS/detail_ai.jpg",
+        "blurhash": "dTHKa-rqs.s,~VNFofR.-on$S4s:t6s9%1RjE2R+WCs:"
       },
       "placeholder": true,
       "categories": [
@@ -4668,15 +4668,15 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T2NSAPS17W1D3MTR97T",
       "slug": "path-stroll",
       "image": {
-        "thumb": "poses/01M15D1T2NSAPS17W1D3MTR97T/thumb.jpg",
-        "detail": "poses/01M15D1T2NSAPS17W1D3MTR97T/detail.jpg",
-        "blurhash": "d2C%mt-;t7t7_2-;oft7~qxuWBof%MITRjozoeRjtSay"
+        "thumb": "poses/01M15D1T2NSAPS17W1D3MTR97T/thumb_ai.jpg",
+        "detail": "poses/01M15D1T2NSAPS17W1D3MTR97T/detail_ai.jpg",
+        "blurhash": "dbHUtUIpNGWC.9R*xaWB~Wt6a}WB-;WXt6ayx]t6a#ax"
       },
       "placeholder": true,
       "categories": [
@@ -4719,7 +4719,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T2PVJW96KE9R0XB2WXS",
@@ -4885,9 +4885,9 @@
       "id": "01M15D1T2SJAES3X5VCYSJHEET",
       "slug": "varsity-jump",
       "image": {
-        "thumb": "poses/01M15D1T2SJAES3X5VCYSJHEET/thumb.jpg",
-        "detail": "poses/01M15D1T2SJAES3X5VCYSJHEET/detail.jpg",
-        "blurhash": "d2C%mt-;t7t7?b.8oft7~qxuWBof%MITRjofofRjtSWB"
+        "thumb": "poses/01M15D1T2SJAES3X5VCYSJHEET/thumb_ai.jpg",
+        "detail": "poses/01M15D1T2SJAES3X5VCYSJHEET/detail_ai.jpg",
+        "blurhash": "dYFGC5Sio~ae?wbIt8aexuWARPaexaWCRPjuWXofe.j]"
       },
       "placeholder": true,
       "categories": [
@@ -4930,7 +4930,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T2T9Y3T3134R0K4SGWW",
@@ -5356,9 +5356,9 @@
       "id": "01M15D1T32NWC6KRMKKR2H45J4",
       "slug": "field-walk-urban",
       "image": {
-        "thumb": "poses/01M15D1T32NWC6KRMKKR2H45J4/thumb.jpg",
-        "detail": "poses/01M15D1T32NWC6KRMKKR2H45J4/detail.jpg",
-        "blurhash": "d2C@8M-;ofof_3.8j[of~qxuV@of%MITRQt7oLRjtSj["
+        "thumb": "poses/01M15D1T32NWC6KRMKKR2H45J4/thumb_ai.jpg",
+        "detail": "poses/01M15D1T32NWC6KRMKKR2H45J4/detail_ai.jpg",
+        "blurhash": "d8HUF4IA-SozHqDjNGtR9}M|ENtQ,.tR%LxaWA%1xZIo"
       },
       "placeholder": true,
       "categories": [
@@ -5402,7 +5402,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T33EVW1ZY9B8DS3NN0Z",
@@ -5886,9 +5886,9 @@
       "id": "01M15D1T3C76GTPS79MWES7EQZ",
       "slug": "brick-wall-lean-studio",
       "image": {
-        "thumb": "poses/01M15D1T3C76GTPS79MWES7EQZ/thumb.jpg",
-        "detail": "poses/01M15D1T3C76GTPS79MWES7EQZ/detail.jpg",
-        "blurhash": "d2C@BT.7WBj]_M?bWBfk~qxuV@j[xuIARjt7RjRjx]of"
+        "thumb": "poses/01M15D1T3C76GTPS79MWES7EQZ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3C76GTPS79MWES7EQZ/detail_ai.jpg",
+        "blurhash": "dA9jAY=_9ZWBjFoLW;t60LkBxuR*t7kCs.M|S#NGxF%1"
       },
       "placeholder": true,
       "categories": [
@@ -5932,7 +5932,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3D8FWCDQH8VE35RT7V",
@@ -6257,9 +6257,9 @@
       "id": "01M15D1T3K8BPHEXMS55TTNNCY",
       "slug": "path-stroll-forest",
       "image": {
-        "thumb": "poses/01M15D1T3K8BPHEXMS55TTNNCY/thumb.jpg",
-        "detail": "poses/01M15D1T3K8BPHEXMS55TTNNCY/detail.jpg",
-        "blurhash": "d2C%mu-;ofog_3.8oeof~qxuWAj[%MITM|ofofRjtSay"
+        "thumb": "poses/01M15D1T3K8BPHEXMS55TTNNCY/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3K8BPHEXMS55TTNNCY/detail_ai.jpg",
+        "blurhash": "d8FF4x9a%D?F~S={E2^i?ENIN3%1-poes:baS*o0Rkxu"
       },
       "placeholder": true,
       "categories": [
@@ -6303,7 +6303,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3MK55C98N4FRVERPEJ",
@@ -6518,9 +6518,9 @@
       "id": "01M15D1T3RSXH1A1GE2XDW5WFH",
       "slug": "group-walk-hold-hands",
       "image": {
-        "thumb": "poses/01M15D1T3RSXH1A1GE2XDW5WFH/thumb.jpg",
-        "detail": "poses/01M15D1T3RSXH1A1GE2XDW5WFH/detail.jpg",
-        "blurhash": "d2Dw1.?aofj[_3?bj[fj~qxuRkfQ%MIBRjoyj[Rjx[j["
+        "thumb": "poses/01M15D1T3RSXH1A1GE2XDW5WFH/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3RSXH1A1GE2XDW5WFH/detail_ai.jpg",
+        "blurhash": "dpHeOFkCaxoe~XofWCay?cofWCWC.8jsoJfQx]WBjsoe"
       },
       "placeholder": true,
       "categories": [
@@ -6566,7 +6566,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3S1XHMMAK138MTY8JY",
@@ -6626,9 +6626,9 @@
       "id": "01M15D1T3TMDXVT20B4FS3P84A",
       "slug": "sandwich-hug",
       "image": {
-        "thumb": "poses/01M15D1T3TMDXVT20B4FS3P84A/thumb.jpg",
-        "detail": "poses/01M15D1T3TMDXVT20B4FS3P84A/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7_3?aofoy~qxuWBof%MIBM|oyofRjxtay"
+        "thumb": "poses/01M15D1T3TMDXVT20B4FS3P84A/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3TMDXVT20B4FS3P84A/detail_ai.jpg",
+        "blurhash": "dUD9kxxuRja}~q%MM{f6?b%MV@js?bt7RiWW-;kCM{j["
       },
       "placeholder": true,
       "categories": [
@@ -6675,15 +6675,15 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3VMK3CBZ9A3SQV9XYQ",
       "slug": "piggyback-parade",
       "image": {
-        "thumb": "poses/01M15D1T3VMK3CBZ9A3SQV9XYQ/thumb.jpg",
-        "detail": "poses/01M15D1T3VMK3CBZ9A3SQV9XYQ/detail.jpg",
-        "blurhash": "d2Dw1.?aofkB_3?bj[j[~qxuV[j[%MIBRjoyjuRjxuj["
+        "thumb": "poses/01M15D1T3VMK3CBZ9A3SQV9XYQ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3VMK3CBZ9A3SQV9XYQ/detail_ai.jpg",
+        "blurhash": "dcAA{=ogRjbH.TofRkfkyEfkaej[x^aeayjtt7WBa}ay"
       },
       "placeholder": true,
       "categories": [
@@ -6733,7 +6733,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3W4WB2XJ0GSRYRAQNR",
@@ -6796,9 +6796,9 @@
       "id": "01M15D1T3XQ7RHKS17HTE2R9Q4",
       "slug": "everyone-look-at-baby",
       "image": {
-        "thumb": "poses/01M15D1T3XQ7RHKS17HTE2R9Q4/thumb.jpg",
-        "detail": "poses/01M15D1T3XQ7RHKS17HTE2R9Q4/detail.jpg",
-        "blurhash": "d2Dw1.?aofj@_3?bj[a{~qxuRka{%MIBRjoff7Rjx[j["
+        "thumb": "poses/01M15D1T3XQ7RHKS17HTE2R9Q4/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3XQ7RHKS17HTE2R9Q4/detail_ai.jpg",
+        "blurhash": "d56t:nNH0K%2TLWBeSxu9}xZ-9I;-;WVInju%2RkM{%L"
       },
       "placeholder": true,
       "categories": [
@@ -6844,15 +6844,15 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3Y7X7QSNMTQ4KMTWZ4",
       "slug": "tickle-pile",
       "image": {
-        "thumb": "poses/01M15D1T3Y7X7QSNMTQ4KMTWZ4/thumb.jpg",
-        "detail": "poses/01M15D1T3Y7X7QSNMTQ4KMTWZ4/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7_3-;oft7~qxuWBof%MIBRjt7ofRjxtfQ"
+        "thumb": "poses/01M15D1T3Y7X7QSNMTQ4KMTWZ4/thumb_ai.jpg",
+        "detail": "poses/01M15D1T3Y7X7QSNMTQ4KMTWZ4/detail_ai.jpg",
+        "blurhash": "dmIgleS5xYWB~UkCj]jYx]bIWXWBS%ofWVRko#bIofoJ"
       },
       "placeholder": true,
       "categories": [
@@ -6899,7 +6899,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T3ZAMVDSV9CMKC8V5DA",
@@ -6963,9 +6963,9 @@
       "id": "01M15D1T4013QFG29R5PPHVE03",
       "slug": "swing-the-toddler",
       "image": {
-        "thumb": "poses/01M15D1T4013QFG29R5PPHVE03/thumb.jpg",
-        "detail": "poses/01M15D1T4013QFG29R5PPHVE03/detail.jpg",
-        "blurhash": "d2Dw1.?aofj[_3?bfQj[~qxuV[j[%LIBRjt7ayRjx[of"
+        "thumb": "poses/01M15D1T4013QFG29R5PPHVE03/thumb_ai.jpg",
+        "detail": "poses/01M15D1T4013QFG29R5PPHVE03/detail_ai.jpg",
+        "blurhash": "dbGuq5xaM{WXYRWCWBofPBNHxaayo#t6W;n$aKWBbHWB"
       },
       "placeholder": true,
       "categories": [
@@ -7014,7 +7014,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T41W431QH2XNWWSS7EK",
@@ -7181,9 +7181,9 @@
       "id": "01M15D1T44W45VHTQ86NTK4SJD",
       "slug": "race-to-camera",
       "image": {
-        "thumb": "poses/01M15D1T44W45VHTQ86NTK4SJD/thumb.jpg",
-        "detail": "poses/01M15D1T44W45VHTQ86NTK4SJD/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7_3.7ofof~qxuWBof%MIBNGoyofRjxtfQ"
+        "thumb": "poses/01M15D1T44W45VHTQ86NTK4SJD/thumb_ai.jpg",
+        "detail": "poses/01M15D1T44W45VHTQ86NTK4SJD/detail_ai.jpg",
+        "blurhash": "dqKw@8WAj[f6?waeWBoLxvogRja|V@ogs:WCRPaykCj@"
       },
       "placeholder": true,
       "categories": [
@@ -7228,7 +7228,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T45GS29E0C1VJAWEG04",
@@ -7455,9 +7455,9 @@
       "id": "01M15D1T49J1S0PXKNWAVWZJ9R",
       "slug": "ring-around-parents",
       "image": {
-        "thumb": "poses/01M15D1T49J1S0PXKNWAVWZJ9R/thumb.jpg",
-        "detail": "poses/01M15D1T49J1S0PXKNWAVWZJ9R/detail.jpg",
-        "blurhash": "d2Dw1..7ofj[_3?bj[j[~qxuRkj[%MIBRjt6juRjx[of"
+        "thumb": "poses/01M15D1T49J1S0PXKNWAVWZJ9R/thumb_ai.jpg",
+        "detail": "poses/01M15D1T49J1S0PXKNWAVWZJ9R/detail_ai.jpg",
+        "blurhash": "d#L4c]ozxtWB~qayWBoL%MWBRjayR*WBj@fRM{bHofof"
       },
       "placeholder": true,
       "categories": [
@@ -7503,7 +7503,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T4APJHAR2J614QVYK3A",
@@ -7735,9 +7735,9 @@
       "id": "01M15D1T4EXVXS04514NQG9MN3",
       "slug": "jump-together",
       "image": {
-        "thumb": "poses/01M15D1T4EXVXS04514NQG9MN3/thumb.jpg",
-        "detail": "poses/01M15D1T4EXVXS04514NQG9MN3/detail.jpg",
-        "blurhash": "d2Dw1.-;ofof_3?aj[of~qxuWBof%MIBRjt7f7Rjx[of"
+        "thumb": "poses/01M15D1T4EXVXS04514NQG9MN3/thumb_ai.jpg",
+        "detail": "poses/01M15D1T4EXVXS04514NQG9MN3/detail_ai.jpg",
+        "blurhash": "dDIqu.~p9ZXAtS%Nt6s:4nNGIVn$E2Mx%Mx^IUxaxukC"
       },
       "placeholder": true,
       "categories": [
@@ -7784,7 +7784,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T4FE4R9T3F1HNPWJ063",
@@ -7845,9 +7845,9 @@
       "id": "01M15D1T4GTM73Z02JZBDKT3B7",
       "slug": "bench-row",
       "image": {
-        "thumb": "poses/01M15D1T4GTM73Z02JZBDKT3B7/thumb.jpg",
-        "detail": "poses/01M15D1T4GTM73Z02JZBDKT3B7/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7^+-;oft7~qxuWBof%MIBNGofofRjxtay"
+        "thumb": "poses/01M15D1T4GTM73Z02JZBDKT3B7/thumb_ai.jpg",
+        "detail": "poses/01M15D1T4GTM73Z02JZBDKT3B7/detail_ai.jpg",
+        "blurhash": "d35hiJt54mT0ctRjQ-xvAJRjwH%3?cocD%X9-;kBIoWr"
       },
       "placeholder": true,
       "categories": [
@@ -7893,7 +7893,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T4HJJ3CWG7PD5VV8SM4",
@@ -9314,9 +9314,9 @@
       "id": "01M15D1T5BPTEW41C8VH5VJ9DY",
       "slug": "parents-kiss-kids-react-mountain",
       "image": {
-        "thumb": "poses/01M15D1T5BPTEW41C8VH5VJ9DY/thumb.jpg",
-        "detail": "poses/01M15D1T5BPTEW41C8VH5VJ9DY/detail.jpg",
-        "blurhash": "d3Dw1.-;WBay?b-;WBay_3xuRja|xuIVRjofWBRjxtof"
+        "thumb": "poses/01M15D1T5BPTEW41C8VH5VJ9DY/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5BPTEW41C8VH5VJ9DY/detail_ai.jpg",
+        "blurhash": "dtGbS8bIR*od~pofR*jY?bj[aeWB%NWBj?WBtRWVj[js"
       },
       "placeholder": true,
       "categories": [
@@ -9364,7 +9364,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T5CCSW2NWDWVQ03ZSF0",
@@ -9814,9 +9814,9 @@
       "id": "01M15D1T5MXA75JYH1SDP4FHFW",
       "slug": "hands-on-bump-profile",
       "image": {
-        "thumb": "poses/01M15D1T5MXA75JYH1SDP4FHFW/thumb.jpg",
-        "detail": "poses/01M15D1T5MXA75JYH1SDP4FHFW/detail.jpg",
-        "blurhash": "d3HK|G-:ofoL?b-;j[j@~WxuWBayxuIVRjoej[Rj%1ay"
+        "thumb": "poses/01M15D1T5MXA75JYH1SDP4FHFW/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5MXA75JYH1SDP4FHFW/detail_ai.jpg",
+        "blurhash": "dMKJxi^*yDIq9G-oSiX9%L%2ogoz~Vxu-pkDxuX9ozkD"
       },
       "placeholder": true,
       "categories": [
@@ -9860,7 +9860,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T5NTHYQ49SXD2P3SMZ1",
@@ -10028,9 +10028,9 @@
       "id": "01M15D1T5R0FB6XCQ87NHPQ7PX",
       "slug": "look-down-at-bump",
       "image": {
-        "thumb": "poses/01M15D1T5R0FB6XCQ87NHPQ7PX/thumb.jpg",
-        "detail": "poses/01M15D1T5R0FB6XCQ87NHPQ7PX/detail.jpg",
-        "blurhash": "d3HK|H-;ayax?b-;WBax~WxuWBayxuIVRjs:WBRj%2of"
+        "thumb": "poses/01M15D1T5R0FB6XCQ87NHPQ7PX/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5R0FB6XCQ87NHPQ7PX/detail_ai.jpg",
+        "blurhash": "ddLNVxkX?Gt7~qofRjWWxaRjM{ayxuofs:ax%Lt6R*WB"
       },
       "placeholder": true,
       "categories": [
@@ -10078,7 +10078,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T5S6VR9X7VMCA6MQJB8",
@@ -10249,9 +10249,9 @@
       "id": "01M15D1T5W1BEVJ6TD07XN9P04",
       "slug": "meadow-walk",
       "image": {
-        "thumb": "poses/01M15D1T5W1BEVJ6TD07XN9P04/thumb.jpg",
-        "detail": "poses/01M15D1T5W1BEVJ6TD07XN9P04/detail.jpg",
-        "blurhash": "d3HK|G-:ofoe?b-;j[j[_3xuWBj[xuIVRjt6WVRj%1of"
+        "thumb": "poses/01M15D1T5W1BEVJ6TD07XN9P04/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5W1BEVJ6TD07XN9P04/detail_ai.jpg",
+        "blurhash": "dAK,?84n~V~VM{-:E2Rk-N9GE2IoE3WV%1R*s8tRIpM{"
       },
       "placeholder": true,
       "categories": [
@@ -10294,7 +10294,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T5XPESY5SJBCC83QGA2",
@@ -10459,9 +10459,9 @@
       "id": "01M15D1T60FJ02CBV3Q38T366G",
       "slug": "nursery-window",
       "image": {
-        "thumb": "poses/01M15D1T60FJ02CBV3Q38T366G/thumb.jpg",
-        "detail": "poses/01M15D1T60FJ02CBV3Q38T366G/detail.jpg",
-        "blurhash": "d3HK|G-:ofoe?b-;j[j[_3xuWBj[xuIVRjofa#Rj%1j["
+        "thumb": "poses/01M15D1T60FJ02CBV3Q38T366G/thumb_ai.jpg",
+        "detail": "poses/01M15D1T60FJ02CBV3Q38T366G/detail_ai.jpg",
+        "blurhash": "dSD]SSbI~qxtt6WBRkt7IoofoJoeR,oLoLWVf5ofWBWB"
       },
       "placeholder": true,
       "categories": [
@@ -10504,7 +10504,7 @@
       "accessibility": [],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T61H6EJ6AB5KP0FC6RV",
@@ -10886,9 +10886,9 @@
       "id": "01M15D1T682M34P82J09RSYWCA",
       "slug": "backlit-profile-golden",
       "image": {
-        "thumb": "poses/01M15D1T682M34P82J09RSYWCA/thumb.jpg",
-        "detail": "poses/01M15D1T682M34P82J09RSYWCA/detail.jpg",
-        "blurhash": "d3HK|H-:j[j@?b-;ayf6~WxuRkayxuIVRjoej]WAxtaz"
+        "thumb": "poses/01M15D1T682M34P82J09RSYWCA/thumb_ai.jpg",
+        "detail": "poses/01M15D1T682M34P82J09RSYWCA/detail_ai.jpg",
+        "blurhash": "dhIEhCRjxts.~qWBbIWC^+WVWXjt%MofoJay%2ofWBWC"
       },
       "placeholder": true,
       "categories": [
@@ -10934,7 +10934,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T69W2299PQFR6WG9THC",
@@ -11045,9 +11045,9 @@
       "id": "01M15D1T6B3SDE9YBDEEATFPZT",
       "slug": "partner-walk-behind",
       "image": {
-        "thumb": "poses/01M15D1T6B3SDE9YBDEEATFPZT/thumb.jpg",
-        "detail": "poses/01M15D1T6B3SDE9YBDEEATFPZT/detail.jpg",
-        "blurhash": "d3HK|H-;j[ax?b-;ayae~WxuR*ayxuIVRjofWVRj%1j["
+        "thumb": "poses/01M15D1T6B3SDE9YBDEEATFPZT/thumb_ai.jpg",
+        "detail": "poses/01M15D1T6B3SDE9YBDEEATFPZT/detail_ai.jpg",
+        "blurhash": "dgL4E1D%%0WA~padNGM{ozjsRPjuadkDM{kDt6ofofoe"
       },
       "placeholder": true,
       "categories": [
@@ -11093,7 +11093,7 @@
       ],
       "version": 1,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T6CR0W0NYHP5KXAAQCK",
@@ -11259,9 +11259,9 @@
       "id": "01M15D1T6FKE14FYF4C4J38T9C",
       "slug": "staircase-gown",
       "image": {
-        "thumb": "poses/01M15D1T6FKE14FYF4C4J38T9C/thumb.jpg",
-        "detail": "poses/01M15D1T6FKE14FYF4C4J38T9C/detail.jpg",
-        "blurhash": "d2HK|G?aofoK_3?bj[j@~qxuWBj[xuD*Rjt7WBRj%Lof"
+        "thumb": "poses/01M15D1T6FKE14FYF4C4J38T9C/thumb_ai.jpg",
+        "detail": "poses/01M15D1T6FKE14FYF4C4J38T9C/detail_ai.jpg",
+        "blurhash": "dZMsyID*~Vt6%$t6NIRkS$R+IoaxNaoLxYoeV@j[M{R*"
       },
       "placeholder": true,
       "categories": [
@@ -11305,7 +11305,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T6GYKK6CZ63NJ167MJM",
@@ -11838,9 +11838,9 @@
       "id": "01M15D1T6TN9VCBD9E1GNRTTMQ",
       "slug": "meadow-walk-forest",
       "image": {
-        "thumb": "poses/01M15D1T6TN9VCBD9E1GNRTTMQ/thumb.jpg",
-        "detail": "poses/01M15D1T6TN9VCBD9E1GNRTTMQ/detail.jpg",
-        "blurhash": "d3HK|G-pofoe?b-;jtj[~WxuWBf6xuIVRjofj]RjxtfQ"
+        "thumb": "poses/01M15D1T6TN9VCBD9E1GNRTTMQ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T6TN9VCBD9E1GNRTTMQ/detail_ai.jpg",
+        "blurhash": "dCD+xCxs9sM|5Ys:Dkad~Va|IURjx]j]skNGV|baIVt6"
       },
       "placeholder": true,
       "categories": [
@@ -11884,7 +11884,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T6V48WZ8HJXZ7M28KPD",
@@ -12105,9 +12105,9 @@
       "id": "01M15D1T6Z568J949S48C0DJNP",
       "slug": "robe-drape-studio-beach",
       "image": {
-        "thumb": "poses/01M15D1T6Z568J949S48C0DJNP/thumb.jpg",
-        "detail": "poses/01M15D1T6Z568J949S48C0DJNP/detail.jpg",
-        "blurhash": "d3HK|H-;fQax?b-;WBax~WxuRjayxuIVRjofazRjxtj["
+        "thumb": "poses/01M15D1T6Z568J949S48C0DJNP/thumb_ai.jpg",
+        "detail": "poses/01M15D1T6Z568J949S48C0DJNP/detail_ai.jpg",
+        "blurhash": "dYIqfMMx%LxZ~WWBWBWC%KtRIoWC-oogjZax-:axfkWV"
       },
       "placeholder": true,
       "categories": [
@@ -12152,7 +12152,7 @@
       "accessibility": [],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T70RGKMS2T92CT2A1YX",
@@ -12744,9 +12744,9 @@
       "id": "01M15D1T7BB10QG5K1VQWTB64J",
       "slug": "bump-from-the-side-seated-field",
       "image": {
-        "thumb": "poses/01M15D1T7BB10QG5K1VQWTB64J/thumb.jpg",
-        "detail": "poses/01M15D1T7BB10QG5K1VQWTB64J/detail.jpg",
-        "blurhash": "d3HK|H-;WBax?b-;WAWB~WxuRjayxuIVRjs:WBRj%2of"
+        "thumb": "poses/01M15D1T7BB10QG5K1VQWTB64J/thumb_ai.jpg",
+        "detail": "poses/01M15D1T7BB10QG5K1VQWTB64J/detail_ai.jpg",
+        "blurhash": "dmLy=XR+t5xt~Wazafj[OtofWCRktSofR*WV%Mj[aybH"
       },
       "placeholder": true,
       "categories": [
@@ -12794,7 +12794,7 @@
       ],
       "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai"
     },
     {
       "id": "01M15D1T7C72Y361063K1ER5PW",

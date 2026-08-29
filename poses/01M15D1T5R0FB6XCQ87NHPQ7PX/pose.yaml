@@ -1,9 +1,9 @@
 id: 01M15D1T5R0FB6XCQ87NHPQ7PX
 slug: look-down-at-bump
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;ayax?b-;WBax~WxuWBayxuIVRjs:WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddLNVxkX?Gt7~qofRjWWxaRjM{ayxuofs:ax%Lt6R*WB
 placeholder: true
 categories:
 - maternity
@@ -36,3 +36,4 @@ accessibility:
 - limited_mobility
 version: 2
 status: active
+image_source: ai

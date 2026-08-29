@@ -1,9 +1,9 @@
 id: 01M15D1T2BD1YTRWK1X5G3TNQJ
 slug: walk-toward-camera
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;ofof_3.8ofof~qxuWBj[%MITRQofoeRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dRJQu|tRxVjcpd%Mj[ayT2xuE3ax~Wt7oJaf~pt7s-j[
 placeholder: true
 categories:
 - senior
@@ -35,3 +35,4 @@ accessibility:
 - wheelchair
 version: 2
 status: active
+image_source: ai

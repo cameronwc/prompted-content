@@ -1,9 +1,9 @@
 id: 01M15D1T1WHZ3R72N5DX59PJGT
 slug: letterman-lean
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7juof_3?bayof~qxuWBofxuIARjt7WARjx]of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d8FYJM9bX1~T^#={Rk?E~ANGIa%2%2t6t7WXI]xaRkbI
 placeholder: true
 categories:
 - senior
@@ -36,3 +36,4 @@ accessibility:
 - limited_mobility
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T3XQ7RHKS17HTE2R9Q4
 slug: everyone-look-at-baby
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?aofj@_3?bj[a{~qxuRka{%MIBRjoff7Rjx[j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d56t:nNH0K%2TLWBeSxu9}xZ-9I;-;WVInju%2RkM{%L
 placeholder: true
 categories:
 - family
@@ -35,3 +35,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

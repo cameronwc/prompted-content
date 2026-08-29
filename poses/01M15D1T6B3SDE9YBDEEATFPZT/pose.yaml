@@ -1,9 +1,9 @@
 id: 01M15D1T6B3SDE9YBDEEATFPZT
 slug: partner-walk-behind
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[ax?b-;ayae~WxuR*ayxuIVRjofWVRj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dgL4E1D%%0WA~padNGM{ozjsRPjuadkDM{kDt6ofofoe
 placeholder: true
 categories:
 - maternity
@@ -34,3 +34,4 @@ accessibility:
 - limited_mobility
 version: 1
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T60FJ02CBV3Q38T366G
 slug: nursery-window
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-:ofoe?b-;j[j[_3xuWBj[xuIVRjofa#Rj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSD]SSbI~qxtt6WBRkt7IoofoJoeR,oLoLWVf5ofWBWB
 placeholder: true
 categories:
 - maternity
@@ -32,3 +32,4 @@ gear:
 accessibility: []
 version: 1
 status: active
+image_source: ai

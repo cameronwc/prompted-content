@@ -1,9 +1,9 @@
 id: 01M15D1T01F2X049VVEAMZ392G
 slug: look-back-over-shoulder
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;j[jZ?b-;ayay~WxuR*ayxuIURjofayRjxbj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d45OyxRO4m%ipeM_R4%g9_j]$%o}tmoeV?SP-=RiIno#
 placeholder: true
 categories:
 - couples
@@ -34,3 +34,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

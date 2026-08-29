@@ -1,9 +1,9 @@
 id: 01M15D1T6FKE14FYF4C4J38T9C
 slug: staircase-gown
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2HK|G?aofoK_3?bj[j@~qxuWBj[xuD*Rjt7WBRj%Lof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZMsyID*~Vt6%$t6NIRkS$R+IoaxNaoLxYoeV@j[M{R*
 placeholder: true
 categories:
 - maternity
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

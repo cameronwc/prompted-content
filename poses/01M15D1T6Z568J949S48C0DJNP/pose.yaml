@@ -1,9 +1,9 @@
 id: 01M15D1T6Z568J949S48C0DJNP
 slug: robe-drape-studio-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;fQax?b-;WBax~WxuRjayxuIVRjofazRjxtj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYIqfMMx%LxZ~WWBWBWC%KtRIoWC-oogjZax-:axfkWV
 placeholder: true
 categories:
 - maternity
@@ -34,3 +34,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

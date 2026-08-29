@@ -1,9 +1,9 @@
 id: 01M15D1T6TN9VCBD9E1GNRTTMQ
 slug: meadow-walk-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-pofoe?b-;jtj[~WxuWBf6xuIVRjofj]RjxtfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCD+xCxs9sM|5Ys:Dkad~Va|IURjx]j]skNGV|baIVt6
 placeholder: true
 categories:
 - maternity
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

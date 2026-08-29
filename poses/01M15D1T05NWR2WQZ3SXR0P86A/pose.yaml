@@ -1,9 +1,9 @@
 id: 01M15D1T05NWR2WQZ3SXR0P86A
 slug: spin-out-twirl
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-payoL?b-;WBj[_3xuWBoexuIUWBt7WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFH1h%jG?FR*4=s:IpWV0fR*E2WBR*ofxZay-ooet6R+
 placeholder: true
 categories:
 - couples
@@ -34,3 +34,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

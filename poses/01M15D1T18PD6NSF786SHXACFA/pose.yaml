@@ -1,9 +1,9 @@
 id: 01M15D1T18PD6NSF786SHXACFA
 slug: run-and-catch-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2-;j[jZ?b-;ayay_3xuR*ayxuInRjofa|Rjxbj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpM%l,j[%2WC_4j[a#of%MayM|ayWXa|WAayM{j[j[j[
 placeholder: true
 categories:
 - couples
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

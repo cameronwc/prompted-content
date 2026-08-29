@@ -1,9 +1,9 @@
 id: 01M15D1T03V79GQ4QHCGZC0XQK
 slug: dip-kiss
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2%Mayof?b-pWBof_3xtRjoLxuIURjofayRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dlJ@5kj[s,s.~qs.WBWC?cWXR*ay-;R+smoeo~floLWV
 placeholder: true
 categories:
 - couples
@@ -35,3 +35,4 @@ accessibility:
 - seated_variant
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T3TMDXVT20B4FS3P84A
 slug: sandwich-hug
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7_3?aofoy~qxuWBof%MIBM|oyofRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUD9kxxuRja}~q%MM{f6?b%MV@js?bt7RiWW-;kCM{j[
 placeholder: true
 categories:
 - family
@@ -36,3 +36,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

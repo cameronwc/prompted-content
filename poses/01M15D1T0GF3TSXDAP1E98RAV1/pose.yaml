@@ -1,9 +1,9 @@
 id: 01M15D1T0GF3TSXDAP1E98RAV1
 slug: lift-and-spin
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2G8K9?HfjoM_3?bayj[~qxuWBofxuE0Rjt7RkRj%3of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOK,~e^+~p9ZnMWXNGxuj=RjD%adjYt6WCRjxaIoj[t7
 placeholder: true
 categories:
 - couples
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 1
 status: active
+image_source: ai

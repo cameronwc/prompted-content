@@ -1,9 +1,9 @@
 id: 01M15D1T02ZM6D2AR1B0Q3QN3F
 slug: forehead-lean
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2-pofof?b-;j[of_3xuWBj[xuInRjofkCRjxbfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKF=Bb%2~WtQ^jD%RkM{IpWAjFxZNGxuxZxubHoft6R+
 placeholder: true
 categories:
 - couples
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai

@@ -1,9 +1,9 @@
 id: 01M15D1T5BPTEW41C8VH5VJ9DY
 slug: parents-kiss-kids-react-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3Dw1.-;WBay?b-;WBay_3xuRja|xuIVRjofWBRjxtof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dtGbS8bIR*od~pofR*jY?bj[aeWB%NWBj?WBtRWVj[js
 placeholder: true
 categories:
 - family
@@ -36,3 +36,4 @@ accessibility:
 - seated_variant
 version: 1
 status: active
+image_source: ai

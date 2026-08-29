@@ -1,9 +1,9 @@
 id: 01M15D1T32NWC6KRMKKR2H45J4
 slug: field-walk-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M-;ofof_3.8j[of~qxuV@of%MITRQt7oLRjtSj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d8HUF4IA-SozHqDjNGtR9}M|ENtQ,.tR%LxaWA%1xZIo
 placeholder: true
 categories:
 - senior
@@ -33,3 +33,4 @@ gear:
 accessibility: []
 version: 2
 status: active
+image_source: ai
