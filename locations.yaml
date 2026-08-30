@@ -1,0 +1,6 @@
+# Saved shoot locations, offered by name in ingest_init.
+locations:
+- name: Cannon Beach, OR
+  lat: 45.8918
+  lon: -123.9615
+  location_type: beach

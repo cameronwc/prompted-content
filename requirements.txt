@@ -4,3 +4,11 @@ blurhash-python>=1.2.2
 jsonschema>=4.21.0
 boto3>=1.34.0
 python-ulid>=2.5.0
+
+# Photo ingest pipeline (pinned)
+piexif==1.1.3
+ImageHash==4.3.2
+opencv-python-headless==5.0.0.93
+numpy==2.5.2
+timezonefinder==8.3.0
+google-genai==2.20.0

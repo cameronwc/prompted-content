@@ -24,7 +24,12 @@ TF_FLAGS ?=
 
 .PHONY: help venv seed validate build publish clean \
         ai-select ai-dry-run ai-generate \
+        ingest-init ingest-scan ingest-quality ingest-cluster ingest-derive \
+        ingest-prompts ingest-draft approve-prompts ingest-finalize \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
+
+# Every ingest target after init takes SHOOT=<shoot-name>
+SHOOT_ARG = $(if $(SHOOT),$(SHOOT),$(error SHOOT=<shoot-name> is required))
 
 help:
 	@echo "Prompted content pipeline"
@@ -34,6 +39,16 @@ help:
 	@echo "  make build          Build dist/catalog.json (runs validate first)"
 	@echo "  make publish        Dry-run publish to R2 (add CONFIRM=1 to upload)"
 	@echo "  make clean          Remove dist/ output and caches"
+	@echo ""
+	@echo "  make ingest-init    Create a shoot manifest interactively"
+	@echo "  make ingest-scan     SHOOT=<name>  Extract EXIF -> _scan.json"
+	@echo "  make ingest-quality  SHOOT=<name>  Score frames, flag rejects"
+	@echo "  make ingest-cluster  SHOOT=<name>  Collapse near-duplicates"
+	@echo "  make ingest-derive   SHOOT=<name>  Solar light band + gear"
+	@echo "  make ingest-prompts  SHOOT=<name>  Gemini prompt copy (CONFIRM=1 to spend)"
+	@echo "  make ingest-draft    SHOOT=<name>  Emit drafts + _review.md"
+	@echo "  make approve-prompts SHOOT=<name>  Bulk-approve reviewed prompts"
+	@echo "  make ingest-finalize SHOOT=<name>  Promote completed drafts into poses/"
 	@echo ""
 	@echo "  make ai-select      Pick the 50-pose AI subset (deterministic)"
 	@echo "  make ai-dry-run     Print the image prompts; no API calls"
@@ -69,6 +84,37 @@ ifeq ($(CONFIRM),1)
 else
 	$(PYTHON) tools/publish.py --env $(or $(ENV),dev)
 endif
+
+ingest-init: venv
+	$(PYTHON) tools/ingest_init.py $(SHOOT)
+
+ingest-scan: venv
+	$(PYTHON) tools/ingest_scan.py $(SHOOT_ARG)
+
+ingest-quality: venv
+	$(PYTHON) tools/ingest_quality.py $(SHOOT_ARG) $(INGEST_ARGS)
+
+ingest-cluster: venv
+	$(PYTHON) tools/ingest_cluster.py $(SHOOT_ARG) $(INGEST_ARGS)
+
+ingest-derive: venv
+	$(PYTHON) tools/ingest_derive.py $(SHOOT_ARG)
+
+ingest-prompts: venv
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/ingest_prompts.py $(SHOOT_ARG) --yes $(INGEST_ARGS)
+else
+	$(PYTHON) tools/ingest_prompts.py $(SHOOT_ARG) $(INGEST_ARGS)
+endif
+
+ingest-draft: venv
+	$(PYTHON) tools/ingest_draft.py $(SHOOT_ARG)
+
+approve-prompts: venv
+	$(PYTHON) tools/ingest_draft.py $(SHOOT_ARG) --approve-prompts
+
+ingest-finalize: venv
+	$(PYTHON) tools/ingest_finalize.py $(SHOOT_ARG) $(INGEST_ARGS)
 
 ai-select: venv
 	$(PYTHON) tools/select_ai_subset.py

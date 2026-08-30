@@ -19,5 +19,9 @@ crash.*.log
 *.secret.tfvars
 *.auto.tfvars.json
 
+# Photo ingest: raw session exports and archived sources never enter git
+inbox/
+archive/
+
 # macOS
 .DS_Store
