@@ -25,7 +25,77 @@ Quick reference:
 
 Python 3.11+; `make` creates `.venv` automatically.
 
-## Adding a real pose
+## Photo ingest pipeline (the normal path for real photography)
+
+Turns a folder of raw session exports into validated, tagged, published
+pose records. The camera records no GPS: location and timezone are
+supplied once per shoot and drive the solar light-band derivation, so get
+the timezone right — a wrong zone shifts every band by hours, silently.
+
+### 1. Export the session from Lightroom
+
+One export of the whole session (not per-pose):
+
+- Crop: 4×5 where you can; non-4:5 frames are flagged, never auto-cropped
+- File: JPEG, sRGB, quality ~90, **full resolution** (short edge ≥ 1200 px)
+- Metadata: **keep all EXIF** — capture time, focal, aperture, ISO and the
+  flash flag feed the pipeline (there's no GPS to strip)
+- No watermark, no sharpening beyond your normal export
+
+### 2. Create the shoot manifest
+
+```sh
+make ingest-init            # interactive: name, location, timezone
+```
+
+Saved locations come from `locations.yaml` (typed once, reused by name);
+the timezone is auto-suggested from the coordinates and must be confirmed.
+Then drop the exports into `inbox/<shoot-name>/` (gitignored).
+
+### 3. Run the pipeline
+
+```sh
+make ingest-scan     SHOOT=<name>   # EXIF -> _scan.json (UTC per frame)
+make ingest-quality  SHOOT=<name>   # blur/exposure/resolution gates -> _rejects.json
+make ingest-cluster  SHOOT=<name>   # near-duplicates -> one candidate per pose
+make ingest-derive   SHOOT=<name>   # solar elevation -> light band, gear from EXIF
+make ingest-prompts  SHOOT=<name> CONFIRM=1   # Gemini prompt copy (needs GEMINI_API_KEY)
+make ingest-draft    SHOOT=<name>   # drafts + _review.md
+```
+
+Rejects are flags, never deletions (`--keep` via
+`INGEST_ARGS="--keep <file>"` force-keeps). Wrong cluster pick:
+`INGEST_ARGS="--select c03 DSCF1234.jpg" make ingest-cluster ...`.
+Prompt copy off-key: `INGEST_ARGS="--regenerate c03 --note 'less cheesy'"
+make ingest-prompts ... CONFIRM=1`.
+
+### 4. Review — the human part
+
+Open `inbox/<shoot>/_review.md`. For each candidate: fill every `TODO:`
+in its `_drafts/<ulid>.yaml` (slug, categories, subject count/types,
+difficulty, accessibility, plus `backlit`/`open_shade` if true — those are
+never inferred), and **read the three generated prompts**. Approve them by
+setting `prompts_approved: true`, editing the text (an edit counts as
+review), or `make approve-prompts SHOOT=<name>` after reading everything.
+
+### 5. Finalize and publish
+
+```sh
+make ingest-finalize SHOOT=<name>   # refuses incomplete/unapproved drafts
+make validate
+git add poses/ && git commit
+make publish-dev CONFIRM=1          # build once, upload to dev
+make verify-dev                     # fetch + validate what's actually published
+make promote-prod CONFIRM=1         # copy the EXACT dev artifact to prod (prints diff)
+```
+
+Finalize writes `poses/<ulid>/` (1200w detail, 400w thumb, blurhash) and
+moves the source frames to `archive/<shoot>/` — nothing is ever deleted.
+Prod is never rebuilt: `promote-prod` copies the verified dev catalog
+byte-for-byte, refuses placeholders, retains all previous versions, and
+`make rollback-prod TO=<version> CONFIRM=1` is a pointer flip.
+
+## Adding a real pose by hand (fallback)
 
 ### 1. Export from Lightroom
 

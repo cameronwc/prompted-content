@@ -1,5 +1,104 @@
 # STATUS
 
+## Light taxonomy fix + photo ingest pipeline (2026-08-30, fourth session)
+
+### Part A — light condition taxonomy (complete, verified)
+
+Audit before any change (all 240 records):
+
+- **Average light tags per pose: 1.97** (473 tags total)
+- Distribution: 1 tag ×67, 2 ×130, 3 ×26, 4 ×17, 5+ ×0
+- Contradictory pairs: golden+soft_low **92**, mid+harsh_overhead 19,
+  golden+mid 17, soft_low+mid 17, blue+mid 6, overcast+golden 6,
+  golden+blue 5, blue+soft_low 5, night_flash+golden 4,
+  night_flash+soft_low 4, blue+harsh_overhead 3, golden+harsh_overhead 3,
+  soft_low+harsh_overhead 3, overcast+harsh_overhead 1, night_flash+mid 1,
+  night_flash+overcast 1. **112 poses violated at least one rule.**
+  (Root cause: the daylight-band migration added soft_low to every golden
+  pose and mid to every overcast/open_shade/harsh_overhead pose.)
+
+After the retag (tools/retag_light_groups.py, 178 poses touched — 121
+content changes, 57 order normalizations):
+
+- **Average light tags per pose: 1.38** — below the predicted 1.5–2.5
+  window. The seed data simply never carried more than ~1 legal modifier
+  per pose; every legal sky/modifier tag was kept, so 1.38 is the honest
+  ceiling, not over-stripping.
+- Distribution: 1 ×152, 2 ×85, 3 ×3. Zero rule violations;
+  `make validate` enforces all 8 rules as errors and passes.
+- Band coverage after retag: golden 49, soft_low 48, mid 53, blue 16,
+  harsh_overhead 13 — no solar band matches zero poses. **Judgment call:**
+  unhinted golden poses were split golden/soft_low by a stable slug hash,
+  because every soft_low tag had been derived from golden and a pure
+  "keep the original" rule left the 6–20° band empty (the exact defect
+  commit 2205ba4 existed to fix). Synthetic placeholders only; real
+  photos get exact bands from EXIF.
+- **`mid`, not `midday`:** the plan's light_bands.json sketch used a band
+  id `midday`, but the permanent taxonomy id is `mid` and ids do not
+  change — taxonomy/light_bands.json uses `mid` so band ids and pose tag
+  ids are the same vocabulary. `night` is a band but never a pose tag.
+- taxonomy/light_conditions.yaml is grouped (solar/sky/modifier) with
+  excludes metadata; catalog.json now embeds both the grouped taxonomy
+  and `light_bands` so the iOS app duplicates nothing.
+- generate_seed.py shares the same resolver as the retag (RNG-free), so a
+  re-seed reproduces the retag; the resolver was exhaustively tested over
+  every drawable tag combination (0 violations). `make seed` was NOT run.
+
+### Part B — photo ingest pipeline (built; per-phase verification below)
+
+Tools: ingest_init (manifest, timezonefinder suggestion + mandatory
+confirm, locations.yaml saved-location reuse), ingest_scan (EXIF +
+manifest-timezone UTC), ingest_quality (config-driven gates, rejects
+flagged never deleted, --keep, opt-in --auto-crop to reviewed copies),
+ingest_cluster (phash single-link clustering, sharpness-weighted ranking,
+--select overrides that survive re-runs), solar.py (NOAA math; verified
+against Greenwich equinox noon) + ingest_derive (band per candidate,
+night_flash drops the band, missing timestamp flagged never guessed,
+per-time-range and per-cluster location overrides), ingest_prompts
+(**model `gemini-3.7-flash`** — checked against the live model docs
+2026-08-30; the brief's guess `gemini-3.1-flash` does not exist — voice
+guide prompts/voice_guide.md with 12 few-shot lines, image + metadata
+sent, cost estimate + CONFIRM gate, resumable, --regenerate --note),
+ingest_draft (drafts + _review.md, prompts_approved: false, never
+overwrites operator edits, approve-prompts), ingest_finalize (refusal
+gates incl. prompts approval where a hand-edit counts, exact-4:5 resize,
+blurhash, archive-not-delete), publish promotion (publish-dev /
+verify-dev / promote-prod / rollback-prod; built once, promoted by copy,
+placeholder gate, diff, pointer rollback).
+
+All verification ran against a 15-frame synthetic sample shoot
+(EXIF-written fixtures incl. blurred/blown/crushed/no-timestamp/flash/
+3:2/dusk-boundary frames): 12 survivors clustered to 7 candidates; bands
+matched thresholds including 19.93°→soft_low and −2.10°→blue boundary
+cases; a finalize round-trip produced a valid 241st pose (then reverted —
+fixture content does not belong in the library).
+
+### Incomplete / unverified — read before trusting the rest
+
+- **Gemini generation never ran live: GEMINI_API_KEY is absent from the
+  operator env-file** (and a session guard forbids touching .env). All
+  ingest_prompts plumbing (estimate/abort, JSON-schema output, format
+  retry, resume, --regenerate steering note in the request) verified with
+  a stubbed client. Real copy quality, real cost, and the live API-shape
+  assumption are unverified until: export GEMINI_API_KEY, then
+  `make ingest-prompts SHOOT=<name> CONFIRM=1` (~$0.003/pose estimated).
+- **No live upload performed this session** (per instructions). The
+  published dev catalog is still v5, which predates Part A — verify-dev
+  correctly reports 17 of its records failing the new 3-tag schema cap.
+  First `make publish-dev CONFIRM=1` after this session heals it.
+- promote-prod's confirm path (real CopyObject) has never executed —
+  prod refuses anyway while records are placeholders. Dry-run, diff, and
+  rollback logic verified against stubbed buckets; the placeholder gate
+  and the rollback existence check verified against the real buckets
+  (read-only).
+- Face counts on the synthetic fixtures are 0 (Haar cascade, drawn
+  figures); the finalize mismatch gate is exercised only at the
+  |faces − subject_count| ≤ 1 boundary. First real shoot will test it
+  properly.
+- The ingest sample shoot lives only in gitignored inbox/ (fixture
+  generator kept in the session scratchpad, not the repo).
+- Key rotation from the 2026-08-29 session is still outstanding.
+
 ## Live infrastructure & first publish (2026-08-29, third work session)
 
 - **All 50 AI images generated** (46 in this session, 0 failures, ≈$3.08).
