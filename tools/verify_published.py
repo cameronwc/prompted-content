@@ -33,6 +33,27 @@ def main() -> int:
     print(f"catalog: {len(catalog['poses'])} poses, "
           f"schema_version {catalog['schema_version']}")
 
+    # Validate the PUBLISHED records, not the working tree.
+    from jsonschema import Draft202012Validator
+
+    from common import load_schema
+    validator = Draft202012Validator(load_schema())
+    invalid = 0
+    for pose in catalog["poses"]:
+        local = dict(pose, image=dict(pose["image"],
+                                      thumb="thumb.jpg", detail="detail.jpg"))
+        errors = list(validator.iter_errors(local))
+        if errors:
+            invalid += 1
+            print(f"  INVALID {pose.get('id')}: {errors[0].message}")
+    if invalid:
+        print(f"{invalid} published poses fail schema validation")
+        return 1
+    print(f"All {len(catalog['poses'])} published poses pass schema validation.")
+    from collections import Counter
+    sources = Counter(p.get("image_source", "synthetic") for p in catalog["poses"])
+    print("Image sources: " + ", ".join(f"{s}={n}" for s, n in sorted(sources.items())))
+
     known = set()
     token = {}
     while True:

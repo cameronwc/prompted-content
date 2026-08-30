@@ -26,10 +26,12 @@ TF_FLAGS ?=
         ai-select ai-dry-run ai-generate \
         ingest-init ingest-scan ingest-quality ingest-cluster ingest-derive \
         ingest-prompts ingest-draft approve-prompts ingest-finalize \
+        publish-dev verify-dev promote-prod rollback-prod verify-published \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
 
 # Every ingest target after init takes SHOOT=<shoot-name>
-SHOOT_ARG = $(if $(SHOOT),$(SHOOT),$(error SHOOT=<shoot-name> is required))
+require-shoot:
+	@test -n "$(SHOOT)" || { echo "error: SHOOT=<shoot-name> is required" >&2; exit 1; }
 
 help:
 	@echo "Prompted content pipeline"
@@ -38,6 +40,10 @@ help:
 	@echo "  make validate       Validate every pose (schema, taxonomy refs, images)"
 	@echo "  make build          Build dist/catalog.json (runs validate first)"
 	@echo "  make publish        Dry-run publish to R2 (add CONFIRM=1 to upload)"
+	@echo "  make publish-dev    Build the catalog and publish it to dev (CONFIRM=1 to upload)"
+	@echo "  make verify-dev     Fetch the published dev catalog, validate, report counts"
+	@echo "  make promote-prod   Copy the EXACT dev catalog version to prod (CONFIRM=1; prints diff)"
+	@echo "  make rollback-prod  Repoint prod latest.json (TO=<version> CONFIRM=1)"
 	@echo "  make clean          Remove dist/ output and caches"
 	@echo ""
 	@echo "  make ingest-init    Create a shoot manifest interactively"
@@ -88,33 +94,33 @@ endif
 ingest-init: venv
 	$(PYTHON) tools/ingest_init.py $(SHOOT)
 
-ingest-scan: venv
-	$(PYTHON) tools/ingest_scan.py $(SHOOT_ARG)
+ingest-scan: venv require-shoot
+	$(PYTHON) tools/ingest_scan.py $(SHOOT)
 
-ingest-quality: venv
-	$(PYTHON) tools/ingest_quality.py $(SHOOT_ARG) $(INGEST_ARGS)
+ingest-quality: venv require-shoot
+	$(PYTHON) tools/ingest_quality.py $(SHOOT) $(INGEST_ARGS)
 
-ingest-cluster: venv
-	$(PYTHON) tools/ingest_cluster.py $(SHOOT_ARG) $(INGEST_ARGS)
+ingest-cluster: venv require-shoot
+	$(PYTHON) tools/ingest_cluster.py $(SHOOT) $(INGEST_ARGS)
 
-ingest-derive: venv
-	$(PYTHON) tools/ingest_derive.py $(SHOOT_ARG)
+ingest-derive: venv require-shoot
+	$(PYTHON) tools/ingest_derive.py $(SHOOT)
 
-ingest-prompts: venv
+ingest-prompts: venv require-shoot
 ifeq ($(CONFIRM),1)
-	$(PYTHON) tools/ingest_prompts.py $(SHOOT_ARG) --yes $(INGEST_ARGS)
+	$(PYTHON) tools/ingest_prompts.py $(SHOOT) --yes $(INGEST_ARGS)
 else
-	$(PYTHON) tools/ingest_prompts.py $(SHOOT_ARG) $(INGEST_ARGS)
+	$(PYTHON) tools/ingest_prompts.py $(SHOOT) $(INGEST_ARGS)
 endif
 
-ingest-draft: venv
-	$(PYTHON) tools/ingest_draft.py $(SHOOT_ARG)
+ingest-draft: venv require-shoot
+	$(PYTHON) tools/ingest_draft.py $(SHOOT)
 
-approve-prompts: venv
-	$(PYTHON) tools/ingest_draft.py $(SHOOT_ARG) --approve-prompts
+approve-prompts: venv require-shoot
+	$(PYTHON) tools/ingest_draft.py $(SHOOT) --approve-prompts
 
-ingest-finalize: venv
-	$(PYTHON) tools/ingest_finalize.py $(SHOOT_ARG) $(INGEST_ARGS)
+ingest-finalize: venv require-shoot
+	$(PYTHON) tools/ingest_finalize.py $(SHOOT) $(INGEST_ARGS)
 
 ai-select: venv
 	$(PYTHON) tools/select_ai_subset.py
@@ -131,6 +137,34 @@ endif
 
 verify-published: venv
 	$(PYTHON) tools/verify_published.py --env $(or $(ENV),dev)
+
+# Dev -> prod is a promotion pipeline: the catalog is built ONCE, published
+# and verified in dev, and promote-prod copies that exact artifact. Prod is
+# never rebuilt and never deleted from; rollback is a latest.json repoint.
+publish-dev: build
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/publish.py --env dev --confirm
+else
+	$(PYTHON) tools/publish.py --env dev
+endif
+
+verify-dev: venv
+	$(PYTHON) tools/verify_published.py --env dev
+
+promote-prod: venv
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/publish.py --promote --confirm
+else
+	$(PYTHON) tools/publish.py --promote
+endif
+
+rollback-prod: venv
+	@test -n "$(TO)" || { echo "usage: make rollback-prod TO=<version> [CONFIRM=1]" >&2; exit 1; }
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/publish.py --rollback-to $(TO) --confirm
+else
+	$(PYTHON) tools/publish.py --rollback-to $(TO)
+endif
 
 clean:
 	rm -rf dist/catalog.json .pytest_cache tools/__pycache__
