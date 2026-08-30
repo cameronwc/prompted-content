@@ -13,7 +13,6 @@ subject_types:
 light_conditions:
 - blue
 - overcast
-- mid
 location_types:
 - forest
 orientation: vertical
@@ -32,6 +31,6 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

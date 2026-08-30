@@ -79,8 +79,9 @@
       "type": "array",
       "items": { "type": "string" },
       "minItems": 1,
+      "maxItems": 3,
       "uniqueItems": true,
-      "description": "Light condition IDs from taxonomy/light_conditions.yaml."
+      "description": "Light condition IDs from taxonomy/light_conditions.yaml. Group rules (one solar band, one sky, two modifiers) are enforced by the validator."
     },
     "location_types": {
       "type": "array",

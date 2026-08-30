@@ -11,6 +11,7 @@ subject_count: 1
 subject_types:
 - teen
 light_conditions:
+- soft_low
 - backlit
 location_types:
 - beach
@@ -30,5 +31,5 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

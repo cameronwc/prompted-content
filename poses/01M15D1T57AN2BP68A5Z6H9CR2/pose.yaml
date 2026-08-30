@@ -15,8 +15,6 @@ subject_types:
 light_conditions:
 - golden
 - open_shade
-- soft_low
-- mid
 location_types:
 - field
 orientation: vertical
@@ -35,5 +33,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

@@ -15,7 +15,6 @@ subject_types:
 - senior_adult
 light_conditions:
 - golden
-- soft_low
 location_types:
 - forest
 orientation: vertical
@@ -34,5 +33,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

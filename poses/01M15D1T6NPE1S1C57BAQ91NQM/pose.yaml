@@ -12,7 +12,6 @@ subject_types:
 - pregnant
 light_conditions:
 - harsh_overhead
-- mid
 location_types:
 - beach
 orientation: vertical
@@ -31,5 +30,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

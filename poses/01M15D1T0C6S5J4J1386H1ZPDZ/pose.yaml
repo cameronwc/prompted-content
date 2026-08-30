@@ -13,8 +13,6 @@ subject_types:
 - adult
 light_conditions:
 - blue
-- harsh_overhead
-- mid
 location_types:
 - forest
 orientation: vertical
@@ -33,5 +31,5 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 5,
-  "generated_at": "2026-08-29T18:02:44+00:00",
+  "catalog_version": 6,
+  "generated_at": "2026-08-30T16:44:29+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -29,43 +29,65 @@
     "light_conditions": [
       {
         "id": "golden",
-        "display": "Golden Hour"
+        "display": "Golden Hour",
+        "group": "solar"
       },
       {
         "id": "blue",
-        "display": "Blue Hour"
-      },
-      {
-        "id": "overcast",
-        "display": "Overcast"
+        "display": "Blue Hour",
+        "group": "solar"
       },
       {
         "id": "soft_low",
-        "display": "Soft Low Sun"
+        "display": "Soft Low Sun",
+        "group": "solar"
       },
       {
         "id": "mid",
-        "display": "Midday Sun"
+        "display": "Midday Sun",
+        "group": "solar"
       },
       {
         "id": "harsh_overhead",
-        "display": "Harsh Overhead Sun"
+        "display": "Harsh Overhead Sun",
+        "group": "solar"
+      },
+      {
+        "id": "overcast",
+        "display": "Overcast",
+        "group": "sky",
+        "excludes": [
+          "golden",
+          "harsh_overhead"
+        ]
       },
       {
         "id": "open_shade",
-        "display": "Open Shade"
+        "display": "Open Shade",
+        "group": "modifier"
       },
       {
         "id": "backlit",
-        "display": "Backlit"
+        "display": "Backlit",
+        "group": "modifier"
       },
       {
         "id": "indoor_window",
-        "display": "Indoor Window Light"
+        "display": "Indoor Window Light",
+        "group": "modifier",
+        "excludes_groups": [
+          "solar",
+          "sky"
+        ]
       },
       {
         "id": "night_flash",
-        "display": "Night with Flash"
+        "display": "Night with Flash",
+        "group": "modifier",
+        "excludes_groups": [
+          "solar",
+          "sky"
+        ]
       }
     ],
     "location_types": [
@@ -151,6 +173,38 @@
       }
     ]
   },
+  "light_bands": [
+    {
+      "id": "night",
+      "min_elevation": -90,
+      "max_elevation": -6
+    },
+    {
+      "id": "blue",
+      "min_elevation": -6,
+      "max_elevation": -0.833
+    },
+    {
+      "id": "golden",
+      "min_elevation": -0.833,
+      "max_elevation": 6
+    },
+    {
+      "id": "soft_low",
+      "min_elevation": 6,
+      "max_elevation": 20
+    },
+    {
+      "id": "mid",
+      "min_elevation": 20,
+      "max_elevation": 45
+    },
+    {
+      "id": "harsh_overhead",
+      "min_elevation": 45,
+      "max_elevation": 90
+    }
+  ],
   "poses": [
     {
       "id": "01M15D1T000ASHR1HW16SS71RD",
@@ -170,8 +224,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -204,7 +258,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -226,8 +280,7 @@
       ],
       "light_conditions": [
         "blue",
-        "overcast",
-        "mid"
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -257,7 +310,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -278,8 +331,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "urban"
@@ -309,7 +362,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -331,8 +384,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -364,7 +416,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -385,7 +437,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -416,7 +467,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -437,9 +488,7 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "field"
@@ -469,7 +518,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -491,7 +540,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -524,7 +572,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -545,8 +593,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -576,7 +624,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -597,8 +645,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -628,7 +676,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -650,8 +698,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -683,7 +731,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -704,8 +752,7 @@
         "adult"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "mountain"
@@ -735,7 +782,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -756,8 +803,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -790,7 +836,7 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -812,9 +858,7 @@
         "adult"
       ],
       "light_conditions": [
-        "blue",
-        "harsh_overhead",
-        "mid"
+        "blue"
       ],
       "location_types": [
         "forest"
@@ -844,7 +888,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -865,9 +909,9 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
+        "mid",
         "overcast",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -897,7 +941,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1130,7 +1174,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -1161,7 +1204,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1182,8 +1225,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -1213,7 +1255,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1234,10 +1276,7 @@
         "adult"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "golden",
-        "soft_low",
-        "mid"
+        "soft_low"
       ],
       "location_types": [
         "beach"
@@ -1267,7 +1306,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -1342,8 +1381,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -1373,7 +1412,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1394,9 +1433,8 @@
         "adult"
       ],
       "light_conditions": [
-        "backlit",
-        "golden",
-        "soft_low"
+        "soft_low",
+        "backlit"
       ],
       "location_types": [
         "beach"
@@ -1426,7 +1464,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1448,6 +1486,7 @@
         "adult"
       ],
       "light_conditions": [
+        "soft_low",
         "backlit"
       ],
       "location_types": [
@@ -1480,7 +1519,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "ai"
     },
@@ -1501,8 +1540,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -1535,7 +1574,7 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1556,8 +1595,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -1587,7 +1625,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1609,8 +1647,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "mountain"
@@ -1640,7 +1678,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -1661,8 +1699,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -1694,7 +1731,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1715,9 +1752,8 @@
         "adult"
       ],
       "light_conditions": [
-        "backlit",
         "golden",
-        "soft_low"
+        "backlit"
       ],
       "location_types": [
         "urban"
@@ -1747,7 +1783,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1769,8 +1805,7 @@
         "adult"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "field"
@@ -1802,7 +1837,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1928,10 +1963,7 @@
         "adult"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "golden",
-        "soft_low",
-        "mid"
+        "soft_low"
       ],
       "location_types": [
         "urban"
@@ -1961,7 +1993,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -1982,8 +2014,7 @@
         "adult"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "urban"
@@ -2013,7 +2044,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2034,8 +2065,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -2065,7 +2096,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2087,7 +2118,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -2120,7 +2150,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2141,7 +2171,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -2172,7 +2201,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2193,8 +2222,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "mountain"
@@ -2224,7 +2253,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2246,8 +2275,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -2277,7 +2305,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2298,8 +2326,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "beach"
@@ -2329,7 +2357,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -2350,9 +2378,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "blue",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -2384,7 +2410,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2406,6 +2432,7 @@
         "adult"
       ],
       "light_conditions": [
+        "soft_low",
         "backlit"
       ],
       "location_types": [
@@ -2438,7 +2465,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2459,8 +2486,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -2490,7 +2516,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2511,7 +2537,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -2542,7 +2567,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2564,8 +2589,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -2598,7 +2623,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2619,8 +2644,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "mountain"
@@ -2650,7 +2675,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2671,9 +2696,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
         "harsh_overhead",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -2703,7 +2727,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -2725,8 +2749,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -2756,7 +2779,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2777,10 +2800,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "overcast",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -2810,7 +2830,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2831,8 +2851,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -2862,7 +2882,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2884,8 +2904,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "mountain"
@@ -2917,7 +2937,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2939,8 +2959,7 @@
       ],
       "light_conditions": [
         "harsh_overhead",
-        "backlit",
-        "mid"
+        "backlit"
       ],
       "location_types": [
         "urban"
@@ -2970,7 +2989,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -2991,9 +3010,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
         "harsh_overhead",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -3023,7 +3041,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3096,10 +3114,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
         "golden",
-        "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -3131,7 +3147,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3152,9 +3168,7 @@
         "adult"
       ],
       "light_conditions": [
-        "night_flash",
-        "golden",
-        "soft_low"
+        "night_flash"
       ],
       "location_types": [
         "field"
@@ -3184,7 +3198,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -3206,8 +3220,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -3237,7 +3251,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3258,10 +3272,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
         "golden",
-        "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -3293,7 +3305,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3365,10 +3377,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "harsh_overhead",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -3400,7 +3409,7 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -3421,8 +3430,7 @@
         "teen"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "field"
@@ -3454,7 +3462,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -3475,8 +3483,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -3506,7 +3514,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3527,8 +3535,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "urban"
@@ -3558,7 +3566,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3579,8 +3587,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "beach"
@@ -3612,7 +3620,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3633,8 +3641,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -3664,7 +3672,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3738,8 +3746,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -3769,7 +3776,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3790,8 +3797,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -3821,7 +3827,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -3842,7 +3848,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -3875,7 +3880,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -3896,7 +3901,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -3927,7 +3931,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4052,7 +4056,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4083,7 +4086,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4104,7 +4107,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4137,7 +4139,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4158,8 +4160,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -4192,7 +4194,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -4213,7 +4215,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4244,7 +4245,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4265,8 +4266,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -4298,7 +4298,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4424,9 +4424,7 @@
         "teen"
       ],
       "light_conditions": [
-        "blue",
-        "harsh_overhead",
-        "mid"
+        "blue"
       ],
       "location_types": [
         "urban"
@@ -4456,7 +4454,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4477,9 +4475,9 @@
         "teen"
       ],
       "light_conditions": [
+        "mid",
         "overcast",
-        "backlit",
-        "mid"
+        "backlit"
       ],
       "location_types": [
         "field"
@@ -4509,7 +4507,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4530,7 +4528,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4561,7 +4558,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4582,7 +4579,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4613,7 +4609,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4687,6 +4683,7 @@
         "teen"
       ],
       "light_conditions": [
+        "golden",
         "backlit"
       ],
       "location_types": [
@@ -4717,7 +4714,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "ai"
     },
@@ -4738,7 +4735,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4769,7 +4765,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -4843,7 +4839,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -4877,7 +4872,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5000,8 +4995,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -5033,7 +5028,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5054,8 +5049,8 @@
         "teen"
       ],
       "light_conditions": [
-        "backlit",
-        "indoor_window"
+        "indoor_window",
+        "backlit"
       ],
       "location_types": [
         "studio"
@@ -5085,7 +5080,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5106,8 +5101,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -5139,7 +5134,7 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5160,8 +5155,7 @@
         "teen"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "field"
@@ -5191,7 +5185,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5212,6 +5206,7 @@
         "teen"
       ],
       "light_conditions": [
+        "soft_low",
         "backlit"
       ],
       "location_types": [
@@ -5242,7 +5237,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5263,8 +5258,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -5296,7 +5290,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5317,8 +5311,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -5348,7 +5341,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5369,8 +5362,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -5400,7 +5393,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -5472,7 +5465,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -5503,7 +5495,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5524,8 +5516,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -5558,7 +5550,7 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5579,7 +5571,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -5612,7 +5603,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5633,9 +5624,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "blue",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -5665,7 +5654,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5686,7 +5675,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -5719,7 +5707,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5740,7 +5728,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -5771,7 +5758,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5792,10 +5779,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "golden",
         "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -5827,7 +5812,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -5951,8 +5936,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "beach"
@@ -5985,7 +5969,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6006,7 +5990,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -6037,7 +6020,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6109,8 +6092,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -6142,7 +6125,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6163,7 +6146,6 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -6196,7 +6178,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6270,8 +6252,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -6301,7 +6283,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6322,8 +6304,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -6353,7 +6334,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6425,8 +6406,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "mountain"
@@ -6458,7 +6439,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6479,8 +6460,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -6510,7 +6490,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6533,8 +6513,8 @@
         "toddler"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -6564,7 +6544,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6587,8 +6567,7 @@
         "toddler"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -6618,7 +6597,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6642,8 +6621,7 @@
         "senior_adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -6673,7 +6651,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6697,8 +6675,6 @@
         "teen"
       ],
       "light_conditions": [
-        "blue",
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -6731,7 +6707,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6754,8 +6730,8 @@
         "toddler"
       ],
       "light_conditions": [
-        "backlit",
-        "blue"
+        "blue",
+        "backlit"
       ],
       "location_types": [
         "beach"
@@ -6788,7 +6764,7 @@
         "seated_variant",
         "limited_mobility"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6811,8 +6787,8 @@
         "toddler"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -6842,7 +6818,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6866,7 +6842,6 @@
         "senior_adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -6897,7 +6872,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -6920,10 +6895,7 @@
         "senior_adult"
       ],
       "light_conditions": [
-        "golden",
-        "overcast",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "beach"
@@ -6955,7 +6927,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -6979,8 +6951,7 @@
         "child"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "beach"
@@ -7012,7 +6983,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -7034,6 +7005,7 @@
         "teen"
       ],
       "light_conditions": [
+        "golden",
         "backlit"
       ],
       "location_types": [
@@ -7064,7 +7036,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7086,8 +7058,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "urban"
@@ -7117,7 +7089,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7195,8 +7167,8 @@
         "toddler"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -7226,7 +7198,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -7248,8 +7220,8 @@
         "child"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -7279,7 +7251,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7302,9 +7274,7 @@
         "toddler"
       ],
       "light_conditions": [
-        "night_flash",
-        "golden",
-        "soft_low"
+        "night_flash"
       ],
       "location_types": [
         "beach"
@@ -7336,7 +7306,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7414,8 +7384,7 @@
         "child"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "urban"
@@ -7447,7 +7416,7 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -7469,9 +7438,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
         "blue",
-        "mid"
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -7501,7 +7469,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -7580,9 +7548,8 @@
         "pet"
       ],
       "light_conditions": [
-        "overcast",
         "blue",
-        "mid"
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -7612,7 +7579,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7634,10 +7601,8 @@
         "toddler"
       ],
       "light_conditions": [
-        "open_shade",
-        "golden",
         "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -7669,7 +7634,7 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7692,10 +7657,7 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "golden",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -7727,7 +7689,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -7805,9 +7767,7 @@
         "toddler"
       ],
       "light_conditions": [
-        "blue",
-        "harsh_overhead",
-        "mid"
+        "blue"
       ],
       "location_types": [
         "forest"
@@ -7837,7 +7797,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -8076,8 +8036,8 @@
         "child"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -8107,7 +8067,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8129,6 +8089,7 @@
         "child"
       ],
       "light_conditions": [
+        "soft_low",
         "backlit"
       ],
       "location_types": [
@@ -8161,7 +8122,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8183,8 +8144,8 @@
         "teen"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -8214,7 +8175,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8238,8 +8199,7 @@
       ],
       "light_conditions": [
         "golden",
-        "backlit",
-        "soft_low"
+        "backlit"
       ],
       "location_types": [
         "forest"
@@ -8269,7 +8229,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8292,8 +8252,7 @@
         "toddler"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -8323,7 +8282,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8345,8 +8304,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -8379,7 +8337,7 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8458,6 +8416,7 @@
         "pet"
       ],
       "light_conditions": [
+        "soft_low",
         "backlit"
       ],
       "location_types": [
@@ -8488,7 +8447,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8511,8 +8470,8 @@
         "teen"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "urban"
@@ -8542,7 +8501,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8564,8 +8523,8 @@
         "teen"
       ],
       "light_conditions": [
-        "backlit",
-        "indoor_window"
+        "indoor_window",
+        "backlit"
       ],
       "location_types": [
         "home"
@@ -8595,7 +8554,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8673,8 +8632,7 @@
         "senior_adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -8704,7 +8662,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8727,8 +8685,8 @@
         "pet"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "beach"
@@ -8758,7 +8716,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8781,8 +8739,8 @@
         "child"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "urban"
@@ -8812,7 +8770,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -8889,8 +8847,6 @@
         "child"
       ],
       "light_conditions": [
-        "golden",
-        "blue",
         "soft_low"
       ],
       "location_types": [
@@ -8921,7 +8877,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9053,8 +9009,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -9084,7 +9039,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9108,9 +9063,7 @@
       ],
       "light_conditions": [
         "golden",
-        "open_shade",
-        "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -9140,7 +9093,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9164,6 +9117,7 @@
         "teen"
       ],
       "light_conditions": [
+        "golden",
         "backlit"
       ],
       "location_types": [
@@ -9194,7 +9148,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9219,8 +9173,8 @@
         "pet"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -9250,7 +9204,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9273,10 +9227,7 @@
         "toddler"
       ],
       "light_conditions": [
-        "overcast",
-        "golden",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "mountain"
@@ -9306,7 +9257,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9329,8 +9280,8 @@
         "child"
       ],
       "light_conditions": [
-        "backlit",
-        "night_flash"
+        "night_flash",
+        "backlit"
       ],
       "location_types": [
         "mountain"
@@ -9362,7 +9313,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "ai"
     },
@@ -9384,7 +9335,6 @@
         "toddler"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -9415,7 +9365,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9491,10 +9441,7 @@
         "child"
       ],
       "light_conditions": [
-        "overcast",
-        "golden",
-        "soft_low",
-        "mid"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -9526,7 +9473,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9549,10 +9496,8 @@
         "pet"
       ],
       "light_conditions": [
-        "golden",
-        "open_shade",
         "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "beach"
@@ -9582,7 +9527,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9604,7 +9549,6 @@
         "child"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -9637,7 +9581,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9660,8 +9604,8 @@
         "child"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -9695,7 +9639,7 @@
         "plus_size_flattering",
         "wheelchair"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9772,8 +9716,7 @@
         "teen"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -9806,7 +9749,7 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9827,7 +9770,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -9858,7 +9800,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -9933,8 +9875,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -9966,7 +9908,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -9987,8 +9929,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -10020,7 +9961,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10041,10 +9982,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "open_shade",
-        "golden",
         "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "beach"
@@ -10076,7 +10015,7 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -10098,10 +10037,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "golden",
         "soft_low",
-        "mid"
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -10131,7 +10068,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10152,8 +10089,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -10186,7 +10122,7 @@
         "seated_variant",
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10207,7 +10143,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -10241,7 +10176,7 @@
         "seated_variant",
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10313,8 +10248,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -10344,7 +10278,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10523,7 +10457,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -10556,7 +10489,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10577,7 +10510,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -10608,7 +10540,7 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10631,9 +10563,7 @@
       ],
       "light_conditions": [
         "golden",
-        "open_shade",
-        "soft_low",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -10665,7 +10595,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10686,7 +10616,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -10719,7 +10648,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10740,6 +10669,7 @@
         "pregnant"
       ],
       "light_conditions": [
+        "golden",
         "backlit"
       ],
       "location_types": [
@@ -10773,7 +10703,7 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10794,9 +10724,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "night_flash",
-        "golden",
-        "soft_low"
+        "night_flash"
       ],
       "location_types": [
         "forest"
@@ -10826,7 +10754,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -10899,8 +10827,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "mountain"
@@ -10932,7 +10860,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -10953,8 +10881,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -10986,7 +10914,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11112,8 +11040,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "beach"
@@ -11143,7 +11070,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11272,8 +11199,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "beach"
@@ -11303,7 +11229,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -11378,8 +11304,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "field"
@@ -11411,7 +11336,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11537,8 +11462,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -11568,7 +11493,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11589,8 +11514,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "harsh_overhead",
-        "mid"
+        "harsh_overhead"
       ],
       "location_types": [
         "beach"
@@ -11620,7 +11544,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11641,8 +11565,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "field"
@@ -11672,7 +11596,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11694,8 +11618,7 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -11725,7 +11648,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11746,7 +11669,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -11779,7 +11701,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -11851,8 +11773,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "forest"
@@ -11882,7 +11804,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -12011,8 +11933,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "beach"
@@ -12044,7 +11966,7 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12118,8 +12040,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "blue",
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -12150,7 +12070,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -12171,8 +12091,8 @@
         "pregnant"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "forest"
@@ -12202,7 +12122,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12275,7 +12195,6 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -12308,7 +12227,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12383,9 +12302,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "night_flash",
-        "golden",
-        "soft_low"
+        "night_flash"
       ],
       "location_types": [
         "beach"
@@ -12415,7 +12332,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12437,7 +12354,6 @@
         "adult"
       ],
       "light_conditions": [
-        "golden",
         "soft_low"
       ],
       "location_types": [
@@ -12468,7 +12384,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12489,8 +12405,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "forest"
@@ -12522,7 +12437,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12543,8 +12458,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "golden",
-        "soft_low"
+        "golden"
       ],
       "location_types": [
         "beach"
@@ -12576,7 +12490,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12757,9 +12671,9 @@
         "pregnant"
       ],
       "light_conditions": [
-        "open_shade",
+        "mid",
         "backlit",
-        "mid"
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -12792,7 +12706,7 @@
         "seated_variant",
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai"
     },
@@ -12814,8 +12728,8 @@
         "adult"
       ],
       "light_conditions": [
-        "open_shade",
-        "mid"
+        "mid",
+        "open_shade"
       ],
       "location_types": [
         "field"
@@ -12847,7 +12761,7 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12919,9 +12833,7 @@
         "pregnant"
       ],
       "light_conditions": [
-        "overcast",
-        "night_flash",
-        "mid"
+        "night_flash"
       ],
       "location_types": [
         "beach"
@@ -12951,7 +12863,7 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     },
@@ -12973,8 +12885,8 @@
         "adult"
       ],
       "light_conditions": [
-        "overcast",
-        "mid"
+        "mid",
+        "overcast"
       ],
       "location_types": [
         "urban"
@@ -13007,7 +12919,7 @@
         "seated_variant",
         "late_term"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "synthetic"
     }

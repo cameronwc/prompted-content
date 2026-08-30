@@ -13,8 +13,8 @@ subject_types:
 - teen
 - pet
 light_conditions:
-- open_shade
 - mid
+- open_shade
 location_types:
 - beach
 orientation: vertical
@@ -33,5 +33,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

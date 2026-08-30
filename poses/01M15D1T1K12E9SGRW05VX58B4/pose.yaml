@@ -12,8 +12,8 @@ subject_count: 2
 subject_types:
 - adult
 light_conditions:
-- open_shade
 - mid
+- open_shade
 location_types:
 - mountain
 orientation: vertical
@@ -33,5 +33,5 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active

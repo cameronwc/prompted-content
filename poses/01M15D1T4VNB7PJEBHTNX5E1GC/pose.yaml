@@ -15,6 +15,7 @@ subject_types:
 - child
 - pet
 light_conditions:
+- soft_low
 - backlit
 location_types:
 - field
@@ -34,5 +35,5 @@ gear:
   aperture: f/3.2
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active

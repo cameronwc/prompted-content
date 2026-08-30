@@ -11,8 +11,8 @@ subject_count: 1
 subject_types:
 - teen
 light_conditions:
-- backlit
 - indoor_window
+- backlit
 location_types:
 - studio
 orientation: vertical
@@ -31,5 +31,5 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active

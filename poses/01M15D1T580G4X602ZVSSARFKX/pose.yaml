@@ -14,6 +14,7 @@ subject_types:
 - toddler
 - teen
 light_conditions:
+- golden
 - backlit
 location_types:
 - field
@@ -33,5 +34,5 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active

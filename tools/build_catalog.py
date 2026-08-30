@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 import blurhash
 
 import validate
-from common import DIST_DIR, iter_pose_dirs, load_pose, load_taxonomy
+from common import DIST_DIR, iter_pose_dirs, load_light_bands, load_pose, load_taxonomy
 
 SCHEMA_VERSION = 1
 CATALOG_PATH = DIST_DIR / "catalog.json"
@@ -67,6 +67,9 @@ def main() -> int:
         "catalog_version": previous_catalog_version() + 1,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "taxonomy": taxonomy,
+        # Solar elevation -> light band thresholds, shared with the iOS app
+        # so the mapping is never duplicated in Swift.
+        "light_bands": load_light_bands()["bands"],
         "poses": poses,
     }
 

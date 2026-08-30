@@ -13,8 +13,8 @@ subject_types:
 - toddler
 - child
 light_conditions:
-- overcast
 - mid
+- overcast
 location_types:
 - beach
 orientation: vertical
@@ -36,5 +36,5 @@ accessibility:
 - seated_variant
 - plus_size_flattering
 - wheelchair
-version: 2
+version: 3
 status: active

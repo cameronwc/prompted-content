@@ -14,9 +14,8 @@ subject_types:
 - toddler
 - pet
 light_conditions:
-- overcast
 - blue
-- mid
+- overcast
 location_types:
 - beach
 orientation: vertical
@@ -35,5 +34,5 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

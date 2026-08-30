@@ -12,8 +12,8 @@ subject_types:
 - adult
 - teen
 light_conditions:
-- open_shade
 - mid
+- open_shade
 location_types:
 - field
 orientation: horizontal
@@ -32,5 +32,5 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active

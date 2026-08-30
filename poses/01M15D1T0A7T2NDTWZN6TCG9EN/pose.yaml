@@ -12,7 +12,6 @@ subject_types:
 - adult
 light_conditions:
 - harsh_overhead
-- mid
 location_types:
 - mountain
 orientation: horizontal
@@ -31,6 +30,6 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

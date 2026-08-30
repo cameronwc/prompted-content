@@ -11,7 +11,6 @@ subject_count: 1
 subject_types:
 - pregnant
 light_conditions:
-- golden
 - soft_low
 location_types:
 - field
@@ -32,5 +31,5 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 2
+version: 3
 status: active

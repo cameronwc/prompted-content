@@ -13,8 +13,8 @@ subject_types:
 - teen
 - toddler
 light_conditions:
-- backlit
 - blue
+- backlit
 location_types:
 - beach
 orientation: vertical
@@ -35,5 +35,5 @@ gear:
 accessibility:
 - seated_variant
 - limited_mobility
-version: 1
+version: 2
 status: active

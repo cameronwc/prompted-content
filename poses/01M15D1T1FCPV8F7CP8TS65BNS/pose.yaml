@@ -11,9 +11,8 @@ subject_count: 2
 subject_types:
 - adult
 light_conditions:
-- open_shade
 - harsh_overhead
-- mid
+- open_shade
 location_types:
 - forest
 orientation: horizontal
@@ -32,6 +31,6 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

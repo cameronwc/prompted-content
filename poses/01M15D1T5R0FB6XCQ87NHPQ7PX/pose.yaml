@@ -11,10 +11,8 @@ subject_count: 1
 subject_types:
 - pregnant
 light_conditions:
-- open_shade
-- golden
 - soft_low
-- mid
+- open_shade
 location_types:
 - beach
 orientation: vertical
@@ -34,6 +32,6 @@ gear:
   needs_reflector: false
 accessibility:
 - limited_mobility
-version: 2
+version: 3
 status: active
 image_source: ai

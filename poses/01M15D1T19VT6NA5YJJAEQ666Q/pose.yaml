@@ -12,8 +12,6 @@ subject_types:
 - adult
 light_conditions:
 - golden
-- blue
-- soft_low
 location_types:
 - urban
 orientation: vertical
@@ -33,5 +31,5 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active

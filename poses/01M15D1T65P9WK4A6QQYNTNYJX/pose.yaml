@@ -11,6 +11,7 @@ subject_count: 1
 subject_types:
 - pregnant
 light_conditions:
+- golden
 - backlit
 location_types:
 - forest
@@ -32,5 +33,5 @@ gear:
 accessibility:
 - seated_variant
 - plus_size_flattering
-version: 1
+version: 2
 status: active

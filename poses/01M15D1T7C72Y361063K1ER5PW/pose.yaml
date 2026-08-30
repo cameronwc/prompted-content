@@ -12,8 +12,8 @@ subject_types:
 - pregnant
 - adult
 light_conditions:
-- open_shade
 - mid
+- open_shade
 location_types:
 - field
 orientation: vertical
@@ -33,5 +33,5 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 2
+version: 3
 status: active

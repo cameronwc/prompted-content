@@ -13,10 +13,7 @@ subject_types:
 - child
 - teen
 light_conditions:
-- overcast
 - golden
-- soft_low
-- mid
 location_types:
 - urban
 orientation: vertical
@@ -36,5 +33,5 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active

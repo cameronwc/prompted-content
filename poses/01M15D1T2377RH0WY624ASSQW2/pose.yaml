@@ -12,7 +12,6 @@ subject_types:
 - teen
 light_conditions:
 - golden
-- soft_low
 location_types:
 - forest
 orientation: vertical
@@ -31,5 +30,5 @@ gear:
   aperture: f/1.8
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active

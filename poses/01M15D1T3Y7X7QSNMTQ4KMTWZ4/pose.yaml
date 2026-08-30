@@ -14,7 +14,6 @@ subject_types:
 - toddler
 - senior_adult
 light_conditions:
-- golden
 - soft_low
 location_types:
 - field
@@ -34,6 +33,6 @@ gear:
   aperture: f/3.2
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

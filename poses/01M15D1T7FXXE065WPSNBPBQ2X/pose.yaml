@@ -12,8 +12,8 @@ subject_types:
 - pregnant
 - adult
 light_conditions:
-- overcast
 - mid
+- overcast
 location_types:
 - urban
 orientation: vertical
@@ -34,5 +34,5 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 2
+version: 3
 status: active

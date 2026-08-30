@@ -12,10 +12,8 @@ subject_types:
 - pregnant
 - adult
 light_conditions:
-- overcast
-- golden
 - soft_low
-- mid
+- overcast
 location_types:
 - field
 orientation: vertical
@@ -34,5 +32,5 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

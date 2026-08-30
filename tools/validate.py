@@ -9,6 +9,10 @@ Checks, per pose:
   5. Slug uniqueness
   6. Image presence, 4:5 aspect within 1%, 400w thumb / 1200w detail
   7. subject_count consistent with subject_types
+  8. Light-condition group rules (light_rules.py): at most one solar band,
+     one sky tag, two modifiers, 3 light tags total; the taxonomy's
+     excludes/excludes_groups; outdoor daytime poses carry exactly one
+     solar band
 
 Exit status is non-zero if any pose fails. Output is a per-pose report with
 file paths and specific failures.
@@ -30,6 +34,7 @@ from common import (
     load_taxonomy,
     taxonomy_ids,
 )
+from light_rules import light_condition_errors, light_groups
 
 ASPECT = 4 / 5
 ASPECT_TOLERANCE = 0.01
@@ -84,6 +89,7 @@ def validate_pose(
     pose: dict,
     schema_validator: Draft202012Validator,
     valid_ids: dict[str, set[str]],
+    groups: dict[str, dict],
     check_image_files: bool = True,
 ) -> list[str]:
     errors: list[str] = []
@@ -128,6 +134,13 @@ def validate_pose(
     if check_image_files:
         check_images(pose_dir, pose, errors)
 
+    # 8. Light-condition group rules
+    lights = pose.get("light_conditions")
+    locations = pose.get("location_types")
+    if isinstance(lights, list) and isinstance(locations, list):
+        for msg in light_condition_errors(lights, locations, groups):
+            errors.append(f"{yaml_path}: {msg}")
+
     # 7. Coherence: distinct subject types cannot exceed subject_count
     count = pose.get("subject_count")
     types = pose.get("subject_types")
@@ -144,7 +157,9 @@ def validate_pose(
 def main() -> int:
     check_image_files = "--no-images" not in sys.argv[1:]
     schema_validator = Draft202012Validator(load_schema())
-    valid_ids = taxonomy_ids(load_taxonomy())
+    taxonomy = load_taxonomy()
+    valid_ids = taxonomy_ids(taxonomy)
+    groups = light_groups(taxonomy)
 
     pose_dirs = iter_pose_dirs()
     if not pose_dirs:
@@ -177,7 +192,7 @@ def main() -> int:
             continue
 
         errors = validate_pose(
-            pose_dir, pose, schema_validator, valid_ids, check_image_files
+            pose_dir, pose, schema_validator, valid_ids, groups, check_image_files
         )
 
         source = pose.get("image_source", "synthetic")

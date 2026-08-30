@@ -14,9 +14,6 @@ subject_types:
 - senior_adult
 light_conditions:
 - golden
-- overcast
-- soft_low
-- mid
 location_types:
 - beach
 orientation: vertical
@@ -36,5 +33,5 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active

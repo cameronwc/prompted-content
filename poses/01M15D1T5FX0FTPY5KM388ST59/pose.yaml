@@ -13,10 +13,8 @@ subject_types:
 - child
 - pet
 light_conditions:
-- golden
-- open_shade
 - soft_low
-- mid
+- open_shade
 location_types:
 - beach
 orientation: horizontal
@@ -35,5 +33,5 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

@@ -13,8 +13,6 @@ subject_types:
 - teen
 - child
 light_conditions:
-- golden
-- blue
 - soft_low
 location_types:
 - urban
@@ -34,5 +32,5 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

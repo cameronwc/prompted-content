@@ -11,8 +11,8 @@ subject_count: 1
 subject_types:
 - teen
 light_conditions:
-- overcast
 - mid
+- overcast
 location_types:
 - forest
 orientation: horizontal
@@ -31,6 +31,6 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

@@ -15,7 +15,6 @@ subject_types:
 - senior_adult
 light_conditions:
 - golden
-- soft_low
 location_types:
 - mountain
 orientation: vertical
@@ -34,6 +33,6 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai

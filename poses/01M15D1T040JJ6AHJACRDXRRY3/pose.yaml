@@ -11,7 +11,6 @@ subject_count: 2
 subject_types:
 - adult
 light_conditions:
-- golden
 - soft_low
 location_types:
 - beach
@@ -31,5 +30,5 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active

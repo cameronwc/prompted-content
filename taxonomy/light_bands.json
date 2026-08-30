@@ -1,0 +1,11 @@
+{
+  "description": "Solar elevation (degrees) to Group A light band. Single source of truth: tools/solar.py and the iOS app both read this via catalog.json. Band ids match taxonomy/light_conditions.yaml solar-group ids ('mid' is the permanent id for the midday band); 'night' is not a pose tag — no solar band applies after dark.",
+  "bands": [
+    { "id": "night",          "min_elevation": -90,     "max_elevation": -6 },
+    { "id": "blue",           "min_elevation": -6,      "max_elevation": -0.833 },
+    { "id": "golden",         "min_elevation": -0.833,  "max_elevation": 6 },
+    { "id": "soft_low",       "min_elevation": 6,       "max_elevation": 20 },
+    { "id": "mid",            "min_elevation": 20,      "max_elevation": 45 },
+    { "id": "harsh_overhead", "min_elevation": 45,      "max_elevation": 90 }
+  ]
+}

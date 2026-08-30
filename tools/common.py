@@ -9,6 +9,7 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "schema" / "pose.schema.json"
 TAXONOMY_DIR = REPO_ROOT / "taxonomy"
+LIGHT_BANDS_PATH = TAXONOMY_DIR / "light_bands.json"
 POSES_DIR = REPO_ROOT / "poses"
 DIST_DIR = REPO_ROOT / "dist"
 
@@ -32,6 +33,11 @@ def load_taxonomy() -> dict[str, list[dict]]:
         data = yaml.safe_load((TAXONOMY_DIR / filename).read_text())
         taxonomy[name] = data["entries"]
     return taxonomy
+
+
+def load_light_bands() -> dict:
+    """Solar-elevation band thresholds (taxonomy/light_bands.json)."""
+    return json.loads(LIGHT_BANDS_PATH.read_text())
 
 
 def taxonomy_ids(taxonomy: dict[str, list[dict]]) -> dict[str, set[str]]:

@@ -11,7 +11,6 @@ subject_count: 1
 subject_types:
 - pregnant
 light_conditions:
-- golden
 - soft_low
 location_types:
 - forest
@@ -31,5 +30,5 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active

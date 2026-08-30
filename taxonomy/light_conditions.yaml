@@ -1,22 +1,50 @@
 # Lighting conditions. IDs are permanent and never reused.
+#
+# Entries are grouped; the validator enforces the group rules as errors:
+#   solar    — solar-elevation bands, mutually exclusive. An outdoor daytime
+#              pose has exactly one; an indoor or after-dark pose has none.
+#              Elevation thresholds live in taxonomy/light_bands.json.
+#   sky      — sky condition. Zero or one per pose.
+#   modifier — photographer-controlled. Zero to two per pose.
+# A pose carries at most 3 light tags in total.
+#
+# `excludes` lists ids that cannot co-occur with an entry; `excludes_groups`
+# lists whole groups that cannot. Both are emitted into catalog.json so the
+# app shares the same rules.
 entries:
+  # Group A — solar elevation bands
   - id: golden
     display: Golden Hour
+    group: solar
   - id: blue
     display: Blue Hour
-  - id: overcast
-    display: Overcast
+    group: solar
   - id: soft_low
     display: Soft Low Sun
+    group: solar
   - id: mid
     display: Midday Sun
+    group: solar
   - id: harsh_overhead
     display: Harsh Overhead Sun
+    group: solar
+  # Group B — sky condition
+  - id: overcast
+    display: Overcast
+    group: sky
+    excludes: [golden, harsh_overhead]
+  # Group C — photographer-controlled modifiers
   - id: open_shade
     display: Open Shade
+    group: modifier
   - id: backlit
     display: Backlit
+    group: modifier
   - id: indoor_window
     display: Indoor Window Light
+    group: modifier
+    excludes_groups: [solar, sky]
   - id: night_flash
     display: Night with Flash
+    group: modifier
+    excludes_groups: [solar, sky]
