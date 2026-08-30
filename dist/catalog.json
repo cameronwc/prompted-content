@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 6,
-  "generated_at": "2026-08-30T16:44:29+00:00",
+  "catalog_version": 7,
+  "generated_at": "2026-08-30T20:20:43+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -790,9 +790,9 @@
       "id": "01M15D1T0BMZX813K5WR1282GJ",
       "slug": "lap-sit-laugh",
       "image": {
-        "thumb": "poses/01M15D1T0BMZX813K5WR1282GJ/thumb.jpg",
-        "detail": "poses/01M15D1T0BMZX813K5WR1282GJ/detail.jpg",
-        "blurhash": "d2G8H2-;t6t7_3?aoeof~qxuR*j[%ME1M|ofofRj%2ay"
+        "thumb": "poses/01M15D1T0BMZX813K5WR1282GJ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0BMZX813K5WR1282GJ/detail_ai.jpg",
+        "blurhash": "dOHnWwE1oyIp~BIp9at7?GR*E2WC-:Ioxtxaj[oeNGWB"
       },
       "placeholder": true,
       "categories": [
@@ -836,9 +836,15 @@
         "seated_variant",
         "plus_size_flattering"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Have one partner sit on the wooden bench angled slightly toward the center, while the other partner sits sideways directly across their lap facing them, letting their legs drape over the seated partner's knees.",
+        "Instruct the partner sitting on the lap to wrap their back arm around the other's neck and shoulders, resting their other hand gently in their lap.",
+        "Have the seated base partner wrap their hands around their partner's lower thigh or hip for support.",
+        "Ask the couple to bring their faces very close together, almost touching noses, while looking at each other and sharing a natural, candid laugh."
+      ]
     },
     {
       "id": "01M15D1T0C6S5J4J1386H1ZPDZ",
@@ -1107,9 +1113,9 @@
       "id": "01M15D1T0HE62A56ESFN2C8A36",
       "slug": "arm-swing-stroll",
       "image": {
-        "thumb": "poses/01M15D1T0HE62A56ESFN2C8A36/thumb.jpg",
-        "detail": "poses/01M15D1T0HE62A56ESFN2C8A36/detail.jpg",
-        "blurhash": "d2G8H2?HofoL_3?bjtju~qxuRjj[%LE0Rjt7ayRj%2of"
+        "thumb": "poses/01M15D1T0HE62A56ESFN2C8A36/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0HE62A56ESFN2C8A36/detail_ai.jpg",
+        "blurhash": "dEJQ$R%g_2x^~q?bShxuiut74oV@D*RPxajZ4ot7?HkC"
       },
       "placeholder": true,
       "categories": [
@@ -1152,9 +1158,14 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing side-by-side with a small, natural gap between them, angled slightly toward the camera.",
+        "Have both subjects walk forward together across the space at a slow, relaxed pace, capturing them mid-stride with their arms swinging naturally at their sides.",
+        "Direct them to turn their heads toward each other while walking, sharing eye contact and genuine, candid smiles."
+      ]
     },
     {
       "id": "01M15D1T0JE488VM04XC5F972Q",
@@ -1791,9 +1802,9 @@
       "id": "01M15D1T0YSP31C4M7XCQHAHT6",
       "slug": "walking-hand-in-hand-field",
       "image": {
-        "thumb": "poses/01M15D1T0YSP31C4M7XCQHAHT6/thumb.jpg",
-        "detail": "poses/01M15D1T0YSP31C4M7XCQHAHT6/detail.jpg",
-        "blurhash": "d3G8KA-;WBWB_2-;RjWB~WxuRjayxuIURjofWBRj%2of"
+        "thumb": "poses/01M15D1T0YSP31C4M7XCQHAHT6/thumb_ai.jpg",
+        "detail": "poses/01M15D1T0YSP31C4M7XCQHAHT6/detail_ai.jpg",
+        "blurhash": "dULWttWC-nt7*0t7NGfk.9Rk9aof?ct6xtRk%gRk%2ay"
       },
       "placeholder": true,
       "categories": [
@@ -1837,9 +1848,14 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side on a pathway in an open field with the man on camera-left and the woman on camera-right, walking forward together toward the camera.",
+        "Have them join their inside hands (his left and her right) naturally down between them at hip height, letting their outside arms hang relaxed by their sides.",
+        "Instruct both subjects to turn their heads toward one another, smiling and laughing in mid-stride as they maintain eye contact while walking."
+      ]
     },
     {
       "id": "01M15D1T0Z94TTH9NWF57TTC2E",
@@ -3522,9 +3538,9 @@
       "id": "01M15D1T1ZR38WE7HSEGD9S546",
       "slug": "hands-in-pockets",
       "image": {
-        "thumb": "poses/01M15D1T1ZR38WE7HSEGD9S546/thumb.jpg",
-        "detail": "poses/01M15D1T1ZR38WE7HSEGD9S546/detail.jpg",
-        "blurhash": "d2C%mu-;ofoz_3.8j[of~qxuWAj[%MITRQogofRjtSay"
+        "thumb": "poses/01M15D1T1ZR38WE7HSEGD9S546/thumb_ai.jpg",
+        "detail": "poses/01M15D1T1ZR38WE7HSEGD9S546/detail_ai.jpg",
+        "blurhash": "dGI;YC~p-o9a0JR%bFW=4.9FE1R,tRozoMn+OFtS%2xa"
       },
       "placeholder": true,
       "categories": [
@@ -3566,9 +3582,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in the middle of a sidewalk lined with buildings or trees, capturing a full-length vertical composition.",
+        "Instruct the subject to walk slowly and naturally straight toward the camera with an open, relaxed posture.",
+        "Have him place both hands fully into the front pockets of his jeans, letting his elbows rest naturally slightly away from his sides.",
+        "Direct him to keep his chest square to the lens, stepping forward mid-stride, and to smile naturally directly into the camera."
+      ]
     },
     {
       "id": "01M15D1T20PB809KXB8BEXVFJV",
@@ -3835,9 +3857,9 @@
       "id": "01M15D1T258QRJPHWET52BJQ2V",
       "slug": "skateboard-underarm",
       "image": {
-        "thumb": "poses/01M15D1T258QRJPHWET52BJQ2V/thumb.jpg",
-        "detail": "poses/01M15D1T258QRJPHWET52BJQ2V/detail.jpg",
-        "blurhash": "d2C@8M.7ofof_3?bj[j[~qx[Rjay%MITM{ofofRjtSay"
+        "thumb": "poses/01M15D1T258QRJPHWET52BJQ2V/thumb_ai.jpg",
+        "detail": "poses/01M15D1T258QRJPHWET52BJQ2V/detail_ai.jpg",
+        "blurhash": "dAF=T$WUoss;?W-UE3%1~UR*IX%1%Mofs.ofEQoLNIW;"
       },
       "placeholder": true,
       "categories": [
@@ -3880,9 +3902,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing upright in the center of the path, angled slightly toward camera-left with feet hip-width apart and weight relaxed.",
+        "Have him hold a skateboard horizontally across his waist/hip level with his right hand gripping the top edge, letting the board rest across the front of his legs.",
+        "Instruct him to keep his left arm hanging naturally and relaxed straight down at his side.",
+        "Direct him to turn his head to face squarely toward the camera with a warm, natural smile."
+      ]
     },
     {
       "id": "01M15D1T26X644N436P5HEQ52R",
@@ -6991,9 +7019,9 @@
       "id": "01M15D1T41W431QH2XNWWSS7EK",
       "slug": "nose-boop-line",
       "image": {
-        "thumb": "poses/01M15D1T41W431QH2XNWWSS7EK/thumb.jpg",
-        "detail": "poses/01M15D1T41W431QH2XNWWSS7EK/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7_3-;oft7~qxuWBof%MIBRjoyofRjxuay"
+        "thumb": "poses/01M15D1T41W431QH2XNWWSS7EK/thumb_ai.jpg",
+        "detail": "poses/01M15D1T41W431QH2XNWWSS7EK/detail_ai.jpg",
+        "blurhash": "dN9QpyozNGay_NofRjay?vofe.ay?cofe.WV?bj@R*bH"
       },
       "placeholder": true,
       "categories": [
@@ -7036,17 +7064,23 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the mother in the center, flanked closely by the daughter on camera-left and the father on camera-right, with all three turned inward in semi-profile to form an intimate group.",
+        "Have the daughter wrap her right arm around the mother's waist, while the father wraps his left arm around the mother's back, pulling the family into a tight, connected huddle.",
+        "Instruct the daughter to raise her right hand and playfully touch the tip of the mother's nose with her extended index finger.",
+        "Direct the mother to simultaneously extend her right index finger to lightly boop the father's nose, prompting all three subjects to look toward each other with natural, playful smiles."
+      ]
     },
     {
       "id": "01M15D1T429GXXXT3AVRF0CJ83",
       "slug": "group-squeeze",
       "image": {
-        "thumb": "poses/01M15D1T429GXXXT3AVRF0CJ83/thumb.jpg",
-        "detail": "poses/01M15D1T429GXXXT3AVRF0CJ83/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t6_3?aofof~qxuWBoe%MIBRjofj[Rjxuay"
+        "thumb": "poses/01M15D1T429GXXXT3AVRF0CJ83/thumb_ai.jpg",
+        "detail": "poses/01M15D1T429GXXXT3AVRF0CJ83/detail_ai.jpg",
+        "blurhash": "dPFh|vIU%fjY~VRjM{a}-:j[RjkCogM{RkbFWDRjofof"
       },
       "placeholder": true,
       "categories": [
@@ -7089,9 +7123,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Position the mother in the center facing forward, and place the father to her left, angled inward toward her with his body turned in near-profile.",
+        "Place the teenage son to the mother's right, angled inward toward the center, wrapping his arm around the mother's waist as he leans his head close to hers.",
+        "Position the two younger children closely in front at the center, facing slightly toward each other, with the young daughter on the left and the smaller boy on the right wrapping their arms around each other in a tight embrace.",
+        "Have the father wrap his arms around the group from the left, and instruct all family members to look inward at one another with warm, candid smiles."
+      ]
     },
     {
       "id": "01M15D1T43PDM2RGEWKQVAETG8",
@@ -7314,9 +7354,9 @@
       "id": "01M15D1T476KYE075PX438K3AJ",
       "slug": "couch-pile",
       "image": {
-        "thumb": "poses/01M15D1T476KYE075PX438K3AJ/thumb.jpg",
-        "detail": "poses/01M15D1T476KYE075PX438K3AJ/detail.jpg",
-        "blurhash": "d2DmgJ-;t7t7^+.7oft6~qxuWBof%MIBM|ofj[Rjxtay"
+        "thumb": "poses/01M15D1T476KYE075PX438K3AJ/thumb_ai.jpg",
+        "detail": "poses/01M15D1T476KYE075PX438K3AJ/detail_ai.jpg",
+        "blurhash": "dLE-HnofEMs.}rs:R+jZRQjsS#R+9^WVt6WWI;jts-of"
       },
       "placeholder": true,
       "categories": [
@@ -7361,9 +7401,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Seat the mother on the right side of a low wooden bench with her legs tucked up sideways on the cushion, angling her torso and knees inward toward the center.",
+        "Place the young girl in the middle between both subjects, seated close to the mother with her legs drawn up on the seat and her hands softly clasped together near her chest.",
+        "Position the teenage boy on the left side of the bench with his feet extended to the floor, leaning his upper body slightly inward toward the center with his hands resting naturally on his lap.",
+        "Direct the mother and young girl to look directly at each other with warm, natural smiles, while having the teenage boy smile as he looks down affectionately at the girl."
+      ]
     },
     {
       "id": "01M15D1T48F06F4VPD6MWW11TN",
@@ -9808,9 +9854,9 @@
       "id": "01M15D1T5NTHYQ49SXD2P3SMZ1",
       "slug": "partner-behind-hug",
       "image": {
-        "thumb": "poses/01M15D1T5NTHYQ49SXD2P3SMZ1/thumb.jpg",
-        "detail": "poses/01M15D1T5NTHYQ49SXD2P3SMZ1/detail.jpg",
-        "blurhash": "d3HK|H-;j[j??b-;ayf6~WxuWBjtxuIVRjs:WVRj%1of"
+        "thumb": "poses/01M15D1T5NTHYQ49SXD2P3SMZ1/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5NTHYQ49SXD2P3SMZ1/detail_ai.jpg",
+        "blurhash": "djI|~@-:tSW?~VX8tRbIM{M{V@oKsSRjIos,oeayRjoe"
       },
       "placeholder": true,
       "categories": [
@@ -9854,9 +9900,16 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Have the pregnant mother stand in a three-quarter profile facing toward camera-left in front of soft indoor window light.",
+        "Position the partner standing closely directly behind her, pressing his chest against her back.",
+        "Have the mother cradle her belly by placing her top hand resting above the bump and her lower hand cupping the bottom.",
+        "Instruct the partner to wrap his arms around her waist from behind to rest his hands on and around her bump alongside hers.",
+        "Direct both subjects to lean their heads together—with the partner resting his head near her shoulder/temple—and look down warmly at the belly with relaxed smiles."
+      ]
     },
     {
       "id": "01M15D1T5PZCQB1QJA2EFKCMMK",
@@ -9916,9 +9969,9 @@
       "id": "01M15D1T5Q4MTV05NTZECA6DEG",
       "slug": "dress-flow-field",
       "image": {
-        "thumb": "poses/01M15D1T5Q4MTV05NTZECA6DEG/thumb.jpg",
-        "detail": "poses/01M15D1T5Q4MTV05NTZECA6DEG/detail.jpg",
-        "blurhash": "d3HBbo-pofof?b-:j[of_3xuWBj[xuIVRjofj]Rjxtay"
+        "thumb": "poses/01M15D1T5Q4MTV05NTZECA6DEG/thumb_ai.jpg",
+        "detail": "poses/01M15D1T5Q4MTV05NTZECA6DEG/detail_ai.jpg",
+        "blurhash": "dkJaAWWV$~oe~WayWVaytmayNHjs%gWVoLWV?as.oeaz"
       },
       "placeholder": true,
       "categories": [
@@ -9961,9 +10014,15 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "synthetic"
+      "image_source": "ai",
+      "instructions": [
+        "Have the pregnant subject stand barefoot in full profile facing toward camera right, positioned in an open field with warm background lighting.",
+        "Instruct her to take a slow, gentle step forward, keeping the front foot planted and the rear foot slightly trailing behind.",
+        "Direct her to cradle her baby bump with both hands, resting the top hand gently across the upper curve and the lower hand supporting the underside.",
+        "Ask her to lower her chin and gaze lovingly down at her belly with a soft, peaceful smile."
+      ]
     },
     {
       "id": "01M15D1T5R0FB6XCQ87NHPQ7PX",

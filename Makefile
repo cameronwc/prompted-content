@@ -135,6 +135,13 @@ else
 	@echo "Refusing to spend on generation without CONFIRM=1 (make ai-generate CONFIRM=1)" >&2; exit 1
 endif
 
+ai-instructions: venv
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/generate_instructions.py $(or $(AI_ARGS),--missing) --yes
+else
+	$(PYTHON) tools/generate_instructions.py $(or $(AI_ARGS),--missing)
+endif
+
 verify-published: venv
 	$(PYTHON) tools/verify_published.py --env $(or $(ENV),dev)
 

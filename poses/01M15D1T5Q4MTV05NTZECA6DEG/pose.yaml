@@ -1,9 +1,9 @@
 id: 01M15D1T5Q4MTV05NTZECA6DEG
 slug: dress-flow-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HBbo-pofof?b-:j[of_3xuWBj[xuIVRjofj]Rjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkJaAWWV$~oe~WayWVaytmayNHjs%gWVoLWV?as.oeaz
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,14 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the pregnant subject stand barefoot in full profile facing toward camera right, positioned
+  in an open field with warm background lighting.
+- Instruct her to take a slow, gentle step forward, keeping the front foot planted and the
+  rear foot slightly trailing behind.
+- Direct her to cradle her baby bump with both hands, resting the top hand gently across the
+  upper curve and the lower hand supporting the underside.
+- Ask her to lower her chin and gaze lovingly down at her belly with a soft, peaceful smile.

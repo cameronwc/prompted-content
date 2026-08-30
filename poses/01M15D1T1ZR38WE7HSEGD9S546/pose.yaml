@@ -1,9 +1,9 @@
 id: 01M15D1T1ZR38WE7HSEGD9S546
 slug: hands-in-pockets
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;ofoz_3.8j[of~qxuWAj[%MITRQogofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dGI;YC~p-o9a0JR%bFW=4.9FE1R,tRozoMn+OFtS%2xa
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject in the middle of a sidewalk lined with buildings or trees, capturing
+  a full-length vertical composition.
+- Instruct the subject to walk slowly and naturally straight toward the camera with an open,
+  relaxed posture.
+- Have him place both hands fully into the front pockets of his jeans, letting his elbows
+  rest naturally slightly away from his sides.
+- Direct him to keep his chest square to the lens, stepping forward mid-stride, and to smile
+  naturally directly into the camera.

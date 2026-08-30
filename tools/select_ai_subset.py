@@ -9,6 +9,11 @@ Allocation: family 15, couples 15, senior 10, maternity 10 (family is
 over-weighted because 3–6-subject frames are the hardest case for the grid
 and the PDF contact sheet).
 
+--extend grows an EXISTING subset instead of re-selecting: the stored
+poses are kept verbatim (their images already exist; re-running the greedy
+over retagged metadata would orphan them) and the extension allocation is
+filled greedily from the remaining pool with the same scorer.
+
 Stratification targets, asserted after selection:
   - >= 6 poses with harsh_overhead and >= 6 with blue or night_flash
     overall (the bright/dark extremes Shoot Mode's text scrim must survive)
@@ -25,6 +30,7 @@ import sys
 from common import DIST_DIR, iter_pose_dirs, load_pose
 
 ALLOCATION = {"family": 15, "couples": 15, "senior": 10, "maternity": 10}
+EXTEND_ALLOCATION = {"family": 3, "couples": 3, "senior": 2, "maternity": 2}
 SUBSET_PATH = DIST_DIR / "ai_subset.json"
 
 MIN_HARSH = 6
@@ -65,11 +71,16 @@ def score(pose: dict, state: dict, cat_sel: list[dict]) -> float | None:
     return s
 
 
-def select() -> dict[str, list[dict]]:
+def select(extend: bool = False) -> dict[str, list[dict]]:
     poses = [load_pose(d) for d in iter_pose_dirs()]
     by_category = {cat: sorted(
         (p for p in poses if p["categories"][0] == cat), key=lambda p: p["id"]
     ) for cat in ALLOCATION}
+
+    existing_ids: list[str] = []
+    if extend:
+        existing_ids = json.loads(SUBSET_PATH.read_text())["poses"]
+    by_id = {p["id"]: p for p in poses}
 
     state = {
         "harsh_needed": MIN_HARSH,
@@ -79,8 +90,21 @@ def select() -> dict[str, list[dict]]:
     }
     selected: dict[str, list[dict]] = {}
     for cat, quota in ALLOCATION.items():
-        cat_sel: list[dict] = []
-        pool = list(by_category[cat])
+        # Frozen base when extending: stored order, no re-selection.
+        cat_sel: list[dict] = [by_id[i] for i in existing_ids
+                               if by_id[i]["categories"][0] == cat]
+        for p in cat_sel:
+            lights = set(p["light_conditions"])
+            if "harsh_overhead" in lights:
+                state["harsh_needed"] -= 1
+            if lights & DARK_LIGHTS:
+                state["dark_needed"] -= 1
+            if set(p["accessibility"]) & MOBILITY_TAGS:
+                state["mobility_needed"] -= 1
+            if cat == "family":
+                state["family_counts_needed"].discard(p["subject_count"])
+        quota = len(cat_sel) + EXTEND_ALLOCATION[cat] if extend else quota
+        pool = [p for p in by_category[cat] if p not in cat_sel]
         while len(cat_sel) < quota:
             best = None
             best_score = None
@@ -110,8 +134,10 @@ def select() -> dict[str, list[dict]]:
 
 
 def main() -> int:
-    selected = select()
+    extend = "--extend" in sys.argv[1:]
+    selected = select(extend)
     flat = [p for cat_sel in selected.values() for p in cat_sel]
+    expected = sum(ALLOCATION.values()) + (sum(EXTEND_ALLOCATION.values()) if extend else 0)
 
     # Assert every stratification target; fail loudly rather than emit a
     # subset that gives a false read on UI coverage.
@@ -120,8 +146,8 @@ def main() -> int:
     mobility = sum(1 for p in flat if set(p["accessibility"]) & MOBILITY_TAGS)
     family_counts = {p["subject_count"] for p in selected["family"]}
     problems = []
-    if len(flat) != sum(ALLOCATION.values()):
-        problems.append(f"selected {len(flat)} poses, expected {sum(ALLOCATION.values())}")
+    if len(flat) != expected:
+        problems.append(f"selected {len(flat)} poses, expected {expected}")
     if harsh < MIN_HARSH:
         problems.append(f"only {harsh} harsh_overhead poses (need >= {MIN_HARSH})")
     if dark < MIN_DARK:
@@ -158,7 +184,7 @@ def main() -> int:
     DIST_DIR.mkdir(exist_ok=True)
     SUBSET_PATH.write_text(json.dumps({
         "count": len(flat),
-        "allocation": ALLOCATION,
+        "allocation": {cat: len(cat_sel) for cat, cat_sel in selected.items()},
         "poses": [p["id"] for p in flat],
     }, indent=2) + "\n")
     print(f"Wrote {SUBSET_PATH}")

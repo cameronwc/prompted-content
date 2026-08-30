@@ -1,9 +1,9 @@
 id: 01M15D1T258QRJPHWET52BJQ2V
 slug: skateboard-underarm
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7ofof_3?bj[j[~qx[Rjay%MITM{ofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAF=T$WUoss;?W-UE3%1~UR*IX%1%Mofs.ofEQoLNIW;
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,13 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in the center of the path, angled slightly toward
+  camera-left with feet hip-width apart and weight relaxed.
+- Have him hold a skateboard horizontally across his waist/hip level with his right hand gripping
+  the top edge, letting the board rest across the front of his legs.
+- Instruct him to keep his left arm hanging naturally and relaxed straight down at his side.
+- Direct him to turn his head to face squarely toward the camera with a warm, natural smile.

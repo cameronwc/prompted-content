@@ -1,9 +1,9 @@
 id: 01M15D1T476KYE075PX438K3AJ
 slug: couch-pile
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7^+.7oft6~qxuWBof%MIBM|ofj[Rjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLE-HnofEMs.}rs:R+jZRQjsS#R+9^WVt6WWI;jts-of
 placeholder: true
 categories:
 - family
@@ -33,5 +33,16 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Seat the mother on the right side of a low wooden bench with her legs tucked up sideways
+  on the cushion, angling her torso and knees inward toward the center.
+- Place the young girl in the middle between both subjects, seated close to the mother with
+  her legs drawn up on the seat and her hands softly clasped together near her chest.
+- Position the teenage boy on the left side of the bench with his feet extended to the floor,
+  leaning his upper body slightly inward toward the center with his hands resting naturally
+  on his lap.
+- Direct the mother and young girl to look directly at each other with warm, natural smiles,
+  while having the teenage boy smile as he looks down affectionately at the girl.
