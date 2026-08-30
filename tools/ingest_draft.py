@@ -42,6 +42,7 @@ def build_draft(candidate: dict, cluster: dict, prompts_record: dict | None,
         {"text": TODO, "tone": "nervous_client"},
         {"text": TODO, "tone": "calm"},
     ]
+    instructions = (prompts_record or {}).get("instructions") or [TODO]
     return {
         "id": str(ULID()),
         "slug": TODO,
@@ -57,6 +58,8 @@ def build_draft(candidate: dict, cluster: dict, prompts_record: dict | None,
         "location_types": [candidate["location_type"]],
         "orientation": "vertical" if height >= width else "horizontal",
         "difficulty": TODO,
+        # Photographer-facing setup steps; reviewed together with prompts.
+        "instructions": instructions,
         "prompts": prompts,
         "prompts_approved": False,
         "gear": candidate["gear"],
@@ -97,9 +100,14 @@ def review_entry(draft: dict, shoot: str) -> str:
         f"- faces detected: {ing['face_count']} (checked against subject_count at finalize)",
         f"- still needed: {', '.join(todo_fields) if todo_fields else 'nothing — fill approval'}",
         "",
-        f"Prompts ({'approved' if draft['prompts_approved'] else 'NOT approved'}):",
+        "Posing instructions:",
         "",
     ]
+    for i, step in enumerate(draft["instructions"], 1):
+        lines.append(f"> {i}. {step}")
+    lines += ["",
+              f"Prompts ({'approved' if draft['prompts_approved'] else 'NOT approved'}):",
+              ""]
     for p in draft["prompts"]:
         lines.append(f"> **{p['tone']}** — {p['text']}")
     lines.append("")

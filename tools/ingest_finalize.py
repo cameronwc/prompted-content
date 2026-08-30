@@ -6,6 +6,7 @@ A draft is refused (with the reason) while it has:
   - prompts_approved: false — unless the prompt text was hand-edited,
     which counts as review (compared against the generated set)
   - fewer than 2 prompts, or none with tone nervous_client
+  - no posing instructions (every photo ships with setup steps)
   - no categories or no subject_types
   - a light tag set violating the grouped light rules
   - a detected face count contradicting subject_count by more than one
@@ -71,6 +72,10 @@ def refusals(draft: dict, generated: dict | None, groups: dict) -> list[str]:
         problems.append(f"only {len(prompts)} prompt(s); at least 2 required")
     if not any(p.get("tone") == "nervous_client" for p in prompts):
         problems.append("no nervous_client prompt (product invariant)")
+
+    if not draft.get("instructions"):
+        problems.append("no posing instructions (every photo pose ships with "
+                        "setup steps for the photographer)")
 
     if not draft.get("categories"):
         problems.append("no categories")

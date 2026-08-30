@@ -41,15 +41,22 @@ VOICE_GUIDE_PATH = REPO_ROOT / "prompts" / "voice_guide.md"
 COST_PER_M_INPUT = 0.75
 COST_PER_M_OUTPUT = 3.75
 # Rough per-request token shape for the estimate: image (~1120 for a
-# downscaled frame) + voice guide + instructions in, three short lines out.
-EST_INPUT_TOKENS = 3200
-EST_OUTPUT_TOKENS = 220
+# downscaled frame) + voice guide + instructions in; three spoken lines
+# plus a handful of setup steps out.
+EST_INPUT_TOKENS = 3300
+EST_OUTPUT_TOKENS = 360
 
 TONES = ("playful", "calm", "romantic", "nervous_client")
 
 RESPONSE_SCHEMA = {
     "type": "object",
     "properties": {
+        "instructions": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 2,
+            "maxItems": 5,
+        },
         "prompts": {
             "type": "array",
             "items": {
@@ -60,9 +67,9 @@ RESPONSE_SCHEMA = {
                 },
                 "required": ["text", "tone"],
             },
-        }
+        },
     },
-    "required": ["prompts"],
+    "required": ["instructions", "prompts"],
 }
 
 
@@ -83,11 +90,20 @@ def build_request_text(candidate: dict, voice_guide: str, note: str | None) -> s
         f"{json.dumps(meta, indent=2)}\n"
         f"{steering}\n"
         "Look at the photograph — the number of people, their pose, the "
-        "setting, the light — and write exactly three prompts a "
-        "photographer would say aloud to recreate this exact pose with a "
-        "new client. Three distinct tones: one MUST be nervous_client; "
-        "pick the other two from playful, calm, romantic to fit what you "
-        "see. Follow the voice guide exactly."
+        "setting, the light — and produce two things.\n\n"
+        "1. `instructions`: two to five numbered-in-order setup steps "
+        "telling the PHOTOGRAPHER how to arrange the subjects into this "
+        "exact pose — bodies, hands, weight, spacing, and where each "
+        "person faces. These are working notes read silently, so plain "
+        "technical direction is fine here; be specific enough that a "
+        "photographer who has never seen the photo could rebuild the "
+        "pose. One step per string, no numbering prefixes.\n\n"
+        "2. `prompts`: exactly three prompts the photographer would say "
+        "ALOUD to the clients to get them into and through the pose. "
+        "Three distinct tones: one MUST be nervous_client; pick the other "
+        "two from playful, calm, romantic to fit what you see. Follow the "
+        "voice guide exactly — the guide governs prompts only, not the "
+        "instructions."
     )
 
 
@@ -111,7 +127,12 @@ def valid_prompts(prompts: list[dict]) -> bool:
             and all(p.get("text", "").strip() for p in prompts))
 
 
-def generate_for(client, image_bytes: bytes, request_text: str) -> tuple[list[dict], dict]:
+def valid_instructions(instructions: list) -> bool:
+    return (isinstance(instructions, list) and 2 <= len(instructions) <= 5
+            and all(isinstance(s, str) and s.strip() for s in instructions))
+
+
+def generate_for(client, image_bytes: bytes, request_text: str) -> tuple[dict, dict]:
     from google.genai import types
 
     for attempt in range(2):
@@ -133,14 +154,16 @@ def generate_for(client, image_bytes: bytes, request_text: str) -> tuple[list[di
             "output_tokens": (usage.candidates_token_count or 0)
             + (usage.thoughts_token_count or 0),
         }
-        prompts = json.loads(response.text)["prompts"]
-        if valid_prompts(prompts):
-            return prompts, used
+        payload = json.loads(response.text)
+        if (valid_prompts(payload.get("prompts", []))
+                and valid_instructions(payload.get("instructions"))):
+            return payload, used
         if attempt == 0:
             request_text += ("\nYour previous answer broke the format rules. "
-                             "Exactly three prompts, three distinct tones, one "
-                             "of them nervous_client.")
-    raise RuntimeError(f"model returned invalid prompt set: {prompts}")
+                             "Two to five instruction steps, plus exactly three "
+                             "prompts in three distinct tones, one of them "
+                             "nervous_client.")
+    raise RuntimeError(f"model returned invalid prompt/instruction set: {payload}")
 
 
 def main() -> int:
@@ -197,7 +220,7 @@ def main() -> int:
         image = downscaled_jpeg(shoot_path / candidate["file"])
         text = build_request_text(candidate, voice_guide, args.note)
         try:
-            prompts, used = generate_for(client, image, text)
+            payload, used = generate_for(client, image, text)
         except Exception as exc:
             print(f"  {candidate['cluster']} FAILED: {exc} — continuing")
             continue
@@ -207,13 +230,16 @@ def main() -> int:
             "file": candidate["file"],
             "model": MODEL,
             "note": args.note,
-            "prompts": prompts,
+            "instructions": payload["instructions"],
+            "prompts": payload["prompts"],
             "prompts_approved": False,
             "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         }
         prompts_path.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n")
         print(f"  {candidate['cluster']} {candidate['file']}:")
-        for p in prompts:
+        for i, step in enumerate(payload["instructions"], 1):
+            print(f"    {i}. {step}")
+        for p in payload["prompts"]:
             print(f"    [{p['tone']}] {p['text']}")
 
     actual = (spent_in * COST_PER_M_INPUT + spent_out * COST_PER_M_OUTPUT) / 1e6

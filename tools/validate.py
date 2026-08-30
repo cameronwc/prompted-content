@@ -13,6 +13,8 @@ Checks, per pose:
      one sky tag, two modifiers, 3 light tags total; the taxonomy's
      excludes/excludes_groups; outdoor daytime poses carry exactly one
      solar band
+  9. Every photo-sourced pose carries posing instructions (photographer-
+     facing setup steps, distinct from the spoken prompts)
 
 Exit status is non-zero if any pose fails. Output is a per-pose report with
 file paths and specific failures.
@@ -140,6 +142,13 @@ def validate_pose(
     if isinstance(lights, list) and isinstance(locations, list):
         for msg in light_condition_errors(lights, locations, groups):
             errors.append(f"{yaml_path}: {msg}")
+
+    # 9. Photo-sourced poses must include posing instructions
+    if pose.get("image_source") == "photo" and not pose.get("instructions"):
+        errors.append(
+            f"{yaml_path}: instructions: photo-sourced poses must include "
+            f"posing instructions (setup steps for the photographer)"
+        )
 
     # 7. Coherence: distinct subject types cannot exceed subject_count
     count = pose.get("subject_count")

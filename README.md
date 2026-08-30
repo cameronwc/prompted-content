@@ -74,9 +74,12 @@ make ingest-prompts ... CONFIRM=1`.
 Open `inbox/<shoot>/_review.md`. For each candidate: fill every `TODO:`
 in its `_drafts/<ulid>.yaml` (slug, categories, subject count/types,
 difficulty, accessibility, plus `backlit`/`open_shade` if true — those are
-never inferred), and **read the three generated prompts**. Approve them by
-setting `prompts_approved: true`, editing the text (an edit counts as
-review), or `make approve-prompts SHOOT=<name>` after reading everything.
+never inferred), and **read the posing instructions and the three
+generated prompts**. Instructions are photographer-facing setup steps
+(how to arrange the subjects — every photo pose ships with them);
+prompts are the lines said aloud. Approve by setting
+`prompts_approved: true`, editing the text (an edit counts as review), or
+`make approve-prompts SHOOT=<name>` after reading everything.
 
 ### 5. Finalize and publish
 
@@ -132,6 +135,7 @@ image:
   detail: detail.jpg
   blurhash: "L00000"          # any string; build recomputes the real one
 placeholder: false            # real photography
+image_source: photo
 categories: [couples, engagement]
 subject_count: 2
 subject_types: [adult]        # never more types than subject_count
@@ -139,6 +143,9 @@ light_conditions: [golden, backlit]
 location_types: [field]
 orientation: vertical
 difficulty: easy              # easy | moderate | advanced
+instructions:                 # photographer-facing setup steps — required
+  - Stand them face to face, foreheads a hand-width apart, hands clasped low.
+  - Feet staggered so their leading shoulders overlap toward the camera.
 prompts:                      # ≥2; at least one nervous_client — enforced
   - text: Press your foreheads together and close your eyes for three seconds.
     tone: romantic

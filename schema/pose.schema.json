@@ -96,6 +96,13 @@
     "difficulty": {
       "enum": ["easy", "moderate", "advanced"]
     },
+    "instructions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "maxItems": 6,
+      "description": "Photographer-facing setup steps: how to arrange the subjects into this pose. Required for photo-sourced records (enforced by the validator); prompts remain the client-facing spoken lines."
+    },
     "prompts": {
       "type": "array",
       "minItems": 2,
