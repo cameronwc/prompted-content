@@ -1,0 +1,14 @@
+# Ingest pipeline thresholds. Every value here is a default; the quality
+# and cluster tools take per-run override flags (see each tool's --help).
+quality:
+  blur_floor: 60          # Laplacian variance below this rejects the frame
+  blown_pct_max: 5.0      # % pixels at 255 above this rejects
+  crushed_pct_max: 5.0    # % pixels at 0 above this rejects
+  min_short_edge: 1200    # px; below this rejects
+  aspect_tolerance: 0.01  # 4:5 within 1% — outside flags (never auto-crops)
+cluster:
+  phash_hamming_max: 10   # frames within this Hamming distance cluster together
+  # Composite ranking weights; sharpness dominates deliberately.
+  weight_sharpness: 3.0
+  weight_exposure: 1.0
+  weight_resolution: 0.5
