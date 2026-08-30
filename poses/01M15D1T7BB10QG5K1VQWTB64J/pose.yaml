@@ -34,6 +34,12 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Have the subject sit on the ground cross-legged, facing completely in profile toward camera-right.
+- Instruct her to gently cradle her baby bump, placing her upper hand across the top of the
+  belly and her lower hand resting underneath to support it.
+- Ask her to tilt her head down toward her belly with a soft, relaxed smile, keeping her shoulders
+  lowered and posture naturally upright.

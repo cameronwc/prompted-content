@@ -32,6 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Seat the mother on the far left, the father in the center, and the teenage son on the far
+  right of a couch, seated closely together in a row.
+- Place the youngest child lying back horizontally across the laps and arms of the father
+  and teenager, tilted slightly upward toward the teen.
+- Have the young daughter playfully clamber or balance across the mother's lap toward the
+  father's chest, throwing one arm out dynamically for balance.
+- Prompt the entire group to playfully roughhouse and tickle each other, capturing the candid
+  chaos as all family members laugh and focus inward on the center of the couch.

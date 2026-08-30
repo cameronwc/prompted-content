@@ -31,6 +31,13 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the couple standing closely side-by-side along the path with their bodies turned
+  directly away from the camera, as if walking into the background.
+- Have them hold hands down between them, keeping their joined arms relaxed and straight at
+  their sides.
+- Ask both subjects to turn their upper torsos and heads back over their shoulders toward
+  the camera with relaxed, genuine smiles.

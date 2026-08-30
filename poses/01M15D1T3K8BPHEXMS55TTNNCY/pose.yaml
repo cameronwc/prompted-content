@@ -31,6 +31,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the subject on a wooded path next to a large tree trunk, facing toward the camera.
+- Have the subject take slow, casual steps forward to create a natural, mid-stride walking
+  posture.
+- Direct the subject to keep both arms relaxed and hanging naturally at their sides, avoiding
+  any stiffness in the hands.
+- Instruct the subject to turn their head slightly toward camera-left, looking off-camera
+  with a genuine, candid smile.

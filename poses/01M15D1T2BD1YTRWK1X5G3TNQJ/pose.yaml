@@ -33,6 +33,15 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the subject centrally along the dirt path and have him walk at a slow, natural
+  pace directly toward the camera, capturing him mid-stride with his right foot stepping forward.
+- Instruct him to keep his torso upright and shoulders relaxed, facing directly forward with
+  his jacket unzipped to allow natural movement.
+- Have his arms hang loosely at his sides with a slight, natural forward-and-back swing and
+  relaxed hands.
+- Direct him to look straight ahead into the camera lens with a calm, gentle closed-mouth
+  smile.

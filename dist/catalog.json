@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 7,
-  "generated_at": "2026-08-30T20:20:43+00:00",
+  "catalog_version": 8,
+  "generated_at": "2026-08-30T20:37:23+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -258,9 +258,14 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side on a sidewalk, prompting them to walk forward together directly toward the camera at a natural, casual pace.",
+        "Have them clasp inner hands between them at waist height, while the man places his outer hand into his front pants pocket and the woman lets her outer arm hang naturally at her side.",
+        "Instruct both subjects to turn their heads toward each other while walking, sharing eye contact and genuine smiles or light laughter."
+      ]
     },
     {
       "id": "01M15D1T01F2X049VVEAMZ392G",
@@ -310,9 +315,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing closely side-by-side along the path with their bodies turned directly away from the camera, as if walking into the background.",
+        "Have them hold hands down between them, keeping their joined arms relaxed and straight at their sides.",
+        "Ask both subjects to turn their upper torsos and heads back over their shoulders toward the camera with relaxed, genuine smiles."
+      ]
     },
     {
       "id": "01M15D1T02ZM6D2AR1B0Q3QN3F",
@@ -362,9 +372,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing very close, facing each other in profile.",
+        "Have the partner on the left place both hands securely around the partner's waist and lower ribcage.",
+        "Instruct the partner on the right to rest their right hand gently on the left partner's shoulder or upper chest.",
+        "Ask both subjects to lean in and rest their foreheads together with soft, relaxed expressions and closed or downcast eyes."
+      ]
     },
     {
       "id": "01M15D1T03V79GQ4QHCGZC0XQK",
@@ -416,9 +432,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together in profile along the path, facing each other against the mountain backdrop.",
+        "Have the woman lean back into a deep dip, supporting her weight primarily on her bent left leg while kicking her right leg upward and back toward the side with her knee bent.",
+        "Instruct the man to bend his knees, lean over her to maintain balance, and wrap both arms firmly around her waist and mid-back to support her dip.",
+        "Direct the woman to place her right hand on the side of his neck and jawline as they lean their faces together for a gentle, romantic kiss, letting her hair cascade backward."
+      ]
     },
     {
       "id": "01M15D1T040JJ6AHJACRDXRRY3",
@@ -518,9 +540,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing several feet apart in an open field, with the man on the left and the woman on the right.",
+        "Have the man stand with his back turned three-quarters away from the camera, rotating his head to look over his right shoulder toward his partner, while extending his left arm straight across his chest toward her.",
+        "Instruct the woman to stand facing three-quarters toward the camera, grasping the man's extended left hand with her right hand at chest level, while keeping her left arm relaxed naturally at her side.",
+        "Direct the woman to perform a gentle twirl or shifting step to create natural motion in her hair and jacket, having both subjects look at each other with joyful, laughing expressions."
+      ]
     },
     {
       "id": "01M15D1T060MM4TGT6GRS9DSCR",
@@ -624,9 +652,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing very close together on the path, facing each other in profile with their bodies angled slightly toward the camera.",
+        "Have the woman rest her rear arm up on the man's neck and shoulder, while the man wraps his rear arm gently around her waist to pull her close.",
+        "Instruct them to clasp their front hands together securely at mid-chest height between their torsos, similar to a slow dance position.",
+        "Ask both subjects to look directly into each other's eyes with warm, natural smiles, leaning slightly in toward one another."
+      ]
     },
     {
       "id": "01M15D1T08M4YGDZSJY85FGAD9",
@@ -782,9 +816,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side along the trail, moving dynamically from left to right across the frame in a mid-stride jogging motion.",
+        "Instruct the man on the left to turn his upper body slightly toward the woman, extending his right hand to gently rest on her upper right arm or shoulder while matching her pace.",
+        "Have the woman jog closely beside him, turning her head back toward his face with a candid, open-mouthed laugh while keeping her arms slightly bent and relaxed in motion."
+      ]
     },
     {
       "id": "01M15D1T0BMZX813K5WR1282GJ",
@@ -1105,9 +1144,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the man standing in a three-quarter profile facing right, and have him wrap both arms securely around the woman's waist and mid-back to lift her completely off the ground.",
+        "Have the woman wrap both arms around his neck and over his shoulders, holding herself close to his upper body for stability.",
+        "Instruct the woman to bend her knees and kick her lower legs backward at roughly a ninety-degree angle behind his torso.",
+        "Direct the man to look up toward her face with a bright smile, while the woman laughs openly and tilts her head with joyful energy, allowing her hair to fall naturally with movement."
+      ]
     },
     {
       "id": "01M15D1T0HE62A56ESFN2C8A36",
@@ -1317,9 +1362,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the female subject leaning her back and shoulder diagonally against a piece of driftwood or low wall, with her feet planted slightly out in front to create a relaxed, tilted posture.",
+        "Place the male subject standing closely alongside her on the open side, angling his torso slightly inward toward her to create an intimate framing.",
+        "Have them clasp their adjacent hands naturally at hip level between them, letting their outer arms rest casually along their sides.",
+        "Direct both subjects to turn their heads toward each other and share a natural, candid laugh with direct eye contact."
+      ]
     },
     {
       "id": "01M15D1T0NZEVBK0DH24XKGN72",
@@ -1530,9 +1581,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing directly face-to-face in full profile to the camera, standing close together so their torsos are nearly touching.",
+        "Have the partner on the right wrap their near arm around the partner on the left's waist, resting their hand gently on the side of their torso.",
+        "Have the partner on the left rest their arms naturally along their sides, framing their partner closely in a relaxed embrace.",
+        "Direct both partners to close their eyes and lean their heads together into a soft, tender kiss, maintaining clean profile silhouettes against the backlight."
+      ]
     },
     {
       "id": "01M15D1T0S3T7XNB7WZSS2PWG9",
@@ -1689,9 +1746,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple walking side-by-side down the path toward the camera, with the man slightly behind on the left and the woman on the right.",
+        "Instruct the man to place his right hand gently behind the woman's waist/lower back while letting his left arm hang naturally at his side.",
+        "Have the woman walk with a relaxed posture, letting both arms swing loosely at her sides.",
+        "Ask both subjects to turn their heads toward each other, locking eyes and sharing a natural, candid laugh while continuing their slow forward stride."
+      ]
     },
     {
       "id": "01M15D1T0WGWHW6S1R5T9KKY9Y",
@@ -1906,9 +1969,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing side-by-side in a hallway or open walkway, facing directly away from the camera with their bodies close together.",
+        "Have them hold hands naturally down between them, letting their outer arms rest casually at their sides.",
+        "Direct the woman on the left to twist slightly at the waist and turn her head back over her right shoulder to look directly into the camera with a bright smile.",
+        "Direct the man on the right to turn his head over his left shoulder to look affectionately down at the woman with a gentle smile."
+      ]
     },
     {
       "id": "01M15D1T1010PHNR2GRTRGTZQF",
@@ -2373,9 +2442,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple along the beach and have them run from left to right across the frame, with the woman slightly ahead in the foreground on the right and the man trailing just behind her on the left.",
+        "Instruct the woman to jog naturally with a bent-knee stride, turning her head and upper body slightly toward the camera while laughing genuinely as if being chased.",
+        "Direct the man to playfully chase her in an energetic, exaggerated sprint mid-stride, extending his back leg up behind him, reaching his arms out naturally for balance, and looking directly toward her with a wide, joyful smile."
+      ]
     },
     {
       "id": "01M15D1T19VT6NA5YJJAEQ666Q",
@@ -2743,9 +2817,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side along a natural path, angling their bodies slightly toward each other as they walk forward toward the camera.",
+        "Have the man on the left take a mid-stride step forward, keeping his torso upright and his arms relaxed naturally at his sides.",
+        "Have the woman on the right walk in sync next to him, taking a natural step forward with her arms swinging loosely in motion.",
+        "Direct both subjects to turn their heads toward each other and share a candid, laughing expression while continuing their forward movement."
+      ]
     },
     {
       "id": "01M15D1T1GC8BJ7VAX9KVVR20E",
@@ -3214,9 +3294,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together in a full-length frame, angled slightly toward one another.",
+        "Have the woman turn three-quarters toward the man, letting her outside arm hang relaxed while extending her left hand upward between them.",
+        "Instruct the man to hold her raised hand with both of his hands, bowing his head slightly to gently kiss the back of her knuckles.",
+        "Direct the woman to look warmly and affectionately at the man's face with a natural smile."
+      ]
     },
     {
       "id": "01M15D1T1SPKW8DXTQDH1VW4KE",
@@ -3425,9 +3511,15 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing beside a prominent tree, leaning his right shoulder and upper arm lightly against the trunk.",
+        "Have him shift his weight onto his straight right leg and cross his left leg across the front, resting the left foot lightly on the ground near the right ankle.",
+        "Instruct him to slip his left hand into his front pocket while letting his right arm hang loosely and naturally along his side against the tree.",
+        "Direct him to angle his torso slightly outward from the tree, square his face directly to the camera, and offer a relaxed, friendly smile."
+      ]
     },
     {
       "id": "01M15D1T1X6MB35QX8T6JQDEFS",
@@ -3478,9 +3570,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit casually on the edge of a curb or low step, angling his torso slightly to the left relative to the camera.",
+        "Instruct him to keep his feet planted on the asphalt with his knees bent and positioned shoulder-width apart.",
+        "Direct him to lean slightly forward, resting his forearms across his knees with his hands hanging relaxed in the space between his legs.",
+        "Have him square his shoulders comfortably toward the camera, tilt his head subtly, and look straight into the lens with a natural, relaxed smile."
+      ]
     },
     {
       "id": "01M15D1T1YC2PD34VN9XXM1CXT",
@@ -3849,9 +3947,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject on a sidewalk in profile/three-quarter view, facing toward camera-right in a wide, mid-stride walking stance with their forward foot planted and back foot trailing.",
+        "Have the subject slide their front hand (camera-right) casually into their front jeans pocket while letting the other arm hang naturally along their side.",
+        "Instruct the subject to turn their head directly toward the camera over their lead shoulder while keeping their upper body angled forward along their walking path.",
+        "Direct the subject to offer a warm, natural smile directly into the lens while maintaining relaxed shoulders."
+      ]
     },
     {
       "id": "01M15D1T258QRJPHWET52BJQ2V",
@@ -4222,9 +4326,15 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject centrally along the dirt path and have him walk at a slow, natural pace directly toward the camera, capturing him mid-stride with his right foot stepping forward.",
+        "Instruct him to keep his torso upright and shoulders relaxed, facing directly forward with his jacket unzipped to allow natural movement.",
+        "Have his arms hang loosely at his sides with a slight, natural forward-and-back swing and relaxed hands.",
+        "Direct him to look straight ahead into the camera lens with a calm, gentle closed-mouth smile."
+      ]
     },
     {
       "id": "01M15D1T2C45159VKE3JQ61ZKB",
@@ -4690,9 +4800,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on a lower bleacher tier, angling his body slightly toward camera-left with feet placed comfortably on the floor below and knees moderately spaced.",
+        "Instruct him to drape his left arm back and rest his forearm casually along the higher bleacher bench behind him.",
+        "Have him let his right arm relax downward, resting his right hand naturally on his right thigh near the knee.",
+        "Direct him to turn his shoulders and head squarely toward the camera, sitting tall with a relaxed posture and giving a warm, open smile."
+      ]
     },
     {
       "id": "01M15D1T2NSAPS17W1D3MTR97T",
@@ -4742,9 +4858,14 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject on a central pathway and have him walk naturally forward directly toward the camera, stepping forward with his right foot.",
+        "Instruct him to keep his shoulders square to the lens and let his arms hang relaxed at his sides with hands naturally loose.",
+        "Have him look straight into the camera lens with his head held upright and a broad, relaxed smile."
+      ]
     },
     {
       "id": "01M15D1T2PVJW96KE9R0XB2WXS",
@@ -4951,9 +5072,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject facing directly toward the camera along the shoreline and prepare him for an explosive vertical jump.",
+        "Instruct him to jump high into the air, flaring both knees out wide while bringing his heels together beneath his body to form a diamond shape with his legs.",
+        "Have him pump his left arm straight up above his head with a clenched fist while keeping his right arm down near his hip with a bent elbow and closed fist.",
+        "Direct him to lean his torso slightly forward and tilt his head down toward the camera with an open, energetic smile at the peak of the leap."
+      ]
     },
     {
       "id": "01M15D1T2T9Y3T3134R0K4SGWW",
@@ -5421,9 +5548,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject walk at a natural, steady pace from left to right across the street in front of a textured urban wall.",
+        "Capture the subject mid-stride with their right leg stepping forward, heel landing first, and the trailing left foot lifting from the ground.",
+        "Let the arms swing naturally with the stride, allowing the left arm to swing forward with a slight bend at the elbow while the right arm rests naturally near the hip.",
+        "Instruct the subject to turn their head toward the camera while maintaining forward momentum, flashing a warm, open smile directly at the lens."
+      ]
     },
     {
       "id": "01M15D1T33EVW1ZY9B8DS3NN0Z",
@@ -5943,9 +6076,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing beside a brick wall, leaning his right shoulder and upper back lightly against it with his torso turned slightly toward the camera.",
+        "Have him place his left hand casually into his front jeans pocket while letting his right arm hang naturally relaxed straight down at his side.",
+        "Instruct the subject to square his head toward the camera and give a warm, natural, open-mouthed smile directly into the lens."
+      ]
     },
     {
       "id": "01M15D1T3D8FWCDQH8VE35RT7V",
@@ -6311,9 +6449,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject on a wooded path next to a large tree trunk, facing toward the camera.",
+        "Have the subject take slow, casual steps forward to create a natural, mid-stride walking posture.",
+        "Direct the subject to keep both arms relaxed and hanging naturally at their sides, avoiding any stiffness in the hands.",
+        "Instruct the subject to turn their head slightly toward camera-left, looking off-camera with a genuine, candid smile."
+      ]
     },
     {
       "id": "01M15D1T3MK55C98N4FRVERPEJ",
@@ -6572,9 +6716,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Line the family up side-by-side in an open field facing the camera, arranged from left to right: father, older daughter, toddler son, and mother.",
+        "Have them connect across the line by holding hands: father holding daughter's right hand, daughter holding toddler's right hand, and mother holding toddler's left hand, letting the outside hands hang naturally at their sides.",
+        "Instruct the family to stroll forward slowly toward the camera in mid-stride, keeping an even pace across the line.",
+        "Direct the father to turn his head to look affectionately toward his daughter, the mother to look down and smile at the toddler, the daughter to smile gently toward her brother, and the toddler to look naturally forward."
+      ]
     },
     {
       "id": "01M15D1T3S1XHMMAK138MTY8JY",
@@ -6625,9 +6775,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the family in a loose line across the cobblestone street, with the father on the left, the mother in the center, and the young daughter on the right.",
+        "Turn the father into a full profile facing right, planting his feet firmly and raising both hands high overhead to safely toss and catch the toddler in mid-air.",
+        "Have the mother stand facing slightly forward, letting her right arm hang naturally while holding the young daughter's right hand with her left hand.",
+        "Instruct both the mother and the daughter to tilt their heads upward toward the airborne toddler, capturing genuine, joyful reactions and smiles as the action unfolds."
+      ]
     },
     {
       "id": "01M15D1T3TMDXVT20B4FS3P84A",
@@ -6679,9 +6835,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the grandfather on the right side in profile facing left, holding the toddler securely in his arms at mid-chest height facing inward toward him.",
+        "Place the father standing centrally just behind them, angling his body inward and wrapping his left arm across the back of the grandfather's shoulders while looking down warmly at the toddler.",
+        "Position the young girl on the left side tucked closely against the father's torso, turned in profile toward the right, with the father's right arm wrapping around her back.",
+        "Instruct the entire group to compress tightly together and direct their focus inward, encouraging candid laughter and interaction with the toddler so that no one looks at the camera."
+      ]
     },
     {
       "id": "01M15D1T3VMK3CBZ9A3SQV9XYQ",
@@ -6735,9 +6897,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the mother on the right foreground and the older daughter on the left foreground walking slowly forward side-by-side across the grassy field, angled slightly toward each other.",
+        "Have the mother give a piggyback ride to a young daughter, supporting her while the daughter wraps her arms over her mother's shoulders, with both turning their faces to look directly at each other while laughing.",
+        "Have the older daughter carry one toddler piggyback style, letting the toddler hold onto her shoulders from behind while she turns her head to smile toward her mother and sister.",
+        "Place the father directly behind the older daughter, carrying the second toddler high on his back, and direct him to look across warmly at the mother and children to unify the group's shared laughter."
+      ]
     },
     {
       "id": "01M15D1T3W4WB2XJ0GSRYRAQNR",
@@ -6846,9 +7014,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the parents stand close together facing slightly inward toward one another on the path, with the father on the left holding the toddler securely at chest height between them.",
+        "Position the older daughter standing directly in front of the father, turned inward in profile toward her mother and younger sibling with her hands relaxed at her sides.",
+        "Direct the mother on the right to angle inward toward the family, gently resting her right hand on the toddler's back or side to create a visual and physical connection.",
+        "Instruct all family members to focus their attention and smiles warmly on one another and the toddler, keeping their gazes candid and away from the camera lens."
+      ]
     },
     {
       "id": "01M15D1T3Y7X7QSNMTQ4KMTWZ4",
@@ -6900,9 +7074,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the grandmother recline on her back on the grass on the lower left, while the father reclines beside her on his back/side on the lower right, creating a low, interconnected base for the family pile.",
+        "Position the toddler climbing or sitting playfully on top of the grandmother's chest, supported by her hands, while the young daughter drapes over the father's chest and shoulders from behind.",
+        "Place the mother kneeling directly behind the center of the group, leaning forward over the pile with her hands reaching toward the children.",
+        "Position the older son kneeling on the far left, leaning forward over the grandmother toward the center of the group, and direct everyone to focus their laughter and gazes inward at each other and the toddler."
+      ]
     },
     {
       "id": "01M15D1T3ZAMVDSV9CMKC8V5DA",
@@ -7011,9 +7191,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the father on the left and the mother on the right, standing barefoot on the beach with the ocean behind them and angled slightly inward toward each other.",
+        "Place the two older siblings standing in the background between the center and the mother, angled toward the center.",
+        "Have the father and mother each grip one hand of the toddler positioned between them and lift the toddler fully off the sand so the child's legs swing forward mid-air.",
+        "Direct both parents and the older siblings to look affectionately at the laughing toddler while the toddler faces forward toward the camera."
+      ]
     },
     {
       "id": "01M15D1T41W431QH2XNWWSS7EK",
@@ -7238,9 +7424,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the family in a loose staggered horizontal line along the shoreline, arranged from left to right: father, young daughter, mother slightly set back, and toddler son on the far right.",
+        "Instruct the family to walk and jog forward toward the camera together at a playful, relaxed pace, allowing the children to surge slightly ahead of the parents.",
+        "Have the father keep a brisk, long stride with his elbows bent and hands held casually near waist height, while the mother walks smoothly behind the children with her arms relaxed naturally at her sides.",
+        "Direct the father to look across and laugh toward the children, the mother to gaze down warmly at the toddler, and both children to run forward naturally with candid, joyful smiles."
+      ]
     },
     {
       "id": "01M15D1T45GS29E0C1VJAWEG04",
@@ -7462,9 +7654,15 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the father in profile on the left facing right, and place the mother on the right angled three-quarters inward toward him along an urban sidewalk.",
+        "Have the father lift a toddler high in the air at head height, both looking and smiling at each other, while placing an older girl on the far left facing right and looking up at them.",
+        "Have the mother hold an infant comfortably on her outer hip with her left arm, turning her head to laugh and look at the father and lifted child.",
+        "Place the young boy between the parents facing front toward the camera, holding his mother's right hand with his left hand as everyone shares a candid, laughing interaction."
+      ]
     },
     {
       "id": "01M15D1T49J1S0PXKNWAVWZJ9R",
@@ -7515,9 +7713,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the parents in the center of the frame facing one another in a warm embrace, with the father wrapping his arms around the mother and both smiling affectionately at each other.",
+        "Place the older daughter to the left, stepping forward dynamically toward the parents with her arms outstretched as if running in to join the hug, looking toward the center with a joyful expression.",
+        "Position the older son on the right in profile facing inward, standing relaxed and smiling at the family, while the younger daughter stands nestled just behind him peeking through into the center.",
+        "Place the youngest child in the lower-center foreground with their back to the camera, arms spread wide as they walk directly toward the parents to complete the converging group hug."
+      ]
     },
     {
       "id": "01M15D1T4APJHAR2J614QVYK3A",
@@ -7790,9 +7994,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subjects in a horizontal line against a neutral wall with window light coming from camera left: place the dog on the left, the child in the center, and the mother on the right.",
+        "Have the child hold the mother's right hand with their left hand, leaving both human subjects barefoot and centered in frame.",
+        "Instruct the child to look up at the mother with a joyful smile while jumping vertically with legs straight and toes pointed down.",
+        "Prompt the mother to leap high mid-air with bent knees while laughing toward the camera, timing a cue for the dog to jump straight up on its hind legs at the exact same moment."
+      ]
     },
     {
       "id": "01M15D1T4FE4R9T3F1HNPWJ063",
@@ -7843,9 +8053,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the parents facing inwards toward each other in profile/three-quarter view, leaning their heads close together until their foreheads gently touch.",
+        "Place the older child nestled closely in front of the father and the toddler in front of the mother, forming a tight, connected circle in the center.",
+        "Have the toddler wrap both arms around the mother's torso, tilting their head back to look affectionately up at her.",
+        "Direct the father to wrap his arms around the older child to pull her in close, while the mother wraps her arms around the toddler, with everyone smiling down and interacting closely with each other."
+      ]
     },
     {
       "id": "01M15D1T4GTM73Z02JZBDKT3B7",
@@ -7897,9 +8113,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the father on the right side of the frame sitting or leaning back on the ground with bent knees, extending both arms forward to grip the younger child's hands in a playful tug-of-war motion.",
+        "Place the youngest child standing centrally, facing forward and leaning back slightly while gripping the father's hands with a joyful, laughing expression.",
+        "Position the older son on the left and the mother directly behind the toddler, both crouching and leaning inward with bent knees to wrap their hands around the toddler's midsection and pull backward.",
+        "Instruct all subjects to focus their gaze inward on the interaction and laugh naturally, creating a candid, dynamic movement frozen in mid-play."
+      ]
     },
     {
       "id": "01M15D1T4HJJ3CWG7PD5VV8SM4",
@@ -9031,9 +9253,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Seat the mother on the far left, the father in the center, and the teenage son on the far right of a couch, seated closely together in a row.",
+        "Place the youngest child lying back horizontally across the laps and arms of the father and teenager, tilted slightly upward toward the teen.",
+        "Have the young daughter playfully clamber or balance across the mother's lap toward the father's chest, throwing one arm out dynamically for balance.",
+        "Prompt the entire group to playfully roughhouse and tickle each other, capturing the candid chaos as all family members laugh and focus inward on the center of the couch."
+      ]
     },
     {
       "id": "01M15D1T56D7NYNTM7972A6E2Q",
@@ -9359,9 +9587,16 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the parents on the left side of the frame facing inward toward each other in profile, leaning in to share a gentle kiss.",
+        "Place the young daughter between the parents, facing the mother, with the mother wrapping her arms around the girl's upper body and the father resting his right hand around the girl's waist.",
+        "Stand the teenage daughter just to the right of the mother, angled toward the left and looking at the parents with a bright, amused smile.",
+        "Position the middle son beside the teenage daughter, turned toward the parents while pointing his left finger directly at them and laughing.",
+        "Place the youngest boy in the right foreground facing the camera, playfully covering both of his eyes with his hands and laughing at the display of affection."
+      ]
     },
     {
       "id": "01M15D1T5CCSW2NWDWVQ03ZSF0",
@@ -9846,9 +10081,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in a full side profile facing toward camera-left, standing barefoot with feet parallel and close together.",
+        "Have her cradle her baby bump with both hands, resting her top hand gently above the curve and her bottom hand supporting beneath it.",
+        "Instruct her to tilt her head slightly downward to look tenderly at her belly with relaxed shoulders and a soft, warm smile."
+      ]
     },
     {
       "id": "01M15D1T5NTHYQ49SXD2P3SMZ1",
@@ -10074,9 +10314,14 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in a full side-profile view, walking barefoot along the wet sand parallel to the shoreline with her body moving to the right of the frame mid-stride.",
+        "Have her gently cradle her baby bump with both hands, placing one hand resting across the top curve and the other supporting underneath the belly.",
+        "Instruct her to tilt her head downward, gazing softly at her bump with relaxed shoulders and a serene, gentle smile."
+      ]
     },
     {
       "id": "01M15D1T5S6VR9X7VMCA6MQJB8",
@@ -10286,9 +10531,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in full profile facing to the right, barefoot, taking a gentle step forward with her left leg leading and right leg trailing.",
+        "Instruct her to cradle her pregnant belly with both hands, resting the far hand gently on top and the near hand supporting underneath.",
+        "Ask her to tilt her head slightly downward, casting a soft, peaceful gaze down toward her bump with relaxed shoulders and a subtle smile."
+      ]
     },
     {
       "id": "01M15D1T5XPESY5SJBCC83QGA2",
@@ -10495,9 +10745,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing inside a doorway in a three-quarter profile facing camera right.",
+        "Instruct her to tilt her head down and look lovingly at her baby bump with a soft, gentle smile.",
+        "Have her bend her right arm across her body to rest her right hand flat on the upper slope of her belly.",
+        "Direct her to extend her left arm out to the side, resting her left hand flat against the doorframe at shoulder height."
+      ]
     },
     {
       "id": "01M15D1T61H6EJ6AB5KP0FC6RV",
@@ -10919,9 +11175,14 @@
       "accessibility": [
         "late_term"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in full profile facing toward the right side of the frame, with her weight evenly balanced on both feet.",
+        "Have her gently cradle her baby bump with both hands, resting her upper hand lightly on top of the belly and her lower hand supporting underneath.",
+        "Instruct her to drop her shoulders, tilt her head slightly downward, and gaze softly down at her bump with a calm, subtle smile."
+      ]
     },
     {
       "id": "01M15D1T69W2299PQFR6WG9THC",
@@ -11078,9 +11339,14 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the pregnant mother in the left foreground standing in profile or a slight three-quarter turn facing left, tilting her head downward with a gentle smile as she cradles the top and bottom of her belly with both hands.",
+        "Place the partner slightly behind her and to the right, angled toward the right side of the frame in a natural walking stride to create candid movement.",
+        "Direct the partner to lightly reach his forward hand toward the woman's back while turning his head back to look affectionately at her as he walks past."
+      ]
     },
     {
       "id": "01M15D1T6CR0W0NYHP5KXAAQCK",
@@ -11288,9 +11554,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in full profile facing frame right, having her take slow, natural steps barefoot across the sand.",
+        "Instruct her to gently cradle her baby bump with both hands, resting the upper hand across the top curve and supporting the bottom of the belly with her lower hand.",
+        "Have her tilt her head downward to gaze softly at her bump with a relaxed, tender expression as she steps forward."
+      ]
     },
     {
       "id": "01M15D1T6GYKK6CZ63NJ167MJM",
@@ -11863,9 +12134,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in profile facing frame-left along the forest path, standing barefoot.",
+        "Have her take a gentle walking step forward, planting her forward foot flat while trailing the back foot with the heel lifted off the ground.",
+        "Instruct her to wrap both hands around her baby bump, resting her top hand above the curve and cupping the bottom of her belly with the other hand.",
+        "Direct her to soften her shoulders and tilt her head downward, looking affectionately at her bump with a gentle, relaxed smile."
+      ]
     },
     {
       "id": "01M15D1T6V48WZ8HJXZ7M28KPD",
@@ -12129,9 +12406,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand barefoot on the sand near the water line, angling her body in a three-quarter turn toward the right.",
+        "Instruct her to cradle her pregnant belly with both hands, placing her right hand lightly on the upper slope of the bump and her left hand supporting underneath.",
+        "Ask her to drop her shoulders, tilt her head gently forward and down, and cast a soft, introspective gaze toward her belly."
+      ]
     },
     {
       "id": "01M15D1T70RGKMS2T92CT2A1YX",
@@ -12765,9 +13047,14 @@
         "seated_variant",
         "late_term"
       ],
-      "version": 3,
+      "version": 4,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on the ground cross-legged, facing completely in profile toward camera-right.",
+        "Instruct her to gently cradle her baby bump, placing her upper hand across the top of the belly and her lower hand resting underneath to support it.",
+        "Ask her to tilt her head down toward her belly with a soft, relaxed smile, keeping her shoulders lowered and posture naturally upright."
+      ]
     },
     {
       "id": "01M15D1T7C72Y361063K1ER5PW",

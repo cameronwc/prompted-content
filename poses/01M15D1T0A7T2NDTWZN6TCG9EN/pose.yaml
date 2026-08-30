@@ -30,6 +30,13 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the couple side-by-side along the trail, moving dynamically from left to right
+  across the frame in a mid-stride jogging motion.
+- Instruct the man on the left to turn his upper body slightly toward the woman, extending
+  his right hand to gently rest on her upper right arm or shoulder while matching her pace.
+- Have the woman jog closely beside him, turning her head back toward his face with a candid,
+  open-mouthed laugh while keeping her arms slightly bent and relaxed in motion.

@@ -34,6 +34,14 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the couple side-by-side on a sidewalk, prompting them to walk forward together
+  directly toward the camera at a natural, casual pace.
+- Have them clasp inner hands between them at waist height, while the man places his outer
+  hand into his front pants pocket and the woman lets her outer arm hang naturally at her
+  side.
+- Instruct both subjects to turn their heads toward each other while walking, sharing eye
+  contact and genuine smiles or light laughter.

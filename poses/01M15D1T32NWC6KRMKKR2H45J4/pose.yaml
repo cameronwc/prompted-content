@@ -31,6 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Have the subject walk at a natural, steady pace from left to right across the street in
+  front of a textured urban wall.
+- Capture the subject mid-stride with their right leg stepping forward, heel landing first,
+  and the trailing left foot lifting from the ground.
+- Let the arms swing naturally with the stride, allowing the left arm to swing forward with
+  a slight bend at the elbow while the right arm rests naturally near the hip.
+- Instruct the subject to turn their head toward the camera while maintaining forward momentum,
+  flashing a warm, open smile directly at the lens.

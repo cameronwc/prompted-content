@@ -33,6 +33,16 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- 'Position the subjects in a horizontal line against a neutral wall with window light coming
+  from camera left: place the dog on the left, the child in the center, and the mother on
+  the right.'
+- Have the child hold the mother's right hand with their left hand, leaving both human subjects
+  barefoot and centered in frame.
+- Instruct the child to look up at the mother with a joyful smile while jumping vertically
+  with legs straight and toes pointed down.
+- Prompt the mother to leap high mid-air with bent knees while laughing toward the camera,
+  timing a cue for the dog to jump straight up on its hind legs at the exact same moment.

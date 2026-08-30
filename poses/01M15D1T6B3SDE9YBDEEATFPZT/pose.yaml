@@ -32,6 +32,14 @@ gear:
   needs_reflector: false
 accessibility:
 - limited_mobility
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Position the pregnant mother in the left foreground standing in profile or a slight three-quarter
+  turn facing left, tilting her head downward with a gentle smile as she cradles the top and
+  bottom of her belly with both hands.
+- Place the partner slightly behind her and to the right, angled toward the right side of
+  the frame in a natural walking stride to create candid movement.
+- Direct the partner to lightly reach his forward hand toward the woman's back while turning
+  his head back to look affectionately at her as he walks past.

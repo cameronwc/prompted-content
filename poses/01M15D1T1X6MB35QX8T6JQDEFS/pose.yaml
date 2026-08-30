@@ -31,6 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Have the subject sit casually on the edge of a curb or low step, angling his torso slightly
+  to the left relative to the camera.
+- Instruct him to keep his feet planted on the asphalt with his knees bent and positioned
+  shoulder-width apart.
+- Direct him to lean slightly forward, resting his forearms across his knees with his hands
+  hanging relaxed in the space between his legs.
+- Have him square his shoulders comfortably toward the camera, tilt his head subtly, and look
+  straight into the lens with a natural, relaxed smile.

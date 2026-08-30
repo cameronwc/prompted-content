@@ -31,6 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - limited_mobility
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the subject standing beside a prominent tree, leaning his right shoulder and upper
+  arm lightly against the trunk.
+- Have him shift his weight onto his straight right leg and cross his left leg across the
+  front, resting the left foot lightly on the ground near the right ankle.
+- Instruct him to slip his left hand into his front pocket while letting his right arm hang
+  loosely and naturally along his side against the tree.
+- Direct him to angle his torso slightly outward from the tree, square his face directly to
+  the camera, and offer a relaxed, friendly smile.

@@ -31,6 +31,15 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Have the subject sit on a lower bleacher tier, angling his body slightly toward camera-left
+  with feet placed comfortably on the floor below and knees moderately spaced.
+- Instruct him to drape his left arm back and rest his forearm casually along the higher bleacher
+  bench behind him.
+- Have him let his right arm relax downward, resting his right hand naturally on his right
+  thigh near the knee.
+- Direct him to turn his shoulders and head squarely toward the camera, sitting tall with
+  a relaxed posture and giving a warm, open smile.

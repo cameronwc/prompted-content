@@ -31,6 +31,13 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai
+instructions:
+- Position the subject on a central pathway and have him walk naturally forward directly toward
+  the camera, stepping forward with his right foot.
+- Instruct him to keep his shoulders square to the lens and let his arms hang relaxed at his
+  sides with hands naturally loose.
+- Have him look straight into the camera lens with his head held upright and a broad, relaxed
+  smile.

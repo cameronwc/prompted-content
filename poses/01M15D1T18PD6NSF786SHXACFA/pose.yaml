@@ -31,6 +31,15 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
 image_source: ai
+instructions:
+- Position the couple along the beach and have them run from left to right across the frame,
+  with the woman slightly ahead in the foreground on the right and the man trailing just behind
+  her on the left.
+- Instruct the woman to jog naturally with a bent-knee stride, turning her head and upper
+  body slightly toward the camera while laughing genuinely as if being chased.
+- Direct the man to playfully chase her in an energetic, exaggerated sprint mid-stride, extending
+  his back leg up behind him, reaching his arms out naturally for balance, and looking directly
+  toward her with a wide, joyful smile.
