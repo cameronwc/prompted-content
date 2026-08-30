@@ -97,7 +97,6 @@ fixture content does not belong in the library).
   properly.
 - The ingest sample shoot lives only in gitignored inbox/ (fixture
   generator kept in the session scratchpad, not the repo).
-- Key rotation from the 2026-08-29 session is still outstanding.
 
 ## Live infrastructure & first publish (2026-08-29, third work session)
 
