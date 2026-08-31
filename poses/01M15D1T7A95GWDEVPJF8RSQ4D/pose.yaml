@@ -1,9 +1,9 @@
 id: 01M15D1T7A95GWDEVPJF8RSQ4D
 slug: chin-up-eyes-closed-studio
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-:ayax?b-;WBax~WxuRjayxuIVRjofayRj%1of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAIW+JNGK20L^%-oE2ae56S5$$xt4;n$R-oy-oNGt6j[
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: true
 accessibility:
 - late_term
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright at a three-quarter angle facing towards the left,
+  with her weight balanced evenly.
+- Instruct her to place her right hand flat across the upper curve of her baby bump and cup
+  the underside of the belly with her left hand.
+- Have her lift her chin slightly toward the light, relax her shoulders down and back, and
+  close her eyes with a peaceful facial expression.

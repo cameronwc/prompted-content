@@ -1,9 +1,9 @@
 id: 01M15D1T1HM5MG6HCZERD7S3VY
 slug: chin-lift-kiss-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;j[ja?b-;fPay_3xuWBj@xuIURjs:ayRjxbof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dSID{r-T~VM{^j?HIpxt-:S4R+RkozM|xtRjWVWBoLs:'
 placeholder: true
 categories:
 - couples
@@ -30,5 +30,13 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side-by-side facing forward toward the camera, close together
+  with their hips touching and arms resting relaxed at their sides.
+- Have the woman turn her head inward toward her partner, closing her eyes and leaning in
+  gently to press a kiss against the side of his chin.
+- Instruct the man to turn his face toward her, tilt his head up and back slightly to lift
+  his chin, and close his eyes with a subtle, happy smile.

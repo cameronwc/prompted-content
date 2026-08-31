@@ -1,9 +1,9 @@
 id: 01M15D1T3H6WJCZGTY0S1ZVSW8
 slug: denim-jacket-swing-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3C@8M%fj[kC?b-;ayj[_3xuRjayx[MxRjkCoeRjt8ay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dlJ@tDRkR*j]_NNHs:oe_3jYR*WCx]oKjsWCbws:oJs:'
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject mid-stride along an open trail, with his torso and lower body angled
+  roughly three-quarters to the side and weight carried onto the forward foot.
+- Direct him to turn his head back over his lead shoulder to face directly toward the camera
+  with a bright, natural smile.
+- Have him sling a denim jacket over his rear shoulder with one hand, letting the jacket flow
+  and catch movement behind his back.
+- Instruct him to extend his forward arm loosely out to the side at chest height, keeping
+  the elbow slightly relaxed and fingers soft.

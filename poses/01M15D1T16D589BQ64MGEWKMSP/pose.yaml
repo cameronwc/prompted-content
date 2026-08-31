@@ -1,9 +1,9 @@
 id: 01M15D1T16D589BQ64MGEWKMSP
 slug: jacket-drape-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-:j[j[?b-;ayfQ~WxuRjfQxuIURjofj[Rjxbj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQI;hc-5=_-T*0In9aRj_NM{M{IpyERjs9oJ%NNGRjjY
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,15 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side-by-side on the trail, angled slightly toward each other
+  as if walking slowly forward toward the camera.
+- Have the man wrap his right arm behind the woman's back, resting his right hand gently over
+  her outer right shoulder.
+- Keep the woman tucked close against his side with both of her arms resting naturally along
+  her torso and hips.
+- Instruct both subjects to turn their heads inward toward each other, sharing eye contact
+  with natural, warm smiles.

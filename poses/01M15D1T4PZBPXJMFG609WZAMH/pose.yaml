@@ -1,9 +1,9 @@
 id: 01M15D1T4PZBPXJMFG609WZAMH
 slug: group-walk-hold-hands-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3Dw1.-;f7fj?b-;WBa{_3xuRjfP%LIVRjofj[RjtQj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSJG[hWXoIoKWFoeayf7s+f6IqWW9cayt6ay0gofxZjs
 placeholder: true
 categories:
 - family
@@ -32,5 +32,16 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Line all eight family members up horizontally in a single row across an open field, placing
+  the parents in the center flanked by their children on both sides.
+- Have everyone link up by holding hands with the person next to them, keeping their arms
+  relaxed down at their sides.
+- Instruct the entire line to walk slowly and casually forward together in a steady, synchronized
+  stride toward the camera.
+- Direct the parents in the middle to look at each other and share a laugh, while encouraging
+  the siblings on either side to turn inward and interact naturally with their neighbors rather
+  than looking at the lens.

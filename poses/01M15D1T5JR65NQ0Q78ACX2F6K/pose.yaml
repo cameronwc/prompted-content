@@ -1,9 +1,9 @@
 id: 01M15D1T5JR65NQ0Q78ACX2F6K
 slug: field-run-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7_3.7ofof~qxuWBj[%MIBM|ofofRjxtWB
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dX9to#oLRjkCyZWqWBj[yEoLaeaytSayfQjZWBWBfkj?
 placeholder: true
 categories:
 - family
@@ -32,5 +32,18 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the three subjects in a staggered diagonal line in an open field, with the father
+  on the far left, the older child in the middle, and the toddler on the front right, all
+  facing toward the right edge of the frame.
+- Have the older child hold the toddler's left hand with their own left hand, maintaining
+  a natural stride side by side.
+- Instruct the father to jog closely behind the older child with his body angled slightly
+  toward the camera, hands loosely curled in a natural running motion, and gaze directed downward
+  at the children.
+- Direct all three to jog forward together from left to right at a gentle, coordinated pace,
+  capturing the mid-stride motion with the toddler looking back toward the older sibling and
+  father.

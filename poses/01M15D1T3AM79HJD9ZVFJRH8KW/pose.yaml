@@ -1,9 +1,9 @@
 id: 01M15D1T3AM79HJD9ZVFJRH8KW
 slug: dress-twirl-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7j[j]_3?bayj[~qxuWBofxuIARjt7WBRjx]of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dGGb33E30f-ntL%1jJkAo0NGt8xt-pWVM{kBWYs:NHRl
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject barefoot in the center-right of the frame on a wooded trail, positioned
+  slightly behind and adjacent to a prominent tree trunk on frame-left.
+- Instruct the subject to twirl or spin dynamically in place so that the flowy dress flares
+  outward with full movement.
+- Direct her to keep her arms relaxed and bent naturally out from her sides to balance and
+  accentuate the motion without blocking her torso.
+- Capture the subject mid-rotation as she turns her head and shoulders toward the camera with
+  an open, joyful, laughing expression and hair swinging freely.

@@ -1,9 +1,9 @@
 id: 01M15D1T1BPGFCDR25CQBGWRN0
 slug: hug-from-behind-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-pofof?b-;j[j[~WxuWBj@%2IURjofofRjxbfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: deKl:8-U^hxZ~B%1NIfQXnt7IqjZx]WroLazx]S5oeWV
 placeholder: true
 categories:
 - couples
@@ -30,5 +30,14 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the woman standing angled slightly to the right, with the man standing directly
+  behind her and hugging her closely from behind.
+- Have the man wrap both arms around her upper torso, clasping his hands together at the center
+  of her chest.
+- Instruct the woman to place her hands gently over the man's clasped hands at her chest.
+- Have the woman turn her head back over her right shoulder to look up at the man, while the
+  man leans his face close to hers, smiling warmly into her eyes.

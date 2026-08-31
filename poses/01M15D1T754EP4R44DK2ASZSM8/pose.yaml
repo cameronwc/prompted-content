@@ -1,9 +1,9 @@
 id: 01M15D1T754EP4R44DK2ASZSM8
 slug: partner-hands-heart-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-:j[oL?b-;ayj@~WxuRjayxuIVRjoej[Rjxtaz
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dhLz4?ae-nR-~qWVWWa#.8WXIqoe%Noej?a#%NWCjsj[
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple walking slowly and barefoot toward the camera across the grassy field,
+  standing side by side with minimal space between them.
+- Have the pregnant woman place one hand resting on top of her baby bump and her other hand
+  supporting the bottom of her belly.
+- Position her partner on her left side, extending his right hand to gently touch the side
+  of her pregnant belly while letting his left arm hang naturally at his side.
+- Instruct both subjects to walk naturally in stride while casting their gaze softly downward
+  toward the baby bump with warm, relaxed smiles.

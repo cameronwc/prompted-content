@@ -1,9 +1,9 @@
 id: 01M15D1T2QJY1DKMYTNHYRX743
 slug: doorway-frame
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;ofof_3.8oLof~qxuWBofx[IARjt7ayRjxvof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMKd0cH?rp?b~BoyWB-pnhoeE2xZI9X9g4ROIToztRaJ
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing inside a hallway doorway, leaning the right side of his upper
+  body casually against the door frame.
+- Have him cross his right leg over his left leg at the ankle/shin, resting lightly on both
+  feet with a relaxed stance.
+- Instruct him to slide his left hand into his front jeans pocket while letting his right
+  arm hang naturally down along his side.
+- Direct him to square his shoulders slightly toward the camera, look directly into the lens,
+  and smile naturally.

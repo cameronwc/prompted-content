@@ -1,9 +1,9 @@
 id: 01M15D1T2WKT9EM97CGEG6Y97S
 slug: over-shoulder-look-studio
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@BT?bWBWC_M?bWBWB~qxuRjayx[IARjt7WBRjx]of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQJj^[?w~q^+?aa#RjIVIp%2WANGtQa#M|oeS4oeV@WB
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,12 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a wall or pillar on their right side, with their body
+  angled away from the camera in a three-quarter back view.
+- Instruct the subject to turn their head back over their left shoulder to look directly into
+  the camera lens with a natural, friendly smile.
+- Keep the shoulders relaxed and let the left arm hang loosely along the side of the body.

@@ -1,9 +1,9 @@
 id: 01M15D1T6DQASC7YJDG743XNMN
 slug: bump-from-the-side-seated
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-:j[j??b-;ayay~WxuRkayxuIVRjofbHRj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCBV@Q579u-AD%t6R.s.0fRkofkV-oofs.IpEO-o-UEM
 placeholder: true
 categories:
 - maternity
@@ -33,5 +33,12 @@ accessibility:
 - seated_variant
 - limited_mobility
 - late_term
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Seat the subject comfortably in an armchair, positioned in a three-quarter profile facing
+  toward frame-left.
+- Guide her to cradle her baby bump with both hands, resting her far hand across the top of
+  the bump and cupping the underside with her near hand.
+- Instruct her to tilt her head down to look directly at her belly with a gentle, candid smile.

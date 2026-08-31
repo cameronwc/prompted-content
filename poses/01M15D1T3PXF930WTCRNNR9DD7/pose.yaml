@@ -1,9 +1,9 @@
 id: 01M15D1T3PXF930WTCRNNR9DD7
 slug: meadow-sit-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7ofkC_3?bf7j[~qxuRjj[%MITM{ozoLRjtSj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYKKDwoL-mRk?wj@WDWBTLWEIst5tmn$%1j[-:jYt7R*
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject seated casually in the grass on a slight incline, angled slightly toward
+  camera-right while keeping the upper body relatively upright.
+- Have him extend his right leg forward toward the camera with a relaxed bend in the knee,
+  and fold his left leg inward so the left ankle rests near the base of the right knee.
+- Instruct him to lean back slightly onto his left hand, planting it on the ground beside
+  his hip for support, while resting his right forearm loosely across his elevated right thigh.
+- Direct him to relax his shoulders, square his chest forward, and look directly into the
+  camera lens with a warm, natural open-mouth smile.

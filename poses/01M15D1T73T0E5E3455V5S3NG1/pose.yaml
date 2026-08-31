@@ -1,9 +1,9 @@
 id: 01M15D1T73T0E5E3455V5S3NG1
 slug: floor-lean-studio
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2HK|G?HofoL_3?afQj[~qxuRkj[xuD*Rjt7WCRj%Lof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSJaJ%-;?a%N~Ao#NL%Mt5o#%Mt6WEIVaKM{n~WBNG%L
 placeholder: true
 categories:
 - maternity
@@ -32,5 +32,13 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Have the subject sit barefoot on the floor in full profile facing toward the window, resting
+  her back comfortably against the base of a bed or soft piece of furniture.
+- Direct her to loosely fold or cross her legs comfortably in front of her on the floor.
+- Instruct her to cradle her baby bump with both hands, resting one hand gently along the
+  top and the other supporting the lower curve of her belly.
+- Ask her to tilt her head slightly down, gazing softly at her bump with a calm, gentle smile.

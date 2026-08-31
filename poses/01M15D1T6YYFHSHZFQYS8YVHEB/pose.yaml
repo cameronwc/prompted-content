@@ -1,9 +1,9 @@
 id: 01M15D1T6YYFHSHZFQYS8YVHEB
 slug: nursery-window-studio
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[f6?b-;ayay~WxuR*ayxuIVRjofWVRj%1of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSJ@p~_3%J9F~po}RjMxxYafIpxaf+a#oLoekCbIWBf5
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: true
 accessibility:
 - late_term
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in three-quarter profile next to a large window, angling her
+  body slightly toward the light source.
+- Instruct her to cradle her baby bump by resting her top (left) hand across the upper curve
+  of her belly and tucking her lower (right) hand underneath the base of the bump.
+- Have her turn her head toward the window, looking out with a gentle, relaxed smile and relaxed
+  shoulders.

@@ -1,9 +1,9 @@
 id: 01M15D1T5PZCQB1QJA2EFKCMMK
 slug: window-silhouette
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-pofoe?b-:j[j[~WxuWBj[xuIVRjofj]Rj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d;MQCURjxZoL?waeWXayx^j[WDayt6ofs.j?V?a}R*a|
 placeholder: true
 categories:
 - maternity
@@ -32,5 +32,13 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject in a full side profile facing to the right, taking a slow step forward
+  so her right foot is placed flat ahead of her left foot in a natural walking stance.
+- Instruct her to bend both arms at the elbows and gently cup both hands underneath the bottom
+  curve of her baby bump, resting them together softly.
+- Have her relax her shoulders, tilt her head slightly downward, and cast a soft, serene gaze
+  toward her belly and the ground just ahead.

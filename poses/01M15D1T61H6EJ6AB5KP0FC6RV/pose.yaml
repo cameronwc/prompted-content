@@ -1,9 +1,9 @@
 id: 01M15D1T61H6EJ6AB5KP0FC6RV
 slug: robe-drape-studio
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-:ofof?b-;j[j[_3xuWBfQxuIVRjofj[WAxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMH1bp0Ms.t6tQIoNJRkkWjFWYsl^%IoxtodR.NGWXoL
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing barefoot in a full profile view, facing toward the right side
+  of the frame with weight distributed evenly on both feet.
+- Have her cradle her baby bump with both hands, resting one hand gently across the top of
+  the belly and the other hand supporting underneath it.
+- Instruct her to softly tilt her head downward and look directly down at her belly with a
+  gentle, serene smile.

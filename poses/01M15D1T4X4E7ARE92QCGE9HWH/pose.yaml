@@ -1,9 +1,9 @@
 id: 01M15D1T4X4E7ARE92QCGE9HWH
 slug: walk-away-holding-hands-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3Dw1.-;WBay_2-;Rkay_MxuRjfQxuIVRjoyWBRjxuof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPIhW[009ZM{$~WXRkbH?bRjM{R*Dixut7j[9FtRt7t7
 placeholder: true
 categories:
 - family
@@ -32,5 +32,16 @@ gear:
   aperture: f/4
   needs_reflector: true
 accessibility: []
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- 'Line the four family members up side-by-side facing directly away from the camera in the
+  following order from left to right: teenage son, mother, young daughter, and father.'
+- Have all four subjects hold hands in a continuous chain at their sides, with relaxed arms
+  and even spacing between them.
+- Instruct the family to take slow, synchronized steps walking straight away from the camera
+  down the room.
+- Direct the subjects to turn their heads inwards in profile while walking—the son and mother
+  turning slightly toward each other on the left, and the father and daughter turning their
+  faces toward the center to look at the others with natural smiles.

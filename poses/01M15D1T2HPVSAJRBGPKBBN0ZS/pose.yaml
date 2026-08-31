@@ -1,9 +1,9 @@
 id: 01M15D1T2HPVSAJRBGPKBBN0ZS
 slug: profile-look-away
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7ofof_3?bfQof~qxuV@of%MIARjt7f6Rjxvof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dWMi$Cj?-mR+~Bj@aya|IpR*IpofWBofoJoe-oWWa#ay
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject in a tall grassy field facing completely in profile toward camera-left.
+- Have the subject take a slow, natural stride forward so that their legs are slightly separated
+  mid-walk with an upright, relaxed posture.
+- Instruct them to let their arms hang naturally at their sides, swinging gently and loosely
+  with the stride.
+- Direct their head to remain level, gazing straight ahead into the distance with a calm,
+  neutral expression.

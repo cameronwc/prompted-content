@@ -1,9 +1,9 @@
 id: 01M15D1T4N93ASH79081PYF777
 slug: story-time-circle
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7of_2?aofof~q%2WBfj%MIBM|ofoLRjxtWB
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d67,=AM|9]WCM{s:WVR*0fxZ$*WX-pRjofWBRjWWofWB
 placeholder: true
 categories:
 - family
@@ -33,5 +33,17 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- Seat the grandmother centrally facing forward, holding an open storybook with both hands
+  at lap height, actively looking down at the pages as if reading aloud.
+- Cluster two young girls closely against her right side (viewer's left), leaning inward with
+  hands brought together to watch the book, while a man stands behind them, leaning forward
+  with an arm draped around the outer girl.
+- Position a young boy in a beanie tight against the grandmother's left side (viewer's right)
+  looking at the open book, with a woman standing beside him, placing one hand on his back/shoulder
+  and laughing toward the scene.
+- Fill in the upper-center background with another adult and an older child wearing a beanie,
+  having everyone lean tightly inward toward the book with warm, candid facial expressions.

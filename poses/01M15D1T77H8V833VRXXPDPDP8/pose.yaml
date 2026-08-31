@@ -1,9 +1,9 @@
 id: 01M15D1T77H8V833VRXXPDPDP8
 slug: garden-barefoot-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-:ofoe?b-;ayj[~WxuR*ayxuIVRjofj[Rjxtaz
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddLW@OkX?Gt7~qofRkWWxaRjM{ayxuofs:ax%Lt6R*WB
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject stand barefoot in full profile facing to the right, pausing mid-stride
+  as if walking slowly along the wet sand by the water.
+- Instruct her to cradle her baby bump with both hands, placing her near hand gently on the
+  top curve and her far hand supporting the underside of the belly.
+- Ask her to lower her chin slightly and gaze down toward her bump with a soft, affectionate
+  smile while keeping her shoulders relaxed.

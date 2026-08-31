@@ -1,9 +1,9 @@
 id: 01M15D1T1QZBDHEWHX9THDDJ3Q
 slug: campfire-cuddle-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;ayae?b-;WCWB~WxuWBayxuIURjs:WBRjxuof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHGRL|oL_2oeVXNH0Lt6~VWUoMWCIp-poLofR+IoWBWB
 placeholder: true
 categories:
 - couples
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side-by-side in close contact, angled slightly toward each
+  other while oriented mostly toward the camera.
+- Have the man wrap his left arm over the woman's shoulders, letting his left hand rest naturally
+  on the outside of her right shoulder, keeping his right arm relaxed by his side.
+- Instruct the woman to wrap her left arm around his back and place her right hand gently
+  on the center of his lower chest or midsection.
+- Ask both subjects to turn their heads inward toward each other, sharing a natural laugh
+  and maintaining warm, candid eye contact.

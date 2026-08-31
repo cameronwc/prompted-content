@@ -1,9 +1,9 @@
 id: 01M15D1T0F5S27DD33AHK1J89X
 slug: blanket-wrap
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2-payof?b-;WBof_3xuRjj[xuInRjofa|WBxuay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dM7xXkWAS3jYlCaeRjj@ksbIjEbHogogoIa#V@j]a}fk
 placeholder: true
 categories:
 - couples
@@ -33,5 +33,15 @@ gear:
 accessibility:
 - seated_variant
 - limited_mobility
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the couple standing close together facing slightly inward toward each other in
+  three-quarter profile, with their shoulders touching.
+- Drape a large blanket over both of their outer shoulders, wrapping it around their backs
+  to cocoon them together in the center.
+- Have the woman lean lightly into the man with one knee softly bent, while the man stands
+  upright with his weight balanced.
+- Direct the woman to look up and laugh toward the man's face, while the man looks down and
+  smiles warmly at her.

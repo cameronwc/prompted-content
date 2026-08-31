@@ -1,9 +1,9 @@
 id: 01M15D1T5EJ33Z80C82NK71Y13
 slug: bench-row-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgK?aofa{_3?bfQay~q%2V[jtxuIBRjt7WBRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQHd{T00-;n$~VDiR.xtx]M_bIbItSIUozt7?bIUt7fl
 placeholder: true
 categories:
 - family
@@ -32,5 +32,16 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Seat all three subjects side by side on the center of the wooden bench, placing the child
+  between the two parents with minimal space between them.
+- Have the father on the left angle his body slightly inward toward the child with his hands
+  resting naturally on his thighs, while the mother on the right angles inward with her legs
+  swept to her right and her right hand placed gently on the child's side.
+- Position the child seated upright with her hands resting loosely in her lap, turning her
+  head to look up and laugh toward her father.
+- Instruct both parents to look down fondly at their daughter, with the father maintaining
+  direct eye contact with her and the mother watching them with a warm, relaxed smile.

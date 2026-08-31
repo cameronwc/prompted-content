@@ -1,9 +1,9 @@
 id: 01M15D1T33EVW1ZY9B8DS3NN0Z
 slug: skateboard-underarm-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3C@8M%fj[of?b-;ayof_3xuRjj[%MMxRjofofWBt8ay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dX4:Zmj[Rka}lCazayj@ktfPjZjsW?f6jYa|V?jZjsay
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,13 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright facing forward with feet placed naturally about shoulder-width
+  apart in an open field.
+- Have him slide his left hand casually into his front pants pocket while letting his right
+  arm hang naturally at his side, holding a skateboard vertically by the deck.
+- Instruct him to turn his head slightly toward his left, looking off-camera with a warm,
+  relaxed smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T2VK3PBM6VCPS24DBEH
 slug: curb-sit-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;oft7_3.8oeoy~qxuWAof%MITM|ozofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLLf{Y9Z^$oe~8-pIot60hIp9dj?0Nt3%1WCE3ofRifk
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,14 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject sit on the raised edge of a concrete curb, angling his torso at a three-quarter
+  turn toward the camera.
+- Instruct him to place both feet on the lower pavement, bending his knees so the forward
+  leg is extended slightly further out and the other foot is tucked closer to the curb.
+- Direct him to lean his upper body slightly forward from the hips and rest his forearms across
+  his thighs, letting his hands clasp loosely between his knees.
+- Have him turn his head directly toward the camera, relaxing his shoulders and smiling naturally.

@@ -1,9 +1,9 @@
 id: 01M15D1T0C6S5J4J1386H1ZPDZ
 slug: back-to-back
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;WBf6?b-;WBay_3xuRjj[xaIUWBt7RjRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d74CeoV?InWAt:adROadOaayslaKS5ays.jYofj]R%jr
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,16 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing back-to-back in full profile to the camera, with their spines,
+  shoulders, and lower backs pressed directly against each other for gentle, supportive contact.
+- Instruct the partner on the left to face straight ahead to the left profile, keeping their
+  shoulders back, chin slightly lifted, and arms relaxed straight down at their sides.
+- Instruct the partner on the right to face directly to the right profile, resting their head
+  lightly against the other partner's back and keeping both arms hanging naturally at their
+  sides.
+- Direct both subjects to look softly into the distance in their respective directions with
+  serene, subtle smiles.

@@ -1,9 +1,9 @@
 id: 01M15D1T0WGWHW6S1R5T9KKY9Y
 slug: shoulder-lean-sunset
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2-pofof?b-;j[j[~WxuWBfQ%2InRjofofRjxbay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPG@_0%1^$Rk~B%1R,afX9t7Iqo0Ndxas:WVNes:xaj@
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side by side facing forward toward the camera, spaced closely
+  together with hips nearly touching.
+- Instruct the couple to take slow, synchronized steps forward through the grass in mid-stride
+  to create natural movement.
+- Have the man wrap his inner arm loosely around the woman's back and lean his head down toward
+  her, resting his temple affectionately close to hers while smiling downward.
+- Direct the woman to angle her upper body slightly toward him, keeping her arms relaxed naturally
+  at her sides while laughing candidly up toward his direction.

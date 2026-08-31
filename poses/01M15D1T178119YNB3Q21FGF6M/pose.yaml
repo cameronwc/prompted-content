@@ -1,9 +1,9 @@
 id: 01M15D1T178119YNB3Q21FGF6M
 slug: nose-to-nose-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-:ayoL?b-;WBj[~WxuRjfQxuInRjofayRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddIf^sIp=_WV}?IpR-ayW;NHNJjZI;R*oLayNHR+j[WV
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,17 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side by side, angled slightly inward toward each other with
+  their hips close.
+- Instruct the partner on the left to raise their inner hand and gently rest their fingers
+  flat against the other partner's upper chest near the collarbone, keeping the other arm
+  relaxed at their side.
+- Have the partner on the right relax their arms naturally downward at their sides while turning
+  their torso slightly toward the camera.
+- Direct both subjects to turn their heads inward toward each other in near profile, bringing
+  their faces close enough so their noses lightly touch.
+- Prompt them to share a soft laugh or genuine smile while maintaining close facial contact.

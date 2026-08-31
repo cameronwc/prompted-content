@@ -1,9 +1,9 @@
 id: 01M15D1T5HXA1C66BHEFNRSM4R
 slug: tailgate-sit-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgK-;t7t7_3?aoMof~qxuV[of%MIBM|t6ofRjxtj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dtHewdNHxta}yZt6f8j[tmWXRjayIqWCjYWCnNofoeoe
 placeholder: true
 categories:
 - family
@@ -36,5 +36,17 @@ accessibility:
 - seated_variant
 - plus_size_flattering
 - wheelchair
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Seat the parents side-by-side in the center of the lowered truck tailgate with their legs
+  dangling off the back, angled slightly inward toward each other with warm, laughing expressions.
+- Place the toddler seated securely on the mother's lap facing forward, supported by her arms
+  around his waist with his legs resting over hers.
+- Position the younger daughter sitting on the tailgate to the father's right, leaning in
+  close against his side, while the eldest daughter stands in the truck bed just behind them,
+  leaning forward over her father's shoulder.
+- Seat the young boy on the far-right edge of the tailgate, turning his torso inward toward
+  his mother and baby brother, ensuring everyone is closely clustered and looking inward at
+  one another.

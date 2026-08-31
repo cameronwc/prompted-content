@@ -1,9 +1,9 @@
 id: 01M15D1T5K1HFJHZ99C0688ZJ3
 slug: story-time-circle-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;ofof_3?ajuof~qxuRjj[%MIBM{ofofRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d59ZlpE29b%1~TE3aMxZ5Ufk%0n$JDxaj;n$WBxZRjNH
 placeholder: true
 categories:
 - family
@@ -35,5 +35,18 @@ gear:
 accessibility:
 - seated_variant
 - plus_size_flattering
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Seat the mother centrally on the forest ground holding an open book upright in her lap with
+  both hands, looking down as if reading aloud.
+- Position the toddler in a beanie seated snugly against the mother's left side (viewer's
+  right) looking down at the pages, and seat the grandmother on the far right leaning inward
+  toward the toddler and book.
+- Tuck the younger daughter closely against the mother's right side (viewer's left) looking
+  at the book, and place the older daughter seated sideways on the far left leaning back slightly.
+- Seat the father directly behind the older daughter, wrapping his arm around her shoulder
+  and leaning his upper body inward toward the center.
+- Compress the family into a tight, connected horizontal cluster, ensuring all eyes and bodies
+  are turned warmly inward toward the open storybook.

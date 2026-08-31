@@ -1,9 +1,9 @@
 id: 01M15D1T3G7RTBCKGQA1MTZBKG
 slug: hands-on-hips-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M-;ofof_3.8j[of~qxuV@j[%MITRQofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLKm|NV@~At77jofIps:PWIo9bRj.9xYs:R*x]WVxFof
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,14 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject facing forward on the sand, capturing them mid-stride as they casually
+  walk directly toward the camera.
+- Instruct the subject to tuck both hands behind their back into their rear pockets or resting
+  against the back waistband, allowing their elbows to flare slightly outward to naturally
+  push the unbuttoned jacket back.
+- Keep the subject's torso squared to the lens, shoulders relaxed, and have them look directly
+  into the camera with a bright, natural smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T1YC2PD34VN9XXM1CXT
 slug: over-shoulder-look
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu.7ofof_3?bj[kC~qxuV@j[%MITRjozj?Rjxvj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKFFHBfO=;%L~9oMNKxsxZNHxbV[Nft6n%s;kXR+WBoz
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,12 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright next to a large tree trunk with their body angled
+  in profile, lightly leaning the back of their rear shoulder against the bark.
+- Keep the subject's arms relaxed and hanging naturally along the sides of the body.
+- Instruct the subject to turn their head over their camera-facing shoulder to look directly
+  into the lens with a soft, closed-mouth smile.

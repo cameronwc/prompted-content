@@ -1,9 +1,9 @@
 id: 01M15D1T2KW3PXT22NVZD23C3J
 slug: denim-jacket-swing
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;s:of_3?bofof~qx[WAj[%MITM|ofoeRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: doJ*Chs:jEt7_4j[R*j]%hR*R+WC?aoJt6WBxuWCofax
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,15 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in a field next to a tall wooden fence post, leaning his right
+  side and upper arm gently against the post.
+- Have him tuck both hands loosely into his front jeans pockets with the thumbs hooked out
+  or resting naturally.
+- Instruct him to keep his left leg straight to support his weight, while bending his right
+  knee and placing the sole of his right shoe flat against the wooden post behind him.
+- Angle his body slightly towards the camera while having him turn his head and smile directly
+  at the lens.

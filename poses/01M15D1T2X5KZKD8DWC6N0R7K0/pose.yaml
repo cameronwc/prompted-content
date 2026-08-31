@@ -1,9 +1,9 @@
 id: 01M15D1T2X5KZKD8DWC6N0R7K0
 slug: hands-in-pockets-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M-;ofof_3.8f7j]~qxuRjj[%MITM{ofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLNcJgIq^cj@~BaxIpWD4=RkE4t6-ns,oeWE-:s.s.od
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,13 @@ gear:
   needs_reflector: false
 accessibility:
 - limited_mobility
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing or slowly walking in profile from camera-left toward camera-right,
+  capturing a natural mid-stride with the legs separated and front foot forward.
+- Have him hook his fingers or slide his hands casually into the front pockets of his jeans,
+  keeping his elbows slightly bent and shoulders relaxed.
+- Instruct him to turn his head back over his shoulder toward the camera, smiling naturally
+  with direct eye contact into the lens.

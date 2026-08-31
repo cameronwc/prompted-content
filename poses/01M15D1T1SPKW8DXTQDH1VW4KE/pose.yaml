@@ -1,9 +1,9 @@
 id: 01M15D1T1SPKW8DXTQDH1VW4KE
 slug: walk-away-look-back-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8KA-:WBay_2-;V[af~WxuRjWC%2InRjofa|Rjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: djLD#;RP%LbF.ToJNHj[yES4M{f8tRkDs.azjFkCkCj[
 placeholder: true
 categories:
 - couples
@@ -32,5 +32,14 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side by side facing away from the camera along the shoreline,
+  with the male partner on the left and the female partner on the right.
+- Have them hold inner hands (his left hand holding her right hand) down between them while
+  letting their outer arms hang relaxed at their sides.
+- Prompt the couple to begin walking away down the beach in a casual, matched stride.
+- Direct both subjects to turn their heads back toward the left to look and laugh with each
+  other over their shoulders while continuing to walk forward.

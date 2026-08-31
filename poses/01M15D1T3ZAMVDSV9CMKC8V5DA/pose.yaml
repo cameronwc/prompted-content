@@ -1,9 +1,9 @@
 id: 01M15D1T3ZAMVDSV9CMKC8V5DA
 slug: walk-away-holding-hands
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3Dw1.-;fQay?b-;WBay_3xuRjayxuIVRjofazRjtQof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d$K^:0fRjst7~qayWBj[x]WBWBR*R+jsoeWCM{j[ofoL
 placeholder: true
 categories:
 - family
@@ -33,5 +33,17 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- 'Arrange the four subjects in a horizontal line facing directly away from the camera along
+  the wet sand: place the senior woman on the far left, the adult man second, the teen girl
+  third, and the adult woman on the far right.'
+- Have all four subjects hold hands with their adjacent partners with arms lowered and relaxed,
+  forming a continuous connected chain.
+- Direct the group to walk forward in a steady, synchronized pace away from the camera toward
+  the horizon.
+- Instruct the senior woman and the adult man to turn their heads in profile toward the right,
+  and the adult woman on the far right to turn her head in profile toward the left, smiling
+  and interacting naturally while the teen in the middle continues facing straight ahead.

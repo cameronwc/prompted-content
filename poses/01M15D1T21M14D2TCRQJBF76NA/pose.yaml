@@ -1,9 +1,9 @@
 id: 01M15D1T21M14D2TCRQJBF76NA
 slug: mid-laugh-candid
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7ofof_3?bofof~qxuWBj[%MITRjt7j?Rjxvj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPL|i7t7?9E3%jj[RjobOvNI9bxW_3xZRkM|_4WEt5oc
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject facing forward in a field, having him shift his full weight onto his
+  right leg while lifting and bending his left leg at the knee behind him.
+- Instruct him to lean his upper body slightly forward and down toward his right side in a
+  casual, relaxed slouch.
+- Have him drop his left arm loosely down along his front, while bringing his right arm across
+  his midsection to lightly clasp the inside of his left forearm or elbow.
+- Direct him to tilt his head slightly to his left and look straight toward the camera with
+  a big, natural laugh.

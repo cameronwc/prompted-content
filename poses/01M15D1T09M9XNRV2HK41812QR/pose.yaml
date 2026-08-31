@@ -1,9 +1,9 @@
 id: 01M15D1T09M9XNRV2HK41812QR
 slug: nose-to-nose
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-payoL?b-;WBj[~WxuRjfQxuInRjofayRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIIEFBV[~Ts:_4bHE4M|F}WWM}Rk?vRkt6xZ~qj[t6Rk
 placeholder: true
 categories:
 - couples
@@ -33,5 +33,14 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing chest-to-chest and facing each other in a profile view to the
+  camera.
+- Instruct the partner on the left to wrap their arms securely around their partner's waist.
+- Have the partner on the right wrap their back arm around their partner's neck/shoulder while
+  placing the forward hand gently on their collarbone and neck.
+- Direct both subjects to lean in close, lightly touching the tips of their noses together
+  in an 'almost-kiss' pose with gentle smiles and soft expressions.

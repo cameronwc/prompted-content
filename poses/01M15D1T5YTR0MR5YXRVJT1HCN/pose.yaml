@@ -1,9 +1,9 @@
 id: 01M15D1T5YTR0MR5YXRVJT1HCN
 slug: partner-forehead-touch
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[ax?b-;ayWB~WxuR*ayxuIVRjofWVRj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZLWtrM{-;WB~qWAxuoMNfs.ayM|%MRjV@WBx]axIUbI
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,14 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position both subjects standing close together in pure profile relative to the camera, facing
+  each other near a natural window light source.
+- Instruct both subjects to lean their heads in gently until their foreheads and the bridges
+  of their noses touch, keeping their eyes closed with soft, relaxed smiles.
+- Have the pregnant subject rest her hands naturally across the upper curve of her baby bump.
+- Direct the partner to place his hands gently across the lower side and base of her belly,
+  supporting the bump.

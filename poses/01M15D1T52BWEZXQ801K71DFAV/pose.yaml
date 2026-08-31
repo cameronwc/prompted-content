@@ -1,9 +1,9 @@
 id: 01M15D1T52BWEZXQ801K71DFAV
 slug: race-to-camera-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;ofoe_3?aj[j[~q%2Rjay%MIBM{kBofRjxtWC
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dGHLF]D%00%M~UWCM{%M?axuDjIU4Txa_3IU9Ft7%MWA
 placeholder: true
 categories:
 - family
@@ -33,5 +33,18 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the family in a naturally backlit hallway, staggering their depth so the parents
+  flank the outer edges, the two older children are in the midground, and the toddler is centered
+  slightly in front.
+- Instruct the father on the left and the mother on the right to jog forward in stride toward
+  the camera, keeping their elbows bent in an active running motion while smiling directly
+  at the lens.
+- Place the teenage son slightly behind the father on the left-center and the young daughter
+  behind the mother on the right-center, having them jog along while laughing naturally.
+- Guide the toddler in the front-center to walk or run directly toward the camera with arms
+  held slightly away from the body for balance, capturing the entire group moving together
+  in mid-stride.

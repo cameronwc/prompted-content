@@ -1,9 +1,9 @@
 id: 01M15D1T1PQY3TJXC9YZGSMP25
 slug: silhouette-kiss-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;WBay?b-;WBay~WxuRjfQxuIURjs:WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMH-oaoI4nRk_NjYD%oewHayNGt69GWDX9j[r;a}%LR+
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,15 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the couple centered directly in front of the bright window, standing face-to-face
+  in strict profile to the camera.
+- Have them stand upright a few inches apart with their feet parallel, toes pointing directly
+  toward each other, and weight evenly distributed.
+- Instruct both subjects to let their arms and hands hang naturally relaxed straight down
+  at their sides.
+- Ask them to close their eyes and gently lean in from the neck to share a soft kiss on the
+  lips while keeping their torsos vertical and separate.

@@ -1,9 +1,9 @@
 id: 01M15D1T59QX5K568N3TC56NXS
 slug: dog-in-the-middle-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?aofkB_3?bayj[~q%LRjay%MIBM{ofofRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: deIXynM|xrof~Vs.azfPW=azRlaxD-ocj@WCIqRkoej[
 placeholder: true
 categories:
 - family
@@ -35,5 +35,16 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the golden retriever sitting upright in the center of the frame facing forward
+  as the central anchor of the composition.
+- Have the mother and father kneel closely together behind and slightly to the left of the
+  dog, leaning inward with their shoulders touching and smiling down toward the pet.
+- Seat the teenage son low to the right of the dog, leaning slightly forward and inward toward
+  the center grouping.
+- 'Arrange the two younger children grounded in the front: have the young girl kneel on the
+  left reaching both hands forward to pet the dog''s chest, and seat the toddler flat on the
+  grass on the right facing inward toward the dog.'

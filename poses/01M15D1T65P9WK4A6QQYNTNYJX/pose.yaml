@@ -1,9 +1,9 @@
 id: 01M15D1T65P9WK4A6QQYNTNYJX
 slug: floor-lean
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2HBbo-;oft7_2?Hj[of~qxuRkof%MD*NGs:kCRj%Lay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d6CY{bDkS@~U~3M$9d?AIqX4xIju%2oHw]oz%0R-E3R%
 placeholder: true
 categories:
 - maternity
@@ -33,5 +33,13 @@ gear:
 accessibility:
 - seated_variant
 - plus_size_flattering
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- Position the subject kneeling directly on the ground, angled in a three-quarter profile
+  facing to the right.
+- Have her cradle her baby bump with both hands, placing the upper hand flat over the top
+  of the curve and the lower hand supporting underneath.
+- Direct her to relax her shoulders, tilt her head slightly downward, and cast a gentle, smiling
+  gaze toward her belly.

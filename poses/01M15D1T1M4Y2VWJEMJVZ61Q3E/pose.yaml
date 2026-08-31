@@ -1,9 +1,9 @@
 id: 01M15D1T1M4Y2VWJEMJVZ61Q3E
 slug: temple-kiss-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;ayja?b-;ayf7_3xuWBj[xuIUWBt7WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPJ7zFE3~WEMRPD%D*IV-;ofIVjubb%MxaofIoRjoJj[
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,14 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing side-by-side on the sidewalk, angled slightly toward one another
+  so their shoulders and hips are touching.
+- Have the woman place her right hand flat against the center of the man's chest while letting
+  her left arm rest naturally at her side.
+- Instruct the man to lean inward and gently kiss the side of the woman's forehead or temple.
+- Direct the woman to close her eyes and offer a natural, joyful smile in reaction to the
+  kiss.

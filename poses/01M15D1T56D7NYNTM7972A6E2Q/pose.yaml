@@ -1,9 +1,9 @@
 id: 01M15D1T56D7NYNTM7972A6E2Q
 slug: lift-the-littlest-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1..7ofof_3?bj[j[~q%2Rjay%MIBM{ofofRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dvKAi^xa%0j[~qs:R,bH-=WCWBj[tSWCaya{kDoLWBay
 placeholder: true
 categories:
 - family
@@ -33,5 +33,16 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the father right of center in a three-quarter profile facing left, and have him
+  lift the toddler high overhead with fully extended arms, tilting his head back to smile
+  up at the child.
+- Place the mother standing close to the father's side on the left, angled slightly toward
+  him with hands relaxed at her sides, looking up and smiling warmly at the toddler.
+- Position the teenage boy on the far left standing close behind/beside the mother, angled
+  in profile facing right, looking up at the toddler with a relaxed stance.
+- Place the young girl on the far right standing close to the father, turned inward in profile
+  facing left, looking straight up toward the toddler with her hands held gently at her chest.

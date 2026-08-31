@@ -1,9 +1,9 @@
 id: 01M15D1T4QV6YSPVHX9677P282
 slug: toddler-toss-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?aofj[_3?bj[j[~qxuWBj[%LIBRjt7afRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d98gQsS34.%2~Wa}D%xuk?j[aJo#Xnoes9t8%Mf6WAxu
 placeholder: true
 categories:
 - family
@@ -33,5 +33,15 @@ gear:
   aperture: f/4
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the adult on the right side of the frame in profile facing left along a forest
+  path, with weight grounded and both arms extended high overhead to toss or hold the toddler
+  securely in the air.
+- Place the teen standing centrally just behind the adult, angled slightly toward the camera
+  with their head tilted up toward the toddler in an open, joyful laugh.
+- Angle the toddler suspended mid-air in the upper-left third of the frame, facing down toward
+  the father with legs hanging naturally and a playful expression, keeping all subjects' attention
+  and smiles focused upward on the toddler.

@@ -1,9 +1,9 @@
 id: 01M15D1T1DWBS5VXEKXAY8H0NA
 slug: blanket-wrap-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;WBf6?b-;WBay~WxuRjayxuIURjofWVRjxuof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLH-Y?~V%MWY~V%2D*xZtRxtV@NH?axuozbIxtW=WYxa
 placeholder: true
 categories:
 - couples
@@ -34,5 +34,16 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing very close together, angled slightly inward toward each other
+  with their bodies turned in a three-quarter view relative to the camera.
+- Drape a large patterned blanket around both of their backs and over their outer shoulders
+  so it cocoons them together.
+- Have the partner on the right wrap their front arm around the other person's waist, resting
+  their hand flat against the side of their torso.
+- Direct the partner on the left to rest their front hand gently on the inner edge of the
+  blanket near their chest.
+- Have both subjects look directly into each other's eyes with warm, natural smiles.

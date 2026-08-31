@@ -1,9 +1,9 @@
 id: 01M15D1T2236X15Y5YCTQA248Z
 slug: guitar-on-steps
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu.7ofof_3?bofkC~qxuWBoexuITRjt7axRjxvoe
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dlKdYoR*%M%M~pR+t7t8M{a#M{ofoJoeV@WBxuofoMNG
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Have the subject sit centered on a wooden step with knees bent, legs set about shoulder-width
+  apart, and feet resting flat on the step below.
+- Place an acoustic guitar upright with its bottom resting on the lower step between the legs,
+  tilted slightly toward the subject's left side.
+- Instruct the subject to hold the guitar neck midway up with their left hand while resting
+  their right hand casually on the upper curve of the guitar body.
+- Have the subject sit with an upright, relaxed posture, facing squarely toward the camera
+  with a natural, friendly smile.

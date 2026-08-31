@@ -1,9 +1,9 @@
 id: 01M15D1T0X4CED35XV321PFV0K
 slug: umbrella-share
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2G8H2?aofoL_3?bj[j[~qxuWBj[xuE0Rjt7WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dTI|{;9F~VD*?GNGE2s:?ajEWCj[%gM{xuad%MadR+ae
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple walking side by side down the sidewalk toward the camera, keeping their
+  bodies close with shoulders nearly touching.
+- Have the partner on the right hold an open umbrella overhead centered between them, using
+  their inner hand raised near chest level while keeping the outer arm relaxed.
+- Instruct the partner on the left to keep their arms relaxed down at their sides as they
+  walk in step.
+- Direct both subjects to turn their heads toward each other, making eye contact with natural
+  laughter and candid smiles.

@@ -1,9 +1,9 @@
 id: 01M15D1T4D94AEJG5C4BA9E8WC
 slug: parents-kiss-kids-react
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?aj[a{_3?bayay~qxuRjj[%MIBRjt7ayRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dWGkwLIVnh%L~VRjD*t7?bRjM{oz%Mf5Ris;Nfn~WBWE
 placeholder: true
 categories:
 - family
@@ -33,5 +33,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the parents close together in the center background, leaning inward in profile
+  to kiss each other, with the father's right arm extending around the older daughter on his
+  right and the mother's left hand resting gently on the young son beside her.
+- Place the eldest daughter standing on the front left, facing the camera with both hands
+  covering her eyes and a giggling smile as if playfully embarrassed by the kiss.
+- Position the middle daughter directly in front between the parents, facing the camera with
+  a humorous, exaggerated 'grossed out' crinkled facial expression while holding hands with
+  the youngest son standing to her right.

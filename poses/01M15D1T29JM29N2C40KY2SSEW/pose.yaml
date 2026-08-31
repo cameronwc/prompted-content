@@ -1,9 +1,9 @@
 id: 01M15D1T29JM29N2C40KY2SSEW
 slug: jacket-over-shoulder
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M-;ofof_3?bj[kC~qxuRjfQ%MITM{ofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkLz7:of-lj?~Ws:ayj?TMWYIqWCtmxZR*ayx^R,j@oe
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,13 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject stand facing directly toward the camera with feet positioned naturally
+  at hip-width apart.
+- Instruct the subject to drape a denim jacket over their right shoulder, hooking the fingers
+  of the right hand onto the jacket near the collarbone to hold it in place.
+- Direct the subject to slide their left hand casually into their left front pants pocket.
+- Have the subject look straight into the camera lens with a relaxed, confident smile.

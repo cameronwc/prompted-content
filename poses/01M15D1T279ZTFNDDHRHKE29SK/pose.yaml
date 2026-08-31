@@ -1,9 +1,9 @@
 id: 01M15D1T279ZTFNDDHRHKE29SK
 slug: stair-perch
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;ofoz_3.8j[of~qxuWBofxuIARjt7ayRjxvof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIDI?%_3.8?b~V%M-;x]D%IUxakCIVaeaKae%LxuNHja
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,17 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Have the subject sit angled on a wooden staircase with their back toward the wall/riser,
+  angling their torso roughly 45 degrees toward the camera.
+- Position their far leg (camera-right) bent with the foot planted flat on a lower step, while
+  extending the near leg (camera-left) further down the stairs with the foot resting flat
+  across a bottom tread.
+- Instruct the subject to lean forward slightly from the hips, resting their forearms loosely
+  near their thighs and clasping their hands together in their lap in front of the raised
+  knee.
+- Have the subject turn their head squarely toward the camera with a relaxed, warm smile while
+  keeping their shoulders natural and down.

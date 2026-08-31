@@ -1,9 +1,9 @@
 id: 01M15D1T2FNC3G6EBP3G425A8B
 slug: cross-legged-sit
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7f6j]_3?bafj[~qxuV@ofxuIARjt7WBRjx]of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSJHKz%2?ZRj~pfkM{RjWBxtIVt7RPWBWBWXIpfks:of
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject sitting directly on the floor, angled slightly toward the camera with
+  their right leg folded flat against the floor and their left knee raised upright.
+- Instruct the subject to lean their torso forward from the hips toward the camera for an
+  approachable, relaxed posture.
+- Have the subject drape their left forearm naturally over the raised left knee with the fingers
+  relaxed, while extending the right arm down across the center of their lap, resting the
+  right hand gently near the floor.
+- Direct the subject to square their face directly toward the lens with a warm, natural smile.

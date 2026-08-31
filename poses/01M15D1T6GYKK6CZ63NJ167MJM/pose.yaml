@@ -1,9 +1,9 @@
 id: 01M15D1T6GYKK6CZ63NJ167MJM
 slug: wildflower-crown
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-:ofj[?b-;fQj@~WxuWBj[xuIVRjs:ayRj%1of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daL4Qct7-;Rk~pozWXofM_a#IVj[kCRjjYoft7ofWBof
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing barefoot, angled at a three-quarters turn facing toward the
+  left side of the frame with her feet positioned close together.
+- Instruct her to cradle her baby bump with both hands, resting one hand gently across the
+  upper contour of the bump and placing the other hand softly underneath to support it.
+- Have her tilt her head slightly downward to look tenderly at her belly with a relaxed, joyful
+  smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T060MM4TGT6GRS9DSCR
 slug: bench-snuggle
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-:ayoM?b-;WBj[~WxuRjjtxuInRjofbHRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d,Kc^LR,xZj[~Vs:ayoe%NoeNHjto}a#fRWCW=WCj?az
 placeholder: true
 categories:
 - couples
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have both subjects sit side-by-side on a rustic wooden bench, positioned close together
+  with the man on camera-left and the woman on camera-right.
+- Instruct the man to keep both feet planted flat on the ground and wrap his left arm around
+  the woman's back, resting his right hand casually on his right knee.
+- Direct the woman to cross her right leg over her left, angle her torso slightly inward toward
+  the man, and place her left hand gently on his inner thigh near his lap.
+- Have both subjects tilt their heads inward, looking directly into each other's eyes with
+  natural, warm smiles.

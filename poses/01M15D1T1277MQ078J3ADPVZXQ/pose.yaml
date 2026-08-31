@@ -1,9 +1,9 @@
 id: 01M15D1T1277MQ078J3ADPVZXQ
 slug: piggyback-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2G8K9?aofoL_3?bj[j[~qxuWBj[%2E0Rjt7WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVJQ+cIUxZIU~WRiD*WA_3M{WBRPkCRjxuRjM{R*t7WA
 placeholder: true
 categories:
 - couples
@@ -30,5 +30,14 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the man give the woman a piggyback ride, positioning his body angled three-quarters
+  toward the left of the frame with his feet planted shoulder-width apart to support her weight.
+- Instruct the woman to wrap her legs securely around his hips, leaning her upper torso against
+  his back with both arms draped over his shoulders, clasping her hands over his upper chest.
+- Have the man support her legs and angle his head slightly toward the left while smiling
+  widely, as the woman leans her cheek close to his right side and looks down toward his face
+  with a natural, candid laugh.

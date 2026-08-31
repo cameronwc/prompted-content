@@ -1,9 +1,9 @@
 id: 01M15D1T7E8Z1VGXS2FB7CBH1C
 slug: wildflower-crown-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;ayax?b-;WBWB~WxuR*ayxuIVRjs:WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'd67,_QIp0es:4;xZIqoe$_WB%MR+0goL={ay%1WVNHs:'
 placeholder: true
 categories:
 - maternity
@@ -30,5 +30,13 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the pregnant subject stand barefoot on the sand, facing directly toward the camera
+  with her feet placed close together and body weight evenly distributed.
+- Instruct her to cradle her baby bump with both hands, resting her right hand flat across
+  the upper part of her belly and her left hand supporting the underside.
+- Ask her to gently tilt her head down, looking down at her belly with a soft, affectionate
+  smile.

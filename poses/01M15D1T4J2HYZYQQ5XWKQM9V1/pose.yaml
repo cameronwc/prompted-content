@@ -1,9 +1,9 @@
 id: 01M15D1T4J2HYZYQQ5XWKQM9V1
 slug: blanket-fort-peek
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.-;ofof_3?aj[of~qxuWBof%MIBRjt7ayRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVHLe%9FWX%N~q9FbHt7%NITM{f6M|WBoLxuRPfRaxt7
 placeholder: true
 categories:
 - family
@@ -33,5 +33,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Drape a textured blanket over the back and arm of a sofa to create a low canopy or fort
+  structure with an opening toward the right side.
+- Position the mother and toddler sitting close together inside the blanket fort on the couch
+  cushions, leaning slightly forward toward the opening.
+- Have the older child stand on the floor to the right of the couch, bending forward at the
+  waist while gripping the edge of the blanket with both hands to pull it open.
+- Direct the mother and toddler to look out toward the standing child, encouraging natural,
+  candid interaction and smiles between all three subjects as they peek into the fort.

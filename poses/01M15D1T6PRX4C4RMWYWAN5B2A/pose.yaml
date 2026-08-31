@@ -1,9 +1,9 @@
 id: 01M15D1T6PRX4C4RMWYWAN5B2A
 slug: look-down-at-bump-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-pj[oL?b-;ayjt~WxuRkay%LIVRjofkCRjxtj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNMF~_E2~9s.~qo0NHWBTeWWIpjYyEofs.Rk%hWqRkay
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in profile turned toward camera-right, with feet together
+  and weight evenly balanced.
+- Have her cradle her belly with both hands, placing the upper hand across the top curve of
+  the bump and the lower hand gently supporting underneath.
+- Instruct her to drop her shoulders, tilt her head down slightly, and look tenderly down
+  at her hands and bump with a soft smile.

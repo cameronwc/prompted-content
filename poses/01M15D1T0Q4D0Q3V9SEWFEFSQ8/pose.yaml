@@ -1,9 +1,9 @@
 id: 01M15D1T0Q4D0Q3V9SEWFEFSQ8
 slug: interlocked-hands-detail
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;fjaf?b-;ayaf~WxuRjayxuIURjofayRjxbof
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZKdJ9%20Lxa.TxuRPt7yDozsmbI%MxajZxtxaNGoybH
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,14 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple walking side-by-side along the wet sand near the water's edge, moving
+  in a natural stride with the low sun backlighting them.
+- Have them gently clasp hands between them at hip level, keeping their fingers softly interlocked
+  and arms relaxed as they walk slightly separated.
+- Frame a tight vertical shot centered on their joined hands, cropping out their heads and
+  upper torsos so the focus remains on the handhold, walking legs, and the long shadows cast
+  across the sand.

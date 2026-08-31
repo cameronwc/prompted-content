@@ -1,9 +1,9 @@
 id: 01M15D1T30AQTS7WPT4GWBSWYC
 slug: guitar-on-steps-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3C@8M%fofof?b-;j[j[_3xuWBfjx[MxRjofofRjt8ay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dbKJ}KogwtIp~pxYM|xEyEflWBs.-=oJocWB-;s+WBay
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject sit facing the camera on a stone step, extending their legs forward and
+  down the steps with their ankles loosely crossed.
+- Position an acoustic guitar horizontally across their lap, resting the soundbox upright
+  against their right hip and extending the neck horizontally toward the left.
+- Rest the subject's right forearm and hand over the top rim of the guitar body, and place
+  their left hand relaxed on their left thigh just below the guitar neck.
+- Ensure their torso is upright, shoulders are relaxed, and have them look directly into the
+  camera with a warm, open smile.

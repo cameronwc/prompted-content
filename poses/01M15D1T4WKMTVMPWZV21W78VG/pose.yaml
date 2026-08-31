@@ -1,9 +1,9 @@
 id: 01M15D1T4WKMTVMPWZV21W78VG
 slug: tickle-pile-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7oy_3.7ofof~qxuWBj[%MIBRjofofRjxuay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJDS?ysmNaNH~poJMxRjtSaxM{WC%MRPR*tR%NM{Rixu
 placeholder: true
 categories:
 - family
@@ -33,5 +33,17 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the adult lying playfully on the pavement on their right side, propping their torso
+  slightly up while turning their head to look up and laugh toward the child above them.
+- Place the first child lying on their back nestled directly against the adult's front torso,
+  with their head to the left, knees bent extending to the right, and the adult's arms wrapping
+  securely around the child's chest.
+- Have the second child climb onto the adult's back and left shoulder, straddling their torso
+  and leaning forward with both hands resting on the adult's jacket while looking down and
+  laughing.
+- Lower the camera to ground level directly in line with the subjects, centering the group
+  along the roadway receding into the background.

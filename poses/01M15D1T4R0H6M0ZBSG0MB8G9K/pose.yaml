@@ -1,9 +1,9 @@
 id: 01M15D1T4R0H6M0ZBSG0MB8G9K
 slug: sandwich-hug-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3Dw1.-:j[of?b-;ayj[_3xuRjfQ%MIVRjofofRjtQay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dRAKBibIM{of_NkCM{of_3ofWBjs?bfQWBaz?bjsWBof
 placeholder: true
 categories:
 - family
@@ -32,5 +32,15 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the father on the left and the teenage son on the right, facing inward toward each
+  other in a three-quarter profile and standing closely together.
+- Place the toddler securely in the center at chest level between both figures, supported
+  within their joint embrace so the child's body is nestled snugly between them.
+- Direct the father and older son to gently touch their foreheads together over the toddler,
+  tilting their faces down toward the child with soft, affectionate smiles.
+- Encourage the toddler to look up playfully toward their faces with hands resting on the
+  father's jacket, capturing a joyful, laughing reaction within the tight cluster.

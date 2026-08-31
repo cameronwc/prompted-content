@@ -1,9 +1,9 @@
 id: 01M15D1T0NZEVBK0DH24XKGN72
 slug: stair-sit
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8H2%Mayof?b-pWBof_3xuRjj[xuInRjoffkV[xuay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d8AcSaxGnOs:}@juIVs.9ubaRQRkI;a|xaR*M|oLozfP
 placeholder: true
 categories:
 - couples
@@ -32,5 +32,14 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Have the male subject sit on a middle step of an outdoor stoop facing forward, with his
+  feet planted squarely on the step below and his hands resting casually on his thighs.
+- Place the female subject sitting directly next to him one step lower, leaning her upper
+  body closely against his side with her knees bent and legs angled toward her right.
+- Instruct both subjects to turn their upper bodies inward and look directly into each other's
+  eyes, sharing a natural laugh or conversation while you shoot straight-on at their seated
+  eye level.

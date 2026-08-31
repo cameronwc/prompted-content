@@ -1,9 +1,9 @@
 id: 01M15D1T3D8FWCDQH8VE35RT7V
 slug: cross-legged-sit-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7ofof_3?bj[j[~qx[Rjay%MITM{ofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drN9|4NG-oWV_Ns-R*WV%MRkIos:ofoLxFf6xat6ofR*
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,13 @@ gear:
 accessibility:
 - seated_variant
 - wheelchair
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject sit directly on the sand angled slightly toward camera-left, crossing his
+  legs loosely in front with bare feet and cuffed pant legs.
+- Instruct him to loosely grip the bottom hem of his t-shirt on both sides at his hips, keeping
+  his elbows bent and held slightly out to the sides.
+- Direct him to turn his head toward camera-right, lifting his chin and looking up off-camera
+  with a warm, natural smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T1GC8BJ7VAX9KVVR20E
 slug: close-slow-sway-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;WBja?b-;WBay~WxuRjayxuInRjofayRjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dEIDy.5T}=EN?bX8NHW=K6^hIpjb=_s.RkWXENNcbHxZ
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,13 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing close and facing each other in full side profile along the
+  path, maintaining an intimate, upright stance with soft knees.
+- Have both subjects bring their hands together centrally between their upper chests, clasping
+  each other's hands gently with elbows bent by their sides.
+- Instruct both partners to look directly into each other's eyes with soft, natural facial
+  expressions.

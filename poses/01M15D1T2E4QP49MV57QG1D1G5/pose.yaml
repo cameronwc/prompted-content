@@ -1,9 +1,9 @@
 id: 01M15D1T2E4QP49MV57QG1D1G5
 slug: brick-wall-lean
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M-;ofof_3?bj[kC~qxuWBkBx[IARjt7ayRjxvoe
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dGBo%6~BRP57$$jZR*R+IpkCkDoLofs:RkNGf*azt6s:'
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a brick wall or window opening, leaning his right
+  shoulder and upper body casually against the wall with his body angled slightly toward the
+  camera.
+- Instruct him to let his right arm hang down relaxed naturally by his side while sliding
+  his left hand casually into the front pocket of his jeans.
+- Have him square his face directly toward the camera lens with a relaxed, warm, and natural
+  smile.

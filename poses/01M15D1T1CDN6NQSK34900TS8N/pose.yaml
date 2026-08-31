@@ -1,9 +1,9 @@
 id: 01M15D1T1CDN6NQSK34900TS8N
 slug: whispered-secret-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-:j[oM?b-;ayj[~WxuRja{%2InRjofkCRjxaay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVIqMx^*~VS4NGIoE2xZ%1WBRjWBWXxut6ofNGxajtxa
 placeholder: true
 categories:
 - couples
@@ -30,5 +30,15 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing very close side-by-side, angled slightly toward each other
+  with the man on the left and woman on the right.
+- Have the woman turn inward, lean close to the man's ear, and raise her hand near his cheek
+  to cup her mouth as if whispering a secret.
+- Instruct the man to keep his body relaxed with arms at his sides, tilting his head slightly
+  down toward her in an attentive, listening posture.
+- Prompt the woman to whisper something funny or endearing into his ear, capturing candid,
+  natural laughter and gentle smiles between them.

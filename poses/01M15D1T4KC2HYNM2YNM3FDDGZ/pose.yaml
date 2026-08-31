@@ -1,9 +1,9 @@
 id: 01M15D1T4KC2HYNM2YNM3FDDGZ
 slug: tailgate-sit
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7_3.7oft7~qxuWBof%MIBRjt7j]Rjxuj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d77^xqbH0fn%0iWC$%oe0gxG=|R+=|j@I:az-SNHNHxZ
 placeholder: true
 categories:
 - family
@@ -32,5 +32,19 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- 'Seat the family side-by-side along the lowered tailgate of a vintage truck in an open field,
+  arranging them closely together from left to right: teen son, young daughter, father, toddler,
+  and mother.'
+- Position the father in the center with his left arm wrapped around the mother's far shoulder.
+  Have the mother sit on the right and hold the toddler across their laps, letting the toddler
+  recline slightly against her while his legs stretch across toward the father's lap.
+- Angle the teen son on the far left inward toward the group with legs dangling down, leaning
+  slightly in. Place the young daughter between the teen and father, angled slightly toward
+  center with her legs hanging down and hands relaxed in front of her.
+- Instruct the entire family to turn toward one another and share a joyful, candid moment
+  rather than looking at the camera, with the parents and older siblings smiling warmly down
+  at the toddler and each other.

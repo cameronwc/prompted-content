@@ -1,9 +1,9 @@
 id: 01M15D1T20PB809KXB8BEXVFJV
 slug: crossed-arms-grin
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.8ofj]_3?bfQfR~q%LRjaz%MITM{ofj@RjtSfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: diLgw%kC_2IVyZWWIqt6x^oJWBoeofoJs,ofkWbHV?WC
 placeholder: true
 categories:
 - senior
@@ -32,5 +32,13 @@ gear:
   needs_reflector: false
 accessibility:
 - plus_size_flattering
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright on the sand, facing squarely toward the camera with
+  shoulders level and weight balanced evenly.
+- Instruct the subject to cross both arms casually across their lower chest, tucking their
+  hands comfortably beneath the opposite biceps/forearms.
+- Have the subject look straight into the camera lens, holding a relaxed posture with a warm,
+  genuine open-mouthed smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T6X1NAB36J884296ZQP
 slug: rocking-chair-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-:oeoe?b-;ayj[~WxuR*fPxuIVRjofj[WAxtfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dWMQ9NNf^*W?_No#IoxtX8j@D*RjRkxYslM|NHNHNHxt
 placeholder: true
 categories:
 - maternity
@@ -32,5 +32,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Place a wooden rocking chair on the beach sand, angled at a three-quarters view toward the
+  camera.
+- Have the pregnant subject sit in the chair with a relaxed posture, extending her legs down
+  so her bare feet rest together flat on the sand.
+- Direct her to bring both arms in to cradle her pregnant belly, resting one hand across the
+  top curve and supporting the lower curve with the other hand.
+- Instruct her to tilt her head down and cast her gaze affectionately toward her belly with
+  a gentle, quiet smile.

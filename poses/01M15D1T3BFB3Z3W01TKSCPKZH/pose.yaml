@@ -1,9 +1,9 @@
 id: 01M15D1T3BFB3Z3W01TKSCPKZH
 slug: sunset-silhouette-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M?bofbH_3?bfQay~q%LRjay%MITM{ofj[RjtSfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXEee_0gIoxt-oM|Rjt6%1j[IWoe%0ofM|ayWBWXxZR*
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,14 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the subject standing inside a doorway, leaning his right shoulder and upper arm
+  gently against the door frame.
+- Have him cross his left leg over his right leg at the shin/ankle level, resting the bulk
+  of his weight on the back foot.
+- Instruct him to slide his left hand casually into his pants pocket while letting his right
+  arm hang relaxed straight down along his side.
+- Direct his torso and head to face straight toward the camera with a natural, subtle smile.

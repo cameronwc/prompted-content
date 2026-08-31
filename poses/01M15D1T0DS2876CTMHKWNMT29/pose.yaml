@@ -1,9 +1,9 @@
 id: 01M15D1T0DS2876CTMHKWNMT29
 slug: hug-from-behind
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-:j@j[?b-;ayj[~WxuWBj[xuIURkt7WVRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddINy|ROR*M}~VV?IVoz%MWBRjWWS5WBjFj@a#ofoJoJ
 placeholder: true
 categories:
 - couples
@@ -32,5 +32,13 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the woman in front angled at a slight three-quarter turn to camera-right, and have
+  the man stand closely behind her, offset slightly to camera-right.
+- Have the man wrap both arms around her waist from behind, while the woman folds her arms
+  across her midsection to hold onto his hands and forearms.
+- Direct the man to turn his head down and look affectionately at the woman with a smile,
+  while the woman turns her face slightly toward him and laughs warmly off-camera to her left.

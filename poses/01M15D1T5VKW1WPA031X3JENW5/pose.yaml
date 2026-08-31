@@ -1,9 +1,9 @@
 id: 01M15D1T5VKW1WPA031X3JENW5
 slug: heart-hands-on-bump
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-pofoe?b-;j[j[~WxuWBf6xuIVRjofj]Rj%1f7
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dDG[4H-n=]R*t9ofNHs.0h-TE4WEoLRlxZj@=_Rls.j[
 placeholder: true
 categories:
 - maternity
@@ -32,5 +32,13 @@ gear:
 accessibility:
 - seated_variant
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in the field, facing forward with her torso angled
+  at a subtle three-quarter turn toward the camera.
+- Instruct her to rest both hands gently on the center of her baby bump, bringing her thumbs
+  and fingertips together to shape a heart over the belly.
+- Direct her to tilt her head slightly down, casting her gaze toward her hands and bump with
+  a soft, gentle smile.

@@ -1,9 +1,9 @@
 id: 01M15D1T38PWZKV3RAPB3FG581
 slug: chin-on-hand-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mu-;ofof_3.8j[of~qxuRjfk%MITM{ofofRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPKK1b?vxD9a-;IpNGxu~pxuE1xtyEo~slt7tmxujEt7
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,15 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Have the subject stand beside a brick wall with a window sill, leaning their left side against
+  the wall and crossing their right leg in front of their left leg at the shin.
+- Instruct the subject to rest their left elbow on the window sill ledge, raising the forearm
+  so the curled hand lightly props up their chin.
+- Direct the subject to rest their right hand on their right hip with fingers forward and
+  the elbow flared outward to create defined negative space.
+- Ask the subject to turn their face directly toward the camera, tilting the chin up slightly
+  and offering a relaxed, natural smile.

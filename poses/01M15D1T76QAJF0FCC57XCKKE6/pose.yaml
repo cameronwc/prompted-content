@@ -1,9 +1,9 @@
 id: 01M15D1T76QAJF0FCC57XCKKE6
 slug: backlit-profile-golden-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[j??b-;ayay~WxuRkayxuIVRjoefkWAxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNG@#X9bt4s,~T9bR-jY?GM|Wrn$tRn#ofR*%LjER-R*
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,13 @@ gear:
   needs_reflector: false
 accessibility:
 - late_term
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in a complete side profile facing toward the right side of
+  the frame with feet flat and posture naturally upright.
+- Instruct her to cradle her baby bump with both hands, placing her far hand lightly on top
+  and her near hand cupping underneath.
+- Have her tilt her head gently downward and direct her gaze softly toward the belly with
+  a tender, serene expression.

@@ -1,9 +1,9 @@
 id: 01M15D1T2C45159VKE3JQ61ZKB
 slug: dress-twirl
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C%mt-;t7t7?u.8oft7~qxuWBof%MITRQogoeRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dhN9w3Rjoaa}?wNHRja}X;oIM}a#?bs-xYoe-;ofoLj@
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,14 @@ gear:
   aperture: f/1.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in an open grassy field with the warm sunlight behind or to
+  the side of her, angling her body slightly three-quarters to the left with her feet positioned
+  mid-step.
+- Have her hold the sides or lower tier of her sundress with both hands near hip level and
+  gently spin or sway her lower body so the skirt flares outward with motion.
+- Instruct her to turn her head back toward the camera mid-twirl with a slight head tilt,
+  capturing an open-mouthed, joyful, laughing expression.

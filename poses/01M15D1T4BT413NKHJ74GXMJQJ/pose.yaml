@@ -1,9 +1,9 @@
 id: 01M15D1T4BT413NKHJ74GXMJQJ
 slug: dog-in-the-middle
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgK?aofkB_3?bj[j[~qxuWBj[%MIBRjt7ayRjx[j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dO8hX$RjRjjspyjYWAj[k@kCada}krogj[WWofkCWVfQ
 placeholder: true
 categories:
 - family
@@ -34,5 +34,19 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the family on the open beach with the ocean line behind them, placing the father
+  and young boy on the left facing right, and the mother and daughter on the right facing
+  left, leaving a small gap in the center.
+- Have the father bend deeply at the hips to lower his height closer to his son, gently holding
+  the toddler's hand while the toddler stands slightly forward facing inward toward the mother
+  and sister.
+- Place the daughter standing in front of the mother in a three-quarter profile facing left,
+  and have the mother lean slightly forward with her outer hand resting affectionately around
+  her daughter's upper back.
+- Position the dog walking or standing naturally in the center foreground between both pairs,
+  and direct the parents and children to laugh and engage warmly with one another across the
+  gap rather than looking at the camera.

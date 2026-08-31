@@ -1,9 +1,9 @@
 id: 01M15D1T4HJJ3CWG7PD5VV8SM4
 slug: path-wander
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgK-;ofof_3.7ofof~qxuWBof%LIBRjt7ayRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSLz,8M{~p-p%LWBIUj]?bj?D%RiM{tRjZWARjRjs;WX
 placeholder: true
 categories:
 - family
@@ -32,5 +32,15 @@ gear:
   aperture: f/3.2
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Line up the three subjects side-by-side against a plain studio background, placing the mother
+  on the left, the teenage boy in the center, and the toddler on the right.
+- Instruct all three subjects to stand naturally upright with their arms resting loosely at
+  their sides and body weight evenly distributed.
+- Have the mother and teenage son angle their bodies slightly inward toward each other and
+  turn their heads to make eye contact with warm, gentle smiles.
+- Direct the toddler on the right to angle slightly toward the teen and tilt her head upward
+  to look admiringly up at her older brother with a bright, smiling expression.

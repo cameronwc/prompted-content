@@ -1,9 +1,9 @@
 id: 01M15D1T1NH0SCCFS7RC4CAZXB
 slug: interlocked-hands-detail-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8KA-;Rjay_2-;Rjay~WxuRjayxuInWBofRjRj%2j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9C~SFDPyD9a~AM{EMIVFeX8$%RjI:RkxtNG57R*%1of
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,15 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the couple standing close side by side, with their bodies angled slightly inward
+  toward one another while generally facing the camera.
+- Have the man let his outer arm hang naturally at his side and lower his inner arm to hip
+  level.
+- Direct the woman to hold his inner hand with her inner hand, while wrapping her outer hand
+  around his inner wrist and lower forearm in a gentle, two-handed embrace.
+- Instruct both subjects to turn their heads to look directly at each other with relaxed,
+  warm smiles.

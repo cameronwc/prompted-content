@@ -1,9 +1,9 @@
 id: 01M15D1T4ME39JV9NNJ5CDEMQC
 slug: field-run
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7_3-;oMt7~qxuV[of%MIBM|t7ofRjxtfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dfM@4LM|%2WB*0fkWBof?cf6M{ofkWaxt6WBV@j?oeWB
 placeholder: true
 categories:
 - family
@@ -33,5 +33,18 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the family barefoot on an open beach in a loose, staggered group moving diagonally
+  forward toward the camera, with the father on the far left, the mother on the far right
+  wearing an infant in a front carrier, the teenage son in the center rear, and the two young
+  children in the front gaps.
+- Instruct the father to jog forward with a slight forward lean, arms bent naturally at his
+  sides, turning his head inward to look down playfully at his children.
+- Have the mother jog or power-walk on the right side, using her hands to gently secure the
+  baby carrier while smiling broadly straight ahead or slightly inward.
+- Direct the two young children in the foreground and the teenage son in the midground to
+  run actively toward the camera, capturing mid-stride motion with joyful, candid expressions
+  as they interact and race forward.

@@ -1,9 +1,9 @@
 id: 01M15D1T1ER0Y0V3DET3R8CG6W
 slug: lift-and-spin-mountain
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3G8K9-;oLj[?b-;fPjt~WxuWBfQxuIURjoffkRjxbj[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: deKA$kNG-osmyZj?NHR*.8oLM|Wq?aa#xZbH-:oes,WW
 placeholder: true
 categories:
 - couples
@@ -31,5 +31,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the man standing in three-quarter profile facing left, and have him wrap his arms
+  securely around the woman's waist and lower back to lift her completely off the ground.
+- Instruct the woman to wrap her arms around the man's neck and shoulders for support, while
+  bending both knees so her lower legs swing back and up horizontally to the left side of
+  the frame.
+- Direct the man to look up at the woman's face with a joyful smile, while the woman angles
+  her torso and head slightly toward the camera with an open, laughing expression.

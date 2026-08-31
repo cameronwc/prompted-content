@@ -1,9 +1,9 @@
 id: 01M15D1T70RGKMS2T92CT2A1YX
 slug: both-hands-cradle-forest
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[ax?b-;ayWB~WxuRkaexuIVRjofazRj%1j[
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dDF=8Dnj^#%LEgju0gS4bbI:$+xZ-os.n,WYozxZM|W=
 placeholder: true
 categories:
 - maternity
@@ -31,5 +31,12 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject standing in a three-quarter profile facing toward camera-right.
+- Have her cradle her baby bump by placing her far hand resting gently across the top and
+  her near hand supporting underneath the belly.
+- Instruct her to tilt her head down toward her bump, maintaining a relaxed posture with a
+  soft, natural smile looking down at her belly.

@@ -1,9 +1,9 @@
 id: 01M15D1T39QVB2135E760JY6H3
 slug: walk-toward-camera-urban
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2C@8M.7oLkC_3?bayfk~q%LRjay%MITM{kCoeRjtSay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dII;eQ4.9a-;0e4:M{-:~VE2IV%L~VIU%2xu57V?%2R-
 placeholder: true
 categories:
 - senior
@@ -30,5 +30,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject in the center of the sidewalk and instruct him to walk forward at a
+  slow, natural pace directly toward the camera.
+- Capture the subject mid-stride as one foot steps forward with weight centered over the leading
+  leg, keeping the stride loose and casual.
+- Instruct him to keep both arms relaxed by his sides, allowing them to swing naturally with
+  the walking motion.
+- Have him look straight down the lens with a relaxed, cheerful smile and his head held upright.

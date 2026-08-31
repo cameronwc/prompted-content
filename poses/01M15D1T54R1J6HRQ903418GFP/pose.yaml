@@ -1,9 +1,9 @@
 id: 01M15D1T54R1J6HRQ903418GFP
 slug: stair-stack-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgJ-;t7t7_3?aoMof~qxuV[kB%MIBM{ofofRjxtWU
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQ8;+5kCNGayu6j]e:azTfa#e.oLtmayWBj[o#aef6bH
 placeholder: true
 categories:
 - family
@@ -32,5 +32,16 @@ gear:
   needs_reflector: false
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the father standing centrally at the back of the frame, and have the mother kneel
+  or crouch in the lower right foreground, angled toward camera-left.
+- 'Cluster the three children tightly in the middle ground between the parents: place the
+  oldest daughter standing on the middle-left, tuck the youngest child behind the mother on
+  the right, and position the other daughter standing in the front-left directly beside her
+  mother.'
+- Direct the father and oldest daughter to look gently downward at the group, have the two
+  younger children face toward each other with soft smiles, and have the mother tilt her head
+  up to look affectionately at the daughter standing beside her.

@@ -1,9 +1,9 @@
 id: 01M15D1T62RFFVCG3THX5K0888
 slug: both-hands-cradle
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|G-pofof?b-;j[oe~WxuWBj[xuIVRjofj[V@xtfQ
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFIDy?IV^h-U^%IW9vR+ENRjE4WB~BxD-UWB-oRjNHIq
 placeholder: true
 categories:
 - maternity
@@ -30,5 +30,13 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the subject barefoot in full profile facing towards camera right, capturing her
+  in mid-stride with her front foot flat on the ground and her back foot trailing slightly.
+- Instruct her to gently cradle her baby bump with both hands, resting the top hand across
+  the upper curve of the belly and the lower hand supporting beneath it.
+- Have her tilt her head downward and gaze tenderly at her belly with a gentle, serene smile,
+  keeping her shoulders relaxed and posture natural.

@@ -1,9 +1,9 @@
 id: 01M15D1T4APJHAR2J614QVYK3A
 slug: look-at-each-other-laugh
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2DmgK-;ofkB_3?bfQj[~q%LRjay%MIBM{oeoMRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpGbSAf6D$j[~pWBD%a}x]WBM{fkWCfkj[j[RQj[ozay
 placeholder: true
 categories:
 - family
@@ -33,5 +33,16 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Seat the teen on the left and the mother on the right closely together on the center of
+  the couch, positioning the toddler nestled snugly between them.
+- Have both the teen and the mother angle their bodies inward, leaning their shoulders and
+  torsos close together to enclose the toddler in an intimate triangular shape.
+- Instruct the mother and teen to bring their hands together across the toddler's waist and
+  lap, lightly overlapping their fingers in a shared gentle embrace.
+- Direct the mother and teen to turn their faces toward the toddler with warm, natural smiles,
+  leaning their heads close to his beanie while prompting the toddler to laugh and look slightly
+  upward.

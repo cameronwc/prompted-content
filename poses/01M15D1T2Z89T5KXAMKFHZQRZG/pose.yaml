@@ -1,9 +1,9 @@
 id: 01M15D1T2Z89T5KXAMKFHZQRZG
 slug: mid-laugh-candid-beach
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3C@8M-;j[kC?b-;ayj[_3xuV@ayx[MxRjkCofRkt8ay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: diK-F0S5tRs:_Ns.azj[xtjZRPR*%2kCaeaytRWBs:j[
 placeholder: true
 categories:
 - senior
@@ -31,5 +31,13 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- Position the subject to walk forward along the shoreline toward the camera at a slow, relaxed
+  pace, stepping forward onto their right foot.
+- Have the subject slide their right hand into their front pants pocket while keeping the
+  left arm relaxed and hanging naturally at their side.
+- Direct the subject to look toward the camera with an open, candid smile and a slight tilt
+  of the head to capture a natural, joyful expression.

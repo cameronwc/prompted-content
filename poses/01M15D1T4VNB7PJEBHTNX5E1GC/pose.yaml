@@ -1,9 +1,9 @@
 id: 01M15D1T4VNB7PJEBHTNX5E1GC
 slug: everyone-look-at-baby-field
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.-;j[kB_3?bWCfj~q%LRjay%MIBM{kBofRjxtay
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dfGH;kxtaej[~Vt7Rkj[%Nt7Rkj[tmofocj[x^bIoJa}
 placeholder: true
 categories:
 - family
@@ -35,5 +35,16 @@ gear:
   aperture: f/3.2
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
+image_source: ai
+instructions:
+- Have the mother and teenage daughter crouch closely side by side in the center of the field,
+  leaning slightly in toward one another.
+- Position the toddler standing directly in front of the mother and teen, supported around
+  the waist from behind by the mother so the toddler faces forward.
+- Place the young girl crouching on the left side, angled inwards with her hands reaching
+  toward the toddler, looking warmly at him.
+- Seat the dog on the right side in front of the mother, and have the young boy in the beanie
+  kneel directly behind the dog with his arms wrapped affectionately around its neck and back,
+  while the entire family looks inward with natural smiles.

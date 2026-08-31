@@ -1,9 +1,9 @@
 id: 01M15D1T66BPSVRVKHKYGBAY72
 slug: ultrasound-hold
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d3HK|H-;j[f6?b-;ayay_3xuWBfQxuIVRjt6WBRj%2of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d65h0,R+0fxZ$%j[I;j[57oe=|RkEMfR-Ujsxaf6WBj[
 placeholder: true
 categories:
 - maternity
@@ -30,5 +30,15 @@ gear:
   aperture: f/4
   needs_reflector: false
 accessibility: []
-version: 3
+version: 4
 status: active
+image_source: ai
+instructions:
+- Position the pregnant subject standing centered and facing forward toward the camera with
+  a relaxed posture.
+- Have her hold the ultrasound photo facing directly out toward the camera with her right
+  hand, resting it just above her baby bump at chest level.
+- Instruct her to place her left hand gently against the underside of her belly, cradling
+  the bump from below.
+- Ask her to tilt her head slightly downward, looking down toward her hands with a soft, natural
+  smile.

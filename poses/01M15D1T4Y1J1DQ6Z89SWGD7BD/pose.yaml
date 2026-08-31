@@ -1,9 +1,9 @@
 id: 01M15D1T4Y1J1DQ6Z89SWGD7BD
 slug: swing-the-toddler-home
 image:
-  thumb: thumb.jpg
-  detail: detail.jpg
-  blurhash: d2Dw1.?aj[fj_3?bayfj~qxuRjj[%MIBRjt7ayRjx[of
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQFh^oV?kXM{~oRPxuaeoyM{jFRkM{xuM{t7D*xuM{xu
 placeholder: true
 categories:
 - family
@@ -33,5 +33,15 @@ gear:
   aperture: f/3.2
   needs_reflector: true
 accessibility: []
-version: 1
+version: 2
 status: active
+image_source: ai
+instructions:
+- Position the adult male standing on the right and the older child on the left, facing inward
+  toward each other with window light illuminating them from the right side of the room.
+- Place the toddler between them, having the adult grip one hand/wrist and the older child
+  grip the other, gently swinging the toddler up into the air with their feet kicking forward.
+- Position the younger daughter standing slightly behind in the opening between the toddler
+  and the adult, facing forward-left toward the swinging toddler.
+- Direct the father, older child, and younger daughter to look joyfully at the swinging toddler,
+  encouraging big, genuine smiles and laughter to capture a candid, playful moment.
