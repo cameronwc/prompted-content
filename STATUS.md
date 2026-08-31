@@ -1,5 +1,26 @@
 # STATUS
 
+## First real photography ingested (2026-08-31, fifth session)
+
+- **33 real photo poses live in dev (catalog v9)** from three shoots run
+  through the full ingest pipeline: 12 couples/engagement (123 Farm
+  lavender, Beaumont CA — EXIF-stripped exports, bands assigned manually),
+  7 family (Laguna in-home Christmas, tagged indoor_window), 14 maternity
+  (Laguna bluffs, all blue hour — solar math shows the session ran after
+  sunset). 163 frames -> 80 clusters -> 39 curated -> 33 promoted; 6
+  dropped because a 4:5 centre crop of 3:2 originals cuts a subject out.
+  Sources archived to archive/<shoot>/. All prompts + instructions
+  Gemini-generated from the photographs and reviewed before approval.
+- Real data hardened the pipeline: face detection bounded with a minimum
+  face size (full-res false positives), face gate made asymmetric (extra
+  faces refuse, missed profiles warn) with a per-draft waiver, waiver
+  field stripped from pose records at finalize.
+- Earlier same session: AI subset extended 50->60, all 60 AI poses carry
+  posing instructions, catalog v7/v8 published to dev.
+- **Prod remains deliberately unpublished** (operator decision 2026-08-31:
+  dev only for now; the placeholder gate blocks promotion while the 240
+  seed records exist).
+
 ## Light taxonomy fix + photo ingest pipeline (2026-08-30, fourth session)
 
 ### Part A — light condition taxonomy (complete, verified)
