@@ -1,0 +1,43 @@
+id: 01M1C79NC37WEXTV93D8DY7788
+slug: gift-box-solo-sit
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dUJ?yo}6^g-n^gOS-:#*ahZ%e?MyENR6w}Ndx[k9n%kW
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 1
+subject_types:
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: easy
+instructions:
+- Seat the baby sitting upright on a rug or comfortable floor space, angled diagonally toward
+  a warm fireplace or tree lights in the background.
+- Place a small, lightweight wrapped gift box directly in their lap for their hands to grasp
+  and explore.
+- Position a parent or assistant just behind and slightly above the photographer to draw the
+  baby's gaze up and away with gentle sounds or games.
+prompts:
+- text: Don't worry about getting her to look at the lens. Just stand right behind my shoulder
+    and do whatever makes her smile at home.
+  tone: nervous_client
+- text: Do that silly squeaky voice right over my left shoulder on three.
+  tone: playful
+- text: Let her hold the box and take her time exploring the paper.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

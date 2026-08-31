@@ -1,0 +1,44 @@
+id: 01M1C79NBY8XTQRTT1YAPGXCGY
+slug: hip-cradle-gaze
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dLBov$M}IUr?}lIqJ.oftONHNKWVo|juV[n~xCs,WExZ
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 2
+subject_types:
+- adult
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the mother standing at a three-quarter angle to the camera, illuminated by warm
+  indoor holiday lighting.
+- Have her hold the baby high against her chest with both arms supporting underneath, keeping
+  the baby facing forward toward the camera.
+- Direct the mother to look down tenderly at the baby with a soft smile while the baby engages
+  with the room or camera.
+prompts:
+- text: You don't need to get her to look at me—just focus on cuddling her close and enjoying
+    the moment.
+  tone: nervous_client
+- text: Nuzzle your nose right into her cheek and make a little silly sound.
+  tone: playful
+- text: Breathe in, drop your shoulders, and just look down at that sweet face.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/3.2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

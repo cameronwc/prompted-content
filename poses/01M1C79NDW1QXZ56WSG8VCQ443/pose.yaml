@@ -1,0 +1,43 @@
+id: 01M1C79NDW1QXZ56WSG8VCQ443
+slug: blanket-wings-gaze
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: deL4smMvtRIU_Nx]xve-XS%Mj?Mxtla{V@WBo#xuV@R+
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the couple standing close and facing each other in profile against the ocean background.
+- Have the partner place both hands gently on the mother's waist and lower baby bump, looking
+  down toward her face.
+- Have the expectant mother hold the blanket spread wide behind her back with both arms raised,
+  tilting her head back slightly to gaze up at her partner.
+prompts:
+- text: Forget the camera is even here. Just look up at him and take a slow breath.
+  tone: nervous_client
+- text: Hold that blanket up like your own private beach tent and whisper your absolute worst
+    baby name idea.
+  tone: playful
+- text: Rest your hands right on that bump and just take her in for a quiet second.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

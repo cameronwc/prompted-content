@@ -1,0 +1,46 @@
+id: 01M1C7FBCH2XHWH0HY7JB277RE
+slug: bluff-bump-wrap
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: drLNSy$eaeIo?wD%Ris:%hS4n$s.-:tRR+V@oIxuW=WB
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the woman standing in front, angled slightly toward the camera with her weight
+  evenly distributed.
+- Have the partner step directly behind her, chest against her back, slightly offset to her
+  right so his head and shoulders are clearly visible.
+- Guide the partner to wrap both arms around her waist, resting his hands low across her belly.
+- Have the woman place her hands gently over his, framing the baby bump.
+- Ask both subjects to turn their faces toward the camera with soft, natural smiles.
+prompts:
+- text: Step right in behind her and rest your hands on the baby. I'll take care of everything
+    else.
+  tone: nervous_client
+- text: Lean back against his chest, take one long breath out together, and look right at
+    me.
+  tone: calm
+- text: Pull her in just a little closer, like it's just the three of you out on this cliff.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/6.3
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

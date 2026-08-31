@@ -1,0 +1,45 @@
+id: 01M1C79NDQM4Q37GAWKWDR28H8
+slug: sonogram-sky-hold
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dbJbN^NHxux]cuxaf,Rjoht7M{V@_4V@oeofE0aeslof
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: moderate
+instructions:
+- Have the couple lie down side by side on their backs on a blanket, with their feet pointed
+  toward the ocean and heads closest to the camera.
+- Ask them to interlock their inside hands resting gently between their chests or stomachs.
+- Have each person use their outside hand to hold one side of the ultrasound photo up together
+  against the ocean horizon.
+- Position yourself low just above the tops of their heads, focusing sharply on the ultrasound
+  image while keeping the couple softly framed in the foreground.
+prompts:
+- text: You don't need to worry about smiling or looking at me. Just focus on holding the
+    picture steady together.
+  tone: nervous_client
+- text: Squeeze hands and take a quiet second to just look up at your baby together.
+  tone: romantic
+- text: On the count of three, both of you whisper whose personality you hope the baby gets.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

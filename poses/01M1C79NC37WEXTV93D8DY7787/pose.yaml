@@ -1,0 +1,46 @@
+id: 01M1C79NC37WEXTV93D8DY7787
+slug: rug-gift-watch
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dPIqS_v0=_-Q_29EXntkK6IUwNMyE2NersIoslo}b]EM
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 2
+subject_types:
+- adult
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: easy
+instructions:
+- Seat the mother and baby close together on a cozy rug in front of a warm fireplace and holiday
+  decor.
+- Position the mother sitting casually with legs folded or crossed, angled inward toward her
+  baby.
+- Place the baby sitting upright directly next to mom, giving them a small wrapped gift to
+  hold in their lap to anchor their hands.
+- Direct mom to keep her eyes and soft attention entirely on the baby, letting natural candid
+  reactions unfold.
+prompts:
+- text: You don't need to look at the camera at all. Just watch how excited she gets.
+  tone: nervous_client
+- text: Make the silliest sound you make at home and let's see what face she gives you.
+  tone: playful
+- text: Take a slow breath and just soak in this little holiday moment with her.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

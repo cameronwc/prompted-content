@@ -38,7 +38,15 @@ def face_count(gray: np.ndarray) -> int:
     if _face_cascade is None:
         _face_cascade = cv2.CascadeClassifier(
             cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-    faces = _face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
+    # Detect on a bounded copy with a real minimum face size: on full-res
+    # frames the cascade otherwise finds dozens of tiny texture artifacts.
+    height, width = gray.shape
+    scale = min(1.0, 1280 / max(height, width))
+    if scale < 1.0:
+        gray = cv2.resize(gray, (int(width * scale), int(height * scale)))
+    min_face = max(24, int(min(gray.shape) * 0.08))
+    faces = _face_cascade.detectMultiScale(
+        gray, scaleFactor=1.1, minNeighbors=6, minSize=(min_face, min_face))
     return len(faces)
 
 

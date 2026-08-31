@@ -1,0 +1,45 @@
+id: 01M1C79NDHAMWSX2KJ9926TC53
+slug: collarbone-wrap-gaze
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dfJkJ=v|IpEL?wIUxZxt%NOFV@Rj_2kCNHWB%MjuS4oz
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the expecting mother standing at a slight three-quarter angle to the camera, with
+  her partner standing close directly behind her.
+- Have the partner wrap his right arm over her shoulder to rest his hand near her collarbone,
+  and bring his left arm across her chest.
+- Guide the mother to cradle the bottom of her baby bump with her lower hand, using her upper
+  hand to gently rest over his fingers at her chest.
+- Ask both partners to turn their faces toward each other, holding eye contact with soft,
+  relaxed smiles.
+prompts:
+- text: Ignore the camera completely—just look right up into his eyes.
+  tone: nervous_client
+- text: Lean back into him, look up, and hold right there like you're sharing a quiet secret.
+  tone: romantic
+- text: Take a slow breath in together, and as you exhale, just let your shoulders drop.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/5.6
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

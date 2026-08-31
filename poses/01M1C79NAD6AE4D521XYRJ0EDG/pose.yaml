@@ -1,0 +1,48 @@
+id: 01M1C79NAD6AE4D521XYRJ0EDG
+slug: arm-loop-path-stand
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d~L|_pj[WAof~qofofWBx]WBWBj[M{axfPj[M_oLj]f6
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple standing side-by-side on the path, with the woman standing slightly
+  behind the man's left side.
+- Have the man put both hands loosely into his front pant pockets and turn his head in profile
+  toward his left.
+- Have the woman loop her right arm through his left elbow, lightly clasping his forearm with
+  both hands.
+- Direct the woman to look directly into the camera lens with relaxed shoulders and a soft
+  expression.
+prompts:
+- text: Slip your hands right into your pockets and stand easy. No need to perform, just let
+    the light do the work.
+  tone: nervous_client
+- text: Hook your arm right through his and lean your shoulder in close. Take one slow breath
+    out.
+  tone: calm
+- text: Turn your gaze out toward the hills in the distance, just soaking in having her tucked
+    right against your side.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

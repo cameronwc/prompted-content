@@ -1,0 +1,48 @@
+id: 01M1C79NAEW9BVHQ1XFTJHN60H
+slug: lavender-lift-carry
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d~LXY+ayRjt7~qofogWB%Ma{j[f6RjWBWBofIUofj]WB
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+instructions:
+- Position the lifting partner standing firmly in the path with knees slightly bent and feet
+  shoulder-width apart for stable footing.
+- Have the lifting partner pick the other partner up by the waist and lower back, holding
+  them securely against their chest.
+- Instruct the lifted partner to wrap their arms warmly around their partner's neck and shoulders,
+  bending their knees and kicking their feet up behind them.
+- Direct both partners to press in close, forehead to cheek, letting natural smiles and shared
+  laughter happen naturally.
+prompts:
+- text: Scoop her up and hold tight—if you wobble or burst out laughing, that's completely
+    fine.
+  tone: nervous_client
+- text: Lift her up and give her one slow swing back and forth until you both start giggling.
+  tone: playful
+- text: Wrap your arms around his neck, pull in close, and just rest your cheek right against
+    his.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 8,
-  "generated_at": "2026-08-30T20:37:23+00:00",
+  "catalog_version": 9,
+  "generated_at": "2026-08-31T15:38:34+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -13268,6 +13268,1929 @@
       "version": 3,
       "status": "active",
       "image_source": "synthetic"
+    },
+    {
+      "id": "01M1C79NA7WP3P7VQ5FJJ06KWD",
+      "slug": "behind-shoulder-drape-bw",
+      "image": {
+        "thumb": "poses/01M1C79NA7WP3P7VQ5FJJ06KWD/thumb.jpg",
+        "detail": "poses/01M1C79NA7WP3P7VQ5FJJ06KWD/detail.jpg",
+        "blurhash": "dEGSDhD%_3WB~q%Mxuxu%M-;of%M?b_3-;M{xuxuIUxu"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the seated partner upright, angled slightly toward camera left with shoulders relaxed.",
+        "Have the standing partner lean over from behind, draping both arms around the seated partner's chest and neck, resting hands together on his chest.",
+        "Direct the partner in back to gently press her cheek and temple against the side of his head and close her eyes.",
+        "Instruct the seated partner to gaze softly into the distance past the camera to the left."
+      ],
+      "prompts": [
+        {
+          "text": "Neither of you has to look at the lens. Just settle in and let your shoulders drop.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your cheek right against his head, close your eyes, and take one long breath out.",
+          "tone": "calm"
+        },
+        {
+          "text": "Wrap your arms around him like you're holding onto him at the end of a really long day.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NA80PDS27ZR7M8J0C2S",
+      "slug": "flower-market-spin",
+      "image": {
+        "thumb": "poses/01M1C79NA80PDS27ZR7M8J0C2S/thumb.jpg",
+        "detail": "poses/01M1C79NA80PDS27ZR7M8J0C2S/detail.jpg",
+        "blurhash": "dUKBN_r:Mw?b^h-mM{bJ~p$~M_o#^+oIIU%Me=RlW=j["
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple facing each other at arm's length, with the woman facing toward the camera and the man angled with his back three-quarters to the lens.",
+        "Have them clasp both of each other's hands, keeping their arms extended out comfortably at waist height.",
+        "Instruct them to lean their weight back slightly into their grip and gently spin or sway in a slow circle together while looking at each other."
+      ],
+      "prompts": [
+        {
+          "text": "Grab both hands and lean back a little. You don't have to look at the camera at all.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Spin each other around like you're the last two people on the dance floor.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold hands tight, lean back into each other's weight, and just smile at him.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAA8GSRYGCV6440ST2Z",
+      "slug": "storefront-hair-tuck",
+      "image": {
+        "thumb": "poses/01M1C79NAA8GSRYGCV6440ST2Z/thumb.jpg",
+        "detail": "poses/01M1C79NAA8GSRYGCV6440ST2Z/detail.jpg",
+        "blurhash": "dHDlp5T0E000004.?b?b-;NHs,Mxfk%LM{o#IAsoW=SO"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the seated partner comfortably on a low stone ledge or bench, angling her torso slightly toward her partner.",
+        "Have the standing partner stand close beside her, turned in a three-quarter profile facing her.",
+        "Direct the standing partner to gently reach down and touch or smooth back her hair above the temple.",
+        "Have the seated partner tilt her chin up and look directly into her partner's eyes with a warm, relaxed expression."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to worry about looking at the camera at all—just look right up at him.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Gently tuck a strand of hair back from her face and keep your hand right there.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Whisper the cheesiest compliment you can think of right now.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAB00N8AF7GE7MA41BC",
+      "slug": "field-neck-wrap-gaze",
+      "image": {
+        "thumb": "poses/01M1C79NAB00N8AF7GE7MA41BC/thumb.jpg",
+        "detail": "poses/01M1C79NAB00N8AF7GE7MA41BC/detail.jpg",
+        "blurhash": "d|Lzv-odaxt7~qogj]V@%hRkafkCRjWBbHWBRioJj?j@"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing close, chest-to-chest, angled in three-quarter profile with the partner in white facing slightly toward the camera.",
+        "Have the partner facing away wrap his arms around her waist, pulling her in close.",
+        "Guide the partner in white to wrap her arms around his neck and shoulders, resting her hands softly behind his head.",
+        "Ask both subjects to gaze warmly at each other with soft, natural smiles."
+      ],
+      "prompts": [
+        {
+          "text": "Forget about the camera completely. Just look right into his eyes.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Pull him in close and whisper what you really want for dinner tonight.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean in like you're going to kiss, but stop just an inch away and hold it.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NACK6WT2R1WXMTN7TCJ",
+      "slug": "forehead-kiss-embrace-bw",
+      "image": {
+        "thumb": "poses/01M1C79NACK6WT2R1WXMTN7TCJ/thumb.jpg",
+        "detail": "poses/01M1C79NACK6WT2R1WXMTN7TCJ/detail.jpg",
+        "blurhash": "daGSDh9F-;xu~qWBxuxu?bayofxu%Mj[fQofofofWBay"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing chest-to-chest in a tight, intimate embrace.",
+        "Have the partner on the right wrap her arms around his neck and shoulders, resting her hands softly against his upper back.",
+        "Direct the partner on the left to wrap both arms around her waist, pulling her firmly against his chest.",
+        "Instruct the partner on the left to place a soft kiss on her temple or forehead while she closes her eyes and rests into the embrace."
+      ],
+      "prompts": [
+        {
+          "text": "Close your eyes and forget about the camera completely. Just lean into each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Take a deep breath in together, and as you breathe out, let your shoulders drop completely.",
+          "tone": "calm"
+        },
+        {
+          "text": "Rest a slow, gentle kiss right against her forehead and just stay there.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAD6AE4D521XYRJ0EDG",
+      "slug": "arm-loop-path-stand",
+      "image": {
+        "thumb": "poses/01M1C79NAD6AE4D521XYRJ0EDG/thumb.jpg",
+        "detail": "poses/01M1C79NAD6AE4D521XYRJ0EDG/detail.jpg",
+        "blurhash": "d~L|_pj[WAof~qofofWBx]WBWBj[M{axfPj[M_oLj]f6"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing side-by-side on the path, with the woman standing slightly behind the man's left side.",
+        "Have the man put both hands loosely into his front pant pockets and turn his head in profile toward his left.",
+        "Have the woman loop her right arm through his left elbow, lightly clasping his forearm with both hands.",
+        "Direct the woman to look directly into the camera lens with relaxed shoulders and a soft expression."
+      ],
+      "prompts": [
+        {
+          "text": "Slip your hands right into your pockets and stand easy. No need to perform, just let the light do the work.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hook your arm right through his and lean your shoulder in close. Take one slow breath out.",
+          "tone": "calm"
+        },
+        {
+          "text": "Turn your gaze out toward the hills in the distance, just soaking in having her tucked right against your side.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAD6AE4D521XYRJ0EDH",
+      "slug": "lavender-ground-sit-nose-touch",
+      "image": {
+        "thumb": "poses/01M1C79NAD6AE4D521XYRJ0EDH/thumb.jpg",
+        "detail": "poses/01M1C79NAD6AE4D521XYRJ0EDH/detail.jpg",
+        "blurhash": "dSGSAPxu9FIo%LWB-=xu~qkCWBoL~Xt7Ioayt7j[x]WV"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "instructions": [
+        "Have both subjects sit directly on the ground between the bushes, with the rear partner seated slightly behind and turned inward toward their partner.",
+        "Position the front partner leaning back slightly against the rear partner, draping their white dress comfortably out along the dirt path.",
+        "Have the front partner reach up to cup the rear partner's cheek and jawline with their near hand while resting their opposite arm across the torso.",
+        "Direct the rear partner to wrap an arm around their partner's waist and lean in close until their foreheads and noses gently touch."
+      ],
+      "prompts": [
+        {
+          "text": "Go ahead and get comfortable right on the dirt. You don't have to look at the camera at all.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper what you want to eat after this directly against their cheek, but make it sound like a massive secret.",
+          "tone": "playful"
+        },
+        {
+          "text": "Bring your foreheads all the way together and hold right there just short of a kiss.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAEW9BVHQ1XFTJHN60H",
+      "slug": "lavender-lift-carry",
+      "image": {
+        "thumb": "poses/01M1C79NAEW9BVHQ1XFTJHN60H/thumb.jpg",
+        "detail": "poses/01M1C79NAEW9BVHQ1XFTJHN60H/detail.jpg",
+        "blurhash": "d~LXY+ayRjt7~qofogWB%Ma{j[f6RjWBWBofIUofj]WB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "instructions": [
+        "Position the lifting partner standing firmly in the path with knees slightly bent and feet shoulder-width apart for stable footing.",
+        "Have the lifting partner pick the other partner up by the waist and lower back, holding them securely against their chest.",
+        "Instruct the lifted partner to wrap their arms warmly around their partner's neck and shoulders, bending their knees and kicking their feet up behind them.",
+        "Direct both partners to press in close, forehead to cheek, letting natural smiles and shared laughter happen naturally."
+      ],
+      "prompts": [
+        {
+          "text": "Scoop her up and hold tight—if you wobble or burst out laughing, that's completely fine.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lift her up and give her one slow swing back and forth until you both start giggling.",
+          "tone": "playful"
+        },
+        {
+          "text": "Wrap your arms around his neck, pull in close, and just rest your cheek right against his.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAH9CH9H13C95MXZCV6",
+      "slug": "fairy-light-profile-kiss",
+      "image": {
+        "thumb": "poses/01M1C79NAH9CH9H13C95MXZCV6/thumb.jpg",
+        "detail": "poses/01M1C79NAH9CH9H13C95MXZCV6/detail.jpg",
+        "blurhash": "dBE3C*j[00D%?bxu9Ft7ayIURjxuoft7ofIUM{t7D%WB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing chest-to-chest in full profile to the camera, centered beneath the hanging fairy lights.",
+        "Have the partner on the left place both hands securely around their partner's lower waist, pulling them in close.",
+        "Have the partner on the right wrap their arms gently around the other's waist or midsection.",
+        "Instruct both subjects to lean in gently and share a soft, closed-eye kiss in profile."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to worry about the camera at all right now. Just focus on each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Close your eyes, breathe out together, and just stay right here in the quiet.",
+          "tone": "calm"
+        },
+        {
+          "text": "Go in for the softest kiss you've got and linger right there.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAH9CH9H13C95MXZCV7",
+      "slug": "couch-back-perch-nuzzle",
+      "image": {
+        "thumb": "poses/01M1C79NAH9CH9H13C95MXZCV7/thumb.jpg",
+        "detail": "poses/01M1C79NAH9CH9H13C95MXZCV7/detail.jpg",
+        "blurhash": "dSHo5mR+00WEx@Mxa$%gx^xZMxNGxGR%t7%ME1t7-;ae"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Have the female subject sit perched on the top backrest of the couch, angling her body slightly toward the camera with her legs resting forward.",
+        "Position the male subject directly behind her, leaning in close and wrapping his arms gently around her waist.",
+        "Guide the female subject to rest her hands lightly over his hands on her lap.",
+        "Have the male subject nuzzle closely near her ear or cheek while she reacts and looks down naturally with a soft smile."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all. Just sink back into him and let your shoulders drop.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean right into her ear and whisper the most ridiculous thing you can think of.",
+          "tone": "playful"
+        },
+        {
+          "text": "Bring your forehead right up against her temple and just hold her close.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAJ56SDCSDXBASDCJPP",
+      "slug": "underarm-twirl-field",
+      "image": {
+        "thumb": "poses/01M1C79NAJ56SDCSDXBASDCJPP/thumb.jpg",
+        "detail": "poses/01M1C79NAJ56SDCSDXBASDCJPP/detail.jpg",
+        "blurhash": "d=L;mZ-;IUt7~qt7R*ofWDM{t7j]RiWAt7WBs:t6a}WA"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "instructions": [
+        "Position the couple standing about an arm's length apart in an open area, angled slightly away from the camera.",
+        "Have the partner on the left raise his right hand to hold his partner's left hand above head height.",
+        "Direct the partner in the dress to do a slow, continuous spin under his raised arm so the skirt catches the motion.",
+        "Instruct both partners to keep their eyes locked on each other and smile as she finishes each turn."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about doing a perfect dance spin—just a slow, easy turn whenever you're ready.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give her the slowest, most dramatic slow-motion twirl you've got.",
+          "tone": "playful"
+        },
+        {
+          "text": "Spin once, catch his hand, and hold right there while looking into his eyes.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NAKVTRCFJ6PP4613TJH",
+      "slug": "walk-away-hands-bw",
+      "image": {
+        "thumb": "poses/01M1C79NAKVTRCFJ6PP4613TJH/thumb.jpg",
+        "detail": "poses/01M1C79NAKVTRCFJ6PP4613TJH/detail.jpg",
+        "blurhash": "dOG[[{_3M{xu%M~qWBD%~q%MofM{-;t7j[t7D%ayWBWB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "couples",
+        "engagement"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing side by side facing directly away from the camera.",
+        "Have them link inner hands casually between them at hip height.",
+        "Direct them to take a slow, unhurried walk straight forward along the path away from you, keeping their focus entirely ahead."
+      ],
+      "prompts": [
+        {
+          "text": "Just take a slow walk away from me holding hands. You don't have to look back at all.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Try to bump hips gently on every third step as you walk.",
+          "tone": "playful"
+        },
+        {
+          "text": "Squeeze their hand and just stroll like you're heading home together.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          85
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NBXGJ6HWC1ZPJH7GCFX",
+      "slug": "mantel-overhead-lift",
+      "image": {
+        "thumb": "poses/01M1C79NBXGJ6HWC1ZPJH7GCFX/thumb.jpg",
+        "detail": "poses/01M1C79NBXGJ6HWC1ZPJH7GCFX/detail.jpg",
+        "blurhash": "dbFr*F-Os8NI~V%Ma{Z~-pjYS4RjWBoeRikDs9oyV@kC"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult",
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "instructions": [
+        "Position the parent standing in profile next to the decorated fireplace mantel.",
+        "Have the parent securely lift the baby straight up into the air at arm's length, supporting under the baby's torso.",
+        "Instruct the parent to tilt their head back and gaze up warmly at the baby with an open smile.",
+        "Frame at the parent's chest level to capture the full vertical connection between parent and child against the warm background glow."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at the camera at all. Just keep your eyes locked on that sweet face.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give her a little airplane lift and make your absolute best funny noise.",
+          "tone": "playful"
+        },
+        {
+          "text": "Take a slow breath out and just take in how tiny she is in your hands.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NBY8XTQRTT1YAPGXCGY",
+      "slug": "hip-cradle-gaze",
+      "image": {
+        "thumb": "poses/01M1C79NBY8XTQRTT1YAPGXCGY/thumb.jpg",
+        "detail": "poses/01M1C79NBY8XTQRTT1YAPGXCGY/detail.jpg",
+        "blurhash": "dLBov$M}IUr?}lIqJ.oftONHNKWVo|juV[n~xCs,WExZ"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult",
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the mother standing at a three-quarter angle to the camera, illuminated by warm indoor holiday lighting.",
+        "Have her hold the baby high against her chest with both arms supporting underneath, keeping the baby facing forward toward the camera.",
+        "Direct the mother to look down tenderly at the baby with a soft smile while the baby engages with the room or camera."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to get her to look at me—just focus on cuddling her close and enjoying the moment.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Nuzzle your nose right into her cheek and make a little silly sound.",
+          "tone": "playful"
+        },
+        {
+          "text": "Breathe in, drop your shoulders, and just look down at that sweet face.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/3.2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NBZNF85V80VFSJ86E3X",
+      "slug": "lap-cradle-overhead",
+      "image": {
+        "thumb": "poses/01M1C79NBZNF85V80VFSJ86E3X/thumb.jpg",
+        "detail": "poses/01M1C79NBZNF85V80VFSJ86E3X/detail.jpg",
+        "blurhash": "dCBC.C+[1$OA-7M{a3+^:%RjRj%2+]WqR*N_V@bwt8Nc"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 3,
+      "subject_types": [
+        "adult",
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Have both parents sit on the floor facing each other with their legs tucked close together to create a secure cradle between them.",
+        "Lay the baby on their back in the center on top of a soft red blanket spread across the parents' laps.",
+        "Ask both parents to lean inward close to the baby, placing their hands gently along the baby's sides and legs.",
+        "Position yourself directly above for a high-angle shot, keeping parents focused down on the baby's face while capturing the baby looking upward."
+      ],
+      "prompts": [
+        {
+          "text": "You don't have to look up at me at all. Just keep your eyes right on her.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Take a slow breath out and just lean in as close to her as you can.",
+          "tone": "calm"
+        },
+        {
+          "text": "See if you two can get a smile out of her without making any sound.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NC2NVQP7WDP30SVAGAC",
+      "slug": "between-shoulders-giggle",
+      "image": {
+        "thumb": "poses/01M1C79NC2NVQP7WDP30SVAGAC/thumb.jpg",
+        "detail": "poses/01M1C79NC2NVQP7WDP30SVAGAC/detail.jpg",
+        "blurhash": "dMJ$mX9aFy~Aqu^*%0Sg1O=_%0r=GYIVsW-o}:T0NIWB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 3,
+      "subject_types": [
+        "adult",
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the parents seated closely together in front of a lit fireplace, angling inward toward each other.",
+        "Have the mother hold the baby up securely on her lap or chest, facing the baby slightly toward the father.",
+        "Place the father leaning in from the right side of the frame, capturing an over-the-shoulder angle as he interacts with the baby.",
+        "Shoot at a low eye-level with the baby, keeping focus on the child's reaction while the parents' attention stays completely on them."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all—just focus entirely on making her laugh.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Dad, give me your best funny face or sound on the count of three. One, two, three!",
+          "tone": "playful"
+        },
+        {
+          "text": "Just lean in close together and enjoy the warmth of the fire for a second.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NC37WEXTV93D8DY7787",
+      "slug": "rug-gift-watch",
+      "image": {
+        "thumb": "poses/01M1C79NC37WEXTV93D8DY7787/thumb.jpg",
+        "detail": "poses/01M1C79NC37WEXTV93D8DY7787/detail.jpg",
+        "blurhash": "dPIqS_v0=_-Q_29EXntkK6IUwNMyE2NersIoslo}b]EM"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult",
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Seat the mother and baby close together on a cozy rug in front of a warm fireplace and holiday decor.",
+        "Position the mother sitting casually with legs folded or crossed, angled inward toward her baby.",
+        "Place the baby sitting upright directly next to mom, giving them a small wrapped gift to hold in their lap to anchor their hands.",
+        "Direct mom to keep her eyes and soft attention entirely on the baby, letting natural candid reactions unfold."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at the camera at all. Just watch how excited she gets.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Make the silliest sound you make at home and let's see what face she gives you.",
+          "tone": "playful"
+        },
+        {
+          "text": "Take a slow breath and just soak in this little holiday moment with her.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NC37WEXTV93D8DY7788",
+      "slug": "gift-box-solo-sit",
+      "image": {
+        "thumb": "poses/01M1C79NC37WEXTV93D8DY7788/thumb.jpg",
+        "detail": "poses/01M1C79NC37WEXTV93D8DY7788/detail.jpg",
+        "blurhash": "dUJ?yo}6^g-n^gOS-:#*ahZ%e?MyENR6w}Ndx[k9n%kW"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Seat the baby sitting upright on a rug or comfortable floor space, angled diagonally toward a warm fireplace or tree lights in the background.",
+        "Place a small, lightweight wrapped gift box directly in their lap for their hands to grasp and explore.",
+        "Position a parent or assistant just behind and slightly above the photographer to draw the baby's gaze up and away with gentle sounds or games."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about getting her to look at the lens. Just stand right behind my shoulder and do whatever makes her smile at home.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Do that silly squeaky voice right over my left shoulder on three.",
+          "tone": "playful"
+        },
+        {
+          "text": "Let her hold the box and take her time exploring the paper.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NC6MCM9EBMPPE7X96S3",
+      "slug": "hearth-tummy-time",
+      "image": {
+        "thumb": "poses/01M1C79NC6MCM9EBMPPE7X96S3/thumb.jpg",
+        "detail": "poses/01M1C79NC6MCM9EBMPPE7X96S3/detail.jpg",
+        "blurhash": "dMIM$a4TkYI;_M9Fo~NHWGn4xaR+P9#+SNWCwJOYSORQ"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "family"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "toddler"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Place a textured knit blanket on the floor near the hearth, keeping safe clearance from the fireplace.",
+        "Position the baby on their stomach propped up on their forearms, angled slightly toward the camera.",
+        "Place a small tabletop Christmas tree or warm light source behind the baby to create soft background bokeh.",
+        "Lower your shooting angle completely to floor level, framing at eye height with the baby."
+      ],
+      "prompts": [
+        {
+          "text": "Take all the time you need to settle her in. We work entirely on her schedule.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand right over my shoulder and make that squeaky voice she loves.",
+          "tone": "playful"
+        },
+        {
+          "text": "Let's give her a quiet moment right here to just watch the tree lights.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDFW6S544B722FWX9XR",
+      "slug": "bluff-profile-kiss",
+      "image": {
+        "thumb": "poses/01M1C79NDFW6S544B722FWX9XR/thumb.jpg",
+        "detail": "poses/01M1C79NDFW6S544B722FWX9XR/detail.jpg",
+        "blurhash": "daL;54,nRQE1.9D%xZ%L%hIpM_WB_NbbRjM|$ykrNbRj"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the mother in a side profile view, turning her chest slightly toward the camera.",
+        "Have the partner stand close facing her, leaning down gently to meet her for a soft kiss.",
+        "Place both of their hands together gently cradling the lower curve of the baby bump."
+      ],
+      "prompts": [
+        {
+          "text": "You can completely ignore the camera. Just close your eyes and lean into each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Come in for a slow, gentle kiss and just linger right there.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Take a deep breath in together, let your shoulders drop, and rest your hands on the baby.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDHAMWSX2KJ9926TC52",
+      "slug": "knuckle-kiss-overlook",
+      "image": {
+        "thumb": "poses/01M1C79NDHAMWSX2KJ9926TC52/thumb.jpg",
+        "detail": "poses/01M1C79NDHAMWSX2KJ9926TC52/detail.jpg",
+        "blurhash": "dgM7P.$dWXM{?wIUxat6%hI;MxkC_3s:WXa}xYtSX9WA"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple facing each other in full profile, framed from the waist up behind the floral greenery with the coastal ocean view in the background.",
+        "Have the woman lift both of her hands together between their chests, elbows relaxed.",
+        "Direct the partner to cup both of her hands in his, bringing them gently up to his lips to kiss her knuckles.",
+        "Instruct the woman to look affectionately into his eyes with a soft, natural smile while he maintains the kiss."
+      ],
+      "prompts": [
+        {
+          "text": "You don't have to look at the camera at all. Just look right at each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Bring both of her hands up to your lips and press a slow, gentle kiss to her knuckles.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Drop your shoulders, take one slow breath out together, and just hold that moment.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDHAMWSX2KJ9926TC53",
+      "slug": "collarbone-wrap-gaze",
+      "image": {
+        "thumb": "poses/01M1C79NDHAMWSX2KJ9926TC53/thumb.jpg",
+        "detail": "poses/01M1C79NDHAMWSX2KJ9926TC53/detail.jpg",
+        "blurhash": "dfJkJ=v|IpEL?wIUxZxt%NOFV@Rj_2kCNHWB%MjuS4oz"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the expecting mother standing at a slight three-quarter angle to the camera, with her partner standing close directly behind her.",
+        "Have the partner wrap his right arm over her shoulder to rest his hand near her collarbone, and bring his left arm across her chest.",
+        "Guide the mother to cradle the bottom of her baby bump with her lower hand, using her upper hand to gently rest over his fingers at her chest.",
+        "Ask both partners to turn their faces toward each other, holding eye contact with soft, relaxed smiles."
+      ],
+      "prompts": [
+        {
+          "text": "Ignore the camera completely—just look right up into his eyes.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean back into him, look up, and hold right there like you're sharing a quiet secret.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Take a slow breath in together, and as you exhale, just let your shoulders drop.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/5.6",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDJM7PFW4P0E4GY4B77",
+      "slug": "bump-hands-foreheads",
+      "image": {
+        "thumb": "poses/01M1C79NDJM7PFW4P0E4GY4B77/thumb.jpg",
+        "detail": "poses/01M1C79NDJM7PFW4P0E4GY4B77/detail.jpg",
+        "blurhash": "duL|}+kXtRi^_4%LxuWBX9Mxaet8%MM{RPofofozWCjZ"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the expecting mother standing at a slight three-quarter angle, with her partner standing closely behind her chest-to-back.",
+        "Have both partners wrap their arms around her waist, resting both sets of hands together gently cupping the baby bump.",
+        "Direct them to turn their faces inward toward each other, keeping their foreheads and noses close while smiling naturally."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all. Just lock eyes and enjoy each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper the most ridiculous baby name you can think of right in her ear.",
+          "tone": "playful"
+        },
+        {
+          "text": "Pull her in close, rest your hands on the bump, and just take a slow breath together.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDKGPJZRFW2GC578EPR",
+      "slug": "over-shoulder-gaze-bump",
+      "image": {
+        "thumb": "poses/01M1C79NDKGPJZRFW2GC578EPR/thumb.jpg",
+        "detail": "poses/01M1C79NDKGPJZRFW2GC578EPR/detail.jpg",
+        "blurhash": "dwLg*3WBT0t7_4oe%Na}SOV@RPt7tRaeMxofxukBWBjY"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the expecting mother standing at a three-quarter angle to the camera, with her partner standing close directly behind her.",
+        "Have the partner wrap both arms around from behind to cup the lower belly, and have her place her hands gently over his.",
+        "Ask the mother to tilt her head back over her shoulder to gaze up at her partner, while he leans in close and looks down into her eyes with a soft smile."
+      ],
+      "prompts": [
+        {
+          "text": "Forget the camera is here for a second. Just look up at him and take a slow breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper the absolute worst baby name you can think of right in her ear.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean back into him, look right into his eyes, and hold that smile.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDMB4RBJJ1MP5CDG1Z6",
+      "slug": "shoreline-blanket-drape",
+      "image": {
+        "thumb": "poses/01M1C79NDMB4RBJJ1MP5CDG1Z6/thumb.jpg",
+        "detail": "poses/01M1C79NDMB4RBJJ1MP5CDG1Z6/detail.jpg",
+        "blurhash": "d+LqRyROt6M{~qWBkCs;bvx]azWBkCj?j[a{ofWBRjj]"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple facing each other in profile along the rocky shoreline, standing close together.",
+        "Have the pregnant partner drape a patterned blanket over her back and shoulders, lightly holding the outer corner with one hand.",
+        "Instruct the partner to gently rest both hands on her baby bump.",
+        "Direct both partners to look directly into each other's eyes with soft, natural smiles."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all. Just lock eyes with each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper the wildest baby name idea you haven't told anyone yet.",
+          "tone": "playful"
+        },
+        {
+          "text": "Rest your hands right on her belly and take a quiet second to take this all in.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDN1Q7TNH86TCWC4DVS",
+      "slug": "tide-rocks-kiss",
+      "image": {
+        "thumb": "poses/01M1C79NDN1Q7TNH86TCWC4DVS/thumb.jpg",
+        "detail": "poses/01M1C79NDN1Q7TNH86TCWC4DVS/detail.jpg",
+        "blurhash": "d%L;jWIUtQRj~qofogt7tRtRWBWANGjZRjaxoKRjWAa}"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple facing each other in full profile along the shoreline with rock formations in the background.",
+        "Have the partner place his hands gently over her baby bump, standing tall and close.",
+        "Have the expectant mother hold a light shawl draped over her arm and lean in to share a soft kiss with her partner."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all. Just step in close and share a soft kiss.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your hands right on her belly, lean in close, and hold that kiss for a few seconds.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Take a slow breath out together, listen to the waves, and just stay right there in the moment.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDQM4Q37GAWKWDR28H8",
+      "slug": "sonogram-sky-hold",
+      "image": {
+        "thumb": "poses/01M1C79NDQM4Q37GAWKWDR28H8/thumb.jpg",
+        "detail": "poses/01M1C79NDQM4Q37GAWKWDR28H8/detail.jpg",
+        "blurhash": "dbJbN^NHxux]cuxaf,Rjoht7M{V@_4V@oeofE0aeslof"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "instructions": [
+        "Have the couple lie down side by side on their backs on a blanket, with their feet pointed toward the ocean and heads closest to the camera.",
+        "Ask them to interlock their inside hands resting gently between their chests or stomachs.",
+        "Have each person use their outside hand to hold one side of the ultrasound photo up together against the ocean horizon.",
+        "Position yourself low just above the tops of their heads, focusing sharply on the ultrasound image while keeping the couple softly framed in the foreground."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to worry about smiling or looking at me. Just focus on holding the picture steady together.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Squeeze hands and take a quiet second to just look up at your baby together.",
+          "tone": "romantic"
+        },
+        {
+          "text": "On the count of three, both of you whisper whose personality you hope the baby gets.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDR6JTB7D0AE8FBY2QN",
+      "slug": "cheek-kiss-camera-look",
+      "image": {
+        "thumb": "poses/01M1C79NDR6JTB7D0AE8FBY2QN/thumb.jpg",
+        "detail": "poses/01M1C79NDR6JTB7D0AE8FBY2QN/detail.jpg",
+        "blurhash": "dXKU$mSjt-%N-qozo~V@-:RO-UkC?wM_V@bbgOayMxay"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the expecting mother standing at a three-quarter profile to showcase her bump, facing her body slightly toward camera left while turning her head toward the lens.",
+        "Have the partner stand close behind her, wrapping his arms around her waist so both of their hands rest interlocked low on the baby bump.",
+        "Direct the partner to lean in and gently kiss her cheek while she relaxes her shoulders and looks directly into the camera."
+      ],
+      "prompts": [
+        {
+          "text": "Rest both of your hands together right on the bump. Don't worry about posing, just look right at me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Plant a soft kiss right on her cheek and hold it right there against her skin.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Take a slow breath in together, and as you exhale, let your shoulders drop and lean back into him.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDR6JTB7D0AE8FBY2QP",
+      "slug": "cheeky-grin-photobomb",
+      "image": {
+        "thumb": "poses/01M1C79NDR6JTB7D0AE8FBY2QP/thumb.jpg",
+        "detail": "poses/01M1C79NDR6JTB7D0AE8FBY2QP/detail.jpg",
+        "blurhash": "deJk$XkYX9xuxvs+f5Ri.TITafbb%NR,V@t7t7t7kCoL"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the woman in the foreground turned in side profile facing left, resting comfortably.",
+        "Place the man just behind her, leaning in slightly over her right shoulder to face the camera directly.",
+        "Have the woman gaze softly to the side with a gentle profile smile.",
+        "Have the man make direct eye contact with the camera, raising a playful hand gesture right in front of his face with a sly grin."
+      ],
+      "prompts": [
+        {
+          "text": "Give me one completely goofy shot to get all the photoshoot silliness out of our system.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give the lens your cheekiest face while she's looking away.",
+          "tone": "playful"
+        },
+        {
+          "text": "Now relax your hands, take a breath, and lean in close to her shoulder.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDTM483AG3QS0H3T0XX",
+      "slug": "beach-recline-cradle",
+      "image": {
+        "thumb": "poses/01M1C79NDTM483AG3QS0H3T0XX/thumb.jpg",
+        "detail": "poses/01M1C79NDTM483AG3QS0H3T0XX/detail.jpg",
+        "blurhash": "dqLXx#RiNGS4.TWBbJj]-nbIjEoJ-ot8V@Rjoes.o#og"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Place a blanket on the sand and have the back partner sit with their legs spread open wide in a comfortable V-shape.",
+        "Have the front partner sit directly between their legs, nestled back against their chest with her legs extending forward together.",
+        "Guide the back partner to wrap their arms loosely around her waist, resting their hands on her hips.",
+        "Have the front partner gently cradle her belly with both hands, softly tilting her head back toward his shoulder while both look toward the lens."
+      ],
+      "prompts": [
+        {
+          "text": "Just sink right back into him and let him hold your weight. There is zero need to hold a stiff pose.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Take a deep breath of that ocean air together, and let your shoulders drop completely as you breathe out.",
+          "tone": "calm"
+        },
+        {
+          "text": "Whisper the very first silly house rule you're going to invent for this baby.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant",
+        "late_term"
+      ],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDW1QXZ56WSG8VCQ443",
+      "slug": "blanket-wings-gaze",
+      "image": {
+        "thumb": "poses/01M1C79NDW1QXZ56WSG8VCQ443/thumb.jpg",
+        "detail": "poses/01M1C79NDW1QXZ56WSG8VCQ443/detail.jpg",
+        "blurhash": "deL4smMvtRIU_Nx]xve-XS%Mj?Mxtla{V@WBo#xuV@R+"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing close and facing each other in profile against the ocean background.",
+        "Have the partner place both hands gently on the mother's waist and lower baby bump, looking down toward her face.",
+        "Have the expectant mother hold the blanket spread wide behind her back with both arms raised, tilting her head back slightly to gaze up at her partner."
+      ],
+      "prompts": [
+        {
+          "text": "Forget the camera is even here. Just look up at him and take a slow breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hold that blanket up like your own private beach tent and whisper your absolute worst baby name idea.",
+          "tone": "playful"
+        },
+        {
+          "text": "Rest your hands right on that bump and just take her in for a quiet second.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/2.5",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C79NDYX06T8JX9Z7KQTR5J",
+      "slug": "sea-rock-lean-in",
+      "image": {
+        "thumb": "poses/01M1C79NDYX06T8JX9Z7KQTR5J/thumb.jpg",
+        "detail": "poses/01M1C79NDYX06T8JX9Z7KQTR5J/detail.jpg",
+        "blurhash": "dWK^{V?cITo~^+tRM|xvtltSxaV@_4%MMxof-;a{V?n$"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Have the seated partner perch back against the rock face at a slight angle, facing inward toward the standing partner.",
+        "Position the pregnant partner standing close beside him in profile, gently cupping the underside of her bump with her lower hand.",
+        "Direct the seated partner to place both hands softly over hers on the belly.",
+        "Ask the standing partner to bring her opposite arm up and rest her hand comfortably around the back of his neck.",
+        "Have them both look at each other and share a quiet, natural smile."
+      ],
+      "prompts": [
+        {
+          "text": "Forget about the camera for a second. Just look right at each other and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your hand behind his neck and whisper the very first baby name you secretly loved.",
+          "tone": "playful"
+        },
+        {
+          "text": "Take one slow breath together and just hold each other right here.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M1C7FBCH2XHWH0HY7JB277RE",
+      "slug": "bluff-bump-wrap",
+      "image": {
+        "thumb": "poses/01M1C7FBCH2XHWH0HY7JB277RE/thumb.jpg",
+        "detail": "poses/01M1C7FBCH2XHWH0HY7JB277RE/detail.jpg",
+        "blurhash": "drLNSy$eaeIo?wD%Ris:%hS4n$s.-:tRR+V@oIxuW=WB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "maternity"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "pregnant",
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the woman standing in front, angled slightly toward the camera with her weight evenly distributed.",
+        "Have the partner step directly behind her, chest against her back, slightly offset to her right so his head and shoulders are clearly visible.",
+        "Guide the partner to wrap both arms around her waist, resting his hands low across her belly.",
+        "Have the woman place her hands gently over his, framing the baby bump.",
+        "Ask both subjects to turn their faces toward the camera with soft, natural smiles."
+      ],
+      "prompts": [
+        {
+          "text": "Step right in behind her and rest your hands on the baby. I'll take care of everything else.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean back against his chest, take one long breath out together, and look right at me.",
+          "tone": "calm"
+        },
+        {
+          "text": "Pull her in just a little closer, like it's just the three of you out on this cliff.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          50
+        ],
+        "aperture": "f/6.3",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
     }
   ]
 }

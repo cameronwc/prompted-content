@@ -1,0 +1,43 @@
+id: 01M1C79NDKGPJZRFW2GC578EPR
+slug: over-shoulder-gaze-bump
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dwLg*3WBT0t7_4oe%Na}SOV@RPt7tRaeMxofxukBWBjY
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the expecting mother standing at a three-quarter angle to the camera, with her
+  partner standing close directly behind her.
+- Have the partner wrap both arms around from behind to cup the lower belly, and have her
+  place her hands gently over his.
+- Ask the mother to tilt her head back over her shoulder to gaze up at her partner, while
+  he leans in close and looks down into her eyes with a soft smile.
+prompts:
+- text: Forget the camera is here for a second. Just look up at him and take a slow breath.
+  tone: nervous_client
+- text: Whisper the absolute worst baby name you can think of right in her ear.
+  tone: playful
+- text: Lean back into him, look right into his eyes, and hold that smile.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

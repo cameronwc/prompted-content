@@ -1,0 +1,46 @@
+id: 01M1C79NAA8GSRYGCV6440ST2Z
+slug: storefront-hair-tuck
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dHDlp5T0E000004.?b?b-;NHs,Mxfk%LM{o#IAsoW=SO
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the seated partner comfortably on a low stone ledge or bench, angling her torso
+  slightly toward her partner.
+- Have the standing partner stand close beside her, turned in a three-quarter profile facing
+  her.
+- Direct the standing partner to gently reach down and touch or smooth back her hair above
+  the temple.
+- Have the seated partner tilt her chin up and look directly into her partner's eyes with
+  a warm, relaxed expression.
+prompts:
+- text: You don't need to worry about looking at the camera at all—just look right up at him.
+  tone: nervous_client
+- text: Gently tuck a strand of hair back from her face and keep your hand right there.
+  tone: romantic
+- text: Whisper the cheesiest compliment you can think of right now.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

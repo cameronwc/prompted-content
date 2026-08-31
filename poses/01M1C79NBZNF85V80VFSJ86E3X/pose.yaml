@@ -1,0 +1,46 @@
+id: 01M1C79NBZNF85V80VFSJ86E3X
+slug: lap-cradle-overhead
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dCBC.C+[1$OA-7M{a3+^:%RjRj%2+]WqR*N_V@bwt8Nc
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+instructions:
+- Have both parents sit on the floor facing each other with their legs tucked close together
+  to create a secure cradle between them.
+- Lay the baby on their back in the center on top of a soft red blanket spread across the
+  parents' laps.
+- Ask both parents to lean inward close to the baby, placing their hands gently along the
+  baby's sides and legs.
+- Position yourself directly above for a high-angle shot, keeping parents focused down on
+  the baby's face while capturing the baby looking upward.
+prompts:
+- text: You don't have to look up at me at all. Just keep your eyes right on her.
+  tone: nervous_client
+- text: Take a slow breath out and just lean in as close to her as you can.
+  tone: calm
+- text: See if you two can get a smile out of her without making any sound.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

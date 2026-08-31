@@ -1,0 +1,43 @@
+id: 01M1C79NDN1Q7TNH86TCWC4DVS
+slug: tide-rocks-kiss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d%L;jWIUtQRj~qofogt7tRtRWBWANGjZRjaxoKRjWAa}
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the couple facing each other in full profile along the shoreline with rock formations
+  in the background.
+- Have the partner place his hands gently over her baby bump, standing tall and close.
+- Have the expectant mother hold a light shawl draped over her arm and lean in to share a
+  soft kiss with her partner.
+prompts:
+- text: You don't need to look at me at all. Just step in close and share a soft kiss.
+  tone: nervous_client
+- text: Rest your hands right on her belly, lean in close, and hold that kiss for a few seconds.
+  tone: romantic
+- text: Take a slow breath out together, listen to the waves, and just stay right there in
+    the moment.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

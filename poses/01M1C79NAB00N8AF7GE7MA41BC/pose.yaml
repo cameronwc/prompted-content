@@ -1,0 +1,43 @@
+id: 01M1C79NAB00N8AF7GE7MA41BC
+slug: field-neck-wrap-gaze
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d|Lzv-odaxt7~qogj]V@%hRkafkCRjWBbHWBRioJj?j@
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple standing close, chest-to-chest, angled in three-quarter profile with
+  the partner in white facing slightly toward the camera.
+- Have the partner facing away wrap his arms around her waist, pulling her in close.
+- Guide the partner in white to wrap her arms around his neck and shoulders, resting her hands
+  softly behind his head.
+- Ask both subjects to gaze warmly at each other with soft, natural smiles.
+prompts:
+- text: Forget about the camera completely. Just look right into his eyes.
+  tone: nervous_client
+- text: Pull him in close and whisper what you really want for dinner tonight.
+  tone: playful
+- text: Lean in like you're going to kiss, but stop just an inch away and hold it.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

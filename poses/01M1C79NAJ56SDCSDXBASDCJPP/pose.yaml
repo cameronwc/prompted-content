@@ -1,0 +1,46 @@
+id: 01M1C79NAJ56SDCSDXBASDCJPP
+slug: underarm-twirl-field
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d=L;mZ-;IUt7~qt7R*ofWDM{t7j]RiWAt7WBs:t6a}WA
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+instructions:
+- Position the couple standing about an arm's length apart in an open area, angled slightly
+  away from the camera.
+- Have the partner on the left raise his right hand to hold his partner's left hand above
+  head height.
+- Direct the partner in the dress to do a slow, continuous spin under his raised arm so the
+  skirt catches the motion.
+- Instruct both partners to keep their eyes locked on each other and smile as she finishes
+  each turn.
+prompts:
+- text: Don't worry about doing a perfect dance spin—just a slow, easy turn whenever you're
+    ready.
+  tone: nervous_client
+- text: Give her the slowest, most dramatic slow-motion twirl you've got.
+  tone: playful
+- text: Spin once, catch his hand, and hold right there while looking into his eyes.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

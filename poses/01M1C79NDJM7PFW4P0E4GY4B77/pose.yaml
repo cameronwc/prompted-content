@@ -1,0 +1,43 @@
+id: 01M1C79NDJM7PFW4P0E4GY4B77
+slug: bump-hands-foreheads
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: duL|}+kXtRi^_4%LxuWBX9Mxaet8%MM{RPofofozWCjZ
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the expecting mother standing at a slight three-quarter angle, with her partner
+  standing closely behind her chest-to-back.
+- Have both partners wrap their arms around her waist, resting both sets of hands together
+  gently cupping the baby bump.
+- Direct them to turn their faces inward toward each other, keeping their foreheads and noses
+  close while smiling naturally.
+prompts:
+- text: You don't need to look at me at all. Just lock eyes and enjoy each other.
+  tone: nervous_client
+- text: Whisper the most ridiculous baby name you can think of right in her ear.
+  tone: playful
+- text: Pull her in close, rest your hands on the bump, and just take a slow breath together.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

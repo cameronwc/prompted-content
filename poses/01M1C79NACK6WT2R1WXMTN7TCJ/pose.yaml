@@ -1,0 +1,45 @@
+id: 01M1C79NACK6WT2R1WXMTN7TCJ
+slug: forehead-kiss-embrace-bw
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: daGSDh9F-;xu~qWBxuxu?bayofxu%Mj[fQofofofWBay
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple standing chest-to-chest in a tight, intimate embrace.
+- Have the partner on the right wrap her arms around his neck and shoulders, resting her hands
+  softly against his upper back.
+- Direct the partner on the left to wrap both arms around her waist, pulling her firmly against
+  his chest.
+- Instruct the partner on the left to place a soft kiss on her temple or forehead while she
+  closes her eyes and rests into the embrace.
+prompts:
+- text: Close your eyes and forget about the camera completely. Just lean into each other.
+  tone: nervous_client
+- text: Take a deep breath in together, and as you breathe out, let your shoulders drop completely.
+  tone: calm
+- text: Rest a slow, gentle kiss right against her forehead and just stay there.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

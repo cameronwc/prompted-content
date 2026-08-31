@@ -1,0 +1,44 @@
+id: 01M1C79NDHAMWSX2KJ9926TC52
+slug: knuckle-kiss-overlook
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dgM7P.$dWXM{?wIUxat6%hI;MxkC_3s:WXa}xYtSX9WA
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the couple facing each other in full profile, framed from the waist up behind the
+  floral greenery with the coastal ocean view in the background.
+- Have the woman lift both of her hands together between their chests, elbows relaxed.
+- Direct the partner to cup both of her hands in his, bringing them gently up to his lips
+  to kiss her knuckles.
+- Instruct the woman to look affectionately into his eyes with a soft, natural smile while
+  he maintains the kiss.
+prompts:
+- text: You don't have to look at the camera at all. Just look right at each other.
+  tone: nervous_client
+- text: Bring both of her hands up to your lips and press a slow, gentle kiss to her knuckles.
+  tone: romantic
+- text: Drop your shoulders, take one slow breath out together, and just hold that moment.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

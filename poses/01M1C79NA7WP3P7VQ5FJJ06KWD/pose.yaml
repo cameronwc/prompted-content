@@ -1,0 +1,46 @@
+id: 01M1C79NA7WP3P7VQ5FJJ06KWD
+slug: behind-shoulder-drape-bw
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dEGSDhD%_3WB~q%Mxuxu%M-;of%M?b_3-;M{xuxuIUxu
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the seated partner upright, angled slightly toward camera left with shoulders relaxed.
+- Have the standing partner lean over from behind, draping both arms around the seated partner's
+  chest and neck, resting hands together on his chest.
+- Direct the partner in back to gently press her cheek and temple against the side of his
+  head and close her eyes.
+- Instruct the seated partner to gaze softly into the distance past the camera to the left.
+prompts:
+- text: Neither of you has to look at the lens. Just settle in and let your shoulders drop.
+  tone: nervous_client
+- text: Rest your cheek right against his head, close your eyes, and take one long breath
+    out.
+  tone: calm
+- text: Wrap your arms around him like you're holding onto him at the end of a really long
+    day.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

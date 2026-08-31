@@ -1,0 +1,46 @@
+id: 01M1C79NAH9CH9H13C95MXZCV7
+slug: couch-back-perch-nuzzle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dSHo5mR+00WEx@Mxa$%gx^xZMxNGxGR%t7%ME1t7-;ae
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Have the female subject sit perched on the top backrest of the couch, angling her body slightly
+  toward the camera with her legs resting forward.
+- Position the male subject directly behind her, leaning in close and wrapping his arms gently
+  around her waist.
+- Guide the female subject to rest her hands lightly over his hands on her lap.
+- Have the male subject nuzzle closely near her ear or cheek while she reacts and looks down
+  naturally with a soft smile.
+prompts:
+- text: You don't need to look at me at all. Just sink back into him and let your shoulders
+    drop.
+  tone: nervous_client
+- text: Lean right into her ear and whisper the most ridiculous thing you can think of.
+  tone: playful
+- text: Bring your forehead right up against her temple and just hold her close.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

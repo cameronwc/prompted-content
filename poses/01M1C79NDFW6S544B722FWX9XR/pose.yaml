@@ -1,0 +1,41 @@
+id: 01M1C79NDFW6S544B722FWX9XR
+slug: bluff-profile-kiss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: daL;54,nRQE1.9D%xZ%L%hIpM_WB_NbbRjM|$ykrNbRj
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the mother in a side profile view, turning her chest slightly toward the camera.
+- Have the partner stand close facing her, leaning down gently to meet her for a soft kiss.
+- Place both of their hands together gently cradling the lower curve of the baby bump.
+prompts:
+- text: You can completely ignore the camera. Just close your eyes and lean into each other.
+  tone: nervous_client
+- text: Come in for a slow, gentle kiss and just linger right there.
+  tone: romantic
+- text: Take a deep breath in together, let your shoulders drop, and rest your hands on the
+    baby.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

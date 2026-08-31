@@ -1,0 +1,49 @@
+id: 01M1C79NDTM483AG3QS0H3T0XX
+slug: beach-recline-cradle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dqLXx#RiNGS4.TWBbJj]-nbIjEoJ-ot8V@Rjoes.o#og
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+instructions:
+- Place a blanket on the sand and have the back partner sit with their legs spread open wide
+  in a comfortable V-shape.
+- Have the front partner sit directly between their legs, nestled back against their chest
+  with her legs extending forward together.
+- Guide the back partner to wrap their arms loosely around her waist, resting their hands
+  on her hips.
+- Have the front partner gently cradle her belly with both hands, softly tilting her head
+  back toward his shoulder while both look toward the lens.
+prompts:
+- text: Just sink right back into him and let him hold your weight. There is zero need to
+    hold a stiff pose.
+  tone: nervous_client
+- text: Take a deep breath of that ocean air together, and let your shoulders drop completely
+    as you breathe out.
+  tone: calm
+- text: Whisper the very first silly house rule you're going to invent for this baby.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility:
+- seated_variant
+- late_term
+version: 1
+status: active

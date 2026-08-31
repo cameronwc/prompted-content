@@ -4,3 +4,15 @@ locations:
   lat: 45.8918
   lon: -123.9615
   location_type: beach
+- name: 123 Farm, Beaumont, CA
+  lat: 33.9569
+  lon: -116.9464
+  location_type: field
+- name: Laguna Beach bluffs, CA
+  lat: 33.5135
+  lon: -117.7595
+  location_type: beach
+- name: Laguna Beach (in-home), CA
+  lat: 33.5427
+  lon: -117.7854
+  location_type: home

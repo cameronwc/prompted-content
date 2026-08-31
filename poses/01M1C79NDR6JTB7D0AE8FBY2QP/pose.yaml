@@ -1,0 +1,43 @@
+id: 01M1C79NDR6JTB7D0AE8FBY2QP
+slug: cheeky-grin-photobomb
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: deJk$XkYX9xuxvs+f5Ri.TITafbb%NR,V@t7t7t7kCoL
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the woman in the foreground turned in side profile facing left, resting comfortably.
+- Place the man just behind her, leaning in slightly over her right shoulder to face the camera
+  directly.
+- Have the woman gaze softly to the side with a gentle profile smile.
+- Have the man make direct eye contact with the camera, raising a playful hand gesture right
+  in front of his face with a sly grin.
+prompts:
+- text: Give me one completely goofy shot to get all the photoshoot silliness out of our system.
+  tone: nervous_client
+- text: Give the lens your cheekiest face while she's looking away.
+  tone: playful
+- text: Now relax your hands, take a breath, and lean in close to her shoulder.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

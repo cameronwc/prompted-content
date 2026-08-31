@@ -1,0 +1,43 @@
+id: 01M1C79NAH9CH9H13C95MXZCV6
+slug: fairy-light-profile-kiss
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dBE3C*j[00D%?bxu9Ft7ayIURjxuoft7ofIUM{t7D%WB
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple standing chest-to-chest in full profile to the camera, centered beneath
+  the hanging fairy lights.
+- Have the partner on the left place both hands securely around their partner's lower waist,
+  pulling them in close.
+- Have the partner on the right wrap their arms gently around the other's waist or midsection.
+- Instruct both subjects to lean in gently and share a soft, closed-eye kiss in profile.
+prompts:
+- text: You don't need to worry about the camera at all right now. Just focus on each other.
+  tone: nervous_client
+- text: Close your eyes, breathe out together, and just stay right here in the quiet.
+  tone: calm
+- text: Go in for the softest kiss you've got and linger right there.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

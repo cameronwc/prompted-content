@@ -1,0 +1,45 @@
+id: 01M1C79NDR6JTB7D0AE8FBY2QN
+slug: cheek-kiss-camera-look
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dXKU$mSjt-%N-qozo~V@-:RO-UkC?wM_V@bbgOayMxay
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the expecting mother standing at a three-quarter profile to showcase her bump,
+  facing her body slightly toward camera left while turning her head toward the lens.
+- Have the partner stand close behind her, wrapping his arms around her waist so both of their
+  hands rest interlocked low on the baby bump.
+- Direct the partner to lean in and gently kiss her cheek while she relaxes her shoulders
+  and looks directly into the camera.
+prompts:
+- text: Rest both of your hands together right on the bump. Don't worry about posing, just
+    look right at me.
+  tone: nervous_client
+- text: Plant a soft kiss right on her cheek and hold it right there against her skin.
+  tone: romantic
+- text: Take a slow breath in together, and as you exhale, let your shoulders drop and lean
+    back into him.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

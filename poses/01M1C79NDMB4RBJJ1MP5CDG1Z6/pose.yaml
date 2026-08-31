@@ -1,0 +1,43 @@
+id: 01M1C79NDMB4RBJJ1MP5CDG1Z6
+slug: shoreline-blanket-drape
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: d+LqRyROt6M{~qWBkCs;bvx]azWBkCj?j[a{ofWBRjj]
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple facing each other in profile along the rocky shoreline, standing close
+  together.
+- Have the pregnant partner drape a patterned blanket over her back and shoulders, lightly
+  holding the outer corner with one hand.
+- Instruct the partner to gently rest both hands on her baby bump.
+- Direct both partners to look directly into each other's eyes with soft, natural smiles.
+prompts:
+- text: You don't need to look at me at all. Just lock eyes with each other.
+  tone: nervous_client
+- text: Whisper the wildest baby name idea you haven't told anyone yet.
+  tone: playful
+- text: Rest your hands right on her belly and take a quiet second to take this all in.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

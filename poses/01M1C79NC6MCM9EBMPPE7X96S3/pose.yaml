@@ -1,0 +1,43 @@
+id: 01M1C79NC6MCM9EBMPPE7X96S3
+slug: hearth-tummy-time
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dMIM$a4TkYI;_M9Fo~NHWGn4xaR+P9#+SNWCwJOYSORQ
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 1
+subject_types:
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: easy
+instructions:
+- Place a textured knit blanket on the floor near the hearth, keeping safe clearance from
+  the fireplace.
+- Position the baby on their stomach propped up on their forearms, angled slightly toward
+  the camera.
+- Place a small tabletop Christmas tree or warm light source behind the baby to create soft
+  background bokeh.
+- Lower your shooting angle completely to floor level, framing at eye height with the baby.
+prompts:
+- text: Take all the time you need to settle her in. We work entirely on her schedule.
+  tone: nervous_client
+- text: Stand right over my shoulder and make that squeaky voice she loves.
+  tone: playful
+- text: Let's give her a quiet moment right here to just watch the tree lights.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

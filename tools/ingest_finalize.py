@@ -9,7 +9,11 @@ A draft is refused (with the reason) while it has:
   - no posing instructions (every photo ships with setup steps)
   - no categories or no subject_types
   - a light tag set violating the grouped light rules
-  - a detected face count contradicting subject_count by more than one
+  - a detected face count EXCEEDING subject_count by more than one (someone
+    in frame the record doesn't account for). Fewer detected faces than
+    subjects is only warned about: the frontal cascade cannot see profile,
+    tilted, or occluded faces. `face_check_waived: true` in the draft
+    silences the refusal for a reviewed frame.
 
 On success, per pose: the candidate frame is centre-cropped to exact 4:5
 and resized to detail.jpg (1200w) and thumb.jpg (400w), the blurhash is
@@ -89,10 +93,15 @@ def refusals(draft: dict, generated: dict | None, groups: dict) -> list[str]:
 
     faces = draft["_ingest"].get("face_count")
     count = draft.get("subject_count")
-    if isinstance(faces, int) and isinstance(count, int) and abs(faces - count) > 1:
-        problems.append(
-            f"face count {faces} contradicts subject_count {count} by more "
-            f"than one — recheck the frame (or the count)")
+    if isinstance(faces, int) and isinstance(count, int):
+        if faces > count + 1 and not draft.get("face_check_waived"):
+            problems.append(
+                f"detector found {faces} faces but subject_count is {count} — "
+                f"someone extra may be in frame; recheck, then set "
+                f"face_check_waived: true if the frame is right")
+        elif faces < count - 1:
+            print(f"  note: only {faces} of {count} faces detected "
+                  f"(profiles/occlusion) — not blocking")
     return problems
 
 
@@ -122,7 +131,9 @@ def finalize_draft(shoot: str, draft_path: Path, draft: dict,
     shoot_path = shoot_dir(shoot)
     ing = draft["_ingest"]
 
-    pose = {k: v for k, v in draft.items() if k not in ("_ingest", "prompts_approved")}
+    # Draft-only control fields never enter the pose record.
+    pose = {k: v for k, v in draft.items()
+            if k not in ("_ingest", "prompts_approved", "face_check_waived")}
     pose_dir = POSES_DIR / pose["id"]
     if pose_dir.exists():
         sys.exit(f"error: poses/{pose['id']}/ already exists — refusing to overwrite")

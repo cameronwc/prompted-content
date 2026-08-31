@@ -1,0 +1,45 @@
+id: 01M1C79NBXGJ6HWC1ZPJH7GCFX
+slug: mantel-overhead-lift
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dbFr*F-Os8NI~V%Ma{Z~-pjYS4RjWBoeRikDs9oyV@kC
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 2
+subject_types:
+- adult
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+instructions:
+- Position the parent standing in profile next to the decorated fireplace mantel.
+- Have the parent securely lift the baby straight up into the air at arm's length, supporting
+  under the baby's torso.
+- Instruct the parent to tilt their head back and gaze up warmly at the baby with an open
+  smile.
+- Frame at the parent's chest level to capture the full vertical connection between parent
+  and child against the warm background glow.
+prompts:
+- text: You don't need to look at the camera at all. Just keep your eyes locked on that sweet
+    face.
+  tone: nervous_client
+- text: Give her a little airplane lift and make your absolute best funny noise.
+  tone: playful
+- text: Take a slow breath out and just take in how tiny she is in your hands.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

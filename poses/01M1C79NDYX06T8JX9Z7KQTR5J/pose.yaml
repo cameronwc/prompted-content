@@ -1,0 +1,45 @@
+id: 01M1C79NDYX06T8JX9Z7KQTR5J
+slug: sea-rock-lean-in
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dWK^{V?cITo~^+tRM|xvtltSxaV@_4%MMxof-;a{V?n$
+placeholder: false
+image_source: photo
+categories:
+- maternity
+subject_count: 2
+subject_types:
+- pregnant
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+instructions:
+- Have the seated partner perch back against the rock face at a slight angle, facing inward
+  toward the standing partner.
+- Position the pregnant partner standing close beside him in profile, gently cupping the underside
+  of her bump with her lower hand.
+- Direct the seated partner to place both hands softly over hers on the belly.
+- Ask the standing partner to bring her opposite arm up and rest her hand comfortably around
+  the back of his neck.
+- Have them both look at each other and share a quiet, natural smile.
+prompts:
+- text: Forget about the camera for a second. Just look right at each other and breathe.
+  tone: nervous_client
+- text: Rest your hand behind his neck and whisper the very first baby name you secretly loved.
+  tone: playful
+- text: Take one slow breath together and just hold each other right here.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

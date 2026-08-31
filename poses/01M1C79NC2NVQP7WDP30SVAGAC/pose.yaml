@@ -1,0 +1,46 @@
+id: 01M1C79NC2NVQP7WDP30SVAGAC
+slug: between-shoulders-giggle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dMJ$mX9aFy~Aqu^*%0Sg1O=_%0r=GYIVsW-o}:T0NIWB
+placeholder: false
+image_source: photo
+categories:
+- family
+subject_count: 3
+subject_types:
+- adult
+- toddler
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the parents seated closely together in front of a lit fireplace, angling inward
+  toward each other.
+- Have the mother hold the baby up securely on her lap or chest, facing the baby slightly
+  toward the father.
+- Place the father leaning in from the right side of the frame, capturing an over-the-shoulder
+  angle as he interacts with the baby.
+- Shoot at a low eye-level with the baby, keeping focus on the child's reaction while the
+  parents' attention stays completely on them.
+prompts:
+- text: You don't need to look at me at all—just focus entirely on making her laugh.
+  tone: nervous_client
+- text: Dad, give me your best funny face or sound on the count of three. One, two, three!
+  tone: playful
+- text: Just lean in close together and enjoy the warmth of the fire for a second.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 50
+  aperture: f/2.5
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

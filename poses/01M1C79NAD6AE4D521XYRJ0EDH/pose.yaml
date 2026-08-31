@@ -1,0 +1,48 @@
+id: 01M1C79NAD6AE4D521XYRJ0EDH
+slug: lavender-ground-sit-nose-touch
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dSGSAPxu9FIo%LWB-=xu~qkCWBoL~Xt7Ioayt7j[x]WV
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+instructions:
+- Have both subjects sit directly on the ground between the bushes, with the rear partner
+  seated slightly behind and turned inward toward their partner.
+- Position the front partner leaning back slightly against the rear partner, draping their
+  white dress comfortably out along the dirt path.
+- Have the front partner reach up to cup the rear partner's cheek and jawline with their near
+  hand while resting their opposite arm across the torso.
+- Direct the rear partner to wrap an arm around their partner's waist and lean in close until
+  their foreheads and noses gently touch.
+prompts:
+- text: Go ahead and get comfortable right on the dirt. You don't have to look at the camera
+    at all.
+  tone: nervous_client
+- text: Whisper what you want to eat after this directly against their cheek, but make it
+    sound like a massive secret.
+  tone: playful
+- text: Bring your foreheads all the way together and hold right there just short of a kiss.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active

@@ -1,0 +1,43 @@
+id: 01M1C79NA80PDS27ZR7M8J0C2S
+slug: flower-market-spin
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dUKBN_r:Mw?b^h-mM{bJ~p$~M_o#^+oIIU%Me=RlW=j[
+placeholder: false
+image_source: photo
+categories:
+- couples
+- engagement
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the couple facing each other at arm's length, with the woman facing toward the
+  camera and the man angled with his back three-quarters to the lens.
+- Have them clasp both of each other's hands, keeping their arms extended out comfortably
+  at waist height.
+- Instruct them to lean their weight back slightly into their grip and gently spin or sway
+  in a slow circle together while looking at each other.
+prompts:
+- text: Grab both hands and lean back a little. You don't have to look at the camera at all.
+  tone: nervous_client
+- text: Spin each other around like you're the last two people on the dance floor.
+  tone: playful
+- text: Hold hands tight, lean back into each other's weight, and just smile at him.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 85
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
