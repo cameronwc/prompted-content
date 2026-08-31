@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 9,
-  "generated_at": "2026-08-31T15:38:34+00:00",
+  "catalog_version": 10,
+  "generated_at": "2026-08-31T16:13:35+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -14953,8 +14953,8 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
-      "status": "active"
+      "version": 2,
+      "status": "retired"
     },
     {
       "id": "01M1C79NDTM483AG3QS0H3T0XX",

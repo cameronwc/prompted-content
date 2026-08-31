@@ -39,5 +39,5 @@ gear:
   aperture: f/2.5
   needs_reflector: false
 accessibility: []
-version: 1
-status: active
+version: 2
+status: retired
