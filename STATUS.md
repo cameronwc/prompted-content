@@ -1,5 +1,30 @@
 # STATUS
 
+## Prod is live: full AI coverage + shipping policy change (2026-08-31)
+
+- **Operator decision: AI imagery ships.** Dev and prod serve a mix of AI
+  images and real photography until enough photoshoots replace the AI
+  set. All 240 AI poses are placeholder: false; image_source: ai remains
+  the replacement target. README and the generator updated to match.
+- **Prod published for the first time**: dev catalog v12 promoted
+  byte-identical (547 objects copied, diff: 273 added), latest.json ->
+  v12, verified — all 273 records pass schema validation, all 546 image
+  keys present. Prod bucket remains private (no public access
+  configured); serving prod to the app still needs a domain or r2.dev
+  toggle.
+- **Full AI coverage**: 180 remaining seed poses generated
+  (gemini-3.1-flash-image, 0 failures, ≈$12.06) and instruction-backfilled
+  (≈$0.77). Catalog: ai=240, photo=33, synthetic=0 — no placeholder tiles
+  remain.
+- **Concurrent-edit collision, repaired**: while generation ran, an
+  operator bulk edit (flipping the original 60 AI poses to
+  placeholder: false) wrote stale copies over 48 records the generator
+  had just updated. Repaired via update_record; both edits' intents are
+  reflected in v12.
+- Retired cheeky-grin-photobomb record (and its two image files) exists
+  in both buckets per the catalog's retain-everything design; the app
+  never displays it. Operator has been offered a purge.
+
 ## First real photography ingested (2026-08-31, fifth session)
 
 - **33 real photo poses live in dev (catalog v9)** from three shoots run
