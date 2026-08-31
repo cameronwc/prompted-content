@@ -4,7 +4,7 @@ image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
   blurhash: dXLf,As:-Sof~qt7NHs:yEofIpWV.8ofs.oe%gfks:a#
-placeholder: true
+placeholder: false
 categories:
 - couples
 subject_count: 2

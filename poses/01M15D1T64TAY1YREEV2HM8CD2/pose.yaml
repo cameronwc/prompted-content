@@ -4,7 +4,7 @@ image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
   blurhash: dqJ7s:ays,oe~payWCa|tnWVRlWV%NayoLj@%LayoLfQ
-placeholder: true
+placeholder: false
 categories:
 - maternity
 subject_count: 1

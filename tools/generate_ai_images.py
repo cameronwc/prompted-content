@@ -268,8 +268,10 @@ def update_record(pose_dir, pose: dict) -> None:
     pose["image"]["thumb"] = "thumb_ai.jpg"
     pose["image"]["detail"] = "detail_ai.jpg"
     pose["image_source"] = "ai"
-    # placeholder stays true: AI images are UI test fixtures, never shipped.
-    pose["placeholder"] = True
+    # Operator decision 2026-08-31: AI imagery ships (dev and prod) until
+    # real photoshoots replace it, so placeholder is false. image_source
+    # stays 'ai' so replacement can target these poses shoot by shoot.
+    pose["placeholder"] = False
     (pose_dir / "pose.yaml").write_text(
         yaml.safe_dump(pose, sort_keys=False, allow_unicode=True, width=88)
     )

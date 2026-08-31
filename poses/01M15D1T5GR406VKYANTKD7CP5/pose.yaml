@@ -4,7 +4,7 @@ image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
   blurhash: dTI#3:Ip-noL~Ut6WBj?M{WXE2WB0NayxtWCD*ayt6oe
-placeholder: true
+placeholder: false
 categories:
 - family
 subject_count: 5

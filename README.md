@@ -181,7 +181,16 @@ Publishing reads the bucket/account from `terraform output` in
 
 Commit the pose directory and the rebuilt `dist/catalog.json` together.
 
-## AI-generated dev images
+## AI-generated images
+
+**Policy (operator decision 2026-08-31):** the catalog ships a mix of AI
+imagery and real photography in both dev and prod until enough real
+photoshoots exist to replace the AI set. AI poses carry
+`image_source: ai` and `placeholder: false`; replace them shoot by shoot
+via the ingest pipeline and retire nothing — a real pose simply supersedes
+an AI one when its record is updated with photo imagery.
+
+### History: original dev-fixture role
 
 A stratified subset of 50 poses carries AI-generated images
 (`image_source: ai`, files `thumb_ai.jpg` / `detail_ai.jpg`) instead of the

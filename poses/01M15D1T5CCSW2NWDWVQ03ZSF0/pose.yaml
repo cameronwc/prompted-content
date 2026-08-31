@@ -4,7 +4,7 @@ image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
   blurhash: d.J*S5xts-R*~qofazay-=WCR+oLxuR*j?oeV@WBj?kC
-placeholder: true
+placeholder: false
 categories:
 - family
 subject_count: 4

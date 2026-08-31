@@ -4,7 +4,7 @@ image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
   blurhash: dIDI?%_3.8?b~V%M-;x]D%IUxakCIVaeaKae%LxuNHja
-placeholder: true
+placeholder: false
 categories:
 - senior
 subject_count: 1
