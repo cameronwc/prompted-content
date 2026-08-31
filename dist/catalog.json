@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 12,
-  "generated_at": "2026-08-31T17:30:10+00:00",
+  "catalog_version": 13,
+  "generated_at": "2026-08-31T17:41:50+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -1595,8 +1595,8 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 4,
-      "status": "active",
+      "version": 5,
+      "status": "retired",
       "image_source": "ai",
       "instructions": [
         "Position the couple walking side-by-side along the wet sand near the water's edge, moving in a natural stride with the low sun backlighting them.",

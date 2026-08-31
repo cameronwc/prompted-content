@@ -31,8 +31,8 @@ gear:
   aperture: f/2
   needs_reflector: true
 accessibility: []
-version: 4
-status: active
+version: 5
+status: retired
 image_source: ai
 instructions:
 - Position the couple walking side-by-side along the wet sand near the water's edge, moving
