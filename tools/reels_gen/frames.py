@@ -93,8 +93,8 @@ NOMINAL_DURATION_NO_APPSHOT = (STEPS_START + MAX_STEPS * STEP_SLOT_DURATION
 KENBURNS_RANGE = (1.00, 1.08)   # slow push, ease in-out
 
 SCRIM_HEIGHT_RATIO = 0.44       # bottom band; deeper than a third so the prompt can run large
-PANEL_ALPHA = 236               # near-opaque ink panel behind the text band
-PANEL_FEATHER = 90              # px of soft edge at the top of the panel
+PANEL_ALPHA = 200               # near-opaque ink panel behind the text band
+PANEL_FEATHER = 140              # px of soft edge at the top of the panel
 
 PROMPT_BOTTOM_MARGIN = 140
 PROMPT_TOP_GAP = 40
