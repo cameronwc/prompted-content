@@ -1,0 +1,17 @@
+; Buttondown sending domain: mail.cooperindustries.cc
+; Import into Cloudflare: DNS > Records > Import and Export > Import DNS records.
+; All records DNS only (grey cloud). Zone: cooperindustries.cc
+$ORIGIN cooperindustries.cc.
+$TTL 3600
+
+; DKIM (Postmark, via Buttondown)
+20260904203955pm._domainkey.mail    IN  TXT    "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3UtaFoMrcoYwsej3zgDYGR+t2u/AyYpsDbX7EYoaEDH6RfkToqwOeTheFhvLgClA+efArPT6nLSiKsn4WBYkVsmPypjwL0azmef7CctLmop/ve1GSfU67yWHReZoenDltT+IHYj6kZoyzNvpzCR4Vd3xl/kWseXn1l86sjQDuvQIDAQAB"
+
+; Bounce handling (Return-Path)
+pm-bounces.mail                     IN  CNAME  pm.mtasv.net.
+
+; Click and open tracking
+track.mail                          IN  CNAME  webhook-consumer.buttondown.email.
+
+; DMARC for the sending subdomain
+_dmarc.mail                         IN  TXT    "v=DMARC1; p=quarantine; rua=mailto:940f0c149d7a65a4c6b0f32e5246f6fa@inbound.postmarkapp.com; aspf=r; pct=100"
