@@ -317,6 +317,55 @@ derived deterministically from catalog fields — no LLM calls.
 
 Tests: `make test` (`tests/test_pinterest.py`).
 
+## Reels
+
+`tools/reels.py` turns the catalog into short vertical videos for Instagram
+Reels, TikTok and YouTube Shorts: one 9-second, 1080x1920 H.264 MP4 per
+eligible pose, plus caption and posting-schedule CSVs. Every frame is drawn
+with Pillow and piped to ffmpeg for encoding — this machine's ffmpeg has no
+`drawtext` filter — so it reuses `tools/pinterest`'s font loading, text-fit
+auto-sizing and rights gate rather than duplicating them.
+
+```sh
+make reels-dry-run                                    # dist/reels/contact_sheet.png, 3 first frames, CSVs; no MP4s
+make reels-generate REELS_ARGS="--limit 20 --category maternity"
+make reels-generate REELS_ARGS="--slug hands-on-bump-profile --start-date 2026-09-08"
+```
+
+Each pose gets its `nervous_client` prompt if it is ≤110 characters,
+otherwise the shortest other prompt under that cap; a pose with no prompt
+short enough is skipped and listed in the run output. `--category`,
+`--tone` and `--slug` filter the catalog; `--tone` also forces which
+prompt tone is used (skipping poses that lack it). Output files are named
+`<category>-<slug>-<tone>.mp4`.
+
+**Composition:** the pose image fills the frame with a slow Ken Burns push
+(1.00→1.08, eased) and a bottom-third gradient scrim; a small amber
+"PROMPTED · &lt;TONE&gt;" label fades in top-left; the prompt (curly-quoted,
+auto-fit up to 5 lines) fades in over the scrim from 0.8s, holds, and fades
+out by 7.4s, when a paper-background end card ("Prompted — The posing app
+that is only a posing app.") fades in for the last 1.6s. AI-sourced poses
+carry an "AI-generated posing reference" pill top-right for the whole image
+portion; real photographs show `Photo: <credit>` bottom-right instead, when
+the pose record has one.
+
+**Rights exclusion is absolute here too.** `reels generate` builds the same
+`RightsGate` from `config/pinterest_exclusions.yaml` that `tools/pins.py`
+uses, and never trusts `dist/guides_data.json` (or any other pre-filtered
+extract) as the sole check — `reels_gen/select.py`'s `guard_renderable` is
+called again immediately before any pixel of a pose is opened, so an
+Act Naturally Photos asset reaching the renderer is a hard exit either way.
+
+`captions.csv` (file, slug, category, tone, prompt, caption, hashtags,
+image_source, link) has no link in the caption text (platforms strip them);
+the `link` column carries the UTM-tagged marketing URL. `schedule.csv` (one
+row per video) assigns sequential dates from `--start-date` (default
+tomorrow), ordered so no two consecutive posts share a category and a real
+photograph appears at least every 4th post for as long as the ~20 real
+photographs last.
+
+Tests: `make test` (`tests/test_reels.py`).
+
 ## Rules that keep the catalog sane
 
 - Taxonomy IDs and pose ULIDs are permanent. Retire (`status: retired`),

@@ -28,6 +28,7 @@ TF_FLAGS ?=
         ingest-prompts ingest-draft approve-prompts ingest-finalize \
         publish-dev verify-dev promote-prod rollback-prod verify-published \
         pins pins-dry-run pins-generate pins-upload pins-csv pins-status pins-scan-rights test \
+        reels reels-dry-run reels-generate \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
 
 # Every ingest target after init takes SHOOT=<shoot-name>
@@ -68,6 +69,10 @@ help:
 	@echo "  make pins-status    Pin counts by cohort / category / board and the schedule"
 	@echo "  make pins-scan-rights  Exclusion report + shoot->pose drift check"
 	@echo "  make pins ARGS=...  Any pins subcommand verbatim"
+	@echo ""
+	@echo "  make reels-dry-run   Render 3 first-frame PNGs + contact sheet; CSVs; no MP4s"
+	@echo "  make reels-generate  Render reels (REELS_ARGS='--limit 20 --category maternity')"
+	@echo "  make reels ARGS=...  Any reels subcommand verbatim"
 	@echo "  make test           Run the test suite"
 	@echo ""
 	@echo "  make tf-plan-dev    terraform plan for envs/dev"
@@ -209,11 +214,21 @@ pins-status: venv
 pins-scan-rights: venv
 	$(PYTHON) tools/pins.py scan-rights
 
+# Reels pipeline (tools/reels.py): short vertical videos for Reels/TikTok/Shorts.
+reels: venv
+	$(PYTHON) tools/reels.py $(ARGS)
+
+reels-dry-run: venv
+	$(PYTHON) tools/reels.py generate --dry-run
+
+reels-generate: venv
+	$(PYTHON) tools/reels.py generate $(REELS_ARGS)
+
 test: venv
 	$(PYTHON) -m pytest tests -q
 
 clean:
-	rm -rf dist/catalog.json dist/pins dist/pins_csv .pytest_cache tools/__pycache__ tools/pinterest/__pycache__
+	rm -rf dist/catalog.json dist/pins dist/pins_csv dist/reels .pytest_cache tools/__pycache__ tools/pinterest/__pycache__ tools/reels_gen/__pycache__
 
 tf-plan-bootstrap:
 	$(TF) -chdir=infra/bootstrap plan

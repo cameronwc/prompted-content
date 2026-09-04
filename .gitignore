@@ -30,3 +30,7 @@ archive/
 # manifest; only state/pinterest_manifest.json is tracked.
 dist/pins/
 dist/pins_csv/
+
+# Reels pipeline: rendered videos, frames and CSVs are rebuilt from the
+# catalog; nothing under dist/reels/ is tracked.
+dist/reels/
