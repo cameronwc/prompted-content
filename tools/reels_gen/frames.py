@@ -69,7 +69,7 @@ APP_SCREEN_SHADOW_OFFSET = (0, 26)
 APP_SCREEN_TOP_MARGIN = 96
 APP_SCREEN_HEADER_GAP = 40
 APP_SCREEN_CAPTION_GAP = 40
-APP_SCREEN_HEADER_FONT_SIZE = 26  # matches the steps/prompt section headers
+APP_SCREEN_HEADER_FONT_SIZE = 32  # matches the steps/prompt section headers
 
 # -- end card --
 ENDCARD_DURATION = 1.8          # last 1.8s of any timeline
@@ -93,7 +93,8 @@ NOMINAL_DURATION_NO_APPSHOT = (STEPS_START + MAX_STEPS * STEP_SLOT_DURATION
 KENBURNS_RANGE = (1.00, 1.08)   # slow push, ease in-out
 
 SCRIM_HEIGHT_RATIO = 0.44       # bottom band; deeper than a third so the prompt can run large
-SCRIM_ALPHA_MAX = 190           # "slightly" -- pins' photo-pin scrim goes to 200
+PANEL_ALPHA = 236               # near-opaque ink panel behind the text band
+PANEL_FEATHER = 90              # px of soft edge at the top of the panel
 
 PROMPT_BOTTOM_MARGIN = 140
 PROMPT_TOP_GAP = 40
@@ -181,16 +182,18 @@ def cover_fit(im: Image.Image, size: tuple[int, int]) -> Image.Image:
 
 
 def scrim_overlay() -> Image.Image:
-    """A bottom-third black gradient, RGBA, transparent at its own top edge
-    and SCRIM_ALPHA_MAX at the frame's bottom -- constant across a video's
+    """A near-opaque ink panel over the bottom band so the text reads on any
+    photograph, with a short feathered top edge (PANEL_FEATHER px) so it
+    does not cut the image with a hard line. Constant across a video's
     frames, so it is built once and alpha-composited onto each one."""
     band_h = int(HEIGHT * SCRIM_HEIGHT_RATIO)
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     grad = Image.new("L", (1, band_h))
     for i in range(band_h):
-        grad.putpixel((0, i), int(SCRIM_ALPHA_MAX * (i / band_h) ** 1.4))
+        a = PANEL_ALPHA if i >= PANEL_FEATHER else int(PANEL_ALPHA * (i / PANEL_FEATHER) ** 1.2)
+        grad.putpixel((0, i), a)
     grad = grad.resize((WIDTH, band_h))
-    black = Image.new("RGBA", (WIDTH, band_h), (14, 11, 9, 0))
+    black = Image.new("RGBA", (WIDTH, band_h), (18, 15, 12, 0))
     black.putalpha(grad)
     overlay.paste(black, (0, HEIGHT - band_h))
     return overlay
@@ -211,6 +214,12 @@ def steps_text_safe_area() -> tuple[int, int]:
     step-number column; same vertical safe area as the prompt."""
     w, h = prompt_safe_area()
     return w - STEP_NUMBER_COL_WIDTH - STEP_NUMBER_GAP, h
+
+
+def _text_top() -> int:
+    """Top of the text block in the band: fixed, directly under the header,
+    so steps of different lengths and the prompt all start at the same y."""
+    return _header_xy()[1] + HEADER_RESERVE
 
 
 def _header_xy() -> tuple[int, int]:
@@ -345,7 +354,7 @@ class ImageFrameAssets:
 def _draw_step(draw: ImageDraw.ImageDraw, index: int, fit: Fit, assets: ImageFrameAssets,
               alpha: int) -> None:
     side = int(WIDTH * PROMPT_SIDE_MARGIN_RATIO)
-    y = HEIGHT - PROMPT_BOTTOM_MARGIN - fit.height
+    y = _text_top()                       # anchored: never moves between steps
     digit = str(index + 1)
     draw.text((side, y), digit, font=assets.step_number_font, fill=(*AMBER_BRIGHT, alpha))
     text_x = side + STEP_NUMBER_COL_WIDTH + STEP_NUMBER_GAP
@@ -389,7 +398,7 @@ def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
         draw_tracked(draw, _header_xy(), assets.prompt_header_text, assets.header_font,
                     (*AMBER_BRIGHT, prompt_alpha), assets.header_tracking)
         fit = assets.prompt_fit
-        y = HEIGHT - PROMPT_BOTTOM_MARGIN - fit.height
+        y = _text_top()
         for line in fit.lines:
             lw = text_width(fit.font, line)
             draw.text(((WIDTH - lw) / 2, y), line, font=fit.font, fill=(*CREAM, prompt_alpha))

@@ -76,7 +76,7 @@ def build_assets(sel: select.Selection, cfg: dict, disclosure: str, credit: str 
     # wide at this size, so tracking is fixed here instead.
     label_font = load_font(fonts["label"], 22)
     pill_font = load_font(fonts["label"], 24)
-    header_font = load_font(fonts["label"], 26)
+    header_font = load_font(fonts["label"], 32)
     step_number_font = load_font(fonts["label"], frames.STEP_NUMBER_FONT_SIZE)
 
     safe_w, safe_h = frames.prompt_safe_area()
@@ -92,6 +92,11 @@ def build_assets(sel: select.Selection, cfg: dict, disclosure: str, credit: str 
             step_fits.append(textfx.fit_step(step_text, fonts["label"], step_safe_w, step_safe_h))
         except FitError as exc:
             raise FitError(f"{sel.pose.slug}: step {i + 1}: {exc}") from exc
+    # One size for every step of a pose, so the type does not change between 1, 2, 3.
+    if step_fits:
+        common = min(f.size for f in step_fits)
+        step_fits = [textfx.fit_step(t, fonts["label"], step_safe_w, step_safe_h, max_point_size=common)
+                     for t in steps]
 
     is_ai = sel.pose.image_source == "ai"
     image_assets = frames.ImageFrameAssets(
