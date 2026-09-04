@@ -1,0 +1,28 @@
+# category (+ optional tag) -> destination URL. Category is the primary
+# key: a tag (light, location, subject type, large_group) can only pick
+# between rules for the SAME category, never send a pose to another guide.
+# Unmapped categories fall back to `fallback` silently; the run prints which
+# categories fell back.
+#
+# The per-category guide pages under /prompted/guides/ do NOT exist yet, so
+# every rule points at the live marketing page. Pins must never publish to a
+# 404. When a guide ships, restore its rule from the commented block below
+# and point `base` back at the guides directory.
+fallback: https://cooperindustries.cc/prompted/marketing/
+rules:
+  - { category: family,     url: https://cooperindustries.cc/prompted/marketing/ }
+  - { category: couples,    url: https://cooperindustries.cc/prompted/marketing/ }
+  - { category: engagement, url: https://cooperindustries.cc/prompted/marketing/ }
+  - { category: maternity,  url: https://cooperindustries.cc/prompted/marketing/ }
+  - { category: senior,     url: https://cooperindustries.cc/prompted/marketing/ }
+
+# Restore once https://cooperindustries.cc/prompted/guides/<slug> is live:
+# base: https://cooperindustries.cc/prompted/guides
+# rules:
+#   - { category: family,     slug: family-photo-poses }
+#   - { category: couples,    slug: couples-posing }
+#   - { category: engagement, slug: engagement-poses }
+#   - { category: maternity,  slug: maternity-poses }
+#   - { category: senior,     slug: senior-portrait-poses }
+#   # Example of a within-category tiebreaker (only once the page exists):
+#   # - { category: family, tag: golden, slug: family-golden-hour-poses }
