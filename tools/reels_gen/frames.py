@@ -601,37 +601,74 @@ def _draw_centered(draw: ImageDraw.ImageDraw, y: float, text: str, font, fill,
     return y
 
 
+def _ease_out_back(p: float, k: float = 1.4) -> float:
+    """Overshoot ease: lands at 1.0 after a small bounce past it."""
+    p = min(max(p, 0.0), 1.0)
+    q = p - 1.0
+    return 1.0 + (k + 1.0) * q ** 3 + k * q ** 2
+
+
+def _alpha_at(t: float, start: float, dur: float) -> int:
+    return int(255 * min(1.0, max(0.0, (t - start) / dur)))
+
+
 def render_end_card(assets: EndCardAssets, t: float) -> Image.Image:
+    """Paper card. The icon scales in with a slight overshoot, then the
+    wordmark, an amber rule that draws itself, the tagline, the badge and the
+    search line stagger in a beat apart."""
     bg = Image.new("RGBA", (WIDTH, HEIGHT), (*assets.bg_rgb, 255))
-    fade = int(255 * min(1.0, max(0.0, (t - assets.endcard_start) / ENDCARD_FADE)))
-    if fade <= 0:
+    el = t - assets.endcard_start
+    if el <= 0:
         return bg.convert("RGB")
 
     content = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     draw = ImageDraw.Draw(content)
     max_width = int(WIDTH * 0.82)
 
+    # 1) icon: 0.0-0.5 s, scale 0.85 -> 1.0 with overshoot, alpha 0 -> 1
     if assets.icon_card is not None:
         icon_cy = round(HEIGHT * ICON_CENTER_Y_RATIO)
+        p = _ease_out_back(el / 0.5)
+        scale = 0.85 + 0.15 * p
         iw, ih = assets.icon_card.size
-        content.alpha_composite(assets.icon_card, (WIDTH // 2 - iw // 2, icon_cy - ih // 2))
+        sw, sh = max(1, int(round(iw * scale))), max(1, int(round(ih * scale)))
+        icon = assets.icon_card.resize((sw, sh), Image.LANCZOS)
+        a = _alpha_at(el, 0.0, 0.25)
+        if a < 255:
+            r, g, b, al = icon.split(); icon = Image.merge("RGBA", (r, g, b, al.point(lambda v: v * a // 255)))
+        content.alpha_composite(icon, (WIDTH // 2 - sw // 2, icon_cy - sh // 2))
         y = icon_cy + ICON_SIZE / 2 + ICON_WORDMARK_GAP
     else:
         y = HEIGHT * 0.40
 
-    y = _draw_centered(draw, y, assets.wordmark, assets.wordmark_font, (*AMBER_BRIGHT, 255), max_width) + 20
-    y = _draw_centered(draw, y, assets.tagline, assets.tagline_font, (*assets.ink_rgb, 255), max_width) + 34
+    # 2) wordmark at 0.30 s, then the amber rule draws 0.45-0.85 s
+    wa = _alpha_at(el, 0.30, 0.25)
+    y_word = y
+    y = _draw_centered(draw, y, assets.wordmark, assets.wordmark_font, (*AMBER_BRIGHT, wa), max_width)
+    rule_w_full = min(int(text_width(assets.wordmark_font, assets.wordmark) * 0.62), 360)
+    rp = min(1.0, max(0.0, (el - 0.45) / 0.40))
+    rp = 1 - (1 - rp) ** 3
+    if rp > 0:
+        rw = int(rule_w_full * rp)
+        rx = WIDTH / 2 - rule_w_full / 2
+        draw.rounded_rectangle((rx, y + 10, rx + rw, y + 18), radius=4, fill=(*AMBER_BRIGHT, 255))
+    y += 20 + 26
 
+    # 3) tagline, badge, search line stagger
+    ta = _alpha_at(el, 0.55, 0.25)
+    y = _draw_centered(draw, y, assets.tagline, assets.tagline_font, (*assets.ink_rgb, ta), max_width) + 34
     if assets.badge_small_font is not None:
+        ba = _alpha_at(el, 0.75, 0.25)
         badge_cy = y + BADGE_H / 2
-        _draw_app_store_badge(draw, (WIDTH / 2, badge_cy), assets.badge_small_font, assets.badge_large_font)
+        layer = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+        _draw_app_store_badge(ImageDraw.Draw(layer), (WIDTH / 2, badge_cy), assets.badge_small_font, assets.badge_large_font)
+        if ba < 255:
+            r, g, b, al = layer.split(); layer = Image.merge("RGBA", (r, g, b, al.point(lambda v: v * ba // 255)))
+        content.alpha_composite(layer)
         y = badge_cy + BADGE_H / 2 + 30
-        _draw_centered(draw, y, assets.search_line, assets.search_font, (*MUTED_INK, 255), max_width)
+        sa = _alpha_at(el, 0.95, 0.25)
+        _draw_centered(draw, y, assets.search_line, assets.search_font, (*MUTED_INK, sa), max_width)
 
-    if fade < 255:
-        r, g, b, a = content.split()
-        a = a.point(lambda v: v * fade // 255)
-        content = Image.merge("RGBA", (r, g, b, a))
     return Image.alpha_composite(bg, content).convert("RGB")
 
 
