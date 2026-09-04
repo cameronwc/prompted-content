@@ -320,11 +320,12 @@ Tests: `make test` (`tests/test_pinterest.py`).
 ## Reels
 
 `tools/reels.py` turns the catalog into short vertical videos for Instagram
-Reels, TikTok and YouTube Shorts: one 9-second, 1080x1920 H.264 MP4 per
-eligible pose, plus caption and posting-schedule CSVs. Every frame is drawn
-with Pillow and piped to ffmpeg for encoding — this machine's ffmpeg has no
-`drawtext` filter — so it reuses `tools/pinterest`'s font loading, text-fit
-auto-sizing and rights gate rather than duplicating them.
+Reels, TikTok and YouTube Shorts: one 1080x1920 H.264 MP4 per eligible pose
+— up to 19 seconds, see Composition below — plus caption and
+posting-schedule CSVs. Every frame is drawn with Pillow and piped to ffmpeg
+for encoding — this machine's ffmpeg has no `drawtext` filter — so it
+reuses `tools/pinterest`'s font loading, text-fit auto-sizing and rights
+gate rather than duplicating them.
 
 ```sh
 make reels-dry-run                                    # dist/reels/contact_sheet.png, 3 first frames, CSVs; no MP4s
@@ -336,18 +337,52 @@ Each pose gets its `nervous_client` prompt if it is ≤110 characters,
 otherwise the shortest other prompt under that cap; a pose with no prompt
 short enough is skipped and listed in the run output. `--category`,
 `--tone` and `--slug` filter the catalog; `--tone` also forces which
-prompt tone is used (skipping poses that lack it). Output files are named
+prompt tone is used (skipping poses that lack it). `--appshots DIR`
+(default `dist/appshots`) and `--icon PATH` (default
+`dist/appshots/app-icon.png`) override where the app-screen segment looks
+for a screenshot and app icon (see below). Output files are named
 `<category>-<slug>-<tone>.mp4`.
 
-**Composition:** the pose image fills the frame with a slow Ken Burns push
-(1.00→1.08, eased) and a bottom-third gradient scrim; a small amber
-"PROMPTED · &lt;TONE&gt;" label fades in top-left; the prompt (curly-quoted,
-auto-fit up to 5 lines) fades in over the scrim from 0.8s, holds, and fades
-out by 7.4s, when a paper-background end card ("Prompted — The posing app
-that is only a posing app.") fades in for the last 1.6s. AI-sourced poses
-carry an "AI-generated posing reference" pill top-right for the whole image
-portion; real photographs show `Photo: <credit>` bottom-right instead, when
-the pose record has one.
+**Composition — setup steps, then the verbal prompt, then the app itself:**
+the pose image fills the frame with a slow Ken Burns push (1.00→1.08,
+eased) that spans the whole photo portion, under a bottom gradient scrim
+(44% of frame height). In order:
+
+1. **0.0–0.6s** — a small amber "PROMPTED · &lt;TONE&gt;" label fades in
+  top-left; the AI-disclosure pill (AI-sourced poses) or `Photo: <credit>`
+  credit (real photographs that carry one) shows top/bottom-right for the
+  whole photo portion.
+2. **0.8s → …** — **SETUP STEPS.** A tracked "SET IT UP" header sits above
+  the text band; up to 3 of the pose's `instructions`, quoted verbatim, are
+  shown one at a time — a large amber step number at the left of the band,
+  the step text (SANS font, auto-fit up to 4 lines, extending further only
+  for the rare instruction too long to reach 4 lines at the size floor) to
+  its right — each holding ~2.9s with a 0.3s fade in/out. A pose with fewer
+  than 3 instructions shows fewer steps and the segment (and the whole
+  video) runs proportionally shorter, rather than padding.
+3. **… → …+3.6s — THE PROMPT.** The header changes to "SAY THIS ·
+  &lt;TONE&gt;"; the verbal prompt (curly-quoted, serif, auto-fit up to 5
+  lines) fades in over 0.4s, holds, and fades out over the last 0.4s.
+4. **… → …+4.0s — IN THE APP.** When a screenshot exists for the pose
+  (`dist/appshots/<slug>__<tone>.png`, falling back to `<slug>.png`), a
+  paper-background card shows it in a simple phone frame (rounded corners,
+  a near-black bezel, a soft drop shadow, a slow 1.00→1.03 push) under a
+  tracked "IN THE APP" header, with "250+ poses · four tones · filtered to
+  your light" below it — fading in over 0.35s and out over 0.3s. A pose
+  with no screenshot on disk skips this segment entirely (and the video is
+  shorter by 4.0s) rather than rendering a placeholder.
+5. **… → …+1.8s — END CARD.** Paper background: the app icon (rounded,
+  shadowed) centred around 38% height, the amber "Prompted" wordmark, "The
+  posing app that is only a posing app." in serif, a black rounded App
+  Store badge ("Download on the" / "App Store"), and "Search “Prompted” on
+  the App Store" below it — fading in over 0.3s.
+
+Every pose in the current catalog carries ≥3 instructions, so today every
+rendered reel runs the full timeline start-to-finish; the only variable is
+whether a screenshot exists — 19.0s with one (0.6 + 8.8 steps + 3.6 prompt
++ 4.0 app screen + 1.8 end card), 15.0s without. A future pose with 1–2
+instructions would shorten the steps segment (and so the whole video)
+proportionally, the same way a missing screenshot does.
 
 **Rights exclusion is absolute here too.** `reels generate` builds the same
 `RightsGate` from `config/pinterest_exclusions.yaml` that `tools/pins.py`
@@ -356,10 +391,19 @@ extract) as the sole check — `reels_gen/select.py`'s `guard_renderable` is
 called again immediately before any pixel of a pose is opened, so an
 Act Naturally Photos asset reaching the renderer is a hard exit either way.
 
-`captions.csv` (file, slug, category, tone, prompt, caption, hashtags,
-image_source, link) has no link in the caption text (platforms strip them);
-the `link` column carries the UTM-tagged marketing URL. `schedule.csv` (one
-row per video) assigns sequential dates from `--start-date` (default
+`captions.csv` (file, slug, category, tone, prompt, steps, appshot,
+caption, first_comment, hashtags, image_source, link) has no link in the
+caption text (platforms strip them); the `steps` column is the setup
+instructions actually used in the video, joined with " | "; `appshot` is
+`yes`/`missing`, whether the video has an app-screen segment; `link`
+carries the UTM-tagged marketing URL. The caption itself reads: the quoted
+prompt, then `Setup: 1. … 2. … 3. …` (the same steps, as a short numbered
+sentence list), then "From Prompted, the posing app that is only a posing
+app.", "Link in bio.", and (AI-sourced poses) the AI-disclosure sentence —
+kept under Instagram's 2,200-character limit by shortening the setup
+sentence if needed; the prompt is never truncated. `first_comment` is a
+fixed pinned-comment suggestion pointing back at the app. `schedule.csv`
+(one row per video) assigns sequential dates from `--start-date` (default
 tomorrow), ordered so no two consecutive posts share a category and a real
 photograph appears at least every 4th post for as long as the ~20 real
 photographs last.

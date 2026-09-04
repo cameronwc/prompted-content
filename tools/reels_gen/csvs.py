@@ -39,6 +39,8 @@ class VideoRecord:
     image_source: str  # "photo" | "ai"
     light_conditions: tuple[str, ...] = ()
     credit: str | None = None
+    steps: tuple[str, ...] = ()  # up to MAX_STEPS instructions, verbatim, in order
+    appshot: str = "missing"     # "yes" | "missing" -- whether an app-screen segment was rendered
 
     @property
     def ai(self) -> bool:
@@ -59,24 +61,60 @@ def hashtags_for(category: str, light_conditions) -> list[str]:
     return out
 
 
+MAX_CAPTION_CHARS = 2200  # Instagram's caption limit
+
+FIRST_COMMENT = ("Every pose in this clip is in Prompted, free on the App Store. "
+                 "Search “Prompted” or use the link in our bio.")
+
+
+def _setup_sentence(steps: tuple[str, ...]) -> str:
+    """"Setup: 1. ... 2. ... 3. ..." -- a short numbered sentence list, or
+    "" if the pose carries no instructions."""
+    if not steps:
+        return ""
+    return "Setup: " + " ".join(f"{i}. {s}" for i, s in enumerate(steps, start=1))
+
+
 def caption_for(rec: VideoRecord) -> str:
-    body = (f"{quote(rec.prompt)} The exact words to say for the {rec.title} pose. "
-           f"From Prompted, the posing app that is only a posing app.")
+    """The quoted prompt, then the numbered setup steps, then the closing
+    brand line, "Link in bio.", and (AI-sourced poses) the AI-disclosure
+    sentence. Stays under MAX_CAPTION_CHARS: if it would not, the
+    setup-steps sentence is shortened (never the prompt, never the closing
+    line)."""
+    quoted = quote(rec.prompt)
+    tail = "From Prompted, the posing app that is only a posing app. Link in bio."
     if rec.ai:
-        body += " Reference image is AI-generated."
-    return body
+        tail += " Reference image is AI-generated."
+    setup = _setup_sentence(rec.steps)
+
+    parts = [quoted] + ([setup] if setup else []) + [tail]
+    body = " ".join(parts)
+    if len(body) <= MAX_CAPTION_CHARS or not setup:
+        return body
+
+    fixed = " ".join([quoted, tail])
+    budget = MAX_CAPTION_CHARS - len(fixed) - 1  # -1: the space joining the shortened setup in
+    if budget <= len("Setup: …"):
+        return fixed
+    truncated = setup[:budget]
+    cut = truncated.rfind(" ")
+    if cut > len("Setup:"):
+        truncated = truncated[:cut]
+    truncated = truncated.rstrip(".,;: ") + "…"
+    return " ".join([quoted, truncated, tail])
 
 
 def write_captions(records: list[VideoRecord], out: Path) -> Path:
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["file", "slug", "category", "tone", "prompt", "caption", "hashtags",
-                   "image_source", "link"])
+        w.writerow(["file", "slug", "category", "tone", "prompt", "steps", "appshot",
+                   "caption", "first_comment", "hashtags", "image_source", "link"])
         for rec in records:
             tags = hashtags_for(rec.category, rec.light_conditions)
             w.writerow([rec.file, rec.slug, rec.category, rec.tone, rec.prompt,
-                       caption_for(rec), " ".join(tags), rec.image_source, LINK])
+                       " | ".join(rec.steps), rec.appshot, caption_for(rec), FIRST_COMMENT,
+                       " ".join(tags), rec.image_source, LINK])
     return out
 
 

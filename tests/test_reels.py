@@ -31,8 +31,15 @@ EXCLUDED_ID = CFG["exclusions"]["excluded_pose_ids"][0]
 
 # -- fixtures ------------------------------------------------------------
 
+DEFAULT_INSTRUCTIONS = [
+    "Position the couple facing each other with their toes about a foot apart.",
+    "Have them clasp both hands and lean back slightly, taking their own weight.",
+    "Ask them to rest foreheads together and close their eyes for a beat.",
+]
+
+
 def make_pose(pid: str, slug: str, source: str, category: str = "family",
-             prompts=None) -> Pose:
+             prompts=None, instructions=None) -> Pose:
     rec = {
         "id": pid, "slug": slug, "status": "active", "image_source": source,
         "image": {"thumb": "thumb.jpg", "detail": "detail.jpg", "blurhash": "L00000"},
@@ -43,6 +50,7 @@ def make_pose(pid: str, slug: str, source: str, category: str = "family",
             {"text": "Hold hands and walk slowly toward the light.", "tone": "nervous_client"},
             {"text": "Trade jackets and act natural.", "tone": "playful"},
         ],
+        "instructions": instructions if instructions is not None else list(DEFAULT_INSTRUCTIONS),
         "version": 1,
     }
     return Pose(id=pid, slug=slug, dir=Path("/nonexistent"), record=rec)
@@ -177,6 +185,178 @@ def test_quote_uses_curly_quotes():
     assert textfx.quote("hello there") == "“hello there”"
 
 
+# -- timeline / setup steps ------------------------------------------------
+
+def test_build_timeline_full_three_step_duration_is_fifteen_seconds():
+    tl = frames.build_timeline(3)
+    assert tl.n_steps == 3
+    assert tl.duration == pytest.approx(15.0)
+    assert tl.steps_start == pytest.approx(0.8)
+    assert tl.steps_end == pytest.approx(9.6)
+    assert tl.prompt_start == pytest.approx(9.6)
+    assert tl.prompt_end == pytest.approx(13.2)
+    assert tl.image_end == pytest.approx(13.2)
+
+
+def test_build_timeline_caps_at_three_steps_even_with_more_instructions():
+    tl = frames.build_timeline(5)
+    assert tl.n_steps == 3
+    assert tl.duration == pytest.approx(15.0)
+
+
+def test_build_timeline_one_step_is_shorter_and_proportional():
+    tl_full = frames.build_timeline(3)
+    tl_one = frames.build_timeline(1)
+    assert tl_one.n_steps == 1
+    assert len(tl_one.step_slots) == 1
+    assert tl_one.duration < tl_full.duration
+    # steps segment shrinks by 2/3 (one step's slot instead of three)
+    one_step_span = tl_one.steps_end - tl_one.steps_start
+    full_step_span = tl_full.steps_end - tl_full.steps_start
+    assert one_step_span == pytest.approx(full_step_span / 3)
+    # everything downstream (prompt, image_end, total duration) shifts to follow
+    assert tl_one.prompt_start == pytest.approx(tl_one.steps_end)
+    assert tl_one.duration == pytest.approx(tl_one.image_end + frames.ENDCARD_DURATION)
+
+
+def test_build_timeline_with_appshot_is_nineteen_seconds():
+    tl = frames.build_timeline(3, has_appshot=True)
+    assert tl.has_appshot is True
+    assert tl.image_end == pytest.approx(13.2)
+    assert tl.appshot_start == pytest.approx(13.2)
+    assert tl.appshot_end == pytest.approx(17.2)
+    assert tl.endcard_start == pytest.approx(17.2)
+    assert tl.duration == pytest.approx(19.0)
+    assert frames.NOMINAL_DURATION == pytest.approx(19.0)
+
+
+def test_build_timeline_without_appshot_reverts_to_prompt_then_endcard():
+    tl = frames.build_timeline(3, has_appshot=False)
+    assert tl.has_appshot is False
+    # the app-screen segment collapses to zero width right at image_end,
+    # so the end card starts exactly where it would have before this
+    # segment existed
+    assert tl.appshot_start == pytest.approx(tl.image_end)
+    assert tl.appshot_end == pytest.approx(tl.image_end)
+    assert tl.endcard_start == pytest.approx(tl.image_end)
+    assert tl.duration == pytest.approx(15.0)
+    assert frames.NOMINAL_DURATION_NO_APPSHOT == pytest.approx(15.0)
+
+
+def _pose_with_real_image(tmp_path, *args, **kwargs) -> Pose:
+    """make_pose, but pointed at a real (tiny, synthetic) JPEG on disk --
+    build_assets opens the pose's detail image via Ken Burns, so tests that
+    call it need a file to actually exist."""
+    pose = make_pose(*args, **kwargs)
+    img_dir = tmp_path / pose.slug
+    img_dir.mkdir(parents=True, exist_ok=True)
+    Image.new("RGB", (1200, 1600), (200, 190, 180)).save(img_dir / "detail.jpg", "JPEG")
+    pose.dir = img_dir
+    return pose
+
+
+def test_pose_with_one_instruction_renders_without_error(tmp_path):
+    """A pose short on setup instructions must still render every frame of
+    its (shorter) timeline cleanly -- no crash, no missing text block."""
+    pose = _pose_with_real_image(tmp_path, "01S1", "one-step-pose", "ai", instructions=[
+        "Have them stand cheek to cheek and laugh on three.",
+    ])
+    sel = select.Selection(pose=pose, category=pose.primary_category,
+                           tone="nervous_client", prompt="Hold hands and walk slowly toward the light.")
+    empty_appshots = tmp_path / "no-appshots-here"
+    image_assets, app_assets, end_assets = commands.build_assets(
+        sel, CFG, "AI-generated posing reference", None, GATE, appshots_dir=empty_appshots)
+    assert image_assets.timeline.n_steps == 1
+    assert app_assets is None
+    assert image_assets.timeline.duration < frames.NOMINAL_DURATION_NO_APPSHOT
+    frame_fn = commands.make_frame_fn(image_assets, app_assets, end_assets)
+    # sample across the whole (shorter) timeline, including the crossover
+    # into the prompt and into the end card
+    duration = image_assets.timeline.duration
+    for frac in (0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 0.999):
+        im = frame_fn(frac * duration)
+        assert im.size == (1080, 1920)
+
+
+def test_step_text_is_verbatim_from_the_record(tmp_path):
+    instructions = [
+        "Seat them on the second step, knees touching, hands folded in her lap.",
+        "Have him drape an arm loosely along the rail behind her shoulders.",
+        "Ask them to look toward the light for three counts, then break into a laugh.",
+    ]
+    pose = _pose_with_real_image(tmp_path, "01S2", "verbatim-steps", "ai", instructions=instructions)
+    sel = select.Selection(pose=pose, category=pose.primary_category,
+                           tone="nervous_client", prompt="Short line.")
+    image_assets, _app, _end = commands.build_assets(
+        sel, CFG, "AI-generated posing reference", None, GATE, appshots_dir=tmp_path / "none")
+    assert image_assets.steps == instructions
+    assert commands.pose_steps(pose) == instructions
+
+
+# -- app screen segment ----------------------------------------------------
+
+def _write_appshot(dir_: Path, name: str, size=(1320, 2868)) -> Path:
+    dir_.mkdir(parents=True, exist_ok=True)
+    p = dir_ / name
+    Image.new("RGB", size, (250, 250, 252)).save(p, "PNG")
+    return p
+
+
+def test_appshot_missing_skips_app_screen_and_marks_column(tmp_path):
+    pose = _pose_with_real_image(tmp_path, "01A1", "no-shot-pose", "ai")
+    sel = select.Selection(pose=pose, category=pose.primary_category,
+                           tone="nervous_client", prompt="Short line.")
+    empty_dir = tmp_path / "appshots-empty"
+    image_assets, app_assets, _end = commands.build_assets(
+        sel, CFG, "AI-generated posing reference", None, GATE, appshots_dir=empty_dir)
+    assert app_assets is None
+    assert image_assets.timeline.has_appshot is False
+    assert image_assets.timeline.duration == pytest.approx(frames.NOMINAL_DURATION_NO_APPSHOT)
+
+    rec = commands._video_record(sel, empty_dir)
+    assert rec.appshot == "missing"
+
+
+def test_appshot_present_extends_timeline_and_renders(tmp_path):
+    pose = _pose_with_real_image(tmp_path, "01A2", "has-shot-pose", "ai")
+    sel = select.Selection(pose=pose, category=pose.primary_category,
+                           tone="nervous_client", prompt="Short line.")
+    shots_dir = tmp_path / "appshots"
+    _write_appshot(shots_dir, "has-shot-pose__nervous_client.png")
+
+    image_assets, app_assets, end_assets = commands.build_assets(
+        sel, CFG, "AI-generated posing reference", None, GATE, appshots_dir=shots_dir)
+    assert app_assets is not None
+    assert image_assets.timeline.has_appshot is True
+    assert image_assets.timeline.duration == pytest.approx(frames.NOMINAL_DURATION)
+
+    frame_fn = commands.make_frame_fn(image_assets, app_assets, end_assets)
+    tl = image_assets.timeline
+    mid_appshot = (tl.appshot_start + tl.appshot_end) / 2
+    im = frame_fn(mid_appshot)
+    assert im.size == (1080, 1920)
+
+    rec = commands._video_record(sel, shots_dir)
+    assert rec.appshot == "yes"
+
+
+def test_appshot_slug_only_fallback_is_used_when_no_tone_specific_file(tmp_path):
+    pose = _pose_with_real_image(tmp_path, "01A3", "fallback-shot-pose", "ai")
+    shots_dir = tmp_path / "appshots"
+    _write_appshot(shots_dir, "fallback-shot-pose.png")  # no __<tone> variant
+    found = commands.appshot_path(pose, "nervous_client", shots_dir)
+    assert found == shots_dir / "fallback-shot-pose.png"
+
+
+def test_appshot_tone_specific_file_is_preferred_over_slug_only(tmp_path):
+    pose = _pose_with_real_image(tmp_path, "01A4", "both-shots-pose", "ai")
+    shots_dir = tmp_path / "appshots"
+    _write_appshot(shots_dir, "both-shots-pose.png")
+    _write_appshot(shots_dir, "both-shots-pose__nervous_client.png")
+    found = commands.appshot_path(pose, "nervous_client", shots_dir)
+    assert found == shots_dir / "both-shots-pose__nervous_client.png"
+
+
 def test_real_catalog_nervous_client_prompts_all_fit_five_lines():
     """The floor scaled to the 1080px canvas must still be renderable within
     5 lines for every nervous_client prompt actually used by the default
@@ -196,10 +376,13 @@ def test_real_catalog_nervous_client_prompts_all_fit_five_lines():
 
 # -- filename / caption / hashtag shape -------------------------------------
 
-def _record(category="family", tone="playful", source="ai", light=("golden",)):
+def _record(category="family", tone="playful", source="ai", light=("golden",), steps=None):
+    if steps is None:
+        steps = ("Stand close together.", "Look toward the light.", "Hold for three counts.")
     return csvs.VideoRecord(file=f"{category}-a-pose-{tone}.mp4", slug="a-pose",
                             category=category, tone=tone, prompt="Hold still and breathe.",
-                            title="A pose", image_source=source, light_conditions=light)
+                            title="A pose", image_source=source, light_conditions=light,
+                            steps=tuple(steps))
 
 
 def test_generate_filename_shape():
@@ -207,12 +390,22 @@ def test_generate_filename_shape():
     assert rec.file == "senior-a-pose-calm.mp4"
 
 
-def test_caption_includes_quoted_prompt_and_pose_title():
+def test_caption_includes_quoted_prompt_setup_steps_and_closing_line():
     rec = _record()
     caption = csvs.caption_for(rec)
     assert "“Hold still and breathe.”" in caption
-    assert "A pose" in caption
+    assert "Setup: 1. Stand close together. 2. Look toward the light. " \
+          "3. Hold for three counts." in caption
     assert "Prompted, the posing app that is only a posing app." in caption
+    # the prompt must come before the setup, which must come before the close
+    assert (caption.index("Hold still") < caption.index("Setup:")
+           < caption.index("From Prompted"))
+
+
+def test_caption_with_no_steps_omits_setup_sentence():
+    caption = csvs.caption_for(_record(steps=()))
+    assert "Setup:" not in caption
+    assert "“Hold still and breathe.”" in caption
 
 
 def test_caption_discloses_ai_reference_only_for_ai():
@@ -220,6 +413,37 @@ def test_caption_discloses_ai_reference_only_for_ai():
     photo_caption = csvs.caption_for(_record(source="photo"))
     assert "AI-generated" in ai_caption
     assert "AI-generated" not in photo_caption
+
+
+def test_caption_stays_under_instagram_limit_and_never_truncates_the_prompt():
+    long_steps = tuple(f"Step {i}: " + ("do this precisely and patiently. " * 40)
+                       for i in range(1, 4))
+    rec = _record(source="photo", steps=long_steps)
+    caption = csvs.caption_for(rec)
+    assert len(caption) <= csvs.MAX_CAPTION_CHARS
+    assert "“Hold still and breathe.”" in caption
+    assert caption.endswith("From Prompted, the posing app that is only a posing app. Link in bio.")
+
+
+def test_caption_appends_link_in_bio_before_the_ai_sentence():
+    ai_caption = csvs.caption_for(_record(source="ai"))
+    photo_caption = csvs.caption_for(_record(source="photo"))
+    assert photo_caption.endswith("Link in bio.")
+    assert ai_caption.endswith("Reference image is AI-generated.")
+    assert ai_caption.index("Link in bio.") < ai_caption.index("Reference image is AI-generated.")
+
+
+def test_first_comment_and_appshot_columns_present_in_captions_csv(tmp_path):
+    rec = _record()
+    out = csvs.write_captions([rec], tmp_path / "captions.csv")
+    import csv as csv_mod
+    rows = list(csv_mod.DictReader(out.open()))
+    assert len(rows) == 1
+    row = rows[0]
+    assert row["first_comment"] == csvs.FIRST_COMMENT
+    assert "Search" in row["first_comment"] and "App Store" in row["first_comment"]
+    assert row["appshot"] == "missing"  # _record's default
+    assert row["steps"] == "Stand close together. | Look toward the light. | Hold for three counts."
 
 
 def test_hashtags_in_range_and_category_specific():

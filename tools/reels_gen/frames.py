@@ -8,24 +8,88 @@ apply directly (hex_rgb, load_font, text_width, the category palette, the
 ink colour); the amber accent and the cream on-photo text colour are new
 here (the pin renderer never draws text over a photo without a plain
 background behind it), chosen to sit inside the same warm-neutral family.
+
+Timeline (see build_timeline): brand label fade-in, then a SETUP STEPS
+segment (up to MAX_STEPS instructions shown one at a time under a tracked
+"SET IT UP" header), then THE PROMPT (the verbal prompt under a "SAY THIS
+· <TONE>" header), then -- when a screenshot exists for the pose -- an APP
+SCREEN segment (a phone-framed screenshot of the pose's detail view on a
+paper background, under "IN THE APP"), then the end card. A pose with fewer
+than MAX_STEPS instructions gets a proportionally shorter steps segment --
+and therefore a shorter total video -- rather than padding; a pose with no
+screenshot simply skips the app-screen segment (build_timeline's
+has_appshot=False collapses appshot_start==appshot_end, so the timeline
+falls straight from the prompt to the end card, exactly as it did before
+this segment existed). Every pose in the live catalog carries >=3
+instructions, so in practice every rendered reel today runs the full
+NOMINAL_DURATION (or NOMINAL_DURATION_NO_APPSHOT for a pose with no
+screenshot on disk).
 """
 from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 from pinterest.render import hex_rgb
 from pinterest.text_fit import Fit, text_width, wrap
 
 WIDTH, HEIGHT = 1080, 1920
-DURATION = 9.0
-IMAGE_END = 7.4                 # image portion; end card takes over after this
+
 LABEL_FADE_END = 0.6
-PROMPT_FADE_IN = (0.8, 1.2)
-PROMPT_FADE_OUT = (7.0, 7.4)
+
+# -- setup steps segment --
+STEPS_START = 0.8
+MAX_STEPS = 3
+STEPS_HEADER_TEXT = "SET IT UP"
+_STEPS_NOMINAL_END = 9.6        # where the steps segment ends when n_steps == MAX_STEPS
+STEP_SLOT_DURATION = (_STEPS_NOMINAL_END - STEPS_START) / MAX_STEPS  # ~2.93s/step
+STEP_FADE = 0.3
+
+# -- the prompt segment --
+PROMPT_DURATION = 3.6           # 9.6-13.2 in the full (3-step) timeline
+PROMPT_FADE_IN_DUR = 0.4
+PROMPT_FADE_OUT_DUR = 0.4
+
+# -- app screen segment (skipped when the pose has no screenshot) --
+APP_SCREEN_DURATION = 4.0       # 13.2-17.2 in the full (3-step, has-appshot) timeline
+APP_SCREEN_FADE_IN = 0.35
+APP_SCREEN_FADE_OUT = 0.3
+APP_SCREEN_HEADER_TEXT = "IN THE APP"
+APP_SCREEN_LINE_TEXT = "250+ poses · four tones · filtered to your light"
+APP_SCREEN_HEIGHT_RATIO = 0.78  # screenshot height as a fraction of the frame
+APP_SCREEN_ZOOM_RANGE = (1.00, 1.03)
+APP_SCREEN_BEZEL_WIDTH = 12
+APP_SCREEN_BEZEL_COLOR = (9, 8, 7)
+APP_SCREEN_CORNER_RADIUS = 64   # on the screenshot itself, at its rendered size
+APP_SCREEN_SHADOW_BLUR = 40
+APP_SCREEN_SHADOW_ALPHA = 110
+APP_SCREEN_SHADOW_OFFSET = (0, 26)
+APP_SCREEN_TOP_MARGIN = 96
+APP_SCREEN_HEADER_GAP = 40
+APP_SCREEN_CAPTION_GAP = 40
+APP_SCREEN_HEADER_FONT_SIZE = 26  # matches the steps/prompt section headers
+
+# -- end card --
+ENDCARD_DURATION = 1.8          # last 1.8s of any timeline
 ENDCARD_FADE = 0.3
+ICON_SIZE = 260
+ICON_RADIUS = 58
+ICON_CENTER_Y_RATIO = 0.38
+ICON_SHADOW_BLUR = 28
+ICON_SHADOW_ALPHA = 90
+ICON_SHADOW_OFFSET = (0, 14)
+ICON_WORDMARK_GAP = 36
+BADGE_W, BADGE_H = 520, 150
+BADGE_BG = (10, 9, 8)
+MUTED_INK = hex_rgb("#8A8074")
+
+NOMINAL_DURATION = (STEPS_START + MAX_STEPS * STEP_SLOT_DURATION + PROMPT_DURATION
+                    + APP_SCREEN_DURATION + ENDCARD_DURATION)              # 19.0
+NOMINAL_DURATION_NO_APPSHOT = (STEPS_START + MAX_STEPS * STEP_SLOT_DURATION
+                               + PROMPT_DURATION + ENDCARD_DURATION)       # 15.0
+
 KENBURNS_RANGE = (1.00, 1.08)   # slow push, ease in-out
 
 SCRIM_HEIGHT_RATIO = 0.44       # bottom band; deeper than a third so the prompt can run large
@@ -34,6 +98,17 @@ SCRIM_ALPHA_MAX = 190           # "slightly" -- pins' photo-pin scrim goes to 20
 PROMPT_BOTTOM_MARGIN = 140
 PROMPT_TOP_GAP = 40
 PROMPT_SIDE_MARGIN_RATIO = 0.07
+
+# Tracked section header ("SET IT UP" / "SAY THIS · <TONE>") above the
+# fitted text block; a fixed pixel reserve (not derived from font metrics,
+# matching the rest of this module's fixed-margin style) is subtracted from
+# the text safe area for it.
+HEADER_RESERVE = 64
+
+# Setup-step number column, left of the step text.
+STEP_NUMBER_COL_WIDTH = 150
+STEP_NUMBER_GAP = 28
+STEP_NUMBER_FONT_SIZE = 128
 
 LABEL_MARGIN = (56, 64)
 PILL_MARGIN_RIGHT = 40
@@ -46,6 +121,46 @@ CREAM = (255, 250, 245)                # on-photo text, over the darkened scrim
 PILL_BG = (245, 240, 231)
 PILL_INK = hex_rgb("#2B2622")
 CREDIT_COLOR = (238, 230, 220)
+
+
+@dataclass
+class Timeline:
+    """Per-video timing marks. Everything downstream of the steps segment
+    shifts to follow it, so a pose with fewer than MAX_STEPS instructions
+    renders a shorter steps segment *and* a shorter total video, not a
+    padded one. Likewise, a pose with no app screenshot collapses
+    appshot_start == appshot_end and the video runs straight from the
+    prompt into the end card."""
+    n_steps: int
+    step_slots: list[tuple[float, float]]  # one (start, end) per step, contiguous
+    steps_start: float
+    steps_end: float
+    prompt_start: float
+    prompt_end: float
+    image_end: float       # end of the Ken Burns image portion (photo + overlay text)
+    has_appshot: bool
+    appshot_start: float
+    appshot_end: float     # == appshot_start when has_appshot is False
+    endcard_start: float
+    duration: float
+
+
+def build_timeline(n_steps: int, has_appshot: bool = False) -> Timeline:
+    n = max(0, min(MAX_STEPS, n_steps))
+    step_slots = [(STEPS_START + i * STEP_SLOT_DURATION, STEPS_START + (i + 1) * STEP_SLOT_DURATION)
+                 for i in range(n)]
+    steps_end = STEPS_START + n * STEP_SLOT_DURATION
+    prompt_start = steps_end
+    prompt_end = prompt_start + PROMPT_DURATION
+    image_end = prompt_end
+    appshot_start = image_end
+    appshot_end = appshot_start + (APP_SCREEN_DURATION if has_appshot else 0.0)
+    endcard_start = appshot_end
+    duration = endcard_start + ENDCARD_DURATION
+    return Timeline(n_steps=n, step_slots=step_slots, steps_start=STEPS_START, steps_end=steps_end,
+                    prompt_start=prompt_start, prompt_end=prompt_end, image_end=image_end,
+                    has_appshot=has_appshot, appshot_start=appshot_start, appshot_end=appshot_end,
+                    endcard_start=endcard_start, duration=duration)
 
 
 def ease_in_out(p: float) -> float:
@@ -82,10 +197,27 @@ def scrim_overlay() -> Image.Image:
 
 
 def prompt_safe_area() -> tuple[int, int]:
+    """Safe (width, height) for the fitted text block below the tracked
+    section header, in the bottom scrim band. Shared by the prompt and (via
+    steps_text_safe_area) the setup-step text."""
     side = int(WIDTH * PROMPT_SIDE_MARGIN_RATIO)
     band_h = int(HEIGHT * SCRIM_HEIGHT_RATIO)
-    safe_h = band_h - PROMPT_BOTTOM_MARGIN - PROMPT_TOP_GAP
+    safe_h = band_h - PROMPT_BOTTOM_MARGIN - PROMPT_TOP_GAP - HEADER_RESERVE
     return WIDTH - 2 * side, safe_h
+
+
+def steps_text_safe_area() -> tuple[int, int]:
+    """Safe (width, height) for a setup-step's text, to the right of the
+    step-number column; same vertical safe area as the prompt."""
+    w, h = prompt_safe_area()
+    return w - STEP_NUMBER_COL_WIDTH - STEP_NUMBER_GAP, h
+
+
+def _header_xy() -> tuple[int, int]:
+    side = int(WIDTH * PROMPT_SIDE_MARGIN_RATIO)
+    band_h = int(HEIGHT * SCRIM_HEIGHT_RATIO)
+    band_top = HEIGHT - band_h
+    return side, band_top + PROMPT_TOP_GAP
 
 
 @dataclass
@@ -93,14 +225,15 @@ class KenBurns:
     """Precomputed per-video state so each frame only pays for a small
     resize+crop rather than re-decoding the source image."""
     base: Image.Image  # cover-fit at scale 1.00 (t=0 framing)
+    image_end: float   # Ken Burns spans the whole image portion, 0..image_end
 
     @classmethod
-    def load(cls, path: Path) -> "KenBurns":
+    def load(cls, path: Path, image_end: float) -> "KenBurns":
         with Image.open(path) as src:
-            return cls(base=cover_fit(src.convert("RGB"), (WIDTH, HEIGHT)))
+            return cls(base=cover_fit(src.convert("RGB"), (WIDTH, HEIGHT)), image_end=image_end)
 
     def frame(self, t: float) -> Image.Image:
-        p = ease_in_out(min(max(t, 0.0), IMAGE_END) / IMAGE_END)
+        p = ease_in_out(min(max(t, 0.0), self.image_end) / self.image_end)
         lo, hi = KENBURNS_RANGE
         scale = lo + (hi - lo) * p
         nw, nh = round(WIDTH * scale), round(HEIGHT * scale)
@@ -117,16 +250,48 @@ def draw_tracked(draw: ImageDraw.ImageDraw, xy: tuple[float, float], text: str, 
         x += text_width(font, ch) + tracking
 
 
-def _prompt_alpha(t: float) -> int:
-    lo_in, hi_in = PROMPT_FADE_IN
-    lo_out, hi_out = PROMPT_FADE_OUT
-    if t < lo_in or t >= hi_out:
+def tracked_text_width(font, text: str, tracking: int) -> int:
+    return text_width(font, text) + tracking * max(0, len(text) - 1)
+
+
+def draw_tracked_centered(draw: ImageDraw.ImageDraw, y: float, text: str, font, fill,
+                          tracking: int) -> None:
+    w = tracked_text_width(font, text, tracking)
+    draw_tracked(draw, ((WIDTH - w) / 2, y), text, font, fill, tracking)
+
+
+def _rounded_mask(size: tuple[int, int], radius: int) -> Image.Image:
+    mask = Image.new("L", size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, size[0] - 1, size[1] - 1), radius=radius, fill=255)
+    return mask
+
+
+def _drop_shadow(canvas_size: tuple[int, int], rect_size: tuple[int, int], pad: int, radius: int,
+                 blur: int, alpha: int, offset: tuple[int, int]) -> Image.Image:
+    """A blurred rounded-rectangle shadow, sized to `canvas_size` (which must
+    already include room for the blur to bleed into), centred behind a
+    rect_size element sitting at `pad` from the canvas edge plus `offset`."""
+    shadow = Image.new("RGBA", canvas_size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(shadow)
+    x, y = pad + offset[0], pad + offset[1]
+    w, h = rect_size
+    d.rounded_rectangle((x, y, x + w, y + h), radius=radius, fill=(0, 0, 0, alpha))
+    return shadow.filter(ImageFilter.GaussianBlur(blur))
+
+
+def _segment_alpha(t: float, start: float, end: float, fade_in: float, fade_out: float) -> int:
+    """0..255: 0 outside [start, end), ramping up over `fade_in` at the
+    start, full in the middle, ramping down over `fade_out` at the end.
+    Used for both the setup-step slots (fade_in=fade_out=STEP_FADE) and the
+    prompt (fade_in=PROMPT_FADE_IN_DUR, fade_out=PROMPT_FADE_OUT_DUR) -- and
+    for each segment's tracked header, which shares its section's alpha."""
+    if t < start or t >= end:
         return 0
-    if t < hi_in:
-        return int(255 * (t - lo_in) / (hi_in - lo_in))
-    if t < lo_out:
+    if t < start + fade_in:
+        return int(255 * (t - start) / fade_in)
+    if t < end - fade_out:
         return 255
-    return int(255 * (1 - (t - lo_out) / (hi_out - lo_out)))
+    return int(255 * (1 - (t - (end - fade_out)) / fade_out))
 
 
 def _draw_pill(draw: ImageDraw.ImageDraw, text: str, font) -> None:
@@ -152,13 +317,34 @@ def _draw_credit(draw: ImageDraw.ImageDraw, text: str, font) -> None:
 class ImageFrameAssets:
     kenburns: KenBurns
     scrim: Image.Image
+    timeline: Timeline
     label_text: str
     label_font: ImageFont.FreeTypeFont
     label_tracking: int
+    header_font: ImageFont.FreeTypeFont
+    header_tracking: int
+    steps: list[str]              # verbatim instruction text, one per step_slot
+    step_fits: list[Fit]          # fitted (SANS) text, aligned with `steps`
+    step_number_font: ImageFont.FreeTypeFont
+    steps_header_text: str
     prompt_fit: Fit
+    prompt_header_text: str
     disclosure_text: str | None
     credit_text: str | None
     pill_font: ImageFont.FreeTypeFont
+
+
+def _draw_step(draw: ImageDraw.ImageDraw, index: int, fit: Fit, assets: ImageFrameAssets,
+              alpha: int) -> None:
+    side = int(WIDTH * PROMPT_SIDE_MARGIN_RATIO)
+    y = HEIGHT - PROMPT_BOTTOM_MARGIN - fit.height
+    digit = str(index + 1)
+    draw.text((side, y), digit, font=assets.step_number_font, fill=(*AMBER_BRIGHT, alpha))
+    text_x = side + STEP_NUMBER_COL_WIDTH + STEP_NUMBER_GAP
+    ty = y
+    for line in fit.lines:
+        draw.text((text_x, ty), line, font=fit.font, fill=(*CREAM, alpha))
+        ty += fit.line_height
 
 
 def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
@@ -167,6 +353,7 @@ def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
 
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
+    tl = assets.timeline
 
     label_alpha = int(255 * min(1.0, max(0.0, t / LABEL_FADE_END)))
     if label_alpha > 0:
@@ -178,16 +365,29 @@ def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
         draw_tracked(draw, LABEL_MARGIN, assets.label_text, assets.label_font,
                     (*AMBER_BRIGHT, label_alpha), assets.label_tracking)
 
-    fade = _prompt_alpha(t)
-    if fade > 0:
+    if tl.n_steps and tl.steps_start <= t < tl.steps_end:
+        header_alpha = _segment_alpha(t, tl.steps_start, tl.steps_end, STEP_FADE, STEP_FADE)
+        if header_alpha > 0:
+            draw_tracked(draw, _header_xy(), assets.steps_header_text, assets.header_font,
+                        (*AMBER_BRIGHT, header_alpha), assets.header_tracking)
+        for i, (start, end) in enumerate(tl.step_slots):
+            step_alpha = _segment_alpha(t, start, end, STEP_FADE, STEP_FADE)
+            if step_alpha > 0:
+                _draw_step(draw, i, assets.step_fits[i], assets, step_alpha)
+
+    prompt_alpha = _segment_alpha(t, tl.prompt_start, tl.prompt_end,
+                                  PROMPT_FADE_IN_DUR, PROMPT_FADE_OUT_DUR)
+    if prompt_alpha > 0:
+        draw_tracked(draw, _header_xy(), assets.prompt_header_text, assets.header_font,
+                    (*AMBER_BRIGHT, prompt_alpha), assets.header_tracking)
         fit = assets.prompt_fit
         y = HEIGHT - PROMPT_BOTTOM_MARGIN - fit.height
         for line in fit.lines:
             lw = text_width(fit.font, line)
-            draw.text(((WIDTH - lw) / 2, y), line, font=fit.font, fill=(*CREAM, fade))
+            draw.text(((WIDTH - lw) / 2, y), line, font=fit.font, fill=(*CREAM, prompt_alpha))
             y += fit.line_height
 
-    if t < IMAGE_END:
+    if t < tl.image_end:
         if assets.disclosure_text:
             _draw_pill(draw, assets.disclosure_text, assets.pill_font)
         elif assets.credit_text:
@@ -196,16 +396,163 @@ def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
     return Image.alpha_composite(frame, overlay).convert("RGB")
 
 
+def build_phone_card(screenshot_path: Path, target_h: int = None) -> Image.Image:
+    """A padded RGBA composite: near-black bezel, the screenshot inset with
+    rounded corners, and a soft blurred drop shadow -- one static image,
+    built once per video and simply rescaled per frame for the slow push
+    (see AppScreenPhone). Padding is symmetric on all sides so the image's
+    own centre is always the visual centre of the phone, shadow included."""
+    target_h = target_h or round(HEIGHT * APP_SCREEN_HEIGHT_RATIO)
+    with Image.open(screenshot_path) as src:
+        src = src.convert("RGB")
+    sw, sh = src.size
+    scale = target_h / sh
+    tw = round(sw * scale)
+    shot = src.resize((tw, target_h), Image.LANCZOS)
+    shot_rgba = shot.convert("RGBA")
+    shot_rgba.putalpha(_rounded_mask((tw, target_h), APP_SCREEN_CORNER_RADIUS))
+
+    bw, bh = tw + 2 * APP_SCREEN_BEZEL_WIDTH, target_h + 2 * APP_SCREEN_BEZEL_WIDTH
+    bezel_radius = APP_SCREEN_CORNER_RADIUS + APP_SCREEN_BEZEL_WIDTH
+    pad = APP_SCREEN_SHADOW_BLUR * 2
+    canvas_size = (bw + 2 * pad, bh + 2 * pad)
+
+    canvas = _drop_shadow(canvas_size, (bw, bh), pad, bezel_radius, APP_SCREEN_SHADOW_BLUR,
+                          APP_SCREEN_SHADOW_ALPHA, APP_SCREEN_SHADOW_OFFSET)
+    bezel = Image.new("RGBA", canvas_size, (0, 0, 0, 0))
+    ImageDraw.Draw(bezel).rounded_rectangle((pad, pad, pad + bw, pad + bh), radius=bezel_radius,
+                                            fill=(*APP_SCREEN_BEZEL_COLOR, 255))
+    canvas = Image.alpha_composite(canvas, bezel)
+    canvas.alpha_composite(shot_rgba, (pad + APP_SCREEN_BEZEL_WIDTH, pad + APP_SCREEN_BEZEL_WIDTH))
+    return canvas
+
+
+@dataclass
+class AppScreenPhone:
+    """The phone-card image at scale 1.00, plus the fixed canvas centre it
+    is pasted at; each frame rescales it slightly (a cheap, cheerful
+    1.00->1.03 push) around that same centre."""
+    card: Image.Image
+    center: tuple[float, float]
+
+    def frame(self, p: float) -> tuple[Image.Image, tuple[int, int]]:
+        lo, hi = APP_SCREEN_ZOOM_RANGE
+        scale = lo + (hi - lo) * ease_in_out(p)
+        w, h = self.card.size
+        nw, nh = round(w * scale), round(h * scale)
+        scaled = self.card.resize((nw, nh), Image.LANCZOS)
+        cx, cy = self.center
+        return scaled, (round(cx - nw / 2), round(cy - nh / 2))
+
+
+@dataclass
+class AppScreenAssets:
+    phone: AppScreenPhone
+    bg_rgb: tuple[int, int, int]
+    header_font: ImageFont.FreeTypeFont
+    header_tracking: int
+    header_text: str
+    header_y: float
+    line_font: ImageFont.FreeTypeFont
+    line_text: str
+    line_y: float
+    ink_rgb: tuple[int, int, int]
+    appshot_start: float
+    appshot_end: float
+
+
+def app_screen_phone_center(card_size: tuple[int, int]) -> tuple[float, float, float, float]:
+    """(centre_x, centre_y, header_y, line_y) for a phone card of
+    `card_size` (its full padded size, including the shadow's blur bleed --
+    the padding is symmetric, so the card's own centre is the phone's
+    visual centre too). Screenshot height is a fixed fraction of the frame,
+    so a fixed top margin plus header/caption gaps lay out cleanly."""
+    target_h = round(HEIGHT * APP_SCREEN_HEIGHT_RATIO)
+    visible_h = target_h + 2 * APP_SCREEN_BEZEL_WIDTH
+    header_line_h = int(round(APP_SCREEN_HEADER_FONT_SIZE * 1.3))
+    phone_top = APP_SCREEN_TOP_MARGIN + header_line_h + APP_SCREEN_HEADER_GAP
+    center_y = phone_top + visible_h / 2
+    header_y = APP_SCREEN_TOP_MARGIN
+    line_y = phone_top + visible_h + APP_SCREEN_CAPTION_GAP
+    return WIDTH / 2, center_y, header_y, line_y
+
+
+def render_app_screen(assets: AppScreenAssets, t: float) -> Image.Image:
+    bg = Image.new("RGBA", (WIDTH, HEIGHT), (*assets.bg_rgb, 255))
+    fade = _segment_alpha(t, assets.appshot_start, assets.appshot_end,
+                          APP_SCREEN_FADE_IN, APP_SCREEN_FADE_OUT)
+    if fade <= 0:
+        return bg.convert("RGB")
+
+    content = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(content)
+    span = max(1e-6, assets.appshot_end - assets.appshot_start)
+    p = min(1.0, max(0.0, (t - assets.appshot_start) / span))
+    scaled, top_left = assets.phone.frame(p)
+    content.alpha_composite(scaled, top_left)
+
+    draw_tracked_centered(draw, assets.header_y, assets.header_text, assets.header_font,
+                          (*AMBER_BRIGHT, 255), assets.header_tracking)
+    lw = text_width(assets.line_font, assets.line_text)
+    draw.text(((WIDTH - lw) / 2, assets.line_y), assets.line_text, font=assets.line_font,
+             fill=(*assets.ink_rgb, 255))
+
+    if fade < 255:
+        r, g, b, a = content.split()
+        a = a.point(lambda v: v * fade // 255)
+        content = Image.merge("RGBA", (r, g, b, a))
+    return Image.alpha_composite(bg, content).convert("RGB")
+
+
+def build_app_icon_card(icon_path: Path, size: int = ICON_SIZE, radius: int = ICON_RADIUS) -> Image.Image:
+    """Same shadow/rounded-corner treatment as build_phone_card, for the
+    (much simpler) square app icon."""
+    with Image.open(icon_path) as src:
+        icon = src.convert("RGB").resize((size, size), Image.LANCZOS)
+    icon_rgba = icon.convert("RGBA")
+    icon_rgba.putalpha(_rounded_mask((size, size), radius))
+
+    pad = ICON_SHADOW_BLUR * 2
+    canvas_size = (size + 2 * pad, size + 2 * pad)
+    canvas = _drop_shadow(canvas_size, (size, size), pad, radius, ICON_SHADOW_BLUR,
+                          ICON_SHADOW_ALPHA, ICON_SHADOW_OFFSET)
+    canvas.alpha_composite(icon_rgba, (pad, pad))
+    return canvas
+
+
+def _draw_app_store_badge(draw: ImageDraw.ImageDraw, center_xy: tuple[float, float], small_font,
+                          large_font) -> None:
+    """A simple black rounded (pill) App Store badge, Apple-glyph-free:
+    "Download on the" over "App Store" in white, both centred."""
+    cx, cy = center_xy
+    x1, y1 = cx - BADGE_W / 2, cy - BADGE_H / 2
+    x2, y2 = cx + BADGE_W / 2, cy + BADGE_H / 2
+    draw.rounded_rectangle((x1, y1, x2, y2), radius=BADGE_H / 2, fill=(*BADGE_BG, 255))
+
+    small_text, large_text = "Download on the", "App Store"
+    small_h, large_h = int(small_font.size * 1.15), int(large_font.size * 1.15)
+    ty = cy - (small_h + large_h) / 2
+    sw = text_width(small_font, small_text)
+    draw.text((cx - sw / 2, ty), small_text, font=small_font, fill=(255, 255, 255, 255))
+    ty += small_h
+    lw = text_width(large_font, large_text)
+    draw.text((cx - lw / 2, ty), large_text, font=large_font, fill=(255, 255, 255, 255))
+
+
 @dataclass
 class EndCardAssets:
     bg_rgb: tuple[int, int, int]
     ink_rgb: tuple[int, int, int]
     wordmark_font: ImageFont.FreeTypeFont
     tagline_font: ImageFont.FreeTypeFont
-    small_font: ImageFont.FreeTypeFont
+    endcard_start: float  # when the previous segment ends and the end card's own fade-in begins
+    icon_card: Image.Image | None       # None when no app-icon.png is available (renders without it)
+    badge_small_font: ImageFont.FreeTypeFont | None = None
+    badge_large_font: ImageFont.FreeTypeFont | None = None
+    search_font: ImageFont.FreeTypeFont | None = None
     wordmark: str = "Prompted"
     tagline: str = "The posing app that is only a posing app."
-    cta: str = "Free on the App Store"
+    search_line: str = "Search “Prompted” on the App Store"
 
 
 def _draw_centered(draw: ImageDraw.ImageDraw, y: float, text: str, font, fill,
@@ -220,19 +567,37 @@ def _draw_centered(draw: ImageDraw.ImageDraw, y: float, text: str, font, fill,
 
 
 def render_end_card(assets: EndCardAssets, t: float) -> Image.Image:
-    im = Image.new("RGBA", (WIDTH, HEIGHT), (*assets.bg_rgb, 255))
-    layer = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
-    draw = ImageDraw.Draw(layer)
-    alpha = int(255 * min(1.0, max(0.0, (t - IMAGE_END) / ENDCARD_FADE)))
-    ink = (*assets.ink_rgb, alpha)
+    bg = Image.new("RGBA", (WIDTH, HEIGHT), (*assets.bg_rgb, 255))
+    fade = int(255 * min(1.0, max(0.0, (t - assets.endcard_start) / ENDCARD_FADE)))
+    if fade <= 0:
+        return bg.convert("RGB")
 
+    content = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(content)
     max_width = int(WIDTH * 0.82)
-    y = HEIGHT * 0.40
-    y = _draw_centered(draw, y, assets.wordmark, assets.wordmark_font, (*AMBER_BRIGHT, alpha), max_width) + 20
-    y = _draw_centered(draw, y, assets.tagline, assets.tagline_font, ink, max_width) + 16
-    _draw_centered(draw, y, assets.cta, assets.small_font, ink, max_width)
 
-    return Image.alpha_composite(im, layer).convert("RGB")
+    if assets.icon_card is not None:
+        icon_cy = round(HEIGHT * ICON_CENTER_Y_RATIO)
+        iw, ih = assets.icon_card.size
+        content.alpha_composite(assets.icon_card, (WIDTH // 2 - iw // 2, icon_cy - ih // 2))
+        y = icon_cy + ICON_SIZE / 2 + ICON_WORDMARK_GAP
+    else:
+        y = HEIGHT * 0.40
+
+    y = _draw_centered(draw, y, assets.wordmark, assets.wordmark_font, (*AMBER_BRIGHT, 255), max_width) + 20
+    y = _draw_centered(draw, y, assets.tagline, assets.tagline_font, (*assets.ink_rgb, 255), max_width) + 34
+
+    if assets.badge_small_font is not None:
+        badge_cy = y + BADGE_H / 2
+        _draw_app_store_badge(draw, (WIDTH / 2, badge_cy), assets.badge_small_font, assets.badge_large_font)
+        y = badge_cy + BADGE_H / 2 + 30
+        _draw_centered(draw, y, assets.search_line, assets.search_font, (*MUTED_INK, 255), max_width)
+
+    if fade < 255:
+        r, g, b, a = content.split()
+        a = a.point(lambda v: v * fade // 255)
+        content = Image.merge("RGBA", (r, g, b, a))
+    return Image.alpha_composite(bg, content).convert("RGB")
 
 
 def contact_sheet(entries: list[tuple[str, Image.Image]], out: Path,
