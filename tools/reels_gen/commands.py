@@ -122,7 +122,7 @@ def build_assets(sel: select.Selection, cfg: dict, disclosure: str, credit: str 
         phone_card = frames.build_phone_card(shot_path)
         cx, cy, header_y, line_y = frames.app_screen_phone_center(phone_card.size)
         app_assets = frames.AppScreenAssets(
-            phone=frames.AppScreenPhone(card=phone_card, center=(cx, cy)),
+            phone=frames.AppScreenPhone.build(phone_card, (cx, cy)),
             bg_rgb=bg_rgb,
             header_font=header_font,
             header_tracking=5,

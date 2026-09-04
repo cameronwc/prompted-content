@@ -222,24 +222,32 @@ def _header_xy() -> tuple[int, int]:
 
 @dataclass
 class KenBurns:
-    """Precomputed per-video state so each frame only pays for a small
-    resize+crop rather than re-decoding the source image."""
-    base: Image.Image  # cover-fit at scale 1.00 (t=0 framing)
+    """Precomputed per-video state. The base is oversampled at the maximum
+    zoom so every frame is a sub-pixel crop (Image.transform EXTENT with
+    float bounds), never an integer resize; that is what keeps the push
+    smooth instead of stepping a pixel at a time."""
+    base: Image.Image  # cover-fit at KENBURNS_RANGE[1] * (WIDTH, HEIGHT)
     image_end: float   # Ken Burns spans the whole image portion, 0..image_end
 
     @classmethod
     def load(cls, path: Path, image_end: float) -> "KenBurns":
+        hi = KENBURNS_RANGE[1]
+        big = (int(round(WIDTH * hi)), int(round(HEIGHT * hi)))
         with Image.open(path) as src:
-            return cls(base=cover_fit(src.convert("RGB"), (WIDTH, HEIGHT)), image_end=image_end)
+            return cls(base=cover_fit(src.convert("RGB"), big), image_end=image_end)
 
     def frame(self, t: float) -> Image.Image:
         p = ease_in_out(min(max(t, 0.0), self.image_end) / self.image_end)
         lo, hi = KENBURNS_RANGE
-        scale = lo + (hi - lo) * p
-        nw, nh = round(WIDTH * scale), round(HEIGHT * scale)
-        up = self.base.resize((nw, nh), Image.LANCZOS)
-        left, top = (nw - WIDTH) // 2, (nh - HEIGHT) // 2
-        return up.crop((left, top, left + WIDTH, top + HEIGHT))
+        scale = lo + (hi - lo) * p            # 1.00 -> 1.08 of the output frame
+        bw, bh = self.base.size
+        # Window in base pixels that maps onto the output at this zoom.
+        # At scale=lo the window is the whole base scaled to output (1.08x
+        # oversample); at scale=hi it is the central 1/1.08 of it.
+        ww, wh = bw / (scale / lo), bh / (scale / lo)
+        left, top = (bw - ww) / 2.0, (bh - wh) / 2.0
+        return self.base.transform((WIDTH, HEIGHT), Image.EXTENT,
+                                   (left, top, left + ww, top + wh), Image.BICUBIC)
 
 
 def draw_tracked(draw: ImageDraw.ImageDraw, xy: tuple[float, float], text: str, font,
@@ -429,20 +437,30 @@ def build_phone_card(screenshot_path: Path, target_h: int = None) -> Image.Image
 
 @dataclass
 class AppScreenPhone:
-    """The phone-card image at scale 1.00, plus the fixed canvas centre it
-    is pasted at; each frame rescales it slightly (a cheap, cheerful
-    1.00->1.03 push) around that same centre."""
-    card: Image.Image
+    """The phone card pre-rendered once at the maximum zoom onto a
+    transparent full-canvas layer; each frame is a sub-pixel EXTENT crop of
+    that layer, so the 1.00->1.03 push glides instead of stepping."""
+    layer: Image.Image        # WIDTH x HEIGHT RGBA, card at APP_SCREEN_ZOOM_RANGE[1]
     center: tuple[float, float]
+
+    @classmethod
+    def build(cls, card: Image.Image, center: tuple[float, float]) -> "AppScreenPhone":
+        hi = APP_SCREEN_ZOOM_RANGE[1]
+        w, h = card.size
+        big = card.resize((int(round(w * hi)), int(round(h * hi))), Image.LANCZOS)
+        layer = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+        cx, cy = center
+        layer.alpha_composite(big, (int(round(cx - big.width / 2)), int(round(cy - big.height / 2))))
+        return cls(layer=layer, center=center)
 
     def frame(self, p: float) -> tuple[Image.Image, tuple[int, int]]:
         lo, hi = APP_SCREEN_ZOOM_RANGE
         scale = lo + (hi - lo) * ease_in_out(p)
-        w, h = self.card.size
-        nw, nh = round(w * scale), round(h * scale)
-        scaled = self.card.resize((nw, nh), Image.LANCZOS)
+        k = hi / scale                      # window is k times the output, centred on the card
         cx, cy = self.center
-        return scaled, (round(cx - nw / 2), round(cy - nh / 2))
+        left, top = cx - cx * k, cy - cy * k
+        box = (left, top, left + WIDTH * k, top + HEIGHT * k)
+        return self.layer.transform((WIDTH, HEIGHT), Image.EXTENT, box, Image.BICUBIC), (0, 0)
 
 
 @dataclass
