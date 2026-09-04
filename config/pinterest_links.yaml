@@ -7,15 +7,22 @@
 fallback: https://cooperindustries.cc/prompted/marketing/
 base: https://cooperindustries.cc/prompted/guides
 rules:
-  # Live guides (2026-09-04)
-  - { category: family,     tag: large_group, slug: family-of-five-poses }
-  - { category: family,                       slug: what-to-say-natural-smiles-family }
-  - { category: couples,                      slug: what-to-say-couples-stiff }
-  - { category: engagement,                   slug: what-to-say-couples-stiff }
-  # No guide yet: maternity and senior fall back to the marketing page.
-  # Restore when these ship:
-  # - { category: family,     tag: golden, slug: golden-hour-prompts }
-  # - { category: couples,    tag: golden, slug: golden-hour-prompts }
-  # - { category: engagement,              slug: engagement-session-scripts }
-  # - { category: maternity,               slug: maternity-prompts-that-respect-the-client }
-  # - { category: family,     tag: child,  slug: directing-kids-without-bribing }
+  # Live guides (2026-09-04). Within a category, the first matching tagged
+  # rule wins; the untagged rule is the category default.
+  - { category: family,     tag: large_group,   slug: family-of-five-poses }
+  - { category: family,     tag: golden,        slug: golden-hour-prompts }
+  - { category: family,     tag: indoor_window, slug: holiday-card-sessions-low-light }
+  - { category: family,     tag: night_flash,   slug: holiday-card-sessions-low-light }
+  - { category: family,     tag: toddler,       slug: directing-kids-without-bribing }
+  - { category: family,     tag: child,         slug: directing-kids-without-bribing }
+  - { category: family,     tag: field,         slug: fall-family-photo-poses }
+  - { category: family,     tag: forest,        slug: fall-family-photo-poses }
+  - { category: family,                         slug: what-to-say-natural-smiles-family }
+  - { category: couples,    tag: golden,        slug: golden-hour-prompts }
+  - { category: couples,                        slug: what-to-say-couples-stiff }
+  - { category: engagement, tag: golden,        slug: golden-hour-prompts }
+  - { category: engagement,                     slug: engagement-session-scripts }
+  - { category: maternity,  tag: golden,        slug: golden-hour-prompts }
+  - { category: maternity,                      slug: maternity-prompts-that-respect-the-client }
+  - { category: senior,     tag: golden,        slug: golden-hour-prompts }
+  # senior without golden light falls back to the marketing page until a senior guide ships.
