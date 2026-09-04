@@ -15,8 +15,8 @@ python3 - "$OUT/plan.json" > "$OUT/chunks.txt" <<'PY'
 import json,sys
 plan=json.load(open(sys.argv[1]))
 for tone,slugs in plan.items():
-    for i in range(0,len(slugs),25):
-        print(tone, ",".join(slugs[i:i+25]))
+    for i in range(0,len(slugs),12):
+        print(tone, ",".join(slugs[i:i+12]))
 PY
 n=0
 while read -r tone slugs; do
