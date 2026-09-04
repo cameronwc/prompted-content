@@ -1,0 +1,18 @@
+# Pinterest bulk-upload CSV. Pinterest renames these columns periodically —
+# edit here, never in code. `columns` is an ordered list of
+# {name: <csv header>, field: <pin record field>}.
+columns:
+  - { name: board_name,   field: board }
+  - { name: title,        field: title }
+  - { name: description,  field: description }
+  - { name: link,         field: link }
+  - { name: image_url,    field: image_url }
+  - { name: published_at, field: published_at }
+published_at_format: "%Y-%m-%dT%H:%M:%S"
+batch_size: 100
+batch_filename: "pins_batch_{n:03d}.csv"
+media:
+  # Public base for uploaded pins (custom domain, not r2.dev). Overridable
+  # with PROMPTED_PINS_PUBLIC_BASE_URL.
+  public_base_url: https://content.cooperindustries.cc
+  prefix: pins

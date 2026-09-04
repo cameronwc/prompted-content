@@ -219,6 +219,104 @@ metadata — the record is never edited to match the generated image. The
 first pose per category is generated first and passed as a style reference
 to the rest of its category.
 
+## Pinterest pins
+
+`tools/pins.py` turns the catalog into Pinterest-ready pins, uploads them to
+R2 under `pins/`, and writes bulk-upload CSVs on a ramped schedule. Pins are
+split into three tracked cohorts (`text`, `photo_real`, `photo_ai`) so
+performance can be compared by content type; cohorts share boards and are
+separated only by `utm_campaign`.
+
+```sh
+make pins-dry-run                                   # dist/pins/contact_sheet.png, 4 pins per cohort
+.venv/bin/python tools/pins.py generate --dry-run --preview-scale   # + contact_sheet_236px.png (feed size)
+                                                    #   + grade_before_after.png (colour grade review)
+make pins-generate PINS_ARGS="--limit 100 --start-date 2026-09-08"
+make pins-generate PINS_ARGS="--cohort photo_ai --limit 20"
+make pins-upload                                    # dry run; CONFIRM=1 ENV=dev|prod to upload
+make pins-csv PINS_ARGS="--batch-size 100"          # dist/pins_csv/pins_batch_001.csv, ...
+make pins-status                                    # counts by cohort/category/board, schedule
+make pins-scan-rights                               # exclusion report + drift check
+```
+
+Config lives in `config/pinterest_*.yaml` (boards, links, CSV columns,
+exclusions, cohorts + rendering + shoot diversity, colour grade, copy
+humanizer, seasons). State is `state/pinterest_manifest.json`:
+every pin ever generated with its cohort, content hash, board, scheduled
+time and batch file. Re-running `generate` only produces pins not yet in the
+manifest; `--regenerate <pin-id>` forces a rebuild (schedule slot kept).
+Image URLs are content-addressed and known at generate time; `pins csv`
+verifies each one is reachable unless `--no-verify` is passed. `--workdir DIR`
+runs everything against a scratch manifest, and `--per-cohort N` picks equal
+counts per cohort; `pins csv --print` echoes the rows to stdout:
+
+```sh
+tools/pins.py --workdir /tmp/pins-check generate --per-cohort 4 --start-date 2026-09-08
+tools/pins.py --workdir /tmp/pins-check csv --batch-size 12 --no-verify --print
+```
+
+**Text pins are sized for the feed.** Pinterest shows pins at ~236px wide,
+so the prompt has a 90px cap-height floor on the 1500px canvas and the label
+is 42px with tracking. Auto-fit steps down from 200pt; a prompt that cannot
+meet the floor within 7 lines is skipped and listed in the run output rather
+than shrunk. Category backgrounds are five warm neutrals that differ by at
+least ΔE 12 (CIEDE2000), so category reads at thumbnail size.
+
+**Photo pins are graded to one look.** `config/pinterest_grade.yaml` holds a
+reference profile measured from the real photograph set (`pins grade-profile`
+re-measures); every photo pin — real and AI alike — is normalised toward it
+before the scrim, so the cohort test measures real-vs-AI, not warm-vs-moody.
+
+**Boards and guide links are keyed by category.** A tag (light, location,
+subject type, `large_group`) only picks between rules for the same category
+and never sends a pose to another category's board or guide. Text pins go
+to their category board, with a configurable share (default 25%) routed to
+the secondary Posing Prompts board.
+
+**Copy is humanized and varied.** `config/pinterest_copy.yaml` maps subject
+count + types + category to phrases ("a family of four with a toddler and
+grandparents", "an expecting couple") and holds the rotating middle clause
+for text-pin descriptions; the closing CTA rotates independently. No
+description ever prints a raw enum list.
+
+**Seasonal gate.** `config/pinterest_seasons.yaml` derives a `season`
+(none, spring, summer, fall, holiday) from each pose's own text, location and
+source shoot name by weighted keywords, with per-pose overrides. Holiday
+content schedules only Nov 1–Dec 20, fall Sep 1–Nov 15, evergreen any time.
+Pins whose window does not open within `lookahead_days` of the run start are
+left for a later run and listed in the output. `pins seasons` prints the
+tagging report with the matched keywords.
+
+**Shoot diversity.** Photo pins from one shoot are never scheduled within 7
+days of each other and at most 2 land in any rolling 30 days
+(`diversity:` in `pinterest_cohorts.yaml`). Pins that cannot get a compliant
+slot are dropped with a warning naming the shoot. Shoot provenance comes
+from `inbox/*/_drafts` and the checked-in snapshot
+`state/pinterest_provenance.json` that `pins scan-rights` refreshes.
+
+**Rights exclusion is absolute.** Images from Act Naturally Photos (the
+123 Farm lavender shoot) are not licensed for this use. `config/pinterest_exclusions.yaml`
+carries three layers — `filename_patterns` (default `ACTNATURALLY_PHOTOS-*`),
+`excluded_shoots`, and `excluded_pose_ids` — and the photo renderer checks
+all three before reading a pixel; an excluded asset reaching it is a
+non-zero exit. Pose records don't store their shoot (that lives in the
+gitignored `inbox/*/_drafts`), so shoot exclusions are also materialised as
+explicit ids; `make pins-scan-rights` reports drift. Every run prints how
+many poses were excluded and by which rule.
+
+**AI imagery is included but disclosed.** `photo_ai` descriptions end with
+`ai_disclosure` from `pinterest_cohorts.yaml`; an empty value fails the run.
+EXIF is not manipulated to evade detection — pins are re-rendered (text as
+PNG, photo as JPEG, both under 800 KB) and disclosed in the copy.
+
+Schedule: week 1 5/day, week 2 8/day, week 3 12/day, then 25/week, between
+06:00 and 20:00 with jitter and never the same minute twice; override with
+`--pins-per-day` / `--start-date`. Metadata (title < 90, description < 300
+with ~8 rotating closers, 5–10 keywords, alt text, board, link + UTM) is
+derived deterministically from catalog fields — no LLM calls.
+
+Tests: `make test` (`tests/test_pinterest.py`).
+
 ## Rules that keep the catalog sane
 
 - Taxonomy IDs and pose ULIDs are permanent. Retire (`status: retired`),

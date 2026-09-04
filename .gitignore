@@ -25,3 +25,8 @@ archive/
 
 # macOS
 .DS_Store
+
+# Pinterest pipeline: rendered pins and CSV batches are rebuilt from the
+# manifest; only state/pinterest_manifest.json is tracked.
+dist/pins/
+dist/pins_csv/

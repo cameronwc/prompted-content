@@ -27,6 +27,7 @@ TF_FLAGS ?=
         ingest-init ingest-scan ingest-quality ingest-cluster ingest-derive \
         ingest-prompts ingest-draft approve-prompts ingest-finalize \
         publish-dev verify-dev promote-prod rollback-prod verify-published \
+        pins pins-dry-run pins-generate pins-upload pins-csv pins-status pins-scan-rights test \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
 
 # Every ingest target after init takes SHOOT=<shoot-name>
@@ -59,6 +60,15 @@ help:
 	@echo "  make ai-select      Pick the 50-pose AI subset (deterministic)"
 	@echo "  make ai-dry-run     Print the image prompts; no API calls"
 	@echo "  make ai-generate    Generate AI images (requires CONFIRM=1 and GEMINI_API_KEY)"
+	@echo ""
+	@echo "  make pins-dry-run   Render the 12-pin contact sheet (4 per cohort); uploads nothing"
+	@echo "  make pins-generate  Generate + schedule new pins (PINS_ARGS='--limit 100 --start-date ...')"
+	@echo "  make pins-upload    Upload rendered pins to R2 under pins/ (CONFIRM=1 to upload)"
+	@echo "  make pins-csv       Write Pinterest bulk-upload CSV batches (PINS_ARGS='--batch-size 100')"
+	@echo "  make pins-status    Pin counts by cohort / category / board and the schedule"
+	@echo "  make pins-scan-rights  Exclusion report + shoot->pose drift check"
+	@echo "  make pins ARGS=...  Any pins subcommand verbatim"
+	@echo "  make test           Run the test suite"
 	@echo ""
 	@echo "  make tf-plan-dev    terraform plan for envs/dev"
 	@echo "  make tf-apply-dev   terraform apply for envs/dev (requires CONFIRM=1)"
@@ -173,8 +183,37 @@ else
 	$(PYTHON) tools/publish.py --rollback-to $(TO)
 endif
 
+# Pinterest pin pipeline (tools/pins.py). Uploads are dry-run without CONFIRM=1.
+pins: venv
+	$(PYTHON) tools/pins.py $(ARGS)
+
+pins-dry-run: venv
+	$(PYTHON) tools/pins.py generate --dry-run
+
+pins-generate: venv
+	$(PYTHON) tools/pins.py generate $(PINS_ARGS)
+
+pins-upload: venv
+ifeq ($(CONFIRM),1)
+	$(PYTHON) tools/pins.py upload --env $(or $(ENV),dev) --confirm
+else
+	$(PYTHON) tools/pins.py upload --env $(or $(ENV),dev)
+endif
+
+pins-csv: venv
+	$(PYTHON) tools/pins.py csv $(PINS_ARGS)
+
+pins-status: venv
+	$(PYTHON) tools/pins.py status
+
+pins-scan-rights: venv
+	$(PYTHON) tools/pins.py scan-rights
+
+test: venv
+	$(PYTHON) -m pytest tests -q
+
 clean:
-	rm -rf dist/catalog.json .pytest_cache tools/__pycache__
+	rm -rf dist/catalog.json dist/pins dist/pins_csv .pytest_cache tools/__pycache__ tools/pinterest/__pycache__
 
 tf-plan-bootstrap:
 	$(TF) -chdir=infra/bootstrap plan

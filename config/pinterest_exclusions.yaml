@@ -1,0 +1,42 @@
+# Rights exclusions for the Pinterest pin pipeline. ABSOLUTE: anything matched
+# here never reaches a pin, contact sheet, or CSV row, in any cohort.
+#
+# Three layers, all checked by tools/pinterest/rights.py before any rendering:
+#   filename_patterns  glob patterns matched against the pose's provenance
+#                      source filename (from inbox/<shoot>/_drafts, when the
+#                      local checkout has it) AND its on-disk image filenames.
+#   excluded_shoots    shoot identifiers (inbox/<shoot> / archive/<shoot>).
+#                      Resolved to pose ids through the draft records' pose_dir.
+#   excluded_pose_ids  explicit pose ids. Pose records do not store their
+#                      shoot, and inbox/ is gitignored, so every pose resolved
+#                      from an excluded shoot is ALSO listed here explicitly —
+#                      this file is the durable record. `pins scan-rights`
+#                      re-derives the list and reports any drift.
+#
+# apply_to_text_pins: the verbal prompts on these records were written from
+# the photographs, so by default they are kept out of text pins as well.
+
+filename_patterns:
+  - "ACTNATURALLY_PHOTOS-*"
+
+excluded_shoots:
+  - 123farm-lavender-couples   # Act Naturally Photos, 123 Farm lavender, Beaumont CA
+
+# Resolved 2026-09-03 from inbox/123farm-lavender-couples/_drafts (12 finalized
+# poses; the other 11 drafts were never promoted). Source frames were all
+# ACTNATURALLY_PHOTOS-<n>.jpg.
+excluded_pose_ids:
+  - 01M1C79NA7WP3P7VQ5FJJ06KWD   # ACTNATURALLY_PHOTOS-1.jpg
+  - 01M1C79NA80PDS27ZR7M8J0C2S   # ACTNATURALLY_PHOTOS-12.jpg
+  - 01M1C79NAA8GSRYGCV6440ST2Z   # ACTNATURALLY_PHOTOS-17.jpg
+  - 01M1C79NAB00N8AF7GE7MA41BC   # ACTNATURALLY_PHOTOS-19.jpg
+  - 01M1C79NACK6WT2R1WXMTN7TCJ   # ACTNATURALLY_PHOTOS-21.jpg
+  - 01M1C79NAD6AE4D521XYRJ0EDG   # ACTNATURALLY_PHOTOS-22.jpg
+  - 01M1C79NAD6AE4D521XYRJ0EDH   # ACTNATURALLY_PHOTOS-23.jpg
+  - 01M1C79NAEW9BVHQ1XFTJHN60H   # ACTNATURALLY_PHOTOS-24.jpg
+  - 01M1C79NAH9CH9H13C95MXZCV6   # ACTNATURALLY_PHOTOS-30.jpg
+  - 01M1C79NAH9CH9H13C95MXZCV7   # ACTNATURALLY_PHOTOS-4.jpg
+  - 01M1C79NAJ56SDCSDXBASDCJPP   # ACTNATURALLY_PHOTOS-7.jpg
+  - 01M1C79NAKVTRCFJ6PP4613TJH   # ACTNATURALLY_PHOTOS-9.jpg
+
+apply_to_text_pins: true

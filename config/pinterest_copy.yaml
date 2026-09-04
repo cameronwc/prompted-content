@@ -1,0 +1,63 @@
+# Copy humanizer: composition (subject_count + subject_types + category) ->
+# natural language. Rules are tried in order; the first match wins. `when`
+# keys: count (exact), min_count, category (single or list), types_all
+# (every listed type present), types_any, types_only (no types outside the
+# list). `phrase` may use {count_word} and {with} — {with} expands to the
+# composition tail built from `type_words` ("with a toddler and grandparents").
+# Nothing here is ever printed as a raw enum list.
+number_words: {1: one, 2: two, 3: three, 4: four, 5: five, 6: six, 7: seven, 8: eight,
+               9: nine, 10: ten, 11: eleven, 12: twelve}
+type_words:                 # singular / plural, used by {with}
+  toddler:      [a toddler, toddlers]
+  child:        [a child, kids]
+  teen:         [a teenager, teenagers]
+  senior_adult: [a grandparent, grandparents]
+  pet:          [the family dog, the family pets]
+  pregnant:     [an expecting mom, expecting moms]
+  adult:        [an adult, adults]
+# Types folded into "family of N" and never spelled out in {with}
+family_core_types: [adult]
+rules:
+  - when: {count: 1, types_any: [pregnant]}
+    phrase: an expecting mom
+  - when: {count: 1, category: senior}
+    phrase: a high school senior
+  - when: {count: 1, types_any: [teen]}
+    phrase: a teenager
+  - when: {count: 1}
+    phrase: one person
+  - when: {count: 2, types_any: [pregnant]}
+    phrase: an expecting couple
+  - when: {count: 2, types_only: [adult], category: [couples, engagement]}
+    phrase: a couple
+  - when: {count: 2, types_only: [adult, pet]}
+    phrase: a couple and their dog
+  - when: {count: 2, types_all: [adult, toddler]}
+    phrase: a parent and their toddler
+  - when: {count: 2, types_all: [adult, child]}
+    phrase: a parent and their child
+  - when: {count: 2, types_all: [adult, teen]}
+    phrase: a parent and their teenager
+  - when: {count: 2, types_only: [adult]}
+    phrase: two people
+  - when: {min_count: 3, category: maternity}
+    phrase: an expecting family of {count_word}{with}
+  - when: {min_count: 3, category: family}
+    phrase: a family of {count_word}{with}
+  - when: {min_count: 3}
+    phrase: a group of {count_word}{with}
+fallback: a group of {count_word}
+
+# Middle clause for text-pin descriptions, rotated independently of the
+# closing CTA so a scroll of pins never repeats the same sentence shape.
+text_middle_clauses:
+  - and for anyone who freezes when the camera comes up
+  - and it lands even when the client is stiff
+  - and it works before they've warmed up
+  - and it gives nervous hands something to do
+  - and it gets a real reaction instead of a posed one
+  - and it saves you from saying “just act natural”
+  - and it breaks the ice in the first five minutes
+  - and it reads well on the back of the camera
+  - and it turns a stiff start into a real moment
+  - and it works with clients who hate having their photo taken

@@ -1,0 +1,80 @@
+# Cohorts for the four-week Pinterest performance comparison, plus the
+# rendering settings shared by every pin. Cohorts share boards; the UTM
+# campaign value is what separates them in analytics.
+cohorts:
+  text:        { share: 0.40, utm_campaign: text,       pin_type: text }
+  photo_real:  { share: 0.20, utm_campaign: photo_real, pin_type: photo }
+  photo_ai:    { share: 0.40, utm_campaign: photo_ai,   pin_type: photo }
+
+# Shoot diversity for photo pins: no two pins from one shoot within
+# `min_days_apart` days, and at most `max_per_window` per rolling
+# `window_days`. Pins that cannot get a compliant slot in the run are dropped
+# with a warning naming the shoot (output is reduced, never the constraint).
+diversity:
+  min_days_apart: 7
+  max_per_window: 2
+  window_days: 30
+
+# Tolerance (absolute share) used by `pins status` and the tests when checking
+# a generated batch against the targets.
+share_tolerance: 0.10
+
+utm:
+  source: pinterest
+  medium: pin
+
+# AI disclosure appended to every photo_ai description. Must be non-empty
+# whenever photo_ai pins are generated; the run fails otherwise. There is no
+# switch that turns it off.
+ai_disclosure: "AI-generated posing reference."
+
+render:
+  width: 1000
+  height: 1500
+  max_bytes: 800000
+  wordmark: "Prompted"
+  # Candidate font files, first readable one wins; falls back to Pillow's
+  # built-in font (CI) if none exist.
+  fonts:
+    prompt:
+      - /System/Library/Fonts/Supplemental/Georgia.ttf
+      - /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+    label:
+      - /System/Library/Fonts/Supplemental/Futura.ttc
+      - /System/Library/Fonts/Supplemental/Georgia.ttf
+      - /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+  text:
+    # Feed pins render at ~236px wide, so the type has to be large. The
+    # prompt block may use everything between the label and the wordmark;
+    # the floor is a cap height, not a point size, so it holds for any font.
+    padding_top: 120
+    padding_bottom: 120
+    max_point_size: 200
+    min_cap_height: 90      # px on the 1500px canvas; prompts that cannot meet it are skipped
+    step: 6
+    max_lines: 7
+    leading: 1.18           # line height as a multiple of point size
+    label_size: 42
+    label_tracking: 6       # extra px between label characters
+    wordmark_size: 30       # do not enlarge; branding stays subtle
+    # Five clearly separated warm neutrals (dusty rose, sage, clay, warm
+    # stone, deep sand). Any pair must differ by >= palette_min_delta_e
+    # (CIEDE2000); tests/test_pinterest.py enforces it.
+    palette:
+      default:    "#E4DDD2"
+      family:     "#D99F9C"   # dusty rose
+      couples:    "#9FB08F"   # sage
+      engagement: "#BD7F5E"   # clay
+      maternity:  "#D6CFC2"   # warm stone
+      senior:     "#D9B46B"   # deep sand
+    palette_min_delta_e: 12
+    ink: "#2B2622"
+    label_ink: "#3D3631"
+  photo:
+    scrim_height_ratio: 0.36
+    name_size: 54
+    prompt_size: 34
+    # Per-pose crop focus override (fractions of the source image), used
+    # when the face detector picks the wrong subject or none.
+    crop_overrides: {}
+    #  01M15D1T5EJ33Z80C82NK71Y13: { focus_x: 0.35, focus_y: 0.5 }

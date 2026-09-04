@@ -1,0 +1,70 @@
+# Seasonal scheduling gate. A pose's `season` is derived from its content
+# (slug, instructions, prompts, location, and the source shoot name) by
+# weighted keyword scoring, or set explicitly in `overrides`. Seasonal pins
+# only schedule inside their window; a seasonal pin with no open window in
+# the run's lookahead is left for a later run and logged, never dropped
+# silently. `none` (evergreen) schedules any time.
+windows:                        # month-day ranges, inclusive; may wrap the year
+  holiday: {from: "11-01", to: "12-20"}
+  fall:    {from: "09-01", to: "11-15"}
+  spring:  {from: "03-01", to: "05-31"}
+  summer:  {from: "06-01", to: "08-31"}
+  none: null
+# A pin is selected only if its season window opens within this many days of
+# the run's start date; otherwise it is deferred to a later run (logged).
+lookahead_days: 45
+# Keyword weights per season; a pose is tagged when its score reaches
+# `threshold`. Strong words (score >= threshold alone) are unambiguous.
+threshold: 3
+keywords:
+  holiday:
+    christmas: 3
+    stocking: 3
+    stockings: 3
+    pajamas: 3
+    ornament: 3
+    wreath: 3
+    holiday: 3
+    xmas: 3
+    santa: 3
+    menorah: 3
+    gift: 2
+    gifts: 2
+    presents: 2
+    mantel: 1
+    hearth: 1
+    fireplace: 1
+    fairy light: 1
+    fairy lights: 1
+    twinkle: 1
+    tree lights: 2
+  fall:
+    pumpkin: 3
+    pumpkins: 3
+    autumn: 3
+    fall leaves: 3
+    foliage: 2
+    orchard: 2
+    hay bale: 3
+    harvest: 2
+    scarf: 1
+    flannel: 1
+  spring:
+    blossom: 3
+    blossoms: 3
+    wildflower: 2
+    wildflowers: 2
+    tulip: 3
+    bloom: 2
+    lavender: 2
+    spring: 2
+  summer:
+    sunflower: 3
+    sunflowers: 3
+    sprinkler: 3
+    swim: 2
+    sandcastle: 3
+    popsicle: 3
+    summer: 2
+# Manual per-pose overrides: pose id -> season. Wins over the derived tag.
+overrides: {}

@@ -1,0 +1,23 @@
+# Colour grade applied identically to EVERY photo pin (photo_real and
+# photo_ai) before the scrim is composited, so the two cohorts read as one
+# brand and the comparison measures real-vs-AI, not warm-vs-moody.
+#
+# Targets were measured from the licensed real photograph set on 2026-09-03
+# (`pins grade-profile` re-measures): the real set is brighter and warmer
+# than the AI set (median luminance 0.63 vs 0.49; AI skews cooler).
+enabled: true
+strength: 0.8            # 0 = untouched, 1 = fully normalised to the targets
+target:
+  rb_ratio: 1.35         # red/blue channel-mean ratio; >1 is warm
+  mean_luminance: 0.58   # 0..1
+  luminance_std: 0.26    # global contrast
+  saturation: 0.36       # mean HSV saturation
+shadow_lift: 0.035       # out = in + lift * (1 - in)^3
+# Monochrome frames keep their neutrality: below this saturation the white
+# balance and saturation steps are skipped.
+mono_saturation_floor: 0.06
+limits:                  # per-step clamps so no single frame is over-driven
+  wb_gain: [0.88, 1.22]
+  brightness: [0.85, 1.35]
+  contrast: [0.85, 1.20]
+  saturation: [0.80, 1.45]

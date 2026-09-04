@@ -1,0 +1,24 @@
+# category (+ optional tag) -> Pinterest board. Cohorts share boards; do not
+# create AI-specific boards. Category is the primary key, always: a rule for
+# the pose's own category beats any "*" rule, and tags (light_conditions,
+# location_types, subject_types ids, plus the derived `large_group` for
+# subject_count >= 5) only break ties WITHIN a category. "*" rules apply only
+# to categories that have no rule of their own.
+default: Posing Prompts
+# Text pins route to their category board; a configurable share goes to the
+# secondary board instead so it stays populated without absorbing everything.
+text_pins:
+  secondary_board: Posing Prompts
+  secondary_share: 0.25
+rules:
+  - { category: family,     tag: large_group, board: Large Group Poses }
+  - { category: family,     tag: golden,      board: Golden Hour Posing }
+  - { category: couples,    tag: golden,      board: Golden Hour Posing }
+  - { category: engagement, tag: golden,      board: Golden Hour Posing }
+  - { category: maternity,  tag: golden,      board: Golden Hour Posing }
+  - { category: senior,     tag: golden,      board: Golden Hour Posing }
+  - { category: family,                       board: Family Photo Poses }
+  - { category: couples,                      board: Couples Posing }
+  - { category: engagement,                   board: Engagement Poses }
+  - { category: maternity,                    board: Maternity Poses }
+  - { category: senior,                       board: Senior Portrait Poses }
