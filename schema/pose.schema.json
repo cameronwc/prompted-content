@@ -145,6 +145,12 @@
       "default": "synthetic",
       "description": "Provenance of the images. Optional; absent means synthetic. Additive, non-breaking."
     },
+    "photographer_credit": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Display credit for a contributed real photograph, e.g. 'Jane Doe Photography'. Only on image_source=photo records."
+    },
     "version": {
       "type": "integer",
       "minimum": 1
