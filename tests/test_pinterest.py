@@ -628,7 +628,7 @@ def test_family_golden_pose_links_to_family_guide(tmp_path):
     link = metadata.link_for(cfg, "family", pose, "photo_ai")
     assert link.startswith("https://cooperindustries.cc/prompted/guides/golden-hour-prompts?")
     # A tag only tiebreaks inside the same category.
-    cfg["links"]["rules"].append({"category": "family", "tag": "golden", "slug": "family-golden"})
+    cfg["links"]["rules"].insert(0, {"category": "family", "tag": "golden", "slug": "family-golden"})
     assert metadata.link_for(cfg, "family", pose, "photo_ai").startswith(
         "https://cooperindustries.cc/prompted/guides/family-golden?")
     # '*' rules only serve categories with no rule of their own.
