@@ -114,6 +114,7 @@ STEP_NUMBER_FONT_SIZE = 128
 LABEL_MARGIN = (56, 64)
 PILL_MARGIN_RIGHT = 40
 PILL_TOP = 60
+PILL_HEIGHT = 66                # both top pills share this height and top edge
 CREDIT_BOTTOM = 90
 
 AMBER = hex_rgb("#C17A2E")             # warm amber accent (label / branding)
@@ -311,17 +312,24 @@ def _segment_alpha(t: float, start: float, end: float, fade_in: float, fade_out:
     return int(255 * (1 - (t - (end - fade_out)) / fade_out))
 
 
-def _draw_pill(draw: ImageDraw.ImageDraw, text: str, font) -> None:
-    pad_x, pad_y = 20, 12
+def _pill_rect(draw: ImageDraw.ImageDraw, x1: float, x2: float, fill) -> None:
+    draw.rounded_rectangle((x1, PILL_TOP, x2, PILL_TOP + PILL_HEIGHT),
+                           radius=PILL_HEIGHT / 2, fill=fill)
+
+
+def _pill_text_y(font, text: str) -> float:
     left, top, right, bottom = font.getbbox(text)
-    tw, th = right - left, bottom - top
+    return PILL_TOP + (PILL_HEIGHT - (bottom - top)) / 2 - top
+
+
+def _draw_pill(draw: ImageDraw.ImageDraw, text: str, font) -> None:
+    """Disclosure pill, top-right, on the shared pill baseline."""
+    pad_x = 22
+    tw = text_width(font, text)
     x2 = WIDTH - PILL_MARGIN_RIGHT
     x1 = x2 - tw - 2 * pad_x
-    y1 = PILL_TOP
-    y2 = y1 + th + 2 * pad_y
-    draw.rounded_rectangle((x1, y1, x2, y2), radius=(y2 - y1) / 2,
-                           fill=(*PILL_BG, 235))
-    draw.text((x1 + pad_x, y1 + pad_y - top), text, font=font, fill=(*PILL_INK, 255))
+    _pill_rect(draw, x1, x2, (*PILL_BG, 235))
+    draw.text((x1 + pad_x, _pill_text_y(font, text)), text, font=font, fill=(*PILL_INK, 255))
 
 
 def _draw_credit(draw: ImageDraw.ImageDraw, text: str, font) -> None:
@@ -374,12 +382,12 @@ def render_image_frame(assets: ImageFrameAssets, t: float) -> Image.Image:
 
     label_alpha = int(255 * min(1.0, max(0.0, t / LABEL_FADE_END)))
     if label_alpha > 0:
-        lx, ly = LABEL_MARGIN
-        lw = text_width(assets.label_font, assets.label_text) + assets.label_tracking * max(0, len(assets.label_text) - 1)
-        lh = assets.label_font.size
-        draw.rounded_rectangle([lx - 22, ly - 14, lx + lw + 22, ly + lh + 16], radius=20,
-                               fill=(*PILL_INK, int(label_alpha * 0.82)))
-        draw_tracked(draw, LABEL_MARGIN, assets.label_text, assets.label_font,
+        pad_x = 22
+        lw = tracked_text_width(assets.label_font, assets.label_text, assets.label_tracking)
+        x1 = PILL_MARGIN_RIGHT
+        _pill_rect(draw, x1, x1 + lw + 2 * pad_x, (*PILL_INK, int(label_alpha * 0.82)))
+        ly = _pill_text_y(assets.label_font, assets.label_text)
+        draw_tracked(draw, (x1 + pad_x, ly), assets.label_text, assets.label_font,
                     (*AMBER_BRIGHT, label_alpha), assets.label_tracking)
 
     if tl.n_steps and tl.steps_start <= t < tl.steps_end:
