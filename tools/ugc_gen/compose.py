@@ -192,8 +192,10 @@ def _open_readers(sel: Selection) -> tuple[VideoReader, VideoReader, int, int]:
     orig = probe_video(sel.action.path)
     video_w, video_h = scaled_app_size(orig["width"], orig["height"])
     app_vf = f"scale={video_w}:{video_h},fps={FPS}"
+    # Faces sit in the upper third of a 9:16 reaction clip, so anchor the
+    # crop 12% down from the top rather than at the centre.
     reaction_vf = (f"scale={WIDTH}:{REACTION_H}:force_original_aspect_ratio=increase,"
-                  f"crop={WIDTH}:{REACTION_H},fps={FPS}")
+                  f"crop={WIDTH}:{REACTION_H}:(in_w-out_w)/2:(in_h-out_h)*0.12,fps={FPS}")
     app_reader = VideoReader(sel.action.path, app_vf, video_w, video_h)
     reaction_reader = VideoReader(sel.reaction.path, reaction_vf, WIDTH, REACTION_H)
     return app_reader, reaction_reader, video_w, video_h
