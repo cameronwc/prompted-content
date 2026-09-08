@@ -32,10 +32,10 @@ hooks:
   - text: "My groom looked like he was being arrested. One sentence fixed it."
     emotion: laughing
     category: engagement
-  - text: "The toddler would not stop crying. This line worked in ten seconds."
+  - text: "When the toddler is done, this is the line I reach for."
     emotion: relieved
     category: family
-  - text: "I said this and the whole family actually laughed for real."
+  - text: "The line I use when a family is holding a fake smile."
     emotion: laughing
     category: family
   - text: "Pregnant clients always ask where to put their arms. Here’s my go-to."
@@ -44,7 +44,7 @@ hooks:
   - text: "Every senior session has this awkward pause. Here’s what breaks it."
     emotion: confused
     category: senior
-  - text: "This is the exact sentence that stops couples from posing like strangers."
+  - text: "What I say when a couple is posing like strangers."
     emotion: impressed
     category: couples
   - text: "I used to dread stiff engagement shoots. Not anymore."
@@ -60,36 +60,36 @@ hooks:
   - text: "Nervous bride? Say this instead of ‘relax.’"
     emotion: skeptical
     category: engagement
-  - text: "I didn’t believe this line would work until I tried it."
+  - text: "The line I was too embarrassed to try. Now I open with it."
     emotion: skeptical
   - text: "Skeptical photographers, hear me out on this one."
     emotion: skeptical
-  - text: "This sounds ridiculous. It works every single time."
+  - text: "This sounds ridiculous. Say it anyway."
     emotion: skeptical
-  - text: "The dad was not having it. This line changed his whole mood."
+  - text: "When dad is not having it, I say this."
     emotion: relieved
     category: family
   - text: "Three generations, zero cooperation, one sentence."
     emotion: relieved
     category: family
-  - text: "This is the line that gets grandma to actually smile."
+  - text: "The line I save for grandma."
     emotion: laughing
     category: family
   - text: "I said this to a couple who hadn’t spoken in twenty minutes."
     emotion: confused
     category: couples
-  - text: "My senior client’s mom started crying. Here’s what I said."
+  - text: "What I say when a senior’s mom is watching from the car."
     emotion: impressed
     category: senior
   - text: "This maternity prompt gets partners actually looking at each other."
     emotion: impressed
     category: maternity
-  - text: "Bump shoots get awkward fast. This line fixes it instantly."
+  - text: "Bump shoots get awkward fast. This is my first line."
     emotion: relieved
     category: maternity
   - text: "Wait, that’s what you say to loosen people up?"
     emotion: confused
-  - text: "I have never seen a client relax that fast."
+  - text: "The fastest way I know to get a client to drop their shoulders."
     emotion: impressed
   - text: "This is the sentence I say right before every first look."
     emotion: neutral
