@@ -34,6 +34,27 @@ def probe_video(path: Path) -> dict:
            "duration": float(data["format"]["duration"])}
 
 
+def extract_last_frame(path: Path, width: int, height: int) -> Image.Image | None:
+    """The last decodable frame of `path` at its native `width`x`height`,
+    via a cheap `-sseof -1` seek-near-end + decode rather than a full-clip
+    decode -- used by tools/ugc_gen/compose.py's app-panel crop-window
+    detector, which only ever looks at one frame. `-sseof -1` can emit more
+    than one frame after the seek point, so this takes the last full frame
+    of whatever comes back rather than assuming exactly one. None if the
+    seek/decode produced no full frame at all (very short or unreadable
+    clip) -- the caller falls back to a fixed crop band."""
+    frame_bytes = width * height * 3
+    cmd = [FFMPEG, "-y", "-hide_banner", "-loglevel", "error", "-sseof", "-1",
+          "-i", str(path), "-fps_mode", "passthrough", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"]
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    data = result.stdout
+    if len(data) < frame_bytes:
+        return None
+    n_frames = len(data) // frame_bytes
+    chunk = data[(n_frames - 1) * frame_bytes: n_frames * frame_bytes]
+    return Image.frombytes("RGB", (width, height), chunk)
+
+
 class VideoReader:
     """Decodes `path` through `vf` -- which must yield frames of exactly
     `width`x`height` -- as rgb24 over a pipe. `read()` returns None once the

@@ -14,6 +14,7 @@ import argparse
 from datetime import date
 from pathlib import Path
 
+import numpy as np
 import pytest
 from PIL import Image
 
@@ -22,7 +23,7 @@ from pinterest.catalog import Pose, load_poses
 from pinterest.provenance import load_provenance
 from pinterest.rights import RightsGate, RightsViolation
 
-from ugc_gen import commands, compose, csvs
+from ugc_gen import commands, compose, csvs, video_io
 from ugc_gen.hooks import EMOTIONS, Hook, HookConfigError, load_hooks
 from ugc_gen.select import (ActionClip, ReactionClip, Selection, build_selections,
                             guard_action_clip, load_action_clips, load_reaction_clips,
@@ -37,6 +38,37 @@ EXCLUDED_ID = CFG["exclusions"]["excluded_pose_ids"][0]
 REAL_ACTIONS_DIR = REPO / "dist" / "actions"
 REAL_REACTIONS_DIR = REPO / "dist" / "reactions"
 REAL_GUIDES_PATH = REPO / "dist" / "guides_data.json"
+
+# Real inputs (see task/README): a real reaction clip and the real app
+# recordings under dist/actions/ -- never the (currently absent, and never
+# to be synthesized) `_test*` stand-ins those files pretend to be.
+# reaction-07*.mp4 is excluded on principle -- it may be deleted.
+REAL_SAMPLE_REACTION = REAL_REACTIONS_DIR / "reaction-08-impressed.mp4"
+
+
+def _first_real_action_clip() -> Path | None:
+    """First dist/actions/<slug>__nervous_client.mp4 recording whose pose
+    is on the real catalog, not rights-excluded, and carries a
+    nervous_client prompt -- a real, rights-cleared app recording usable
+    end to end, not just a filename fixture."""
+    if not REAL_ACTIONS_DIR.is_dir():
+        return None
+    poses_by_slug = {p.slug: p for p in load_poses()}
+    for path in sorted(REAL_ACTIONS_DIR.glob("*__nervous_client.mp4")):
+        slug = path.stem.split("__", 1)[0]
+        pose = poses_by_slug.get(slug)
+        if pose is None or GATE.is_excluded(pose):
+            continue
+        if any(pp.get("tone") == "nervous_client" for pp in pose.prompts):
+            return path
+    return None
+
+
+REAL_SAMPLE_ACTION = _first_real_action_clip()
+
+pytestmark_real_sample = pytest.mark.skipif(
+    not REAL_SAMPLE_REACTION.is_file() or REAL_SAMPLE_ACTION is None,
+    reason="real reaction/action sample clips are not present in dist/")
 
 
 def make_pose(pid: str, slug: str, source: str = "ai", categories=("couples",),
@@ -289,12 +321,13 @@ def test_captions_csv_columns_and_row_shape(tmp_path):
     assert len(rows) == 1
     row = rows[0]
     for col in ("file", "hook", "pose_slug", "prompt", "reaction_file", "caption", "hashtags",
-               "first_comment", "ai_disclosure", "link"):
+               "first_comment", "ai_disclosure", "link", "layout"):
         assert col in row
     n_tags = len(row["hashtags"].split())
     assert 8 <= n_tags <= 12
     from reels_gen.csvs import FIRST_COMMENT
     assert row["first_comment"] == FIRST_COMMENT
+    assert row["layout"] == "open-then-split"
 
 
 def test_schedule_no_two_consecutive_days_share_hook_or_pose():
@@ -415,3 +448,172 @@ def test_dry_run_never_selects_the_ungated_test_slug(tmp_path):
     rows = list(__import__("csv").DictReader((tmp_path / "captions.csv").open()))
     slugs = {r["pose_slug"] for r in rows}
     assert "_test" not in slugs
+
+
+# -- new open-then-split timeline: duration rule (pure, no I/O) --------------
+
+def test_main_duration_floors_short_or_typical_app_clips():
+    # 165+ real recordings run ~7.0s -- below the 7.5s floor.
+    assert compose.main_duration_seconds(3.0) == compose.MIN_MAIN_DURATION
+    assert compose.main_duration_seconds(7.0) == compose.MIN_MAIN_DURATION
+
+
+def test_main_duration_matches_app_clip_within_bounds():
+    assert compose.main_duration_seconds(8.0) == 8.0
+
+
+def test_main_duration_caps_long_app_clips_below_endcard_budget():
+    assert compose.main_duration_seconds(30.0) == \
+        compose.MAX_TOTAL_DURATION - compose.ENDCARD_DURATION
+
+
+def test_total_duration_matches_spec_formula():
+    assert compose.total_duration_seconds(7.0) == pytest.approx(7.5 + 1.2)
+    assert compose.total_duration_seconds(8.0) == pytest.approx(8.0 + 1.2)
+    assert compose.total_duration_seconds(50.0) == compose.MAX_TOTAL_DURATION
+    assert compose.total_duration_seconds(50.0) <= 10.0
+
+
+# -- new open-then-split timeline: move/split geometry (pure, no I/O) --------
+
+def test_move_progress_is_zero_before_open_end_and_one_from_move_end_on():
+    assert compose.move_progress(0.0) == 0.0
+    assert compose.move_progress(compose.OPEN_END) == 0.0
+    assert compose.move_progress(compose.MOVE_END) == 1.0
+    assert compose.move_progress(compose.MOVE_END + 1.0) == 1.0
+    mid = compose.move_progress((compose.OPEN_END + compose.MOVE_END) / 2)
+    assert 0.0 < mid < 1.0
+
+
+def test_reaction_and_panel_meet_exactly_at_split_rest_position():
+    assert compose.reaction_band_height(0.0) == compose.HEIGHT
+    assert compose.reaction_band_height(compose.MOVE_END) == compose.REACTION_H
+    # the panel is fully below the bottom edge (invisible) at t=0...
+    assert compose.panel_top_y(0.0) >= compose.HEIGHT
+    # ...and at its documented resting position once SPLIT settles.
+    assert compose.panel_top_y(compose.MOVE_END) == compose.PANEL_TOP
+    assert compose.PANEL_TOP == compose.REACTION_H + compose.RULE_H
+
+
+def test_hook_pill_visible_window_matches_spec():
+    assert compose.hook_pill_alpha(0.0) == 255
+    assert compose.hook_pill_alpha(compose.OPEN_END - 0.05) == 255  # still full just before 2.0s
+    assert compose.hook_pill_alpha(compose.OPEN_END) >= 254  # ~full right at 2.0s (float boundary)
+    assert compose.hook_pill_alpha(compose.HOOK_PILL_END) == 0
+    faded = compose.hook_pill_alpha(compose.HOOK_PILL_END - compose.HOOK_PILL_FADE / 2)
+    assert 0 < faded < 255
+
+
+# -- new open-then-split timeline: app-panel crop-window detector -----------
+
+def test_detect_chip_window_finds_a_synthetic_amber_band():
+    from PIL import ImageDraw
+    w, h = 1320, 2868
+    im = Image.new("RGB", (w, h), compose.hex_rgb(compose.PAPER_HEX))
+    band_top, band_bottom = int(h * 0.70), int(h * 0.73)
+    ImageDraw.Draw(im).rectangle((0, band_top, w, band_bottom), fill=compose.hex_rgb(compose.AMBER_HEX))
+    window = compose.detect_chip_window(im)
+    assert window is not None
+    y0, y1 = window
+    assert y0 == max(0, band_top - compose.CHIP_WINDOW_ABOVE)
+    assert y1 == min(h, band_bottom + compose.CHIP_WINDOW_BELOW)
+    assert y0 <= band_top and band_bottom <= y1
+
+
+def test_detect_chip_window_none_without_amber_falls_back():
+    im = Image.new("RGB", (1320, 2868), compose.hex_rgb(compose.PAPER_HEX))
+    assert compose.detect_chip_window(im) is None
+
+
+def test_scaled_app_size_fits_panel_width_margin_for_a_typical_window():
+    video_w, video_h = compose.scaled_app_size(1320, 974)
+    assert video_w == compose.WIDTH - 2 * compose.APP_PANEL_MARGIN
+    assert video_h <= compose.PANEL_H
+
+
+def test_scaled_app_size_clamps_to_panel_height_for_an_oversized_window():
+    video_w, video_h = compose.scaled_app_size(1320, 2868)  # full frame, would overflow the panel
+    assert video_h == compose.PANEL_H
+    assert video_w <= compose.WIDTH - 2 * compose.APP_PANEL_MARGIN
+
+
+@pytestmark_real_sample
+def test_app_crop_window_contains_the_chip_row_on_a_real_action_clip():
+    """The crop-window detector, run against a real dist/actions/ recording
+    (skipped above if none is available): the fixed window it returns must
+    contain whatever amber tone-chip row is actually on screen."""
+    orig = video_io.probe_video(REAL_SAMPLE_ACTION)
+    y0, y1 = compose.app_crop_window(REAL_SAMPLE_ACTION, orig["width"], orig["height"])
+    assert 0 <= y0 < y1 <= orig["height"]
+
+    frame = video_io.extract_last_frame(REAL_SAMPLE_ACTION, orig["width"], orig["height"])
+    assert frame is not None
+    arr = np.asarray(frame.convert("RGB"), dtype=np.int32)
+    target = np.array(compose.hex_rgb(compose.AMBER_HEX), dtype=np.int32)
+    dist = np.sqrt(((arr - target) ** 2).sum(axis=2))
+    row_frac = (dist < compose.CHIP_MATCH_DIST).sum(axis=1) / arr.shape[1]
+    lo = int(arr.shape[0] * compose.CHIP_SEARCH_TOP_RATIO)
+    hi = int(arr.shape[0] * compose.CHIP_SEARCH_BOTTOM_RATIO)
+    chip_rows = [y for y in range(lo, hi) if row_frac[y] > compose.CHIP_ROW_MIN_FRACTION]
+    assert chip_rows, "expected a detectable amber tone-chip row on a real action clip"
+    assert y0 <= min(chip_rows) and max(chip_rows) <= y1
+
+
+# -- new open-then-split timeline: real-clip dry-run frame --------------------
+
+@pytestmark_real_sample
+def test_render_first_frame_open_phase_is_full_bleed_reaction():
+    """t=0 is pure OPEN: the reaction fills the whole 1080x1920 frame, so
+    no paper-background panel should be visible near the bottom edge."""
+    slug = REAL_SAMPLE_ACTION.stem.split("__", 1)[0]
+    pose = next(p for p in load_poses() if p.slug == slug)
+    hook = make_hook(0, "A dry-run hook.", "impressed")
+    action = ActionClip(path=REAL_SAMPLE_ACTION, slug=slug, tone="nervous_client", pose=pose,
+                        category=pose.primary_category)
+    reaction = ReactionClip(path=REAL_SAMPLE_REACTION, emotion="impressed")
+    sel = Selection(hook=hook, reaction=reaction, action=action, prompt="Hold still.")
+    font_candidates = CFG["cohorts"]["render"]["fonts"]["label"]
+    frame = compose.render_first_frame(sel, font_candidates)
+    assert frame.size == (1080, 1920)
+    assert frame.mode == "RGB"
+    paper = compose.hex_rgb(compose.PAPER_HEX)
+    bottom_centre = frame.getpixel((compose.WIDTH // 2, compose.HEIGHT - 5))
+    assert bottom_centre != paper
+
+
+def _self_contained_actions_dir_real(tmp_path) -> tuple[Path, Path]:
+    """Like _self_contained_actions_dir, but sourced from a real recording
+    already present in dist/actions/ (REAL_SAMPLE_ACTION) instead of the
+    synthetic `_test` stand-in, which this task explicitly must not
+    create."""
+    import json
+    import shutil
+
+    actions_dir = tmp_path / "actions"
+    actions_dir.mkdir()
+    shutil.copy(REAL_SAMPLE_ACTION, actions_dir / REAL_SAMPLE_ACTION.name)
+
+    slug = REAL_SAMPLE_ACTION.stem.split("__", 1)[0]
+    guides_path = tmp_path / "guides_data.json"
+    guides_path.write_text(json.dumps({"poses": [{"slug": slug}]}))
+    return actions_dir, guides_path
+
+
+@pytestmark_real_sample
+def test_dry_run_end_to_end_with_real_clips_writes_layout_column(tmp_path):
+    actions_dir, guides_path = _self_contained_actions_dir_real(tmp_path)
+    out = tmp_path / "out"
+    args = argparse.Namespace(count=1, seed=1, category=None, out=out, fps=30,
+                              start_date=None, icon=None, hooks=None,
+                              reactions=REAL_REACTIONS_DIR, actions=actions_dir,
+                              guides=guides_path, dry_run=True)
+    rc = commands.cmd_generate(args)
+    assert rc == 0
+    pngs = list(out.glob("*-frame0.png"))
+    assert pngs, "no dry-run frames were written"
+    for p in pngs:
+        with Image.open(p) as im:
+            assert im.size == (1080, 1920)
+    assert (out / "contact_sheet.png").is_file()
+    rows = list(__import__("csv").DictReader((out / "captions.csv").open()))
+    assert rows and rows[0]["layout"] == "open-then-split"

@@ -15,9 +15,12 @@ this tool reuses tools/pinterest's font loading/text-fit and
 tools/reels_gen's rights gate, CSV shape (first_comment, hashtags) and
 app-icon treatment rather than duplicating them.
 
-Output: 1080x1920 H.264 MP4, yuv420p, 30fps, no audio, faststart, ~7.5-9.0s
-(the app-action clip's own duration plus a 1.2s end-card crossfade), named
-ugc-<NNN>-<hookslug>-<poseslug>.mp4, plus captions.csv and schedule.csv.
+Output: 1080x1920 H.264 MP4, yuv420p, 30fps, no audio, faststart, 8.7-10.0s
+(max(app-action clip duration, 7.5s) plus a 1.2s end-card crossfade,
+capped at 10s), named ugc-<NNN>-<hookslug>-<poseslug>.mp4, plus
+captions.csv and schedule.csv. Layout is "open-then-split": the reaction
+clip opens full-frame with a hook pill, then the app-action panel slides
+up into a 52/48 split (tools/ugc_gen/compose.py has the full timeline).
 
 Rights: an app-action clip (dist/actions/<slug>__<tone>.mp4) is only ever a
 candidate when its slug is present in the rights-filtered

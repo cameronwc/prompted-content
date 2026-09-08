@@ -17,6 +17,8 @@ from reels_gen.textfx import quote
 LINK = ("https://cooperindustries.cc/prompted/marketing/"
        "?utm_source=ugc&utm_medium=video&utm_campaign=ugc")
 
+LAYOUT = "open-then-split"  # tools/ugc_gen/compose.py's OPEN/MOVE/SPLIT timeline
+
 
 @dataclass
 class VideoRecord:
@@ -29,6 +31,7 @@ class VideoRecord:
     image_source: str  # "photo" | "ai" -- the POSE's source (the reaction is always AI)
     category: str
     light_conditions: tuple[str, ...] = ()
+    layout: str = LAYOUT
 
     @property
     def ai(self) -> bool:
@@ -55,11 +58,12 @@ def write_captions(records: list[VideoRecord], out: Path) -> Path:
     with out.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["file", "hook", "pose_slug", "prompt", "reaction_file", "caption",
-                   "hashtags", "first_comment", "ai_disclosure", "link"])
+                   "hashtags", "first_comment", "ai_disclosure", "link", "layout"])
         for rec in records:
             tags = hashtags_for(rec.category, rec.light_conditions)
             w.writerow([rec.file, rec.hook, rec.pose_slug, rec.prompt, rec.reaction_file,
-                       caption_for(rec), " ".join(tags), FIRST_COMMENT, ai_disclosure_for(rec), LINK])
+                       caption_for(rec), " ".join(tags), FIRST_COMMENT, ai_disclosure_for(rec), LINK,
+                       rec.layout])
     return out
 
 
