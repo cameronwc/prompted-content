@@ -8,19 +8,23 @@ clip with a recording of the Prompted app in action, for short-form social
               [--icon PATH] [--hooks PATH] [--reactions DIR] [--actions DIR] [--guides PATH]
               [--dry-run]
 
-Every frame of text (the hook pill, the end card) is rendered with Pillow
-and composited over real decoded video frames -- this machine's ffmpeg has
-no drawtext filter, the same constraint tools/reels.py works around -- so
-this tool reuses tools/pinterest's font loading/text-fit and
-tools/reels_gen's rights gate, CSV shape (first_comment, hashtags) and
-app-icon treatment rather than duplicating them.
+Every frame of text (the hook pill, the prompt overlay, the end card) is
+rendered with Pillow and composited over real decoded video frames -- this
+machine's ffmpeg has no drawtext filter, the same constraint tools/reels.py
+works around -- so this tool reuses tools/pinterest's font loading/text-fit,
+tools/reels_gen's rights gate, CSV shape (first_comment, hashtags),
+app-icon treatment and prompt-overlay building blocks rather than
+duplicating them.
 
-Output: 1080x1920 H.264 MP4, yuv420p, 30fps, no audio, faststart, 8.7-10.0s
-(max(app-action clip duration, 7.5s) plus a 1.2s end-card crossfade,
-capped at 10s), named ugc-<NNN>-<hookslug>-<poseslug>.mp4, plus
-captions.csv and schedule.csv. Layout is "open-then-split": the reaction
-clip opens full-frame with a hook pill, then the app-action panel slides
-up into a 52/48 split (tools/ugc_gen/compose.py has the full timeline).
+Output: 1080x1920 H.264 MP4, yuv420p, 30fps, no audio, faststart, exactly
+10.0s for a ~7.0s app-action clip (2.0s OPEN + the app clip's own length,
+trimmed off its tail if needed, + a 1.2s end-card crossfade, capped at
+10.0s total), named ugc-<NNN>-<hookslug>-<poseslug>.mp4, plus captions.csv
+and schedule.csv. Layout is "open-then-takeover": the reaction clip opens
+full-frame with a hook pill, then the whole app-action recording scales up
+into a card while the reaction shrinks into a picture-in-picture, and a
+"SAY THIS · <TONE>" prompt overlay appears over the app card partway
+through (tools/ugc_gen/compose.py has the full timeline).
 
 Rights: an app-action clip (dist/actions/<slug>__<tone>.mp4) is only ever a
 candidate when its slug is present in the rights-filtered

@@ -327,7 +327,7 @@ def test_captions_csv_columns_and_row_shape(tmp_path):
     assert 8 <= n_tags <= 12
     from reels_gen.csvs import FIRST_COMMENT
     assert row["first_comment"] == FIRST_COMMENT
-    assert row["layout"] == "open-then-split"
+    assert row["layout"] == "open-then-takeover"
 
 
 def test_schedule_no_two_consecutive_days_share_hook_or_pose():
@@ -450,31 +450,28 @@ def test_dry_run_never_selects_the_ungated_test_slug(tmp_path):
     assert "_test" not in slugs
 
 
-# -- new open-then-split timeline: duration rule (pure, no I/O) --------------
+# -- open-then-takeover timeline: duration rule (pure, no I/O) --------------
 
-def test_main_duration_floors_short_or_typical_app_clips():
-    # 165+ real recordings run ~7.0s -- below the 7.5s floor.
-    assert compose.main_duration_seconds(3.0) == compose.MIN_MAIN_DURATION
-    assert compose.main_duration_seconds(7.0) == compose.MIN_MAIN_DURATION
-
-
-def test_main_duration_matches_app_clip_within_bounds():
-    assert compose.main_duration_seconds(8.0) == 8.0
+def test_total_duration_is_open_plus_app_clip_plus_endcard_when_under_cap():
+    # OPEN_END(2.0) + app_duration(3.0) + ENDCARD_DURATION(1.2), well under the cap.
+    assert compose.total_duration_seconds(3.0) == pytest.approx(2.0 + 3.0 + 1.2)
 
 
-def test_main_duration_caps_long_app_clips_below_endcard_budget():
-    assert compose.main_duration_seconds(30.0) == \
-        compose.MAX_TOTAL_DURATION - compose.ENDCARD_DURATION
+def test_total_duration_trims_the_app_clips_tail_to_hit_the_cap_exactly():
+    # 165+ real recordings run ~7.0s: 2.0 + 7.0 + 1.2 = 10.2, trimmed to 10.0.
+    assert compose.total_duration_seconds(7.0) == compose.TOTAL_DURATION_CAP
+    assert compose.total_duration_seconds(7.0) == 10.0
+    assert compose.total_duration_seconds(50.0) == compose.TOTAL_DURATION_CAP
 
 
-def test_total_duration_matches_spec_formula():
-    assert compose.total_duration_seconds(7.0) == pytest.approx(7.5 + 1.2)
-    assert compose.total_duration_seconds(8.0) == pytest.approx(8.0 + 1.2)
-    assert compose.total_duration_seconds(50.0) == compose.MAX_TOTAL_DURATION
-    assert compose.total_duration_seconds(50.0) <= 10.0
+def test_app_playback_duration_is_trimmed_by_exactly_the_overage():
+    # 2.0 + 7.0 + 1.2 = 10.2 is 0.2s over the 10.0s cap -- the app clip's
+    # own playback (not OPEN, not the end card) absorbs the trim.
+    assert compose.app_playback_duration(7.0) == pytest.approx(6.8)
+    assert compose.app_playback_duration(3.0) == pytest.approx(3.0)  # untrimmed, well under the cap
 
 
-# -- new open-then-split timeline: move/split geometry (pure, no I/O) --------
+# -- open-then-takeover timeline: MOVE geometry (pure, no I/O) --------------
 
 def test_move_progress_is_zero_before_open_end_and_one_from_move_end_on():
     assert compose.move_progress(0.0) == 0.0
@@ -485,14 +482,24 @@ def test_move_progress_is_zero_before_open_end_and_one_from_move_end_on():
     assert 0.0 < mid < 1.0
 
 
-def test_reaction_and_panel_meet_exactly_at_split_rest_position():
-    assert compose.reaction_band_height(0.0) == compose.HEIGHT
-    assert compose.reaction_band_height(compose.MOVE_END) == compose.REACTION_H
-    # the panel is fully below the bottom edge (invisible) at t=0...
-    assert compose.panel_top_y(0.0) >= compose.HEIGHT
-    # ...and at its documented resting position once SPLIT settles.
-    assert compose.panel_top_y(compose.MOVE_END) == compose.PANEL_TOP
-    assert compose.PANEL_TOP == compose.REACTION_H + compose.RULE_H
+def test_app_card_rect_is_invisible_at_open_and_at_its_documented_rest_position_by_move_end():
+    final_w, final_h = compose.app_card_final_size(1320, 2868)
+    x0, y0, w0, h0 = compose.app_card_rect(0.0, final_w, final_h)
+    assert y0 >= compose.HEIGHT  # fully below the bottom edge, invisible
+
+    x1, y1, w1, h1 = compose.app_card_rect(compose.MOVE_END, final_w, final_h)
+    assert (x1, y1, w1, h1) == ((compose.WIDTH - final_w) // 2, compose.APP_CARD_TOP, final_w, final_h)
+
+
+def test_reaction_pip_rect_is_full_frame_at_open_and_the_documented_square_by_move_end():
+    x0, y0, w0, h0 = compose.reaction_pip_rect(0.0)
+    assert (x0, y0, w0, h0) == (0, 0, compose.WIDTH, compose.HEIGHT)
+
+    x1, y1, w1, h1 = compose.reaction_pip_rect(compose.MOVE_END)
+    assert (w1, h1) == (compose.PIP_SIZE, compose.PIP_SIZE)
+    assert (x1, y1) == (compose.WIDTH - compose.PIP_MARGIN - compose.PIP_SIZE, compose.PIP_TOP)
+    assert x1 + w1 == compose.WIDTH - compose.PIP_MARGIN
+    assert y1 + h1 == compose.HEIGHT - compose.PIP_MARGIN
 
 
 def test_hook_pill_visible_window_matches_spec():
@@ -504,7 +511,21 @@ def test_hook_pill_visible_window_matches_spec():
     assert 0 < faded < 255
 
 
-# -- new open-then-split timeline: app-panel crop-window detector -----------
+# -- open-then-takeover timeline: prompt overlay timing (pure, no I/O) ------
+
+def test_prompt_overlay_starts_after_the_chip_tap_is_visible():
+    # chip tap lands around global t = OPEN_END + 2.1 = 4.1s (see module
+    # docstring); the prompt overlay must not cover it before that.
+    assert compose.PROMPT_START > compose.OPEN_END + 2.1
+    assert compose._prompt_alpha_fraction(compose.PROMPT_START - 0.01) == 0.0
+    assert compose._prompt_alpha_fraction(compose.PROMPT_START) == 0.0
+    assert compose._prompt_alpha_fraction(compose.PROMPT_START + compose.PROMPT_FADE_IN) == 1.0
+    mid = compose._prompt_alpha_fraction(compose.PROMPT_START + compose.PROMPT_FADE_IN / 2)
+    assert 0.0 < mid < 1.0
+
+
+# -- legacy (retired "open-then-split" layout) crop-window detector: kept
+# for coverage only, not called by the render path any more. ---------------
 
 def test_detect_chip_window_finds_a_synthetic_amber_band():
     from PIL import ImageDraw
@@ -559,7 +580,7 @@ def test_app_crop_window_contains_the_chip_row_on_a_real_action_clip():
     assert y0 <= min(chip_rows) and max(chip_rows) <= y1
 
 
-# -- new open-then-split timeline: real-clip dry-run frame --------------------
+# -- open-then-takeover timeline: real-clip dry-run frame --------------------
 
 @pytestmark_real_sample
 def test_render_first_frame_open_phase_is_full_bleed_reaction():
@@ -573,7 +594,8 @@ def test_render_first_frame_open_phase_is_full_bleed_reaction():
     reaction = ReactionClip(path=REAL_SAMPLE_REACTION, emotion="impressed")
     sel = Selection(hook=hook, reaction=reaction, action=action, prompt="Hold still.")
     font_candidates = CFG["cohorts"]["render"]["fonts"]["label"]
-    frame = compose.render_first_frame(sel, font_candidates)
+    prompt_font_candidates = CFG["cohorts"]["render"]["fonts"]["prompt"]
+    frame = compose.render_first_frame(sel, font_candidates, prompt_font_candidates)
     assert frame.size == (1080, 1920)
     assert frame.mode == "RGB"
     paper = compose.hex_rgb(compose.PAPER_HEX)
@@ -616,4 +638,4 @@ def test_dry_run_end_to_end_with_real_clips_writes_layout_column(tmp_path):
             assert im.size == (1080, 1920)
     assert (out / "contact_sheet.png").is_file()
     rows = list(__import__("csv").DictReader((out / "captions.csv").open()))
-    assert rows and rows[0]["layout"] == "open-then-split"
+    assert rows and rows[0]["layout"] == "open-then-takeover"

@@ -17,7 +17,7 @@ from reels_gen.textfx import quote
 LINK = ("https://cooperindustries.cc/prompted/marketing/"
        "?utm_source=ugc&utm_medium=video&utm_campaign=ugc")
 
-LAYOUT = "open-then-split"  # tools/ugc_gen/compose.py's OPEN/MOVE/SPLIT timeline
+LAYOUT = "open-then-takeover"  # tools/ugc_gen/compose.py's OPEN/MOVE/TAKEOVER timeline
 
 
 @dataclass

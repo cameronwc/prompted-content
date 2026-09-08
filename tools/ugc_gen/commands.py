@@ -70,6 +70,7 @@ def cmd_generate(args) -> int:
          f"schedule starting {start.isoformat()})")
 
     font_candidates = cfg["cohorts"]["render"]["fonts"]["label"]
+    prompt_font_candidates = cfg["cohorts"]["render"]["fonts"]["prompt"]
     ink_hex = cfg["cohorts"]["render"]["text"]["ink"]
     icon_path = getattr(args, "icon", None) or DEFAULT_ICON_PATH
     if not icon_path.is_file():
@@ -78,23 +79,24 @@ def cmd_generate(args) -> int:
              f"end card renders without one")
 
     if args.dry_run:
-        return _dry_run(selections, records, font_candidates, out)
+        return _dry_run(selections, records, font_candidates, prompt_font_candidates, out)
 
     fps = args.fps or DEFAULT_FPS
     for sel, rec in zip(selections, records):
         guard_action_clip(sel.action.pose, gate)  # last line of defence, right before compositing
         path = out / rec.file
-        duration = compose.render_ugc_video(sel, path, icon_path, font_candidates, ink_hex, fps=fps)
+        duration = compose.render_ugc_video(sel, path, icon_path, font_candidates,
+                                            prompt_font_candidates, ink_hex, fps=fps)
         print(f"  wrote {rec.file} ({path.stat().st_size / 1024:.0f} KB, {duration:.1f}s)")
     print(f"Rendered {len(records)} UGC reaction videos to {out}")
     return 0
 
 
 def _dry_run(selections: list[Selection], records: list[csvs.VideoRecord], font_candidates,
-            out: Path) -> int:
+            prompt_font_candidates, out: Path) -> int:
     thumbs = []
     for sel, rec in list(zip(selections, records))[:3]:
-        frame = compose.render_first_frame(sel, font_candidates)
+        frame = compose.render_first_frame(sel, font_candidates, prompt_font_candidates)
         png_path = out / f"{sel.action.slug}-{sel.hook.slug}-frame0.png"
         frame.save(png_path, "PNG")
         thumbs.append((rec.file, frame))
