@@ -410,6 +410,88 @@ photographs last.
 
 Tests: `make test` (`tests/test_reels.py`).
 
+## UGC Reactions
+
+`tools/ugc.py` composites a short-form "creator reaction" video: an
+AI-generated reaction clip (Zeely) over a real recording of the Prompted app
+doing the pose, 1080x1920 H.264 MP4, ~7.5-9.0s, plus caption and
+posting-schedule CSVs. Unlike `tools/reels.py` (which draws every pixel with
+Pillow and never opens a source video), this composer decodes two real
+clips frame-by-frame over an ffmpeg pipe and hands each frame to Pillow for
+compositing before re-encoding — this machine's ffmpeg still has no
+`drawtext` filter, so the hook pill and end card are Pillow-rendered PNGs
+composited on top, not filter-graph text. Rights gating, font loading,
+`first_comment` and the category hashtag bank are reused from
+`tools/pinterest` and `tools/reels_gen` rather than duplicated.
+
+```sh
+make ugc-dry-run                                  # dist/ugc/contact_sheet.png, 3 first frames, CSVs; no MP4s
+make ugc-generate UGC_ARGS="--count 10 --seed 1"
+make ugc-generate UGC_ARGS="--category maternity --start-date 2026-09-10"
+```
+
+**Inputs:**
+
+- **App-action clips** — `dist/actions/<slug>__<tone>.mp4`: 1320x2868
+  simulator screen recordings (~6.5s, H.264, no audio) produced by another
+  tool.
+- **Reaction clips** — `dist/reactions/*.mp4`: vertical 9:16, 5-7s,
+  AI-generated UGC from Zeely. The emotion word after the filename's last
+  dash picks which hook it pairs with by default; an unrecognised word is
+  treated as `neutral`.
+- **Hooks** — `config/ugc_hooks.yaml`: 30 opening lines, each with `text`,
+  an `emotion` (`skeptical` / `confused` / `impressed` / `laughing` /
+  `relieved` / `neutral`) and an optional pose `category`.
+
+**Selection** is seeded (`--seed`, default 0) and reproducible: pick a hook
+(optionally restricted to `--category`), then a reaction whose emotion
+matches the hook's emotion (fallback: any reaction), then an app-action clip
+whose pose carries the hook's category if one is set (fallback: any
+app-action clip) — never repeating a `(hook, action)` pair within a run.
+`--count` (default 10) sets how many videos to render.
+
+**Composition (1080x1920, 30fps):**
+
+- The reaction clip cover-crops the top 46% of the frame, held on its last
+  frame if it runs out before the app clip does.
+- A 6px amber (`#E8A33D`) rule separates the halves.
+- The app-action clip fills the bottom 54% as a phone-screen panel: scaled
+  to fit the panel height minus 48px (aspect preserved), rounded corners
+  (40px radius), a soft drop shadow, centred on the Prompted paper
+  (`#FBFAF8`).
+- **0.0-1.8s** — the hook, white text on a near-black rounded pill, bottom-left
+  over the reaction half, up to 3 lines, fading out over the last 0.3s.
+- Both clips start together at t=0; **the app clip always plays in full** —
+  its own duration drives the main segment's length. The **last 1.2s**
+  cross-fades the final composited frame into a paper end card: the app icon
+  (200px, 46px radius), "Prompted" in amber, "Search “Prompted” on the App
+  Store" in ink.
+
+**Rights exclusion is absolute here too.** An app-action clip is only ever a
+candidate when its slug is present in the rights-filtered
+`dist/guides_data.json` **and** clears `config/pinterest_exclusions.yaml` —
+`ugc_gen/select.py`'s `guard_action_clip` (mirroring `reels_gen.select.
+guard_renderable`) re-checks the same `RightsGate` again, independently,
+immediately before any clip is composited. A clip that fails either check is
+dropped from the candidate pool (reported, not raised) unless the
+independent re-check itself trips — that is a hard, non-zero-exit refusal.
+
+`captions.csv` (file, hook, pose_slug, prompt, reaction_file, caption,
+hashtags, first_comment, ai_disclosure, link): `prompt` is the pose's
+chosen-tone prompt (matching the app-action clip's `__<tone>` suffix),
+verbatim from `dist/guides_data.json`; `caption` is the hook line, one plain
+sentence quoting the prompt, then "Link in bio."; `hashtags` (8-12) and
+`first_comment` are the same category bank and pinned-comment line
+`tools/reels.py` uses; `ai_disclosure` reads "Reaction is AI-generated;
+posing reference is AI-generated." for an AI-sourced pose, or just "Reaction
+is AI-generated." for a real photograph (the reaction clip is always
+AI-generated); `link` carries `utm_campaign=ugc`. `schedule.csv` assigns
+sequential dates from `--start-date` (default tomorrow) so that no two
+consecutive posts share a hook or a pose. Filenames are
+`ugc-<NNN>-<hookslug>-<poseslug>.mp4`.
+
+Tests: `make test` (`tests/test_ugc.py`).
+
 ## Rules that keep the catalog sane
 
 - Taxonomy IDs and pose ULIDs are permanent. Retire (`status: retired`),

@@ -29,6 +29,7 @@ TF_FLAGS ?=
         publish-dev verify-dev promote-prod rollback-prod verify-published \
         pins pins-dry-run pins-generate pins-upload pins-csv pins-status pins-scan-rights test \
         reels reels-dry-run reels-generate \
+        ugc ugc-dry-run ugc-generate \
         tf-plan-dev tf-apply-dev tf-plan-prod tf-apply-prod
 
 # Every ingest target after init takes SHOOT=<shoot-name>
@@ -73,6 +74,10 @@ help:
 	@echo "  make reels-dry-run   Render 3 first-frame PNGs + contact sheet; CSVs; no MP4s"
 	@echo "  make reels-generate  Render reels (REELS_ARGS='--limit 20 --category maternity')"
 	@echo "  make reels ARGS=...  Any reels subcommand verbatim"
+	@echo ""
+	@echo "  make ugc-dry-run     Render 3 first-frame PNGs + contact sheet; CSVs; no MP4s"
+	@echo "  make ugc-generate    Render UGC reaction videos (UGC_ARGS='--count 10 --seed 1')"
+	@echo "  make ugc ARGS=...    Any ugc subcommand verbatim"
 	@echo "  make test           Run the test suite"
 	@echo ""
 	@echo "  make tf-plan-dev    terraform plan for envs/dev"
@@ -224,11 +229,21 @@ reels-dry-run: venv
 reels-generate: venv
 	$(PYTHON) tools/reels.py generate $(REELS_ARGS)
 
+# UGC reaction video pipeline (tools/ugc.py): reaction clip + app-action clip composites.
+ugc: venv
+	$(PYTHON) tools/ugc.py $(ARGS)
+
+ugc-dry-run: venv
+	$(PYTHON) tools/ugc.py generate --dry-run
+
+ugc-generate: venv
+	$(PYTHON) tools/ugc.py generate $(UGC_ARGS)
+
 test: venv
 	$(PYTHON) -m pytest tests -q
 
 clean:
-	rm -rf dist/catalog.json dist/pins dist/pins_csv dist/reels .pytest_cache tools/__pycache__ tools/pinterest/__pycache__ tools/reels_gen/__pycache__
+	rm -rf dist/catalog.json dist/pins dist/pins_csv dist/reels dist/ugc .pytest_cache tools/__pycache__ tools/pinterest/__pycache__ tools/reels_gen/__pycache__ tools/ugc_gen/__pycache__
 
 tf-plan-bootstrap:
 	$(TF) -chdir=infra/bootstrap plan

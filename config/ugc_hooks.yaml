@@ -1,0 +1,96 @@
+# Hook bank for the UGC reaction video composer (tools/ugc.py). Each hook is
+# rendered on the near-black pill over the reaction clip's opening 1.8s.
+#
+# `emotion` picks which reaction clip the hook pairs with by default
+# (dist/reactions/*.mp4, matched by the emotion word after the last dash in
+# the filename; falls back to any reaction when nothing matches) and must be
+# one of: skeptical, confused, impressed, laughing, relieved, neutral.
+#
+# `category` is optional. When set, it prefers an app-action clip whose pose
+# carries that category (falls back to any app-action clip); when omitted,
+# the hook is generic and any app-action clip is fair game.
+#
+# No product claims, no numbers that could be false about the app itself.
+# "Act natural" is referenced exactly once (hook 3) -- deliberately, not
+# banned elsewhere.
+hooks:
+  - text: "The couple froze, so I said this."
+    emotion: relieved
+    category: couples
+  - text: "What I say when a client says ‘I hate photos.’"
+    emotion: relieved
+  - text: "I stopped saying ‘act natural.’ This is what I say instead."
+    emotion: relieved
+  - text: "This feels illegal for wedding photographers."
+    emotion: impressed
+    category: engagement
+  - text: "Golden hour is in 12 minutes. This is my shot list."
+    emotion: neutral
+  - text: "She said she didn’t know what to do with her hands. Here’s my line."
+    emotion: confused
+    category: couples
+  - text: "My groom looked like he was being arrested. One sentence fixed it."
+    emotion: laughing
+    category: engagement
+  - text: "The toddler would not stop crying. This line worked in ten seconds."
+    emotion: relieved
+    category: family
+  - text: "I said this and the whole family actually laughed for real."
+    emotion: laughing
+    category: family
+  - text: "Pregnant clients always ask where to put their arms. Here’s my go-to."
+    emotion: confused
+    category: maternity
+  - text: "Every senior session has this awkward pause. Here’s what breaks it."
+    emotion: confused
+    category: senior
+  - text: "This is the exact sentence that stops couples from posing like strangers."
+    emotion: impressed
+    category: couples
+  - text: "I used to dread stiff engagement shoots. Not anymore."
+    emotion: relieved
+    category: engagement
+  - text: "Watch what happens when I say this instead of ‘smile.’"
+    emotion: impressed
+  - text: "My client’s face when I said this mid-shoot."
+    emotion: laughing
+  - text: "This is what I say right before the ring shot."
+    emotion: impressed
+    category: engagement
+  - text: "Nervous bride? Say this instead of ‘relax.’"
+    emotion: skeptical
+    category: engagement
+  - text: "I didn’t believe this line would work until I tried it."
+    emotion: skeptical
+  - text: "Skeptical photographers, hear me out on this one."
+    emotion: skeptical
+  - text: "This sounds ridiculous. It works every single time."
+    emotion: skeptical
+  - text: "The dad was not having it. This line changed his whole mood."
+    emotion: relieved
+    category: family
+  - text: "Three generations, zero cooperation, one sentence."
+    emotion: relieved
+    category: family
+  - text: "This is the line that gets grandma to actually smile."
+    emotion: laughing
+    category: family
+  - text: "I said this to a couple who hadn’t spoken in twenty minutes."
+    emotion: confused
+    category: couples
+  - text: "My senior client’s mom started crying. Here’s what I said."
+    emotion: impressed
+    category: senior
+  - text: "This maternity prompt gets partners actually looking at each other."
+    emotion: impressed
+    category: maternity
+  - text: "Bump shoots get awkward fast. This line fixes it instantly."
+    emotion: relieved
+    category: maternity
+  - text: "Wait, that’s what you say to loosen people up?"
+    emotion: confused
+  - text: "I have never seen a client relax that fast."
+    emotion: impressed
+  - text: "This is the sentence I say right before every first look."
+    emotion: neutral
+    category: engagement

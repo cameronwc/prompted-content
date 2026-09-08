@@ -34,3 +34,12 @@ dist/pins_csv/
 # Reels pipeline: rendered videos, frames and CSVs are rebuilt from the
 # catalog; nothing under dist/reels/ is tracked.
 dist/reels/
+
+# UGC reaction video pipeline: rendered videos, frames and CSVs are rebuilt
+# from the hook bank + source clips; nothing under dist/ugc*/ is tracked.
+# Source clips themselves (dist/actions/, dist/reactions/) are also
+# generated/gitignored -- they come from other tools (app-screen recordings,
+# Zeely reaction generation), not from this repo.
+dist/ugc*/
+dist/actions/
+dist/reactions/
