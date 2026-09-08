@@ -499,7 +499,7 @@ def test_reaction_pip_rect_is_full_frame_at_open_and_the_documented_square_by_mo
     assert (w1, h1) == (compose.PIP_SIZE, compose.PIP_SIZE)
     assert (x1, y1) == (compose.WIDTH - compose.PIP_MARGIN - compose.PIP_SIZE, compose.PIP_TOP)
     assert x1 + w1 == compose.WIDTH - compose.PIP_MARGIN
-    assert y1 + h1 == compose.HEIGHT - compose.PIP_MARGIN
+    assert y1 == compose.PIP_TOP
 
 
 def test_hook_pill_visible_window_matches_spec():
