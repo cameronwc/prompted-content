@@ -1,0 +1,35 @@
+id: 01M26W750X77SCQTHV559TW7MS
+slug: last-dance-alone
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMM@J%Dg?akX_NNFx]kD_2f5Myi^D$x]9F%MNao#xuMx
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Nobody's watching this part. The guests are at the bar.
+  tone: nervous_client
+- text: Sway, then dip them slowly. Bring them back up laughing.
+  tone: romantic
+- text: Hold the bouquet low between you and just stand there.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

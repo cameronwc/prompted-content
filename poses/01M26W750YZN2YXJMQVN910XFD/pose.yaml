@@ -1,0 +1,35 @@
+id: 01M26W750YZN2YXJMQVN910XFD
+slug: first-look-reveal-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daLgz;^+%hIU~pR.%NxtRjM{IARiR+RjjYWBoKoJjZt7
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Lean in a little. A little more. That's exactly it.
+  tone: nervous_client
+- text: Who cried first at the ceremony? Point at them.
+  tone: playful
+- text: Say your favourite line from the vows again, quietly.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

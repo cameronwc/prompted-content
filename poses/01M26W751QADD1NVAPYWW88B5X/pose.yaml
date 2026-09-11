@@ -1,0 +1,36 @@
+id: 01M26W751QADD1NVAPYWW88B5X
+slug: hand-on-cheek-look-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVMa9N_2?v0L_NNKXT%1%gM|nhs8%MxanhIUo#t6RjRk
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Just walk toward me like you're late to your own cocktail hour.
+  tone: nervous_client
+- text: Walk away from me down the path. Don't look back yet.
+  tone: calm
+- text: Dance like the last song is playing and nobody's left.
+  tone: romantic
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active
+image_source: ai

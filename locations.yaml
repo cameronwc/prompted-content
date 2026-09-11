@@ -16,3 +16,7 @@ locations:
   lat: 33.5427
   lon: -117.7854
   location_type: home
+- name: Estate venue, southeastern Pennsylvania
+  lat: 40.0379
+  lon: -75.3436
+  location_type: urban

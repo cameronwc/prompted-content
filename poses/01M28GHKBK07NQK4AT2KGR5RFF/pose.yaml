@@ -1,0 +1,43 @@
+id: 01M28GHKBK07NQK4AT2KGR5RFF
+slug: arm-around-shoulder-laugh
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dDA,d[Di9F-VQkx]kr$f9Zt7aKX9KPIUxZIpOXWXbIV?
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position the subjects standing side-by-side, angled slightly inward toward each other and
+  facing the camera.
+- Have the partner on the right drape her arm over the other's far shoulder, pulling in tight.
+- Have the partner on the left wrap his arm firmly around her waist, locking bodies together
+  at the hip.
+- Direct both subjects to lean in close with wide, open smiles and authentic laughter directed
+  right at the lens.
+prompts:
+- text: Pull each other in tight and don't worry about being neat—just go for the big hug.
+  tone: nervous_client
+- text: On three, give me your loudest, most dramatic party cheer.
+  tone: playful
+- text: Squeeze in close and hold on like you own the night.
+  tone: romantic
+gear:
+  focal_mm:
+  - 60
+  - 60
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

@@ -120,6 +120,14 @@ def build_prompt(pose: dict) -> str:
 
     if category == "couples":
         who = "a couple, two adults"
+    elif category == "wedding":
+        if n > 2:
+            who = (f"a newly married couple with their wedding party, {n} adults total, "
+                   "in wedding attire (a wedding dress and suits or bridesmaid dresses)")
+        elif "senior_adult" in pose["subject_types"]:
+            who = "a bride or groom in wedding attire dancing with an older parent"
+        else:
+            who = "a newly married couple, two adults, in a wedding dress and a suit"
     elif category == "senior":
         who = "one teenager, a high-school senior portrait"
     elif category == "maternity":

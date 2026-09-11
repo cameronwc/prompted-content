@@ -1,0 +1,36 @@
+id: 01M26W751JSE6ZWCAF60QEG0Y8
+slug: wedding-party-serious-then-laugh-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dEHK^8s:9ZE11ZjcWEog^$RkxZxZR=xtIUNG?Hj?t8bI
+placeholder: false
+categories:
+- wedding
+subject_count: 6
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- forest
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Blink, breathe, fix the veil if you want. I'll wait.
+  tone: nervous_client
+- text: Whisper your table number in a very sexy voice.
+  tone: playful
+- text: One hand on their chest. Feel that? Good. Stay.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

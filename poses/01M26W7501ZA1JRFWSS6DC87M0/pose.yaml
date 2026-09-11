@@ -1,0 +1,43 @@
+id: 01M26W7501ZA1JRFWSS6DC87M0
+slug: veil-wrap-kiss
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKHxQUM{I9kD0eM{bwxuoeWW%3V?-pads;R-IVIVt7xt
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You can look at me or at each other. Both are right.
+  tone: nervous_client
+- text: 'Groomsmen: too cool for photos. Now break and lose it.'
+  tone: playful
+- text: Hold the bouquet low between you and just stand there.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the bride on the left and the groom on the right, facing directly toward each other
+  in a complete side profile.
+- Have the groom wrap his arm around the bride's lower back or waist to pull her close, while
+  the bride lifts her arm to rest her hand gently on the side of his neck or jawline.
+- Instruct the couple to close their eyes and lean in for a gentle, romantic kiss on the lips.
+- Drape the bride's long sheer veil up and over both of their heads to create an intimate
+  canopy surrounding their upper bodies.

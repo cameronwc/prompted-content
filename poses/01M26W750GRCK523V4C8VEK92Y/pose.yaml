@@ -1,0 +1,35 @@
+id: 01M26W750GRCK523V4C8VEK92Y
+slug: dress-button-help
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQHxQR0MIT^*o]M|f-Io^+acn*kDkEWBays-xuj=R+j@
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If it feels like a lot, laugh at me. That's my favourite frame.
+  tone: nervous_client
+- text: Kiss like the first dance just ended.
+  tone: romantic
+- text: Forehead to forehead. Breathe out at the same time.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active
+image_source: ai

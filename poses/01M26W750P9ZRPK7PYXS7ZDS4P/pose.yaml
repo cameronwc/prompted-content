@@ -1,0 +1,35 @@
+id: 01M26W750P9ZRPK7PYXS7ZDS4P
+slug: groom-with-party-lean
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKJQs5?a+Z%h~BW?%NkX-:ogbdbHxaxYniozbwofNGbb
+placeholder: false
+categories:
+- wedding
+subject_count: 5
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You've already done the hard part. This is the easy part.
+  tone: nervous_client
+- text: Whoever leads the dance is wrong. Fight about it silently.
+  tone: playful
+- text: One hand on their chest. Feel that? Good. Stay.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

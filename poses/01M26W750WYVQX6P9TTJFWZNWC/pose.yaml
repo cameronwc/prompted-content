@@ -1,0 +1,36 @@
+id: 01M26W750WYVQX6P9TTJFWZNWC
+slug: window-light-dress-portrait
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dyM%r^xtf4M{_4ayogoftmNHWEs:tRa}aeayadj@j@WX
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The dress is already doing half the work. You just have to hold hands.
+  tone: nervous_client
+- text: Dance like the last song is playing and nobody's left.
+  tone: romantic
+- text: Sneak a kiss like the officiant hasn't said you can yet.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active
+image_source: ai

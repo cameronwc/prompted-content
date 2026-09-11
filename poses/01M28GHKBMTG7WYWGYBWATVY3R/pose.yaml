@@ -1,0 +1,42 @@
+id: 01M28GHKBMTG7WYWGYBWATVY3R
+slug: night-kiss-dress-train
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dgEfQZ%M00IU9FIUxu%MWBxuxuRjIVj[t7M{azj[s:of
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple standing chest-to-chest in full profile to the camera against the dark
+  background.
+- Have the groom wrap his arm firmly around the bride's waist, pulling her flush against him.
+- Have the bride bring her arms up around the groom's neck, resting her hands along the back
+  of his shoulders and neck.
+- Direct them to tilt their heads slightly and lean into a full, connected kiss.
+prompts:
+- text: Forget about the flash and the dark out here. Just pull each other close.
+  tone: nervous_client
+- text: Kiss like you just successfully snuck away from your own reception.
+  tone: playful
+- text: Wrap your arms around his neck, pull him close, and don't let go.
+  tone: romantic
+gear:
+  focal_mm:
+  - 55
+  - 55
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

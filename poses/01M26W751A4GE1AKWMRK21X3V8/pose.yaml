@@ -1,0 +1,37 @@
+id: 01M26W751A4GE1AKWMRK21X3V8
+slug: cake-table-lean-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIDl~E,mEO4nIp4TtmsolAM{%LwbXnnh%LM_S5VsofNG
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: If your hands feel weird, hold each other's. Problem solved.
+  tone: nervous_client
+- text: Look at each other like you did at the end of the aisle.
+  tone: romantic
+- text: Ring check! Show me the hands like you're bragging.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active
+image_source: ai

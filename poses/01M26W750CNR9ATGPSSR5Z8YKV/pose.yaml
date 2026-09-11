@@ -1,0 +1,35 @@
+id: 01M26W750CNR9ATGPSSR5Z8YKV
+slug: cake-table-lean
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYM7P%IT%M9G_NaxkWRP_2NHIU%2WYt7RPt8tQjYt7f6
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Just walk toward me like you're late to your own cocktail hour.
+  tone: nervous_client
+- text: Whoever leads the dance is wrong. Fight about it silently.
+  tone: playful
+- text: Hold their face like you're memorising it.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

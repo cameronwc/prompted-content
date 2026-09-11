@@ -1,0 +1,36 @@
+id: 01M26W7519DJH3AQ8G2QJSWB8R
+slug: bubble-exit-arms-up-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOD]PIxt9F01ROM|-;-;D*M|xat6NeWXRPM|ozxZR*Rk
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody's watching this part. The guests are at the bar.
+  tone: nervous_client
+- text: Stand in the doorway and let the light do the rest.
+  tone: calm
+- text: Pull the veil around both of you like a tent for two.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active
+image_source: ai

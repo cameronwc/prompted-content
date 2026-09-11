@@ -1,0 +1,45 @@
+id: 01M28GHKBG8E7MSSKG0XZ6M39D
+slug: dance-floor-circle
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dJDuGHNxRk$PEK$$-oSe0#xZIoIpE1I;I;%1xtIpjsxX
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 7
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: moderate
+instructions:
+- Gather the couple and a small group of guests or bridal party members into a loose, tight
+  semi-circle on the dance floor.
+- Position the bride and groom near the center-right, angled inward toward the rest of the
+  group.
+- Have surrounding guests face one another at dynamic, varying angles with weight shifted
+  playfully and hands mid-motion as if actively dancing.
+- Instruct everyone to focus their attention across the circle on each other rather than the
+  camera to maintain candid energy.
+prompts:
+- text: Ignore the camera completely. Just turn in toward each other and lock eyes with whoever
+    makes you laugh hardest.
+  tone: nervous_client
+- text: On three, show off your absolute worst signature dance move.
+  tone: playful
+- text: Drop your shoulders, shake out your hands, and just fall into the rhythm together.
+  tone: calm
+gear:
+  focal_mm:
+  - 36
+  - 36
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

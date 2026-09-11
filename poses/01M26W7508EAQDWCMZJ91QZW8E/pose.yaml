@@ -1,0 +1,35 @@
+id: 01M26W7508EAQDWCMZJ91QZW8E
+slug: dress-twirl-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPB|EG-:0K4.4nIU%M-:WAkDxus,tRt7RiRPE1Rixat7
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If your hands feel weird, hold each other's. Problem solved.
+  tone: nervous_client
+- text: Sneak a kiss like the officiant hasn't said you can yet.
+  tone: playful
+- text: Stand in the doorway and let the light do the rest.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

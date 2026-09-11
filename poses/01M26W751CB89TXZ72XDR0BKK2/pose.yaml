@@ -1,0 +1,36 @@
+id: 01M26W751CB89TXZ72XDR0BKK2
+slug: stairs-train-spread-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQKdxc~pE1M{%LMx%N-;aJM|fkkA.8xuM_RPM{n$RjbI
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Take one slow breath together. Now look up.
+  tone: nervous_client
+- text: Ring check! Show me the hands like you're bragging.
+  tone: playful
+- text: Sway, then dip them slowly. Bring them back up laughing.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 1
+status: active
+image_source: ai

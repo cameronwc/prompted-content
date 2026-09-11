@@ -1,0 +1,44 @@
+id: 01M28GHKBE691E3SAF8FS9RFW9
+slug: bride-over-shoulder-with-drink
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dsJ?.#-UI:Ip0hbHRkazWAI;xZs.IpbHt7oLNIoLaekC
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+instructions:
+- Have the subject stand angled slightly away from the camera, holding a drink with both hands
+  near her chest.
+- Ask her to turn her head and look back over her bare shoulder directly into the lens with
+  a warm, open smile.
+- Frame from the chest up, keeping the focus sharp on her eyes while letting the ambient party
+  background blur behind her.
+prompts:
+- text: Keep holding onto your drink—it gives your hands something to do. Just look back over
+    your shoulder at me.
+  tone: nervous_client
+- text: Look back at me like I just walked up with the best gossip of the whole night.
+  tone: playful
+- text: Take a breath, relax your shoulders down, and just give me a soft smile over your
+    shoulder.
+  tone: calm
+gear:
+  focal_mm:
+  - 37
+  - 37
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

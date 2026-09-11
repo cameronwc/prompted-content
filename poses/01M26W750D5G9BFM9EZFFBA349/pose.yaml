@@ -1,0 +1,35 @@
+id: 01M26W750D5G9BFM9EZFFBA349
+slug: champagne-toast
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d#MH3;xts*M|_4WCtRkCx^RkRns.XAocRjjYadayjYa#
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Whisper what you're most excited about tonight. I won't hear it.
+  tone: nervous_client
+- text: Who cried first at the ceremony? Point at them.
+  tone: playful
+- text: Hug like you just got told the good news.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

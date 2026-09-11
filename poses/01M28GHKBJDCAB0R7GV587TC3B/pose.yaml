@@ -1,0 +1,45 @@
+id: 01M28GHKBJDCAB0R7GV587TC3B
+slug: bride-and-bridesmaids-arms-up
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dJDSOE?v=_9t4m9FIpWr9^x]W=snNxt7n$s:$jaKWCkB
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 6
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+instructions:
+- Arrange the group in a tight horizontal line with the bride positioned slightly left of
+  center, having everyone wrap their arms around each other's waists and shoulders to eliminate
+  gaps.
+- Have the bride raise one arm high overhead in a joyful celebration, keeping her other side
+  pressed close to the bridesmaids.
+- Angle the two people on the outer ends inward toward the middle to frame the line, resting
+  their outer hands naturally on hips or holding a drink.
+- Instruct everyone to lean in slightly toward the camera with big, candid, cheering expressions.
+prompts:
+- text: Don't worry about posing pretty for this one. Just squeeze together tight and let's
+    get loud.
+  tone: nervous_client
+- text: On three, give me your biggest hype-girl cheer at the top of your lungs!
+  tone: playful
+- text: Pull each other in as close as you can and look right down the lens.
+  tone: calm
+gear:
+  focal_mm:
+  - 31
+  - 31
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

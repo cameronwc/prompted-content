@@ -1,0 +1,35 @@
+id: 01M26W750N4X23N7J9RSNAXTRK
+slug: bride-with-party-arms-up
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHB{}l?G4.9v02NG%2$%55Ip%3xY%3%1InI;t5NGs:xa
+placeholder: false
+categories:
+- wedding
+subject_count: 5
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: If your hands feel weird, hold each other's. Problem solved.
+  tone: nervous_client
+- text: Cheers with nothing in your hands. Sell it.
+  tone: playful
+- text: Look down at your rings, then up at each other.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

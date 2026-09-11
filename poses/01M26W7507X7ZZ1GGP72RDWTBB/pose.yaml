@@ -1,0 +1,42 @@
+id: 01M26W7507X7ZZ1GGP72RDWTBB
+slug: forehead-to-forehead-vows
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSK^vl=_V=9a_NRjxu%1-oM|ROn$NaWXNGRk-;t7Mwbb
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- backlit
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Blink, breathe, fix the veil if you want. I'll wait.
+  tone: nervous_client
+- text: Whisper your table number in a very sexy voice.
+  tone: playful
+- text: Hold hands and walk. I'll follow behind you.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the couple facing directly toward each other in a clean side profile relative to
+  the camera, standing close together with balanced, upright postures.
+- Instruct them to bring their foreheads gently together to touch, closing their eyes and
+  softening their facial expressions into a peaceful, intimate moment.
+- Have both subjects lower their arms straight down in front of them and interlock or hold
+  their hands together at low-waist level between their bodies.

@@ -1,0 +1,36 @@
+id: 01M26W751V75NC2NGT87QD9YVG
+slug: last-dance-alone-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFJacRRjZz0L5*IVJC%MOEIpV{?E~WxZr?NFNLM|W=NG
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Whisper what you're most excited about tonight. I won't hear it.
+  tone: nervous_client
+- text: Turn away from me and look at the same thing together.
+  tone: calm
+- text: Hold their face like you're memorising it.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

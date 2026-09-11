@@ -11,3 +11,5 @@ entries:
     display: Family
   - id: maternity
     display: Maternity
+  - id: wedding
+    display: Wedding

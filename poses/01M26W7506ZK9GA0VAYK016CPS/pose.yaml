@@ -1,0 +1,47 @@
+id: 01M26W7506ZK9GA0VAYK016CPS
+slug: ring-hands-detail
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYLXD5-p?v%M~q9FoeaeS$S5%2ozM{ofRkfRsAaekBV[
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The tie is fine. The hair is fine. You're fine.
+  tone: nervous_client
+- text: Nose to nose. Don't kiss yet. Wait for it.
+  tone: romantic
+- text: Look down at your rings, then up at each other.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the bride and groom standing facing each other indoors near soft window light,
+  setting up a tight, vertical detail composition framed from the mid-chest to the waist.
+- Have the bride on the left extend her left arm slightly forward with her wrist relaxed and
+  fingers gently curled downward, positioning her hand so her wedding ring faces toward the
+  camera.
+- Instruct the groom on the right to reach in with his left hand, lightly grasping and resting
+  his fingers over the top of the bride's hand while angling his hand to clearly showcase
+  his wedding band.
+- Ensure both subjects keep their hands relaxed and natural without gripping tightly, placing
+  the joined hands centrally in the frame with the bride's lace dress on the left and the
+  groom's suit sleeve on the right.

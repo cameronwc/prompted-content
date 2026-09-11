@@ -1,0 +1,35 @@
+id: 01M26W751NEFRN81Z6EN08VWY3
+slug: golden-hour-walk-away-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOH_lO%L4T4.~VWVIUbH_NW=IAs,_3t7MxWBxvt7WAWC
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: You can look at me or at each other. Both are right.
+  tone: nervous_client
+- text: Say your favourite line from the vows again, quietly.
+  tone: romantic
+- text: 'Bridal party: react like the bride just told the best secret.'
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

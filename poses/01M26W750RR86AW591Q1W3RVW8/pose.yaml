@@ -1,0 +1,36 @@
+id: 01M26W750RR86AW591Q1W3RVW8
+slug: night-portrait-under-string-lights
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dDC?M#xa009H9ZM|tS%MNFR.xuxCt3xZsnRjENfkR%Rk
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The tie is fine. The hair is fine. You're fine.
+  tone: nervous_client
+- text: Tell each other the worst dad joke you know. Winner gets cake.
+  tone: playful
+- text: Look at each other like you did at the end of the aisle.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

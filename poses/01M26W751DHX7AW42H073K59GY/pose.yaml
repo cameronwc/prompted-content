@@ -1,0 +1,35 @@
+id: 01M26W751DHX7AW42H073K59GY
+slug: getting-ready-tie-fix-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dRLE4vrp_301xZadIp%2-;R+af%LtSNGt6M{t7V@e.Rj
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Whisper what you're most excited about tonight. I won't hear it.
+  tone: nervous_client
+- text: Turn away from me and look at the same thing together.
+  tone: calm
+- text: Pull the veil around both of you like a tent for two.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

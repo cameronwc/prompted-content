@@ -1,0 +1,43 @@
+id: 01M26W750308P4GJD0KAEH18WB
+slug: first-dance-sway
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXA^d{ogE1Rktpa#t7ofkua}jZjrkYaxjYjtaxaxf5a#
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- blue
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Say something only the two of you would find funny.
+  tone: nervous_client
+- text: Stand together and look out over the room. Take it in.
+  tone: calm
+- text: Bouquet up like a trophy. Groom, be the confetti.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the couple standing close together and facing each other directly in profile relative
+  to the camera.
+- Have them gently touch their foreheads together with their eyes softly closed or cast downward.
+- Direct the groom to place his camera-facing hand lightly around the bride's natural waistline.
+- Instruct the bride to let her camera-facing arm hang straight down, holding her bouquet
+  casually at hip level with the stems pointing upward.

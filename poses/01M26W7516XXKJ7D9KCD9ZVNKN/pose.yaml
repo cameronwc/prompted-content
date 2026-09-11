@@ -1,0 +1,35 @@
+id: 01M26W7516XXKJ7D9KCD9ZVNKN
+slug: dress-twirl-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFNAVLVqWA0K?bae%Nxtw@D*D%%2kqt6jFt7jERPkCM{
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The tie is fine. The hair is fine. You're fine.
+  tone: nervous_client
+- text: Spin the dress like you paid for the whole thing. You did.
+  tone: playful
+- text: Sit on the step and let the dress fall where it falls.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

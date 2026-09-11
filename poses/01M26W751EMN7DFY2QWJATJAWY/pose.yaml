@@ -1,0 +1,35 @@
+id: 01M26W751EMN7DFY2QWJATJAWY
+slug: dress-button-help-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVMaY7tStR9alVf,tRkCk?IoRPxtx^slaKf5NHRjkCbH
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can look at me or at each other. Both are right.
+  tone: nervous_client
+- text: Close your eyes. Feel their hand. Open when you're ready.
+  tone: calm
+- text: Look at each other like you did at the end of the aisle.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

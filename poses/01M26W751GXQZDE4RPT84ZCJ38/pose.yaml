@@ -1,0 +1,35 @@
+id: 01M26W751GXQZDE4RPT84ZCJ38
+slug: wedding-party-walk-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUKnST?v%MRjWB.8WXay_N%Mo0ocxv%MRjM{o#WCV@az
+placeholder: false
+categories:
+- wedding
+subject_count: 6
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: I'll tell you when to look at me. Until then, ignore me completely.
+  tone: nervous_client
+- text: Look down at your rings, then up at each other.
+  tone: calm
+- text: Cheers with nothing in your hands. Sell it.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

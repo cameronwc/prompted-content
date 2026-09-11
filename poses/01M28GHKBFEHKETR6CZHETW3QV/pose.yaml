@@ -1,0 +1,41 @@
+id: 01M28GHKBFEHKETR6CZHETW3QV
+slug: parents-slow-dance-laugh
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dnI}hg~ptRWV8_IUM{t7kCIURjV@E1xut6R+S~bbt6o0
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- senior_adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+instructions:
+- Position the couple facing each other in full profile to the camera, standing close at slow-dance
+  distance.
+- Have the partner on the right place their hand on the other's chest and shoulder.
+- Have the partner on the left wrap their arms gently around the other's waist.
+- Prompt them to look directly at each other, share a laugh, and lean in slightly.
+prompts:
+- text: You don't need to look at me at all. Just look right at each other.
+  tone: nervous_client
+- text: Whisper the absolute worst pickup line you can think of.
+  tone: playful
+- text: Pull each other in close and start a slow sway together.
+  tone: romantic
+gear:
+  focal_mm:
+  - 37
+  - 37
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

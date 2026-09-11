@@ -1,0 +1,37 @@
+id: 01M26W751F2D349MQC9G7XHJQM
+slug: parent-dance-laugh-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkMGquWUV=V[~qWAt7og%$WXR-ae%hoeRkjZxuoexZj]
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+- senior_adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: I'll tell you when to look at me. Until then, ignore me completely.
+  tone: nervous_client
+- text: Forehead to forehead. Breathe out at the same time.
+  tone: calm
+- text: Who cried first at the ceremony? Point at them.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

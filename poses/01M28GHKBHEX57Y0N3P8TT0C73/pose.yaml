@@ -1,0 +1,42 @@
+id: 01M28GHKBHEX57Y0N3P8TT0C73
+slug: groomsmen-point-at-camera
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dTFYP@~Wn3xZ8^r=%Mn$D%Mxs:%2%gtRVsM_R*NGbboz
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+instructions:
+- Position both subjects standing tightly shoulder-to-shoulder, angled slightly inward toward
+  each other.
+- Have each person wrap their inside arm around the other's back or waist in a close bro-hug
+  lock.
+- Instruct both subjects to reach their free outside hand directly toward the camera lens
+  in a relaxed pointing gesture, leaning slightly forward into the frame.
+prompts:
+- text: Don't worry about looking formal here. Pull each other in and give the lens some attitude.
+  tone: nervous_client
+- text: Reach right out toward the lens like you're dropping the hottest track of the night.
+  tone: playful
+- text: Hold right there, lock eyes with the lens, and don't break.
+  tone: calm
+gear:
+  focal_mm:
+  - 52
+  - 52
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

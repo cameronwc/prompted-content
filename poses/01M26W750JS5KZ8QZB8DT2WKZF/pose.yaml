@@ -1,0 +1,37 @@
+id: 01M26W750JS5KZ8QZB8DT2WKZF
+slug: wedding-party-walk
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9G*p2wMMv0LKu9a%hxtNFERoh-l?I~BVrIo9u%KtQNz
+placeholder: false
+categories:
+- wedding
+subject_count: 4
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- forest
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: You can look at me or at each other. Both are right.
+  tone: nervous_client
+- text: Slow dance without music. Just sway.
+  tone: calm
+- text: Cheers with nothing in your hands. Sell it.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active
+image_source: ai

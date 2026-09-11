@@ -1,0 +1,38 @@
+id: 01M26W750EHN79SHDKNHJ0PWWD
+slug: stairs-train-spread
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUL;EL-ntSD%~qM{tRs,x]R.WCn$-=kCRkRjWCoLWBf*
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Take one slow breath together. Now look up.
+  tone: nervous_client
+- text: Wrap your arms around from behind and rest your chin on their shoulder.
+  tone: romantic
+- text: Close your eyes. Feel their hand. Open when you're ready.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- seated_variant
+- wheelchair
+version: 1
+status: active
+image_source: ai

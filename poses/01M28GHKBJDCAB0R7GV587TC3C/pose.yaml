@@ -1,0 +1,44 @@
+id: 01M28GHKBJDCAB0R7GV587TC3C
+slug: slow-dance-close-hold-night
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dKBfCBe-58Ne0hNbt5={$%s:s:IoE2xZxaEMaya}WVxZ
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+instructions:
+- Have the couple face each other in a close partner dance hold, with the man facing slightly
+  toward camera and the woman angled three-quarters away.
+- Place the man's right hand securely on the woman's lower back and raise their joined outer
+  hands out to the side at chest level.
+- Position the woman's left arm wrapped around his side or shoulder, keeping her profile visible
+  to the lens.
+- Have them gently sway or take a small step together, with the man looking down warmly at
+  her face.
+prompts:
+- text: Forget I'm standing here with a flash. Just look right at each other and breathe.
+  tone: nervous_client
+- text: Try a slow, gentle sway — no rhythm required, just move together.
+  tone: playful
+- text: Hold each other close, like you're the last two people left at the party.
+  tone: romantic
+gear:
+  focal_mm:
+  - 58
+  - 58
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

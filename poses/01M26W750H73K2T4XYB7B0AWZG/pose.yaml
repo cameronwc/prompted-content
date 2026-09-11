@@ -1,0 +1,37 @@
+id: 01M26W750H73K2T4XYB7B0AWZG
+slug: parent-dance-laugh
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIBDvh#i0g9ZJDI9-o?ITfROs+o#TfROj]W?kXaJWYSi
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+- senior_adult
+light_conditions:
+- blue
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Forget the schedule for two minutes. It's just the two of you and me.
+  tone: nervous_client
+- text: Turn away from me and look at the same thing together.
+  tone: calm
+- text: Tell each other the worst dad joke you know. Winner gets cake.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

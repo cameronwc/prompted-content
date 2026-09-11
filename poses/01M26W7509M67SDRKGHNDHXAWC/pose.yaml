@@ -1,0 +1,36 @@
+id: 01M26W7509M67SDRKGHNDHXAWC
+slug: jacket-over-shoulders
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVKA$mM_M{0L+sIVNIX9^%R,IpjY%LayofV?WYWBkCt6
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody's watching this part. The guests are at the bar.
+  tone: nervous_client
+- text: One hand on their chest. Feel that? Good. Stay.
+  tone: calm
+- text: Run at me like the bar is behind me. It is.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 1
+status: active
+image_source: ai

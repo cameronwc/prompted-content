@@ -1,0 +1,46 @@
+id: 01M28GHKBK07NQK4AT2KGR5RFG
+slug: bubble-exit-arms-raised
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: dPEf1j9Z9F^+01%M-;D%E1s:WBNGNyM{M{-paeofxuRj
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: moderate
+instructions:
+- Line up guests into two facing rows to form an open aisle for the exit pathway, arming them
+  with bubble wands.
+- Position the couple at the start of the aisle, having them hold their inside hands linked
+  and raised high above their heads in celebration.
+- Instruct the couple to walk briskly forward down the center together, cheering and waving
+  their outside free hands toward the crowd and camera.
+- Direct the guests on both flanks to actively blow bubbles inward across the couple's walking
+  path throughout the exit.
+prompts:
+- text: Don't worry about dodging the bubbles or looking perfect. Just lock hands high and
+    walk straight toward me.
+  tone: nervous_client
+- text: Hands straight up in the air like you just won the championship—take your victory
+    lap!
+  tone: playful
+- text: Sneak a quick glance at each other halfway down and take in the moment together.
+  tone: romantic
+gear:
+  focal_mm:
+  - 30
+  - 30
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

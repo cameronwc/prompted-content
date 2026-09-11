@@ -1,0 +1,35 @@
+id: 01M26W751896V5Z55BDZF2H1BA
+slug: sparkler-exit-run-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dILNY:xZ9Z9a~ox]tRxu-TNHD%-;ELfkafIUM{jY%MNG
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Forget the schedule for two minutes. It's just the two of you and me.
+  tone: nervous_client
+- text: Rest your head on their shoulder and just watch the lights.
+  tone: calm
+- text: Hold their face like you're memorising it.
+  tone: romantic
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

@@ -1,0 +1,43 @@
+id: 01M26W7504PYT2GK1S5B5RH2YR
+slug: dip-on-the-dance-floor
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dqMQLtn#r;o#~qj]t7WA%hR*R.s,%hjYNGkDWYofoeRj
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You've already done the hard part. This is the easy part.
+  tone: nervous_client
+- text: Pull the veil around both of you like a tent for two.
+  tone: romantic
+- text: 'Bridal party: react like the bride just told the best secret.'
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the groom stand on the right in a wide, stable stance, facing left toward the bride.
+- Instruct the groom to support the bride securely by wrapping his hands around her lower
+  back and waist, guiding her to arch backward into a controlled dip to the left.
+- Have the bride let her front arm hang relaxed straight downward toward the ground, loosely
+  gripping the stems of her bouquet upside down.
+- Direct the groom to lean his upper body forward over the bride, bringing their faces very
+  close together so they can smile and laugh directly into each other's eyes.

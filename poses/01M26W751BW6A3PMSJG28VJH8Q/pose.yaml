@@ -1,0 +1,36 @@
+id: 01M26W751BW6A3PMSJG28VJH8Q
+slug: champagne-toast-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJFr%^%14.0KIlD+tR?apFbcsAxVkpW:V[R%jIxGRkbb
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Just walk toward me like you're late to your own cocktail hour.
+  tone: nervous_client
+- text: Pretend I'm the DJ and I just played your guilty pleasure song.
+  tone: playful
+- text: Hug like you just got told the good news.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

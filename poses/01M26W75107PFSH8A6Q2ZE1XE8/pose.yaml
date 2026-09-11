@@ -1,0 +1,36 @@
+id: 01M26W75107PFSH8A6Q2ZE1XE8
+slug: aisle-walk-back-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daN^YoXT%gE2%%ozWrfkx^InIU%2tRjYn$ayRkWXkCR*
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You've already done the hard part. This is the easy part.
+  tone: nervous_client
+- text: Nose to nose. Don't kiss yet. Wait for it.
+  tone: romantic
+- text: Forehead to forehead. Breathe out at the same time.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 1
+status: active
+image_source: ai

@@ -39,7 +39,7 @@ BLURHASH_PENDING = "PENDING-RUN-MAKE-PLACEHOLDERS"
 
 
 def c(slug, difficulty=None, seated=False, partner=False, pet=False,
-      toddler=False, horizontal=False):
+      toddler=False, horizontal=False, party=False, elder=False):
     return {
         "slug": slug,
         "difficulty": difficulty,
@@ -48,6 +48,8 @@ def c(slug, difficulty=None, seated=False, partner=False, pet=False,
         "pet": pet,
         "toddler": toddler,
         "horizontal": horizontal,
+        "party": party,    # wedding: the couple with their wedding party
+        "elder": elder,    # wedding: one of the couple with a parent
     }
 
 
@@ -179,6 +181,38 @@ CONCEPTS = {
         c("staircase-gown", difficulty="moderate"),
         c("wildflower-crown"),
         c("partner-bench-lean", partner=True, seated=True),
+    ],
+    "wedding": [
+        c("first-look-reveal"),
+        c("veil-wrap-kiss"),
+        c("aisle-walk-back", horizontal=True),
+        c("first-dance-sway"),
+        c("dip-on-the-dance-floor", difficulty="advanced"),
+        c("bouquet-between-them"),
+        c("ring-hands-detail"),
+        c("forehead-to-forehead-vows"),
+        c("dress-twirl", difficulty="moderate"),
+        c("jacket-over-shoulders"),
+        c("sparkler-exit-run", difficulty="moderate", horizontal=True),
+        c("bubble-exit-arms-up", difficulty="moderate", horizontal=True),
+        c("cake-table-lean"),
+        c("champagne-toast"),
+        c("stairs-train-spread", seated=True),
+        c("getting-ready-tie-fix"),
+        c("dress-button-help"),
+        c("parent-dance-laugh", elder=True),
+        c("wedding-party-walk", party=True, horizontal=True),
+        c("wedding-party-huddle-cheer", party=True),
+        c("wedding-party-serious-then-laugh", party=True, horizontal=True),
+        c("bride-with-party-arms-up", party=True, horizontal=True),
+        c("groom-with-party-lean", party=True, horizontal=True),
+        c("golden-hour-walk-away", horizontal=True),
+        c("night-portrait-under-string-lights"),
+        c("hand-on-cheek-look"),
+        c("carry-lift-laugh", difficulty="advanced"),
+        c("seated-lap-pull-in", seated=True),
+        c("window-light-dress-portrait"),
+        c("last-dance-alone", horizontal=True),
     ],
 }
 
@@ -441,6 +475,74 @@ PROMPTS = {
             "Introduce the bump to the camera. Full name optional.",
         ],
     },
+    "wedding": {
+        "nervous_client": [
+            "Forget the schedule for two minutes. It's just the two of you and me.",
+            "You don't have to perform anything. Stand close and breathe.",
+            "The dress is already doing half the work. You just have to hold hands.",
+            "Nobody's watching this part. The guests are at the bar.",
+            "Whisper what you're most excited about tonight. I won't hear it.",
+            "If your hands feel weird, hold each other's. Problem solved.",
+            "You can look at me or at each other. Both are right.",
+            "Blink, breathe, fix the veil if you want. I'll wait.",
+            "You've already done the hard part. This is the easy part.",
+            "Say something only the two of you would find funny.",
+            "Lean in a little. A little more. That's exactly it.",
+            "The tie is fine. The hair is fine. You're fine.",
+            "Take one slow breath together. Now look up.",
+            "I'll tell you when to look at me. Until then, ignore me completely.",
+            "If it feels like a lot, laugh at me. That's my favourite frame.",
+            "Just walk toward me like you're late to your own cocktail hour.",
+        ],
+        "playful": [
+            "Ring check! Show me the hands like you're bragging.",
+            "Who cried first at the ceremony? Point at them.",
+            "Spin the dress like you paid for the whole thing. You did.",
+            "Give me your best 'we did it' face on three.",
+            "Cheers with nothing in your hands. Sell it.",
+            "Pretend I'm the DJ and I just played your guilty pleasure song.",
+            "Whoever leads the dance is wrong. Fight about it silently.",
+            "Bridal party: react like the bride just told the best secret.",
+            "Groomsmen: too cool for photos. Now break and lose it.",
+            "Sneak a kiss like the officiant hasn't said you can yet.",
+            "Bouquet up like a trophy. Groom, be the confetti.",
+            "Run at me like the bar is behind me. It is.",
+            "Tell each other the worst dad joke you know. Winner gets cake.",
+            "Everyone hands in the air like the bubbles are winning.",
+            "Whisper your table number in a very sexy voice.",
+            "Cake face threat. Don't do it. Just threaten.",
+        ],
+        "calm": [
+            "Stand together and look out over the room. Take it in.",
+            "Rest your head on their shoulder and just watch the lights.",
+            "Slow dance without music. Just sway.",
+            "Hold hands and walk. I'll follow behind you.",
+            "Fix each other's collar, sleeve, hair. Slowly.",
+            "Close your eyes. Feel their hand. Open when you're ready.",
+            "Sit on the step and let the dress fall where it falls.",
+            "Turn away from me and look at the same thing together.",
+            "Forehead to forehead. Breathe out at the same time.",
+            "Hold the bouquet low between you and just stand there.",
+            "Look down at your rings, then up at each other.",
+            "Stand in the doorway and let the light do the rest.",
+            "One hand on their chest. Feel that? Good. Stay.",
+            "Walk away from me down the path. Don't look back yet.",
+        ],
+        "romantic": [
+            "Kiss like the first dance just ended.",
+            "Pull the veil around both of you like a tent for two.",
+            "Say your favourite line from the vows again, quietly.",
+            "Lift their chin and wait. Let them come to you.",
+            "Hold their face like you're memorising it.",
+            "Dance like the last song is playing and nobody's left.",
+            "Hug like you just got told the good news.",
+            "Nose to nose. Don't kiss yet. Wait for it.",
+            "Wrap your arms around from behind and rest your chin on their shoulder.",
+            "Look at each other like you did at the end of the aisle.",
+            "Slow kiss on the forehead. Hold it.",
+            "Sway, then dip them slowly. Bring them back up laughing.",
+        ],
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -478,6 +580,11 @@ LOCATION_WEIGHTS = {
         ("studio", 24), ("home", 22), ("field", 20), ("beach", 12),
         ("forest", 12), ("urban", 6), ("mountain", 4),
     ],
+    # Venue grounds read as field/urban; getting-ready and reception rooms as home.
+    "wedding": [
+        ("field", 26), ("urban", 22), ("home", 18), ("forest", 12),
+        ("beach", 10), ("mountain", 8), ("studio", 4),
+    ],
 }
 
 GEAR_KITS = {
@@ -485,6 +592,7 @@ GEAR_KITS = {
     "senior": [([85, 135], "f/1.8"), ([50, 85], "f/2"), ([35, 50], "f/2.8"), ([70, 200], "f/2.8")],
     "family": [([35, 50], "f/4"), ([24, 35], "f/4"), ([50, 85], "f/2.8"), ([35, 70], "f/3.2")],
     "maternity": [([50, 85], "f/2"), ([85, 135], "f/2.8"), ([35, 50], "f/2.8"), ([24, 35], "f/4")],
+    "wedding": [([35, 50], "f/2"), ([50, 85], "f/1.8"), ([85, 135], "f/2"), ([24, 70], "f/2.8")],
 }
 
 INDOOR_LOCATIONS = {"studio", "home"}
@@ -541,6 +649,14 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
     # Subjects
     if category in ("couples",):
         subject_count, subject_types = 2, ["adult"]
+    elif category == "wedding":
+        if concept["party"]:
+            subject_count = weighted(rng, [(4, 30), (5, 30), (6, 25), (7, 15)])
+            subject_types = ["adult"]
+        elif concept["elder"]:
+            subject_count, subject_types = 2, ["adult", "senior_adult"]
+        else:
+            subject_count, subject_types = 2, ["adult"]
     elif category == "senior":
         subject_count, subject_types = 1, ["teen"]
     elif category == "maternity":
@@ -610,6 +726,9 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
             else rng.sample(["calm", "playful"], 2)
     elif category == "couples":
         others = rng.sample(["playful", "calm", "romantic"], 2)
+    elif category == "wedding":
+        others = rng.sample(["playful", "calm"], 2) if (concept["party"] or concept["elder"]) \
+            else rng.sample(["playful", "calm", "romantic"], 2)
     else:
         others = rng.sample(["playful", "calm"], 2)
     tones = ["nervous_client"] + others
@@ -641,7 +760,20 @@ def deterministic_ulid(rng: Random, index: int) -> str:
     return str(ULID.from_bytes(ts.to_bytes(6, "big") + rng.randbytes(10)))
 
 
+# Categories added after the original 240-pose seed shipped. Each gets its
+# own RNG seed and ULID epoch so it can be appended to a live catalog
+# without deleting or renumbering anything already published.
+APPENDED = {
+    "wedding": {"seed": 20260911, "epoch": datetime(2026, 9, 11, tzinfo=timezone.utc)},
+}
+
+
 def main() -> int:
+    if len(sys.argv) == 3 and sys.argv[1] == "--append":
+        return append_category(sys.argv[2])
+    if len(sys.argv) > 1:
+        sys.exit("usage: generate_seed.py [--append <category>]")
+
     rng = Random(RNG_SEED)
 
     # Clear previous placeholder poses; refuse to touch real ones.
@@ -697,6 +829,53 @@ def main() -> int:
 
     print(f"Wrote {written} poses to {POSES_DIR}/")
     print("Next: run tools/make_placeholders.py to generate images and blurhashes.")
+    return 0
+
+
+def append_category(category: str) -> int:
+    """Add 60 poses for one appended category, touching nothing else.
+
+    Refuses to run if the category already has poses on disk, so a re-run
+    cannot duplicate it; the output is deterministic for the category.
+    """
+    if category not in APPENDED:
+        sys.exit(f"error: {category!r} is not an appendable category "
+                 f"({', '.join(APPENDED)})")
+    dirs = [d for d in sorted(POSES_DIR.iterdir()) if d.is_dir()]
+    existing = [d.name for d in dirs if category in (load_pose(d).get("categories") or [])]
+    if existing:
+        sys.exit(f"error: {len(existing)} {category} poses already exist; refusing to append.")
+    used_slugs = {load_pose(d)["slug"] for d in dirs}
+
+    rng = Random(APPENDED[category]["seed"])
+    epoch_ms = int(APPENDED[category]["epoch"].timestamp() * 1000)
+    dealers = {category: {tone: Dealer(rng, lines)
+                          for tone, lines in PROMPTS[category].items()}}
+    concepts = CONCEPTS[category]
+    written = 0
+    for i in range(60):
+        concept = concepts[i % len(concepts)]
+        pose = build_pose(rng, category, concept, concept["slug"], False, dealers)
+        slug = concept["slug"]
+        if slug in used_slugs:
+            slug = f"{slug}-{pose['location_types'][0]}"
+        n = 2
+        base = slug
+        while slug in used_slugs:
+            slug = f"{base}-{n}"
+            n += 1
+        used_slugs.add(slug)
+        pose["slug"] = slug
+        ts = epoch_ms + written
+        pose_id = str(ULID.from_bytes(ts.to_bytes(6, "big") + rng.randbytes(10)))
+        pose = {"id": pose_id, **pose}
+        pose_dir = POSES_DIR / pose_id
+        pose_dir.mkdir(parents=True)
+        (pose_dir / "pose.yaml").write_text(
+            yaml.safe_dump(pose, sort_keys=False, allow_unicode=True, width=88))
+        written += 1
+    print(f"Appended {written} {category} poses to {POSES_DIR}/")
+    print("Next: add their ids to dist/ai_subset.json and run make ai-generate CONFIRM=1.")
     return 0
 
 

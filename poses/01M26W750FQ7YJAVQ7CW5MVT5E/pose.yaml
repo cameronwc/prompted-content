@@ -1,0 +1,35 @@
+id: 01M26W750FQ7YJAVQ7CW5MVT5E
+slug: getting-ready-tie-fix
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKL;BG~W-:0L-.IVtS-ow@M{9Fxt%gxujYM{V?jFa}R*
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The dress is already doing half the work. You just have to hold hands.
+  tone: nervous_client
+- text: Ring check! Show me the hands like you're bragging.
+  tone: playful
+- text: Sway, then dip them slowly. Bring them back up laughing.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active
+image_source: ai

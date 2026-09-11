@@ -1,0 +1,45 @@
+id: 01M26W7502XR2T6GVPEN3VTKC2
+slug: aisle-walk-back
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d$NTK=t7xUM{_4oLkCj]x^RkNKt6%Nj[WBaea#f5oeWX
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: You don't have to perform anything. Stand close and breathe.
+  tone: nervous_client
+- text: Give me your best 'we did it' face on three.
+  tone: playful
+- text: Sit on the step and let the dress fall where it falls.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the couple side by side in an open field, with the bride on the left and the groom
+  on the right, walking slowly forward toward the camera.
+- Have them hold inner hands loosely between them, keeping the connection relaxed at mid-hip
+  level.
+- Direct the bride to carry her floral bouquet naturally down at her right side, while the
+  groom lets his left arm hang relaxed by his side.
+- Instruct both subjects to turn their heads toward each other as they step forward, sharing
+  an authentic laugh and smile.

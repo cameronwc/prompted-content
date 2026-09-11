@@ -1,0 +1,36 @@
+id: 01M26W750ACNGCZQG2EM3M5QM6
+slug: sparkler-exit-run
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHNJ]^r:.70L^b-=x]sk~pE1M{-ooxkCIANHNKM_RiRj
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Forget the schedule for two minutes. It's just the two of you and me.
+  tone: nervous_client
+- text: Pretend I'm the DJ and I just played your guilty pleasure song.
+  tone: playful
+- text: Slow kiss on the forehead. Hold it.
+  tone: romantic
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- plus_size_flattering
+version: 1
+status: active
+image_source: ai

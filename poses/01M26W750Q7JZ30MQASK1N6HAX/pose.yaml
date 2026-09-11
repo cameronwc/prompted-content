@@ -1,0 +1,35 @@
+id: 01M26W750Q7JZ30MQASK1N6HAX
+slug: golden-hour-walk-away
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNB3$w9G9Y~W9F%MxuD%IoxZt7IpozRje.xuofbHayoJ
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Take one slow breath together. Now look up.
+  tone: nervous_client
+- text: Rest your head on their shoulder and just watch the lights.
+  tone: calm
+- text: Whisper your table number in a very sexy voice.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 70
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

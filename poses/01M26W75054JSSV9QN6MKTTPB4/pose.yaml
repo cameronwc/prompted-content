@@ -1,0 +1,44 @@
+id: 01M26W75054JSSV9QN6MKTTPB4
+slug: bouquet-between-them
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZN,*wXT-;9a.Tofo#t7%gRjIUxax]oIaKWBR+R*j]of
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Lean in a little. A little more. That's exactly it.
+  tone: nervous_client
+- text: Fix each other's collar, sleeve, hair. Slowly.
+  tone: calm
+- text: Cake face threat. Don't do it. Just threaten.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the couple standing close together near the water's edge, angled inward at roughly
+  three-quarter profiles toward each other, with the bride on the left and the groom on the
+  right.
+- Have the bride hold the floral bouquet centered at waist height with both hands, while the
+  groom places his forward hand gently over hers on the stems and rests his other arm naturally
+  at his side.
+- Direct both subjects to tilt their heads slightly down and inward toward the bouquet with
+  warm, relaxed smiles.

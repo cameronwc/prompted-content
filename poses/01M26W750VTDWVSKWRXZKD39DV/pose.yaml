@@ -1,0 +1,36 @@
+id: 01M26W750VTDWVSKWRXZKD39DV
+slug: seated-lap-pull-in
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: diMHA7xvt1Rk?wRjfmj[yFR:oOs-pKWCM{R*RhadWBof
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Whisper what you're most excited about tonight. I won't hear it.
+  tone: nervous_client
+- text: Fix each other's collar, sleeve, hair. Slowly.
+  tone: calm
+- text: Dance like the last song is playing and nobody's left.
+  tone: romantic
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active
+image_source: ai

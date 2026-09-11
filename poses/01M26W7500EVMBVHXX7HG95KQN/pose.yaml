@@ -1,0 +1,46 @@
+id: 01M26W7500EVMBVHXX7HG95KQN
+slug: first-look-reveal
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daN1AYNe%gE1u6ogW=ofkrNGM{xZo#oIsmj[WrWXWBR*
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: I'll tell you when to look at me. Until then, ignore me completely.
+  tone: nervous_client
+- text: Walk away from me down the path. Don't look back yet.
+  tone: calm
+- text: Spin the dress like you paid for the whole thing. You did.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the couple standing on the shoreline facing directly toward each other in full
+  profile, with the bride on the water side (left) and the groom on the inland sand (right),
+  leaving about a foot of space between them.
+- Instruct the bride to hold her bouquet down naturally at her side in her outer (right) hand,
+  letting the flowers angle slightly forward.
+- Have the groom take the bride's inner (left) hand with both of his hands, holding them gently
+  clasped at waist level between them.
+- Prompt the couple to share a lighthearted, candid conversation so the bride breaks into
+  an open, genuine laugh while the groom smiles warmly at her.

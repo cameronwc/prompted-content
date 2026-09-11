@@ -1,0 +1,37 @@
+id: 01M26W7512HEMTAA4RE80XY005
+slug: dip-on-the-dance-floor-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dxL}HJWAs*o#%%kCkCWAXoR*R-oJozj?WBa$IUofj?R%
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Blink, breathe, fix the veil if you want. I'll wait.
+  tone: nervous_client
+- text: Slow kiss on the forehead. Hold it.
+  tone: romantic
+- text: Slow dance without music. Just sway.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 1
+status: active
+image_source: ai

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 13,
-  "generated_at": "2026-08-31T17:41:50+00:00",
+  "catalog_version": 15,
+  "generated_at": "2026-09-11T15:27:14+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -24,6 +24,10 @@
       {
         "id": "maternity",
         "display": "Maternity"
+      },
+      {
+        "id": "wedding",
+        "display": "Wedding"
       }
     ],
     "light_conditions": [
@@ -16216,6 +16220,3799 @@
           50
         ],
         "aperture": "f/6.3",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M26W7500EVMBVHXX7HG95KQN",
+      "slug": "first-look-reveal",
+      "image": {
+        "thumb": "poses/01M26W7500EVMBVHXX7HG95KQN/thumb_ai.jpg",
+        "detail": "poses/01M26W7500EVMBVHXX7HG95KQN/detail_ai.jpg",
+        "blurhash": "daN1AYNe%gE1u6ogW=ofkrNGM{xZo#oIsmj[WrWXWBR*"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "I'll tell you when to look at me. Until then, ignore me completely.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me down the path. Don't look back yet.",
+          "tone": "calm"
+        },
+        {
+          "text": "Spin the dress like you paid for the whole thing. You did.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing on the shoreline facing directly toward each other in full profile, with the bride on the water side (left) and the groom on the inland sand (right), leaving about a foot of space between them.",
+        "Instruct the bride to hold her bouquet down naturally at her side in her outer (right) hand, letting the flowers angle slightly forward.",
+        "Have the groom take the bride's inner (left) hand with both of his hands, holding them gently clasped at waist level between them.",
+        "Prompt the couple to share a lighthearted, candid conversation so the bride breaks into an open, genuine laugh while the groom smiles warmly at her."
+      ]
+    },
+    {
+      "id": "01M26W7501ZA1JRFWSS6DC87M0",
+      "slug": "veil-wrap-kiss",
+      "image": {
+        "thumb": "poses/01M26W7501ZA1JRFWSS6DC87M0/thumb_ai.jpg",
+        "detail": "poses/01M26W7501ZA1JRFWSS6DC87M0/detail_ai.jpg",
+        "blurhash": "dKHxQUM{I9kD0eM{bwxuoeWW%3V?-pads;R-IVIVt7xt"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "You can look at me or at each other. Both are right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Groomsmen: too cool for photos. Now break and lose it.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold the bouquet low between you and just stand there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, facing directly toward each other in a complete side profile.",
+        "Have the groom wrap his arm around the bride's lower back or waist to pull her close, while the bride lifts her arm to rest her hand gently on the side of his neck or jawline.",
+        "Instruct the couple to close their eyes and lean in for a gentle, romantic kiss on the lips.",
+        "Drape the bride's long sheer veil up and over both of their heads to create an intimate canopy surrounding their upper bodies."
+      ]
+    },
+    {
+      "id": "01M26W7502XR2T6GVPEN3VTKC2",
+      "slug": "aisle-walk-back",
+      "image": {
+        "thumb": "poses/01M26W7502XR2T6GVPEN3VTKC2/thumb_ai.jpg",
+        "detail": "poses/01M26W7502XR2T6GVPEN3VTKC2/detail_ai.jpg",
+        "blurhash": "d$NTK=t7xUM{_4oLkCj]x^RkNKt6%Nj[WBaea#f5oeWX"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You don't have to perform anything. Stand close and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me your best 'we did it' face on three.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit on the step and let the dress fall where it falls.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side by side in an open field, with the bride on the left and the groom on the right, walking slowly forward toward the camera.",
+        "Have them hold inner hands loosely between them, keeping the connection relaxed at mid-hip level.",
+        "Direct the bride to carry her floral bouquet naturally down at her right side, while the groom lets his left arm hang relaxed by his side.",
+        "Instruct both subjects to turn their heads toward each other as they step forward, sharing an authentic laugh and smile."
+      ]
+    },
+    {
+      "id": "01M26W750308P4GJD0KAEH18WB",
+      "slug": "first-dance-sway",
+      "image": {
+        "thumb": "poses/01M26W750308P4GJD0KAEH18WB/thumb_ai.jpg",
+        "detail": "poses/01M26W750308P4GJD0KAEH18WB/detail_ai.jpg",
+        "blurhash": "dXA^d{ogE1Rktpa#t7ofkua}jZjrkYaxjYjtaxaxf5a#"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Say something only the two of you would find funny.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand together and look out over the room. Take it in.",
+          "tone": "calm"
+        },
+        {
+          "text": "Bouquet up like a trophy. Groom, be the confetti.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together and facing each other directly in profile relative to the camera.",
+        "Have them gently touch their foreheads together with their eyes softly closed or cast downward.",
+        "Direct the groom to place his camera-facing hand lightly around the bride's natural waistline.",
+        "Instruct the bride to let her camera-facing arm hang straight down, holding her bouquet casually at hip level with the stems pointing upward."
+      ]
+    },
+    {
+      "id": "01M26W7504PYT2GK1S5B5RH2YR",
+      "slug": "dip-on-the-dance-floor",
+      "image": {
+        "thumb": "poses/01M26W7504PYT2GK1S5B5RH2YR/thumb_ai.jpg",
+        "detail": "poses/01M26W7504PYT2GK1S5B5RH2YR/detail_ai.jpg",
+        "blurhash": "dqMQLtn#r;o#~qj]t7WA%hR*R.s,%hjYNGkDWYofoeRj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "You've already done the hard part. This is the easy part.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Pull the veil around both of you like a tent for two.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Bridal party: react like the bride just told the best secret.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the groom stand on the right in a wide, stable stance, facing left toward the bride.",
+        "Instruct the groom to support the bride securely by wrapping his hands around her lower back and waist, guiding her to arch backward into a controlled dip to the left.",
+        "Have the bride let her front arm hang relaxed straight downward toward the ground, loosely gripping the stems of her bouquet upside down.",
+        "Direct the groom to lean his upper body forward over the bride, bringing their faces very close together so they can smile and laugh directly into each other's eyes."
+      ]
+    },
+    {
+      "id": "01M26W75054JSSV9QN6MKTTPB4",
+      "slug": "bouquet-between-them",
+      "image": {
+        "thumb": "poses/01M26W75054JSSV9QN6MKTTPB4/thumb_ai.jpg",
+        "detail": "poses/01M26W75054JSSV9QN6MKTTPB4/detail_ai.jpg",
+        "blurhash": "dZN,*wXT-;9a.Tofo#t7%gRjIUxax]oIaKWBR+R*j]of"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Lean in a little. A little more. That's exactly it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Fix each other's collar, sleeve, hair. Slowly.",
+          "tone": "calm"
+        },
+        {
+          "text": "Cake face threat. Don't do it. Just threaten.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together near the water's edge, angled inward at roughly three-quarter profiles toward each other, with the bride on the left and the groom on the right.",
+        "Have the bride hold the floral bouquet centered at waist height with both hands, while the groom places his forward hand gently over hers on the stems and rests his other arm naturally at his side.",
+        "Direct both subjects to tilt their heads slightly down and inward toward the bouquet with warm, relaxed smiles."
+      ]
+    },
+    {
+      "id": "01M26W7506ZK9GA0VAYK016CPS",
+      "slug": "ring-hands-detail",
+      "image": {
+        "thumb": "poses/01M26W7506ZK9GA0VAYK016CPS/thumb_ai.jpg",
+        "detail": "poses/01M26W7506ZK9GA0VAYK016CPS/detail_ai.jpg",
+        "blurhash": "dYLXD5-p?v%M~q9FoeaeS$S5%2ozM{ofRkfRsAaekBV["
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "The tie is fine. The hair is fine. You're fine.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Nose to nose. Don't kiss yet. Wait for it.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Look down at your rings, then up at each other.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing facing each other indoors near soft window light, setting up a tight, vertical detail composition framed from the mid-chest to the waist.",
+        "Have the bride on the left extend her left arm slightly forward with her wrist relaxed and fingers gently curled downward, positioning her hand so her wedding ring faces toward the camera.",
+        "Instruct the groom on the right to reach in with his left hand, lightly grasping and resting his fingers over the top of the bride's hand while angling his hand to clearly showcase his wedding band.",
+        "Ensure both subjects keep their hands relaxed and natural without gripping tightly, placing the joined hands centrally in the frame with the bride's lace dress on the left and the groom's suit sleeve on the right."
+      ]
+    },
+    {
+      "id": "01M26W7507X7ZZ1GGP72RDWTBB",
+      "slug": "forehead-to-forehead-vows",
+      "image": {
+        "thumb": "poses/01M26W7507X7ZZ1GGP72RDWTBB/thumb_ai.jpg",
+        "detail": "poses/01M26W7507X7ZZ1GGP72RDWTBB/detail_ai.jpg",
+        "blurhash": "dSK^vl=_V=9a_NRjxu%1-oM|ROn$NaWXNGRk-;t7Mwbb"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "backlit"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Blink, breathe, fix the veil if you want. I'll wait.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper your table number in a very sexy voice.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold hands and walk. I'll follow behind you.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple facing directly toward each other in a clean side profile relative to the camera, standing close together with balanced, upright postures.",
+        "Instruct them to bring their foreheads gently together to touch, closing their eyes and softening their facial expressions into a peaceful, intimate moment.",
+        "Have both subjects lower their arms straight down in front of them and interlock or hold their hands together at low-waist level between their bodies."
+      ]
+    },
+    {
+      "id": "01M26W7508EAQDWCMZJ91QZW8E",
+      "slug": "dress-twirl-urban",
+      "image": {
+        "thumb": "poses/01M26W7508EAQDWCMZJ91QZW8E/thumb_ai.jpg",
+        "detail": "poses/01M26W7508EAQDWCMZJ91QZW8E/detail_ai.jpg",
+        "blurhash": "dPB|EG-:0K4.4nIU%M-:WAkDxus,tRt7RiRPE1Rixat7"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "If your hands feel weird, hold each other's. Problem solved.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sneak a kiss like the officiant hasn't said you can yet.",
+          "tone": "playful"
+        },
+        {
+          "text": "Stand in the doorway and let the light do the rest.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7509M67SDRKGHNDHXAWC",
+      "slug": "jacket-over-shoulders",
+      "image": {
+        "thumb": "poses/01M26W7509M67SDRKGHNDHXAWC/thumb_ai.jpg",
+        "detail": "poses/01M26W7509M67SDRKGHNDHXAWC/detail_ai.jpg",
+        "blurhash": "dVKA$mM_M{0L+sIVNIX9^%R,IpjY%LayofV?WYWBkCt6"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody's watching this part. The guests are at the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "One hand on their chest. Feel that? Good. Stay.",
+          "tone": "calm"
+        },
+        {
+          "text": "Run at me like the bar is behind me. It is.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750ACNGCZQG2EM3M5QM6",
+      "slug": "sparkler-exit-run",
+      "image": {
+        "thumb": "poses/01M26W750ACNGCZQG2EM3M5QM6/thumb_ai.jpg",
+        "detail": "poses/01M26W750ACNGCZQG2EM3M5QM6/detail_ai.jpg",
+        "blurhash": "dHNJ]^r:.70L^b-=x]sk~pE1M{-ooxkCIANHNKM_RiRj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Forget the schedule for two minutes. It's just the two of you and me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Pretend I'm the DJ and I just played your guilty pleasure song.",
+          "tone": "playful"
+        },
+        {
+          "text": "Slow kiss on the forehead. Hold it.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750B3W1JG0N2EFQCK4VC",
+      "slug": "bubble-exit-arms-up",
+      "image": {
+        "thumb": "poses/01M26W750B3W1JG0N2EFQCK4VC/thumb_ai.jpg",
+        "detail": "poses/01M26W750B3W1JG0N2EFQCK4VC/detail_ai.jpg",
+        "blurhash": "dHNTXcwGxu4oMHRiWqxt?bE1Io-pD%xbjEM|t8oJt7Rj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "backlit"
+      ],
+      "location_types": [
+        "studio"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "If it feels like a lot, laugh at me. That's my favourite frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Say your favourite line from the vows again, quietly.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Rest your head on their shoulder and just watch the lights.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750CNR9ATGPSSR5Z8YKV",
+      "slug": "cake-table-lean",
+      "image": {
+        "thumb": "poses/01M26W750CNR9ATGPSSR5Z8YKV/thumb_ai.jpg",
+        "detail": "poses/01M26W750CNR9ATGPSSR5Z8YKV/detail_ai.jpg",
+        "blurhash": "dYM7P%IT%M9G_NaxkWRP_2NHIU%2WYt7RPt8tQjYt7f6"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Just walk toward me like you're late to your own cocktail hour.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whoever leads the dance is wrong. Fight about it silently.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold their face like you're memorising it.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750D5G9BFM9EZFFBA349",
+      "slug": "champagne-toast",
+      "image": {
+        "thumb": "poses/01M26W750D5G9BFM9EZFFBA349/thumb_ai.jpg",
+        "detail": "poses/01M26W750D5G9BFM9EZFFBA349/detail_ai.jpg",
+        "blurhash": "d#MH3;xts*M|_4WCtRkCx^RkRns.XAocRjjYadayjYa#"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Whisper what you're most excited about tonight. I won't hear it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Who cried first at the ceremony? Point at them.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hug like you just got told the good news.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750EHN79SHDKNHJ0PWWD",
+      "slug": "stairs-train-spread",
+      "image": {
+        "thumb": "poses/01M26W750EHN79SHDKNHJ0PWWD/thumb_ai.jpg",
+        "detail": "poses/01M26W750EHN79SHDKNHJ0PWWD/detail_ai.jpg",
+        "blurhash": "dUL;EL-ntSD%~qM{tRs,x]R.WCn$-=kCRkRjWCoLWBf*"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash",
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Take one slow breath together. Now look up.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Wrap your arms around from behind and rest your chin on their shoulder.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Close your eyes. Feel their hand. Open when you're ready.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant",
+        "wheelchair"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750FQ7YJAVQ7CW5MVT5E",
+      "slug": "getting-ready-tie-fix",
+      "image": {
+        "thumb": "poses/01M26W750FQ7YJAVQ7CW5MVT5E/thumb_ai.jpg",
+        "detail": "poses/01M26W750FQ7YJAVQ7CW5MVT5E/detail_ai.jpg",
+        "blurhash": "dKL;BG~W-:0L-.IVtS-ow@M{9Fxt%gxujYM{V?jFa}R*"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "studio"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "The dress is already doing half the work. You just have to hold hands.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Ring check! Show me the hands like you're bragging.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sway, then dip them slowly. Bring them back up laughing.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750GRCK523V4C8VEK92Y",
+      "slug": "dress-button-help",
+      "image": {
+        "thumb": "poses/01M26W750GRCK523V4C8VEK92Y/thumb_ai.jpg",
+        "detail": "poses/01M26W750GRCK523V4C8VEK92Y/detail_ai.jpg",
+        "blurhash": "dQHxQR0MIT^*o]M|f-Io^+acn*kDkEWBays-xuj=R+j@"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "If it feels like a lot, laugh at me. That's my favourite frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Kiss like the first dance just ended.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Forehead to forehead. Breathe out at the same time.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750H73K2T4XYB7B0AWZG",
+      "slug": "parent-dance-laugh",
+      "image": {
+        "thumb": "poses/01M26W750H73K2T4XYB7B0AWZG/thumb_ai.jpg",
+        "detail": "poses/01M26W750H73K2T4XYB7B0AWZG/detail_ai.jpg",
+        "blurhash": "dIBDvh#i0g9ZJDI9-o?ITfROs+o#TfROj]W?kXaJWYSi"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult",
+        "senior_adult"
+      ],
+      "light_conditions": [
+        "blue",
+        "open_shade"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Forget the schedule for two minutes. It's just the two of you and me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Turn away from me and look at the same thing together.",
+          "tone": "calm"
+        },
+        {
+          "text": "Tell each other the worst dad joke you know. Winner gets cake.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750JS5KZ8QZB8DT2WKZF",
+      "slug": "wedding-party-walk",
+      "image": {
+        "thumb": "poses/01M26W750JS5KZ8QZB8DT2WKZF/thumb_ai.jpg",
+        "detail": "poses/01M26W750JS5KZ8QZB8DT2WKZF/detail_ai.jpg",
+        "blurhash": "d9G*p2wMMv0LKu9a%hxtNFERoh-l?I~BVrIo9u%KtQNz"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 4,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "You can look at me or at each other. Both are right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow dance without music. Just sway.",
+          "tone": "calm"
+        },
+        {
+          "text": "Cheers with nothing in your hands. Sell it.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750KRBBQQ3CCFKTETQHC",
+      "slug": "wedding-party-huddle-cheer",
+      "image": {
+        "thumb": "poses/01M26W750KRBBQQ3CCFKTETQHC/thumb_ai.jpg",
+        "detail": "poses/01M26W750KRBBQQ3CCFKTETQHC/detail_ai.jpg",
+        "blurhash": "d*K_B+WBxtR+?wf+R,oLtmWXRkjZbcjss.WVRjayj?bH"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 7,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Blink, breathe, fix the veil if you want. I'll wait.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hold hands and walk. I'll follow behind you.",
+          "tone": "calm"
+        },
+        {
+          "text": "Everyone hands in the air like the bubbles are winning.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750MBJT1VQKM25EMP0HA",
+      "slug": "wedding-party-serious-then-laugh",
+      "image": {
+        "thumb": "poses/01M26W750MBJT1VQKM25EMP0HA/thumb_ai.jpg",
+        "detail": "poses/01M26W750MBJT1VQKM25EMP0HA/detail_ai.jpg",
+        "blurhash": "dXJ@,s-:xat8_Noz%gog?vWBM{e.o#M{V@WBt7ayjtf+"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 5,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Say something only the two of you would find funny.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me down the path. Don't look back yet.",
+          "tone": "calm"
+        },
+        {
+          "text": "Everyone hands in the air like the bubbles are winning.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750N4X23N7J9RSNAXTRK",
+      "slug": "bride-with-party-arms-up",
+      "image": {
+        "thumb": "poses/01M26W750N4X23N7J9RSNAXTRK/thumb_ai.jpg",
+        "detail": "poses/01M26W750N4X23N7J9RSNAXTRK/detail_ai.jpg",
+        "blurhash": "dHB{}l?G4.9v02NG%2$%55Ip%3xY%3%1InI;t5NGs:xa"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 5,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "If your hands feel weird, hold each other's. Problem solved.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Cheers with nothing in your hands. Sell it.",
+          "tone": "playful"
+        },
+        {
+          "text": "Look down at your rings, then up at each other.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750P9ZRPK7PYXS7ZDS4P",
+      "slug": "groom-with-party-lean",
+      "image": {
+        "thumb": "poses/01M26W750P9ZRPK7PYXS7ZDS4P/thumb_ai.jpg",
+        "detail": "poses/01M26W750P9ZRPK7PYXS7ZDS4P/detail_ai.jpg",
+        "blurhash": "dKJQs5?a+Z%h~BW?%NkX-:ogbdbHxaxYniozbwofNGbb"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 5,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "You've already done the hard part. This is the easy part.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whoever leads the dance is wrong. Fight about it silently.",
+          "tone": "playful"
+        },
+        {
+          "text": "One hand on their chest. Feel that? Good. Stay.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750Q7JZ30MQASK1N6HAX",
+      "slug": "golden-hour-walk-away",
+      "image": {
+        "thumb": "poses/01M26W750Q7JZ30MQASK1N6HAX/thumb_ai.jpg",
+        "detail": "poses/01M26W750Q7JZ30MQASK1N6HAX/detail_ai.jpg",
+        "blurhash": "dNB3$w9G9Y~W9F%MxuD%IoxZt7IpozRje.xuofbHayoJ"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Take one slow breath together. Now look up.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your head on their shoulder and just watch the lights.",
+          "tone": "calm"
+        },
+        {
+          "text": "Whisper your table number in a very sexy voice.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750RR86AW591Q1W3RVW8",
+      "slug": "night-portrait-under-string-lights",
+      "image": {
+        "thumb": "poses/01M26W750RR86AW591Q1W3RVW8/thumb_ai.jpg",
+        "detail": "poses/01M26W750RR86AW591Q1W3RVW8/detail_ai.jpg",
+        "blurhash": "dDC?M#xa009H9ZM|tS%MNFR.xuxCt3xZsnRjENfkR%Rk"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low",
+        "backlit"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "The tie is fine. The hair is fine. You're fine.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Tell each other the worst dad joke you know. Winner gets cake.",
+          "tone": "playful"
+        },
+        {
+          "text": "Look at each other like you did at the end of the aisle.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750SSRAF61GQCACNZ4A8",
+      "slug": "hand-on-cheek-look",
+      "image": {
+        "thumb": "poses/01M26W750SSRAF61GQCACNZ4A8/thumb_ai.jpg",
+        "detail": "poses/01M26W750SSRAF61GQCACNZ4A8/detail_ai.jpg",
+        "blurhash": "dPNAbc~q-:9G%#M{bvof?aIURPxt9FxuIAjZW.Rjoej]"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "backlit"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "I'll tell you when to look at me. Until then, ignore me completely.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand together and look out over the room. Take it in.",
+          "tone": "calm"
+        },
+        {
+          "text": "Bridal party: react like the bride just told the best secret.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750T9YKYETEBJ144K74H",
+      "slug": "carry-lift-laugh",
+      "image": {
+        "thumb": "poses/01M26W750T9YKYETEBJ144K74H/thumb_ai.jpg",
+        "detail": "poses/01M26W750T9YKYETEBJ144K74H/detail_ai.jpg",
+        "blurhash": "d,KUl:obWAoz%%azkCfjJDWXofWAWooeadj[WBayWBof"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Just walk toward me like you're late to your own cocktail hour.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lift their chin and wait. Let them come to you.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Bouquet up like a trophy. Groom, be the confetti.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750VTDWVSKWRXZKD39DV",
+      "slug": "seated-lap-pull-in",
+      "image": {
+        "thumb": "poses/01M26W750VTDWVSKWRXZKD39DV/thumb_ai.jpg",
+        "detail": "poses/01M26W750VTDWVSKWRXZKD39DV/detail_ai.jpg",
+        "blurhash": "diMHA7xvt1Rk?wRjfmj[yFR:oOs-pKWCM{R*RhadWBof"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Whisper what you're most excited about tonight. I won't hear it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Fix each other's collar, sleeve, hair. Slowly.",
+          "tone": "calm"
+        },
+        {
+          "text": "Dance like the last song is playing and nobody's left.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750WYVQX6P9TTJFWZNWC",
+      "slug": "window-light-dress-portrait",
+      "image": {
+        "thumb": "poses/01M26W750WYVQX6P9TTJFWZNWC/thumb_ai.jpg",
+        "detail": "poses/01M26W750WYVQX6P9TTJFWZNWC/detail_ai.jpg",
+        "blurhash": "dyM%r^xtf4M{_4ayogoftmNHWEs:tRa}aeayadj@j@WX"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "The dress is already doing half the work. You just have to hold hands.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Dance like the last song is playing and nobody's left.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Sneak a kiss like the officiant hasn't said you can yet.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750X77SCQTHV559TW7MS",
+      "slug": "last-dance-alone",
+      "image": {
+        "thumb": "poses/01M26W750X77SCQTHV559TW7MS/thumb_ai.jpg",
+        "detail": "poses/01M26W750X77SCQTHV559TW7MS/detail_ai.jpg",
+        "blurhash": "dMM@J%Dg?akX_NNFx]kD_2f5Myi^D$x]9F%MNao#xuMx"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody's watching this part. The guests are at the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sway, then dip them slowly. Bring them back up laughing.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Hold the bouquet low between you and just stand there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750YZN2YXJMQVN910XFD",
+      "slug": "first-look-reveal-home",
+      "image": {
+        "thumb": "poses/01M26W750YZN2YXJMQVN910XFD/thumb_ai.jpg",
+        "detail": "poses/01M26W750YZN2YXJMQVN910XFD/detail_ai.jpg",
+        "blurhash": "daLgz;^+%hIU~pR.%NxtRjM{IARiR+RjjYWBoKoJjZt7"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Lean in a little. A little more. That's exactly it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Who cried first at the ceremony? Point at them.",
+          "tone": "playful"
+        },
+        {
+          "text": "Say your favourite line from the vows again, quietly.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W750ZGDPG8J7XTW65JCTG",
+      "slug": "veil-wrap-kiss-forest",
+      "image": {
+        "thumb": "poses/01M26W750ZGDPG8J7XTW65JCTG/thumb_ai.jpg",
+        "detail": "poses/01M26W750ZGDPG8J7XTW65JCTG/detail_ai.jpg",
+        "blurhash": "dEIqlZ$%I70Mx[0MSij]9GInbK$y${r;?Hof.8S2tRRk"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You don't have to perform anything. Stand close and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand in the doorway and let the light do the rest.",
+          "tone": "calm"
+        },
+        {
+          "text": "Groomsmen: too cool for photos. Now break and lose it.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W75107PFSH8A6Q2ZE1XE8",
+      "slug": "aisle-walk-back-beach",
+      "image": {
+        "thumb": "poses/01M26W75107PFSH8A6Q2ZE1XE8/thumb_ai.jpg",
+        "detail": "poses/01M26W75107PFSH8A6Q2ZE1XE8/detail_ai.jpg",
+        "blurhash": "daN^YoXT%gE2%%ozWrfkx^InIU%2tRjYn$ayRkWXkCR*"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "You've already done the hard part. This is the easy part.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Nose to nose. Don't kiss yet. Wait for it.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Forehead to forehead. Breathe out at the same time.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7511R6EMCBJP0NKP8NX9",
+      "slug": "first-dance-sway-field",
+      "image": {
+        "thumb": "poses/01M26W7511R6EMCBJP0NKP8NX9/thumb_ai.jpg",
+        "detail": "poses/01M26W7511R6EMCBJP0NKP8NX9/detail_ai.jpg",
+        "blurhash": "doMZz6xt$xIV~qWBt8ozt.R-NHs,%gWCRkj[xvoLofj["
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Say something only the two of you would find funny.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sit on the step and let the dress fall where it falls.",
+          "tone": "calm"
+        },
+        {
+          "text": "Wrap your arms around from behind and rest your chin on their shoulder.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7512HEMTAA4RE80XY005",
+      "slug": "dip-on-the-dance-floor-field",
+      "image": {
+        "thumb": "poses/01M26W7512HEMTAA4RE80XY005/thumb_ai.jpg",
+        "detail": "poses/01M26W7512HEMTAA4RE80XY005/detail_ai.jpg",
+        "blurhash": "dxL}HJWAs*o#%%kCkCWAXoR*R-oJozj?WBa$IUofj?R%"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Blink, breathe, fix the veil if you want. I'll wait.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow kiss on the forehead. Hold it.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Slow dance without music. Just sway.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7513E27DHCEA9Q0FPJKG",
+      "slug": "bouquet-between-them-home",
+      "image": {
+        "thumb": "poses/01M26W7513E27DHCEA9Q0FPJKG/thumb_ai.jpg",
+        "detail": "poses/01M26W7513E27DHCEA9Q0FPJKG/detail_ai.jpg",
+        "blurhash": "dNM@Q1$~t54:_NM{x]of?bbcIU-:bIt7D%RPozM{ogWB"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "You don't have to perform anything. Stand close and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Kiss like the first dance just ended.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Close your eyes. Feel their hand. Open when you're ready.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7514NFQZRB874ABB04XT",
+      "slug": "ring-hands-detail-urban",
+      "image": {
+        "thumb": "poses/01M26W7514NFQZRB874ABB04XT/thumb_ai.jpg",
+        "detail": "poses/01M26W7514NFQZRB874ABB04XT/detail_ai.jpg",
+        "blurhash": "dKJ*P1$}01~W^i4.n$jF.7IpMyayxvt7IoR-njs.Rkt8"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "If it feels like a lot, laugh at me. That's my favourite frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Cake face threat. Don't do it. Just threaten.",
+          "tone": "playful"
+        },
+        {
+          "text": "Turn away from me and look at the same thing together.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7515EK03APB1AQBX9ZB4",
+      "slug": "forehead-to-forehead-vows-field",
+      "image": {
+        "thumb": "poses/01M26W7515EK03APB1AQBX9ZB4/thumb_ai.jpg",
+        "detail": "poses/01M26W7515EK03APB1AQBX9ZB4/detail_ai.jpg",
+        "blurhash": "doLNlFxZ$|M|?wNHo#t7tnWrM|n$tRoKn$WXaxj[V@bH"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Lean in a little. A little more. That's exactly it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hold hands and walk. I'll follow behind you.",
+          "tone": "calm"
+        },
+        {
+          "text": "Run at me like the bar is behind me. It is.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7516XXKJ7D9KCD9ZVNKN",
+      "slug": "dress-twirl-studio",
+      "image": {
+        "thumb": "poses/01M26W7516XXKJ7D9KCD9ZVNKN/thumb_ai.jpg",
+        "detail": "poses/01M26W7516XXKJ7D9KCD9ZVNKN/detail_ai.jpg",
+        "blurhash": "dFNAVLVqWA0K?bae%Nxtw@D*D%%2kqt6jFt7jERPkCM{"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "studio"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "The tie is fine. The hair is fine. You're fine.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Spin the dress like you paid for the whole thing. You did.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit on the step and let the dress fall where it falls.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7517NW5DYQ46WH98QRZM",
+      "slug": "jacket-over-shoulders-field",
+      "image": {
+        "thumb": "poses/01M26W7517NW5DYQ46WH98QRZM/thumb_ai.jpg",
+        "detail": "poses/01M26W7517NW5DYQ46WH98QRZM/detail_ai.jpg",
+        "blurhash": "d%LgkOaxjEt7~qofofRjx^WBbJoftRWBaet7WBs:jYRj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "The dress is already doing half the work. You just have to hold hands.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me your best 'we did it' face on three.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lift their chin and wait. Let them come to you.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751896V5Z55BDZF2H1BA",
+      "slug": "sparkler-exit-run-home",
+      "image": {
+        "thumb": "poses/01M26W751896V5Z55BDZF2H1BA/thumb_ai.jpg",
+        "detail": "poses/01M26W751896V5Z55BDZF2H1BA/detail_ai.jpg",
+        "blurhash": "dILNY:xZ9Z9a~ox]tRxu-TNHD%-;ELfkafIUM{jY%MNG"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Forget the schedule for two minutes. It's just the two of you and me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your head on their shoulder and just watch the lights.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hold their face like you're memorising it.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W7519DJH3AQ8G2QJSWB8R",
+      "slug": "bubble-exit-arms-up-home",
+      "image": {
+        "thumb": "poses/01M26W7519DJH3AQ8G2QJSWB8R/thumb_ai.jpg",
+        "detail": "poses/01M26W7519DJH3AQ8G2QJSWB8R/detail_ai.jpg",
+        "blurhash": "dOD]PIxt9F01ROM|-;-;D*M|xat6NeWXRPM|ozxZR*Rk"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody's watching this part. The guests are at the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand in the doorway and let the light do the rest.",
+          "tone": "calm"
+        },
+        {
+          "text": "Pull the veil around both of you like a tent for two.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751A4GE1AKWMRK21X3V8",
+      "slug": "cake-table-lean-urban",
+      "image": {
+        "thumb": "poses/01M26W751A4GE1AKWMRK21X3V8/thumb_ai.jpg",
+        "detail": "poses/01M26W751A4GE1AKWMRK21X3V8/detail_ai.jpg",
+        "blurhash": "dIDl~E,mEO4nIp4TtmsolAM{%LwbXnnh%LM_S5VsofNG"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue",
+        "open_shade"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "If your hands feel weird, hold each other's. Problem solved.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look at each other like you did at the end of the aisle.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Ring check! Show me the hands like you're bragging.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751BW6A3PMSJG28VJH8Q",
+      "slug": "champagne-toast-forest",
+      "image": {
+        "thumb": "poses/01M26W751BW6A3PMSJG28VJH8Q/thumb_ai.jpg",
+        "detail": "poses/01M26W751BW6A3PMSJG28VJH8Q/detail_ai.jpg",
+        "blurhash": "dJFr%^%14.0KIlD+tR?apFbcsAxVkpW:V[R%jIxGRkbb"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Just walk toward me like you're late to your own cocktail hour.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Pretend I'm the DJ and I just played your guilty pleasure song.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hug like you just got told the good news.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751CB89TXZ72XDR0BKK2",
+      "slug": "stairs-train-spread-home",
+      "image": {
+        "thumb": "poses/01M26W751CB89TXZ72XDR0BKK2/thumb_ai.jpg",
+        "detail": "poses/01M26W751CB89TXZ72XDR0BKK2/detail_ai.jpg",
+        "blurhash": "dQKdxc~pE1M{%LMx%N-;aJM|fkkA.8xuM_RPM{n$RjbI"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Take one slow breath together. Now look up.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Ring check! Show me the hands like you're bragging.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sway, then dip them slowly. Bring them back up laughing.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751DHX7AW42H073K59GY",
+      "slug": "getting-ready-tie-fix-urban",
+      "image": {
+        "thumb": "poses/01M26W751DHX7AW42H073K59GY/thumb_ai.jpg",
+        "detail": "poses/01M26W751DHX7AW42H073K59GY/detail_ai.jpg",
+        "blurhash": "dRLE4vrp_301xZadIp%2-;R+af%LtSNGt6M{t7V@e.Rj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Whisper what you're most excited about tonight. I won't hear it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Turn away from me and look at the same thing together.",
+          "tone": "calm"
+        },
+        {
+          "text": "Pull the veil around both of you like a tent for two.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751EMN7DFY2QWJATJAWY",
+      "slug": "dress-button-help-beach",
+      "image": {
+        "thumb": "poses/01M26W751EMN7DFY2QWJATJAWY/thumb_ai.jpg",
+        "detail": "poses/01M26W751EMN7DFY2QWJATJAWY/detail_ai.jpg",
+        "blurhash": "dVMaY7tStR9alVf,tRkCk?IoRPxtx^slaKf5NHRjkCbH"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can look at me or at each other. Both are right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Close your eyes. Feel their hand. Open when you're ready.",
+          "tone": "calm"
+        },
+        {
+          "text": "Look at each other like you did at the end of the aisle.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751F2D349MQC9G7XHJQM",
+      "slug": "parent-dance-laugh-field",
+      "image": {
+        "thumb": "poses/01M26W751F2D349MQC9G7XHJQM/thumb_ai.jpg",
+        "detail": "poses/01M26W751F2D349MQC9G7XHJQM/detail_ai.jpg",
+        "blurhash": "dkMGquWUV=V[~qWAt7og%$WXR-ae%hoeRkjZxuoexZj]"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult",
+        "senior_adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "I'll tell you when to look at me. Until then, ignore me completely.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Forehead to forehead. Breathe out at the same time.",
+          "tone": "calm"
+        },
+        {
+          "text": "Who cried first at the ceremony? Point at them.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751GXQZDE4RPT84ZCJ38",
+      "slug": "wedding-party-walk-urban",
+      "image": {
+        "thumb": "poses/01M26W751GXQZDE4RPT84ZCJ38/thumb_ai.jpg",
+        "detail": "poses/01M26W751GXQZDE4RPT84ZCJ38/detail_ai.jpg",
+        "blurhash": "dUKnST?v%MRjWB.8WXay_N%Mo0ocxv%MRjM{o#WCV@az"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 6,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "I'll tell you when to look at me. Until then, ignore me completely.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look down at your rings, then up at each other.",
+          "tone": "calm"
+        },
+        {
+          "text": "Cheers with nothing in your hands. Sell it.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751HB33BE7FW7PBZX01X",
+      "slug": "wedding-party-huddle-cheer-field",
+      "image": {
+        "thumb": "poses/01M26W751HB33BE7FW7PBZX01X/thumb_ai.jpg",
+        "detail": "poses/01M26W751HB33BE7FW7PBZX01X/detail_ai.jpg",
+        "blurhash": "dnKnI|RlxtIp~ps:WVt7.8WXRkoe%hj@a#WBt9aefkWC"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 7,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "If your hands feel weird, hold each other's. Problem solved.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand together and look out over the room. Take it in.",
+          "tone": "calm"
+        },
+        {
+          "text": "Whoever leads the dance is wrong. Fight about it silently.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751JSE6ZWCAF60QEG0Y8",
+      "slug": "wedding-party-serious-then-laugh-forest",
+      "image": {
+        "thumb": "poses/01M26W751JSE6ZWCAF60QEG0Y8/thumb_ai.jpg",
+        "detail": "poses/01M26W751JSE6ZWCAF60QEG0Y8/detail_ai.jpg",
+        "blurhash": "dEHK^8s:9ZE11ZjcWEog^$RkxZxZR=xtIUNG?Hj?t8bI"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 6,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Blink, breathe, fix the veil if you want. I'll wait.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper your table number in a very sexy voice.",
+          "tone": "playful"
+        },
+        {
+          "text": "One hand on their chest. Feel that? Good. Stay.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751KM8S2V3WA9GRMS3R7",
+      "slug": "bride-with-party-arms-up-urban",
+      "image": {
+        "thumb": "poses/01M26W751KM8S2V3WA9GRMS3R7/thumb_ai.jpg",
+        "detail": "poses/01M26W751KM8S2V3WA9GRMS3R7/detail_ai.jpg",
+        "blurhash": "dCJ8CP^LxF4nDN?G4oRP?vIp%3tQo~NGs,NG9GRPV?Rj"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 4,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Say something only the two of you would find funny.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me your best 'we did it' face on three.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold the bouquet low between you and just stand there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751M3AZNVVAZMHN2X0ZZ",
+      "slug": "groom-with-party-lean-field",
+      "image": {
+        "thumb": "poses/01M26W751M3AZNVVAZMHN2X0ZZ/thumb_ai.jpg",
+        "detail": "poses/01M26W751M3AZNVVAZMHN2X0ZZ/detail_ai.jpg",
+        "blurhash": "dqL47,odxC%2~qWEWqWB.8WBR+NHx^s+afofR-WXs:ae"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 5,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "The dress is already doing half the work. You just have to hold hands.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Fix each other's collar, sleeve, hair. Slowly.",
+          "tone": "calm"
+        },
+        {
+          "text": "Groomsmen: too cool for photos. Now break and lose it.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751NEFRN81Z6EN08VWY3",
+      "slug": "golden-hour-walk-away-urban",
+      "image": {
+        "thumb": "poses/01M26W751NEFRN81Z6EN08VWY3/thumb_ai.jpg",
+        "detail": "poses/01M26W751NEFRN81Z6EN08VWY3/detail_ai.jpg",
+        "blurhash": "dOH_lO%L4T4.~VWVIUbH_NW=IAs,_3t7MxWBxvt7WAWC"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can look at me or at each other. Both are right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Say your favourite line from the vows again, quietly.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Bridal party: react like the bride just told the best secret.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751P7TR0A6XGHA9WAGSS",
+      "slug": "night-portrait-under-string-lights-field",
+      "image": {
+        "thumb": "poses/01M26W751P7TR0A6XGHA9WAGSS/thumb_ai.jpg",
+        "detail": "poses/01M26W751P7TR0A6XGHA9WAGSS/detail_ai.jpg",
+        "blurhash": "d?MaR+bIt6js%%aya$a#NeWCRkj[Rij[jYj?Rjj?ofa#"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "You don't have to perform anything. Stand close and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow dance without music. Just sway.",
+          "tone": "calm"
+        },
+        {
+          "text": "Run at me like the bar is behind me. It is.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751QADD1NVAPYWW88B5X",
+      "slug": "hand-on-cheek-look-beach",
+      "image": {
+        "thumb": "poses/01M26W751QADD1NVAPYWW88B5X/thumb_ai.jpg",
+        "detail": "poses/01M26W751QADD1NVAPYWW88B5X/detail_ai.jpg",
+        "blurhash": "dVMa9N_2?v0L_NNKXT%1%gM|nhs8%MxanhIUo#t6RjRk"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Just walk toward me like you're late to your own cocktail hour.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me down the path. Don't look back yet.",
+          "tone": "calm"
+        },
+        {
+          "text": "Dance like the last song is playing and nobody's left.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751RB60GRVGFK3NS1X1Q",
+      "slug": "carry-lift-laugh-field",
+      "image": {
+        "thumb": "poses/01M26W751RB60GRVGFK3NS1X1Q/thumb_ai.jpg",
+        "detail": "poses/01M26W751RB60GRVGFK3NS1X1Q/detail_ai.jpg",
+        "blurhash": "d+K1wFs,n#kD*0j[WrayOaWXbJjYkWayn$ofR*f6e.fk"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Lean in a little. A little more. That's exactly it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stand in the doorway and let the light do the rest.",
+          "tone": "calm"
+        },
+        {
+          "text": "Pretend I'm the DJ and I just played your guilty pleasure song.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751SSNBARYRVH8E3HXX3",
+      "slug": "seated-lap-pull-in-home",
+      "image": {
+        "thumb": "poses/01M26W751SSNBARYRVH8E3HXX3/thumb_ai.jpg",
+        "detail": "poses/01M26W751SSNBARYRVH8E3HXX3/detail_ai.jpg",
+        "blurhash": "daLD}d~q%#kX_2WBNIogkVIVxuxujat7IUWqayRjazt7"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "The tie is fine. The hair is fine. You're fine.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow kiss on the forehead. Hold it.",
+          "tone": "romantic"
+        },
+        {
+          "text": "Bouquet up like a trophy. Groom, be the confetti.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751T3RE9G6M06VZVHV2Q",
+      "slug": "window-light-dress-portrait-field",
+      "image": {
+        "thumb": "poses/01M26W751T3RE9G6M06VZVHV2Q/thumb_ai.jpg",
+        "detail": "poses/01M26W751T3RE9G6M06VZVHV2Q/detail_ai.jpg",
+        "blurhash": "d$MjgXoLs+Rj_NaeogkCx^WCRlods.oeadazROayoLkC"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Nobody's watching this part. The guests are at the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Spin the dress like you paid for the whole thing. You did.",
+          "tone": "playful"
+        },
+        {
+          "text": "Stand together and look out over the room. Take it in.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M26W751V75NC2NGT87QD9YVG",
+      "slug": "last-dance-alone-forest",
+      "image": {
+        "thumb": "poses/01M26W751V75NC2NGT87QD9YVG/thumb_ai.jpg",
+        "detail": "poses/01M26W751V75NC2NGT87QD9YVG/detail_ai.jpg",
+        "blurhash": "dFJacRRjZz0L5*IVJC%MOEIpV{?E~WxZr?NFNLM|W=NG"
+      },
+      "placeholder": false,
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Whisper what you're most excited about tonight. I won't hear it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Turn away from me and look at the same thing together.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hold their face like you're memorising it.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          70
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active",
+      "image_source": "ai"
+    },
+    {
+      "id": "01M28GHKBE691E3SAF8FS9RFW8",
+      "slug": "groomsman-tie-fix-profile",
+      "image": {
+        "thumb": "poses/01M28GHKBE691E3SAF8FS9RFW8/thumb.jpg",
+        "detail": "poses/01M28GHKBE691E3SAF8FS9RFW8/detail.jpg",
+        "blurhash": "dSJHwCRi8{_4rUozIUD%9Fxas:j]tR%MM_t8-;M_%Mt6"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position both subjects in profile facing each other, standing close together near a light source.",
+        "Have the subject on the left tilt their chin slightly upward with their collar popped, looking just past the other person.",
+        "Have the subject on the right bring both hands up to adjust the collar buttons and tie at the center of the chest.",
+        "Ensure both subjects keep their shoulders relaxed, naturally engaging with the task rather than looking at the lens."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about me at all right now. Just focus on getting that collar sorted.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Try to look like you've successfully tied a bowtie at least once in your life.",
+          "tone": "playful"
+        },
+        {
+          "text": "Take a deep breath out and just take your time fixing the collar.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          35
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBE691E3SAF8FS9RFW9",
+      "slug": "bride-over-shoulder-with-drink",
+      "image": {
+        "thumb": "poses/01M28GHKBE691E3SAF8FS9RFW9/thumb.jpg",
+        "detail": "poses/01M28GHKBE691E3SAF8FS9RFW9/detail.jpg",
+        "blurhash": "dsJ?.#-UI:Ip0hbHRkazWAI;xZs.IpbHt7oLNIoLaekC"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Have the subject stand angled slightly away from the camera, holding a drink with both hands near her chest.",
+        "Ask her to turn her head and look back over her bare shoulder directly into the lens with a warm, open smile.",
+        "Frame from the chest up, keeping the focus sharp on her eyes while letting the ambient party background blur behind her."
+      ],
+      "prompts": [
+        {
+          "text": "Keep holding onto your drink—it gives your hands something to do. Just look back over your shoulder at me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look back at me like I just walked up with the best gossip of the whole night.",
+          "tone": "playful"
+        },
+        {
+          "text": "Take a breath, relax your shoulders down, and just give me a soft smile over your shoulder.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          37,
+          37
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBFEHKETR6CZHETW3QV",
+      "slug": "parents-slow-dance-laugh",
+      "image": {
+        "thumb": "poses/01M28GHKBFEHKETR6CZHETW3QV/thumb.jpg",
+        "detail": "poses/01M28GHKBFEHKETR6CZHETW3QV/detail.jpg",
+        "blurhash": "dnI}hg~ptRWV8_IUM{t7kCIURjV@E1xut6R+S~bbt6o0"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "senior_adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple facing each other in full profile to the camera, standing close at slow-dance distance.",
+        "Have the partner on the right place their hand on the other's chest and shoulder.",
+        "Have the partner on the left wrap their arms gently around the other's waist.",
+        "Prompt them to look directly at each other, share a laugh, and lean in slightly."
+      ],
+      "prompts": [
+        {
+          "text": "You don't need to look at me at all. Just look right at each other.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Whisper the absolute worst pickup line you can think of.",
+          "tone": "playful"
+        },
+        {
+          "text": "Pull each other in close and start a slow sway together.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          37,
+          37
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBG8E7MSSKG0XZ6M39C",
+      "slug": "dance-floor-groove-duo",
+      "image": {
+        "thumb": "poses/01M28GHKBG8E7MSSKG0XZ6M39C/thumb.jpg",
+        "detail": "poses/01M28GHKBG8E7MSSKG0XZ6M39C/detail.jpg",
+        "blurhash": "doJHw5ax4ooe00kCxujF9FRjxukD%gs:jFkCWqoLV@M{"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "instructions": [
+        "Position the primary subject in the foreground angled slightly to the right, with the secondary subject standing just behind their left shoulder.",
+        "Have the front subject shift weight onto their back leg with a slight backward torso lean, moving naturally as if grooving to music.",
+        "Instruct the front subject to bring their hands forward at waist height, fingers relaxed and palms facing inward in mid-motion gesture.",
+        "Have the subject tilt their head back slightly and look off to the right with a relaxed, confident expression."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about posing for me. Just catch the beat of the song and do your thing.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me your smoothest slow-motion dance move. Show off the vibe.",
+          "tone": "playful"
+        },
+        {
+          "text": "Tilt your head back, let your shoulders drop, and just feel the rhythm for a second.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          61,
+          61
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBG8E7MSSKG0XZ6M39D",
+      "slug": "dance-floor-circle",
+      "image": {
+        "thumb": "poses/01M28GHKBG8E7MSSKG0XZ6M39D/thumb.jpg",
+        "detail": "poses/01M28GHKBG8E7MSSKG0XZ6M39D/detail.jpg",
+        "blurhash": "dJDuGHNxRk$PEK$$-oSe0#xZIoIpE1I;I;%1xtIpjsxX"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 7,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "instructions": [
+        "Gather the couple and a small group of guests or bridal party members into a loose, tight semi-circle on the dance floor.",
+        "Position the bride and groom near the center-right, angled inward toward the rest of the group.",
+        "Have surrounding guests face one another at dynamic, varying angles with weight shifted playfully and hands mid-motion as if actively dancing.",
+        "Instruct everyone to focus their attention across the circle on each other rather than the camera to maintain candid energy."
+      ],
+      "prompts": [
+        {
+          "text": "Ignore the camera completely. Just turn in toward each other and lock eyes with whoever makes you laugh hardest.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "On three, show off your absolute worst signature dance move.",
+          "tone": "playful"
+        },
+        {
+          "text": "Drop your shoulders, shake out your hands, and just fall into the rhythm together.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          36,
+          36
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBHEX57Y0N3P8TT0C73",
+      "slug": "groomsmen-point-at-camera",
+      "image": {
+        "thumb": "poses/01M28GHKBHEX57Y0N3P8TT0C73/thumb.jpg",
+        "detail": "poses/01M28GHKBHEX57Y0N3P8TT0C73/detail.jpg",
+        "blurhash": "dTFYP@~Wn3xZ8^r=%Mn$D%Mxs:%2%gtRVsM_R*NGbboz"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position both subjects standing tightly shoulder-to-shoulder, angled slightly inward toward each other.",
+        "Have each person wrap their inside arm around the other's back or waist in a close bro-hug lock.",
+        "Instruct both subjects to reach their free outside hand directly toward the camera lens in a relaxed pointing gesture, leaning slightly forward into the frame."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about looking formal here. Pull each other in and give the lens some attitude.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Reach right out toward the lens like you're dropping the hottest track of the night.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold right there, lock eyes with the lens, and don't break.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          52,
+          52
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBJDCAB0R7GV587TC3B",
+      "slug": "bride-and-bridesmaids-arms-up",
+      "image": {
+        "thumb": "poses/01M28GHKBJDCAB0R7GV587TC3B/thumb.jpg",
+        "detail": "poses/01M28GHKBJDCAB0R7GV587TC3B/detail.jpg",
+        "blurhash": "dJDSOE?v=_9t4m9FIpWr9^x]W=snNxt7n$s:$jaKWCkB"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 6,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Arrange the group in a tight horizontal line with the bride positioned slightly left of center, having everyone wrap their arms around each other's waists and shoulders to eliminate gaps.",
+        "Have the bride raise one arm high overhead in a joyful celebration, keeping her other side pressed close to the bridesmaids.",
+        "Angle the two people on the outer ends inward toward the middle to frame the line, resting their outer hands naturally on hips or holding a drink.",
+        "Instruct everyone to lean in slightly toward the camera with big, candid, cheering expressions."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about posing pretty for this one. Just squeeze together tight and let's get loud.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "On three, give me your biggest hype-girl cheer at the top of your lungs!",
+          "tone": "playful"
+        },
+        {
+          "text": "Pull each other in as close as you can and look right down the lens.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          31,
+          31
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBJDCAB0R7GV587TC3C",
+      "slug": "slow-dance-close-hold-night",
+      "image": {
+        "thumb": "poses/01M28GHKBJDCAB0R7GV587TC3C/thumb.jpg",
+        "detail": "poses/01M28GHKBJDCAB0R7GV587TC3C/detail.jpg",
+        "blurhash": "dKBfCBe-58Ne0hNbt5={$%s:s:IoE2xZxaEMaya}WVxZ"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Have the couple face each other in a close partner dance hold, with the man facing slightly toward camera and the woman angled three-quarters away.",
+        "Place the man's right hand securely on the woman's lower back and raise their joined outer hands out to the side at chest level.",
+        "Position the woman's left arm wrapped around his side or shoulder, keeping her profile visible to the lens.",
+        "Have them gently sway or take a small step together, with the man looking down warmly at her face."
+      ],
+      "prompts": [
+        {
+          "text": "Forget I'm standing here with a flash. Just look right at each other and breathe.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Try a slow, gentle sway — no rhythm required, just move together.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold each other close, like you're the last two people left at the party.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          58,
+          58
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBK07NQK4AT2KGR5RFF",
+      "slug": "arm-around-shoulder-laugh",
+      "image": {
+        "thumb": "poses/01M28GHKBK07NQK4AT2KGR5RFF/thumb.jpg",
+        "detail": "poses/01M28GHKBK07NQK4AT2KGR5RFF/detail.jpg",
+        "blurhash": "dDA,d[Di9F-VQkx]kr$f9Zt7aKX9KPIUxZIpOXWXbIV?"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the subjects standing side-by-side, angled slightly inward toward each other and facing the camera.",
+        "Have the partner on the right drape her arm over the other's far shoulder, pulling in tight.",
+        "Have the partner on the left wrap his arm firmly around her waist, locking bodies together at the hip.",
+        "Direct both subjects to lean in close with wide, open smiles and authentic laughter directed right at the lens."
+      ],
+      "prompts": [
+        {
+          "text": "Pull each other in tight and don't worry about being neat—just go for the big hug.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "On three, give me your loudest, most dramatic party cheer.",
+          "tone": "playful"
+        },
+        {
+          "text": "Squeeze in close and hold on like you own the night.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          60,
+          60
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBK07NQK4AT2KGR5RFG",
+      "slug": "bubble-exit-arms-raised",
+      "image": {
+        "thumb": "poses/01M28GHKBK07NQK4AT2KGR5RFG/thumb.jpg",
+        "detail": "poses/01M28GHKBK07NQK4AT2KGR5RFG/detail.jpg",
+        "blurhash": "dPEf1j9Z9F^+01%M-;D%E1s:WBNGNyM{M{-paeofxuRj"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "moderate",
+      "instructions": [
+        "Line up guests into two facing rows to form an open aisle for the exit pathway, arming them with bubble wands.",
+        "Position the couple at the start of the aisle, having them hold their inside hands linked and raised high above their heads in celebration.",
+        "Instruct the couple to walk briskly forward down the center together, cheering and waving their outside free hands toward the crowd and camera.",
+        "Direct the guests on both flanks to actively blow bubbles inward across the couple's walking path throughout the exit."
+      ],
+      "prompts": [
+        {
+          "text": "Don't worry about dodging the bubbles or looking perfect. Just lock hands high and walk straight toward me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hands straight up in the air like you just won the championship—take your victory lap!",
+          "tone": "playful"
+        },
+        {
+          "text": "Sneak a quick glance at each other halfway down and take in the moment together.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          30,
+          30
+        ],
+        "aperture": "f/4",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 1,
+      "status": "active"
+    },
+    {
+      "id": "01M28GHKBMTG7WYWGYBWATVY3R",
+      "slug": "night-kiss-dress-train",
+      "image": {
+        "thumb": "poses/01M28GHKBMTG7WYWGYBWATVY3R/thumb.jpg",
+        "detail": "poses/01M28GHKBMTG7WYWGYBWATVY3R/detail.jpg",
+        "blurhash": "dgEfQZ%M00IU9FIUxu%MWBxuxuRjIVj[t7M{azj[s:of"
+      },
+      "placeholder": false,
+      "image_source": "photo",
+      "categories": [
+        "wedding"
+      ],
+      "subject_count": 2,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "instructions": [
+        "Position the couple standing chest-to-chest in full profile to the camera against the dark background.",
+        "Have the groom wrap his arm firmly around the bride's waist, pulling her flush against him.",
+        "Have the bride bring her arms up around the groom's neck, resting her hands along the back of his shoulders and neck.",
+        "Direct them to tilt their heads slightly and lean into a full, connected kiss."
+      ],
+      "prompts": [
+        {
+          "text": "Forget about the flash and the dark out here. Just pull each other close.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Kiss like you just successfully snuck away from your own reception.",
+          "tone": "playful"
+        },
+        {
+          "text": "Wrap your arms around his neck, pull him close, and don't let go.",
+          "tone": "romantic"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          55,
+          55
+        ],
+        "aperture": "f/4",
         "needs_reflector": false
       },
       "accessibility": [],

@@ -1,0 +1,35 @@
+id: 01M26W751RB60GRVGFK3NS1X1Q
+slug: carry-lift-laugh-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d+K1wFs,n#kD*0j[WrayOaWXbJjYkWayn$ofR*f6e.fk
+placeholder: false
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Lean in a little. A little more. That's exactly it.
+  tone: nervous_client
+- text: Stand in the doorway and let the light do the rest.
+  tone: calm
+- text: Pretend I'm the DJ and I just played your guilty pleasure song.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

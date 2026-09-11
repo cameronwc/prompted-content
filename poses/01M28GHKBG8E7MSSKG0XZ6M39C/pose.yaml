@@ -1,0 +1,44 @@
+id: 01M28GHKBG8E7MSSKG0XZ6M39C
+slug: dance-floor-groove-duo
+image:
+  thumb: thumb.jpg
+  detail: detail.jpg
+  blurhash: doJHw5ax4ooe00kCxujF9FRjxukD%gs:jFkCWqoLV@M{
+placeholder: false
+image_source: photo
+categories:
+- wedding
+subject_count: 2
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+instructions:
+- Position the primary subject in the foreground angled slightly to the right, with the secondary
+  subject standing just behind their left shoulder.
+- Have the front subject shift weight onto their back leg with a slight backward torso lean,
+  moving naturally as if grooving to music.
+- Instruct the front subject to bring their hands forward at waist height, fingers relaxed
+  and palms facing inward in mid-motion gesture.
+- Have the subject tilt their head back slightly and look off to the right with a relaxed,
+  confident expression.
+prompts:
+- text: Don't worry about posing for me. Just catch the beat of the song and do your thing.
+  tone: nervous_client
+- text: Give me your smoothest slow-motion dance move. Show off the vibe.
+  tone: playful
+- text: Tilt your head back, let your shoulders drop, and just feel the rhythm for a second.
+  tone: calm
+gear:
+  focal_mm:
+  - 61
+  - 61
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active

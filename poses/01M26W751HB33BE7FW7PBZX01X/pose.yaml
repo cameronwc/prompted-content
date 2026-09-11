@@ -1,0 +1,36 @@
+id: 01M26W751HB33BE7FW7PBZX01X
+slug: wedding-party-huddle-cheer-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dnKnI|RlxtIp~ps:WVt7.8WXRkoe%hj@a#WBt9aefkWC
+placeholder: false
+categories:
+- wedding
+subject_count: 7
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If your hands feel weird, hold each other's. Problem solved.
+  tone: nervous_client
+- text: Stand together and look out over the room. Take it in.
+  tone: calm
+- text: Whoever leads the dance is wrong. Fight about it silently.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 1
+status: active
+image_source: ai

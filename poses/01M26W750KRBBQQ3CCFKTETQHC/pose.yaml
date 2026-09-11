@@ -1,0 +1,36 @@
+id: 01M26W750KRBBQQ3CCFKTETQHC
+slug: wedding-party-huddle-cheer
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d*K_B+WBxtR+?wf+R,oLtmWXRkjZbcjss.WVRjayj?bH
+placeholder: false
+categories:
+- wedding
+subject_count: 7
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Blink, breathe, fix the veil if you want. I'll wait.
+  tone: nervous_client
+- text: Hold hands and walk. I'll follow behind you.
+  tone: calm
+- text: Everyone hands in the air like the bubbles are winning.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 1
+status: active
+image_source: ai
