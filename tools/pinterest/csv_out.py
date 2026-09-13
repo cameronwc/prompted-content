@@ -20,7 +20,10 @@ def check_image_url(url: str, verify: bool = True, timeout: float = 10.0) -> Non
         raise RowError(f"image_url is not an absolute http(s) URL: {url}")
     if not verify:
         return
-    req = urllib.request.Request(url, method="HEAD")
+    # Cloudflare's bot rules on the content host return 403 to the default
+    # Python-urllib agent; identify as the fetcher Pinterest itself uses.
+    req = urllib.request.Request(url, method="HEAD", headers={
+        "User-Agent": "Pinterest/0.2 (+https://www.pinterest.com/bot.html)"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             if resp.status >= 400:
