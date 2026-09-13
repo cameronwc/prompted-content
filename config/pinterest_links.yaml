@@ -5,6 +5,11 @@
 # categories fell back. Pins must never publish to a 404: only add a rule
 # once the guide page is live on cooperindustries.cc.
 fallback: https://cooperindustries.cc/prompted/marketing/
+# Photo pins (photo_real, photo_ai) skip the guides and land on the marketing
+# page, which sends iOS visitors straight to the App Store: one tap from pin
+# to install. Text pins keep the guide rules below (the SEO path). Remove
+# this key to route photo pins through the guides again.
+photo_destination: https://cooperindustries.cc/prompted/marketing/
 base: https://cooperindustries.cc/prompted/guides
 rules:
   # Live guides (2026-09-04). Within a category, the first matching tagged

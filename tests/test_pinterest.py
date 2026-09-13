@@ -492,7 +492,7 @@ def test_metadata_bounds_on_real_catalog():
         assert 5 <= len(kws) <= 10
         assert metadata.board_for(CFG, pose.primary_category, pose, "photo") in {
             "Family Photo Poses", "Couples Posing", "Engagement Poses", "Maternity Poses",
-            "Senior Portrait Poses", "Golden Hour Posing", "Large Group Poses"}
+            "Senior Portrait Poses", "Wedding Poses", "Golden Hour Posing", "Large Group Poses"}
     for prompt in catalog.unique_prompts(poses):
         assert len(metadata.text_title(prompt, display)) <= 90
         assert len(metadata.text_description(prompt, {p.id: p for p in poses})) <= 300
@@ -623,6 +623,7 @@ def test_family_golden_pose_links_to_family_guide(tmp_path):
     pose = make_pose(tmp_path, "01X0000000000000000000000G", "golden-family", "ai", "family",
                      ("thumb_ai.jpg", "detail_ai.jpg"), light="golden")
     cfg = copy.deepcopy(CFG)
+    cfg["links"].pop("photo_destination", None)  # this test is about guide rule precedence
     # Even with an explicit '*'+golden rule present, category must win.
     cfg["links"]["rules"].append({"category": "*", "tag": "golden", "slug": "golden-hour-posing"})
     link = metadata.link_for(cfg, "family", pose, "photo_ai")
@@ -768,3 +769,15 @@ def test_holiday_pins_deferred_in_september_and_scheduled_in_window(tmp_path, ca
     assert len(holiday) == 3
     for p in holiday:
         assert seasons.in_window(date.fromisoformat(p["scheduled_at"][:10]), CFG["seasons"]["windows"]["holiday"])
+
+
+def test_photo_pins_land_on_marketing_page_text_pins_keep_guides(tmp_path):
+    pose = make_pose(tmp_path, "01X0000000000000000000000P", "photo-dest", "ai", "family",
+                     ("thumb_ai.jpg", "detail_ai.jpg"), light="golden")
+    for cohort in ("photo_ai", "photo_real"):
+        assert metadata.link_for(CFG, "family", pose, cohort).startswith(
+            "https://cooperindustries.cc/prompted/marketing/?")
+    assert metadata.link_for(CFG, "family", pose, "text").startswith(
+        "https://cooperindustries.cc/prompted/guides/golden-hour-prompts?")
+    for tmpl in metadata.PHOTO_CTA_TEMPLATES:
+        assert "Prompted" in tmpl

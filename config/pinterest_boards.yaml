@@ -17,8 +17,10 @@ rules:
   - { category: engagement, tag: golden,      board: Golden Hour Posing }
   - { category: maternity,  tag: golden,      board: Golden Hour Posing }
   - { category: senior,     tag: golden,      board: Golden Hour Posing }
+  - { category: wedding,    tag: golden,      board: Golden Hour Posing }
   - { category: family,                       board: Family Photo Poses }
   - { category: couples,                      board: Couples Posing }
   - { category: engagement,                   board: Engagement Poses }
   - { category: maternity,                    board: Maternity Poses }
   - { category: senior,                       board: Senior Portrait Poses }
+  - { category: wedding,                      board: Wedding Poses }

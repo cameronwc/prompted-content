@@ -28,6 +28,17 @@ CTA_TEMPLATES = [
     "Pin it and come back to it on shoot day.",
 ]
 
+# Photo pins sell the app directly: the pin shows a real pose, the CTA names
+# where 340+ more of them live. Text pins keep the softer save-it CTAs above.
+PHOTO_CTA_TEMPLATES = [
+    "One of 340+ poses in Prompted, free on iOS.",
+    "From Prompted, the posing app with the words to say. Free on the App Store.",
+    "Prompted has 340+ poses like this, each with the prompt. Free on iOS.",
+    "Every pose in Prompted comes with the words to say. Free on the App Store.",
+    "Find this pose and 340+ more in Prompted, free for iPhone.",
+    "In Prompted, the posing app that is only a posing app. Free on iOS.",
+]
+
 CATEGORY_NOUN = {
     "family": "family photo pose",
     "couples": "couples pose",
@@ -206,7 +217,7 @@ def _second_sentence(pose: Pose, tier: int) -> str:
 
 
 def photo_description(pose: Pose, pin_id: str, disclosure: str | None) -> str:
-    cta = CTA_TEMPLATES[stable_index(pin_id, len(CTA_TEMPLATES))]
+    cta = PHOTO_CTA_TEMPLATES[stable_index(pin_id, len(PHOTO_CTA_TEMPLATES))]
     suffix = f" {disclosure}" if disclosure else ""
     for tier in (0, 1, 2):
         desc = f"{_first_sentence(pose, tier)} {_second_sentence(pose, tier)} {cta}{suffix}"
@@ -214,7 +225,7 @@ def photo_description(pose: Pose, pin_id: str, disclosure: str | None) -> str:
             return desc
     # Last resort: shortest first sentence, shortest CTA, keep the disclosure.
     desc = f"{_first_sentence(pose, 2)} {_second_sentence(pose, 2)} " \
-           f"{min(CTA_TEMPLATES, key=len)}{suffix}"
+           f"{min(PHOTO_CTA_TEMPLATES, key=len)}{suffix}"
     return desc[:DESC_MAX] if not disclosure else desc  # disclosure is never cut
 
 
@@ -328,8 +339,11 @@ def board_for(cfg: dict, category: str, pose: Pose | None, pin_type: str,
 def link_for(cfg: dict, category: str, pose: Pose | None, cohort: str,
              fallbacks: set[str] | None = None) -> str:
     links = cfg["links"]
+    pin_type = cfg["cohorts"]["cohorts"][cohort].get("pin_type")
     rule = match_rule(links.get("rules") or [], category, pose_tags(pose))
-    if rule and rule.get("slug"):
+    if pin_type == "photo" and links.get("photo_destination"):
+        url = links["photo_destination"]
+    elif rule and rule.get("slug"):
         base = links.get("base", "https://cooperindustries.cc/prompted/guides").rstrip("/")
         url = f"{base}/{rule['slug']}"
     elif rule and rule.get("url"):
