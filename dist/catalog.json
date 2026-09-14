@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 19,
-  "generated_at": "2026-09-14T18:45:07+00:00",
+  "catalog_version": 20,
+  "generated_at": "2026-09-14T18:49:56+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -24111,9 +24111,9 @@
       "id": "01M2H5T105ZD40BZCAW4CNBTJH",
       "slug": "laugh-off-camera-then-back",
       "image": {
-        "thumb": "poses/01M2H5T105ZD40BZCAW4CNBTJH/thumb_ai.jpg",
-        "detail": "poses/01M2H5T105ZD40BZCAW4CNBTJH/detail_ai.jpg",
-        "blurhash": "dpI;^nxutSxv~pWCozWC-pofs:jYayWVWBayNGaxV@ay"
+        "thumb": "poses/01M2H5T105ZD40BZCAW4CNBTJH/thumb_ai2.jpg",
+        "detail": "poses/01M2H5T105ZD40BZCAW4CNBTJH/detail_ai2.jpg",
+        "blurhash": "dXJa=n-;_2xa~UWCX9ozV@M{aLWANda#jEj@RjoLRiof"
       },
       "placeholder": false,
       "categories": [
