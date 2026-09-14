@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 15,
-  "generated_at": "2026-09-11T15:27:14+00:00",
+  "catalog_version": 16,
+  "generated_at": "2026-09-14T17:26:38+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -28,6 +28,10 @@
       {
         "id": "wedding",
         "display": "Wedding"
+      },
+      {
+        "id": "lifestyle",
+        "display": "Lifestyle"
       }
     ],
     "light_conditions": [
@@ -16731,9 +16735,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom on the right standing in side profile facing left, stepping naturally forward with his right foot and weight balanced.",
+        "Place the bride on the left, having her initiate a gentle twirl so the train and skirt of her dress flare out in motion while her torso faces slightly forward.",
+        "Have the groom extend his right hand to softly hold the bride's right hand at waist level between them, while the bride holds her bouquet down at her left side.",
+        "Direct the couple to interact naturally and laugh together, with the bride tilting her head back toward the groom and the groom smiling warmly down at her."
+      ]
     },
     {
       "id": "01M26W7509M67SDRKGHNDHXAWC",
@@ -16784,9 +16794,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple walking forward together side-by-side along a cobblestone street, with the groom positioned slightly behind and to the bride's left.",
+        "Drape a blue suit jacket over the bride's shoulders, having the groom reach forward with his left hand to gently adjust the jacket's lapel and boutonniere on her left shoulder.",
+        "Have the bride hold her floral bouquet pointing down naturally at her right hip, while bringing her left hand across her chest to hold the jacket lapel.",
+        "Instruct both subjects to walk slowly toward the camera while looking down toward each other and laughing naturally to capture candid movement."
+      ]
     },
     {
       "id": "01M26W750ACNGCZQG2EM3M5QM6",
@@ -16837,9 +16853,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side in a bright hallway or open room, with the bride on the left and the groom on the right, walking forward together toward the camera.",
+        "Have them clasp inner hands (her left, his right) down between them at hip height as they take a synchronized, natural forward stride.",
+        "Instruct the bride to hold her floral bouquet upright in her right hand at chest height, while the groom bends his left arm slightly with his hand relaxed near his midsection.",
+        "Encourage a candid, joyful interaction so the bride turns her head to laugh open-mouthed toward the groom while the groom smiles broadly forward along their walking path."
+      ]
     },
     {
       "id": "01M26W750B3W1JG0N2EFQCK4VC",
@@ -16890,9 +16912,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing side-by-side facing directly towards the camera against a neutral studio backdrop, with feet hip-width apart and standing close together.",
+        "Instruct the couple to clasp their inner hands—her left hand and his right hand—and raise them high overhead in a shared celebratory gesture.",
+        "Have the bride hold her floral bouquet straight up in her outer right hand, and have the groom raise his outer left hand high with an open palm reaching upward.",
+        "Direct both subjects to tilt their heads slightly back, looking upward with joyful, wide laughing expressions while bubbles float through the frame."
+      ]
     },
     {
       "id": "01M26W750CNR9ATGPSSR5Z8YKV",
@@ -16941,9 +16969,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride standing on the left beside a waist-high table, with the groom standing close to her right side facing slightly forward.",
+        "Have the groom place his left hand casually inside his trouser pocket and cross his left leg over his right leg at the ankle, resting his weight on his back foot.",
+        "Instruct the bride to loop her left arm through the groom's right arm at the elbow while holding her bouquet centered at waist level with her right hand.",
+        "Direct both subjects to turn their faces toward each other, looking into each other's eyes with warm, candid smiles and laughter."
+      ]
     },
     {
       "id": "01M26W750D5G9BFM9EZFFBA349",
@@ -16992,9 +17026,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing closely side-by-side in the open field, angled slightly inward at three-quarter angles facing toward one another.",
+        "Have each person hold a champagne coupe in their inner/front hand, raising the glasses to chest height so they gently touch together in a toast.",
+        "Keep their outer arms hanging relaxed naturally at their sides, with weight balanced evenly on both feet.",
+        "Direct them to look into each other's eyes and share a candid, joyful smile as they clink their glasses."
+      ]
     },
     {
       "id": "01M26W750EHN79SHDKNHJ0PWWD",
@@ -17047,9 +17087,15 @@
         "seated_variant",
         "wheelchair"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride standing upright a few steps up on the staircase angled slightly outward, arranging the lace train of her dress so it gracefully cascades down the steps to the left.",
+        "Place the groom facing her on the lower steps, stepping his lead foot up onto a higher stair with a bent knee to simulate walking up toward her.",
+        "Instruct the bride to hold her floral bouquet centered in front of her waist with one hand and extend her other hand downward to clasp the groom's raised hand midway between them, keeping his opposite arm relaxed at his side.",
+        "Direct both subjects to lock eyes and share a candid laugh, with the groom looking up affectionately and the bride looking down with a joyful, smiling expression."
+      ]
     },
     {
       "id": "01M26W750FQ7YJAVQ7CW5MVT5E",
@@ -17098,9 +17144,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom facing one another in a side-profile view, standing close together in an open indoor space with natural window light on the right.",
+        "Instruct the bride on the left to hold her floral bouquet at waist height with her outer arm while reaching her inner arm up to gently adjust the groom's necktie.",
+        "Direct the groom on the right to rest his front hand gently near his jacket button or waistline while keeping his other arm relaxed at his side.",
+        "Have the bride look warmly up toward the groom's face with a soft smile, and ask the groom to tilt his head slightly down toward her hands with an affectionate, happy expression."
+      ]
     },
     {
       "id": "01M26W750GRCK523V4C8VEK92Y",
@@ -17149,9 +17201,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride standing on the right facing three-quarters toward the right, and place the groom standing closely behind her in profile facing right toward her back.",
+        "Instruct the groom to bring both hands up to the mid-back of the bride's dress as if carefully fastening or buttoning the back, leaning in slightly with a gentle, candid smile.",
+        "Have the bride rest her left arm across her stomach and let her right arm hang naturally along her side, then twist her upper torso and head back over her right shoulder toward the groom.",
+        "Direct the bride to look directly at the groom with an open, laughing expression while the groom smiles down toward his hands, capturing a playful, unposed moment."
+      ]
     },
     {
       "id": "01M26W750H73K2T4XYB7B0AWZG",
@@ -17202,9 +17260,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and the senior gentleman facing each other in a classic partner-dance frame in the middle of the street, with the bride positioned on the left in profile and the man on the right angled slightly toward the camera.",
+        "Instruct the man to place his right hand securely around the bride's waist, while clasping her raised right hand with his left hand at chest height between them.",
+        "Have the bride hold her floral bouquet naturally down at her left side, letting it rest near her hip away from the frame of the dance.",
+        "Prompt both subjects to take a light dance step, leaning slightly into the motion while looking directly at each other with open, candid laughter."
+      ]
     },
     {
       "id": "01M26W750JS5KZ8QZB8DT2WKZF",
@@ -17256,9 +17320,16 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the four subjects standing side-by-side in a horizontal row along the forest path in order from left to right: bridesmaid in pink, bride, groom in blue, and groomsman in charcoal.",
+        "Have them walk forward together toward the camera at a slow, synchronized pace.",
+        "Have the bride and groom hold inner hands (bride's left hand in groom's right hand), with the bride holding her bridal bouquet upright with her right hand in front of her chest, while the groom keeps his outer left arm hanging naturally at his side.",
+        "Position the outer attendants' hands naturally: the bridesmaid holds her smaller bouquet down at her right side, and the groomsman keeps both hands resting relaxed alongside his hips.",
+        "Direct all subjects to look inward toward one another rather than at the camera, sharing authentic smiles and laughter as they converse while walking."
+      ]
     },
     {
       "id": "01M26W750KRBBQQ3CCFKTETQHC",
@@ -17308,9 +17379,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing closely at center facing each other in profile, with the groom placing his right hand gently around the bride's waist and the bride holding her bouquet low in her right hand as they laugh directly at one another.",
+        "Place two bridesmaids tightly grouped to the left of the bride, angling inward toward the couple with hands resting on each other and laughing toward the newlyweds.",
+        "Arrange a bridesmaid and a groomsman on the right side facing inward toward the groom, with the groomsman reaching his left hand forward to rest on the groom's chest or shoulder while everyone engages with the central couple.",
+        "Position an additional groomsman directly behind the bride and groom, leaning slightly between their heads with both arms raised high above in a joyous, celebratory gesture."
+      ]
     },
     {
       "id": "01M26W750MBJT1VQKM25EMP0HA",
@@ -17359,9 +17436,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing closely together at the center of the frame; have the bride face forward holding her floral bouquet at waist level with both hands while turning her head right to laugh toward the groom, and have the groom stand facing slightly left, smiling warmly down at her.",
+        "Place the groomsman in the dark suit to the bride's right (viewer's left), angled slightly inward toward the center with his arms relaxed at his sides, laughing along with the couple.",
+        "Position the first bridesmaid on the far left in a terracotta dress, body angled inward, reaching her left hand across to rest comfortably on the groomsman's upper chest and shoulder.",
+        "Place the second bridesmaid on the far right in a mauve dress, turned inward toward the groom, resting her right hand gently on the groom's left forearm while looking up and laughing at the couple."
+      ]
     },
     {
       "id": "01M26W750N4X23N7J9RSNAXTRK",
@@ -17410,9 +17493,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom close together in the center of a grassy lawn, turning slightly inward to look and laugh directly at each other.",
+        "Have the bride raise her right arm straight up toward the sky, triumphantly holding her bouquet overhead while letting her other arm rest comfortably at her side.",
+        "Place two bridesmaids to the bride's left and one groomsman to the groom's right, all turned inwards toward the center couple.",
+        "Direct the wedding party to cheer enthusiastically: have the far-left bridesmaid raise both hands straight up in celebration, the middle bridesmaid gesture toward the bride, and the groomsman gesture with open, energetic hands toward the groom."
+      ]
     },
     {
       "id": "01M26W750P9ZRPK7PYXS7ZDS4P",
@@ -17461,9 +17550,16 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom in the center-right, leaning casually with his left shoulder/side against a lamppost, crossing his right leg over his left ankle, and facing toward frame left.",
+        "Place the bride directly facing the groom, holding her bouquet low at her side in her right hand, with her torso angled slightly toward the camera while turning her face and body toward him.",
+        "Position the second groomsman and first bridesmaid on the left side of the bride, staggered slightly in depth and angled inward toward the center, with hands relaxed naturally at their sides.",
+        "Place the second bridesmaid on the far right side just beyond the lamppost, turned inward toward the couple with her hands resting at her sides.",
+        "Prompt the entire group to engage in natural conversation, having everyone look toward each other and share a genuine, candid laugh."
+      ]
     },
     {
       "id": "01M26W750Q7JZ30MQASK1N6HAX",
@@ -17512,9 +17608,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side facing directly away from the camera, with the groom on the left and the bride on the right, walking slowly away down the street.",
+        "Have them clasp their inner hands together in the space between them, letting their arms hang down naturally as they walk.",
+        "Direct the bride to hold her floral bouquet loosely in her outer left hand, resting it down by her side.",
+        "Ask both subjects to turn their heads and upper bodies back over their right shoulders toward the camera with open, joyful smiles."
+      ]
     },
     {
       "id": "01M26W750RR86AW591Q1W3RVW8",
@@ -17564,9 +17666,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, standing side by side and angled slightly inward toward each other in a soft three-quarter stance.",
+        "Have them clasp their inner hands (the bride's left hand and the groom's right hand) loosely between them at waist level.",
+        "Direct the bride to hold her floral bouquet downward at her outer right side with a relaxed arm, while the groom lets his left arm hang straight down at his side.",
+        "Instruct both subjects to turn their heads toward each other, maintaining direct eye contact with soft, natural smiles."
+      ]
     },
     {
       "id": "01M26W750SSRAF61GQCACNZ4A8",
@@ -17615,9 +17723,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing side-by-side in front of a large bright window, with the groom on the right turned in near-profile facing the bride, and the bride on the left angled slightly forward toward the camera.",
+        "Direct the groom to stand tall with his feet angled slightly toward the bride, arms resting naturally at his sides, looking warmly down at her face.",
+        "Have the bride bring her right hand up to gently touch her right cheek in a sweet, candid gesture, while holding her bouquet down naturally by her left side.",
+        "Instruct the bride to smile or laugh joyfully toward the camera while the groom keeps his gaze affectionately fixed on her."
+      ]
     },
     {
       "id": "01M26W750T9YKYETEBJ144K74H",
@@ -17669,9 +17783,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom standing with feet hip-width apart for stability, angled slightly toward the camera, and have him lift the bride into a horizontal bridal carry across his chest.",
+        "Instruct the bride to wrap her left arm securely around the groom's neck and shoulder, extending her legs together toward the right side.",
+        "Have the bride raise her right arm high overhead, holding her bouquet upward toward the sky while leaning her upper body slightly back with her head tilted up.",
+        "Direct both subjects to look at each other with wide, candid laughter to capture a joyful, celebratory moment."
+      ]
     },
     {
       "id": "01M26W750VTDWVSKWRXZKD39DV",
@@ -17722,9 +17842,16 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the groom sit directly in the grass with his legs extended forward and spread wide in a relaxed 'V' shape.",
+        "Place the bride seated directly between the groom's legs, angled slightly toward him with her legs extending forward and her lace dress spread across the grass.",
+        "Have the bride lean back into the groom's chest while he wraps his arms around her waist from behind.",
+        "Position the bride's hands resting gently over the groom's arms across her midsection.",
+        "Direct both subjects to lean their heads together until their temples touch, smiling and laughing softly with eyes partially closed as they look down toward each other."
+      ]
     },
     {
       "id": "01M26W750WYVQX6P9TTJFWZNWC",
@@ -17775,9 +17902,15 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, spaced about an arm's length apart, walking slowly forward and slightly diagonally through the field.",
+        "Have them clasp their inner hands (her left, his right) loosely down between them at hip height as they step forward in a natural stride.",
+        "Instruct the bride to hold her bouquet loosely down at her right side with her outer hand, while the groom lets his outer left arm hang relaxed at his side.",
+        "Direct both subjects to turn their heads toward one another, making direct eye contact and sharing a natural, candid laugh as they walk."
+      ]
     },
     {
       "id": "01M26W750X77SCQTHV559TW7MS",
@@ -17826,9 +17959,16 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom on the right and the bride on the left, facing each other in a dance frame with the groom providing a wide, stable stance.",
+        "Have the groom wrap his right arm firmly around the bride's lower back to support her weight as she arches back into a gentle dip toward the left.",
+        "Instruct the bride to extend her right leg out to the side with her foot lightly lifted off the floor, while resting her left hand around the groom's torso/back.",
+        "Have the groom hold the bride's right hand at chest height with his left hand, centered near his lapel.",
+        "Direct both subjects to look directly into each other's eyes and share a joyful, natural smile."
+      ]
     },
     {
       "id": "01M26W750YZN2YXJMQVN910XFD",
@@ -17877,9 +18017,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, standing close together and angled slightly toward each other in a three-quarter profile.",
+        "Instruct the bride to hold the floral bouquet vertically at waist level with her right hand, while placing her left hand flat against her upper chest just below her collarbone.",
+        "Have the groom keep his arms relaxed at his sides, facing the bride with an attentive, open posture.",
+        "Encourage the subjects to interact naturally, having the bride laugh with an open, candid expression looking toward the groom while he smiles warmly back at her."
+      ]
     },
     {
       "id": "01M26W750ZGDPG8J7XTW65JCTG",
@@ -17930,9 +18076,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing closely facing each other in full profile along the pathway.",
+        "Have the groom wrap his hand around the bride's waist, while the bride holds her bouquet facing downward naturally at her side.",
+        "Drape the bride's long, sheer veil up and over both of their heads, allowing it to billow softly like a canopy around their upper bodies.",
+        "Direct the couple to lean in and share a gentle, romantic kiss on the lips beneath the veil."
+      ]
     },
     {
       "id": "01M26W75107PFSH8A6Q2ZE1XE8",
@@ -17983,9 +18135,15 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple walking side by side toward the camera along the sand near the water, with the bride on the groom's right (viewer's left).",
+        "Have the bride loop her left arm through the groom's right arm, resting her left hand on his bicep/forearm, while letting her right arm hang naturally at her side holding the bouquet downward.",
+        "Instruct the groom to bend his right arm across his abdomen to support the bride's arm, letting his left arm hang relaxed by his side as they take a mid-stride step forward.",
+        "Direct both subjects to turn their heads inward toward each other, exchanging a genuine, laughing smile and eye contact as they walk."
+      ]
     },
     {
       "id": "01M26W7511R6EMCBJP0NKP8NX9",
@@ -18035,9 +18193,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing very close, facing each other in profile relative to the camera, with bodies aligned vertically and feet firmly grounded.",
+        "Have the groom place both hands around the bride's lower waist, gently drawing her closer to his torso.",
+        "Instruct the bride to place her front arm across the groom's upper chest and wrap her back arm around his neck/shoulder, loosely holding her floral bouquet so it rests over his shoulder and extends toward the background.",
+        "Direct the groom to gaze warmly down at the bride, while having the bride cast her eyes downward with a natural, joyful smile as if sharing a candid moment."
+      ]
     },
     {
       "id": "01M26W7512HEMTAA4RE80XY005",
@@ -18089,9 +18253,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom standing firmly on the right facing toward camera-left, leaning slightly forward with both hands securely holding the bride around her waist and hips to support her weight in a low dip.",
+        "Have the bride arch her back dramatically away from the groom toward camera-left, extending her trailing leg back and lifting her foot slightly off the ground to create an elongated silhouette.",
+        "Instruct the bride to raise her right arm high overhead in a joyful gesture and lower her left arm down toward the grass, loosely holding the bouquet upside down.",
+        "Direct both subjects to look directly at each other, with the groom smiling down warmly and the bride laughing up at him with her head tilted back."
+      ]
     },
     {
       "id": "01M26W7513E27DHCEA9Q0FPJKG",
@@ -18140,9 +18310,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together, angled in three-quarter view toward each other in front of a bright indoor window.",
+        "Have both subjects jointly hold the bridal bouquet centered between them at waist height with both hands grasping the stems together.",
+        "Instruct the bride to remain grounded with weight evenly distributed, head turned toward the groom with an authentic, open-mouthed laugh.",
+        "Direct the groom to jump straight up in place a few inches off the ground while maintaining his grip on the bouquet, throwing his head back in mid-air with an ecstatic laugh."
+      ]
     },
     {
       "id": "01M26W7514NFQZRB874ABB04XT",
@@ -18192,9 +18368,16 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together and facing each other in profile, with the bride on the left and the groom on the right.",
+        "Instruct the bride to extend her hand forward at waist level with her fingers relaxed and gently curved downward.",
+        "Have the groom reach out and delicately hold her fingers from underneath with both of his hands, bringing attention to their wedding bands.",
+        "Direct both subjects to gaze down at their joined hands with soft, subtle smiles, keeping their postures relaxed and intimate.",
+        "Frame a tight vertical shot centered on their connected hands, partially cropping their upper faces at the top edge of the frame."
+      ]
     },
     {
       "id": "01M26W7515EK03APB1AQBX9ZB4",
@@ -18243,9 +18426,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing directly facing each other in pure side profile to the camera, spaced close together.",
+        "Instruct both subjects to bring their foreheads together in a gentle rest, keeping their chins level, shoulders relaxed, and eyes softly closed or cast downward in a serene expression.",
+        "Have them raise both sets of hands to mid-chest level between them, clasping and holding each other's hands softly against the center line."
+      ]
     },
     {
       "id": "01M26W7516XXKJ7D9KCD9ZVNKN",
@@ -18294,9 +18482,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing a couple of feet apart facing each other in side profile against a minimalist background, leaving enough room for full-length framing.",
+        "Have the bride hold her bouquet down low in her right hand and execute a fluid spin or twirl so the full skirt of her wedding dress fans out wide at the base.",
+        "Instruct the groom to stand with feet slightly apart facing the bride, holding his hands lightly out at waist level with open palms in an admiring, receptive posture.",
+        "Direct both subjects to keep their eyes locked on each other and capture the shot mid-spin during their shared, natural laughter."
+      ]
     },
     {
       "id": "01M26W7517NW5DYQ46WH98QRZM",
@@ -18348,9 +18542,16 @@
       "accessibility": [
         "limited_mobility"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing side-by-side in an open field, facing inward toward each other with the bride angled slightly toward the camera.",
+        "Drape the groom's blue suit jacket over the bride's shoulders and have her hold her bouquet down in her right hand at hip level.",
+        "Instruct the couple to clasp hands together centrally at the bride's chest height, with the groom extending both arms forward to hold her hands.",
+        "Have the groom drop into a playful, dynamic posture with bent knees as if dancing or bouncing back on his heels, leaning toward the bride.",
+        "Direct both subjects to look at each other and engage in a natural, candid laugh to capture dynamic movement and joyful expressions."
+      ]
     },
     {
       "id": "01M26W751896V5Z55BDZF2H1BA",
@@ -18399,9 +18600,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, walking together forward down a central hallway toward the camera with the window backlight behind them.",
+        "Have them hold their inner hands together between them, while each holds a lit sparkler upright at chest level with their outer hand.",
+        "Direct the groom to turn his head toward the bride with an open smile as he steps forward, while the bride faces forward toward the camera with a joyous, laughing expression.",
+        "Place guests on either side of the foreground just out of frame, extending their arms inward to hold lit sparklers aloft, framing the walking couple."
+      ]
     },
     {
       "id": "01M26W7519DJH3AQ8G2QJSWB8R",
@@ -18452,9 +18659,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side-by-side in a hallway or doorway, facing straight forward toward the camera.",
+        "Have them clasp their inner hands together and raise them high between their heads.",
+        "Instruct both to lift their outer arms up and outward with open palms in a high-energy celebratory wave.",
+        "Have the couple walk forward toward the camera in stride while looking directly into the lens with joyful, wide-open smiles."
+      ]
     },
     {
       "id": "01M26W751A4GE1AKWMRK21X3V8",
@@ -18506,9 +18719,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing side-by-side on an urban sidewalk, angled three-quarters toward each other and the camera.",
+        "Instruct the bride to lean slightly forward at the waist, holding her bouquet pointed downward in her outer right hand and extending her left hand across her body.",
+        "Have the groom step close and lean in toward the bride, clasping her extended left hand with his right hand at low waist level between them.",
+        "Prompt the couple into genuine, candid laughter, allowing their heads to tilt slightly back and their shoulders to relax naturally in the moment."
+      ]
     },
     {
       "id": "01M26W751BW6A3PMSJG28VJH8Q",
@@ -18558,9 +18777,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride and groom standing closely together and turned inward to face each other in three-quarter profile.",
+        "Have the groom place his right hand gently around the bride's waist, while raising a champagne flute in his left hand at chest level.",
+        "Direct the bride to hold a champagne flute up in her right hand to toast with him, keeping her left arm relaxed down holding her floral bouquet at hip level.",
+        "Instruct both subjects to maintain eye contact with each other, smiling warmly as they clink their glasses together."
+      ]
     },
     {
       "id": "01M26W751CB89TXZ72XDR0BKK2",
@@ -18611,9 +18836,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Seat the bride about halfway up a wooden staircase, facing slightly toward the railing, and fan the train of her dress down the lower steps.",
+        "Position the groom standing at the foot of the stairs beside the banister post, turned in full profile toward the bride.",
+        "Have the groom reach up and gently clasp hands with the bride over the stair railing post, resting their hands in front of her knees.",
+        "Instruct both subjects to look at each other and share a natural, happy laugh or smile."
+      ]
     },
     {
       "id": "01M26W751DHX7AW42H073K59GY",
@@ -18662,9 +18893,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together, with the groom turned slightly toward the camera and the bride standing just behind his right side, body angled inward toward him.",
+        "Have the groom raise both hands to collar height to adjust his necktie knot, tilting his head slightly downward to look directly at his hands.",
+        "Instruct the bride to hold her floral bouquet down at her right side, place her left hand gently behind the groom's waist, and look up affectionately at his face with a warm smile."
+      ]
     },
     {
       "id": "01M26W751EMN7DFY2QWJATJAWY",
@@ -18713,9 +18949,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple along the shoreline in profile to the camera, with the bride standing slightly ahead on the left and the groom standing closely behind her right side.",
+        "Have the bride hinge forward slightly at the hips, resting both hands flat against the front of her thighs, while turning her head back over her right shoulder to look and smile toward the groom.",
+        "Direct the groom to lean forward slightly over her back, using both hands at her lower waistline as if adjusting or buttoning the back of her dress, keeping his eyes focused down on his hands."
+      ]
     },
     {
       "id": "01M26W751F2D349MQC9G7XHJQM",
@@ -18766,9 +19007,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the man on the right, standing close together in an open grassy field with the warm sunlight behind them.",
+        "Have the man angle his torso three-quarters toward the bride, keeping his left arm relaxed at his side while bringing his right hand up to chest height.",
+        "Instruct the bride to hold her bouquet upright with her right hand around waist height, and raise her left hand to clasp the man's raised right hand between them.",
+        "Prompt both subjects to turn slightly toward one another and laugh candidly, capturing an open, joyful, and authentic interaction."
+      ]
     },
     {
       "id": "01M26W751GXQZDE4RPT84ZCJ38",
@@ -18817,9 +19064,16 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Line up the wedding party in a single horizontal row across the street to walk forward together, positioning the Bride and Groom in the center, flanked on each side by a Bridesmaid and an outer Groomsman.",
+        "Have the Bride and Groom hold hands in the center; the Bride holds her floral bouquet at waist height with her outer hand, while both turn their heads toward each other with natural, laughing expressions.",
+        "Instruct each Bridesmaid to hold her bouquet centered in front of her midsection with both hands, stepping forward naturally.",
+        "Position the outer Groomsmen with relaxed postures—the far-left groomsman with arms loosely at his sides and the far-right groomsman loosely clasping his hands in front of his torso.",
+        "Have the entire group walk slowly forward in unison, with the flanking groomsman-bridesmaid pairs turning their heads inward to chat and smile at each other rather than looking at the camera."
+      ]
     },
     {
       "id": "01M26W751HB33BE7FW7PBZX01X",
@@ -18869,9 +19123,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Place the bride and groom centered and close together, with the groom wrapping his arm around the bride's waist while throwing his head back in a hearty laugh, and the bride holding her bouquet low in her outer hand while laughing toward him.",
+        "Form a tight cluster on the bride's side with two bridesmaids leaning inwards toward her, placing hands on each other's backs and the bride's waist, while a groomsman stands slightly behind them leaning into the frame.",
+        "Position the third bridesmaid and second groomsman on the groom's side, having the bridesmaid turn inwards to rest her hands lightly on the groom's chest and lapel while the groomsman stands closely behind her with a hand on her shoulder.",
+        "Instruct the entire wedding party to huddle close together, direct all their attention and smiles inward toward the bride and groom, and prompt genuine group laughter."
+      ]
     },
     {
       "id": "01M26W751JSE6ZWCAF60QEG0Y8",
@@ -18921,9 +19181,16 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Line up the wedding party of six abreast across the path in order from left to right: groomsman, bridesmaid, bride, groom, bridesmaid, and groomsman, spaced closely shoulder-to-shoulder.",
+        "Instruct the entire group to walk slowly forward together along the trail in mid-stride, focusing on natural movement, authentic laughter, and shared candid conversation rather than looking at the camera.",
+        "Position the bride in the center holding her bouquet with both hands at waist height, throwing her head back in laughter toward the groom; place the groom slightly turned toward her, smiling down at her with one hand resting naturally near his lapel.",
+        "Have the left bridesmaid link her arm through the far-left groomsman's arm, both angled inward and laughing toward the center couple.",
+        "Have the right bridesmaid and far-right groomsman turn slightly toward each other as they walk, laughing and gesturing naturally with their hands held loosely at mid-torso height."
+      ]
     },
     {
       "id": "01M26W751KM8S2V3WA9GRMS3R7",
@@ -18972,9 +19239,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Line up the four subjects side-by-side standing close together from left to right: bridesmaid, bride, groom, and groomsman, with each person wrapping their inner arm around the waist of the person beside them.",
+        "Instruct the bridesmaid on the far left to face the camera, smiling, and raise her outer right arm high above her head holding her floral bouquet.",
+        "Position the groomsman on the far right facing forward toward the camera, raising his outer right arm into a high, celebratory fist pump.",
+        "Have the bride and groom turn slightly toward each other in the center, smiling and laughing together, with the bride raising her bouquet high with her right arm and the groom pumping his left fist upward in celebration."
+      ]
     },
     {
       "id": "01M26W751M3AZNVVAZMHN2X0ZZ",
@@ -19024,9 +19297,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Line up the five subjects in a single-file diagonal chain facing toward camera-left in an open field, ordered from left to right: lead groomsman/groom, second groomsman, bride holding her bouquet, and two bridesmaids trailing at the rear.",
+        "Have each person connect playfully to the person ahead: the second groomsman places his hands on the lead man's arm/shoulder, the bride leans her head and upper body affectionately against the second groomsman's back while holding her bouquet in front, and each bridesmaid rests her hands on the waist or sides of the person in front of her.",
+        "Instruct the entire group to bend their knees, lean forward in unison, and take staggered walking steps toward camera-left to create the dynamic effect of pushing or following a playful train.",
+        "Direct everyone to tilt their heads naturally toward the motion, laugh out loud, and let the movement feel candid and unposed."
+      ]
     },
     {
       "id": "01M26W751NEFRN81Z6EN08VWY3",
@@ -19075,9 +19354,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple side by side in the center of the street facing directly away from the camera, with the bride on the left and the groom on the right.",
+        "Have them clasp inner hands loosely between them at waist level, while the bride holds her bouquet pointing downward at her side in her outer left hand.",
+        "Instruct both subjects to turn their heads slightly inward toward each other, with the groom looking toward the bride's profile and the bride glancing gently toward him.",
+        "Direct the couple to walk slowly away from the camera with relaxed, upright posture, capturing a natural strolling stride from behind."
+      ]
     },
     {
       "id": "01M26W751P7TR0A6XGHA9WAGSS",
@@ -19129,9 +19414,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the groom standing in a three-quarter profile facing left with his knees slightly bent, preparing to lift the bride around her waist.",
+        "Have the groom lift the bride slightly off the ground, supporting her firmly around the ribs and waist with both arms.",
+        "Instruct the bride to wrap her left arm around the groom's neck and shoulder while letting her right arm hang downward holding the bouquet at her side.",
+        "Direct both subjects to laugh naturally and look toward each other mid-lift, allowing the bride to lean back slightly for a joyful, candid dynamic."
+      ]
     },
     {
       "id": "01M26W751QADD1NVAPYWW88B5X",
@@ -19181,9 +19472,15 @@
         "needs_reflector": true
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing close together on the shoreline, angled slightly toward the camera with the bride on the left and the groom on the right.",
+        "Have the groom stand upright with his hands clasped low in front of his waist, turning his head slightly to look down warmly at the bride.",
+        "Direct the bride to hold her bouquet down at her outer right side, while bringing her left hand up to gently rest against her own cheek and jawline.",
+        "Instruct both subjects to gaze affectionately into each other's eyes with soft, relaxed smiles."
+      ]
     },
     {
       "id": "01M26W751RB60GRVGFK3NS1X1Q",
@@ -19232,9 +19529,15 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Have the groom scoop and lift the bride horizontally across his body in a classic bridal carry, holding her upper back with his left arm and supporting her thighs under her knees with his right arm.",
+        "Instruct the bride to drape her left arm over the groom's shoulders while holding the floral bouquet out to the side, and fully extend her right arm up and outward in an open-handed celebratory gesture.",
+        "Have the bride keep her legs extended outward to the side, allowing her feet and dress to rest horizontally in the groom's arms.",
+        "Direct the groom to smile and look up at the bride's face while the bride turns forward toward the camera with an open-mouthed, joyful expression."
+      ]
     },
     {
       "id": "01M26W751SSNBARYRVH8E3HXX3",
@@ -19285,9 +19588,15 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple sitting closely side-by-side on a light-colored sofa, with the bride on the left and the groom on the right, both angling their torsos slightly inward toward each other.",
+        "Have the groom wrap his right arm around the bride's back so his right hand rests gently around her outer right waist or hip.",
+        "Instruct the bride to rest both hands down on her lap near the groom's right thigh, while the groom places his left hand over her hands to hold them gently.",
+        "Ask both subjects to turn their heads toward one another and prompt genuine interaction, capturing the bride laughing up at the groom and the groom looking down at her with an affectionate smile."
+      ]
     },
     {
       "id": "01M26W751T3RE9G6M06VZVHV2Q",
@@ -19338,9 +19647,15 @@
       "accessibility": [
         "plus_size_flattering"
       ],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the couple standing closely together in an open grassy field, with the groom on the right angled three-quarters toward the bride, and the bride on the left angled slightly toward the camera and groom.",
+        "Have the groom place his forward hand flat and gently across the bride's upper waist/ribs, resting his other arm naturally at his side while keeping his weight evenly balanced.",
+        "Instruct the bride to hold her bouquet down at her outer side in her right hand, letting the flowers tilt naturally toward the ground with a relaxed arm.",
+        "Prompt the groom to look down warmly at the bride's face with a natural smile, and have the bride tilt her head slightly back while sharing an open, spontaneous laugh."
+      ]
     },
     {
       "id": "01M26W751V75NC2NGT87QD9YVG",
@@ -19390,9 +19705,14 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 1,
+      "version": 2,
       "status": "active",
-      "image_source": "ai"
+      "image_source": "ai",
+      "instructions": [
+        "Position the bride on the left and the groom on the right, standing about an arm's length apart and turned in profile to face each other directly.",
+        "Have both subjects bend their elbows and clasp each other's hands together between them at mid-chest height.",
+        "Instruct the couple to look directly into each other's eyes and share an authentic laugh, with the bride smiling broadly and tilting her head back slightly while the groom smiles warmly down at her."
+      ]
     },
     {
       "id": "01M28GHKBE691E3SAF8FS9RFW8",
@@ -20018,6 +20338,3480 @@
       "accessibility": [],
       "version": 1,
       "status": "active"
+    },
+    {
+      "id": "01M2EKDA00M02VC43FVE6M5WKV",
+      "slug": "bench-lean-back-boot-up",
+      "image": {
+        "thumb": "poses/01M2EKDA00M02VC43FVE6M5WKV/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA00M02VC43FVE6M5WKV/detail_ai.jpg",
+        "blurhash": "dEHC6@ofS@RQ~TxsIXoN0eRkVztP05jIx:S0IaWUIosp"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You don't have to look at me. Look at the mountains. They're less judgy.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Coffee up, chin up, tiny smirk. Very morning-influencer.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit however you'd sit if I weren't here.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit sideways on the bench near the right side, reclining her upper body comfortably back against the rear slat with her torso angled toward the camera.",
+        "Instruct her to stretch her legs out along the bench seat toward the left: bend her bottom leg to rest the sole of her left boot flat on the bench, and elevate her right leg so the boot rests propped on the left edge of the backrest.",
+        "Direct her to drape her left arm back casually along the top edge of the bench, and let her right arm and hands rest relaxed in her lap over her dress.",
+        "Ask her to turn her face slightly toward camera right with a natural, candid smile, looking off into the distance."
+      ]
+    },
+    {
+      "id": "01M2EKDA0109TY323YF6A5WCH5",
+      "slug": "bench-arm-along-backrest",
+      "image": {
+        "thumb": "poses/01M2EKDA0109TY323YF6A5WCH5/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0109TY323YF6A5WCH5/detail_ai.jpg",
+        "blurhash": "dOH_;hV[bBt7?Gt6RkoK4:ofV}Rj0Naxt6RlIufiM{s:"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Fix your hair if you want. Actually, keep fixing it. That's the frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hands in pockets, weight on one leg, breathe out.",
+          "tone": "calm"
+        },
+        {
+          "text": "Jump off the step on three. Land like it was easy.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject seated slightly off-center on an outdoor wooden bench, with their body angled slightly toward camera-right and feet resting flat in the grass with knees loosely separated.",
+        "Have the subject extend their right arm along the top edge of the bench backrest, resting their hand over the top rail.",
+        "Place their left forearm/hand comfortably across the front of their left thigh near the hip/knee.",
+        "Instruct the subject to turn their head toward camera-right, looking past the frame with a natural, open smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA02AY6KDHE28FDM7NME",
+      "slug": "mid-stride-walk",
+      "image": {
+        "thumb": "poses/01M2EKDA02AY6KDHE28FDM7NME/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA02AY6KDHE28FDM7NME/detail_ai.jpg",
+        "blurhash": "doM%_xR,kUjb%%fRWCWU?Iaxo3ofoaj@WAayM{WEayof"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Hold the book like you actually want to read it. Ignore me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Close your eyes, chin up, find the sun on your face. Stop there.",
+          "tone": "calm"
+        },
+        {
+          "text": "Stretch like you just woke up somewhere gorgeous.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in full-length on a dirt path in a scenic landscape, facing in profile toward frame-left.",
+        "Instruct her to walk at a natural, easy pace across the frame from right to left, capturing her mid-stride with her front foot firmly stepping forward and the back foot trailing.",
+        "Have her let her arms swing naturally at her sides to match her walking rhythm, keeping hands relaxed and loose.",
+        "Direct her to look forward and slightly ahead along the path with a relaxed, candid smile, keeping her posture upright and shoulders relaxed."
+      ]
+    },
+    {
+      "id": "01M2EKDA03VEJ4WVH3APP1MW45",
+      "slug": "one-boot-up-grab",
+      "image": {
+        "thumb": "poses/01M2EKDA03VEJ4WVH3APP1MW45/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA03VEJ4WVH3APP1MW45/detail_ai.jpg",
+        "blurhash": "dIIY8OxYt0WF=}odoeay4;IpIYWB0gaeRjod0Naeoeoe"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Give me a fake laugh. See? Now it's a real one. Keep going.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Point at something off-frame like it's the best thing you've ever seen.",
+          "tone": "playful"
+        },
+        {
+          "text": "Look past my shoulder at the hills. Let the smile fade slowly.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand centered in the field, shifting their full weight onto their left leg with a slight bend in the standing knee.",
+        "Instruct the subject to lift their right leg up and out to the side, bending the knee sideways to raise the boot off the ground.",
+        "Direct the subject to reach down with their right arm and grab the heel of their raised right boot, while extending their left arm outward to the side for balance.",
+        "Ask the subject to lean their torso slightly forward and turn their head to the right, looking off-camera with a relaxed, playful smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA04T0FR5P4FJK08YPB6",
+      "slug": "hand-in-hair-look-up",
+      "image": {
+        "thumb": "poses/01M2EKDA04T0FR5P4FJK08YPB6/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA04T0FR5P4FJK08YPB6/detail_ai.jpg",
+        "blurhash": "dOHe,5f8o[oMM+oLWDWC0NRkV_bFE2f5oLj[RkoLoMj?"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Is this pose bad or cute? Trust me, it's cute. Hold it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look over your shoulder like I owe you money.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit in the grass, legs to the side, and look at nothing in particular.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in three-quarter profile facing toward the left, taking a light step forward with the left foot planted and the right leg trailing with the knee slightly bent.",
+        "Have the subject raise their right arm upward to lightly run their fingers through the top of their hair.",
+        "Instruct the subject to bend their left arm across their midsection, keeping the left hand relaxed near the waist.",
+        "Direct the subject to tilt their chin up toward the sky, looking upward into the sunlight with a soft, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA051MMYH6YNAFBGA7G9",
+      "slug": "holding-a-book-look-away",
+      "image": {
+        "thumb": "poses/01M2EKDA051MMYH6YNAFBGA7G9/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA051MMYH6YNAFBGA7G9/detail_ai.jpg",
+        "blurhash": "dJJacaX:%MR-4TN{E2%MRkIUXTNHkD%M%MtRxu%MWCR*"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "We'll take ten of these and you'll like two. That's normal.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your head on your hand and let your gaze go soft.",
+          "tone": "calm"
+        },
+        {
+          "text": "Kick one boot up and grab it. Very Sound of Music.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject walk at a slow, natural pace along the sidewalk toward the camera, positioning them parallel to the brick wall on their left side.",
+        "Instruct the subject to hold an open paperback book at waist height using both hands, gently gripping the pages in front of the midsection.",
+        "Direct the subject to turn their head slightly to their right, casting their gaze thoughtfully off-camera down the street while keeping their body oriented forward mid-stride."
+      ]
+    },
+    {
+      "id": "01M2EKDA06G8HZC456RBVXP9A6",
+      "slug": "coffee-cup-lean",
+      "image": {
+        "thumb": "poses/01M2EKDA06G8HZC456RBVXP9A6/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA06G8HZC456RBVXP9A6/detail_ai.jpg",
+        "blurhash": "dLKd3lx]~V9uIA9F%ft7_2?Gt7t7S4X8xtt7RjV@WBt7"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody sees these until you say so. You're the editor.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me 'just landed, no plans' energy.",
+          "tone": "playful"
+        },
+        {
+          "text": "Tuck your hair behind your ear, slow, like you're thinking.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject leaning their upper back against a vertical brick pillar on a sidewalk, framed in full-body profile to three-quarter view.",
+        "Instruct the subject to bear their weight on the front straight leg, while bending the back leg at the knee to press the sole of that boot flat against the brick wall behind them.",
+        "Have the subject let their back arm hang loosely along their side, while using their front hand to bring a to-go coffee cup up to their mouth as if casually taking a sip.",
+        "Direct them to keep their head angled in profile looking straight ahead toward the street, capturing a natural, relaxed street-life moment in the warm sidelight."
+      ]
+    },
+    {
+      "id": "01M2EKDA075V9P9NPDFFJENA51",
+      "slug": "steps-sit-elbows-on-knees",
+      "image": {
+        "thumb": "poses/01M2EKDA075V9P9NPDFFJENA51/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA075V9P9NPDFFJENA51/detail_ai.jpg",
+        "blurhash": "diIhHM-;k8R+~q%Naeof%hxuRjt6xvWWRjWCxuj[Rjof"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Tell me about your weekend while I fiddle with settings.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
+        },
+        {
+          "text": "Laugh at nothing over there. Full commitment.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant",
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on a raised stone ledge or step, angled three-quarters toward camera left with knees bent and feet resting firmly on the lower ground.",
+        "Instruct him to hinge forward at the hips, resting his elbows squarely on top of his knees.",
+        "Have him clasp his hands together with fingers lightly interlaced, resting his chin comfortably on the tops of his hands.",
+        "Direct his head and gaze toward the left into the distance, maintaining a relaxed, contemplative expression without looking at the camera."
+      ]
+    },
+    {
+      "id": "01M2EKDA08RMVK3JZ3FQG33P17",
+      "slug": "wall-lean-look-off",
+      "image": {
+        "thumb": "poses/01M2EKDA08RMVK3JZ3FQG33P17/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA08RMVK3JZ3FQG33P17/detail_ai.jpg",
+        "blurhash": "dLIhsFxsx.s:_4WDRka$9*NHM~oy%hovWBkB%Ooen+of"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hair flip. Then laugh at the fact that you just did a hair flip.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand beside a rustic wooden fence, angled three-quarters toward the camera with her back and right hip leaning lightly against the fence post and rail.",
+        "Instruct her to keep her right leg straight on the ground to bear her weight, while bending her left knee to hook or lift her left foot against the lower horizontal fence rail.",
+        "Rest her left forearm casually along the top rail of the fence with the wrist and hand relaxed and draped forward, while letting her right arm hang naturally along her side.",
+        "Ask her to turn her face slightly away from the camera toward the left, looking off into the distance with a relaxed, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0979RGJJQ3GK3QM7CD",
+      "slug": "over-shoulder-look-back",
+      "image": {
+        "thumb": "poses/01M2EKDA0979RGJJQ3GK3QM7CD/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0979RGJJQ3GK3QM7CD/detail_ai.jpg",
+        "blurhash": "dJA,ON-U0KRk%1s:WBR+9GRk%Mj@IoayxaR*ozj[V@WC"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Walk toward me like you're going to get coffee. That's it, that's the shot.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Turn your face until you feel the light on your cheek. Hold it.",
+          "tone": "calm"
+        },
+        {
+          "text": "Sunglasses halfway off, like you just spotted a celebrity.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing upright in full side profile to the camera, facing toward the left side of the frame with their right side closest to the lens.",
+        "Have them place their feet slightly apart and let both arms hang naturally and relaxed straight down at their sides.",
+        "Instruct the subject to turn their head back over their right shoulder to look directly into the camera with a soft, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0A4D26MWNCFWWPJFAX",
+      "slug": "hands-in-pockets-squint",
+      "image": {
+        "thumb": "poses/01M2EKDA0A4D26MWNCFWWPJFAX/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0A4D26MWNCFWWPJFAX/detail_ai.jpg",
+        "blurhash": "dCNcm3qs?bD%mks9M{Rk8_~W0KxayD9aR*bcT0bFf6%1"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "There's no wrong way to sit on a bench. Prove me right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me, then turn back like you forgot to say something.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean on the railing with both arms and let your shoulders drop.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject facing the camera on the sidewalk, grounding her weight on her right foot while bending and playfully kicking or lifting her left heel back at a slight outward angle.",
+        "Instruct her to slip both hands fully into the pockets of her dress, keeping her elbows relaxed slightly outward.",
+        "Have her tilt her head gently toward her right shoulder and look directly into the camera with a wide, joyful smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0B77EKCQRXK5G7F9YR",
+      "slug": "curb-or-step-sit-legs-out",
+      "image": {
+        "thumb": "poses/01M2EKDA0B77EKCQRXK5G7F9YR/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0B77EKCQRXK5G7F9YR/detail_ai.jpg",
+        "blurhash": "dIJkGp9^xuIU}=9ZE2xu9E4.9G%MbxIUxZj[x]xux]Rj"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Look at your shoes, then look up on three. No smile required.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Crouch down, elbows on knees, look straight at me without smiling.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hip out, hand on hip, dare the camera to say something.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit casually on the edge of a raised stone step or sidewalk curb, angling their torso slightly toward camera-left.",
+        "Direct them to extend both legs down the steps toward the pavement, keeping the knees slightly bent and feet relaxed in sneakers.",
+        "Instruct the subject to lean their upper body back slightly onto their left arm, planting the left hand flat on the ground behind their hip for support.",
+        "Have them rest their right forearm and relaxed hand across their right upper thigh or knee.",
+        "Ask them to turn their head slightly to their left (camera-right) with a gentle, relaxed smile, gazing off-camera."
+      ]
+    },
+    {
+      "id": "01M2EKDA0CG3F4NAK5RJWXM2FD",
+      "slug": "tuck-hair-mid-turn",
+      "image": {
+        "thumb": "poses/01M2EKDA0CG3F4NAK5RJWXM2FD/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0CG3F4NAK5RJWXM2FD/detail_ai.jpg",
+        "blurhash": "dAATTU1P9a$e-:I;jYso9]%1-UNdOtxvjERjSikCnijY"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can blink, you can move, you can laugh at me. All of it works.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hold the book against you and look off down the street.",
+          "tone": "calm"
+        },
+        {
+          "text": "Squint at the horizon like you're in a perfume ad.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the model standing in a side-profile stance facing camera right, with her right foot placed slightly ahead and weight distributed comfortably.",
+        "Have her turn her head and upper torso back over her left shoulder to face directly toward the camera lens.",
+        "Instruct her to raise her left hand and bend the elbow to lightly touch or brush her fingers through her hair above her ear.",
+        "Keep her right arm relaxed and naturally lowered along the side of her body, maintaining a soft, candid smile toward the camera."
+      ]
+    },
+    {
+      "id": "01M2EKDA0DYWAEPCFXP37FEH7K",
+      "slug": "laugh-at-nothing-off-camera",
+      "image": {
+        "thumb": "poses/01M2EKDA0DYWAEPCFXP37FEH7K/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0DYWAEPCFXP37FEH7K/detail_ai.jpg",
+        "blurhash": "dmK^..aen#j[?dj?flax%hWCRkoK?bWVoIa#xbWWofWC"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Pretend I'm your friend who's terrible at photos. Lower the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sit on the curb like you're waiting for the bus in a music video.",
+          "tone": "playful"
+        },
+        {
+          "text": "Half turn away from me. Keep your face in profile. Stay.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing full-body in an open field, body angled slightly toward the camera with feet spaced naturally hip-width apart.",
+        "Have the subject slide both hands into the front pockets of their jeans, keeping the shoulders relaxed and arms resting comfortably at the sides.",
+        "Direct the subject to turn their head toward camera-left to look away from the lens, capturing a candid, open-mouth laughing expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA0E1WDR96R313MF83CY",
+      "slug": "skirt-or-jacket-twirl",
+      "image": {
+        "thumb": "poses/01M2EKDA0E1WDR96R313MF83CY/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0E1WDR96R313MF83CY/detail_ai.jpg",
+        "blurhash": "dCG[Q101O9-n1HD*R.%0E3RjjKIo~BWT%2n}EMt5RlR%"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Sit here. Take it just like this. That's the whole job.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Main character energy. The street is your runway.",
+          "tone": "playful"
+        },
+        {
+          "text": "Rest your head on your hand and let your gaze go soft.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject along the sunlit woodland path and instruct her to twirl in a slow, continuous circle so the skirt of her dress fans out around her mid-calves.",
+        "Have her keep her arms relaxed and held slightly away from her torso with soft, open hands for balance.",
+        "Direct her to turn her head back toward the side with an open, candid laugh, letting her hair catch the motion and natural backlight."
+      ]
+    },
+    {
+      "id": "01M2EKDA0F6BAKP2GJ0VK80QG6",
+      "slug": "stand-and-look-at-the-view",
+      "image": {
+        "thumb": "poses/01M2EKDA0F6BAKP2GJ0VK80QG6/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0F6BAKP2GJ0VK80QG6/detail_ai.jpg",
+        "blurhash": "dbMa31VsaJs;SjRjD%WX?vIoRjNF_4WUxuWBWEt6bIoe"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "backlit",
+        "open_shade"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "It's just me and a very quiet camera. Take a breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Twirl, and wherever you land, own it.",
+          "tone": "playful"
+        },
+        {
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing full-length facing forward, with their torso angled slightly toward camera-right and weight evenly distributed on both feet.",
+        "Instruct the subject to place both hands naturally into the front pockets of their jeans, keeping the shoulders relaxed and elbows slightly bent at their sides.",
+        "Have the subject turn their head sharply toward camera-right in a near-profile view, looking straight ahead into the distance with a neutral, relaxed expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA0GFYBDRFSYENKQ0NF4",
+      "slug": "railing-lean-both-arms",
+      "image": {
+        "thumb": "poses/01M2EKDA0GFYBDRFSYENKQ0NF4/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0GFYBDRFSYENKQ0NF4/detail_ai.jpg",
+        "blurhash": "dZKm|O?HITW=~qM{IAog%gt7V@t7VsRPRjkWkWW;azt7"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Sit here. Take it just like this. That's the whole job.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Twirl, and wherever you land, own it.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing next to a wooden railing or banister, angled at roughly three-quarters toward the camera with her weight casually resting against the rail.",
+        "Have her rest her inner (left) forearm flat along the top of the handrail, and drape her outer (right) arm across her waist with the hand lightly resting near the other forearm.",
+        "Instruct her to turn her head away from the camera to gaze toward the window light on her right, smiling naturally in profile/three-quarter view."
+      ]
+    },
+    {
+      "id": "01M2EKDA0HGZXQA22WQSD9D3S4",
+      "slug": "doorframe-shoulder-lean",
+      "image": {
+        "thumb": "poses/01M2EKDA0HGZXQA22WQSD9D3S4/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0HGZXQA22WQSD9D3S4/detail_ai.jpg",
+        "blurhash": "dIIEwptk~pM{?FM_NGxat8xaM|xu?I%MxaozV[V[M|Rk"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Fix your hair if you want. Actually, keep fixing it. That's the frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Laugh at nothing over there. Full commitment.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold the book against you and look off down the street.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject lean their left shoulder and back casually against a vertical doorframe or wall edge, angling their body at a three-quarter turn toward the camera.",
+        "Instruct them to cross their right leg in front of their left leg at the ankle, resting their weight mainly against the wall and the back foot.",
+        "Position their arms crossed loosely across the lower chest, with the right hand holding the upper left forearm and the left arm hanging relaxed downward over the waist.",
+        "Have the subject turn their head slightly to their right, looking off-camera into the distance with a natural, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0JSK174QVFBK14TN5F",
+      "slug": "crouch-on-heels-camera-low",
+      "image": {
+        "thumb": "poses/01M2EKDA0JSK174QVFBK14TN5F/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0JSK174QVFBK14TN5F/detail_ai.jpg",
+        "blurhash": "dNJ*CpDioyNeDNWEIV%1s.t8WYw[9vs+%LEMS$WBV?X9"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Walk toward me like you're going to get coffee. That's it, that's the shot.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Coffee up, chin up, tiny smirk. Very morning-influencer.",
+          "tone": "playful"
+        },
+        {
+          "text": "Turn your face until you feel the light on your cheek. Hold it.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant",
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject drop into a deep crouch in a three-quarter profile facing to the right, keeping her right foot planted flat on the ground and resting the back left foot on its ball.",
+        "Instruct her to lean her upper body forward toward the camera, draping her right arm over her right knee so the hand hangs loosely downward, while reaching her left hand back toward the ground behind her right foot for balance.",
+        "Direct her to turn her face directly toward the camera with a slight head tilt, offering a wide, genuine open-mouthed laugh or smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0K48SXG9X4QCVH32HR",
+      "slug": "bag-strap-hold-walk",
+      "image": {
+        "thumb": "poses/01M2EKDA0K48SXG9X4QCVH32HR/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0K48SXG9X4QCVH32HR/detail_ai.jpg",
+        "blurhash": "dPHep,t6s$t70Vt6oMWV0iNHIqWBtlRkn~fk-pWCt7j["
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can blink, you can move, you can laugh at me. All of it works.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sunglasses halfway off, like you just spotted a celebrity.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit in the grass, legs to the side, and look at nothing in particular.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject walk slowly and naturally forward along a grassy path directly toward the camera.",
+        "Position a messenger bag slung across the torso from the left shoulder to the right hip, with the right hand lightly holding the shoulder strap near chest level and the left arm hanging relaxed by the side.",
+        "Instruct the subject to turn their face slightly to their left, looking off-camera into the distance with a relaxed, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0MASQ73EVHQHH7MQKJ",
+      "slug": "chin-up-eyes-closed-sun",
+      "image": {
+        "thumb": "poses/01M2EKDA0MASQ73EVHQHH7MQKJ/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0MASQ73EVHQHH7MQKJ/detail_ai.jpg",
+        "blurhash": "dwKA~4R*jYof_4aya#j[%hayWXaz-:oJoca}%1ayjZay"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Look at your shoes, then look up on three. No smile required.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Crouch down, elbows on knees, look straight at me without smiling.",
+          "tone": "calm"
+        },
+        {
+          "text": "Walk away from me, then turn back like you forgot to say something.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand in the open field, angled in a three-quarters view toward camera right with feet placed about shoulder-width apart in a natural, stable stance.",
+        "Instruct her to gently arch her back and raise both arms out to the sides with elbows bent, holding her forearms angled upward and keeping her hands relaxed with loosely curled fingers.",
+        "Ask her to tilt her head back toward the sky, lift her chin, and close her eyes with a serene, relaxed facial expression to convey a sense of freedom and calm."
+      ]
+    },
+    {
+      "id": "01M2EKDA0NRXSFNBNGKQN2QRXJ",
+      "slug": "sit-on-bench-back-look-over",
+      "image": {
+        "thumb": "poses/01M2EKDA0NRXSFNBNGKQN2QRXJ/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0NRXSFNBNGKQN2QRXJ/detail_ai.jpg",
+        "blurhash": "dIJkGp00I?^kR*-;IoWBj[s.9aNe-qE1ofxaNeRksltR"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Pretend I'm your friend who's terrible at photos. Lower the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Half turn away from me. Keep your face in profile. Stay.",
+          "tone": "calm"
+        },
+        {
+          "text": "Give me 'just landed, no plans' energy.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on the bench angled toward the right of the frame, positioning their hips back against the seat and leaving space along the bench to the left.",
+        "Instruct them to place both feet flat on the ground with their knees bent at roughly a ninety-degree angle, keeping their legs parallel.",
+        "Have them lean their torso forward from the hips, resting their forearms on their thighs and loosely clasping their hands together just above the knees.",
+        "Direct the subject to turn their head back toward the camera over their near shoulder, maintaining a relaxed posture and a soft, natural smile directly into the lens."
+      ]
+    },
+    {
+      "id": "01M2EKDA0P8VPWTHTB2N6SR4EW",
+      "slug": "half-turn-walk-away",
+      "image": {
+        "thumb": "poses/01M2EKDA0P8VPWTHTB2N6SR4EW/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0P8VPWTHTB2N6SR4EW/detail_ai.jpg",
+        "blurhash": "dQKwgiWBbDof?djrR+ofO^RkRnj@.9WBs,a~_3j[j@j@"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "We'll take ten of these and you'll like two. That's normal.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Tuck your hair behind your ear, slow, like you're thinking.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hair flip. Then laugh at the fact that you just did a hair flip.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject walk slowly away from the camera at a slight diagonal angle through the field, catching her mid-stride with arms relaxed and hanging naturally at her sides.",
+        "Instruct her to turn her head back over her left shoulder to look off to the side with a natural, joyful smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0QBHXHMKYH8X70AQM2",
+      "slug": "hand-on-hip-hip-out",
+      "image": {
+        "thumb": "poses/01M2EKDA0QBHXHMKYH8X70AQM2/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0QBHXHMKYH8X70AQM2/detail_ai.jpg",
+        "blurhash": "dBATs9tmIqjFQkj?RjayJDRjj=oLOFog%LWVMwjYaeof"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Tell me about your weekend while I fiddle with settings.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sit on the curb like you're waiting for the bus in a music video.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hands in pockets, weight on one leg, breathe out.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant",
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in the street, angled three-quarters toward the camera while simulating a forward walk toward camera right.",
+        "Have him plant his back foot flat on the ground and step his front leg forward, landing lightly on the heel with the toes angled up.",
+        "Instruct him to reach his hands back near his hips to lightly hold the bottom hem of his t-shirt, keeping his elbows bent naturally away from the torso.",
+        "Direct him to turn his head toward camera right, looking off into the distance with a relaxed, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0RH6HRXPG9X3ATE4E7",
+      "slug": "sunglasses-half-off",
+      "image": {
+        "thumb": "poses/01M2EKDA0RH6HRXPG9X3ATE4E7/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0RH6HRXPG9X3ATE4E7/detail_ai.jpg",
+        "blurhash": "dH9?wIWV0f%158WCxZj[NGs:-oNGI;j[s.WVxZayR*s:"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "It's just me and a very quiet camera. Take a breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Squint at the horizon like you're in a perfume ad.",
+          "tone": "playful"
+        },
+        {
+          "text": "Look past my shoulder at the hills. Let the smile fade slowly.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject leaning back slightly against a vertical wooden post on the sand, extending her legs forward with her right leg crossing slightly over the left.",
+        "Have her raise her right hand to lightly hold the temple of her sunglasses near her right eye.",
+        "Let her left arm rest naturally against the front of her hip and floral dress.",
+        "Instruct her to tilt her head slightly down and to her right, looking downward toward the ground with a soft, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0SJFRSGBW6YEWPCXKX",
+      "slug": "lean-on-bike-or-car",
+      "image": {
+        "thumb": "poses/01M2EKDA0SJFRSGBW6YEWPCXKX/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0SJFRSGBW6YEWPCXKX/detail_ai.jpg",
+        "blurhash": "dPKU45fP^#NHXVWXRkt60jNHIWt6NzxZj?M|WGoexaju"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody sees these until you say so. You're the editor.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hip out, hand on hip, dare the camera to say something.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit however you'd sit if I weren't here.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Place the bicycle in profile across the frame, facing toward camera-right, on open grassy terrain.",
+        "Have the subject stand on the camera-facing side of the bike, leaning their lower back and hips comfortably against the top tube and saddle.",
+        "Instruct the subject to rest their right forearm and elbow across the bicycle seat, letting their right hand hang naturally over their upper thigh, while extending their left arm forward to grip the handlebar.",
+        "Keep their feet close together angled slightly toward camera-right, and have them turn their torso and head directly toward the camera with a relaxed, natural expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA0TKKYRFVHQNT3PWNQS",
+      "slug": "grass-sit-legs-to-side",
+      "image": {
+        "thumb": "poses/01M2EKDA0TKKYRFVHQNT3PWNQS/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0TKKYRFVHQNT3PWNQS/detail_ai.jpg",
+        "blurhash": "dHHx.PofOQa5nlt5s;jb0NV^Vfo^D=WBNFbE9ZbXs;er"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Is this pose bad or cute? Trust me, it's cute. Hold it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Kick one boot up and grab it. Very Sound of Music.",
+          "tone": "playful"
+        },
+        {
+          "text": "Close your eyes, chin up, find the sun on your face. Stop there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit directly on the grass, angling her body at a three-quarter view toward camera right.",
+        "Instruct her to extend her legs forward and slightly to camera left with knees softly bent, resting her boots together on the grass.",
+        "Have her lean her upper body gently forward with relaxed shoulders, resting both hands lightly on top of her knees in her lap.",
+        "Direct her to turn her head slightly to her left, looking off-camera toward the right with a soft, relaxed smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0VDRV7G2VV7DQVXBTK",
+      "slug": "reflection-check-in-glass",
+      "image": {
+        "thumb": "poses/01M2EKDA0VDRV7G2VV7DQVXBTK/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0VDRV7G2VV7DQVXBTK/detail_ai.jpg",
+        "blurhash": "daJ*ClNds+IV_NX9oes8yDayM|R*o~slRjWBt8RjjYoe"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Give me a fake laugh. See? Now it's a real one. Keep going.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Jump off the step on three. Land like it was easy.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean on the railing with both arms and let your shoulders drop.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Place a full-length framed mirror upright on the sand, angled slightly so the ocean horizon is visible in the reflection.",
+        "Position the subject facing the mirror with their back turned three-quarters away from the camera.",
+        "Have the subject bend their knees into a playful crouch with feet set wide, leaning forward toward the glass.",
+        "Instruct the subject to raise their left hand to run their fingers through their hair while letting their right arm hang loosely at their side.",
+        "Direct the subject to look at their own reflection and laugh genuinely, while framing the shot over their shoulder to capture the joyful reflection in full."
+      ]
+    },
+    {
+      "id": "01M2EKDA0WKVCMP1CZ0J93D9PG",
+      "slug": "stretch-arms-overhead",
+      "image": {
+        "thumb": "poses/01M2EKDA0WKVCMP1CZ0J93D9PG/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0WKVCMP1CZ0J93D9PG/detail_ai.jpg",
+        "blurhash": "diJ8noNGX9ofPXWVWqWXMxa#nha}IpoJe-jZNLj[ayf6"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "There's no wrong way to sit on a bench. Prove me right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
+        },
+        {
+          "text": "Look over your shoulder like I owe you money.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in profile to three-quarter view facing camera-right on the sand, with feet slightly staggered for a natural, grounded stance.",
+        "Instruct the subject to lift through the chest and subtly arch the upper spine backwards to create an elongated, stretching posture.",
+        "Have the subject raise both arms overhead: extend the upstage arm straight up towards the sky with relaxed fingers, while bending the downstage arm at the elbow to let the hand lightly rest behind or above the top of the head.",
+        "Direct the subject to tilt their chin upwards toward the sunlight, keeping their expression relaxed with a warm, joyful smile and eyes softly open or squinting into the light."
+      ]
+    },
+    {
+      "id": "01M2EKDA0X42VX95HZJZEEAG13",
+      "slug": "mid-jump-off-step",
+      "image": {
+        "thumb": "poses/01M2EKDA0X42VX95HZJZEEAG13/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0X42VX95HZJZEEAG13/detail_ai.jpg",
+        "blurhash": "dGHx}$V|bCocRHxsWTWC0PWFIbf5S$xu%2WA-;xt%1Rk"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "You don't have to look at me. Look at the mountains. They're less judgy.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Point at something off-frame like it's the best thing you've ever seen.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit in the grass, legs to the side, and look at nothing in particular.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Place a small wooden two-tier step stool in an open grassy field and have the subject stand on the top step facing diagonally forward-right.",
+        "Instruct the subject to leap forward off the bench into the grass, bending both knees upward into a dynamic mid-air tuck.",
+        "Have the subject extend both arms out to the sides with elbows slightly bent and relaxed fingers for mid-jump balance.",
+        "Direct the subject to look downward toward their landing target with a joyful, candid laugh."
+      ]
+    },
+    {
+      "id": "01M2EKDA0YH5WEFTQZZTZ1QSX4",
+      "slug": "bench-lean-back-boot-up-beach",
+      "image": {
+        "thumb": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/detail_ai.jpg",
+        "blurhash": "dhLW%}%gs,V@~qtRR*ay%NozRlofXTj[slbHSiV@aes:"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Main character energy. The street is your runway.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit however you'd sit if I weren't here.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on the wooden bench, leaning his upper body back casually while angled slightly toward the camera.",
+        "Instruct him to raise his right leg and extend it straight out to rest his boot atop the bench's backrest, while keeping his left foot planted flat on the sand below.",
+        "Direct him to bend his right arm and place his right hand behind the nape of his neck with the elbow flared out to the side, while resting his left forearm relaxed across his lap.",
+        "Have him face the camera directly with a natural, open smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA0ZGVT93P00E1ZKPWY4",
+      "slug": "bench-arm-along-backrest-studio",
+      "image": {
+        "thumb": "poses/01M2EKDA0ZGVT93P00E1ZKPWY4/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA0ZGVT93P00E1ZKPWY4/detail_ai.jpg",
+        "blurhash": "dMFO=A01buogxVWFR*kCD%t7spRjIWoyoLe:t8RjWBoz"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "studio"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Hold the book like you actually want to read it. Ignore me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Stretch like you just woke up somewhere gorgeous.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hold the book against you and look off down the street.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit slightly to one side on a rustic wooden bench that is angled slightly diagonally toward camera right.",
+        "Instruct her to rest her right arm comfortably along the top backrest slat with her wrist and fingers casually draped over the front edge.",
+        "Place her left hand relaxed on her lap/upper thigh, let her right foot rest flat on the floor, and extend her left leg slightly forward and out to the side.",
+        "Have her turn her head toward camera right, looking past the frame with a soft, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA10C3341F7E3KVRZRY5",
+      "slug": "mid-stride-walk-field",
+      "image": {
+        "thumb": "poses/01M2EKDA10C3341F7E3KVRZRY5/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA10C3341F7E3KVRZRY5/detail_ai.jpg",
+        "blurhash": "dJIE,eE2%Js:9RRixaWC0OIVIuoctRV@Wray_1M|xtj?"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low",
+        "backlit"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Walk toward me like you're going to get coffee. That's it, that's the shot.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Coffee up, chin up, tiny smirk. Very morning-influencer.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean on the railing with both arms and let your shoulders drop.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in a grassy field walking across the frame from left to right in a natural, wide stride, capturing them mid-step with the left leg planted forward and the right leg extended behind.",
+        "Instruct the subject to let their arms swing naturally with their movement, keeping the forward (camera-facing) arm bent slightly at the elbow reaching forward and the rear arm trailing behind the hip.",
+        "Have the subject keep their torso angled slightly toward the camera while keeping their head directed profile-right, looking straight ahead into the distance with a relaxed, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA11SVEEGGY1W10V2Z1A",
+      "slug": "one-boot-up-grab-beach",
+      "image": {
+        "thumb": "poses/01M2EKDA11SVEEGGY1W10V2Z1A/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA11SVEEGGY1W10V2Z1A/detail_ai.jpg",
+        "blurhash": "dYG[QJf+xuxa~pofofof%MoLRjR*t7t6RjWBxat6WBay"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "beach"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Look at your shoes, then look up on three. No smile required.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Close your eyes, chin up, find the sun on your face. Stop there.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hair flip. Then laugh at the fact that you just did a hair flip.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject in a side-profile to three-quarter view along the water's edge, balancing all her weight onto her back standing leg.",
+        "Instruct her to lift her front leg forward off the sand with the knee bent, extending her foot outward as if balancing on one foot.",
+        "Have her lean her upper body forward and reach both hands down toward her raised ankle to playfully hold or adjust her boot.",
+        "Direct her to turn her head slightly toward the camera's direction with a joyful, candid laugh while maintaining her balance."
+      ]
+    },
+    {
+      "id": "01M2EKDA12T40XDJWP1N8FR0RE",
+      "slug": "hand-in-hair-look-up-mountain",
+      "image": {
+        "thumb": "poses/01M2EKDA12T40XDJWP1N8FR0RE/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA12T40XDJWP1N8FR0RE/detail_ai.jpg",
+        "blurhash": "dkJR1}s8jEj]?wWBj]jsyENJWYWC?abHoJfRXUs.WBoe"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Tell me about your weekend while I fiddle with settings.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me, then turn back like you forgot to say something.",
+          "tone": "playful"
+        },
+        {
+          "text": "Crouch down, elbows on knees, look straight at me without smiling.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand naturally facing front, with feet spaced about shoulder-width apart and body weight evenly distributed.",
+        "Instruct the subject to raise their right arm and lightly run their fingers through their hair on top of their head, keeping the elbow bent out to the side.",
+        "Direct the subject to let their left arm hang naturally and relaxed straight down along their side.",
+        "Ask the subject to turn their head slightly toward their left, tilt their chin gently upward, and gaze off into the distance with a soft, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA13JAT2GFGZ7BKCYZYE",
+      "slug": "holding-a-book-look-away-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA13JAT2GFGZ7BKCYZYE/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA13JAT2GFGZ7BKCYZYE/detail_ai.jpg",
+        "blurhash": "d9Jtk%~p?a-;+@t6D%%L4:M{IBkC~pIq-oNHx]-pRjWV"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Is this pose bad or cute? Trust me, it's cute. Hold it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your head on your hand and let your gaze go soft.",
+          "tone": "calm"
+        },
+        {
+          "text": "Give me 'just landed, no plans' energy.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing upright facing the camera, with feet spaced close together and weight balanced evenly across both legs.",
+        "Have the subject hold a hardcover book horizontally against her upper waist/lower chest with both hands wrapped gently over the cover and sides.",
+        "Instruct her to drop her shoulders naturally and turn her head slightly to her left, looking off-camera into the distance with a calm, soft expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA14MS81X8219RE0B5RQ",
+      "slug": "coffee-cup-lean-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA14MS81X8219RE0B5RQ/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA14MS81X8219RE0B5RQ/detail_ai.jpg",
+        "blurhash": "dIIEa__457$+~VR+E1xuR*RjM|-o?a-pf+t7x]%Mt7R,"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You don't have to look at me. Look at the mountains. They're less judgy.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Twirl, and wherever you land, own it.",
+          "tone": "playful"
+        },
+        {
+          "text": "Turn your face until you feel the light on your cheek. Hold it.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing a step away from an exterior brick wall, leaning their upper back comfortably against it with straight legs.",
+        "Have the subject bend their front arm at the elbow to hold a takeaway coffee cup at mid-chest level, letting the rear arm rest relaxed against the wall.",
+        "Instruct the subject to turn their head three-quarters away from the wall toward the street, looking off-camera with a relaxed, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA15AZRFNV0BVPX4SVW2",
+      "slug": "steps-sit-elbows-on-knees-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA15AZRFNV0BVPX4SVW2/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA15AZRFNV0BVPX4SVW2/detail_ai.jpg",
+        "blurhash": "dSHUtV9FNHoy~Vt7IUoztRNGaeWV%MNGofWBWCofofWV"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low",
+        "overcast"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Hold the book like you actually want to read it. Ignore me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Half turn away from me. Keep your face in profile. Stay.",
+          "tone": "calm"
+        },
+        {
+          "text": "Laugh at nothing over there. Full commitment.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on the middle step of an outdoor stoop, positioning her body angled roughly 45 degrees toward frame right.",
+        "Instruct her to keep her knees together with her feet planted slightly staggered on the bottom step.",
+        "Ask her to lean her upper body forward slightly, resting her forearms across her lap with her hands loosely clasped over her knees.",
+        "Direct her to turn her head toward frame left, looking down toward the ground with a soft, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA16HB59N0SSHKZM9D2Q",
+      "slug": "wall-lean-look-off-field",
+      "image": {
+        "thumb": "poses/01M2EKDA16HB59N0SSHKZM9D2Q/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA16HB59N0SSHKZM9D2Q/detail_ai.jpg",
+        "blurhash": "dXATyRNGRjof_4NGWBj[.9R*WBay%hWVaxa#tRofj[ay"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Give me a fake laugh. See? Now it's a real one. Keep going.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Main character energy. The street is your runway.",
+          "tone": "playful"
+        },
+        {
+          "text": "Hands in pockets, weight on one leg, breathe out.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject lean their back and right shoulder casually against a wooden fence post, angled slightly toward camera-right.",
+        "Instruct them to bend their right leg back, resting the sole of the shoe or foot against the base of the post, while keeping the front left leg straight to support their weight.",
+        "Let both arms hang relaxed at their sides, with hands resting naturally alongside the thighs.",
+        "Direct the subject to turn their head further toward camera-right, gazing softly into the distance away from the lens."
+      ]
+    },
+    {
+      "id": "01M2EKDA17ND7VMK7HWK3VDADM",
+      "slug": "over-shoulder-look-back-mountain",
+      "image": {
+        "thumb": "poses/01M2EKDA17ND7VMK7HWK3VDADM/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA17ND7VMK7HWK3VDADM/detail_ai.jpg",
+        "blurhash": "drL4sIkDoxWC%%WrWEoe%NoIoLj[-osls.fkxZWBWCa|"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Pretend I'm your friend who's terrible at photos. Lower the bar.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Point at something off-frame like it's the best thing you've ever seen.",
+          "tone": "playful"
+        },
+        {
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in an open grassy landscape, turned with her back mostly facing the camera and angled slightly toward the left.",
+        "Instruct her to walk slowly away at a slight diagonal, letting her arms swing naturally and capturing her mid-stride with one foot trailing.",
+        "Have her twist her upper torso and look back over her left shoulder directly toward the camera with a bright, candid smile as her hair catches the breeze."
+      ]
+    },
+    {
+      "id": "01M2EKDA1816A008EGR2W95AXB",
+      "slug": "hands-in-pockets-squint-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1816A008EGR2W95AXB/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1816A008EGR2W95AXB/detail_ai.jpg",
+        "blurhash": "dRHxThozxuM|0K%2RjaeV?NHRPWB%g%1xaR*E2o0WXof"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look past my shoulder at the hills. Let the smile fade slowly.",
+          "tone": "calm"
+        },
+        {
+          "text": "Hip out, hand on hip, dare the camera to say something.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant",
+        "wheelchair"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject walk slowly forward along a paved sidewalk directly toward the camera, capturing them mid-stride with their right foot forward and left foot stepping behind.",
+        "Instruct the subject to place both hands inside their front pant pockets, keeping their shoulders and elbows relaxed.",
+        "Direct the subject to turn their head slightly toward their left side, looking off-camera into the distance with a calm, natural facial expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA19FC9TECW878MT7HZD",
+      "slug": "curb-or-step-sit-legs-out-home",
+      "image": {
+        "thumb": "poses/01M2EKDA19FC9TECW878MT7HZD/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA19FC9TECW878MT7HZD/detail_ai.jpg",
+        "blurhash": "dVKT*u-;W=tS~pozofogNHNGIUs:t7oIM{bbxZaya#of"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "We'll take ten of these and you'll like two. That's normal.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Tuck your hair behind your ear, slow, like you're thinking.",
+          "tone": "calm"
+        },
+        {
+          "text": "Stretch like you just woke up somewhere gorgeous.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit sideways on the top wooden step, angling her body slightly toward the right while extending her legs downward to the left.",
+        "Instruct her to cross her right ankle over her left ankle, letting her boots rest casually on their sides against the lower step.",
+        "Direct her to lean her torso slightly forward with relaxed shoulders, resting her right arm down along her side with the hand softly placed on her lap near her knees.",
+        "Ask her to turn her head slightly toward the window light on camera right, looking just past the camera with a joyful, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1A17KKEPHCZ1PFYSHK",
+      "slug": "tuck-hair-mid-turn-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1A17KKEPHCZ1PFYSHK/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1A17KKEPHCZ1PFYSHK/detail_ai.jpg",
+        "blurhash": "dCJHU3yENc-;^O^*Iq?HI=xaxaxu-;S5smNH01%1IpjZ"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low",
+        "backlit"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can blink, you can move, you can laugh at me. All of it works.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hands in pockets, weight on one leg, breathe out.",
+          "tone": "calm"
+        },
+        {
+          "text": "Squint at the horizon like you're in a perfume ad.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject walking slowly along the street angled toward the camera, mid-stride with his left foot stepping forward and his right foot trailing behind.",
+        "Have him raise his left hand to casually run his fingers through his hair behind his ear, with the left elbow bent comfortably.",
+        "Keep the right arm relaxed and hanging naturally down along his side.",
+        "Direct the subject to turn his head slightly to his right (camera-left), looking off-camera into the distance with a relaxed, candid expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA1BGYDG0R4D5XCTVB0W",
+      "slug": "laugh-at-nothing-off-camera-field",
+      "image": {
+        "thumb": "poses/01M2EKDA1BGYDG0R4D5XCTVB0W/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1BGYDG0R4D5XCTVB0W/detail_ai.jpg",
+        "blurhash": "dHHVOcf7b.s;$+xaWCk904R+RSj=EMobRQWE4;WCoeoL"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Fix your hair if you want. Actually, keep fixing it. That's the frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sit on the curb like you're waiting for the bus in a music video.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit however you'd sit if I weren't here.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing in an open field, angling her body at a three-quarter turn to the left with a slight forward bend at the torso to capture a dynamic, candid feel.",
+        "Have her raise her right hand up near her right jawline with fingers relaxed and loosely curled, while letting her left arm hang naturally down across the front of her hip.",
+        "Direct her to tilt her head slightly back and to the camera-left, releasing an authentic, full-faced, open-mouthed laugh looking away from the lens."
+      ]
+    },
+    {
+      "id": "01M2EKDA1CT6225XNACTMC3VMB",
+      "slug": "skirt-or-jacket-twirl-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1CT6225XNACTMC3VMB/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1CT6225XNACTMC3VMB/detail_ai.jpg",
+        "blurhash": "dLHBPP5Y%MI[~VNfNebcItxuIqt7R.W?t7ogEMt7t7Wr"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Sit here. Take it just like this. That's the whole job.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Rest your head on your hand and let your gaze go soft.",
+          "tone": "calm"
+        },
+        {
+          "text": "Look over your shoulder like I owe you money.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing upright facing toward the camera with feet hip-width apart and knees relaxed.",
+        "Have the subject hold a dark jacket at waist level with both hands and gently swing or flick it horizontally across the front of the body so the sleeves flare outward in mid-motion.",
+        "Direct the subject to turn their head slightly to their right with a natural, candid smile, looking off-camera."
+      ]
+    },
+    {
+      "id": "01M2EKDA1DRG67X1X27PYA53KH",
+      "slug": "stand-and-look-at-the-view-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1DRG67X1X27PYA53KH/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1DRG67X1X27PYA53KH/detail_ai.jpg",
+        "blurhash": "dUHxQbMwITxu_NIARPxa_3IUM{oz%gRjM{R+ozRQt6oM"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "There's no wrong way to sit on a bench. Prove me right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sunglasses halfway off, like you just spotted a celebrity.",
+          "tone": "playful"
+        },
+        {
+          "text": "Sit in the grass, legs to the side, and look at nothing in particular.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand on the sidewalk facing away from the camera in a three-quarter rear angle, turned slightly toward the right.",
+        "Instruct her to rest both hands casually inside the side pockets of her dress.",
+        "Shift her weight naturally onto her front right foot, keeping her feet angled slightly to the side.",
+        "Have her turn her head in profile to the right, gazing straight ahead down the street away from the camera."
+      ]
+    },
+    {
+      "id": "01M2EKDA1EMN4TG2RW91ZQF2JJ",
+      "slug": "railing-lean-both-arms-field",
+      "image": {
+        "thumb": "poses/01M2EKDA1EMN4TG2RW91ZQF2JJ/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1EMN4TG2RW91ZQF2JJ/detail_ai.jpg",
+        "blurhash": "dJI5VGRlotN2~pxZWBt59jWVRUxVN#t5V{IWS9Rkt5WV"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "open_shade"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Nobody sees these until you say so. You're the editor.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Kick one boot up and grab it. Very Sound of Music.",
+          "tone": "playful"
+        },
+        {
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand behind a rustic wooden fence in a grassy field, angled at a three-quarter turn facing camera right.",
+        "Instruct the subject to lean forward slightly against the top fence rail, resting both forearms across the wood with hands casually overlapping and draped forward.",
+        "Direct the subject to turn their head toward camera right, gazing off-camera into the distance with a natural, relaxed smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1FPAPJXNWDJ9M3MKE2",
+      "slug": "doorframe-shoulder-lean-mountain",
+      "image": {
+        "thumb": "poses/01M2EKDA1FPAPJXNWDJ9M3MKE2/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1FPAPJXNWDJ9M3MKE2/detail_ai.jpg",
+        "blurhash": "dnIhT%00I:%Mx_MwogWXbcRjoeofaxt7V@a#R.s.WBa}"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "It's just me and a very quiet camera. Take a breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean on the railing with both arms and let your shoulders drop.",
+          "tone": "calm"
+        },
+        {
+          "text": "Jump off the step on three. Land like it was easy.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing inside an open rustic doorway, leaning her right shoulder and upper back comfortably against the left wooden doorframe.",
+        "Angle her torso slightly toward the camera while keeping her right arm resting relaxed straight down along the wooden frame, hand hanging loosely against her side.",
+        "Have her tilt her head slightly toward the doorframe while turning her face toward camera-left.",
+        "Direct her to look just off-camera to the left with a joyful, candid, open-mouthed smile as if laughing naturally mid-conversation."
+      ]
+    },
+    {
+      "id": "01M2EKDA1G3M6SE7QYZF5RA8V9",
+      "slug": "crouch-on-heels-camera-low-home",
+      "image": {
+        "thumb": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/detail_ai.jpg",
+        "blurhash": "dFAv?~xt0KRPW-ayxat74oRk%Mt6RPjZkCR+T0xar=Io"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "night_flash",
+        "indoor_window"
+      ],
+      "location_types": [
+        "home"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Give me 'just landed, no plans' energy.",
+          "tone": "playful"
+        },
+        {
+          "text": "Turn your face until you feel the light on your cheek. Hold it.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing centrally in the living room, facing forward toward the camera.",
+        "Instruct the subject to jump or hover dynamically into a deep crouch in mid-air, bending both knees deeply outward to the sides while keeping the feet gathered closely beneath the hips.",
+        "Have the subject lean the torso slightly forward, letting the right arm hang loosely down by their side and keeping the left arm relaxed slightly behind the body.",
+        "Direct the subject to turn their head directly toward the camera with a cheerful, relaxed smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1H62MHTWGB6C9P6FSG",
+      "slug": "bag-strap-hold-walk-field",
+      "image": {
+        "thumb": "poses/01M2EKDA1H62MHTWGB6C9P6FSG/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1H62MHTWGB6C9P6FSG/detail_ai.jpg",
+        "blurhash": "dNH.7QRkX2t7~WWCoeay9*R*V{WVksRkj?oe?bocf7ay"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Is this pose bad or cute? Trust me, it's cute. Hold it.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Walk away from me, then turn back like you forgot to say something.",
+          "tone": "playful"
+        },
+        {
+          "text": "Close your eyes, chin up, find the sun on your face. Stop there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject walking laterally across the open grassy field from left to right, capturing her in mid-stride with her right leg stepping forward.",
+        "Have her wear a crossbody bag over her left shoulder hanging against her right hip, bringing both hands up to lightly hold and adjust the shoulder strap across her chest.",
+        "Instruct her to keep her shoulders relaxed, turning her head slightly toward the right with an open, candid smile looking gently off-camera in the direction she is walking."
+      ]
+    },
+    {
+      "id": "01M2EKDA1J02DKEQPER1NTA056",
+      "slug": "chin-up-eyes-closed-sun-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1J02DKEQPER1NTA056/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1J02DKEQPER1NTA056/detail_ai.jpg",
+        "blurhash": "dAJQr}K+~99|i_9vIqSiIow[Nes.%0?a-;t6IqtSo#t7"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Hold the book like you actually want to read it. Ignore me.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Look over your shoulder like I owe you money.",
+          "tone": "playful"
+        },
+        {
+          "text": "Tuck your hair behind your ear, slow, like you're thinking.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand full-length, angling their body in a slight three-quarter turn toward the left of the frame with feet planted naturally shoulder-width apart.",
+        "Instruct the subject to let both arms hang down completely relaxed by their sides with fingers loosely curled.",
+        "Ask the subject to tilt their head backward and lift their chin toward the sky, closing their eyes with a soft, peaceful smile as if soaking in the sunlight."
+      ]
+    },
+    {
+      "id": "01M2EKDA1KEB3Q1SYE069VCZDW",
+      "slug": "sit-on-bench-back-look-over-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1KEB3Q1SYE069VCZDW/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1KEB3Q1SYE069VCZDW/detail_ai.jpg",
+        "blurhash": "dFCP^n%hTLV??I?wX8jYX:.9%MRPt.xvogWBtmxuR*NG"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "blue",
+        "open_shade"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "We'll take ten of these and you'll like two. That's normal.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hold the book against you and look off down the street.",
+          "tone": "calm"
+        },
+        {
+          "text": "Point at something off-frame like it's the best thing you've ever seen.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject seated on an outdoor wooden bench facing away from the camera and angled slightly toward the street.",
+        "Have her rest her right foot flat on the ground and cross her left leg comfortably over, extending it slightly forward to showcase her footwear.",
+        "Instruct her to drape both arms casually along the top rail of the bench's backrest for a relaxed, leaning posture.",
+        "Ask her to twist her torso back toward the camera over her shoulder, looking directly into the lens with a warm, natural smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1MNYT16DVNWGP0D2KC",
+      "slug": "half-turn-walk-away-forest",
+      "image": {
+        "thumb": "poses/01M2EKDA1MNYT16DVNWGP0D2KC/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1MNYT16DVNWGP0D2KC/detail_ai.jpg",
+        "blurhash": "d7D+*Q9b0dt21F?FRRx?IobXN2%L?Zob={%2D*xaS5xr"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "backlit",
+        "open_shade"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "horizontal",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You can blink, you can move, you can laugh at me. All of it works.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
+        },
+        {
+          "text": "Stretch like you just woke up somewhere gorgeous.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": true
+      },
+      "accessibility": [
+        "plus_size_flattering"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject on a narrow dirt trail facing directly away from the camera with their back turned.",
+        "Have the subject take a natural step forward along the path, placing weight on the left foot while lifting the right heel in mid-stride.",
+        "Instruct the subject to let both arms hang relaxed and loosely by their sides.",
+        "Direct the subject to turn their head slightly to the right, looking down toward the ground along the trail in profile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1NE1WTAQC50BVJRVAX",
+      "slug": "hand-on-hip-hip-out-field",
+      "image": {
+        "thumb": "poses/01M2EKDA1NE1WTAQC50BVJRVAX/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1NE1WTAQC50BVJRVAX/detail_ai.jpg",
+        "blurhash": "dLHx_iV]tdxaaQt6Rkjb0NRkM~fiE2fOaxWCD+WDjaj@"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "It's just me and a very quiet camera. Take a breath.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Crouch down, elbows on knees, look straight at me without smiling.",
+          "tone": "calm"
+        },
+        {
+          "text": "Jump off the step on three. Land like it was easy.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject standing at a three-quarter angle facing camera right, resting her weight primarily on her back leg with the front leg slightly relaxed.",
+        "Instruct her to place her left hand on her waist or high hip with the elbow bent back, while letting her right arm rest naturally and relaxed along her side.",
+        "Have her turn her head slightly toward camera right, gazing past the camera into the distance with a soft, gentle smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1PRFSK8V5AKWXNT7ZW",
+      "slug": "sunglasses-half-off-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1PRFSK8V5AKWXNT7ZW/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1PRFSK8V5AKWXNT7ZW/detail_ai.jpg",
+        "blurhash": "dOIhKabwjDWB9FR+RjfQ~VsSM|NGo}?GRPWBM{NGRjRj"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "soft_low"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Walk toward me like you're going to get coffee. That's it, that's the shot.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Laugh at nothing over there. Full commitment.",
+          "tone": "playful"
+        },
+        {
+          "text": "Look past my shoulder at the hills. Let the smile fade slowly.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand facing forward toward the camera with their feet hip-width apart and weight balanced evenly in a relaxed stance.",
+        "Instruct the subject to let their left arm rest naturally down at their side while raising their right hand to touch the side frame of their sunglasses.",
+        "Ask the subject to turn their head slightly to their right, directing their gaze off-camera with a subtle, relaxed facial expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA1QSA6B32XFHZQYJ20D",
+      "slug": "lean-on-bike-or-car-urban",
+      "image": {
+        "thumb": "poses/01M2EKDA1QSA6B32XFHZQYJ20D/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1QSA6B32XFHZQYJ20D/detail_ai.jpg",
+        "blurhash": "dPI4-50K-pIpwH%fnhSgWAX8RQWXkCIVt7oeW=s-j[f6"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "urban"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "Fix your hair if you want. Actually, keep fixing it. That's the frame.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Sit on the curb like you're waiting for the bus in a music video.",
+          "tone": "playful"
+        },
+        {
+          "text": "Half turn away from me. Keep your face in profile. Stay.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position a vintage city bicycle angled slightly outward from an exterior brick wall near the curb.",
+        "Have the subject stand directly behind the bicycle frame, leaning her body back gently against the bike with her feet close together on the pavement.",
+        "Instruct her to rest her left hand flat on the bicycle seat while allowing her right arm to hang naturally and relaxed down along her side.",
+        "Have her tilt her head slightly toward her right shoulder, face the camera directly, and give a natural, warm smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1RHZK6D2W50J2D9B5Z",
+      "slug": "grass-sit-legs-to-side-forest",
+      "image": {
+        "thumb": "poses/01M2EKDA1RHZK6D2W50J2D9B5Z/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1RHZK6D2W50J2D9B5Z/detail_ai.jpg",
+        "blurhash": "dOF5vm%KR#NGE1xZR.WC0LIWj^oft8R*jER%WXs:j[WB"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "harsh_overhead"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "Nobody sees these until you say so. You're the editor.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
+        },
+        {
+          "text": "Squint at the horizon like you're in a perfume ad.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          35,
+          50
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "seated_variant",
+        "wheelchair"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject sit on the ground angled at a three-quarter turn to the camera's left, tucking their left leg horizontally across the grass and bending their right knee upward with the right foot planted flat.",
+        "Instruct the subject to lean their upper body slightly backward, extending their left arm down and placing their left hand flat on the ground behind their hip for support.",
+        "Place the subject's right forearm across the top of their raised right knee, letting their right hand hang naturally and loosely over the front.",
+        "Direct the subject to turn their head further toward the left, looking off-camera with a relaxed, candid smile."
+      ]
+    },
+    {
+      "id": "01M2EKDA1SKZ9481ZZ1VYTDCE1",
+      "slug": "reflection-check-in-glass-field",
+      "image": {
+        "thumb": "poses/01M2EKDA1SKZ9481ZZ1VYTDCE1/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1SKZ9481ZZ1VYTDCE1/detail_ai.jpg",
+        "blurhash": "dNIhvIjukQof?Kt6Rkf8N%RkRRbF.9j?oJWC^,ahjZay"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "mid",
+        "overcast"
+      ],
+      "location_types": [
+        "field"
+      ],
+      "orientation": "vertical",
+      "difficulty": "easy",
+      "prompts": [
+        {
+          "text": "You don't have to look at me. Look at the mountains. They're less judgy.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Hair flip. Then laugh at the fact that you just did a hair flip.",
+          "tone": "playful"
+        },
+        {
+          "text": "Close your eyes, chin up, find the sun on your face. Stop there.",
+          "tone": "calm"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          85,
+          135
+        ],
+        "aperture": "f/2",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand in full profile facing towards camera-right with a relaxed, upright posture.",
+        "Instruct her to hold an ornate hand mirror in her left hand, positioning it upright in front of her at eye level.",
+        "Direct her to gaze into the mirror while raising her right hand to lightly touch and tuck her hair near the crown of her head."
+      ]
+    },
+    {
+      "id": "01M2EKDA1TE3VCJDGAW5JTBS3E",
+      "slug": "stretch-arms-overhead-forest",
+      "image": {
+        "thumb": "poses/01M2EKDA1TE3VCJDGAW5JTBS3E/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1TE3VCJDGAW5JTBS3E/detail_ai.jpg",
+        "blurhash": "dAE.:x9G4.-p?Z0gNI?G^PxoNM%1_Ls*RPR:oiIVxZt7"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden"
+      ],
+      "location_types": [
+        "forest"
+      ],
+      "orientation": "vertical",
+      "difficulty": "moderate",
+      "prompts": [
+        {
+          "text": "There's no wrong way to sit on a bench. Prove me right.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
+        },
+        {
+          "text": "Main character energy. The street is your runway.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          50,
+          85
+        ],
+        "aperture": "f/1.8",
+        "needs_reflector": false
+      },
+      "accessibility": [],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Have the subject stand squarely facing the camera in the center of the path, with feet parallel and set about shoulder-width apart to evenly distribute weight.",
+        "Instruct the subject to raise both arms straight overhead with softly relaxed elbows, curving his hands and fingers gently inward toward each other above his head.",
+        "Ask the subject to turn his head slightly to his left and smile naturally, directing his gaze off-camera to create a candid, joyful expression."
+      ]
+    },
+    {
+      "id": "01M2EKDA1VS61JCV0P1JQWVZ3R",
+      "slug": "mid-jump-off-step-mountain",
+      "image": {
+        "thumb": "poses/01M2EKDA1VS61JCV0P1JQWVZ3R/thumb_ai.jpg",
+        "detail": "poses/01M2EKDA1VS61JCV0P1JQWVZ3R/detail_ai.jpg",
+        "blurhash": "dnKT}DRjNHoL.TRjj[jZ?bjuWCWC?Gofs-oLtSfRWBWX"
+      },
+      "placeholder": false,
+      "categories": [
+        "lifestyle"
+      ],
+      "subject_count": 1,
+      "subject_types": [
+        "adult"
+      ],
+      "light_conditions": [
+        "golden",
+        "backlit"
+      ],
+      "location_types": [
+        "mountain"
+      ],
+      "orientation": "vertical",
+      "difficulty": "advanced",
+      "prompts": [
+        {
+          "text": "Give me a fake laugh. See? Now it's a real one. Keep going.",
+          "tone": "nervous_client"
+        },
+        {
+          "text": "Half turn away from me. Keep your face in profile. Stay.",
+          "tone": "calm"
+        },
+        {
+          "text": "Kick one boot up and grab it. Very Sound of Music.",
+          "tone": "playful"
+        }
+      ],
+      "gear": {
+        "focal_mm": [
+          24,
+          35
+        ],
+        "aperture": "f/2.8",
+        "needs_reflector": false
+      },
+      "accessibility": [
+        "limited_mobility"
+      ],
+      "version": 2,
+      "status": "active",
+      "image_source": "ai",
+      "instructions": [
+        "Position the subject on a raised stone ledge outdoors and instruct her to perform a dynamic, joyful jump into the air above the rock.",
+        "Direct her to bend both knees while in mid-air, drawing her lower legs and boots upward behind her body to achieve full elevation off the ground.",
+        "Have her extend both arms outward to the sides in an open, relaxed posture for balance, keeping her fingers soft and loosely curved.",
+        "Instruct her to face the camera directly, tilting her head slightly with a wide, spontaneous laugh or smile as her hair moves naturally with the jump."
+      ]
     }
   ]
 }
