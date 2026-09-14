@@ -1,0 +1,44 @@
+id: 01M2H5T10SGK458F890RM7JGCA
+slug: sleeve-roll-mid-motion
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dfLE4uM{~p%M-:ayIVWB%LoKM{ayRjWUfPf5Ioofs.WB
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Shake out your shoulders. Now forget I mentioned shoulders.
+  tone: nervous_client
+- text: Hands in pockets, lean on the wall, LinkedIn but make it fun.
+  tone: playful
+- text: Hold your glasses and just look at me like we're talking.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright against a neutral background, angling their torso
+  slightly toward camera right.
+- Have the subject turn their head squarely toward the camera, maintaining direct eye contact
+  with a calm, subtle expression.
+- Instruct them to bend their left arm at the elbow, raising the forearm upward across the
+  chest with the fingers loosely curled.
+- Bring the right forearm horizontally across the mid-torso, using the right hand to grip
+  and adjust the cuff of the left sleeve.

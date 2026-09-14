@@ -1,0 +1,47 @@
+id: 01M2KR6R1QSZGZ2AT9GGBPDGVE
+slug: owner-sitting-dog-head-in-lap-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dwLg^XRi-;t6.TofR*ayXUbIM{RkNIWXj@of%2Wrofs:'
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: You just look at the dog. I'll worry about the dog looking at me.
+  tone: nervous_client
+- text: Kiss the top of their head and don't come back up until I say.
+  tone: playful
+- text: Forehead to forehead. Breathe slow. Wait for them.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult subject sit directly on the ground angled slightly toward camera-right, with
+  her legs crossed at the ankles and her torso leaning gently forward.
+- Position the dog lying down on the sand to her right (camera-left), with its front torso
+  angled toward her and its head resting comfortably across her lap.
+- Direct the subject to place her right hand on top of the dog's head and wrap her left hand
+  under the dog's neck or jaw in a gentle, supportive hold.
+- Instruct the subject to look down warmly at the dog with an authentic, joyful open-mouthed
+  smile or laugh.

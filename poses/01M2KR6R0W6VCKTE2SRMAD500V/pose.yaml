@@ -1,0 +1,46 @@
+id: 01M2KR6R0W6VCKTE2SRMAD500V
+slug: water-edge-paws-wet
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drMjjqV?%MIU_NozjtWBtSR-Rjxtt8Rjayt7Rjj?WBWX
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody expects a dog to pose. We're catching, not staging.
+  tone: nervous_client
+- text: Ask for a high five. Sell it like it's the first time.
+  tone: playful
+- text: Sit on the step and let the dog decide where to be.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman barefoot at the water's edge, angled in a three-quarter profile facing
+  toward the left side of the frame with her feet placed shoulder-width apart in the shallow
+  tide.
+- Have the woman hinge forward at the waist toward the ground, letting her arms hang naturally
+  at her sides while smiling down warmly at the sand.
+- Place the medium-sized dog directly in front of her, facing right in full profile so its
+  snout points toward her legs.
+- Capture the dog mid-motion as it playfully lifts one front paw to step into the shallow
+  water right beside her feet, with its tail raised naturally.

@@ -1,0 +1,44 @@
+id: 01M2H5T11CSKR7GQMZTB2129S4
+slug: shoulder-to-camera-head-turned-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMI53v-;~pog~BogIot8NFofM{M{M{WBjFxuxuWBs;of
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Turn your body away from me, then bring just your face back.
+  tone: nervous_client
+- text: Roll a sleeve. Slowly. Very capable.
+  tone: playful
+- text: Drop your shoulders and let your face go still.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand with her body angled in a three-quarter profile facing toward the
+  right of the frame, bringing her right shoulder forward toward the camera.
+- Instruct her to turn her head back over her right shoulder toward the camera, keeping her
+  gaze directed slightly past the lens to the viewer's right with a warm, natural smile.
+- Ensure her posture is upright yet relaxed, with her shoulders dropped and both arms resting
+  naturally at her sides.
+- Frame a vertical medium close-up from the mid-torso up, capturing the soft directional window
+  light illuminating her face from the left.

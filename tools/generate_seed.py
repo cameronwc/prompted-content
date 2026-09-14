@@ -39,9 +39,13 @@ BLURHASH_PENDING = "PENDING-RUN-MAKE-PLACEHOLDERS"
 
 
 def c(slug, difficulty=None, seated=False, partner=False, pet=False,
-      toddler=False, horizontal=False, party=False, elder=False):
+      toddler=False, horizontal=False, party=False, elder=False,
+      locations=None, daylight=False, solo=False):
     return {
         "slug": slug,
+        "locations": locations,  # restrict the setting to where the pose makes sense
+        "daylight": daylight,    # no night_flash / blue hour for this concept
+        "solo": solo,            # pets: the animal alone, no owner in frame
         "difficulty": difficulty,
         "seated": seated,
         "partner": partner,
@@ -245,6 +249,70 @@ CONCEPTS = {
         c("reflection-check-in-glass"),
         c("stretch-arms-overhead", difficulty="moderate"),
         c("mid-jump-off-step", difficulty="advanced"),
+    ],
+    "headshots": [
+        c("classic-three-quarter-turn", locations=["studio", "home", "urban"]),
+        c("arms-crossed-slight-smile", locations=["studio", "urban"]),
+        c("lean-on-wall-hands-in-pockets", locations=["urban", "studio"]),
+        c("seated-forward-lean-elbows-on-knees", seated=True, locations=["studio", "home"]),
+        c("chin-down-eyes-up", locations=["studio", "home"]),
+        c("laugh-off-camera-then-back", locations=["studio", "urban", "home"]),
+        c("hand-on-chin-thinking", seated=True, locations=["studio", "home"]),
+        c("over-shoulder-look-back", locations=["studio", "urban"]),
+        c("walking-toward-camera-street", horizontal=True, locations=["urban"], daylight=True),
+        c("desk-edge-perch", seated=True, locations=["home", "studio"]),
+        c("jacket-button-fix", locations=["studio", "urban"]),
+        c("window-light-profile-turn", locations=["home", "studio"]),
+        c("stool-sit-one-foot-on-rung", seated=True, locations=["studio"]),
+        c("hands-clasped-at-waist", locations=["studio", "home"]),
+        c("shoulder-to-camera-head-turned", locations=["studio", "urban"]),
+        c("glasses-in-hand", locations=["studio", "home"]),
+        c("doorway-lean-arms-loose", locations=["home", "urban"]),
+        c("crossed-arms-no-smile-power", locations=["studio", "urban"]),
+        c("mid-conversation-gesture", locations=["home", "studio"]),
+        c("stairs-sit-forearms-on-thighs", seated=True, locations=["urban", "home"]),
+        c("coffee-in-hand-relaxed", locations=["home", "urban"]),
+        c("straight-on-soft-smile", locations=["studio"]),
+        c("rail-lean-city-behind", horizontal=True, locations=["urban"], daylight=True),
+        c("head-tilt-warm-smile", locations=["studio", "home"]),
+        c("hands-in-back-pockets", locations=["urban", "studio"]),
+        c("sleeve-roll-mid-motion", locations=["studio", "home"]),
+        c("seated-turned-to-camera", seated=True, locations=["studio", "home"]),
+        c("brick-wall-shoulder-lean", locations=["urban"]),
+        c("looking-down-at-notebook", seated=True, locations=["home"]),
+        c("full-length-weight-on-back-leg", locations=["studio", "urban"]),
+    ],
+    "pets": [
+        c("sit-together-on-the-grass", seated=True, locations=["field", "forest"]),
+        c("walk-on-leash-toward-camera", horizontal=True, locations=["urban", "field", "beach"], daylight=True),
+        c("dog-in-lap-on-the-porch-steps", seated=True, locations=["home", "urban"]),
+        c("high-five-paw", difficulty="moderate", locations=["field", "urban", "home"]),
+        c("forehead-to-forehead-nuzzle", locations=["field", "home", "beach"]),
+        c("both-looking-off-same-direction", locations=["field", "beach", "mountain"]),
+        c("dog-runs-to-owner", difficulty="advanced", horizontal=True, locations=["field", "beach"], daylight=True),
+        c("carry-the-small-dog", locations=["urban", "field", "home"]),
+        c("couch-cuddle-window-light", seated=True, locations=["home"]),
+        c("treat-held-above-camera", locations=["field", "home", "studio"]),
+        c("dog-alone-head-tilt", solo=True, locations=["studio", "home"]),
+        c("dog-alone-mid-shake-off", solo=True, difficulty="advanced", locations=["beach", "field"], daylight=True),
+        c("dog-alone-sitting-proud-profile", solo=True, locations=["field", "mountain", "beach"]),
+        c("dog-alone-lying-chin-on-paws", solo=True, locations=["home", "studio"]),
+        c("dog-alone-running-toward-camera", solo=True, difficulty="advanced", horizontal=True, locations=["beach", "field"], daylight=True),
+        c("owner-crouched-dog-sitting-beside", locations=["urban", "field", "forest"]),
+        c("walk-away-together-down-path", horizontal=True, locations=["forest", "field", "beach"], daylight=True),
+        c("dog-on-bench-owner-beside", seated=True, locations=["urban", "field"]),
+        c("belly-rub-laugh", seated=True, locations=["field", "home"]),
+        c("shake-hands-sit-command", locations=["field", "urban", "studio"]),
+        c("lift-the-dog-up-to-face", difficulty="moderate", locations=["field", "beach", "home"]),
+        c("lying-in-the-grass-side-by-side", seated=True, horizontal=True, locations=["field"], daylight=True),
+        c("dog-looks-up-at-owner", locations=["urban", "field", "home"]),
+        c("kiss-on-the-head", locations=["field", "home", "beach"]),
+        c("tug-toy-play", difficulty="moderate", locations=["field", "beach", "home"]),
+        c("owner-sitting-dog-head-in-lap", seated=True, locations=["field", "home", "beach"]),
+        c("both-in-the-doorway", locations=["home"]),
+        c("piggyback-the-dog", difficulty="advanced", locations=["field", "beach"], daylight=True),
+        c("water-edge-paws-wet", locations=["beach"], daylight=True),
+        c("sit-together-against-the-sky", horizontal=True, locations=["field", "beach", "mountain"], daylight=True),
     ],
 }
 
@@ -629,6 +697,110 @@ PROMPTS = {
             "Half turn away from me. Keep your face in profile. Stay.",
         ],
     },
+    "headshots": {
+        "nervous_client": [
+            "Nobody likes headshots. You're doing better than the last twelve people.",
+            "You get veto power on every frame. Delete anything you hate.",
+            "Look at the lens like it's someone you like but don't need to impress.",
+            "Chin down a touch. That's it. That's the whole trick.",
+            "Fake laugh for me. See, now that one's real. Hold that face.",
+            "We'll do a boring one first to get it out of the way.",
+            "Shake out your shoulders. Now forget I mentioned shoulders.",
+            "Say something rude about my lighting. Great, that's the smile.",
+            "Blink whenever you want. I'll wait.",
+            "Turn your body away from me, then bring just your face back.",
+            "It's a headshot, not a passport. You're allowed to look friendly.",
+            "Tell me what you actually do all day while I fix the light.",
+            "Take a breath out. Right at the bottom of it, look at me.",
+            "Nobody sees these until you've picked your favourite.",
+            "That's the one. Give me three more just like it.",
+            "Fix your collar if you want. The fixing looks great too.",
+        ],
+        "playful": [
+            "Give me the smile you use when you're winning an argument.",
+            "Look at the camera like it just gave you a promotion.",
+            "Arms crossed, slight smirk. CEO of something.",
+            "Pretend I'm your favourite coworker. Not the one you're thinking of.",
+            "Laugh at my joke. I haven't told one yet. Do it anyway.",
+            "Big smile, then let it shrink to the one you'd use in a meeting.",
+            "Look over your shoulder like I said your name from across the office.",
+            "Hands in pockets, lean on the wall, LinkedIn but make it fun.",
+            "Think of your most embarrassing email. Now smile through it.",
+            "Give me 'I know something you don't' energy.",
+            "Point at me like you've just spotted me across a room.",
+            "Roll a sleeve. Slowly. Very capable.",
+            "Do the head tilt. Now do half of that.",
+            "Walk at me like the meeting just ended early.",
+        ],
+        "calm": [
+            "Drop your shoulders and let your face go still.",
+            "Look just past the lens, then come to it slowly.",
+            "Rest your elbows on your knees and look up at me.",
+            "Turn to the window and let the light find your cheek.",
+            "Hands loose at your sides. Weight on your back foot.",
+            "Close your eyes. Open them on three, straight into the lens.",
+            "Let the smile fade until it's barely there. Stop.",
+            "Sit tall, then let your spine relax by ten percent.",
+            "Think about the last thing that went right this week.",
+            "Chin toward me, eyes soft, no smile needed.",
+            "Hold your glasses and just look at me like we're talking.",
+            "Breathe out and hold the end of the breath.",
+            "Lean into the doorframe and let it take your weight.",
+            "Look down at the page, then up at me when you're ready.",
+        ],
+    },
+    "pets": {
+        "nervous_client": [
+            "The dog doesn't have to sit still. That's my problem, not yours.",
+            "Talk to your dog like I'm not here. That's the whole session.",
+            "If they wander off, we follow. Nothing here is a mistake.",
+            "You just look at the dog. I'll worry about the dog looking at me.",
+            "Hold the treat by my lens. Hold it. Hold it. Perfect.",
+            "Nobody expects a dog to pose. We're catching, not staging.",
+            "Scratch behind the ears and keep your face right there.",
+            "Say their name in the silly voice. Yes, that one.",
+            "Sit however you'd sit on your own couch.",
+            "We'll take fifty. Three will be perfect. That's the deal.",
+            "If they lick your face, that's the photo. Don't pull away.",
+            "Squeaky toy on three. Look at me, not the toy.",
+            "Crouch down to their level. Everything gets better down here.",
+            "Let them lean on you. Let yourself lean back.",
+            "Loose leash, slow walk, ignore me completely.",
+            "The messy ones are the good ones. Trust me.",
+        ],
+        "playful": [
+            "Ask for a high five. Sell it like it's the first time.",
+            "Run away from them. See who wins.",
+            "Belly rub. Full commitment. Laugh at whatever happens.",
+            "Lift them up to your face and tell them they're a good dog.",
+            "Whisper a secret in the dog's ear.",
+            "Both of you look at that squirrel. There's always a squirrel.",
+            "Tug of war. I'll photograph the drama.",
+            "Piggyback if they'll allow it. If not, we saw nothing.",
+            "Kiss the top of their head and don't come back up until I say.",
+            "Make the noise that makes their ears go up.",
+            "Pretend the dog told a joke.",
+            "Walk away together like the credits are rolling.",
+            "Hold the treat up high and give me your best begging face too.",
+            "Shake hands like you're closing a deal.",
+        ],
+        "calm": [
+            "Sit in the grass and let them settle against you.",
+            "Rest your hand on their back and look at the same thing they're looking at.",
+            "Forehead to forehead. Breathe slow. Wait for them.",
+            "Let their head rest in your lap and just look down at them.",
+            "Walk slowly down the path and don't look back.",
+            "Sit on the step and let the dog decide where to be.",
+            "Stroke from head to tail, slow, and watch their eyes close.",
+            "Look off toward the light together.",
+            "Lie down beside them and see who falls asleep first.",
+            "Let the leash go slack and just stand together.",
+            "Hold their paw gently and look at me.",
+            "Both of you in the doorway, waiting for nothing.",
+            "Stand at the water's edge and let them sniff.",
+            "Scratch under the chin until they lean in. Stay there.",
+        ],
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -676,6 +848,15 @@ LOCATION_WEIGHTS = {
         ("urban", 34), ("field", 20), ("mountain", 16), ("beach", 12),
         ("forest", 8), ("home", 6), ("studio", 4),
     ],
+    # Concepts in these categories restrict their own locations; the weights
+    # only order the choice among what a concept allows.
+    "headshots": [
+        ("studio", 44), ("urban", 28), ("home", 28),
+    ],
+    "pets": [
+        ("field", 30), ("beach", 18), ("home", 18), ("urban", 14),
+        ("forest", 10), ("mountain", 6), ("studio", 4),
+    ],
 }
 
 GEAR_KITS = {
@@ -685,6 +866,8 @@ GEAR_KITS = {
     "maternity": [([50, 85], "f/2"), ([85, 135], "f/2.8"), ([35, 50], "f/2.8"), ([24, 35], "f/4")],
     "wedding": [([35, 50], "f/2"), ([50, 85], "f/1.8"), ([85, 135], "f/2"), ([24, 70], "f/2.8")],
     "lifestyle": [([35, 50], "f/2"), ([50, 85], "f/1.8"), ([24, 35], "f/2.8"), ([85, 135], "f/2")],
+    "headshots": [([85, 135], "f/2.8"), ([50, 85], "f/2.8"), ([85, 135], "f/4"), ([70, 200], "f/2.8")],
+    "pets": [([35, 50], "f/2.8"), ([50, 85], "f/2.8"), ([70, 200], "f/2.8"), ([24, 35], "f/4")],
 }
 
 INDOOR_LOCATIONS = {"studio", "home"}
@@ -751,8 +934,13 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
             subject_count, subject_types = 2, ["adult"]
     elif category == "senior":
         subject_count, subject_types = 1, ["teen"]
-    elif category == "lifestyle":
+    elif category in ("lifestyle", "headshots"):
         subject_count, subject_types = 1, ["adult"]
+    elif category == "pets":
+        if concept["solo"]:
+            subject_count, subject_types = 1, ["pet"]
+        else:
+            subject_count, subject_types = 2, ["adult", "pet"]
     elif category == "maternity":
         if partner:
             subject_count, subject_types = 2, ["pregnant", "adult"]
@@ -778,9 +966,15 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
         subject_types = subject_types[:subject_count]
 
     # Location and light
-    location = weighted(rng, LOCATION_WEIGHTS[category])
+    allowed = concept.get("locations")
+    pool = [(loc, w) for loc, w in LOCATION_WEIGHTS[category] if not allowed or loc in allowed]
+    location = weighted(rng, pool)
     locations = [location]
     light_pairs = INDOOR_LIGHT_WEIGHTS if location in INDOOR_LOCATIONS else OUTDOOR_LIGHT_WEIGHTS
+    # Headshots and pet sessions are never shot with on-camera flash at night
+    # or in blue hour; a concept can also opt out with daylight=True.
+    if concept.get("daylight") or category in ("headshots", "pets"):
+        light_pairs = [(l, w) for l, w in light_pairs if l not in ("night_flash", "blue")]
     lights = [weighted(rng, light_pairs)]
     if rng.random() < 0.30:
         extra = weighted(rng, light_pairs)
@@ -860,6 +1054,8 @@ def deterministic_ulid(rng: Random, index: int) -> str:
 APPENDED = {
     "wedding": {"seed": 20260911, "epoch": datetime(2026, 9, 11, tzinfo=timezone.utc)},
     "lifestyle": {"seed": 20260914, "epoch": datetime(2026, 9, 14, tzinfo=timezone.utc)},
+    "headshots": {"seed": 20260915, "epoch": datetime(2026, 9, 15, tzinfo=timezone.utc)},
+    "pets": {"seed": 20260916, "epoch": datetime(2026, 9, 16, tzinfo=timezone.utc)},
 }
 
 

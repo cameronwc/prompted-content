@@ -1,0 +1,44 @@
+id: 01M2H5T11999PPGVCX5RYRM1DC
+slug: window-light-profile-turn-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dTK^+?_N~VE3?G%gSi%LaJIUIVoeM{t7t7s:t7t7RkWC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll do a boring one first to get it out of the way.
+  tone: nervous_client
+- text: Hands loose at your sides. Weight on your back foot.
+  tone: calm
+- text: Hands in pockets, lean on the wall, LinkedIn but make it fun.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing near a large window on camera-left against a neutral studio
+  backdrop, with their torso turned at a three-quarters angle toward the window.
+- Have the subject shift their weight slightly onto their back foot, keeping a natural, upright
+  posture with the front leg relaxed.
+- Instruct the subject to let both arms hang naturally and loosely at their sides with relaxed
+  fingers.
+- Direct the subject to turn their head toward the window to create a near-profile view, looking
+  thoughtfully out toward the natural light with a relaxed facial expression.

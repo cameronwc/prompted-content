@@ -1,0 +1,46 @@
+id: 01M2KR6R0SYT5PB59F6MR4SQ89
+slug: owner-sitting-dog-head-in-lap
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dWNm.%R+?vjEpykDM|V@t.WBIAogD+V@xat8?Ht7WVWV
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- harsh_overhead
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Crouch down to their level. Everything gets better down here.
+  tone: nervous_client
+- text: Walk away together like the credits are rolling.
+  tone: playful
+- text: Walk slowly down the path and don't look back.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit cross-legged and barefoot directly on the sand, facing straight toward
+  the camera with an upright, relaxed posture.
+- Position the medium-sized dog lying down at her right side, resting its head and chin flat
+  across her right thigh facing slightly forward.
+- Direct the woman to place both hands gently on top of the dog's head and ears in a petting
+  motion.
+- Prompt the woman to turn her face slightly to her right and laugh with an open smile, looking
+  slightly off-camera.

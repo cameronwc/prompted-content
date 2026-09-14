@@ -1,0 +1,43 @@
+id: 01M2H5T108R8S29ZWMACE77W2Z
+slug: walking-toward-camera-street
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9H-}a-ox]kCz-RO9aWB?FRO9aof~p?Hs:%2-p%2smxZ
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Say something rude about my lighting. Great, that's the smile.
+  tone: nervous_client
+- text: Hold your glasses and just look at me like we're talking.
+  tone: calm
+- text: Laugh at my joke. I haven't told one yet. Do it anyway.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject on a paved urban sidewalk and instruct her to walk slowly and directly
+  toward the camera.
+- Direct her to step her right foot forward in front of her left, capturing her mid-stride
+  with an upright, confident posture.
+- Keep her arms hanging naturally at her sides, allowing them to swing gently in rhythm with
+  her walking motion.
+- Have her face directly toward the lens with her shoulders squared and a warm, engaging smile.

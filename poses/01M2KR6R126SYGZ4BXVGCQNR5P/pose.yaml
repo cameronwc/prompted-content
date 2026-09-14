@@ -1,0 +1,46 @@
+id: 01M2KR6R126SYGZ4BXVGCQNR5P
+slug: forehead-to-forehead-nuzzle-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dmJH:KxatPM|?wbbR-oJk@WWjIoftmWBa{kAxvoJjZRk
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: If they lick your face, that's the photo. Don't pull away.
+  tone: nervous_client
+- text: Stand at the water's edge and let them sniff.
+  tone: calm
+- text: Belly rub. Full commitment. Laugh at whatever happens.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman standing in profile in an open field, turned to face toward the left
+  of the frame where her dog is positioned.
+- Have the dog stand up on its hind legs facing her, resting its front paws against her waist
+  or torso.
+- Direct the woman to wrap both hands gently around the dog's upper chest and ribcage to comfortably
+  support and hold it close.
+- Instruct the woman to lean her head forward until her forehead gently touches the top of
+  the dog's head, closing her eyes with a soft, affectionate smile.

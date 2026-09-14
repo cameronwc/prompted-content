@@ -1,0 +1,47 @@
+id: 01M2KR6R1P7JWJP3HQHQA76QP5
+slug: tug-toy-play-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drJI8=xaW-V]?dkCayjttnWXafoetTWBWobHtQfhoMaf
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Hold the treat by my lens. Hold it. Hold it. Perfect.
+  tone: nervous_client
+- text: Rest your hand on their back and look at the same thing they're looking at.
+  tone: calm
+- text: Piggyback if they'll allow it. If not, we saw nothing.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman standing on the right side of the frame in an open grassy field, angled
+  three-quarters toward the left.
+- Have the woman bend her knees and hinge forward at the hips, extending her arms downward
+  to grip one end of a rope toy with both hands.
+- Engage the dog directly in front of her on the left, biting the opposite end of the rope
+  toy and pulling backward in a playful tug-of-war stance with its legs braced.
+- Instruct the woman to pull gently against the dog while laughing naturally and looking down
+  at her pet.

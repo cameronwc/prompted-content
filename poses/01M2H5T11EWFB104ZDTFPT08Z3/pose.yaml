@@ -1,0 +1,43 @@
+id: 01M2H5T11EWFB104ZDTFPT08Z3
+slug: doorway-lean-arms-loose-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXJ@,l$%~p%M?aW=IptRxtogRkjskBWBRPf6tRt7a}az
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's a headshot, not a passport. You're allowed to look friendly.
+  tone: nervous_client
+- text: Give me the smile you use when you're winning an argument.
+  tone: playful
+- text: Rest your elbows on your knees and look up at me.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing inside an interior doorway, leaning the back of her left shoulder
+  lightly against the doorframe.
+- Have her square her torso and hips forward toward the camera with relaxed, upright posture.
+- Instruct her to rest both arms naturally straight down at her sides with loose, relaxed
+  hands near the hips.
+- Direct her to face straight toward the camera lens with a warm, gentle smile and a level
+  chin.

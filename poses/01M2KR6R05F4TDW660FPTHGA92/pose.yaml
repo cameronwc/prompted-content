@@ -1,0 +1,43 @@
+id: 01M2KR6R05F4TDW660FPTHGA92
+slug: both-looking-off-same-direction
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d%Jt|-j]kBoe_4j[j[f7%hWCafWVxuayWVj[ocayoLaz
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Say their name in the silly voice. Yes, that one.
+  tone: nervous_client
+- text: Lift them up to your face and tell them they're a good dog.
+  tone: playful
+- text: Scratch under the chin until they lean in. Stay there.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject in an open grassy field, walking slowly from left to right so their
+  body is in a three-quarter profile facing camera-right.
+- Have the dog walk alongside the subject in the immediate foreground, moving in the same
+  direction across the frame.
+- Instruct the subject to gently rest their near hand on the dog's back or neck while keeping
+  their shoulders relaxed and gazing straight ahead into the distance.

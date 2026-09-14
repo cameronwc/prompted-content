@@ -1,0 +1,46 @@
+id: 01M2KR6R0YBVFPZGBF2N0BFTSQ
+slug: sit-together-on-the-grass-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9Du@wE2pENKH[NaIXNG9uWYRVxs^i$%--9u~9M|9uRk
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If they lick your face, that's the photo. Don't pull away.
+  tone: nervous_client
+- text: Look off toward the light together.
+  tone: calm
+- text: Whisper a secret in the dog's ear.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult subject sit cross-legged on the grass, angled slightly toward camera-left
+  with their torso leaning gently forward.
+- Position the dog sitting upright immediately to the subject's right (camera-left), turned
+  in profile to face toward the subject.
+- Instruct the subject to place both hands gently on the front of the dog's chest and neck
+  in an affectionate hold.
+- Direct the subject to look down into the dog's face with a wide, natural smile, capturing
+  mutual eye contact and connection between them.

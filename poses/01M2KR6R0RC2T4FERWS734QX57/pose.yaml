@@ -1,0 +1,45 @@
+id: 01M2KR6R0RC2T4FERWS734QX57
+slug: tug-toy-play
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkM%TDkCt7M|~qkCWBoJ%MV@WBt7RPRjofbIjskCj[ay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll take fifty. Three will be perfect. That's the deal.
+  tone: nervous_client
+- text: Tug of war. I'll photograph the drama.
+  tone: playful
+- text: Lie down beside them and see who falls asleep first.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult subject kneel directly on both knees in the sand, angled slightly toward
+  the camera with their upper body leaning forward.
+- Place the dog facing the subject in a playful, braced tug-of-war stance with its front paws
+  planted firmly in the sand.
+- Have the subject grip one end of a thick rope toy with both hands close to their midsection
+  while the dog grips the other end in its mouth to create taut tension on the line.
+- Prompt the subject to laugh and focus entirely on playing with the dog to capture an energetic,
+  candid interaction.

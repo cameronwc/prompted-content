@@ -1,0 +1,44 @@
+id: 01M2KR6R084MH46YQKAAW60PZK
+slug: couch-cuddle-window-light
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpK1gv-;-;NG~qt8t8jstRayWBt7IUV@RjbHt7kCofay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Crouch down to their level. Everything gets better down here.
+  tone: nervous_client
+- text: Shake hands like you're closing a deal.
+  tone: playful
+- text: Hold their paw gently and look at me.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit comfortably on the sofa with her legs crossed or folded casually, angling
+  her torso slightly inward toward the left side of the couch.
+- Position the dog to sit or lounge on the cushion directly next to her, facing toward her
+  with its front paws extended and resting across her lap.
+- Instruct the woman to gently cup her hand under the dog's chin or neck, leaning in warmly
+  while maintaining eye contact with the dog and laughing or smiling naturally.

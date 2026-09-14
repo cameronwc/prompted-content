@@ -1,0 +1,44 @@
+id: 01M2H5T11QDJQ23Y06K867HM32
+slug: sleeve-roll-mid-motion-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dnIE%__N?H%2xtkCfla}RiWAbIj[t7WCofofR*aejFWV
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Shake out your shoulders. Now forget I mentioned shoulders.
+  tone: nervous_client
+- text: Close your eyes. Open them on three, straight into the lens.
+  tone: calm
+- text: Walk at me like the meeting just ended early.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing at a slight three-quarter angle near a large window, allowing
+  soft natural side-light to illuminate their body from one side.
+- Instruct the subject to extend their left arm slightly downward in front of their torso
+  with the wrist relaxed and fingers loosely curled.
+- Have them bring their right hand across the midsection to grasp and gently adjust the cuff
+  of their left suit sleeve, keeping the unbuttoned jacket naturally draped.
+- Direct the subject to turn their face squarely toward the camera lens, holding a friendly,
+  conversational smile with relaxed shoulders.

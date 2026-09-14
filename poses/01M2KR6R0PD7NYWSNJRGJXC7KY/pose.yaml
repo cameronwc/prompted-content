@@ -1,0 +1,44 @@
+id: 01M2KR6R0PD7NYWSNJRGJXC7KY
+slug: dog-looks-up-at-owner
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: doKm|AxaobWC_4kCWCjZpdfkRmkAXoWBodbH%LWBoeay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You just look at the dog. I'll worry about the dog looking at me.
+  tone: nervous_client
+- text: Whisper a secret in the dog's ear.
+  tone: playful
+- text: Let the leash go slack and just stand together.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit cross-legged in the grass, angling her body slightly toward camera-left.
+- Position the dog sitting upright immediately adjacent to her on camera-left, facing toward
+  her in profile.
+- Direct the woman to lean gently forward and place one hand on the dog's chest to stroke
+  its fur.
+- Prompt the woman to look down and laugh naturally at the dog, encouraging a candid and happy
+  interaction between them.

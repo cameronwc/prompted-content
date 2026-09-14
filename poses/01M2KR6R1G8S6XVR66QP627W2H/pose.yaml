@@ -1,0 +1,47 @@
+id: 01M2KR6R1G8S6XVR66QP627W2H
+slug: belly-rub-laugh-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dmKA=oRlxrs:~WxZayWCx^j]M|R*bya|R*oetSayoKs:'
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Loose leash, slow walk, ignore me completely.
+  tone: nervous_client
+- text: Scratch under the chin until they lean in. Stay there.
+  tone: calm
+- text: Make the noise that makes their ears go up.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the dog lie down on its back in the tall grass with its paws curled up playfully and
+  its head oriented toward the front-right of the frame.
+- Position the woman kneeling directly behind the dog, leaning her torso forward over it.
+- Instruct the woman to place one hand gently onto the dog's chest or belly to give it affectionate
+  scratches.
+- Direct the woman to look down at the dog with a candid, joyful, open-mouthed smile or laugh
+  as they interact.

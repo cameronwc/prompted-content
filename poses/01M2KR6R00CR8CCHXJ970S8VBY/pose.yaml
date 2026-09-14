@@ -1,0 +1,47 @@
+id: 01M2KR6R00CR8CCHXJ970S8VBY
+slug: sit-together-on-the-grass
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dqI#_It7kRaf?dkCWCjstnbHV]kBkZWBkBbHxuWUkBay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody expects a dog to pose. We're catching, not staging.
+  tone: nervous_client
+- text: Make the noise that makes their ears go up.
+  tone: playful
+- text: Look off toward the light together.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult sit cross-legged directly on the grass in an open field, angling her upper
+  body slightly toward camera-left.
+- Position the dog sitting upright immediately to her right (camera-left), angled in profile
+  facing inward toward her.
+- Have the adult reach forward with both hands to gently stroke and rest them against the
+  dog's chest and neck area.
+- Direct the adult to look down and engage directly with the dog, capturing a candid, laughing
+  expression while the dog looks up toward her face.

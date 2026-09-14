@@ -1,0 +1,45 @@
+id: 01M2KR6R0N0E2XNZVTV7TEHKBT
+slug: lying-in-the-grass-side-by-side
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpJ[FUt7bXV[_4f*ayjt%hoeV]kBxwWCbGbHf-R*oeay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+- overcast
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Loose leash, slow walk, ignore me completely.
+  tone: nervous_client
+- text: Shake hands like you're closing a deal.
+  tone: playful
+- text: Stroke from head to tail, slow, and watch their eyes close.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman lie in the grass on her stomach and side, propping her upper torso up on
+  her elbows with her legs stretched out behind her toward the left.
+- Place the dog lying down on the grass directly in front of her, facing to the right with
+  its body angled slightly toward the camera.
+- Instruct the woman to place her right hand gently on the dog's chest while leaning in close,
+  smiling warmly as they look toward each other.

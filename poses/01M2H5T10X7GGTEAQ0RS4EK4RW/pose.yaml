@@ -1,0 +1,41 @@
+id: 01M2H5T10X7GGTEAQ0RS4EK4RW
+slug: full-length-weight-on-back-leg
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9F~BQ~qxuIsDit6E2tRR*V@bdflE1%L%fxuIpkCt7xu
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Fake laugh for me. See, now that one's real. Hold that face.
+  tone: nervous_client
+- text: Let the smile fade until it's barely there. Stop.
+  tone: calm
+- text: Give me 'I know something you don't' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright facing the camera with feet spaced shoulder-width
+  apart and toes angled slightly outward.
+- Place a messenger bag strap over their right shoulder, instructing them to hold the strap
+  near chest height with their right hand while resting the left arm naturally by their side.
+- Ensure the torso and head are oriented directly toward the lens with a warm, relaxed smile.

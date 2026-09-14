@@ -1,0 +1,44 @@
+id: 01M2KR6R0X8PJCJQ8XVEKES74R
+slug: sit-together-against-the-sky
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: deLEpQR+tSofGda}RjWWMxWWi^jZRQf6kWjZozoeWCWX
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- harsh_overhead
+location_types:
+- beach
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: The dog doesn't have to sit still. That's my problem, not yours.
+  tone: nervous_client
+- text: Rest your hand on their back and look at the same thing they're looking at.
+  tone: calm
+- text: Piggyback if they'll allow it. If not, we saw nothing.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit directly on the flat sand in profile facing to the right, leaning back
+  slightly with her support arm placed behind her hip and both knees bent upward with feet
+  resting forward on the sand.
+- Position the dog sitting upright directly beside her, nestled right behind her bent knees
+  and torso, facing attentively toward the right.
+- Shoot from a low ground-level angle, prompting the woman to laugh naturally with a bright,
+  open smile while the dog stays alert looking into the distance.

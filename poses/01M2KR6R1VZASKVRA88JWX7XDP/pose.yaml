@@ -1,0 +1,47 @@
+id: 01M2KR6R1VZASKVRA88JWX7XDP
+slug: sit-together-against-the-sky-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d{L52YoztRWB?dWVazayNZWBRPofM{j[kBkCofofozWB
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Say their name in the silly voice. Yes, that one.
+  tone: nervous_client
+- text: Belly rub. Full commitment. Laugh at whatever happens.
+  tone: playful
+- text: Sit in the grass and let them settle against you.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the man sit cross-legged directly on the grass, keeping his posture relaxed and angled
+  slightly to his right.
+- Position the dog sitting upright immediately to the man's right side, close enough to maintain
+  physical contact, facing outward at a slight three-quarter angle.
+- Instruct the man to wrap his right arm across the dog's back, resting his right hand gently
+  over the dog's far shoulder, while resting his left hand loosely in his lap near his crossed
+  legs.
+- Direct the man to turn his head toward the dog and look warmly at it with a natural smile,
+  shooting from a low eye-level perspective in the field.

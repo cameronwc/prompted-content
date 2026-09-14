@@ -1,0 +1,46 @@
+id: 01M2H5T10CFMKKRG59CPM50PA0
+slug: stool-sit-one-foot-on-rung
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHH-=8xt=_IU~UxtM|M|aJM{Ipt7M{WCjaxut7s:RQRj
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Shake out your shoulders. Now forget I mentioned shoulders.
+  tone: nervous_client
+- text: Hands in pockets, lean on the wall, LinkedIn but make it fun.
+  tone: playful
+- text: Let the smile fade until it's barely there. Stop.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position a backless wooden stool in front of a neutral backdrop, seating the subject angled
+  slightly toward camera-left.
+- Have the subject spread her legs asymmetrically, bending her right leg outward with the
+  foot resting back on the stool rung and extending her left leg forward and down toward the
+  floor.
+- Instruct her to rest both palms flat on her thighs just above the knees, keeping her elbows
+  slightly soft and shoulders down and relaxed.
+- Direct her to sit tall through the spine, turning her head slightly toward camera-left to
+  gaze softly off-camera toward the window light.

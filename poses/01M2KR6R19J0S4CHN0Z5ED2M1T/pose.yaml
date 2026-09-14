@@ -1,0 +1,44 @@
+id: 01M2KR6R19J0S4CHN0Z5ED2M1T
+slug: dog-alone-mid-shake-off-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUKAf:RkT1s.~Us.s8WBV?ofi^Rkt-WBR-jYOtWCt7oJ
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- golden
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You just look at the dog. I'll worry about the dog looking at me.
+  tone: nervous_client
+- text: Sit in the grass and let them settle against you.
+  tone: calm
+- text: Run away from them. See who wins.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the wet dog standing squarely on all four legs on flat, wet sand, oriented slightly
+  angled toward the camera with its tail naturally elevated.
+- Lower the camera perspective to the dog's eye level, centering the animal vertically in
+  the frame to leave space for airborne water droplets.
+- Cue the dog to vigorously shake off water, using a fast shutter speed in continuous burst
+  mode to freeze the peak motion when the head tilts, the ears fly upward, and droplets create
+  an arching spray.

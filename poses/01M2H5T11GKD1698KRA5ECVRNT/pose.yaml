@@ -1,0 +1,44 @@
+id: 01M2H5T11GKD1698KRA5ECVRNT
+slug: mid-conversation-gesture-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drJt;st7xtoL~qoLM{a|tRRkM{j[t7j[RjofRjjZRjWV
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Blink whenever you want. I'll wait.
+  tone: nervous_client
+- text: Look at the camera like it just gave you a promotion.
+  tone: playful
+- text: Look just past the lens, then come to it slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject seated upright on a chair at a wooden table, with her torso angled
+  slightly to her left while keeping her posture natural and relaxed.
+- Have her rest her left forearm along the table edge with her left hand open in a low, natural
+  gesturing position over her lap.
+- Instruct her to raise her right hand to upper-chest level with relaxed, softly curved fingers,
+  simulating an animated conversational gesture.
+- Direct her to turn her face slightly toward the light, looking just off-camera to the left
+  with an engaged, speaking expression and a subtle smile.

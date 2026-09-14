@@ -19,6 +19,7 @@ rules:
   - { category: senior,     tag: golden,      board: Golden Hour Posing }
   - { category: wedding,    tag: golden,      board: Golden Hour Posing }
   - { category: lifestyle,  tag: golden,      board: Golden Hour Posing }
+  - { category: pets,       tag: golden,      board: Golden Hour Posing }
   - { category: family,                       board: Family Photo Poses }
   - { category: couples,                      board: Couples Posing }
   - { category: engagement,                   board: Engagement Poses }
@@ -26,3 +27,5 @@ rules:
   - { category: senior,                       board: Senior Portrait Poses }
   - { category: wedding,                      board: Wedding Poses }
   - { category: lifestyle,                    board: Lifestyle Poses }
+  - { category: headshots,                    board: Headshot Poses }
+  - { category: pets,                         board: Pet Photo Poses }

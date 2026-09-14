@@ -1,0 +1,43 @@
+id: 01M2KR6R1AE3QX76548Q8D09WJ
+slug: dog-alone-sitting-proud-profile-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dyH_;]t6R+bH_4j[ofjbpKfRs:a{tTayR*bGozWBWBoL
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Say their name in the silly voice. Yes, that one.
+  tone: nervous_client
+- text: Hold their paw gently and look at me.
+  tone: calm
+- text: Walk away together like the credits are rolling.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog in an open grassy field, sitting in full profile facing toward the right
+  side of the frame.
+- Ensure the dog is seated upright with both front legs planted vertically and straight, bearing
+  weight naturally on the hindquarters.
+- Direct the dog's attention straight ahead toward the right horizon so its head is held high,
+  ears slightly back, and gaze focused into the distance.

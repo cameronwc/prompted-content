@@ -1,0 +1,46 @@
+id: 01M2KR6R1MBDRVPEV9ZZFEVAZY
+slug: dog-looks-up-at-owner-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddJH$]W=kRxa_4j]f6bHp1kCV[ahtnWXR*fkx^s.oJWV
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Sit however you'd sit on your own couch.
+  tone: nervous_client
+- text: Ask for a high five. Sell it like it's the first time.
+  tone: playful
+- text: Sit in the grass and let them settle against you.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman standing in an open grassy field in a three-quarter turn, facing toward
+  the left side of the frame with a relaxed stance.
+- Instruct the woman to bend slightly forward at the waist, holding her right hand out at
+  mid-torso height as if offering a treat or command, while keeping her left arm resting casually
+  at her side.
+- Have her look down with a warm, natural smile directly toward her dog standing in front
+  of her.
+- Prompt the dog to stand up on its hind legs directly in front of her, facing back toward
+  her and reaching its nose up toward her extended hand.

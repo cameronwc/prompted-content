@@ -1,0 +1,46 @@
+id: 01M2KR6R0ZKP2NGPNRJZASZTPK
+slug: walk-on-leash-toward-camera-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQJt^ZRkx?IX-@ocs;ofEVIWIX%K?vWBbFxs~pt5t6M}
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Scratch behind the ears and keep your face right there.
+  tone: nervous_client
+- text: Hold their paw gently and look at me.
+  tone: calm
+- text: Kiss the top of their head and don't come back up until I say.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman and dog walk naturally down a narrow dirt path through a grassy field straight
+  toward the camera.
+- Position the dog on the woman's right side (camera-left) walking alongside her on a loose
+  leash.
+- Instruct the woman to hold the dog's leash relaxed in both hands across her waist area,
+  keeping her shoulders dropped and natural as she walks mid-stride.
+- Direct the woman to look down towards her dog with a warm, gentle smile rather than looking
+  into the lens, capturing a candid and affectionate connection.

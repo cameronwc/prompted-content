@@ -1,0 +1,46 @@
+id: 01M2KR6R172ZZ4XJ9FT1NZDBNB
+slug: treat-held-above-camera-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d$KB24t6ocRk~Wj]ayay%ha#ahodo$aykBayt7WBf*ay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The messy ones are the good ones. Trust me.
+  tone: nervous_client
+- text: Walk away together like the credits are rolling.
+  tone: playful
+- text: Let their head rest in your lap and just look down at them.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit cross-legged on the grass in the field, with her torso angled slightly
+  toward camera-left and hands resting loosely in her lap.
+- Position the dog sitting upright immediately beside her right side (camera-left), encouraging
+  it to place its left front paw onto her right thigh or knee.
+- Hold a treat overhead just above the top edge of the frame to make the dog look and lean
+  its head eagerly straight up.
+- Instruct the woman to look up toward the treat above her, reacting with a joyful, open-mouthed
+  laugh.

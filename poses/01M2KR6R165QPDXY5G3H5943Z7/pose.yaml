@@ -1,0 +1,46 @@
+id: 01M2KR6R165QPDXY5G3H5943Z7
+slug: couch-cuddle-window-light-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'deKnMA%N%gMx~q%Mxuayxvt7M{kCMxM{jZt7WAkCjZs:'
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Squeaky toy on three. Look at me, not the toy.
+  tone: nervous_client
+- text: Make the noise that makes their ears go up.
+  tone: playful
+- text: Stroke from head to tail, slow, and watch their eyes close.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit cross-legged or with knees folded up on a comfortable sofa positioned
+  next to a large window to capture soft side lighting.
+- Place the dog lying horizontally across the subject's lap facing toward the light source,
+  with its front paws resting extended forward across her thighs.
+- Instruct the subject to lean her upper body forward over the dog, wrapping both arms gently
+  around its neck and upper chest with her hands loosely clasped.
+- Have the subject rest her head close against the dog's neck and tilt her face downward with
+  a warm, natural smile directed at her pet.

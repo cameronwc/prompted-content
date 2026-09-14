@@ -1,0 +1,42 @@
+id: 01M2KR6R1B5VH1PJ31QB009JKN
+slug: dog-alone-lying-chin-on-paws-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQMQCTDiNz%L-lxaIURj_NRO%1M{RjIT-;oKoLofIoay
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Let them lean on you. Let yourself lean back.
+  tone: nervous_client
+- text: Let their head rest in your lap and just look down at them.
+  tone: calm
+- text: Both of you look at that squirrel. There's always a squirrel.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog lying down flat on a neutral-toned textured rug or floor, aligning its
+  body straight on with the camera axis.
+- Guide the dog into a resting down position with both front paws extended forward together
+  and its chin resting flat between the paws.
+- Lower the camera angle completely to the floor at direct eye level with the dog, capturing
+  a calm, straight-on gaze directly into the lens.

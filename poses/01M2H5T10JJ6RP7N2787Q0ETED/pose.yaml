@@ -1,0 +1,45 @@
+id: 01M2H5T10JJ6RP7N2787Q0ETED
+slug: mid-conversation-gesture
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dbMQhat7~qM{~pkDIoj[j=RkM{oLozkCWCofRjofaef6
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Take a breath out. Right at the bottom of it, look at me.
+  tone: nervous_client
+- text: Look down at the page, then up at me when you're ready.
+  tone: calm
+- text: Give me 'I know something you don't' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in a three-quarter stance, angled slightly toward
+  a large window on camera left to capture soft directional lighting.
+- Have the subject turn their head slightly toward camera left, looking just past the lens
+  with an active, warm, conversational expression.
+- Instruct the subject to raise their right forearm into a natural speaking gesture, opening
+  the palm upward and slightly inward with fingers loosely extended.
+- Position the left arm bent at the elbow with the forearm brought across the waist, resting
+  the hand lightly near the lower abdomen with fingers softly curved.

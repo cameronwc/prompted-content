@@ -1,0 +1,43 @@
+id: 01M2H5T11FXTJT2MMHEBDSH7V1
+slug: crossed-arms-no-smile-power-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYIX,7%N~q%N^*tRM|xuRiRjIVaeWWt7xat7IoayoLay
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You get veto power on every frame. Delete anything you hate.
+  tone: nervous_client
+- text: Sit tall, then let your spine relax by ten percent.
+  tone: calm
+- text: Laugh at my joke. I haven't told one yet. Do it anyway.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright next to a large window on camera-left, with their
+  torso angled slightly away from the light source and weight balanced evenly on both feet.
+- Instruct the subject to cross their arms high across the chest, tucking the left forearm
+  underneath the right arm and resting the right hand gently against the outside of the left
+  upper arm.
+- Have the subject keep their shoulders relaxed, square their head directly toward the camera,
+  and maintain a level chin with a direct, composed gaze into the lens.

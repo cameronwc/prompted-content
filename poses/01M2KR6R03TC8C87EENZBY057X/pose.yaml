@@ -1,0 +1,48 @@
+id: 01M2KR6R03TC8C87EENZBY057X
+slug: high-five-paw
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dsKKiot7ocNH~qofayj@x_WEWCoetTj[a{bFx]WBkBj@
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Sit however you'd sit on your own couch.
+  tone: nervous_client
+- text: Kiss the top of their head and don't come back up until I say.
+  tone: playful
+- text: Let the leash go slack and just stand together.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman kneeling on both knees in the grass on the right side of the frame, angled
+  in full profile facing toward the left.
+- Have the dog sit directly opposite her on the left side of the frame, facing right so the
+  pair are in profile to the camera with about two feet of space between them.
+- Instruct the woman to raise her right forearm upward with an open palm facing forward at
+  shoulder height, while resting her left hand loosely in her lap.
+- Cue the dog to lift its front left paw up to touch the woman's raised palm in a high-five
+  interaction.
+- Have the woman lean slightly forward with an authentic, joyful smile and direct eye contact
+  with the dog's face, shooting at eye level with both subjects.

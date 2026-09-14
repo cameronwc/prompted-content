@@ -1,0 +1,42 @@
+id: 01M2KR6R0CH797N2FA2P65YQ8B
+slug: dog-alone-sitting-proud-profile
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d*Kdk~aekBoe?woJj]WVXoR-azWVtRWXWBoeaeofj?fR
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- soft_low
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The dog doesn't have to sit still. That's my problem, not yours.
+  tone: nervous_client
+- text: Forehead to forehead. Breathe slow. Wait for them.
+  tone: calm
+- text: Run away from them. See who wins.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog on a grassy ridge, seated in a clear side profile facing camera-right.
+- Ensure the dog sits upright in an alert, attentive posture with its front legs straight
+  and planted vertically, hindquarters grounded, and tail resting naturally extended backwards
+  along the grass.
+- Direct the dog's focus forward toward the right horizon so its head is elevated and its
+  snout points straight ahead in a clean profile view, catching the low golden sunlight.

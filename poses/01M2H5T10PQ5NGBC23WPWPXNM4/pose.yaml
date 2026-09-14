@@ -1,0 +1,42 @@
+id: 01M2H5T10PQ5NGBC23WPWPXNM4
+slug: rail-lean-city-behind
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXKw:^R.?aRj_NoeIV%L_N%LRkR*_3s:xZjZ%NM{aeWC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: That's the one. Give me three more just like it.
+  tone: nervous_client
+- text: Close your eyes. Open them on three, straight into the lens.
+  tone: calm
+- text: Look at the camera like it just gave you a promotion.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing beside a bridge railing, leaning her right hip and side casually
+  against the metal handrail with her lower body angled slightly away from the camera.
+- Have her rest her right forearm along the top of the railing and bring both arms in front
+  of her midsection, clasping her hands loosely together near the waist.
+- Instruct her to turn her torso slightly toward the lens, tilt her head subtly toward her
+  left shoulder, and maintain direct eye contact with a calm, warm, and confident expression.

@@ -1,0 +1,42 @@
+id: 01M2KR6R0ESV3JX8BS998X8PB6
+slug: dog-alone-running-toward-camera
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drKnemt7W-s:t:kCf8WVXpayjbWVtSRkoeoet6axWVay
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: Squeaky toy on three. Look at me, not the toy.
+  tone: nervous_client
+- text: Look off toward the light together.
+  tone: calm
+- text: Lift them up to your face and tell them they're a good dog.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog down an open grassy path in a wide field, lined up centrally and facing
+  directly toward the camera position.
+- Have an assistant release the dog or call it so it charges at a full sprint in a straight
+  line toward the lens.
+- Crouch low to dog-eye level and use continuous high-speed shooting to capture the dog mid-stride
+  with its body airborne, ears flapping outward, and face looking straight into the lens.

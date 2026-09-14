@@ -1,0 +1,41 @@
+id: 01M2H5T10QGVF1GQC6DGSX3J76
+slug: head-tilt-warm-smile
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daLzy@kD~p-;~Vj@E1WBj?oyRjRjR*WBe.s:NGfko0ae
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Chin down a touch. That's it. That's the whole trick.
+  tone: nervous_client
+- text: Pretend I'm your favourite coworker. Not the one you're thinking of.
+  tone: playful
+- text: Look just past the lens, then come to it slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand facing at a slight three-quarter angle toward camera-right, keeping
+  their posture upright and shoulders relaxed.
+- Let both arms hang naturally and comfortably down along the sides of the body.
+- Instruct the subject to turn their head directly toward the camera, keeping the chin level.
+- Direct the subject to look straight into the lens with a warm, natural smile.

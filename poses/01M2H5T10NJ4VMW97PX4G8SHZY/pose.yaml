@@ -1,0 +1,42 @@
+id: 01M2H5T10NJ4VMW97PX4G8SHZY
+slug: straight-on-soft-smile
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNIE-29F~p9F^*IAR+IUIA%MIoRjt7M{ofj[IpWAsSkC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We'll do a boring one first to get it out of the way.
+  tone: nervous_client
+- text: Let the smile fade until it's barely there. Stop.
+  tone: calm
+- text: Point at me like you've just spotted me across a room.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand upright, facing slightly toward camera right with weight distributed
+  naturally on both feet.
+- Instruct the subject to bring both arms down in front of the body and gently clasp their
+  hands together at waist level just below the jacket button.
+- Direct the subject to turn their head directly toward the camera lens, keeping shoulders
+  relaxed and chin level, with a soft, closed-mouth smile.

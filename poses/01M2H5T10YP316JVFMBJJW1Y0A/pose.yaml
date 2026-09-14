@@ -1,0 +1,45 @@
+id: 01M2H5T10YP316JVFMBJJW1Y0A
+slug: classic-three-quarter-turn-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAH2Aq%0_Nxv}kM{0LV@~AnND+WU?b-:xZ%M%N%2i_s9
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody likes headshots. You're doing better than the last twelve people.
+  tone: nervous_client
+- text: Lean into the doorframe and let it take your weight.
+  tone: calm
+- text: Pretend I'm your favourite coworker. Not the one you're thinking of.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing and angled roughly three-quarters toward camera-right, shifting
+  her weight forward as if caught mid-stride.
+- Have her turn her head toward the camera to establish direct eye contact, wearing a warm
+  and engaging smile.
+- Direct her to bend her left arm at the elbow and bring her left hand up to lightly touch
+  or hold the collar of her shirt near the neckline.
+- Let her right arm hang relaxed and straight down along her right side.

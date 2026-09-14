@@ -1,0 +1,45 @@
+id: 01M2KR6R130X2V57B9C32S81VV
+slug: both-looking-off-same-direction-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dxMs}~R*xuRk~qj[WBoLo~WCNGofS5oet6WVxuWVa}ax
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Sit however you'd sit on your own couch.
+  tone: nervous_client
+- text: Lift them up to your face and tell them they're a good dog.
+  tone: playful
+- text: Scratch under the chin until they lean in. Stay there.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit casually on the sand, angled three-quarters to the left with her back
+  leg tucked underneath and her forward leg extended out to the side.
+- Instruct her to lean her upper body slightly forward in a relaxed posture, letting her arms
+  rest naturally at her sides and turning her head to gaze candidly off-camera toward the
+  right.
+- Position the dog standing or walking in full profile directly on the sand to her right (camera
+  left), facing toward the right side of the frame so it crosses in front of her field of
+  view.

@@ -1,0 +1,46 @@
+id: 01M2KR6R14ZMR7QQMCVFHDHMDD
+slug: dog-runs-to-owner-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dbJ*a}s:WBR-~WofV[oLp0a~RkoeNit6WUa|x^t6WBf6
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- field
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: If they wander off, we follow. Nothing here is a mistake.
+  tone: nervous_client
+- text: Lie down beside them and see who falls asleep first.
+  tone: calm
+- text: Pretend the dog told a joke.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult subject kneel or crouch low in the tall grass on the right side of the frame,
+  angled in pure profile facing toward the left.
+- Instruct her to lean slightly forward with hands resting near her knee, smiling or laughing
+  warmly toward the incoming dog.
+- Have the dog released or called from off-camera on the left, encouraging it to sprint and
+  leap playfully directly toward the subject.
+- Position the camera low to the ground at eye level with the crouching subject to capture
+  the dog mid-bound entering the frame.

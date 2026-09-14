@@ -1,0 +1,46 @@
+id: 01M2KR6R0208GEGB89BX24E5QR
+slug: dog-in-lap-on-the-porch-steps
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPIhBBDi%foL~q9aM|adlAkVRjoz?HxYM{tRxun*f5bH
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Hold the treat by my lens. Hold it. Hold it. Perfect.
+  tone: nervous_client
+- text: Stroke from head to tail, slow, and watch their eyes close.
+  tone: calm
+- text: Pretend the dog told a joke.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit comfortably on the middle tread of an indoor wooden staircase, leaning
+  slightly forward with her knees together and feet resting on the step below.
+- Position the dog seated on the step immediately to her right, bringing its body close to
+  hers and resting its front paws securely across her lap.
+- Instruct the woman to wrap her right arm around the front of the dog's chest and place her
+  left hand gently under the dog's chin to stroke its neck.
+- Direct the woman to look down lovingly at the dog with a warm smile, encouraging the dog
+  to tilt its head up toward her face.

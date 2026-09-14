@@ -1,0 +1,46 @@
+id: 01M2H5T1178R4690BFSWFGWA5P
+slug: desk-edge-perch-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMH_b]NI~p-=~UR+NHt8xC%M9aWAIUM|xuoJS$s:t6ay
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+- backlit
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Blink whenever you want. I'll wait.
+  tone: nervous_client
+- text: Close your eyes. Open them on three, straight into the lens.
+  tone: calm
+- text: Think of your most embarrassing email. Now smile through it.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject perch casually on the corner of a wooden table, angling their torso slightly
+  toward camera left while leaning gently forward into the frame.
+- Position their legs with the outer leg angled outward and bent naturally, keeping their
+  lower body grounded and relaxed.
+- Instruct the subject to bring their arms down to rest together in their lap, with their
+  hands loosely clasped across their center.
+- Direct the subject to turn their face squarely toward the camera and look directly into
+  the lens with a warm, natural smile.

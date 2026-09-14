@@ -1,0 +1,46 @@
+id: 01M2H5T106J66QH5R9F4RR58R7
+slug: hand-on-chin-thinking
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZI}CSoc?aRk~VRjR*ofR+RjV@ofW=oeWBayofofWBWB
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- backlit
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: That's the one. Give me three more just like it.
+  tone: nervous_client
+- text: Chin toward me, eyes soft, no smile needed.
+  tone: calm
+- text: Pretend I'm your favourite coworker. Not the one you're thinking of.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing with her torso angled slightly to camera right while keeping
+  her posture straight and relaxed.
+- Have her cross her left forearm horizontally across her midsection to serve as a supportive
+  base.
+- Instruct her to rest her right elbow on her left arm, bringing her right hand up so the
+  knuckles and fingers rest gently beneath her chin and jawline without applying heavy pressure.
+- Direct her to turn her head slightly back toward the camera with her chin level, maintaining
+  a thoughtful and confident expression looking directly toward the lens.

@@ -1,0 +1,41 @@
+id: 01M2H5T113QEEJR1FDH4VKQN2N
+slug: laugh-off-camera-then-back-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dDHn?4M{~p?H=rM{4:oLM_%2M|E1IUWCt7ofIpkCn$t7
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Say something rude about my lighting. Great, that's the smile.
+  tone: nervous_client
+- text: Laugh at my joke. I haven't told one yet. Do it anyway.
+  tone: playful
+- text: Think about the last thing that went right this week.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand upright and angle their torso at a three-quarter turn facing camera-right.
+- Instruct the subject to bend both elbows, bringing their hands together at midriff height
+  with the right hand lightly clasping the left forearm or cuff near the jacket opening.
+- Ask the subject to turn their head towards camera-left, looking just past the lens with
+  a natural, open-mouthed smile.

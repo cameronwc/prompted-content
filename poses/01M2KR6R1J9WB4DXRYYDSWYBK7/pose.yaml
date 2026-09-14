@@ -1,0 +1,45 @@
+id: 01M2KR6R1J9WB4DXRYYDSWYBK7
+slug: lift-the-dog-up-to-face-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d%Jkr_WCtRof*0fkWCazS%j[aKWBM{ayf5jsM|azW=ju
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Crouch down to their level. Everything gets better down here.
+  tone: nervous_client
+- text: Belly rub. Full commitment. Laugh at whatever happens.
+  tone: playful
+- text: Sit on the step and let the dog decide where to be.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman standing on the sand in profile facing toward frame-left, framed against
+  the horizontal line of the ocean in the background.
+- Have her lift the dog up securely in front of her chest using both hands under its ribcage
+  and torso, holding it elevated so its head is slightly above hers.
+- Allow the dog's front paws to reach forward toward her shoulders while letting its hind
+  legs and tail hang down naturally.
+- Instruct the woman to tilt her head upward and laugh or smile directly up at the dog, capturing
+  an affectionate eye-contact moment between them.

@@ -1,0 +1,43 @@
+id: 01M2H5T100K51BRAG5VDPJDFM2
+slug: classic-three-quarter-turn
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9Hn.}-o_4ni]|IA0Lxt^%r;D*M|~V?as.xa-;xai^%L
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You get veto power on every frame. Delete anything you hate.
+  tone: nervous_client
+- text: Hands loose at your sides. Weight on your back foot.
+  tone: calm
+- text: Arms crossed, slight smirk. CEO of something.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand angled roughly forty-five degrees to camera right, placing most of
+  her weight comfortably on her back leg.
+- Instruct her to bend both elbows and loosely interlock or clasp her hands together at waist
+  level in front of her torso.
+- Ask her to gently turn her shoulders and head back toward the camera to face the lens directly,
+  maintaining an upright posture and a warm, natural smile.

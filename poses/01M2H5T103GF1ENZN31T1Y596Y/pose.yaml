@@ -1,0 +1,45 @@
+id: 01M2H5T103GF1ENZN31T1Y596Y
+slug: seated-forward-lean-elbows-on-knees
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKH1}HIA_MR5~Ujsa#M|%1D%IqMxD%xuRPtRD*xuxGW=
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at the lens like it's someone you like but don't need to impress.
+  tone: nervous_client
+- text: Look at the camera like it just gave you a promotion.
+  tone: playful
+- text: Think about the last thing that went right this week.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on a backless wooden stool facing straight toward the camera with knees
+  bent and placed slightly wider than hip-width apart.
+- Instruct the subject to lean his upper body forward slightly from the waist toward the camera
+  to create an engaged, welcoming presence.
+- Have him rest his forearms across his thighs just above the knees, letting his hands meet
+  loosely in the center between his legs with fingers naturally relaxed and draped downward.
+- Ask the subject to square his shoulders to the lens, keep his neck relaxed, and look directly
+  into the camera with a warm, gentle smile.

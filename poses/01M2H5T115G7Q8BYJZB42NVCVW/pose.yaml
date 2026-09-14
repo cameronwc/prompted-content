@@ -1,0 +1,42 @@
+id: 01M2H5T115G7Q8BYJZB42NVCVW
+slug: over-shoulder-look-back-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKJao.M{~VRP?Gxv9ZofjEt6E2NGIUj[t7ofIVWBs:oz
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Fake laugh for me. See, now that one's real. Hold that face.
+  tone: nervous_client
+- text: Arms crossed, slight smirk. CEO of something.
+  tone: playful
+- text: Chin toward me, eyes soft, no smile needed.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in a three-quarter profile, with the body angled roughly
+  60 to 70 degrees toward the right side of the frame.
+- Instruct the subject to turn their head back over the front shoulder to look directly into
+  the camera lens with a natural, friendly smile.
+- Have the subject bend both elbows and bring their hands to waist level in front, lightly
+  holding the button area and front edges of the open jacket.

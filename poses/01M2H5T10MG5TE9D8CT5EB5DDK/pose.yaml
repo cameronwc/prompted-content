@@ -1,0 +1,43 @@
+id: 01M2H5T10MG5TE9D8CT5EB5DDK
+slug: coffee-in-hand-relaxed
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPHUzo_N_3-=^*S5t7-;E1RjM{jYtQt7WBayWXfkaeoe
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's a headshot, not a passport. You're allowed to look friendly.
+  tone: nervous_client
+- text: Hands loose at your sides. Weight on your back foot.
+  tone: calm
+- text: Think of your most embarrassing email. Now smile through it.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright, facing directly toward the camera with relaxed, squared
+  shoulders and even weight distribution.
+- Have the subject hold a clear glass coffee mug centered at waist-to-mid-torso level, gripping
+  one side by the handle and wrapping the fingers of the other hand around the front of the
+  glass.
+- Instruct the subject to look directly into the camera lens with a warm, open smile and a
+  relaxed, natural head tilt.

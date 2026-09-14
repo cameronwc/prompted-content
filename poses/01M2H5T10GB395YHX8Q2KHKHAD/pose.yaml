@@ -1,0 +1,42 @@
+id: 01M2H5T10GB395YHX8Q2KHKHAD
+slug: doorway-lean-arms-loose
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dbKB8e_4_3xv?aRjNGaet6R*WBWBofofM{t7R*jZjYa}
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody sees these until you've picked your favourite.
+  tone: nervous_client
+- text: Do the head tilt. Now do half of that.
+  tone: playful
+- text: Chin toward me, eyes soft, no smile needed.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing in a doorway opening, leaning her right shoulder and upper
+  arm lightly against the doorframe on camera-left.
+- Have her bring both arms down in front of her waist, softly clasping her hands together
+  just below the navel.
+- Instruct her to keep her shoulders relaxed, square her upper body slightly toward the camera,
+  and turn her face directly to the lens with a warm, natural smile.

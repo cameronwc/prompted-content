@@ -1,0 +1,42 @@
+id: 01M2H5T1016ZVW73BNY210C868
+slug: arms-crossed-slight-smile
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dRHxKJIA_2D%~VIUS5WBMwt7IVogD%xvRjt7IVofjYj[
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody likes headshots. You're doing better than the last twelve people.
+  tone: nervous_client
+- text: Give me the smile you use when you're winning an argument.
+  tone: playful
+- text: Turn to the window and let the light find your cheek.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright with their body angled about 30 degrees toward their
+  right (camera left), keeping their weight balanced evenly.
+- Instruct the subject to turn their head directly toward the camera lens, keeping shoulders
+  down and relaxed with a calm, confident expression.
+- Have the subject loosely cross their arms over their mid-chest, placing the right arm over
+  the left with relaxed, open fingers gently resting along the opposite bicep.

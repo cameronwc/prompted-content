@@ -1,0 +1,45 @@
+id: 01M2KR6R1NJ0NGTNV46MHF0NSW
+slug: kiss-on-the-head-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d$Lp{p-p%LIp_NS5R*jYx^aeWBt6ogV@fQkCWBaeayof
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Let them lean on you. Let yourself lean back.
+  tone: nervous_client
+- text: Stand at the water's edge and let them sniff.
+  tone: calm
+- text: Pretend the dog told a joke.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit or kneel on the sand, angled slightly toward the camera.
+- Position the dog sitting upright directly in front of the subject's torso, facing toward
+  camera right in profile.
+- Direct the subject to wrap their right arm around the dog's chest and place their left hand
+  gently against the dog's neck beneath the ear.
+- Instruct the subject to lean forward, close their eyes, and press a soft kiss directly onto
+  the top of the dog's head.

@@ -1,0 +1,43 @@
+id: 01M2H5T11MDXN8ESBM7DNG1MYJ
+slug: rail-lean-city-behind-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dDH-}Zxa?bD%}lMxIU?b^*smD*M{_3ayV@ae%MayM_t7
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Fix your collar if you want. The fixing looks great too.
+  tone: nervous_client
+- text: Turn to the window and let the light find your cheek.
+  tone: calm
+- text: Arms crossed, slight smirk. CEO of something.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a waist-high metal railing, angling her body at a
+  three-quarter turn with her right hip and side leaning naturally against the rail.
+- Instruct her to rest her right forearm casually along the top of the handrail while bringing
+  her left hand across her midsection to lightly clasp her right fingers.
+- Have her turn her head directly toward the camera, relax her shoulders, and look straight
+  into the lens with a warm, friendly smile.

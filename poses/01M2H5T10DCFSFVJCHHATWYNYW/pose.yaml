@@ -1,0 +1,44 @@
+id: 01M2H5T10DCFSFVJCHHATWYNYW
+slug: hands-clasped-at-waist
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJH_f2-;_1-;~VM_9Zoexts:M|RjofM{j]ofELaexGR+
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Turn your body away from me, then bring just your face back.
+  tone: nervous_client
+- text: Point at me like you've just spotted me across a room.
+  tone: playful
+- text: Breathe out and hold the end of the breath.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright facing forward with shoulders relaxed and weight balanced
+  evenly.
+- Instruct the subject to bend both elbows and bring his hands together at navel height, loosely
+  overlapping fingers in a relaxed clasp.
+- Ensure his suit jacket hangs open naturally, keeping forearms angled inward toward the center
+  of his torso.
+- Have the subject look directly into the camera lens with a relaxed, confident, and warm
+  open smile.

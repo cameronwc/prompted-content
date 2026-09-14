@@ -1,0 +1,45 @@
+id: 01M2KR6R064NATY6M1032HHWMZ
+slug: dog-runs-to-owner
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dyJRy*WEkBt6.Aa}a#oftnofjuWCtSWBj@aeocWBafjs
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: horizontal
+difficulty: advanced
+prompts:
+- text: Loose leash, slow walk, ignore me completely.
+  tone: nervous_client
+- text: Stand at the water's edge and let them sniff.
+  tone: calm
+- text: Ask for a high five. Sell it like it's the first time.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman in an open field, turned three-quarters toward the right side of the
+  frame, bent forward at the waist with soft knees in an active, playful crouch.
+- Have her reach both arms forward and low with open, relaxed palms as if enticing or playfully
+  chasing, tilting her head toward the right with a wide, candid smile.
+- Cue the dog to sprint and leap across the foreground toward the front-right of the frame,
+  timing the shot to capture the mid-stride bound alongside the owner.

@@ -1,0 +1,45 @@
+id: 01M2H5T11D9VJSZ7773T7D0D8R
+slug: glasses-in-hand-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daJt;tIA~q%g_3IUNHxtM_xuIUkCWBt7WAV@NHt7o0WB
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: That's the one. Give me three more just like it.
+  tone: nervous_client
+- text: Pretend I'm your favourite coworker. Not the one you're thinking of.
+  tone: playful
+- text: Look down at the page, then up at me when you're ready.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright with their torso facing forward in a relaxed posture,
+  wearing an unbuttoned blazer over an open-collar shirt.
+- Instruct the subject to raise their left hand to upper-chest level, lightly touching or
+  adjusting their shirt collar near the neck.
+- Have the subject bend their right arm at waist level, holding a pair of eyeglasses loosely
+  horizontally across the lower torso.
+- Direct the subject to turn their head slightly to their left, lifting their chin gently
+  and looking off-camera toward the light with an open, warm smile.

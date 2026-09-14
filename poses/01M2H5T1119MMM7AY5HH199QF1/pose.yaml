@@ -1,0 +1,45 @@
+id: 01M2H5T1119MMM7AY5HH199QF1
+slug: seated-forward-lean-elbows-on-knees-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dcJ8CRs.~qtR~WR*f,x]nhWBIUxukWWCoJayR*a{s.oK
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody likes headshots. You're doing better than the last twelve people.
+  tone: nervous_client
+- text: Drop your shoulders and let your face go still.
+  tone: calm
+- text: Give me the smile you use when you're winning an argument.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit near the front edge of an armchair with legs spread comfortably wide
+  and feet flat on the floor.
+- Instruct the subject to lean forward from the hips toward the camera, creating an open and
+  engaged posture.
+- Place both forearms across the thighs, resting the left hand across the right forearm and
+  letting the right hand drape naturally between the knees.
+- Direct the subject to look directly into the camera lens with a level chin, relaxed shoulders,
+  and a warm, gentle smile.

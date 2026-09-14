@@ -1,0 +1,42 @@
+id: 01M2H5T10B8APSJ6MQFA6W5G4N
+slug: window-light-profile-turn
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daJRKu.8~qRQ_3%Mx]ozMxNGD%j[t7M{ofjYR*oLjbt7
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Nobody sees these until you've picked your favourite.
+  tone: nervous_client
+- text: Sit tall, then let your spine relax by ten percent.
+  tone: calm
+- text: Give me 'I know something you don't' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing at a three-quarter angle facing toward the window light to
+  his right, framed from the hips up.
+- Instruct him to bring both hands in front of his midsection, using his right hand to grasp
+  and adjust the cuff of his left sleeve.
+- Have him turn his head toward the window, looking slightly off-camera with a relaxed, candid
+  smile.

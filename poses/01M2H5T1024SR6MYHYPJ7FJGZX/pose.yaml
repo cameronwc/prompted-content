@@ -1,0 +1,43 @@
+id: 01M2H5T1024SR6MYHYPJ7FJGZX
+slug: lean-on-wall-hands-in-pockets
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daL;KcRP~px^_2bIIooJxuoeM{Rjt7j[RPjYozj[Rjj@
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Fix your collar if you want. The fixing looks great too.
+  tone: nervous_client
+- text: Close your eyes. Open them on three, straight into the lens.
+  tone: calm
+- text: Big smile, then let it shrink to the one you'd use in a meeting.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand centered against a plain, neutral wall, facing the camera squarely
+  with an upright, relaxed posture.
+- Instruct her to tuck both hands comfortably into her front trouser pockets, letting her
+  blazer fall open and keeping her elbows relaxed slightly outward.
+- Ensure her shoulders are dropped and level, keeping the torso squared toward the camera
+  lens.
+- Direct the subject to look directly into the camera with a warm, natural open-mouth smile.

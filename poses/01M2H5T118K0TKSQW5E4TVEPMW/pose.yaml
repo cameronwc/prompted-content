@@ -1,0 +1,43 @@
+id: 01M2H5T118K0TKSQW5E4TVEPMW
+slug: jacket-button-fix-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKH_b^9G_MxZ~9ofIUR*-:xts:Rk-;MxbHkCW?M{Rjbb
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Take a breath out. Right at the bottom of it, look at me.
+  tone: nervous_client
+- text: Look just past the lens, then come to it slowly.
+  tone: calm
+- text: Big smile, then let it shrink to the one you'd use in a meeting.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright and facing the camera with relaxed shoulders in a
+  casual, balanced stance.
+- Instruct her to bring both hands to her midsection to lightly hold and adjust the front
+  button of her blazer.
+- Direct her to angle her head slightly down, casting her gaze downward toward her hands with
+  a soft, focused expression.

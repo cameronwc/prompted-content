@@ -1,0 +1,44 @@
+id: 01M2H5T112ZXVE5PWBP4FJB0HS
+slug: chin-down-eyes-up-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dOHn]FoM?u-:~Vf,tRxvslRjV[aeo}IUV@WBoJt7oLs:'
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody sees these until you've picked your favourite.
+  tone: nervous_client
+- text: Do the head tilt. Now do half of that.
+  tone: playful
+- text: Breathe out and hold the end of the breath.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand centered and facing directly toward the camera with an upright, relaxed
+  posture, leaning slightly forward from the waist.
+- Instruct her to bring both arms down in front of her midsection, holding a small ceramic
+  cup horizontally with both hands around waist level.
+- Ensure her shoulders are relaxed and down, with her hair resting naturally over the shoulders
+  and around the neckline of her blazer.
+- Direct her to look straight into the camera lens with a warm, gentle smile and a direct,
+  approachable eye contact.

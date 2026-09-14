@@ -1,0 +1,42 @@
+id: 01M2H5T10VZ6E7YR06RQ6H0WFM
+slug: brick-wall-shoulder-lean
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPI;@g0g~p9a={D%D*xt%0RjRkt7X9%2%1WVtRxan$WB
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at the lens like it's someone you like but don't need to impress.
+  tone: nervous_client
+- text: Drop your shoulders and let your face go still.
+  tone: calm
+- text: Big smile, then let it shrink to the one you'd use in a meeting.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a textured brick wall, leaning his left shoulder and
+  upper arm lightly against the wall with his torso angled slightly outward into the street.
+- Instruct the subject to let both arms hang naturally and relaxed at his sides, with hands
+  resting gently alongside his hips and thighs.
+- Have the subject turn his head directly toward the camera, keeping shoulders relaxed and
+  offering a soft, confident closed-mouth smile straight into the lens.

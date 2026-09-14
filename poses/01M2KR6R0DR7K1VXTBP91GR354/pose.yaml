@@ -1,0 +1,43 @@
+id: 01M2KR6R0DR7K1VXTBP91GR354
+slug: dog-alone-lying-chin-on-paws
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dVKT}K00x]%M%h8_Rkxu%gIUV[WWj]t7xua}Mxj[IUR*
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- backlit
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Let them lean on you. Let yourself lean back.
+  tone: nervous_client
+- text: Rest your hand on their back and look at the same thing they're looking at.
+  tone: calm
+- text: Walk away together like the credits are rolling.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog in a sternal recumbency (sphinx pose) on a patterned floor rug, angling
+  its body diagonally with the hindquarters resting back and to the right.
+- Extend both front legs forward along the ground so the chest stays upright and supported.
+- Get down to the dog's eye level with a low camera angle, positioning the dog in front of
+  a large bright window for soft rim lighting.
+- Hold the dog's attention slightly off-camera to the left or toward the light source so its
+  head remains raised, alert, and turned in a gentle three-quarter view.

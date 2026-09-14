@@ -492,7 +492,7 @@ def test_metadata_bounds_on_real_catalog():
         assert 5 <= len(kws) <= 10
         assert metadata.board_for(CFG, pose.primary_category, pose, "photo") in {
             "Family Photo Poses", "Couples Posing", "Engagement Poses", "Maternity Poses",
-            "Senior Portrait Poses", "Wedding Poses", "Lifestyle Poses", "Golden Hour Posing",
+            "Senior Portrait Poses", "Wedding Poses", "Lifestyle Poses", "Headshot Poses", "Pet Photo Poses", "Golden Hour Posing",
                 "Large Group Poses"}
     for prompt in catalog.unique_prompts(poses):
         assert len(metadata.text_title(prompt, display)) <= 90

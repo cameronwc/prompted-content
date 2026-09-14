@@ -1,0 +1,44 @@
+id: 01M2H5T1141S373C1AV8BCH89C
+slug: hand-on-chin-thinking-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCHxQZ?c9]D*-Q%M.7%g0KRjniRj-:NGIUxttRtRofad
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Chin down a touch. That's it. That's the whole trick.
+  tone: nervous_client
+- text: Walk at me like the meeting just ended early.
+  tone: playful
+- text: Hold your glasses and just look at me like we're talking.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing with her torso angled slightly toward camera-right, shoulders
+  relaxed and upright.
+- Instruct her to cross her left arm horizontally across her midsection to form a stable support.
+- Have her rest her right elbow on top of her crossed left forearm, bringing her right hand
+  up with curled fingers lightly resting under the center of her chin.
+- Ask her to turn her head slightly toward the window light on camera-left, looking just past
+  the lens with a soft, natural smile.

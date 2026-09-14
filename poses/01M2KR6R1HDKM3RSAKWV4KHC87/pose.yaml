@@ -1,0 +1,47 @@
+id: 01M2KR6R1HDKM3RSAKWV4KHC87
+slug: shake-hands-sit-command-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNL;HU~W%hXU?vIVRjxuM^WYRjxuD%t6xubcs,WXWYoc
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Talk to your dog like I'm not here. That's the whole session.
+  tone: nervous_client
+- text: Whisper a secret in the dog's ear.
+  tone: playful
+- text: Walk slowly down the path and don't look back.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman kneeling upright on both knees on the floor on the right side of the
+  frame, turned into a side profile facing toward the left.
+- Place the dog sitting on the floor directly in front of her in side profile, facing toward
+  the right.
+- Have the woman rest her right hand loosely near her lap while extending her left hand forward,
+  palm up, to support the dog's lifted front paw.
+- Instruct the woman to look down warmly with a gentle smile at the dog, keeping the posture
+  relaxed and engaging.
+- Set the camera at low eye level with the dog and woman to capture their full bodies in side
+  profile against the neutral background.

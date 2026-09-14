@@ -1,0 +1,47 @@
+id: 01M2KR6R0F2R4MSJM24QTXWDYC
+slug: owner-crouched-dog-sitting-beside
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9HBeov*?tD,5*ogD+%00zIXIp-o?b-n?GEf$ft6f5Ri
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- overcast
+- open_shade
+location_types:
+- forest
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If they wander off, we follow. Nothing here is a mistake.
+  tone: nervous_client
+- text: Belly rub. Full commitment. Laugh at whatever happens.
+  tone: playful
+- text: Both of you in the doorway, waiting for nothing.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the dog sit upright facing toward camera-right, slightly angled toward the center.
+- Position the woman crouching down directly beside the dog on the right, resting on the balls
+  of her feet with knees bent and torso angled toward the dog.
+- Instruct the woman to reach forward with both hands and gently stroke or hold the dog's
+  chest and neck area.
+- Direct the woman to look directly down at her dog with a natural, joyful smile while encouraging
+  the dog to look up toward her face.

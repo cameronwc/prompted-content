@@ -1,0 +1,45 @@
+id: 01M2KR6R0MEK2JNVS8FFB9DJAY
+slug: lift-the-dog-up-to-face
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkIq$3~q.8oz?bxvozWCNGM{niayoJV@ofWqxaWrogof
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Talk to your dog like I'm not here. That's the whole session.
+  tone: nervous_client
+- text: Let their head rest in your lap and just look down at them.
+  tone: calm
+- text: Piggyback if they'll allow it. If not, we saw nothing.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman sit on the sofa angled toward camera-left, with her legs bent in front and
+  her upper body turned toward the left cushion.
+- Position the dog sitting upright on the sofa cushion directly facing the woman, placing
+  its front paws extended onto her upper chest and shoulders.
+- Instruct the woman to place both hands gently around the sides of the dog's ribcage to support
+  its posture.
+- Have the woman lean slightly forward to bring her face almost nose-to-nose with the dog,
+  smiling warmly while maintaining direct eye contact with the pet.

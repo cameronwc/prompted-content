@@ -1,0 +1,47 @@
+id: 01M2KR6R0H5C76H0NEDRQ30CRM
+slug: dog-on-bench-owner-beside
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daIq+8$K-;IU~Vs9t7oJtRM{s:R*%MRi%MRkkDR%kCWB
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+- backlit
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Hold the treat by my lens. Hold it. Hold it. Perfect.
+  tone: nervous_client
+- text: Sit on the step and let the dog decide where to be.
+  tone: calm
+- text: Both of you look at that squirrel. There's always a squirrel.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog sitting upright on the left side of a wooden bench, angled sideways facing
+  toward the right.
+- Have the man sit close beside the dog on the right side of the bench, angling his torso
+  slightly inward with his knees parted and feet grounded.
+- Direct the man to lean his upper body gently toward the dog, letting his arms relax naturally
+  with hands resting in his lap.
+- Instruct the man to look down at the dog with a warm, natural smile, catching the dog's
+  attention so they make direct eye contact.

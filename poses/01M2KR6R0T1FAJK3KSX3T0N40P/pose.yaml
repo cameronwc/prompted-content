@@ -1,0 +1,46 @@
+id: 01M2KR6R0T1FAJK3KSX3T0N40P
+slug: both-in-the-doorway
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLJ@ak~U?GyY_NIURjxv?HM|9axaocIVae%MRlofR*ad
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: The messy ones are the good ones. Trust me.
+  tone: nervous_client
+- text: Ask for a high five. Sell it like it's the first time.
+  tone: playful
+- text: Scratch under the chin until they lean in. Stay there.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Frame the composition through an open interior wooden doorway, using the door jambs to create
+  a natural vertical border.
+- Position the woman standing just inside the doorway, resting her left hand lightly on the
+  edge of the open wooden door and angling her body slightly inward.
+- Direct the woman to lean gently forward from the waist, extending her right hand down toward
+  the dog while smiling and looking directly down at her pet's face.
+- Position the dog directly in front of her in profile-to-three-quarter view, engaging the
+  dog so its head tilts up toward the woman with an alert, happy expression and one front
+  paw lifted mid-step.

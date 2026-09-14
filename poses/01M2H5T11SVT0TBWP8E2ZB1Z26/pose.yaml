@@ -1,0 +1,43 @@
+id: 01M2H5T11SVT0TBWP8E2ZB1Z26
+slug: brick-wall-shoulder-lean-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUHxE2MJ~WaK^%R+Ioxu%LR*NHj[ozM{xuV@bcRjt7R*
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: That's the one. Give me three more just like it.
+  tone: nervous_client
+- text: Give me 'I know something you don't' energy.
+  tone: playful
+- text: Chin toward me, eyes soft, no smile needed.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a brick wall, resting his right shoulder and upper
+  back lightly against the wall while angling his torso slightly toward camera-left.
+- Have him place his left hand casually into his front pants pocket with the elbow slightly
+  bent out, while letting his right arm hang naturally straight down by his side against the
+  wall.
+- Instruct him to turn his head to face squarely towards the camera and maintain a relaxed,
+  approachable smile with direct eye contact.

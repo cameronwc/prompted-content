@@ -1,0 +1,43 @@
+id: 01M2H5T11JM8J3VXDWWC9H544P
+slug: coffee-in-hand-relaxed-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAHeON%L_N$*}kIT0Kxu-nr=IUE1_2-:s:%2?bxai_-p
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Take a breath out. Right at the bottom of it, look at me.
+  tone: nervous_client
+- text: Breathe out and hold the end of the breath.
+  tone: calm
+- text: Look over your shoulder like I said your name from across the office.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand outdoors on a sidewalk, angling her body slightly to camera-right
+  with a tall, natural posture.
+- Direct her to hold a clear reusable coffee cup in her right hand at mid-torso height, wrapping
+  her fingers around the cup.
+- Keep her left arm hanging relaxed and straight down along her side.
+- Have her turn her head directly toward the lens with a warm, open smile.

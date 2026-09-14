@@ -1,0 +1,46 @@
+id: 01M2KR6R0GFD3JG1AMNRP7DGBJ
+slug: walk-away-together-down-path
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dmIrWgogbXt6.AofafaftnofRkRktmR*fjoMtRaeofkB
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: horizontal
+difficulty: moderate
+prompts:
+- text: Sit however you'd sit on your own couch.
+  tone: nervous_client
+- text: Hold the treat up high and give me your best begging face too.
+  tone: playful
+- text: Rest your hand on their back and look at the same thing they're looking at.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman and dog side by side along a narrow dirt path through a field, walking
+  directly away from the camera.
+- Instruct the woman to move forward in a natural walking stride, turning her head to the
+  right in profile to look down smiling toward the dog.
+- Have her extend her right arm down to gently touch the dog's back, while letting her left
+  arm hang relaxed at her side.
+- Position the medium-to-large dog directly to her right, walking alongside her along the
+  grass edge in the same direction.

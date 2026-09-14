@@ -1,0 +1,46 @@
+id: 01M2KR6R10WX7W6MYKC5NPF29Y
+slug: dog-in-lap-on-the-porch-steps-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dTH_PgDi%gr=~VD%t7V@xvIAt7IVxabbbIoeS5WVWXs.
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Hold the treat by my lens. Hold it. Hold it. Perfect.
+  tone: nervous_client
+- text: Forehead to forehead. Breathe slow. Wait for them.
+  tone: calm
+- text: Tug of war. I'll photograph the drama.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on a low outdoor step or stoop, angled slightly toward three-quarters
+  view with their knees forward and feet resting on the pavement below.
+- Position the dog sitting across the subject's lap horizontally, resting its hindquarters
+  beside the subject and placing its front paws extended across their thighs.
+- Instruct the subject to wrap both arms gently around the dog's chest and neck, leaning slightly
+  forward with a relaxed posture and a warm smile.
+- Direct the subject and dog to make direct eye contact with each other, capturing an affectionate
+  profile gaze between them.

@@ -141,6 +141,14 @@ def build_prompt(pose: dict) -> str:
         who = ("one young woman in a casual sundress or skirt and boots, Instagram lifestyle portrait"
                if woman else
                "one young man in casual streetwear, a tee and shorts or jeans, Instagram lifestyle portrait")
+    elif category == "headshots":
+        idx = int.from_bytes(ULID.from_str(pose["id"]).bytes[:6], "big") % 60
+        who = ("one adult woman in smart business-casual clothing, professional headshot session"
+               if idx % 2 == 0 else
+               "one adult man in smart business-casual clothing, professional headshot session")
+    elif category == "pets":
+        who = ("one dog on its own, pet portrait session" if n == 1
+               else "one adult with their dog, pet-and-owner portrait session")
     elif category == "maternity":
         who = ("an expectant mother with her partner" if n == 2
                else "an expectant mother")
@@ -335,9 +343,20 @@ def main() -> int:
         return 0
 
     # Resumability: anything with both _ai files on disk is done.
+    # A pose is also done if its record already points at AI images that
+    # exist under any name (a redo publishes under a versioned key like
+    # detail_ai2.jpg, since published image keys are immutable).
+    def has_ai_images(pid: str, pose: dict) -> bool:
+        d = POSES_DIR / pid
+        if (d / "detail_ai.jpg").is_file() and (d / "thumb_ai.jpg").is_file():
+            return True
+        img = pose.get("image", {})
+        return (pose.get("image_source") == "ai"
+                and (d / img.get("detail", "")).is_file()
+                and (d / img.get("thumb", "")).is_file())
+
     pending = [(pid, pose, hero) for pid, pose, hero in work
-               if not ((POSES_DIR / pid / "detail_ai.jpg").is_file()
-                       and (POSES_DIR / pid / "thumb_ai.jpg").is_file())]
+               if not has_ai_images(pid, pose)]
     done_count = len(work) - len(pending)
     if done_count:
         print(f"{done_count} of {len(work)} already generated on disk; skipping those.")

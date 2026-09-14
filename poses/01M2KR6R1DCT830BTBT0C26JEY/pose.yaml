@@ -1,0 +1,47 @@
+id: 01M2KR6R1DCT830BTBT0C26JEY
+slug: owner-crouched-dog-sitting-beside-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpIrWit7ovV]?dkCWCjttna}V]oeo%WBkBbHxuaxkBay
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- overcast
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We'll take fifty. Three will be perfect. That's the deal.
+  tone: nervous_client
+- text: Hold the treat up high and give me your best begging face too.
+  tone: playful
+- text: Let the leash go slack and just stand together.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog sitting upright in an open grassy field, angled toward camera-right in
+  profile.
+- Have the subject crouch down on the right side of the dog, squatting closely beside it with
+  her torso angled toward the dog.
+- Instruct the subject to bring both hands around to the dog's chest and neck, gently stroking
+  and holding the dog close.
+- Ask the subject to look down warmly at the dog with a genuine, happy smile as the dog looks
+  forward.

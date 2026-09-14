@@ -1,0 +1,46 @@
+id: 01M2H5T11VNV3HJRA1XDB5SJ1S
+slug: full-length-weight-on-back-leg-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAH_oS-p%NRjz-Mx9Gt7^hMx9aae~V?Gj]t7-;%MslxZ
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me what you actually do all day while I fix the light.
+  tone: nervous_client
+- text: Big smile, then let it shrink to the one you'd use in a meeting.
+  tone: playful
+- text: Hands loose at your sides. Weight on your back foot.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand facing the camera with feet placed roughly shoulder-width apart,
+  angled slightly outward in a natural, stable stance.
+- Keep the torso squared toward the lens with an upright posture and the unbuttoned jacket
+  hanging straight.
+- Instruct the subject to let both arms rest naturally and comfortably down at their sides
+  with relaxed fingers.
+- Direct the subject to look straight into the camera lens with a warm, confident smile.

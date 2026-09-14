@@ -1,0 +1,48 @@
+id: 01M2KR6R1KRNXAAH5BWQTKHJBX
+slug: lying-in-the-grass-side-by-side-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dmI=Yst7WUaf_4kCafj@x_ofWCfjxwWCkBayxvWUkBja
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: The messy ones are the good ones. Trust me.
+  tone: nervous_client
+- text: Lie down beside them and see who falls asleep first.
+  tone: calm
+- text: Tug of war. I'll photograph the drama.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the woman lie flat on her stomach in the grass, angled diagonally toward the camera
+  with her legs relaxed behind her.
+- Position the dog lying down directly next to her on camera left, facing inward toward the
+  woman.
+- Instruct the woman to prop her left elbow on the ground to support her chin with her left
+  hand, while extending her right arm across to rest her hand on the dog's back.
+- Have the woman look fondly and smile directly at the dog, keeping both subjects close together
+  at eye level.

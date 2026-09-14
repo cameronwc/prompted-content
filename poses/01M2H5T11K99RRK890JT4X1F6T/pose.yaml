@@ -1,0 +1,44 @@
+id: 01M2H5T11K99RRK890JT4X1F6T
+slug: straight-on-soft-smile-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dbKB8g-p~qIU~VWXIUjYf5RkRkofNGoJoLWCR*j?jZWC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's a headshot, not a passport. You're allowed to look friendly.
+  tone: nervous_client
+- text: Big smile, then let it shrink to the one you'd use in a meeting.
+  tone: playful
+- text: Think about the last thing that went right this week.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright, angling their torso slightly toward the window on
+  camera right.
+- Instruct the subject to relax both shoulders and allow their arms to rest naturally down
+  at their sides.
+- Have the subject turn their face directly toward the camera lens, keeping the head upright
+  and chin level.
+- Direct them to maintain soft, engaged eye contact with the lens while offering a subtle,
+  warm, closed-mouth smile.

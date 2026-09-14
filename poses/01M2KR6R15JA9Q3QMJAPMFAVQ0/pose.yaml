@@ -1,0 +1,46 @@
+id: 01M2KR6R15JA9Q3QMJAPMFAVQ0
+slug: carry-the-small-dog-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d$Lqa%t7x@s:.AWVWEj[XojsV[WBxujZaxj@WAWBo0j[
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Nobody expects a dog to pose. We're catching, not staging.
+  tone: nervous_client
+- text: Both of you in the doorway, waiting for nothing.
+  tone: calm
+- text: Hold the treat up high and give me your best begging face too.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the adult subject stand squarely facing the camera in the field with a relaxed, upright
+  posture and weight distributed evenly on both feet.
+- Instruct the subject to hold the dog across their chest at mid-torso height, supporting
+  the dog's lower body and hindquarters with their right forearm and wrapping their left hand
+  across the dog's upper chest.
+- Position the dog diagonally across the subject's torso so its head rests on the subject's
+  left side (camera right) with its back legs dangling naturally on the right side.
+- Ensure both the subject and the dog are facing directly toward the camera, with the subject
+  offering a natural, relaxed smile.

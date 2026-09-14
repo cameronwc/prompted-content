@@ -1,0 +1,43 @@
+id: 01M2H5T10A9A9M04KMAGA06Q7Z
+slug: jacket-button-fix
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFHxZ$RO_3RP~AMx4:fk_2V@aLM|?as:RjWBS5j]IUj@
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: We'll do a boring one first to get it out of the way.
+  tone: nervous_client
+- text: Do the head tilt. Now do half of that.
+  tone: playful
+- text: Look just past the lens, then come to it slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright and facing directly toward the camera, centered in
+  the composition.
+- Have the subject bring both hands to the front of her waist, holding the edges or button
+  of her jacket together as if fastening it.
+- Instruct her to tilt her head slightly down and look toward her hands, maintaining a soft,
+  candid smile.

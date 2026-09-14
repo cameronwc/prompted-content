@@ -1,0 +1,44 @@
+id: 01M2H5T104RCJAE0ZNN28PBE1G
+slug: chin-down-eyes-up
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHHB*pDi-:00?F%ME1t7D%IVRk-;oyoKf8RjR+t7M{Rj
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Chin down a touch. That's it. That's the whole trick.
+  tone: nervous_client
+- text: Look down at the page, then up at me when you're ready.
+  tone: calm
+- text: Walk at me like the meeting just ended early.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing at a three-quarter angle turned toward camera-left, with their
+  weight shifted comfortably onto the back leg.
+- Have the subject bend their left arm (camera-right) across their waist, resting the hand
+  loosely near the lower abdomen with relaxed fingers, while keeping the right arm hanging
+  naturally down by their side.
+- Direct the subject to turn their head directly toward the camera, keeping the shoulders
+  relaxed and looking straight into the lens with a calm, confident expression.

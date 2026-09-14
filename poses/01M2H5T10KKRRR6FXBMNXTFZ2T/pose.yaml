@@ -1,0 +1,45 @@
+id: 01M2H5T10KKRRR6FXBMNXTFZ2T
+slug: stairs-sit-forearms-on-thighs
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAH_MWMb%#4n^0_2E1D*v{X99a9G~V4:kX-oER%L^in~
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You get veto power on every frame. Delete anything you hate.
+  tone: nervous_client
+- text: Sit tall, then let your spine relax by ten percent.
+  tone: calm
+- text: Look over your shoulder like I said your name from across the office.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on an outdoor step with their body angled slightly toward camera-right,
+  leaning their upper body forward toward the lens in a relaxed posture.
+- Position the legs separated comfortably at shoulder width, knees bent, with both feet planted
+  firmly on the lower step/ground.
+- Instruct the subject to rest their forearms across their knees, gently clasping or overlapping
+  their hands loosely in the space between their thighs.
+- Direct the subject to turn their head directly toward the camera and offer a warm, natural
+  smile straight into the lens.

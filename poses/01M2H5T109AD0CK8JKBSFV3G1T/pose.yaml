@@ -1,0 +1,45 @@
+id: 01M2H5T109AD0CK8JKBSFV3G1T
+slug: desk-edge-perch
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddI#fL-:^+xv~qWBo#xuxFM{M{s:bHofjFWVWXkCWBoL
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me what you actually do all day while I fix the light.
+  tone: nervous_client
+- text: Look over your shoulder like I said your name from across the office.
+  tone: playful
+- text: Lean into the doorframe and let it take your weight.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject perch casually on the front edge of a wooden table or desk, sitting with
+  an upright, confident posture.
+- Instruct the subject to place their left hand flat against the tabletop surface beside their
+  hip for support.
+- Have them rest their right hand comfortably on top of their right thigh, allowing the arm
+  to bend naturally.
+- Direct the subject to turn their head directly toward the camera lens with a relaxed, warm
+  smile.

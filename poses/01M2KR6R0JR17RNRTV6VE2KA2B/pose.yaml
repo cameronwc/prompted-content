@@ -1,0 +1,46 @@
+id: 01M2KR6R0JR17RNRTV6VE2KA2B
+slug: belly-rub-laugh
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daLD.4Dh-;Io_NInM_Rk?cRiE1t7%Ms:ozt7ayV@aebb
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Let them lean on you. Let yourself lean back.
+  tone: nervous_client
+- text: Sit in the grass and let them settle against you.
+  tone: calm
+- text: Make the noise that makes their ears go up.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit cross-legged on a patterned area rug, positioned slightly angled to
+  the camera in front of a soft indoor natural light source.
+- Position the dog directly in front of her lying flat on its back in a relaxed belly-up posture,
+  with its legs curled in the air and head oriented toward the camera.
+- Instruct the subject to lean forward over the dog, placing both hands gently on the dog's
+  chest and belly as if scratching it playfully.
+- Direct the subject to look down warmly at the dog with a natural, joyful smile while capturing
+  the dog looking directly upside-down into the camera lens.

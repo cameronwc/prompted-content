@@ -1,0 +1,42 @@
+id: 01M2H5T10ESMPXV0DEFHRV7RQR
+slug: shoulder-to-camera-head-turned
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daHUqPIA~pIT%1RPNIadIUofRjR,kDj[t7RjRjj]WBkC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Blink whenever you want. I'll wait.
+  tone: nervous_client
+- text: Arms crossed, slight smirk. CEO of something.
+  tone: playful
+- text: Think about the last thing that went right this week.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright next to a large window, facing her body in profile
+  toward camera-right.
+- Instruct her to turn her head back over her left shoulder to face directly toward the camera
+  lens.
+- Ensure her shoulders are relaxed and back, letting her arms rest naturally at her sides
+  while offering a warm, confident smile.

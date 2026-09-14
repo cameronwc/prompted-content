@@ -1,0 +1,45 @@
+id: 01M2H5T10FV2CV3QVDA55MT2KD
+slug: glasses-in-hand
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZI}ns-;_3%g~pR*R+t8s+M{M|aebIt8jZbHNGWBjFax
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Take a breath out. Right at the bottom of it, look at me.
+  tone: nervous_client
+- text: Give me the smile you use when you're winning an argument.
+  tone: playful
+- text: Lean into the doorframe and let it take your weight.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in a soft indoor setting with a large side window
+  providing directional natural light, squaring his body toward the camera with his weight
+  balanced evenly.
+- Instruct the subject to let his left arm rest straight down naturally along his side with
+  fingers relaxed.
+- Have the subject bend his right elbow to bring his right hand across his midsection at waist
+  height, casually holding a pair of eyeglasses by the frame.
+- Direct the subject to look directly into the camera lens with a level chin, relaxed shoulders,
+  and a warm, approachable smile.

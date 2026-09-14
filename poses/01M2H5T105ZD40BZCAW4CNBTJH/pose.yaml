@@ -1,0 +1,45 @@
+id: 01M2H5T105ZD40BZCAW4CNBTJH
+slug: laugh-off-camera-then-back
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dpI;^nxutSxv~pWCozWC-pofs:jYayWVWBayNGaxV@ay
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fake laugh for me. See, now that one's real. Hold that face.
+  tone: nervous_client
+- text: Rest your elbows on your knees and look up at me.
+  tone: calm
+- text: Roll a sleeve. Slowly. Very capable.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position two subjects standing side-by-side in a relaxed posture, with the subject on the
+  right slightly forward and turned slightly toward camera left, and the subject on the left
+  turned toward three-quarters right.
+- Have both subjects loosely clasp or rest their hands together at belt level in front of
+  their unbuttoned jackets, keeping shoulders and arms relaxed.
+- Direct the subject on the left to look across and laugh naturally toward the other person,
+  showing a candid profile smile.
+- Direct the subject on the right to face forward directly toward the camera lens with a warm,
+  broad smile.

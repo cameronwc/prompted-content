@@ -1,0 +1,45 @@
+id: 01M2KR6R0Q3KQ3R5B6E1YP5HDY
+slug: kiss-on-the-head
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dwM?@-%M-pbI_NbcNHf6x]jYM{jst7RjoJoLWradoffk
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: If they wander off, we follow. Nothing here is a mistake.
+  tone: nervous_client
+- text: Pretend the dog told a joke.
+  tone: playful
+- text: Forehead to forehead. Breathe slow. Wait for them.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog sitting squarely on the sand facing forward, angled slightly toward the
+  side.
+- Have the subject squat low directly behind the dog, spreading their knees wide to frame
+  the dog's body.
+- Instruct the subject to wrap both arms around the dog's neck and chest in a close, secure
+  hug.
+- Direct the subject to lean down and press a gentle kiss onto the top of the dog's head with
+  their eyes softly closed.

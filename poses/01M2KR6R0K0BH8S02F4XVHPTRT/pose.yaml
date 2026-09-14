@@ -1,0 +1,46 @@
+id: 01M2KR6R0K0BH8S02F4XVHPTRT
+slug: shake-hands-sit-command
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkKA=;%1t7In~qR+R%aeW=RjRit7axe.oekCadfkkCof
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Say their name in the silly voice. Yes, that one.
+  tone: nervous_client
+- text: Stand at the water's edge and let them sniff.
+  tone: calm
+- text: Kiss the top of their head and don't come back up until I say.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Seat the woman cross-legged flat on the floor, angled slightly toward the left side of the
+  frame.
+- Position the dog sitting upright in complete profile directly in front of her right side,
+  facing toward her.
+- Have the woman gently hold the dog's raised front paw in her right hand at lap height, while
+  resting her left fingers lightly along the back of the dog's neck or collar.
+- Direct the woman to lean slightly in toward the dog, laughing naturally with affectionate
+  eye contact directed straight into the dog's face.

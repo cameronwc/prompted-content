@@ -1,0 +1,46 @@
+id: 01M2H5T10WCN6S0JFF84YBN69X
+slug: looking-down-at-notebook
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSIOC700?bjE^*adbHIVofj[RQkC%MoeRPt8E1s;V@WC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your collar if you want. The fixing looks great too.
+  tone: nervous_client
+- text: Look at the camera like it just gave you a promotion.
+  tone: playful
+- text: Turn to the window and let the light find your cheek.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 2
+status: active
+image_source: ai
+instructions:
+- Seat the subject at a wooden desk turned slightly at a three-quarter angle toward camera-right,
+  leaning gently forward from the hips.
+- Place an open notebook flat on the table directly in front of her, resting both of her forearms
+  along the desk surface.
+- Instruct her right hand to hold a pen poised to write on the lower-left page of the notebook,
+  while her left hand rests naturally on the top-right corner to stabilize the book.
+- Have her tilt her head slightly forward and downward, casting her gaze directly onto the
+  notebook with a calm, focused, and gentle expression.

@@ -1,0 +1,43 @@
+id: 01M2KR6R182500P12HW5R67DDT
+slug: dog-alone-head-tilt-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZLNb^IT_N?a_2V@t8WB-;D%WBM{V?%MRkRjRjogRjWB
+placeholder: false
+categories:
+- pets
+subject_count: 1
+subject_types:
+- pet
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Crouch down to their level. Everything gets better down here.
+  tone: nervous_client
+- text: Shake hands like you're closing a deal.
+  tone: playful
+- text: Walk slowly down the path and don't look back.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog in the center of the living room on the rug, sitting upright with its torso
+  angled slightly towards camera-left.
+- Ensure the dog is seated firmly on its haunches with both front legs planted vertically
+  and straight down on the floor to maintain an upright, alert posture.
+- Make a subtle, high-pitched noise or hold a treat just above the camera to prompt the dog
+  to tilt its head curiously toward the viewer while maintaining direct eye contact with the
+  lens.

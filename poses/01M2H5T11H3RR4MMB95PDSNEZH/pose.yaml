@@ -1,0 +1,47 @@
+id: 01M2H5T11H3RR4MMB95PDSNEZH
+slug: stairs-sit-forearms-on-thighs-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dcIN]ctR-;%2~V%LkDR+t6WANHRja}RjoJWBbIofoLoy
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Turn your body away from me, then bring just your face back.
+  tone: nervous_client
+- text: Lean into the doorframe and let it take your weight.
+  tone: calm
+- text: Give me 'I know something you don't' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on outdoor steps with his hips angled slightly toward camera right
+  and his legs spread comfortably apart.
+- Instruct him to lean his torso forward slightly from the waist toward the camera in an open,
+  relaxed posture.
+- Direct him to rest his forearms on his thighs, clasping his hands loosely together over
+  his left knee.
+- Ask him to turn his head to face the lens directly, maintaining relaxed shoulders and a
+  subtle, friendly expression.

@@ -1,0 +1,44 @@
+id: 01M2H5T10TWN1QMG0CMNY86P3X
+slug: seated-turned-to-camera
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUFhkkENIA-;~VRjD%xuo}n#IobctRRkRPt7ozjZRjof
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- backlit
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Turn your body away from me, then bring just your face back.
+  tone: nervous_client
+- text: Roll a sleeve. Slowly. Very capable.
+  tone: playful
+- text: Breathe out and hold the end of the breath.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject seated or perched with her body turned roughly three-quarters to the
+  right.
+- Have her rest her right hand flat and relaxed on top of her right thigh or raised knee.
+- Instruct her to turn her head back toward the camera to face the lens at a slight three-quarters
+  angle while keeping her shoulders angled away.
+- Direct her to hold a soft, confident smile and position her so the window light creates
+  a warm rim light along the back of her hair and shoulders.

@@ -1,0 +1,44 @@
+id: 01M2H5T1104GJ9B4BPJJ1JM2CW
+slug: lean-on-wall-hands-in-pockets-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLIqry8^~V-p^iX99a%L%0R-NIM|-;D*xabI%gM{V@t7
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your collar if you want. The fixing looks great too.
+  tone: nervous_client
+- text: Rest your elbows on your knees and look up at me.
+  tone: calm
+- text: Look over your shoulder like I said your name from across the office.
+  tone: playful
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing next to an exterior brick wall, leaning her right shoulder
+  and hip lightly against the brick with her body angled at a three-quarter turn toward the
+  camera.
+- Instruct her to slip both hands casually into the front pockets of her trousers, letting
+  the unbuttoned blazer fall naturally around her sides.
+- Have her square her face directly to the camera with a subtle head tilt, relaxing her shoulders
+  and giving a warm, engaging smile directly into the lens.

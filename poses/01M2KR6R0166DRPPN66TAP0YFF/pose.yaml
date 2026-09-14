@@ -1,0 +1,45 @@
+id: 01M2KR6R0166DRPPN66TAP0YFF
+slug: walk-on-leash-toward-camera
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPJR8KM_od-:55E1E1kD%LRiRPRk~Wocs:s:WYNGWBt8
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Scratch behind the ears and keep your face right there.
+  tone: nervous_client
+- text: Whisper a secret in the dog's ear.
+  tone: playful
+- text: Walk slowly down the path and don't look back.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject in the center of a paved or cobblestone street, facing squarely toward
+  the camera.
+- Place the dog alongside her left side (camera right), keeping both subject and dog aligned
+  to walk forward together.
+- Instruct the subject to hold the leash loosely in her left hand at her side while letting
+  her right arm hang naturally relaxed.
+- Have both the subject and dog walk at a slow, steady pace directly toward the lens, with
+  the subject smiling warmly into the camera mid-stride.

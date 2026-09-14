@@ -15,3 +15,7 @@ entries:
     display: Wedding
   - id: lifestyle
     display: Lifestyle
+  - id: headshots
+    display: Headshots
+  - id: pets
+    display: Pets

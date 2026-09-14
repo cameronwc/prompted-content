@@ -1,0 +1,46 @@
+id: 01M2H5T11AQCFPVCP95D9BKSHA
+slug: stool-sit-one-foot-on-rung-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dEJ@,n%L~Uxv~AD%NGxuskxt9GM{adRkazj?WXkCRQoy
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me what you actually do all day while I fix the light.
+  tone: nervous_client
+- text: Point at me like you've just spotted me across a room.
+  tone: playful
+- text: Hands loose at your sides. Weight on your back foot.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject seated on a tall wooden stool, angling her torso slightly to her left
+  while keeping her posture upright.
+- Have her elevate her right leg by resting her right foot on a rung of the stool so her knee
+  is raised, while extending her left leg downward with her foot toward the floor.
+- Instruct her to rest her forearms along her thighs, letting both hands meet loosely over
+  her lap.
+- Have her turn her head directly toward the camera with a slight natural tilt and a relaxed,
+  warm smile.

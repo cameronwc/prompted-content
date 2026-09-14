@@ -1,0 +1,43 @@
+id: 01M2H5T10Z2D5RZAVGNZFD5QA8
+slug: arms-crossed-slight-smile-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dRIhNkxu?FM{~VxvIUt7V?RjIVayM{RPs:s:IVoft7of
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Blink whenever you want. I'll wait.
+  tone: nervous_client
+- text: Roll a sleeve. Slowly. Very capable.
+  tone: playful
+- text: Sit tall, then let your spine relax by ten percent.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright, angling their torso approximately 15 to 20 degrees
+  to their right with their blazer unbuttoned.
+- Have the subject cross their arms comfortably across their mid-chest, resting their left
+  hand gently along the outside of their right bicep while tucking the right hand loosely
+  underneath the left arm.
+- Instruct the subject to square their face directly toward the camera, keeping the chin level,
+  shoulders relaxed, and expression warm with a subtle, closed-mouth smile.

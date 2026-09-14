@@ -1,0 +1,42 @@
+id: 01M2H5T11BP3QJQG3HFW9CMB60
+slug: hands-clasped-at-waist-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXJ89H4T~qs--oV@RkM{IUt7RkRjxuj[t7ayR*f6jFkC
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Shake out your shoulders. Now forget I mentioned shoulders.
+  tone: nervous_client
+- text: Do the head tilt. Now do half of that.
+  tone: playful
+- text: Hold your glasses and just look at me like we're talking.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright next to a large window so natural light fills the
+  side of his face and body, with a bookshelf softly visible in the background.
+- Angle the subject's torso slightly toward camera-left while having him turn his head back
+  to face directly into the camera with a relaxed, confident smile.
+- Instruct the subject to bring both hands together at waist height, loosely resting or clasping
+  his fingers in front of his jacket without tension in the shoulders.

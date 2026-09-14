@@ -1,0 +1,42 @@
+id: 01M2H5T10HB8RA65SBHRZC02WC
+slug: crossed-arms-no-smile-power
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSKB5Uad~VD%~Vt8E1a|xYWBIVofayWCjat6M{WBofof
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me what you actually do all day while I fix the light.
+  tone: nervous_client
+- text: Laugh at my joke. I haven't told one yet. Do it anyway.
+  tone: playful
+- text: Rest your elbows on your knees and look up at me.
+  tone: calm
+gear:
+  focal_mm:
+  - 70
+  - 200
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing with his body angled roughly 30 to 45 degrees toward the camera's
+  right, keeping a tall and relaxed posture.
+- Instruct the subject to cross his arms over his chest, tucking his left forearm underneath
+  and resting the fingers of his right hand naturally against his left upper arm.
+- Have him turn his head back toward the camera to face forward, keeping the chin level with
+  a composed, direct gaze straight into the lens.

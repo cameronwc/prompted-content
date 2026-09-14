@@ -1,0 +1,43 @@
+id: 01M2H5T11PV2JTZYVGV07KNGXA
+slug: hands-in-back-pockets-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJHeg[t4xt00-nozM|t7WBIURk-:NGt7WBRjflj?M{WB
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Say something rude about my lighting. Great, that's the smile.
+  tone: nervous_client
+- text: Think of your most embarrassing email. Now smile through it.
+  tone: playful
+- text: Chin toward me, eyes soft, no smile needed.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing at a three-quarter angle turned toward camera-left, resting
+  weight comfortably on the back foot.
+- Have the subject slide their camera-right hand into the side trouser pocket with the elbow
+  bent, pulling the blazer back slightly, while leaving the camera-left arm relaxed along
+  the torso.
+- Instruct the subject to turn their head directly toward the camera, keeping the shoulders
+  relaxed and offering a warm, confident smile straight into the lens.

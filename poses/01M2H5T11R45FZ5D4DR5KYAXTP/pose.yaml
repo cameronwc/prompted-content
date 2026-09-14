@@ -1,0 +1,45 @@
+id: 01M2H5T11R45FZ5D4DR5KYAXTP
+slug: seated-turned-to-camera-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dKLz$~~o_3IT~VfkRkMx0Kt7%2Rj_3RjD%t7tRofIUWq
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fake laugh for me. See, now that one's real. Hold that face.
+  tone: nervous_client
+- text: Drop your shoulders and let your face go still.
+  tone: calm
+- text: Hands in pockets, lean on the wall, LinkedIn but make it fun.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit upright on a backless wooden stool, angling her hips and legs approximately
+  45 degrees towards camera right.
+- Instruct her to rest her arms relaxed in her lap, placing her right hand softly across her
+  front thigh.
+- Ask her to rotate her upper torso slightly back toward the lens with an open, relaxed posture
+  and shoulders dropped.
+- Direct her to turn her head straight toward the camera, making direct eye contact with the
+  lens while offering a warm, approachable smile.

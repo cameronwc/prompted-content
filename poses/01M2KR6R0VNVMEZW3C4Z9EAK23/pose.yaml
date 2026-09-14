@@ -1,0 +1,46 @@
+id: 01M2KR6R0VNVMEZW3C4Z9EAK23
+slug: piggyback-the-dog
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: ddNdBtNG_3t6u6WqIpWByEofMxR+t7aesSozRjjss:ax
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- mid
+- open_shade
+location_types:
+- beach
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Squeaky toy on three. Look at me, not the toy.
+  tone: nervous_client
+- text: Run away from them. See who wins.
+  tone: playful
+- text: Hold their paw gently and look at me.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/4
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the woman standing on the sand, angled in a three-quarter view toward camera-right
+  with knees softly bent and her upper body tilted slightly forward to bear weight.
+- Carefully place the dog in a piggyback position on the woman's back, letting the dog's front
+  paws rest comfortably over her shoulders.
+- Direct the woman to reach her arms behind her back to securely grasp and support the dog's
+  rear legs along her hips.
+- Have the woman turn her head further toward camera-right with a big, natural laugh, allowing
+  the dog to look in the same direction for a joyful, candid moment.

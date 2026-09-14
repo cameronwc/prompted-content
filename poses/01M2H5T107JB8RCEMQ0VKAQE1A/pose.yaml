@@ -1,0 +1,44 @@
+id: 01M2H5T107JB8RCEMQ0VKAQE1A
+slug: over-shoulder-look-back-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFI5D2RP?bxu~9jZ0Kxu^+j[IVWC%gV@V@bFo#ofRPoe
+placeholder: false
+categories:
+- headshots
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's a headshot, not a passport. You're allowed to look friendly.
+  tone: nervous_client
+- text: Think of your most embarrassing email. Now smile through it.
+  tone: playful
+- text: Drop your shoulders and let your face go still.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright and angled away from the camera, facing toward the
+  left of the frame in profile or a three-quarter back angle.
+- Ensure both arms are relaxed naturally down along the sides of the torso, with fingers resting
+  comfortably.
+- Instruct the subject to turn their head back over their near shoulder to look directly into
+  the camera lens with an approachable, confident smile.

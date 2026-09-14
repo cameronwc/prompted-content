@@ -1,0 +1,46 @@
+id: 01M2KR6R1T35R8PDXD5151QFJK
+slug: water-edge-paws-wet-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dzMtHqS$xuR*_NofRjjst8V?RjofWYWBt7kCWBoft6V@
+placeholder: false
+categories:
+- pets
+subject_count: 2
+subject_types:
+- adult
+- pet
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: The dog doesn't have to sit still. That's my problem, not yours.
+  tone: nervous_client
+- text: Run away from them. See who wins.
+  tone: playful
+- text: Lie down beside them and see who falls asleep first.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2.8
+  needs_reflector: true
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the dog sitting upright in profile within the shallow wash of the shoreline, facing
+  toward the subject.
+- Have the woman crouch barefoot on the wet sand directly beside the dog, angling her torso
+  in a three-quarter view toward the dog and the camera.
+- Instruct the woman to place both hands gently on the dog's chest and neck, leaning in slightly
+  while looking down at the dog with a joyful, candid smile as the dog tilts its head up toward
+  her.
