@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 16,
-  "generated_at": "2026-09-14T17:26:38+00:00",
+  "catalog_version": 17,
+  "generated_at": "2026-09-14T17:36:58+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -22076,11 +22076,11 @@
     },
     {
       "id": "01M2EKDA0YH5WEFTQZZTZ1QSX4",
-      "slug": "bench-lean-back-boot-up-beach",
+      "slug": "bench-lean-back-ankle-on-knee",
       "image": {
         "thumb": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/thumb_ai.jpg",
         "detail": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/detail_ai.jpg",
-        "blurhash": "dhLW%}%gs,V@~qtRR*ay%NozRlofXTj[slbHSiV@aes:"
+        "blurhash": "d%LNlKaxoyof~qf7WBoftSWCoLjtf,WBoeRkt7s:R*jY"
       },
       "placeholder": false,
       "categories": [
@@ -22100,16 +22100,16 @@
       "difficulty": "easy",
       "prompts": [
         {
-          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "text": "Sit here. Take it just like this. That's the whole job.",
           "tone": "nervous_client"
         },
         {
-          "text": "Main character energy. The street is your runway.",
-          "tone": "playful"
+          "text": "Lean back, arm along the bench, and just watch the view.",
+          "tone": "calm"
         },
         {
-          "text": "Sit however you'd sit if I weren't here.",
-          "tone": "calm"
+          "text": "Give me 'just landed, no plans' energy.",
+          "tone": "playful"
         }
       ],
       "gear": {
@@ -22123,14 +22123,14 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai",
       "instructions": [
-        "Have the subject sit on the wooden bench, leaning his upper body back casually while angled slightly toward the camera.",
-        "Instruct him to raise his right leg and extend it straight out to rest his boot atop the bench's backrest, while keeping his left foot planted flat on the sand below.",
-        "Direct him to bend his right arm and place his right hand behind the nape of his neck with the elbow flared out to the side, while resting his left forearm relaxed across his lap.",
-        "Have him face the camera directly with a natural, open smile."
+        "Position the subject seated diagonally on a wooden bench, with their torso turned slightly toward the camera.",
+        "Have them lower their right leg over the front edge of the bench toward the ground, while pulling their left foot up onto the bench seat with the knee bent pointing upward.",
+        "Instruct the subject to rest their right forearm and hand naturally across their right upper thigh, and let their left hand rest relaxed near their lap/inner waist.",
+        "Direct them to lean slightly back against the bench support, turn their face directly toward the camera, and offer a relaxed, warm smile."
       ]
     },
     {
@@ -22885,11 +22885,11 @@
     },
     {
       "id": "01M2EKDA1CT6225XNACTMC3VMB",
-      "slug": "skirt-or-jacket-twirl-urban",
+      "slug": "jacket-swing-over-shoulder-walk",
       "image": {
         "thumb": "poses/01M2EKDA1CT6225XNACTMC3VMB/thumb_ai.jpg",
         "detail": "poses/01M2EKDA1CT6225XNACTMC3VMB/detail_ai.jpg",
-        "blurhash": "dLHBPP5Y%MI[~VNfNebcItxuIqt7R.W?t7ogEMt7t7Wr"
+        "blurhash": "dHIEqd^%~V%Lrq?Gs:xtM{RjM{%2x[IVoIofNGM{RkbH"
       },
       "placeholder": false,
       "categories": [
@@ -22900,7 +22900,7 @@
         "adult"
       ],
       "light_conditions": [
-        "blue"
+        "golden"
       ],
       "location_types": [
         "urban"
@@ -22909,16 +22909,16 @@
       "difficulty": "moderate",
       "prompts": [
         {
-          "text": "Sit here. Take it just like this. That's the whole job.",
+          "text": "Walk toward me like you're going to get coffee. That's it, that's the shot.",
           "tone": "nervous_client"
         },
         {
-          "text": "Rest your head on your hand and let your gaze go soft.",
-          "tone": "calm"
+          "text": "Walk away from me, then turn back like you forgot to say something.",
+          "tone": "playful"
         },
         {
-          "text": "Look over your shoulder like I owe you money.",
-          "tone": "playful"
+          "text": "Slow your walk to half speed and let your eyes wander.",
+          "tone": "calm"
         }
       ],
       "gear": {
@@ -22930,13 +22930,13 @@
         "needs_reflector": false
       },
       "accessibility": [],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai",
       "instructions": [
-        "Position the subject standing upright facing toward the camera with feet hip-width apart and knees relaxed.",
-        "Have the subject hold a dark jacket at waist level with both hands and gently swing or flick it horizontally across the front of the body so the sleeves flare outward in mid-motion.",
-        "Direct the subject to turn their head slightly to their right with a natural, candid smile, looking off-camera."
+        "Have the subject walk slowly and naturally forward along the sidewalk directly toward the camera, capturing him mid-stride with his forward foot planted.",
+        "Instruct him to sling a jacket over his left shoulder, holding it lightly in place by grasping the collar near the shoulder with his left hand while letting his right arm swing loosely at his side.",
+        "Direct him to turn his head slightly to his left, looking off-camera into the distance with a relaxed, candid smile."
       ]
     },
     {
@@ -23113,11 +23113,11 @@
     },
     {
       "id": "01M2EKDA1G3M6SE7QYZF5RA8V9",
-      "slug": "crouch-on-heels-camera-low-home",
+      "slug": "crouch-on-heels-camera-low-urban",
       "image": {
         "thumb": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/thumb_ai.jpg",
         "detail": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/detail_ai.jpg",
-        "blurhash": "dFAv?~xt0KRPW-ayxat74oRk%Mt6RPjZkCR+T0xar=Io"
+        "blurhash": "dVMjXET1~VR..8EMt7xu?bxtE2xa?b%2s,a}kDt8M{Rk"
       },
       "placeholder": false,
       "categories": [
@@ -23128,26 +23128,25 @@
         "adult"
       ],
       "light_conditions": [
-        "night_flash",
-        "indoor_window"
+        "soft_low"
       ],
       "location_types": [
-        "home"
+        "urban"
       ],
       "orientation": "vertical",
       "difficulty": "moderate",
       "prompts": [
         {
-          "text": "Lean on the wall like you're waiting for someone who's late.",
+          "text": "Look at your shoes, then look up on three. No smile required.",
           "tone": "nervous_client"
         },
         {
-          "text": "Give me 'just landed, no plans' energy.",
-          "tone": "playful"
+          "text": "Crouch down, elbows on knees, look straight at me without smiling.",
+          "tone": "calm"
         },
         {
-          "text": "Turn your face until you feel the light on your cheek. Hold it.",
-          "tone": "calm"
+          "text": "Main character energy. The street is your runway.",
+          "tone": "playful"
         }
       ],
       "gear": {
@@ -23161,14 +23160,14 @@
       "accessibility": [
         "seated_variant"
       ],
-      "version": 2,
+      "version": 3,
       "status": "active",
       "image_source": "ai",
       "instructions": [
-        "Position the subject standing centrally in the living room, facing forward toward the camera.",
-        "Instruct the subject to jump or hover dynamically into a deep crouch in mid-air, bending both knees deeply outward to the sides while keeping the feet gathered closely beneath the hips.",
-        "Have the subject lean the torso slightly forward, letting the right arm hang loosely down by their side and keeping the left arm relaxed slightly behind the body.",
-        "Direct the subject to turn their head directly toward the camera with a cheerful, relaxed smile."
+        "Have the subject squat into an asymmetrical low crouch on the sidewalk, placing their left foot flat on the ground with the left knee raised forward, while tucking their right leg beneath them in a deep squat.",
+        "Instruct the subject to lean the torso forward, resting their left forearm across the top of their raised left knee with the wrist draped loosely downward.",
+        "Direct the subject to extend their right arm down toward the pavement, resting only the fingertips on the ground beside their hip for balance.",
+        "Have the subject turn their head slightly toward the right of the frame, looking past the camera with a relaxed, natural expression."
       ]
     },
     {
