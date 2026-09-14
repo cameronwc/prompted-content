@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": 17,
-  "generated_at": "2026-09-14T17:36:58+00:00",
+  "catalog_version": 18,
+  "generated_at": "2026-09-14T17:38:40+00:00",
   "taxonomy": {
     "categories": [
       {
@@ -22078,8 +22078,8 @@
       "id": "01M2EKDA0YH5WEFTQZZTZ1QSX4",
       "slug": "bench-lean-back-ankle-on-knee",
       "image": {
-        "thumb": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/thumb_ai.jpg",
-        "detail": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/detail_ai.jpg",
+        "thumb": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/thumb_ai2.jpg",
+        "detail": "poses/01M2EKDA0YH5WEFTQZZTZ1QSX4/detail_ai2.jpg",
         "blurhash": "d%LNlKaxoyof~qf7WBoftSWCoLjtf,WBoeRkt7s:R*jY"
       },
       "placeholder": false,
@@ -22887,8 +22887,8 @@
       "id": "01M2EKDA1CT6225XNACTMC3VMB",
       "slug": "jacket-swing-over-shoulder-walk",
       "image": {
-        "thumb": "poses/01M2EKDA1CT6225XNACTMC3VMB/thumb_ai.jpg",
-        "detail": "poses/01M2EKDA1CT6225XNACTMC3VMB/detail_ai.jpg",
+        "thumb": "poses/01M2EKDA1CT6225XNACTMC3VMB/thumb_ai2.jpg",
+        "detail": "poses/01M2EKDA1CT6225XNACTMC3VMB/detail_ai2.jpg",
         "blurhash": "dHIEqd^%~V%Lrq?Gs:xtM{RjM{%2x[IVoIofNGM{RkbH"
       },
       "placeholder": false,
@@ -23115,8 +23115,8 @@
       "id": "01M2EKDA1G3M6SE7QYZF5RA8V9",
       "slug": "crouch-on-heels-camera-low-urban",
       "image": {
-        "thumb": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/thumb_ai.jpg",
-        "detail": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/detail_ai.jpg",
+        "thumb": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/thumb_ai2.jpg",
+        "detail": "poses/01M2EKDA1G3M6SE7QYZF5RA8V9/detail_ai2.jpg",
         "blurhash": "dVMjXET1~VR..8EMt7xu?bxtE2xa?b%2s,a}kDt8M{Rk"
       },
       "placeholder": false,
