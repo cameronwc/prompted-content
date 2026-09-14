@@ -1,0 +1,44 @@
+id: 01M2EKDA0YH5WEFTQZZTZ1QSX4
+slug: bench-lean-back-boot-up-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dhLW%}%gs,V@~qtRR*ay%NozRlofXTj[slbHSiV@aes:'
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Lean on the wall like you're waiting for someone who's late.
+  tone: nervous_client
+- text: Main character energy. The street is your runway.
+  tone: playful
+- text: Sit however you'd sit if I weren't here.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on the wooden bench, leaning his upper body back casually while angled
+  slightly toward the camera.
+- Instruct him to raise his right leg and extend it straight out to rest his boot atop the
+  bench's backrest, while keeping his left foot planted flat on the sand below.
+- Direct him to bend his right arm and place his right hand behind the nape of his neck with
+  the elbow flared out to the side, while resting his left forearm relaxed across his lap.
+- Have him face the camera directly with a natural, open smile.

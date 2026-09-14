@@ -1,0 +1,46 @@
+id: 01M2EKDA1VS61JCV0P1JQWVZ3R
+slug: mid-jump-off-step-mountain
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dnKT}DRjNHoL.TRjj[jZ?bjuWCWC?Gofs-oLtSfRWBWX
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- mountain
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Give me a fake laugh. See? Now it's a real one. Keep going.
+  tone: nervous_client
+- text: Half turn away from me. Keep your face in profile. Stay.
+  tone: calm
+- text: Kick one boot up and grab it. Very Sound of Music.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject on a raised stone ledge outdoors and instruct her to perform a dynamic,
+  joyful jump into the air above the rock.
+- Direct her to bend both knees while in mid-air, drawing her lower legs and boots upward
+  behind her body to achieve full elevation off the ground.
+- Have her extend both arms outward to the sides in an open, relaxed posture for balance,
+  keeping her fingers soft and loosely curved.
+- Instruct her to face the camera directly, tilting her head slightly with a wide, spontaneous
+  laugh or smile as her hair moves naturally with the jump.

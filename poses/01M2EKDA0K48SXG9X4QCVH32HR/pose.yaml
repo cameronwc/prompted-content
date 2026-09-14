@@ -1,0 +1,44 @@
+id: 01M2EKDA0K48SXG9X4QCVH32HR
+slug: bag-strap-hold-walk
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPHep,t6s$t70Vt6oMWV0iNHIqWBtlRkn~fk-pWCt7j[
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can blink, you can move, you can laugh at me. All of it works.
+  tone: nervous_client
+- text: Sunglasses halfway off, like you just spotted a celebrity.
+  tone: playful
+- text: Sit in the grass, legs to the side, and look at nothing in particular.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject walk slowly and naturally forward along a grassy path directly toward the
+  camera.
+- Position a messenger bag slung across the torso from the left shoulder to the right hip,
+  with the right hand lightly holding the shoulder strap near chest level and the left arm
+  hanging relaxed by the side.
+- Instruct the subject to turn their face slightly to their left, looking off-camera into
+  the distance with a relaxed, candid smile.

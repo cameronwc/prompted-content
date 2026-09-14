@@ -1,0 +1,42 @@
+id: 01M2EKDA0E1WDR96R313MF83CY
+slug: skirt-or-jacket-twirl
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCG[Q101O9-n1HD*R.%0E3RjjKIo~BWT%2n}EMt5RlR%
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Sit here. Take it just like this. That's the whole job.
+  tone: nervous_client
+- text: Main character energy. The street is your runway.
+  tone: playful
+- text: Rest your head on your hand and let your gaze go soft.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject along the sunlit woodland path and instruct her to twirl in a slow,
+  continuous circle so the skirt of her dress fans out around her mid-calves.
+- Have her keep her arms relaxed and held slightly away from her torso with soft, open hands
+  for balance.
+- Direct her to turn her head back toward the side with an open, candid laugh, letting her
+  hair catch the motion and natural backlight.

@@ -1,0 +1,43 @@
+id: 01M2EKDA1H62MHTWGB6C9P6FSG
+slug: bag-strap-hold-walk-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNH.7QRkX2t7~WWCoeay9*R*V{WVksRkj?oe?bocf7ay
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Is this pose bad or cute? Trust me, it's cute. Hold it.
+  tone: nervous_client
+- text: Walk away from me, then turn back like you forgot to say something.
+  tone: playful
+- text: Close your eyes, chin up, find the sun on your face. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject walking laterally across the open grassy field from left to right,
+  capturing her in mid-stride with her right leg stepping forward.
+- Have her wear a crossbody bag over her left shoulder hanging against her right hip, bringing
+  both hands up to lightly hold and adjust the shoulder strap across her chest.
+- Instruct her to keep her shoulders relaxed, turning her head slightly toward the right with
+  an open, candid smile looking gently off-camera in the direction she is walking.

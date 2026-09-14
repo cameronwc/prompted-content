@@ -1,0 +1,44 @@
+id: 01M2EKDA12T40XDJWP1N8FR0RE
+slug: hand-in-hair-look-up-mountain
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dkJR1}s8jEj]?wWBj]jsyENJWYWC?abHoJfRXUs.WBoe
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Tell me about your weekend while I fiddle with settings.
+  tone: nervous_client
+- text: Walk away from me, then turn back like you forgot to say something.
+  tone: playful
+- text: Crouch down, elbows on knees, look straight at me without smiling.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand naturally facing front, with feet spaced about shoulder-width apart
+  and body weight evenly distributed.
+- Instruct the subject to raise their right arm and lightly run their fingers through their
+  hair on top of their head, keeping the elbow bent out to the side.
+- Direct the subject to let their left arm hang naturally and relaxed straight down along
+  their side.
+- Ask the subject to turn their head slightly toward their left, tilt their chin gently upward,
+  and gaze off into the distance with a soft, natural smile.

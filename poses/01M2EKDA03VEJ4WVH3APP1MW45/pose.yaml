@@ -1,0 +1,44 @@
+id: 01M2EKDA03VEJ4WVH3APP1MW45
+slug: one-boot-up-grab
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIIY8OxYt0WF=}odoeay4;IpIYWB0gaeRjod0Naeoeoe
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Give me a fake laugh. See? Now it's a real one. Keep going.
+  tone: nervous_client
+- text: Point at something off-frame like it's the best thing you've ever seen.
+  tone: playful
+- text: Look past my shoulder at the hills. Let the smile fade slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand centered in the field, shifting their full weight onto their left
+  leg with a slight bend in the standing knee.
+- Instruct the subject to lift their right leg up and out to the side, bending the knee sideways
+  to raise the boot off the ground.
+- Direct the subject to reach down with their right arm and grab the heel of their raised
+  right boot, while extending their left arm outward to the side for balance.
+- Ask the subject to lean their torso slightly forward and turn their head to the right, looking
+  off-camera with a relaxed, playful smile.

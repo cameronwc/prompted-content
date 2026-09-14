@@ -1,0 +1,43 @@
+id: 01M2EKDA17ND7VMK7HWK3VDADM
+slug: over-shoulder-look-back-mountain
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: drL4sIkDoxWC%%WrWEoe%NoIoLj[-osls.fkxZWBWCa|
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Pretend I'm your friend who's terrible at photos. Lower the bar.
+  tone: nervous_client
+- text: Point at something off-frame like it's the best thing you've ever seen.
+  tone: playful
+- text: Slow your walk to half speed and let your eyes wander.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing in an open grassy landscape, turned with her back mostly facing
+  the camera and angled slightly toward the left.
+- Instruct her to walk slowly away at a slight diagonal, letting her arms swing naturally
+  and capturing her mid-stride with one foot trailing.
+- Have her twist her upper torso and look back over her left shoulder directly toward the
+  camera with a bright, candid smile as her hair catches the breeze.

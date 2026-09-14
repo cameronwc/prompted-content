@@ -1,0 +1,44 @@
+id: 01M2EKDA1QSA6B32XFHZQYJ20D
+slug: lean-on-bike-or-car-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPI4-50K-pIpwH%fnhSgWAX8RQWXkCIVt7oeW=s-j[f6
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your hair if you want. Actually, keep fixing it. That's the frame.
+  tone: nervous_client
+- text: Sit on the curb like you're waiting for the bus in a music video.
+  tone: playful
+- text: Half turn away from me. Keep your face in profile. Stay.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position a vintage city bicycle angled slightly outward from an exterior brick wall near
+  the curb.
+- Have the subject stand directly behind the bicycle frame, leaning her body back gently against
+  the bike with her feet close together on the pavement.
+- Instruct her to rest her left hand flat on the bicycle seat while allowing her right arm
+  to hang naturally and relaxed down along her side.
+- Have her tilt her head slightly toward her right shoulder, face the camera directly, and
+  give a natural, warm smile.

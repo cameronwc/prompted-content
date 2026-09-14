@@ -1,0 +1,43 @@
+id: 01M2EKDA1BGYDG0R4D5XCTVB0W
+slug: laugh-at-nothing-off-camera-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHHVOcf7b.s;$+xaWCk904R+RSj=EMobRQWE4;WCoeoL
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Fix your hair if you want. Actually, keep fixing it. That's the frame.
+  tone: nervous_client
+- text: Sit on the curb like you're waiting for the bus in a music video.
+  tone: playful
+- text: Sit however you'd sit if I weren't here.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing in an open field, angling her body at a three-quarter turn
+  to the left with a slight forward bend at the torso to capture a dynamic, candid feel.
+- Have her raise her right hand up near her right jawline with fingers relaxed and loosely
+  curled, while letting her left arm hang naturally down across the front of her hip.
+- Direct her to tilt her head slightly back and to the camera-left, releasing an authentic,
+  full-faced, open-mouthed laugh looking away from the lens.

@@ -30,6 +30,19 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Position the groom in the center-right, leaning casually with his left shoulder/side against
+  a lamppost, crossing his right leg over his left ankle, and facing toward frame left.
+- Place the bride directly facing the groom, holding her bouquet low at her side in her right
+  hand, with her torso angled slightly toward the camera while turning her face and body toward
+  him.
+- Position the second groomsman and first bridesmaid on the left side of the bride, staggered
+  slightly in depth and angled inward toward the center, with hands relaxed naturally at their
+  sides.
+- Place the second bridesmaid on the far right side just beyond the lamppost, turned inward
+  toward the couple with her hands resting at her sides.
+- Prompt the entire group to engage in natural conversation, having everyone look toward each
+  other and share a genuine, candid laugh.

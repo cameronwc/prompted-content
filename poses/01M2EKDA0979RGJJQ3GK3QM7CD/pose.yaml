@@ -1,0 +1,42 @@
+id: 01M2EKDA0979RGJJQ3GK3QM7CD
+slug: over-shoulder-look-back
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJA,ON-U0KRk%1s:WBR+9GRk%Mj@IoayxaR*ozj[V@WC
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- home
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Walk toward me like you're going to get coffee. That's it, that's the shot.
+  tone: nervous_client
+- text: Turn your face until you feel the light on your cheek. Hold it.
+  tone: calm
+- text: Sunglasses halfway off, like you just spotted a celebrity.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright in full side profile to the camera, facing toward
+  the left side of the frame with their right side closest to the lens.
+- Have them place their feet slightly apart and let both arms hang naturally and relaxed straight
+  down at their sides.
+- Instruct the subject to turn their head back over their right shoulder to look directly
+  into the camera with a soft, natural smile.

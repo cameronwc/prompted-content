@@ -1,0 +1,45 @@
+id: 01M2EKDA075V9P9NPDFFJENA51
+slug: steps-sit-elbows-on-knees
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: diIhHM-;k8R+~q%Naeof%hxuRjt6xvWWRjWCxuj[Rjof
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me about your weekend while I fiddle with settings.
+  tone: nervous_client
+- text: Lean back, arm along the bench, and just watch the view.
+  tone: calm
+- text: Laugh at nothing over there. Full commitment.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on a raised stone ledge or step, angled three-quarters toward camera
+  left with knees bent and feet resting firmly on the lower ground.
+- Instruct him to hinge forward at the hips, resting his elbows squarely on top of his knees.
+- Have him clasp his hands together with fingers lightly interlaced, resting his chin comfortably
+  on the tops of his hands.
+- Direct his head and gaze toward the left into the distance, maintaining a relaxed, contemplative
+  expression without looking at the camera.

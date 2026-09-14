@@ -1,0 +1,42 @@
+id: 01M2EKDA0MASQ73EVHQHH7MQKJ
+slug: chin-up-eyes-closed-sun
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dwKA~4R*jYof_4aya#j[%hayWXaz-:oJoca}%1ayjZay
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- mountain
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Look at your shoes, then look up on three. No smile required.
+  tone: nervous_client
+- text: Crouch down, elbows on knees, look straight at me without smiling.
+  tone: calm
+- text: Walk away from me, then turn back like you forgot to say something.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand in the open field, angled in a three-quarters view toward camera
+  right with feet placed about shoulder-width apart in a natural, stable stance.
+- Instruct her to gently arch her back and raise both arms out to the sides with elbows bent,
+  holding her forearms angled upward and keeping her hands relaxed with loosely curled fingers.
+- Ask her to tilt her head back toward the sky, lift her chin, and close her eyes with a serene,
+  relaxed facial expression to convey a sense of freedom and calm.

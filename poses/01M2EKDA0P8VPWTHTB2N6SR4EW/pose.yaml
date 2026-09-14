@@ -1,0 +1,40 @@
+id: 01M2EKDA0P8VPWTHTB2N6SR4EW
+slug: half-turn-walk-away
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dQKwgiWBbDof?djrR+ofO^RkRnj@.9WBs,a~_3j[j@j@
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: We'll take ten of these and you'll like two. That's normal.
+  tone: nervous_client
+- text: Tuck your hair behind your ear, slow, like you're thinking.
+  tone: calm
+- text: Hair flip. Then laugh at the fact that you just did a hair flip.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject walk slowly away from the camera at a slight diagonal angle through the
+  field, catching her mid-stride with arms relaxed and hanging naturally at her sides.
+- Instruct her to turn her head back over her left shoulder to look off to the side with a
+  natural, joyful smile.

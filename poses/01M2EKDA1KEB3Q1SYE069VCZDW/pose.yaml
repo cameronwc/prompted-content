@@ -1,0 +1,46 @@
+id: 01M2EKDA1KEB3Q1SYE069VCZDW
+slug: sit-on-bench-back-look-over-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFCP^n%hTLV??I?wX8jYX:.9%MRPt.xvogWBtmxuR*NG
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- blue
+- open_shade
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll take ten of these and you'll like two. That's normal.
+  tone: nervous_client
+- text: Hold the book against you and look off down the street.
+  tone: calm
+- text: Point at something off-frame like it's the best thing you've ever seen.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject seated on an outdoor wooden bench facing away from the camera and angled
+  slightly toward the street.
+- Have her rest her right foot flat on the ground and cross her left leg comfortably over,
+  extending it slightly forward to showcase her footwear.
+- Instruct her to drape both arms casually along the top rail of the bench's backrest for
+  a relaxed, leaning posture.
+- Ask her to twist her torso back toward the camera over her shoulder, looking directly into
+  the lens with a warm, natural smile.

@@ -1,0 +1,44 @@
+id: 01M2EKDA1A17KKEPHCZ1PFYSHK
+slug: tuck-hair-mid-turn-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCJHU3yENc-;^O^*Iq?HI=xaxaxu-;S5smNH01%1IpjZ
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can blink, you can move, you can laugh at me. All of it works.
+  tone: nervous_client
+- text: Hands in pockets, weight on one leg, breathe out.
+  tone: calm
+- text: Squint at the horizon like you're in a perfume ad.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject walking slowly along the street angled toward the camera, mid-stride
+  with his left foot stepping forward and his right foot trailing behind.
+- Have him raise his left hand to casually run his fingers through his hair behind his ear,
+  with the left elbow bent comfortably.
+- Keep the right arm relaxed and hanging naturally down along his side.
+- Direct the subject to turn his head slightly to his right (camera-left), looking off-camera
+  into the distance with a relaxed, candid expression.

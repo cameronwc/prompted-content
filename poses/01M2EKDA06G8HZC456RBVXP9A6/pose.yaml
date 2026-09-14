@@ -1,0 +1,45 @@
+id: 01M2EKDA06G8HZC456RBVXP9A6
+slug: coffee-cup-lean
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLKd3lx]~V9uIA9F%ft7_2?Gt7t7S4X8xtt7RjV@WBt7
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody sees these until you say so. You're the editor.
+  tone: nervous_client
+- text: Give me 'just landed, no plans' energy.
+  tone: playful
+- text: Tuck your hair behind your ear, slow, like you're thinking.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject leaning their upper back against a vertical brick pillar on a sidewalk,
+  framed in full-body profile to three-quarter view.
+- Instruct the subject to bear their weight on the front straight leg, while bending the back
+  leg at the knee to press the sole of that boot flat against the brick wall behind them.
+- Have the subject let their back arm hang loosely along their side, while using their front
+  hand to bring a to-go coffee cup up to their mouth as if casually taking a sip.
+- Direct them to keep their head angled in profile looking straight ahead toward the street,
+  capturing a natural, relaxed street-life moment in the warm sidelight.

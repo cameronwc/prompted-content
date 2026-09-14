@@ -1,0 +1,45 @@
+id: 01M2EKDA0NRXSFNBNGKQN2QRXJ
+slug: sit-on-bench-back-look-over
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIJkGp00I?^kR*-;IoWBj[s.9aNe-qE1ofxaNeRksltR
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Pretend I'm your friend who's terrible at photos. Lower the bar.
+  tone: nervous_client
+- text: Half turn away from me. Keep your face in profile. Stay.
+  tone: calm
+- text: Give me 'just landed, no plans' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on the bench angled toward the right of the frame, positioning their
+  hips back against the seat and leaving space along the bench to the left.
+- Instruct them to place both feet flat on the ground with their knees bent at roughly a ninety-degree
+  angle, keeping their legs parallel.
+- Have them lean their torso forward from the hips, resting their forearms on their thighs
+  and loosely clasping their hands together just above the knees.
+- Direct the subject to turn their head back toward the camera over their near shoulder, maintaining
+  a relaxed posture and a soft, natural smile directly into the lens.

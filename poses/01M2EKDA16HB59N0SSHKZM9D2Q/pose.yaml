@@ -1,0 +1,43 @@
+id: 01M2EKDA16HB59N0SSHKZM9D2Q
+slug: wall-lean-look-off-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dXATyRNGRjof_4NGWBj[.9R*WBay%hWVaxa#tRofj[ay
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Give me a fake laugh. See? Now it's a real one. Keep going.
+  tone: nervous_client
+- text: Main character energy. The street is your runway.
+  tone: playful
+- text: Hands in pockets, weight on one leg, breathe out.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject lean their back and right shoulder casually against a wooden fence post,
+  angled slightly toward camera-right.
+- Instruct them to bend their right leg back, resting the sole of the shoe or foot against
+  the base of the post, while keeping the front left leg straight to support their weight.
+- Let both arms hang relaxed at their sides, with hands resting naturally alongside the thighs.
+- Direct the subject to turn their head further toward camera-right, gazing softly into the
+  distance away from the lens.

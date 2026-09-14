@@ -1,0 +1,42 @@
+id: 01M2EKDA1PRFSK8V5AKWXNT7ZW
+slug: sunglasses-half-off-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOIhKabwjDWB9FR+RjfQ~VsSM|NGo}?GRPWBM{NGRjRj
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Walk toward me like you're going to get coffee. That's it, that's the shot.
+  tone: nervous_client
+- text: Laugh at nothing over there. Full commitment.
+  tone: playful
+- text: Look past my shoulder at the hills. Let the smile fade slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand facing forward toward the camera with their feet hip-width apart
+  and weight balanced evenly in a relaxed stance.
+- Instruct the subject to let their left arm rest naturally down at their side while raising
+  their right hand to touch the side frame of their sunglasses.
+- Ask the subject to turn their head slightly to their right, directing their gaze off-camera
+  with a subtle, relaxed facial expression.

@@ -32,6 +32,16 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Position the bride and the senior gentleman facing each other in a classic partner-dance
+  frame in the middle of the street, with the bride positioned on the left in profile and
+  the man on the right angled slightly toward the camera.
+- Instruct the man to place his right hand securely around the bride's waist, while clasping
+  her raised right hand with his left hand at chest height between them.
+- Have the bride hold her floral bouquet naturally down at her left side, letting it rest
+  near her hip away from the frame of the dance.
+- Prompt both subjects to take a light dance step, leaning slightly into the motion while
+  looking directly at each other with open, candid laughter.

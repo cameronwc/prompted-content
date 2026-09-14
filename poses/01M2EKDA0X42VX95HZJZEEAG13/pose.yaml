@@ -1,0 +1,43 @@
+id: 01M2EKDA0X42VX95HZJZEEAG13
+slug: mid-jump-off-step
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dGHx}$V|bCocRHxsWTWC0PWFIbf5S$xu%2WA-;xt%1Rk
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: You don't have to look at me. Look at the mountains. They're less judgy.
+  tone: nervous_client
+- text: Point at something off-frame like it's the best thing you've ever seen.
+  tone: playful
+- text: Sit in the grass, legs to the side, and look at nothing in particular.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Place a small wooden two-tier step stool in an open grassy field and have the subject stand
+  on the top step facing diagonally forward-right.
+- Instruct the subject to leap forward off the bench into the grass, bending both knees upward
+  into a dynamic mid-air tuck.
+- Have the subject extend both arms out to the sides with elbows slightly bent and relaxed
+  fingers for mid-jump balance.
+- Direct the subject to look downward toward their landing target with a joyful, candid laugh.

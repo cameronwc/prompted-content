@@ -1,0 +1,43 @@
+id: 01M2EKDA1DRG67X1X27PYA53KH
+slug: stand-and-look-at-the-view-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dUHxQbMwITxu_NIARPxa_3IUM{oz%gRjM{R+ozRQt6oM
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: There's no wrong way to sit on a bench. Prove me right.
+  tone: nervous_client
+- text: Sunglasses halfway off, like you just spotted a celebrity.
+  tone: playful
+- text: Sit in the grass, legs to the side, and look at nothing in particular.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand on the sidewalk facing away from the camera in a three-quarter rear
+  angle, turned slightly toward the right.
+- Instruct her to rest both hands casually inside the side pockets of her dress.
+- Shift her weight naturally onto her front right foot, keeping her feet angled slightly to
+  the side.
+- Have her turn her head in profile to the right, gazing straight ahead down the street away
+  from the camera.

@@ -1,0 +1,46 @@
+id: 01M2EKDA0109TY323YF6A5WCH5
+slug: bench-arm-along-backrest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dOH_;hV[bBt7?Gt6RkoK4:ofV}Rj0Naxt6RlIufiM{s:'
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Fix your hair if you want. Actually, keep fixing it. That's the frame.
+  tone: nervous_client
+- text: Hands in pockets, weight on one leg, breathe out.
+  tone: calm
+- text: Jump off the step on three. Land like it was easy.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject seated slightly off-center on an outdoor wooden bench, with their body
+  angled slightly toward camera-right and feet resting flat in the grass with knees loosely
+  separated.
+- Have the subject extend their right arm along the top edge of the bench backrest, resting
+  their hand over the top rail.
+- Place their left forearm/hand comfortably across the front of their left thigh near the
+  hip/knee.
+- Instruct the subject to turn their head toward camera-right, looking past the frame with
+  a natural, open smile.

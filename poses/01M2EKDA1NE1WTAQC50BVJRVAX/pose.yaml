@@ -1,0 +1,43 @@
+id: 01M2EKDA1NE1WTAQC50BVJRVAX
+slug: hand-on-hip-hip-out-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dLHx_iV]tdxaaQt6Rkjb0NRkM~fiE2fOaxWCD+WDjaj@
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: It's just me and a very quiet camera. Take a breath.
+  tone: nervous_client
+- text: Crouch down, elbows on knees, look straight at me without smiling.
+  tone: calm
+- text: Jump off the step on three. Land like it was easy.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing at a three-quarter angle facing camera right, resting her
+  weight primarily on her back leg with the front leg slightly relaxed.
+- Instruct her to place her left hand on her waist or high hip with the elbow bent back, while
+  letting her right arm rest naturally and relaxed along her side.
+- Have her turn her head slightly toward camera right, gazing past the camera into the distance
+  with a soft, gentle smile.

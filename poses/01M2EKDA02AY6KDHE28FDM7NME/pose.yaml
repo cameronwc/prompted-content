@@ -1,0 +1,45 @@
+id: 01M2EKDA02AY6KDHE28FDM7NME
+slug: mid-stride-walk
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: doM%_xR,kUjb%%fRWCWU?Iaxo3ofoaj@WAayM{WEayof
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- mountain
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Hold the book like you actually want to read it. Ignore me.
+  tone: nervous_client
+- text: Close your eyes, chin up, find the sun on your face. Stop there.
+  tone: calm
+- text: Stretch like you just woke up somewhere gorgeous.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject in full-length on a dirt path in a scenic landscape, facing in profile
+  toward frame-left.
+- Instruct her to walk at a natural, easy pace across the frame from right to left, capturing
+  her mid-stride with her front foot firmly stepping forward and the back foot trailing.
+- Have her let her arms swing naturally at her sides to match her walking rhythm, keeping
+  hands relaxed and loose.
+- Direct her to look forward and slightly ahead along the path with a relaxed, candid smile,
+  keeping her posture upright and shoulders relaxed.

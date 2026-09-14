@@ -1,0 +1,44 @@
+id: 01M2EKDA0CG3F4NAK5RJWXM2FD
+slug: tuck-hair-mid-turn
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAATTU1P9a$e-:I;jYso9]%1-UNdOtxvjERjSikCnijY
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You can blink, you can move, you can laugh at me. All of it works.
+  tone: nervous_client
+- text: Hold the book against you and look off down the street.
+  tone: calm
+- text: Squint at the horizon like you're in a perfume ad.
+  tone: playful
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the model standing in a side-profile stance facing camera right, with her right
+  foot placed slightly ahead and weight distributed comfortably.
+- Have her turn her head and upper torso back over her left shoulder to face directly toward
+  the camera lens.
+- Instruct her to raise her left hand and bend the elbow to lightly touch or brush her fingers
+  through her hair above her ear.
+- Keep her right arm relaxed and naturally lowered along the side of her body, maintaining
+  a soft, candid smile toward the camera.

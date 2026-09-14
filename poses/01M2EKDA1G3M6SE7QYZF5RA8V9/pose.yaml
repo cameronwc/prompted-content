@@ -1,0 +1,46 @@
+id: 01M2EKDA1G3M6SE7QYZF5RA8V9
+slug: crouch-on-heels-camera-low-home
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dFAv?~xt0KRPW-ayxat74oRk%Mt6RPjZkCR+T0xar=Io
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- night_flash
+- indoor_window
+location_types:
+- home
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Lean on the wall like you're waiting for someone who's late.
+  tone: nervous_client
+- text: Give me 'just landed, no plans' energy.
+  tone: playful
+- text: Turn your face until you feel the light on your cheek. Hold it.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing centrally in the living room, facing forward toward the camera.
+- Instruct the subject to jump or hover dynamically into a deep crouch in mid-air, bending
+  both knees deeply outward to the sides while keeping the feet gathered closely beneath the
+  hips.
+- Have the subject lean the torso slightly forward, letting the right arm hang loosely down
+  by their side and keeping the left arm relaxed slightly behind the body.
+- Direct the subject to turn their head directly toward the camera with a cheerful, relaxed
+  smile.

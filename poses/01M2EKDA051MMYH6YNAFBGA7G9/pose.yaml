@@ -1,0 +1,42 @@
+id: 01M2EKDA051MMYH6YNAFBGA7G9
+slug: holding-a-book-look-away
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJJacaX:%MR-4TN{E2%MRkIUXTNHkD%M%MtRxu%MWCR*
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: We'll take ten of these and you'll like two. That's normal.
+  tone: nervous_client
+- text: Rest your head on your hand and let your gaze go soft.
+  tone: calm
+- text: Kick one boot up and grab it. Very Sound of Music.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject walk at a slow, natural pace along the sidewalk toward the camera, positioning
+  them parallel to the brick wall on their left side.
+- Instruct the subject to hold an open paperback book at waist height using both hands, gently
+  gripping the pages in front of the midsection.
+- Direct the subject to turn their head slightly to their right, casting their gaze thoughtfully
+  off-camera down the street while keeping their body oriented forward mid-stride.

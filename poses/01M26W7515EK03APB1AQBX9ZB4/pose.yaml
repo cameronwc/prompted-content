@@ -30,6 +30,13 @@ gear:
   aperture: f/2
   needs_reflector: false
 accessibility: []
-version: 1
+version: 2
 status: active
 image_source: ai
+instructions:
+- Position the couple standing directly facing each other in pure side profile to the camera,
+  spaced close together.
+- Instruct both subjects to bring their foreheads together in a gentle rest, keeping their
+  chins level, shoulders relaxed, and eyes softly closed or cast downward in a serene expression.
+- Have them raise both sets of hands to mid-chest level between them, clasping and holding
+  each other's hands softly against the center line.

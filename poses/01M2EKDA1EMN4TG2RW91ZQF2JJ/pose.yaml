@@ -1,0 +1,43 @@
+id: 01M2EKDA1EMN4TG2RW91ZQF2JJ
+slug: railing-lean-both-arms-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJI5VGRlotN2~pxZWBt59jWVRUxVN#t5V{IWS9Rkt5WV
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Nobody sees these until you say so. You're the editor.
+  tone: nervous_client
+- text: Kick one boot up and grab it. Very Sound of Music.
+  tone: playful
+- text: Lean back, arm along the bench, and just watch the view.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand behind a rustic wooden fence in a grassy field, angled at a three-quarter
+  turn facing camera right.
+- Instruct the subject to lean forward slightly against the top fence rail, resting both forearms
+  across the wood with hands casually overlapping and draped forward.
+- Direct the subject to turn their head toward camera right, gazing off-camera into the distance
+  with a natural, relaxed smile.

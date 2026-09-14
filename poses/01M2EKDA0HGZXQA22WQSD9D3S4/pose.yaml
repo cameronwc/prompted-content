@@ -1,0 +1,45 @@
+id: 01M2EKDA0HGZXQA22WQSD9D3S4
+slug: doorframe-shoulder-lean
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIIEwptk~pM{?FM_NGxat8xaM|xu?I%MxaozV[V[M|Rk
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Fix your hair if you want. Actually, keep fixing it. That's the frame.
+  tone: nervous_client
+- text: Laugh at nothing over there. Full commitment.
+  tone: playful
+- text: Hold the book against you and look off down the street.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject lean their left shoulder and back casually against a vertical doorframe
+  or wall edge, angling their body at a three-quarter turn toward the camera.
+- Instruct them to cross their right leg in front of their left leg at the ankle, resting
+  their weight mainly against the wall and the back foot.
+- Position their arms crossed loosely across the lower chest, with the right hand holding
+  the upper left forearm and the left arm hanging relaxed downward over the waist.
+- Have the subject turn their head slightly to their right, looking off-camera into the distance
+  with a natural, candid smile.

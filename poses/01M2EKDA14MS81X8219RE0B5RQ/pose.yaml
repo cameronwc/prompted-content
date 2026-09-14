@@ -1,0 +1,43 @@
+id: 01M2EKDA14MS81X8219RE0B5RQ
+slug: coffee-cup-lean-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIIEa__457$+~VR+E1xuR*RjM|-o?a-pf+t7x]%Mt7R,
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to look at me. Look at the mountains. They're less judgy.
+  tone: nervous_client
+- text: Twirl, and wherever you land, own it.
+  tone: playful
+- text: Turn your face until you feel the light on your cheek. Hold it.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing a step away from an exterior brick wall, leaning their upper
+  back comfortably against it with straight legs.
+- Have the subject bend their front arm at the elbow to hold a takeaway coffee cup at mid-chest
+  level, letting the rear arm rest relaxed against the wall.
+- Instruct the subject to turn their head three-quarters away from the wall toward the street,
+  looking off-camera with a relaxed, natural smile.

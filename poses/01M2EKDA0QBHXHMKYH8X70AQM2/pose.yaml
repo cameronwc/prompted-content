@@ -1,0 +1,46 @@
+id: 01M2EKDA0QBHXHMKYH8X70AQM2
+slug: hand-on-hip-hip-out
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dBATs9tmIqjFQkj?RjayJDRjj=oLOFog%LWVMwjYaeof
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- urban
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Tell me about your weekend while I fiddle with settings.
+  tone: nervous_client
+- text: Sit on the curb like you're waiting for the bus in a music video.
+  tone: playful
+- text: Hands in pockets, weight on one leg, breathe out.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: true
+accessibility:
+- seated_variant
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing in the street, angled three-quarters toward the camera while
+  simulating a forward walk toward camera right.
+- Have him plant his back foot flat on the ground and step his front leg forward, landing
+  lightly on the heel with the toes angled up.
+- Instruct him to reach his hands back near his hips to lightly hold the bottom hem of his
+  t-shirt, keeping his elbows bent naturally away from the torso.
+- Direct him to turn his head toward camera right, looking off into the distance with a relaxed,
+  candid smile.

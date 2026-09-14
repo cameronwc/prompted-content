@@ -1,0 +1,46 @@
+id: 01M2EKDA10C3341F7E3KVRZRY5
+slug: mid-stride-walk-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dJIE,eE2%Js:9RRixaWC0OIVIuoctRV@Wray_1M|xtj?
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- backlit
+location_types:
+- field
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Walk toward me like you're going to get coffee. That's it, that's the shot.
+  tone: nervous_client
+- text: Coffee up, chin up, tiny smirk. Very morning-influencer.
+  tone: playful
+- text: Lean on the railing with both arms and let your shoulders drop.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject in a grassy field walking across the frame from left to right in a
+  natural, wide stride, capturing them mid-step with the left leg planted forward and the
+  right leg extended behind.
+- Instruct the subject to let their arms swing naturally with their movement, keeping the
+  forward (camera-facing) arm bent slightly at the elbow reaching forward and the rear arm
+  trailing behind the hip.
+- Have the subject keep their torso angled slightly toward the camera while keeping their
+  head directed profile-right, looking straight ahead into the distance with a relaxed, candid
+  smile.

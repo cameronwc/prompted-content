@@ -1,0 +1,47 @@
+id: 01M2EKDA0B77EKCQRXK5G7F9YR
+slug: curb-or-step-sit-legs-out
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dIJkGp9^xuIU}=9ZE2xu9E4.9G%MbxIUxZj[x]xux]Rj
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+- backlit
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Look at your shoes, then look up on three. No smile required.
+  tone: nervous_client
+- text: Crouch down, elbows on knees, look straight at me without smiling.
+  tone: calm
+- text: Hip out, hand on hip, dare the camera to say something.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit casually on the edge of a raised stone step or sidewalk curb, angling
+  their torso slightly toward camera-left.
+- Direct them to extend both legs down the steps toward the pavement, keeping the knees slightly
+  bent and feet relaxed in sneakers.
+- Instruct the subject to lean their upper body back slightly onto their left arm, planting
+  the left hand flat on the ground behind their hip for support.
+- Have them rest their right forearm and relaxed hand across their right upper thigh or knee.
+- Ask them to turn their head slightly to their left (camera-right) with a gentle, relaxed
+  smile, gazing off-camera.

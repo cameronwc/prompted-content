@@ -1,0 +1,45 @@
+id: 01M2EKDA0ZGVT93P00E1ZKPWY4
+slug: bench-arm-along-backrest-studio
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dMFO=A01buogxVWFR*kCD%t7spRjIWoyoLe:t8RjWBoz
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- studio
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Hold the book like you actually want to read it. Ignore me.
+  tone: nervous_client
+- text: Stretch like you just woke up somewhere gorgeous.
+  tone: playful
+- text: Hold the book against you and look off down the street.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: true
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit slightly to one side on a rustic wooden bench that is angled slightly
+  diagonally toward camera right.
+- Instruct her to rest her right arm comfortably along the top backrest slat with her wrist
+  and fingers casually draped over the front edge.
+- Place her left hand relaxed on her lap/upper thigh, let her right foot rest flat on the
+  floor, and extend her left leg slightly forward and out to the side.
+- Have her turn her head toward camera right, looking past the frame with a soft, natural
+  smile.

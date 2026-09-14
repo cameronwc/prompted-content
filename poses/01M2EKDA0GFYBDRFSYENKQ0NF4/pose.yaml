@@ -1,0 +1,42 @@
+id: 01M2EKDA0GFYBDRFSYENKQ0NF4
+slug: railing-lean-both-arms
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dZKm|O?HITW=~qM{IAog%gt7V@t7VsRPRjkWkWW;azt7
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- indoor_window
+location_types:
+- home
+orientation: horizontal
+difficulty: easy
+prompts:
+- text: Sit here. Take it just like this. That's the whole job.
+  tone: nervous_client
+- text: Twirl, and wherever you land, own it.
+  tone: playful
+- text: Lean back, arm along the bench, and just watch the view.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing next to a wooden railing or banister, angled at roughly three-quarters
+  toward the camera with her weight casually resting against the rail.
+- Have her rest her inner (left) forearm flat along the top of the handrail, and drape her
+  outer (right) arm across her waist with the hand lightly resting near the other forearm.
+- Instruct her to turn her head away from the camera to gaze toward the window light on her
+  right, smiling naturally in profile/three-quarter view.

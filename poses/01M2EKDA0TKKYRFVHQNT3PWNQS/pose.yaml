@@ -1,0 +1,46 @@
+id: 01M2EKDA0TKKYRFVHQNT3PWNQS
+slug: grass-sit-legs-to-side
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dHHx.PofOQa5nlt5s;jb0NV^Vfo^D=WBNFbE9ZbXs;er
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- open_shade
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Is this pose bad or cute? Trust me, it's cute. Hold it.
+  tone: nervous_client
+- text: Kick one boot up and grab it. Very Sound of Music.
+  tone: playful
+- text: Close your eyes, chin up, find the sun on your face. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit directly on the grass, angling her body at a three-quarter view toward
+  camera right.
+- Instruct her to extend her legs forward and slightly to camera left with knees softly bent,
+  resting her boots together on the grass.
+- Have her lean her upper body gently forward with relaxed shoulders, resting both hands lightly
+  on top of her knees in her lap.
+- Direct her to turn her head slightly to her left, looking off-camera toward the right with
+  a soft, relaxed smile.

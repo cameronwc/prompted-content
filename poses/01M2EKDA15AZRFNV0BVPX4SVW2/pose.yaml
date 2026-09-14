@@ -1,0 +1,46 @@
+id: 01M2EKDA15AZRFNV0BVPX4SVW2
+slug: steps-sit-elbows-on-knees-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dSHUtV9FNHoy~Vt7IUoztRNGaeWV%MNGofWBWCofofWV
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+- overcast
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Hold the book like you actually want to read it. Ignore me.
+  tone: nervous_client
+- text: Half turn away from me. Keep your face in profile. Stay.
+  tone: calm
+- text: Laugh at nothing over there. Full commitment.
+  tone: playful
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility:
+- seated_variant
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on the middle step of an outdoor stoop, positioning her body angled
+  roughly 45 degrees toward frame right.
+- Instruct her to keep her knees together with her feet planted slightly staggered on the
+  bottom step.
+- Ask her to lean her upper body forward slightly, resting her forearms across her lap with
+  her hands loosely clasped over her knees.
+- Direct her to turn her head toward frame left, looking down toward the ground with a soft,
+  candid smile.

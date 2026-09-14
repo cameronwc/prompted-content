@@ -1,0 +1,46 @@
+id: 01M2EKDA0VDRV7G2VV7DQVXBTK
+slug: reflection-check-in-glass
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: daJ*ClNds+IV_NX9oes8yDayM|R*o~slRjWBt8RjjYoe
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- beach
+orientation: vertical
+difficulty: advanced
+prompts:
+- text: Give me a fake laugh. See? Now it's a real one. Keep going.
+  tone: nervous_client
+- text: Jump off the step on three. Land like it was easy.
+  tone: playful
+- text: Lean on the railing with both arms and let your shoulders drop.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Place a full-length framed mirror upright on the sand, angled slightly so the ocean horizon
+  is visible in the reflection.
+- Position the subject facing the mirror with their back turned three-quarters away from the
+  camera.
+- Have the subject bend their knees into a playful crouch with feet set wide, leaning forward
+  toward the glass.
+- Instruct the subject to raise their left hand to run their fingers through their hair while
+  letting their right arm hang loosely at their side.
+- Direct the subject to look at their own reflection and laugh genuinely, while framing the
+  shot over their shoulder to capture the joyful reflection in full.

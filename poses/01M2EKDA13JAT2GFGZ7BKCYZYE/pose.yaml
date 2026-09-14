@@ -1,0 +1,42 @@
+id: 01M2EKDA13JAT2GFGZ7BKCYZYE
+slug: holding-a-book-look-away-urban
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: d9Jtk%~p?a-;+@t6D%%L4:M{IBkC~pIq-oNHx]-pRjWV
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: Is this pose bad or cute? Trust me, it's cute. Hold it.
+  tone: nervous_client
+- text: Rest your head on your hand and let your gaze go soft.
+  tone: calm
+- text: Give me 'just landed, no plans' energy.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing upright facing the camera, with feet spaced close together
+  and weight balanced evenly across both legs.
+- Have the subject hold a hardcover book horizontally against her upper waist/lower chest
+  with both hands wrapped gently over the cover and sides.
+- Instruct her to drop her shoulders naturally and turn her head slightly to her left, looking
+  off-camera into the distance with a calm, soft expression.

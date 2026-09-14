@@ -1,0 +1,44 @@
+id: 01M2EKDA1FPAPJXNWDJ9M3MKE2
+slug: doorframe-shoulder-lean-mountain
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dnIhT%00I:%Mx_MwogWXbcRjoeofaxt7V@a#R.s.WBa}
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: It's just me and a very quiet camera. Take a breath.
+  tone: nervous_client
+- text: Lean on the railing with both arms and let your shoulders drop.
+  tone: calm
+- text: Jump off the step on three. Land like it was easy.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing inside an open rustic doorway, leaning her right shoulder
+  and upper back comfortably against the left wooden doorframe.
+- Angle her torso slightly toward the camera while keeping her right arm resting relaxed straight
+  down along the wooden frame, hand hanging loosely against her side.
+- Have her tilt her head slightly toward the doorframe while turning her face toward camera-left.
+- Direct her to look just off-camera to the left with a joyful, candid, open-mouthed smile
+  as if laughing naturally mid-conversation.

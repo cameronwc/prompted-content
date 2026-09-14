@@ -214,6 +214,38 @@ CONCEPTS = {
         c("window-light-dress-portrait"),
         c("last-dance-alone", horizontal=True),
     ],
+    "lifestyle": [
+        c("bench-lean-back-boot-up", seated=True),
+        c("bench-arm-along-backrest", seated=True, horizontal=True),
+        c("mid-stride-walk"),
+        c("one-boot-up-grab", difficulty="moderate"),
+        c("hand-in-hair-look-up"),
+        c("holding-a-book-look-away"),
+        c("coffee-cup-lean"),
+        c("steps-sit-elbows-on-knees", seated=True),
+        c("wall-lean-look-off"),
+        c("over-shoulder-look-back"),
+        c("hands-in-pockets-squint"),
+        c("curb-or-step-sit-legs-out", seated=True),
+        c("tuck-hair-mid-turn"),
+        c("laugh-at-nothing-off-camera"),
+        c("skirt-or-jacket-twirl", difficulty="moderate"),
+        c("stand-and-look-at-the-view"),
+        c("railing-lean-both-arms", horizontal=True),
+        c("doorframe-shoulder-lean"),
+        c("crouch-on-heels-camera-low", seated=True),
+        c("bag-strap-hold-walk"),
+        c("chin-up-eyes-closed-sun"),
+        c("sit-on-bench-back-look-over", seated=True),
+        c("half-turn-walk-away", horizontal=True),
+        c("hand-on-hip-hip-out"),
+        c("sunglasses-half-off"),
+        c("lean-on-bike-or-car"),
+        c("grass-sit-legs-to-side", seated=True),
+        c("reflection-check-in-glass"),
+        c("stretch-arms-overhead", difficulty="moderate"),
+        c("mid-jump-off-step", difficulty="advanced"),
+    ],
 }
 
 # ---------------------------------------------------------------------------
@@ -543,6 +575,60 @@ PROMPTS = {
             "Sway, then dip them slowly. Bring them back up laughing.",
         ],
     },
+    "lifestyle": {
+        "nervous_client": [
+            "Sit here. Take it just like this. That's the whole job.",
+            "You don't have to look at me. Look at the mountains. They're less judgy.",
+            "Is this pose bad or cute? Trust me, it's cute. Hold it.",
+            "Nobody sees these until you say so. You're the editor.",
+            "Walk toward me like you're going to get coffee. That's it, that's the shot.",
+            "Fix your hair if you want. Actually, keep fixing it. That's the frame.",
+            "It's just me and a very quiet camera. Take a breath.",
+            "Pretend I'm your friend who's terrible at photos. Lower the bar.",
+            "Lean on the wall like you're waiting for someone who's late.",
+            "You can blink, you can move, you can laugh at me. All of it works.",
+            "Look at your shoes, then look up on three. No smile required.",
+            "Hold the book like you actually want to read it. Ignore me.",
+            "Give me a fake laugh. See? Now it's a real one. Keep going.",
+            "There's no wrong way to sit on a bench. Prove me right.",
+            "We'll take ten of these and you'll like two. That's normal.",
+            "Tell me about your weekend while I fiddle with settings.",
+        ],
+        "playful": [
+            "Main character energy. The street is your runway.",
+            "Look over your shoulder like I owe you money.",
+            "Twirl, and wherever you land, own it.",
+            "Kick one boot up and grab it. Very Sound of Music.",
+            "Sunglasses halfway off, like you just spotted a celebrity.",
+            "Laugh at nothing over there. Full commitment.",
+            "Squint at the horizon like you're in a perfume ad.",
+            "Walk away from me, then turn back like you forgot to say something.",
+            "Give me 'just landed, no plans' energy.",
+            "Sit on the curb like you're waiting for the bus in a music video.",
+            "Hair flip. Then laugh at the fact that you just did a hair flip.",
+            "Point at something off-frame like it's the best thing you've ever seen.",
+            "Stretch like you just woke up somewhere gorgeous.",
+            "Jump off the step on three. Land like it was easy.",
+            "Coffee up, chin up, tiny smirk. Very morning-influencer.",
+            "Hip out, hand on hip, dare the camera to say something.",
+        ],
+        "calm": [
+            "Lean back, arm along the bench, and just watch the view.",
+            "Tuck your hair behind your ear, slow, like you're thinking.",
+            "Close your eyes, chin up, find the sun on your face. Stop there.",
+            "Slow your walk to half speed and let your eyes wander.",
+            "Hold the book against you and look off down the street.",
+            "Lean on the railing with both arms and let your shoulders drop.",
+            "Sit however you'd sit if I weren't here.",
+            "Look past my shoulder at the hills. Let the smile fade slowly.",
+            "Rest your head on your hand and let your gaze go soft.",
+            "Crouch down, elbows on knees, look straight at me without smiling.",
+            "Hands in pockets, weight on one leg, breathe out.",
+            "Turn your face until you feel the light on your cheek. Hold it.",
+            "Sit in the grass, legs to the side, and look at nothing in particular.",
+            "Half turn away from me. Keep your face in profile. Stay.",
+        ],
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -585,6 +671,11 @@ LOCATION_WEIGHTS = {
         ("field", 26), ("urban", 22), ("home", 18), ("forest", 12),
         ("beach", 10), ("mountain", 8), ("studio", 4),
     ],
+    # Instagram-style solo shoots: streets, hillside overlooks, benches.
+    "lifestyle": [
+        ("urban", 34), ("field", 20), ("mountain", 16), ("beach", 12),
+        ("forest", 8), ("home", 6), ("studio", 4),
+    ],
 }
 
 GEAR_KITS = {
@@ -593,6 +684,7 @@ GEAR_KITS = {
     "family": [([35, 50], "f/4"), ([24, 35], "f/4"), ([50, 85], "f/2.8"), ([35, 70], "f/3.2")],
     "maternity": [([50, 85], "f/2"), ([85, 135], "f/2.8"), ([35, 50], "f/2.8"), ([24, 35], "f/4")],
     "wedding": [([35, 50], "f/2"), ([50, 85], "f/1.8"), ([85, 135], "f/2"), ([24, 70], "f/2.8")],
+    "lifestyle": [([35, 50], "f/2"), ([50, 85], "f/1.8"), ([24, 35], "f/2.8"), ([85, 135], "f/2")],
 }
 
 INDOOR_LOCATIONS = {"studio", "home"}
@@ -659,6 +751,8 @@ def build_pose(rng: Random, category: str, concept: dict, slug: str,
             subject_count, subject_types = 2, ["adult"]
     elif category == "senior":
         subject_count, subject_types = 1, ["teen"]
+    elif category == "lifestyle":
+        subject_count, subject_types = 1, ["adult"]
     elif category == "maternity":
         if partner:
             subject_count, subject_types = 2, ["pregnant", "adult"]
@@ -765,6 +859,7 @@ def deterministic_ulid(rng: Random, index: int) -> str:
 # without deleting or renumbering anything already published.
 APPENDED = {
     "wedding": {"seed": 20260911, "epoch": datetime(2026, 9, 11, tzinfo=timezone.utc)},
+    "lifestyle": {"seed": 20260914, "epoch": datetime(2026, 9, 14, tzinfo=timezone.utc)},
 }
 
 

@@ -1,0 +1,46 @@
+id: 01M2EKDA04T0FR5P4FJK08YPB6
+slug: hand-in-hair-look-up
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOHe,5f8o[oMM+oLWDWC0NRkV_bFE2f5oLj[RkoLoMj?
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- field
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Is this pose bad or cute? Trust me, it's cute. Hold it.
+  tone: nervous_client
+- text: Look over your shoulder like I owe you money.
+  tone: playful
+- text: Sit in the grass, legs to the side, and look at nothing in particular.
+  tone: calm
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility:
+- plus_size_flattering
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject standing in three-quarter profile facing toward the left, taking a
+  light step forward with the left foot planted and the right leg trailing with the knee slightly
+  bent.
+- Have the subject raise their right arm upward to lightly run their fingers through the top
+  of their hair.
+- Instruct the subject to bend their left arm across their midsection, keeping the left hand
+  relaxed near the waist.
+- Direct the subject to tilt their chin up toward the sky, looking upward into the sunlight
+  with a soft, natural smile.

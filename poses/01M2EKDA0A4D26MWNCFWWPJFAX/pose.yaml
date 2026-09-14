@@ -1,0 +1,43 @@
+id: 01M2EKDA0A4D26MWNCFWWPJFAX
+slug: hands-in-pockets-squint
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dCNcm3qs?bD%mks9M{Rk8_~W0KxayD9aR*bcT0bFf6%1
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- soft_low
+location_types:
+- urban
+orientation: vertical
+difficulty: easy
+prompts:
+- text: There's no wrong way to sit on a bench. Prove me right.
+  tone: nervous_client
+- text: Walk away from me, then turn back like you forgot to say something.
+  tone: playful
+- text: Lean on the railing with both arms and let your shoulders drop.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject facing the camera on the sidewalk, grounding her weight on her right
+  foot while bending and playfully kicking or lifting her left heel back at a slight outward
+  angle.
+- Instruct her to slip both hands fully into the pockets of her dress, keeping her elbows
+  relaxed slightly outward.
+- Have her tilt her head gently toward her right shoulder and look directly into the camera
+  with a wide, joyful smile.

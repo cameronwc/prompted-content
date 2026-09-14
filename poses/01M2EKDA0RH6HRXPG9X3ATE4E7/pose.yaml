@@ -1,0 +1,43 @@
+id: 01M2EKDA0RH6HRXPG9X3ATE4E7
+slug: sunglasses-half-off
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: 'dH9?wIWV0f%158WCxZj[NGs:-oNGI;j[s.WVxZayR*s:'
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- night_flash
+location_types:
+- beach
+orientation: vertical
+difficulty: easy
+prompts:
+- text: It's just me and a very quiet camera. Take a breath.
+  tone: nervous_client
+- text: Squint at the horizon like you're in a perfume ad.
+  tone: playful
+- text: Look past my shoulder at the hills. Let the smile fade slowly.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject leaning back slightly against a vertical wooden post on the sand, extending
+  her legs forward with her right leg crossing slightly over the left.
+- Have her raise her right hand to lightly hold the temple of her sunglasses near her right
+  eye.
+- Let her left arm rest naturally against the front of her hip and floral dress.
+- Instruct her to tilt her head slightly down and to her right, looking downward toward the
+  ground with a soft, natural smile.

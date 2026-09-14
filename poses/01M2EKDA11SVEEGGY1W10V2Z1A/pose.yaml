@@ -1,0 +1,44 @@
+id: 01M2EKDA11SVEEGGY1W10V2Z1A
+slug: one-boot-up-grab-beach
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dYG[QJf+xuxa~pofofof%MoLRjR*t7t6RjWBxat6WBay
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- blue
+location_types:
+- beach
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Look at your shoes, then look up on three. No smile required.
+  tone: nervous_client
+- text: Close your eyes, chin up, find the sun on your face. Stop there.
+  tone: calm
+- text: Hair flip. Then laugh at the fact that you just did a hair flip.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: true
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Position the subject in a side-profile to three-quarter view along the water's edge, balancing
+  all her weight onto her back standing leg.
+- Instruct her to lift her front leg forward off the sand with the knee bent, extending her
+  foot outward as if balancing on one foot.
+- Have her lean her upper body forward and reach both hands down toward her raised ankle to
+  playfully hold or adjust her boot.
+- Direct her to turn her head slightly toward the camera's direction with a joyful, candid
+  laugh while maintaining her balance.

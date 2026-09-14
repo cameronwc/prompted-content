@@ -1,0 +1,47 @@
+id: 01M2EKDA1RHZK6D2W50J2D9B5Z
+slug: grass-sit-legs-to-side-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dOF5vm%KR#NGE1xZR.WC0LIWj^oft8R*jER%WXs:j[WB
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- harsh_overhead
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody sees these until you say so. You're the editor.
+  tone: nervous_client
+- text: Lean back, arm along the bench, and just watch the view.
+  tone: calm
+- text: Squint at the horizon like you're in a perfume ad.
+  tone: playful
+gear:
+  focal_mm:
+  - 35
+  - 50
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- seated_variant
+- wheelchair
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject sit on the ground angled at a three-quarter turn to the camera's left,
+  tucking their left leg horizontally across the grass and bending their right knee upward
+  with the right foot planted flat.
+- Instruct the subject to lean their upper body slightly backward, extending their left arm
+  down and placing their left hand flat on the ground behind their hip for support.
+- Place the subject's right forearm across the top of their raised right knee, letting their
+  right hand hang naturally and loosely over the front.
+- Direct the subject to turn their head further toward the left, looking off-camera with a
+  relaxed, candid smile.

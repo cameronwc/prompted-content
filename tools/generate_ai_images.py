@@ -42,6 +42,7 @@ import urllib.request
 import blurhash
 import yaml
 from PIL import Image
+from ulid import ULID
 
 from common import DIST_DIR, POSES_DIR, load_pose
 
@@ -130,6 +131,16 @@ def build_prompt(pose: dict) -> str:
             who = "a newly married couple, two adults, in a wedding dress and a suit"
     elif category == "senior":
         who = "one teenager, a high-school senior portrait"
+    elif category == "lifestyle":
+        # No gender field exists in the schema. The seed emits its 30 concepts
+        # twice in append order (index = ULID ms - a minute-aligned epoch), so
+        # flip on both the index and the repeat: every concept ships with one
+        # render of a woman and one of a man.
+        idx = int.from_bytes(ULID.from_str(pose["id"]).bytes[:6], "big") % 60
+        woman = (idx + idx // 30) % 2 == 0
+        who = ("one young woman in a casual sundress or skirt and boots, Instagram lifestyle portrait"
+               if woman else
+               "one young man in casual streetwear, a tee and shorts or jeans, Instagram lifestyle portrait")
     elif category == "maternity":
         who = ("an expectant mother with her partner" if n == 2
                else "an expectant mother")

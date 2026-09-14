@@ -13,3 +13,5 @@ entries:
     display: Maternity
   - id: wedding
     display: Wedding
+  - id: lifestyle
+    display: Lifestyle

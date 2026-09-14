@@ -1,0 +1,46 @@
+id: 01M2EKDA0SJFRSGBW6YEWPCXKX
+slug: lean-on-bike-or-car
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dPKU45fP^#NHXVWXRkt60jNHIWt6NzxZj?M|WGoexaju
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- mountain
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: Nobody sees these until you say so. You're the editor.
+  tone: nervous_client
+- text: Hip out, hand on hip, dare the camera to say something.
+  tone: playful
+- text: Sit however you'd sit if I weren't here.
+  tone: calm
+gear:
+  focal_mm:
+  - 24
+  - 35
+  aperture: f/2.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Place the bicycle in profile across the frame, facing toward camera-right, on open grassy
+  terrain.
+- Have the subject stand on the camera-facing side of the bike, leaning their lower back and
+  hips comfortably against the top tube and saddle.
+- Instruct the subject to rest their right forearm and elbow across the bicycle seat, letting
+  their right hand hang naturally over their upper thigh, while extending their left arm forward
+  to grip the handlebar.
+- Keep their feet close together angled slightly toward camera-right, and have them turn their
+  torso and head directly toward the camera with a relaxed, natural expression.

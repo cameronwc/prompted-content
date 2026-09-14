@@ -1,0 +1,44 @@
+id: 01M2EKDA1SKZ9481ZZ1VYTDCE1
+slug: reflection-check-in-glass-field
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dNIhvIjukQof?Kt6Rkf8N%RkRRbF.9j?oJWC^,ahjZay
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- mid
+- overcast
+location_types:
+- field
+orientation: vertical
+difficulty: easy
+prompts:
+- text: You don't have to look at me. Look at the mountains. They're less judgy.
+  tone: nervous_client
+- text: Hair flip. Then laugh at the fact that you just did a hair flip.
+  tone: playful
+- text: Close your eyes, chin up, find the sun on your face. Stop there.
+  tone: calm
+gear:
+  focal_mm:
+  - 85
+  - 135
+  aperture: f/2
+  needs_reflector: false
+accessibility:
+- limited_mobility
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand in full profile facing towards camera-right with a relaxed, upright
+  posture.
+- Instruct her to hold an ornate hand mirror in her left hand, positioning it upright in front
+  of her at eye level.
+- Direct her to gaze into the mirror while raising her right hand to lightly touch and tuck
+  her hair near the crown of her head.

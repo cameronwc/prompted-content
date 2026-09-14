@@ -1,0 +1,42 @@
+id: 01M2EKDA1TE3VCJDGAW5JTBS3E
+slug: stretch-arms-overhead-forest
+image:
+  thumb: thumb_ai.jpg
+  detail: detail_ai.jpg
+  blurhash: dAE.:x9G4.-p?Z0gNI?G^PxoNM%1_Ls*RPR:oiIVxZt7
+placeholder: false
+categories:
+- lifestyle
+subject_count: 1
+subject_types:
+- adult
+light_conditions:
+- golden
+location_types:
+- forest
+orientation: vertical
+difficulty: moderate
+prompts:
+- text: There's no wrong way to sit on a bench. Prove me right.
+  tone: nervous_client
+- text: Slow your walk to half speed and let your eyes wander.
+  tone: calm
+- text: Main character energy. The street is your runway.
+  tone: playful
+gear:
+  focal_mm:
+  - 50
+  - 85
+  aperture: f/1.8
+  needs_reflector: false
+accessibility: []
+version: 2
+status: active
+image_source: ai
+instructions:
+- Have the subject stand squarely facing the camera in the center of the path, with feet parallel
+  and set about shoulder-width apart to evenly distribute weight.
+- Instruct the subject to raise both arms straight overhead with softly relaxed elbows, curving
+  his hands and fingers gently inward toward each other above his head.
+- Ask the subject to turn his head slightly to his left and smile naturally, directing his
+  gaze off-camera to create a candid, joyful expression.
