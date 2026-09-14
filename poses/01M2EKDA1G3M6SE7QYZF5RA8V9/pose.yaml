@@ -1,9 +1,9 @@
 id: 01M2EKDA1G3M6SE7QYZF5RA8V9
-slug: crouch-on-heels-camera-low-home
+slug: crouch-on-heels-camera-low-urban
 image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
-  blurhash: dFAv?~xt0KRPW-ayxat74oRk%Mt6RPjZkCR+T0xar=Io
+  blurhash: dVMjXET1~VR..8EMt7xu?bxtE2xa?b%2s,a}kDt8M{Rk
 placeholder: false
 categories:
 - lifestyle
@@ -11,19 +11,18 @@ subject_count: 1
 subject_types:
 - adult
 light_conditions:
-- night_flash
-- indoor_window
+- soft_low
 location_types:
-- home
+- urban
 orientation: vertical
 difficulty: moderate
 prompts:
-- text: Lean on the wall like you're waiting for someone who's late.
+- text: Look at your shoes, then look up on three. No smile required.
   tone: nervous_client
-- text: Give me 'just landed, no plans' energy.
-  tone: playful
-- text: Turn your face until you feel the light on your cheek. Hold it.
+- text: Crouch down, elbows on knees, look straight at me without smiling.
   tone: calm
+- text: Main character energy. The street is your runway.
+  tone: playful
 gear:
   focal_mm:
   - 50
@@ -32,15 +31,16 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active
 image_source: ai
 instructions:
-- Position the subject standing centrally in the living room, facing forward toward the camera.
-- Instruct the subject to jump or hover dynamically into a deep crouch in mid-air, bending
-  both knees deeply outward to the sides while keeping the feet gathered closely beneath the
-  hips.
-- Have the subject lean the torso slightly forward, letting the right arm hang loosely down
-  by their side and keeping the left arm relaxed slightly behind the body.
-- Direct the subject to turn their head directly toward the camera with a cheerful, relaxed
-  smile.
+- Have the subject squat into an asymmetrical low crouch on the sidewalk, placing their left
+  foot flat on the ground with the left knee raised forward, while tucking their right leg
+  beneath them in a deep squat.
+- Instruct the subject to lean the torso forward, resting their left forearm across the top
+  of their raised left knee with the wrist draped loosely downward.
+- Direct the subject to extend their right arm down toward the pavement, resting only the
+  fingertips on the ground beside their hip for balance.
+- Have the subject turn their head slightly toward the right of the frame, looking past the
+  camera with a relaxed, natural expression.

@@ -1,9 +1,9 @@
 id: 01M2EKDA1CT6225XNACTMC3VMB
-slug: skirt-or-jacket-twirl-urban
+slug: jacket-swing-over-shoulder-walk
 image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
-  blurhash: dLHBPP5Y%MI[~VNfNebcItxuIqt7R.W?t7ogEMt7t7Wr
+  blurhash: dHIEqd^%~V%Lrq?Gs:xtM{RjM{%2x[IVoIofNGM{RkbH
 placeholder: false
 categories:
 - lifestyle
@@ -11,18 +11,18 @@ subject_count: 1
 subject_types:
 - adult
 light_conditions:
-- blue
+- golden
 location_types:
 - urban
 orientation: vertical
 difficulty: moderate
 prompts:
-- text: Sit here. Take it just like this. That's the whole job.
+- text: Walk toward me like you're going to get coffee. That's it, that's the shot.
   tone: nervous_client
-- text: Rest your head on your hand and let your gaze go soft.
-  tone: calm
-- text: Look over your shoulder like I owe you money.
+- text: Walk away from me, then turn back like you forgot to say something.
   tone: playful
+- text: Slow your walk to half speed and let your eyes wander.
+  tone: calm
 gear:
   focal_mm:
   - 24
@@ -30,13 +30,14 @@ gear:
   aperture: f/2.8
   needs_reflector: false
 accessibility: []
-version: 2
+version: 3
 status: active
 image_source: ai
 instructions:
-- Position the subject standing upright facing toward the camera with feet hip-width apart
-  and knees relaxed.
-- Have the subject hold a dark jacket at waist level with both hands and gently swing or flick
-  it horizontally across the front of the body so the sleeves flare outward in mid-motion.
-- Direct the subject to turn their head slightly to their right with a natural, candid smile,
-  looking off-camera.
+- Have the subject walk slowly and naturally forward along the sidewalk directly toward the
+  camera, capturing him mid-stride with his forward foot planted.
+- Instruct him to sling a jacket over his left shoulder, holding it lightly in place by grasping
+  the collar near the shoulder with his left hand while letting his right arm swing loosely
+  at his side.
+- Direct him to turn his head slightly to his left, looking off-camera into the distance with
+  a relaxed, candid smile.

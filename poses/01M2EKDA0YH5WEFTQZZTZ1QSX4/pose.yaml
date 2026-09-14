@@ -1,9 +1,9 @@
 id: 01M2EKDA0YH5WEFTQZZTZ1QSX4
-slug: bench-lean-back-boot-up-beach
+slug: bench-lean-back-ankle-on-knee
 image:
   thumb: thumb_ai.jpg
   detail: detail_ai.jpg
-  blurhash: 'dhLW%}%gs,V@~qtRR*ay%NozRlofXTj[slbHSiV@aes:'
+  blurhash: d%LNlKaxoyof~qf7WBoftSWCoLjtf,WBoeRkt7s:R*jY
 placeholder: false
 categories:
 - lifestyle
@@ -17,12 +17,12 @@ location_types:
 orientation: vertical
 difficulty: easy
 prompts:
-- text: Lean on the wall like you're waiting for someone who's late.
+- text: Sit here. Take it just like this. That's the whole job.
   tone: nervous_client
-- text: Main character energy. The street is your runway.
-  tone: playful
-- text: Sit however you'd sit if I weren't here.
+- text: Lean back, arm along the bench, and just watch the view.
   tone: calm
+- text: Give me 'just landed, no plans' energy.
+  tone: playful
 gear:
   focal_mm:
   - 85
@@ -31,14 +31,15 @@ gear:
   needs_reflector: true
 accessibility:
 - seated_variant
-version: 2
+version: 3
 status: active
 image_source: ai
 instructions:
-- Have the subject sit on the wooden bench, leaning his upper body back casually while angled
-  slightly toward the camera.
-- Instruct him to raise his right leg and extend it straight out to rest his boot atop the
-  bench's backrest, while keeping his left foot planted flat on the sand below.
-- Direct him to bend his right arm and place his right hand behind the nape of his neck with
-  the elbow flared out to the side, while resting his left forearm relaxed across his lap.
-- Have him face the camera directly with a natural, open smile.
+- Position the subject seated diagonally on a wooden bench, with their torso turned slightly
+  toward the camera.
+- Have them lower their right leg over the front edge of the bench toward the ground, while
+  pulling their left foot up onto the bench seat with the knee bent pointing upward.
+- Instruct the subject to rest their right forearm and hand naturally across their right upper
+  thigh, and let their left hand rest relaxed near their lap/inner waist.
+- Direct them to lean slightly back against the bench support, turn their face directly toward
+  the camera, and offer a relaxed, warm smile.
